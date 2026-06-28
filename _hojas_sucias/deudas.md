@@ -1,0 +1,1 @@
+falta fecha y style box en jindama de plomo
