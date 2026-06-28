@@ -1,0 +1,103 @@
+# clasificacion_proyectos
+
+```yaml
+
+## cuentos_metalicos
+con_el_puno_arriba
+el_gato_de_carabas
+el_guitarrista_de_hamelin
+el_patito_metalero
+el_ultimo_asado
+meniquito_heroe_diminuto
+
+## hardcore_para_el_fin_del_mundo
+aqui_se_vota_y_no_cambia_nada
+bienvenido_al_lado_oscuro
+como_defenderte_contra_un_cuchillo
+como_entablar_una_conversacion_con_ella
+energia_infinita_con_un_ambientador_del_mercadona_y_una_papa
+has_estado_haciendo_burpees_mal
+houston_tenemos_un_problema
+no_me_creyeron
+papas_en_ajopollo
+por_que_rechace_un_trabajo
+quieres_dinero_hoy
+quieres_ser_sigma
+lenguaje_corporal_tips_que_no_conocias
+
+## metal_punk_japones
+exploding_ice_cream
+banana_chainsaw_massacre
+god_of_the_cave
+dance_with_bones
+misunderstood_angel
+kike
+kurabikura
+megane_punk
+paul_mcchatney
+
+## villa_ancicos
+la_marcha_de_los_rebeldes
+el_rio_de_los_dioses
+el_tambor_de_hierro
+mi_burrito_metalero
+
+## inspiración_real
+bata_blanca_y_pasion
+carmen_nina_de_sol
+jimmy_al_rescate
+nina_de_salitre
+lega_la_uve
+nina_sonrisa
+oscar_lo_arregla
+pablik
+parece_de_murcia
+sandra_empieza_con_zeta
+sebas_el_grande
+
+## inyeccion_metalica_para_viejas_glorias
+el_legionario_y_la_morita_cover
+hola_mi_amor_cover
+el_morito_juan_cover
+la_paya_cover
+la_princesa_de_ceilan_cover
+
+## el_beat_me_teme
+la_ia_canta_pero_yo_disparo
+tranqui_mi_nino
+
+## hardcore_para_el_principio_del_apocalipsis
+el_cartero_que_no_llega
+el_pacto_del_pantano
+frutilla_lunar
+geim_over
+in_nomine_litio
+jindama_de_plomo
+el_mal_del_carpintero
+la_cuna_y_el_cano
+la_virgen_tapiada
+rito_da_fraga
+sangre_de_litio
+
+## de_vuelta_en_casa
+la_tregua_que_no_firmamos
+la_via_del_oxido
+miopia_balistica
+poyekhali_el_guaguanco_de_la_vostok
+
+## futuros_grandes_exitos_de_la_musica_clasica
+canontek_en_menor
+60_granos
+ducha_fria
+el_coplista_de_la_luna_llena
+
+## Tematicas
+a_traves_del_rugido
+el_camino_del_justo
+la_letra_pequena
+la_dama_de_la_niebla
+mehrunes_dagon
+
+## big_band_cale
+el_jambo_tieso
+monumento_al_fracaso
