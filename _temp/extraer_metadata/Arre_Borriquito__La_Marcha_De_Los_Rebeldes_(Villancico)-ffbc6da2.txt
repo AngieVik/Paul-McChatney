@@ -1,0 +1,307 @@
+Metadata for: Arre_Borriquito__La_Marcha_De_Los_Rebeldes_(Villancico)-ffbc6da2
+Generated: 2026-06-26T20:05:53.085Z
+
+--- Track Information ---
+Title: Arre Borriquito: La Marcha De Los Rebeldes (Villancico)
+Artist: AngieSoundlab
+
+--- Musical Information ---
+
+--- Creation Details ---
+Prompt: Spanish Folk Metal, Male Vocals (Melodic Power & Gritty), Fast & Festive.
+Track ID: ffbc6da2-5f6d-4b09-afb8-8e573a859783
+
+--- Lyrics ---
+[Essence: Rebellion, Epic Journey, Speed, Legend]
+[Production: Spanish Folk Metal, High Speed Tempo, Celtic Violin Lead, Orchestral Stabs, Double Bass Gallop]
+
+[Intro]
+[Sound Effect: Thunder & Horse Whinny]
+[Violin Solo: Fast Neoclassical Folk Style]
+[Rhythm: Galloping Metal Beat]
+[Tempo: Fast 4/4]
+
+[Verse 1]
+[Vocals: Narrative & Deep][Bass: Driving]
+Tengo puesto un escenario en el rincón de mi casa,
+donde el eco de la historia nunca muere, nunca pasa.
+Con guardianes del acero y un palacio en la montaña,
+desafiando a las tormentas con su fuerza y con su maña.
+
+[Pre-Chorus 1]
+[Dynamics: Build-up][Guitar: Palm Mute]
+Allí vive el Rey Herodes, con sus leyes de silencio,
+vigilando con soldados que no suene nuestro incienso.
+Pero todos esperamos, con el alma en las manos,
+que aparezcan en el fuego los tres Reyes soberanos.
+
+[Chorus]
+[Dynamics: Explosive][Choir: Anthem Style][Tempo: Speed Metal]
+¡Arre borriquito! ¡Arre, burro, arre!
+¡Rompe las barreras, que llegamos tarde!
+¡Arre borriquito! ¡Vamos a Belén!
+¡Que mañana es fiesta y al otro también!
+(¡Y al otro tambiéeeeen!)
+
+[Hook]
+[Violin & Guitar Unison]
+[Crowd: Hey! Hey!]
+
+[Verse 2]
+[Vocals: Soaring][Atmosphere: Mystical]
+En el cielo hay una estrella, un foco de alta tensión,
+que a los Magos va guiando con su eterna distorsión.
+Hacia el templo del destino, donde nace la verdad,
+para ver al Dios del Trueno en su humilde majestad.
+
+[Pre-Chorus 2]
+[Dynamics: Crescendo][Strings: Legato]
+Cuando pasan los monarcas, sale la gente al camino,
+y se unen a la marcha desafiando a su destino.
+Todos gritan, todos saltan, para ver al tierno niño,
+el profeta del sonido que ha marcado nuestro sino.
+
+[Chorus]
+[Dynamics: Maximum Power][Full Band]
+¡Arre borriquito! ¡Arre, burro, arre!
+¡Rompe las barreras, que llegamos tarde!
+¡Arre borriquito! ¡Vamos a Belén!
+¡Que mañana es fiesta y al otro también!
+
+[Bridge]
+[Tempo: Half-Time Heavy][Atmosphere: Emotional]
+[Instrumentation: Acoustic Guitar & Flute]
+Hacia el portal de la gloria va subiendo un pastorcito,
+con la garganta de acero y un lamento infinito.
+(¡Canta, pastor!)
+Ha nacido el Heavy Metal en un portal miserable,
+para enseñar a los hombres...
+[Dynamics: Sudden Stop]
+¡El poder de su linaje!
+
+[Solo]
+[Instrumental Duel]
+[Guitar Solo: Melodic Shredding]
+[Violin Solo: Celtic Jig Fury]
+[Drum Fill: Blast Beat]
+
+[Chorus]
+[Dynamics: Maximum Intensity][Choir: Viking Shout]
+¡Arre borriquito! ¡Arre, burro, arre!
+¡Rompe las barreras, que llegamos tarde!
+¡Arre borriquito! ¡Vamos a Belén!
+¡Que mañana es fiesta y al otro también!
+
+[Outro]
+[Tempo: Accelerando][Atmosphere: Chaos]
+¡Anda más deprisa! (¡Corre!)
+¡Rompe el pavimento! (¡Vuela!)
+¡Que la fiesta es nuestra!
+[Scream: Long High Note]
+¡Y al otro tambiéeeeen!
+[Final Power Chord]
+[Violin Flourish]
+[Feedback]
+[End]
+
+Cover Art URL: https://cdn2.suno.ai/image_ffbc6da2-5f6d-4b09-afb8-8e573a859783.jpeg
+
+--- Respuesta Bruta de la API ---
+{
+  "action_config": {
+    "actions": [
+      {
+        "action_type": "add_to_playlist",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "like_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "share_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "dislike_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "report_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "remove_from_playlist",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "delete_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "edit_song_details",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "create_hook",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "download_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "download_as_video",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "unpublish_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "remaster",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "allow_comments_toggle_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "allow_remix",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "pin_to_profile",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "remix_extend",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "remix_cover",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "remix_reuse_style",
+        "disabled": false,
+        "visible": true
+      }
+    ]
+  },
+  "allow_comments": true,
+  "audio_url": "https://cdn1.suno.ai/ffbc6da2-5f6d-4b09-afb8-8e573a859783.mp3",
+  "avatar_image_url": "https://cdn1.suno.ai/8b5db1b2.webp",
+  "batch_index": 0,
+  "comment_count": 0,
+  "created_at": "2025-12-23T03:31:00.512Z",
+  "display_name": "AngieSoundlab",
+  "entity_type": "song_schema",
+  "explicit": false,
+  "flag_count": 0,
+  "handle": "angiesoundlab",
+  "has_hook": false,
+  "id": "ffbc6da2-5f6d-4b09-afb8-8e573a859783",
+  "image_large_url": "https://cdn2.suno.ai/image_large_ffbc6da2-5f6d-4b09-afb8-8e573a859783.jpeg",
+  "image_url": "https://cdn2.suno.ai/image_ffbc6da2-5f6d-4b09-afb8-8e573a859783.jpeg",
+  "is_contest_clip": false,
+  "is_following_creator": false,
+  "is_handle_updated": true,
+  "is_hidden": false,
+  "is_liked": true,
+  "is_persona_root": false,
+  "is_public": true,
+  "is_trashed": false,
+  "is_verified": false,
+  "major_model_version": "v4.5+",
+  "media_urls": [
+    {
+      "content_type": "m4a-opus",
+      "delivery": "progressive",
+      "encoding": "1.0.0",
+      "url": "https://d2lwuy8qc234o3.cloudfront.net/1/clip/ffbc6da2-5f6d-4b09-afb8-8e573a859783.m4a"
+    },
+    {
+      "content_type": "mp3",
+      "delivery": "progressive",
+      "url": "https://cdn1.suno.ai/ffbc6da2-5f6d-4b09-afb8-8e573a859783.mp3"
+    }
+  ],
+  "metadata": {
+    "can_remix": true,
+    "duration": 279.36,
+    "has_stem": false,
+    "is_mumble": false,
+    "is_remix": false,
+    "make_instrumental": false,
+    "model_badges": {
+      "songrow": {
+        "dark": {
+          "background_color": "00000000",
+          "border_color": "FFFFFF1A",
+          "text_color": "A3A3A3"
+        },
+        "display_name": "v4.5+",
+        "light": {
+          "background_color": "00000000",
+          "border_color": "0000001A",
+          "text_color": "7D7C83"
+        }
+      }
+    },
+    "priority": 10,
+    "prompt": "[Essence: Rebellion, Epic Journey, Speed, Legend]\n[Production: Spanish Folk Metal, High Speed Tempo, Celtic Violin Lead, Orchestral Stabs, Double Bass Gallop]\n\n[Intro]\n[Sound Effect: Thunder & Horse Whinny]\n[Violin Solo: Fast Neoclassical Folk Style]\n[Rhythm: Galloping Metal Beat]\n[Tempo: Fast 4/4]\n\n[Verse 1]\n[Vocals: Narrative & Deep][Bass: Driving]\nTengo puesto un escenario en el rincón de mi casa,\ndonde el eco de la historia nunca muere, nunca pasa.\nCon guardianes del acero y un palacio en la montaña,\ndesafiando a las tormentas con su fuerza y con su maña.\n\n[Pre-Chorus 1]\n[Dynamics: Build-up][Guitar: Palm Mute]\nAllí vive el Rey Herodes, con sus leyes de silencio,\nvigilando con soldados que no suene nuestro incienso.\nPero todos esperamos, con el alma en las manos,\nque aparezcan en el fuego los tres Reyes soberanos.\n\n[Chorus]\n[Dynamics: Explosive][Choir: Anthem Style][Tempo: Speed Metal]\n¡Arre borriquito! ¡Arre, burro, arre!\n¡Rompe las barreras, que llegamos tarde!\n¡Arre borriquito! ¡Vamos a Belén!\n¡Que mañana es fiesta y al otro también!\n(¡Y al otro tambiéeeeen!)\n\n[Hook]\n[Violin & Guitar Unison]\n[Crowd: Hey! Hey!]\n\n[Verse 2]\n[Vocals: Soaring][Atmosphere: Mystical]\nEn el cielo hay una estrella, un foco de alta tensión,\nque a los Magos va guiando con su eterna distorsión.\nHacia el templo del destino, donde nace la verdad,\npara ver al Dios del Trueno en su humilde majestad.\n\n[Pre-Chorus 2]\n[Dynamics: Crescendo][Strings: Legato]\nCuando pasan los monarcas, sale la gente al camino,\ny se unen a la marcha desafiando a su destino.\nTodos gritan, todos saltan, para ver al tierno niño,\nel profeta del sonido que ha marcado nuestro sino.\n\n[Chorus]\n[Dynamics: Maximum Power][Full Band]\n¡Arre borriquito! ¡Arre, burro, arre!\n¡Rompe las barreras, que llegamos tarde!\n¡Arre borriquito! ¡Vamos a Belén!\n¡Que mañana es fiesta y al otro también!\n\n[Bridge]\n[Tempo: Half-Time Heavy][Atmosphere: Emotional]\n[Instrumentation: Acoustic Guitar & Flute]\nHacia el portal de la gloria va subiendo un pastorcito,\ncon la garganta de acero y un lamento infinito.\n(¡Canta, pastor!)\nHa nacido el Heavy Metal en un portal miserable,\npara enseñar a los hombres...\n[Dynamics: Sudden Stop]\n¡El poder de su linaje!\n\n[Solo]\n[Instrumental Duel]\n[Guitar Solo: Melodic Shredding]\n[Violin Solo: Celtic Jig Fury]\n[Drum Fill: Blast Beat]\n\n[Chorus]\n[Dynamics: Maximum Intensity][Choir: Viking Shout]\n¡Arre borriquito! ¡Arre, burro, arre!\n¡Rompe las barreras, que llegamos tarde!\n¡Arre borriquito! ¡Vamos a Belén!\n¡Que mañana es fiesta y al otro también!\n\n[Outro]\n[Tempo: Accelerando][Atmosphere: Chaos]\n¡Anda más deprisa! (¡Corre!)\n¡Rompe el pavimento! (¡Vuela!)\n¡Que la fiesta es nuestra!\n[Scream: Long High Note]\n¡Y al otro tambiéeeeen!\n[Final Power Chord]\n[Violin Flourish]\n[Feedback]\n[End]",
+    "refund_credits": false,
+    "stream": true,
+    "tags": "Spanish Folk Metal, Male Vocals (Melodic Power & Gritty), Fast & Festive.",
+    "type": "gen",
+    "uses_latest_model": false,
+    "video_is_stale": false
+  },
+  "model_name": "chirp-bluejay",
+  "ownership": {
+    "ownership_reason": "subscribed"
+  },
+  "play_count": 6,
+  "project": {
+    "description": "1-Temazos",
+    "id": "34d638ba-5606-4a9f-ad83-cfb2d9f7d7b8",
+    "is_public": false,
+    "is_trashed": false,
+    "name": "1-Temazos"
+  },
+  "reaction": {
+    "clip": "ffbc6da2-5f6d-4b09-afb8-8e573a859783",
+    "flagged": false,
+    "play_count": 6,
+    "reaction_type": "L",
+    "skip_count": 0,
+    "updated_at": "2026-03-20T05:21:04.580Z"
+  },
+  "status": "complete",
+  "title": "Arre Borriquito: La Marcha De Los Rebeldes (Villancico)",
+  "upvote_count": 1,
+  "user_id": "6755b056-24ad-46c6-904c-8687163942ad",
+  "video_url": "https://cdn1.suno.ai/ffbc6da2-5f6d-4b09-afb8-8e573a859783.mp4",
+  "workspaceId": "34d638ba-5606-4a9f-ad83-cfb2d9f7d7b8",
+  "workspaceName": "1-Temazos",
+  "_cacheTimestamp": 1782504031178
+}

@@ -48,7 +48,7 @@ Todos los días.
 Para siempre.
 Y con una sonrisa.
 
-[Hook / Drop][Spanish Male Voice][Distorted Vox, Siren Alert, Rocket Sub FX]
+[Hook \ Drop][Spanish Male Voice][Distorted Vox, Siren Alert, Rocket Sub FX]
 ¡RECHACÉ A ELON!
 ¡NO SOY TU BOT!
 ¡NO ME CONECTO!

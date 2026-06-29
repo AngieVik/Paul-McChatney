@@ -50,14 +50,14 @@ me venga pronto a recogééé
 [A cappella Cante Jondo: authentic melismatic wail, pure flamenco agony, broken voice]
 AaAaAaaiiiIiiaiiii ay ay ay aaAAAaaaiiiiiYyYyaaaay
 Ay ai ai ai aaaaaAAAaaIIiiaaaa iiiiiii miiiii deeeooo
-La uñaaaaa.... me he partíiiioooOoo la uuUuñaaAa
+La uñaaaaa..\.. me he partíiiioooOoo la uuUuñaaAa
 AiiiAy con la pata... Aide la me... ai de lA Me... ai de la meeesAaaa ayaYaYiAiiiaaaa
 Ma tasibelaoOo el deOooOOoo ai ai aaaaaaaaAaa
 
 [Fermata]
 [Sudden Silence]
 
-[CHANGE: sudden genre shift to Industrial Acid Hardtek, 160 BPM, straight 4/4]
+[CHANGE: sudden genre shift to Industrial Acid Hardtek, 160 BPM, straight 4\4]
 [Massive Bass Drop: TB-303 synth squelch, distorted warehouse kick]
 
 [Chorus: explosive energy, loud, borderline shouted, aggressive rhythm]

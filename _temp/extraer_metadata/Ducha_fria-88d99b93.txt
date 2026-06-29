@@ -1,0 +1,302 @@
+Metadata for: Ducha_fria-88d99b93
+Generated: 2026-06-26T20:05:53.084Z
+
+--- Track Information ---
+Title: Ducha fria
+Artist: AngieSoundlab
+
+--- Musical Information ---
+
+--- Creation Details ---
+Prompt: SPANISH FRENCHCORE OPERA, Orchestral Hybrid, Solo Violin, 200 BPM, distorted bounce kicks, aggressive synth, soaring coloratura soprano lead
+Track ID: 88d99b93-6eaa-4cf2-9195-a227e0f6ca18
+
+--- Lyrics ---
+[MOOD: Abyssal Freeze, Manic, Theatrical Tension]
+[PRODUCTION: Clinical separation, Immersive Panning, 00s Brickwall Limiter Master Pump]
+
+[Intro, elegant, sweeping strings, solo violin, adagio]
+[Vocal Identity: Angelic Legato Vibrato Soaring Operatic Soprano, flawless legato, dramatic]
+El templo de vapor aguarda en majestad
+Despojo mis ropajes con solemne lentitud
+Giro el bronce sagrado buscando su piedad
+¡Oh, cálidas corrientes de pura beatitud!
+(vibrato suave, messa di voce) ah... ah... aaaaaah...
+
+[Verse, orchestral only, dissonant strings fading]
+El agua besa el alma, un manto celestial...
+Mas gime la caldera en su lecho de metal
+Se apaga el fuego eterno...
+La escarcha... va a asomar...
+
+[Soprano and solo violin dramatic duet, legato high note, extreme operatic vibrato, fortissimo]
+(solo violin)
+Ah... ah... aa---AA---aah... Ahhh Ooo-ooh Uuu---uuh Aaaaah...
+(solo violín)
+Ah... ah... aa---AA---aah... Ahhh Ooo-ooh Uuu---uuh Aaaaah...
+
+[Extended Tension: Soprano and solo violin dramatic duet, legato high note, sustain, extreme operatic vibrato]
+Ahhhhhhhhhhhhhhhhhhhhhhh...
+(solo violín tremolo)
+Ahhhhhhhhhhhhhhhhhhhhhhh...
+¡Fríaaaaaaaaaaaaaaa!
+Ooooh... Uuuuuh... Aaaaah...
+
+[Chorus, Massive Bass Drop, 200BPM Frenchcore kick drum, Aggressive Maximum Peak Impact, manic energy, maximum stereo width]
+¡El agua me raja la pieeeel!
+¡Cuchillas de escarcha clavadas en mí!
+¡Bautismo de hielo, tortura cruel!
+¡Maldita caldera te juro la muerte!
+¡Mi sangre se hiela me arranca el sentir!
+
+[Bridge, distorted synth, double time feel]
+[overlapping]
+[Soprano] (staccato highs) ¡Congelada!
+[Choir] (¡Ah!)
+[Soprano] (staccato highs) ¡Desquiciada!
+[Choir] (¡Ah!)
+[multiple voice chorus satb] ¡El pulso colapsa mi escarcha sagrada!
+
+[Chorus, anthemic peak, borderline shouted]
+[Coloratura soprano run]
+(vibrato histérico) ¡Ah! ¡Ah! ¡AAAAAAH!
+¡Qué fríiiiiia!
+¡El agua me raja la pieeeel!
+¡Maldito invierno de puro metal!
+
+[Outro, decrescendo, fading kick]
+[Fade Out Instruments]
+[Acoustic Room Decay]
+(vibrato susurrado, tiritando) ahhhhh...
+Mármol frío...
+[Unexpected Final Snare Hit]
+[End]
+
+Cover Art URL: https://cdn2.suno.ai/video_gen_96189de2-5f39-4767-9dd4-406183064da6_video_upload_96189de2-5f39-4767-9dd4-406183064da6_cover_snapshot_0s_1780452031_image.jpeg
+
+--- Respuesta Bruta de la API ---
+{
+  "action_config": {
+    "actions": [
+      {
+        "action_type": "add_to_playlist",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "like_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "share_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "dislike_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "report_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "remove_from_playlist",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "delete_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "edit_song_details",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "create_hook",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "download_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "download_as_video",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "unpublish_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "remaster",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "allow_comments_toggle_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "allow_remix",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "pin_to_profile",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "show_video_cover_in_hooks_feed",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "remix_extend",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "remix_cover",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "remix_reuse_style",
+        "disabled": false,
+        "visible": true
+      }
+    ]
+  },
+  "allow_comments": true,
+  "audio_url": "https://cdn1.suno.ai/88d99b93-6eaa-4cf2-9195-a227e0f6ca18.mp3",
+  "avatar_image_url": "https://cdn1.suno.ai/8b5db1b2.webp",
+  "batch_index": 0,
+  "comment_count": 0,
+  "created_at": "2026-06-02T16:41:30.502Z",
+  "display_name": "AngieSoundlab",
+  "display_tags": "frenchcore, operatic, electro-orchestral",
+  "entity_type": "song_schema",
+  "explicit": true,
+  "flag_count": 0,
+  "handle": "angiesoundlab",
+  "has_hook": false,
+  "id": "88d99b93-6eaa-4cf2-9195-a227e0f6ca18",
+  "image_large_url": "https://cdn2.suno.ai/video_gen_96189de2-5f39-4767-9dd4-406183064da6_video_upload_96189de2-5f39-4767-9dd4-406183064da6_cover_snapshot_0s_1780452031_image.jpeg",
+  "image_url": "https://cdn2.suno.ai/video_gen_96189de2-5f39-4767-9dd4-406183064da6_video_upload_96189de2-5f39-4767-9dd4-406183064da6_cover_snapshot_0s_1780452031_image.jpeg",
+  "is_contest_clip": false,
+  "is_following_creator": false,
+  "is_handle_updated": true,
+  "is_hidden": false,
+  "is_liked": true,
+  "is_persona_root": false,
+  "is_public": true,
+  "is_trashed": false,
+  "is_verified": false,
+  "major_model_version": "v5.5",
+  "media_urls": [
+    {
+      "content_type": "m4a-opus",
+      "delivery": "progressive",
+      "encoding": "1.0.0",
+      "url": "https://d2lwuy8qc234o3.cloudfront.net/1/clip/88d99b93-6eaa-4cf2-9195-a227e0f6ca18.m4a"
+    },
+    {
+      "content_type": "mp3",
+      "delivery": "progressive",
+      "url": "https://cdn1.suno.ai/88d99b93-6eaa-4cf2-9195-a227e0f6ca18.mp3"
+    }
+  ],
+  "metadata": {
+    "can_remix": true,
+    "control_sliders": {
+      "style_weight": 0.7
+    },
+    "duration": 252.44,
+    "has_stem": false,
+    "is_mumble": false,
+    "is_remix": false,
+    "make_instrumental": false,
+    "model_badges": {
+      "songcard": {
+        "dark": {
+          "background_color": "0000004D",
+          "border_color": "00000000",
+          "text_color": "FD429C"
+        },
+        "display_name": "v5.5",
+        "light": {
+          "background_color": "0000004D",
+          "border_color": "00000000",
+          "text_color": "FD429C"
+        }
+      },
+      "songrow": {
+        "dark": {
+          "background_color": "FD429C40",
+          "border_color": "00000000",
+          "text_color": "FD429C"
+        },
+        "display_name": "v5.5",
+        "light": {
+          "background_color": "FD429C1A",
+          "border_color": "00000000",
+          "text_color": "FD429C"
+        }
+      }
+    },
+    "negative_tags": "anti-pop, anti-chorus, no tempo acceleration",
+    "priority": 10,
+    "prompt": "[MOOD: Abyssal Freeze, Manic, Theatrical Tension]\n[PRODUCTION: Clinical separation, Immersive Panning, 00s Brickwall Limiter Master Pump]\n\n[Intro, elegant, sweeping strings, solo violin, adagio]\n[Vocal Identity: Angelic Legato Vibrato Soaring Operatic Soprano, flawless legato, dramatic]\nEl templo de vapor aguarda en majestad\nDespojo mis ropajes con solemne lentitud\nGiro el bronce sagrado buscando su piedad\n¡Oh, cálidas corrientes de pura beatitud!\n(vibrato suave, messa di voce) ah... ah... aaaaaah...\n\n[Verse, orchestral only, dissonant strings fading]\nEl agua besa el alma, un manto celestial...\nMas gime la caldera en su lecho de metal\nSe apaga el fuego eterno...\nLa escarcha... va a asomar...\n\n[Soprano and solo violin dramatic duet, legato high note, extreme operatic vibrato, fortissimo]\n(solo violin)\nAh... ah... aa---AA---aah... Ahhh Ooo-ooh Uuu---uuh Aaaaah...\n(solo violín)\nAh... ah... aa---AA---aah... Ahhh Ooo-ooh Uuu---uuh Aaaaah...\n\n[Extended Tension: Soprano and solo violin dramatic duet, legato high note, sustain, extreme operatic vibrato]\nAhhhhhhhhhhhhhhhhhhhhhhh...\n(solo violín tremolo)\nAhhhhhhhhhhhhhhhhhhhhhhh...\n¡Fríaaaaaaaaaaaaaaa!\nOoooh... Uuuuuh... Aaaaah...\n\n[Chorus, Massive Bass Drop, 200BPM Frenchcore kick drum, Aggressive Maximum Peak Impact, manic energy, maximum stereo width]\n¡El agua me raja la pieeeel!\n¡Cuchillas de escarcha clavadas en mí!\n¡Bautismo de hielo, tortura cruel!\n¡Maldita caldera te juro la muerte!\n¡Mi sangre se hiela me arranca el sentir!\n\n[Bridge, distorted synth, double time feel]\n[overlapping]\n[Soprano] (staccato highs) ¡Congelada!\n[Choir] (¡Ah!)\n[Soprano] (staccato highs) ¡Desquiciada!\n[Choir] (¡Ah!)\n[multiple voice chorus satb] ¡El pulso colapsa mi escarcha sagrada!\n\n[Chorus, anthemic peak, borderline shouted]\n[Coloratura soprano run]\n(vibrato histérico) ¡Ah! ¡Ah! ¡AAAAAAH!\n¡Qué fríiiiiia!\n¡El agua me raja la pieeeel!\n¡Maldito invierno de puro metal!\n\n[Outro, decrescendo, fading kick]\n[Fade Out Instruments]\n[Acoustic Room Decay]\n(vibrato susurrado, tiritando) ahhhhh...\nMármol frío...\n[Unexpected Final Snare Hit]\n[End]",
+    "refund_credits": false,
+    "stream": true,
+    "tags": "SPANISH FRENCHCORE OPERA, Orchestral Hybrid, Solo Violin, 200 BPM, distorted bounce kicks, aggressive synth, soaring coloratura soprano lead",
+    "type": "gen",
+    "uses_latest_model": true,
+    "video_is_stale": false,
+    "video_upload_height": 1280,
+    "video_upload_width": 720
+  },
+  "model_name": "chirp-fenix",
+  "ownership": {
+    "ownership_reason": "subscribed"
+  },
+  "play_count": 40,
+  "preview_url": "https://cdn1.suno.ai/video_gen_96189de2-5f39-4767-9dd4-406183064da696189de2-5f39-4767-9dd4-406183064da6_preview.mp4",
+  "project": {
+    "description": "1-Temazos",
+    "id": "34d638ba-5606-4a9f-ad83-cfb2d9f7d7b8",
+    "is_public": false,
+    "is_trashed": false,
+    "name": "1-Temazos"
+  },
+  "reaction": {
+    "clip": "88d99b93-6eaa-4cf2-9195-a227e0f6ca18",
+    "flagged": false,
+    "play_count": 31,
+    "reaction_type": "L",
+    "skip_count": 0,
+    "updated_at": "2026-06-25T01:42:48.547Z"
+  },
+  "status": "complete",
+  "title": "Ducha fria",
+  "upvote_count": 2,
+  "user_id": "6755b056-24ad-46c6-904c-8687163942ad",
+  "video_cover_url": "https://cdn1.suno.ai/video_gen_96189de2-5f39-4767-9dd4-406183064da6_processed_video.mp4",
+  "video_url": "https://cdn1.suno.ai/88d99b93-6eaa-4cf2-9195-a227e0f6ca18.mp4",
+  "workspaceId": "34d638ba-5606-4a9f-ad83-cfb2d9f7d7b8",
+  "workspaceName": "1-Temazos",
+  "_cacheTimestamp": 1782504031178
+}

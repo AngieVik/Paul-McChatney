@@ -1,0 +1,257 @@
+Metadata for: Has_estado_haciendo_burpees_mal_todo_este_tiempo-0b01257b
+Generated: 2026-06-26T20:05:53.085Z
+
+--- Track Information ---
+Title: Has estado haciendo burpees mal todo este tiempo
+Artist: AngieSoundlab
+
+--- Musical Information ---
+
+--- Creation Details ---
+Prompt: Hardtek, Gymcore, Coachcore, Satirical Fitness Hardcore, Motivational BPM Abuse
+Track ID: 0b01257b-d8b7-4152-958a-329519fe4501
+
+--- Lyrics ---
+[Production: Hardtek, Gym Alarm FX, Punchy Kickroll, Trainer Delay, Sweat Bounce]
+
+[Intro][Spanish Male Voice][Whistle FX, Gym Echo, Kick Claps]
+¿Tú crees que entrenas?
+¿Tú crees que haces burpees?
+Hermano…
+lo tuyo son caídas accidentales con rebote
+Vamos a corregir eso.
+A ritmo de verdad.
+
+[Verse][Spanish Male Voice][Dry Flow, Trainer Voice, Stopwatch FX]
+Espalda recta, alma torcida
+Manos al suelo como si perdieras la fe
+Saltas…
+pero no llegas
+Caes…
+pero no renaces
+
+Ese no es un burpee
+Es un bostezo agachado
+Un fracaso con zapatillas
+Una sentadilla con ansiedad social
+
+[Hook / Drop][Spanish Male Voice][Distorted Vox, Gym Bell FX, Kick Deathroll]
+¡BURPEE REAL!
+¡SANGRE EN EL SUELO!
+¡LATIDOS A 200 BPM!
+¡Y EL RENCOR COMO PREWORKOUT!
+
+[Break][Spanish Male Voice][Lo-Fi Trainer Delay, Water Bottle FX, Bombo Sordo]
+Tu ex hace burpees
+Tu abuela hace burpees
+El de la tienda de vapeo hace burpees
+Y tú...
+tú haces ruido
+
+[Final][Spanish Male Voice][Whistle Echo, Slow Fade, Beat Slam FX]
+Haz uno bien
+Solo uno
+Y si no puedes…
+al menos baila mientras finges
+
+Porque el bombo
+no juzga
+pero sí te empuja
+al suelo
+
+
+Cover Art URL: https://cdn2.suno.ai/image_0b01257b-d8b7-4152-958a-329519fe4501.jpeg
+
+--- Respuesta Bruta de la API ---
+{
+  "action_config": {
+    "actions": [
+      {
+        "action_type": "add_to_playlist",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "like_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "share_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "dislike_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "report_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "remove_from_playlist",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "delete_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "edit_song_details",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "create_hook",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "download_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "download_as_video",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "unpublish_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "remaster",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "allow_comments_toggle_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "allow_remix",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "pin_to_profile",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "remix_extend",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "remix_cover",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "remix_reuse_style",
+        "disabled": false,
+        "visible": true
+      }
+    ]
+  },
+  "allow_comments": true,
+  "audio_url": "https://cdn1.suno.ai/0b01257b-d8b7-4152-958a-329519fe4501.mp3",
+  "avatar_image_url": "https://cdn1.suno.ai/8b5db1b2.webp",
+  "batch_index": 0,
+  "comment_count": 0,
+  "created_at": "2025-05-22T14:38:58.372Z",
+  "display_name": "AngieSoundlab",
+  "display_tags": "Hardtek, Gymcore, Satirical Fitness Hardcore",
+  "entity_type": "song_schema",
+  "explicit": false,
+  "flag_count": 0,
+  "handle": "angiesoundlab",
+  "has_hook": false,
+  "id": "0b01257b-d8b7-4152-958a-329519fe4501",
+  "image_large_url": "https://cdn2.suno.ai/image_large_0b01257b-d8b7-4152-958a-329519fe4501.jpeg",
+  "image_url": "https://cdn2.suno.ai/image_0b01257b-d8b7-4152-958a-329519fe4501.jpeg",
+  "is_contest_clip": false,
+  "is_following_creator": false,
+  "is_handle_updated": true,
+  "is_hidden": false,
+  "is_liked": true,
+  "is_persona_root": false,
+  "is_public": true,
+  "is_trashed": false,
+  "is_verified": false,
+  "major_model_version": "v4.5",
+  "media_urls": [
+    {
+      "content_type": "mp3",
+      "delivery": "progressive",
+      "url": "https://cdn1.suno.ai/0b01257b-d8b7-4152-958a-329519fe4501.mp3"
+    }
+  ],
+  "metadata": {
+    "can_remix": true,
+    "duration": 140.16,
+    "has_stem": false,
+    "is_remix": false,
+    "make_instrumental": false,
+    "model_badges": {
+      "songrow": {
+        "dark": {
+          "background_color": "00000000",
+          "border_color": "FFFFFF1A",
+          "text_color": "A3A3A3"
+        },
+        "display_name": "v4.5",
+        "light": {
+          "background_color": "00000000",
+          "border_color": "0000001A",
+          "text_color": "7D7C83"
+        }
+      }
+    },
+    "priority": 10,
+    "prompt": "[Production: Hardtek, Gym Alarm FX, Punchy Kickroll, Trainer Delay, Sweat Bounce]\n\n[Intro][Spanish Male Voice][Whistle FX, Gym Echo, Kick Claps]\n¿Tú crees que entrenas?\n¿Tú crees que haces burpees?\nHermano…\nlo tuyo son caídas accidentales con rebote\nVamos a corregir eso.\nA ritmo de verdad.\n\n[Verse][Spanish Male Voice][Dry Flow, Trainer Voice, Stopwatch FX]\nEspalda recta, alma torcida\nManos al suelo como si perdieras la fe\nSaltas…\npero no llegas\nCaes…\npero no renaces\n\nEse no es un burpee\nEs un bostezo agachado\nUn fracaso con zapatillas\nUna sentadilla con ansiedad social\n\n[Hook / Drop][Spanish Male Voice][Distorted Vox, Gym Bell FX, Kick Deathroll]\n¡BURPEE REAL!\n¡SANGRE EN EL SUELO!\n¡LATIDOS A 200 BPM!\n¡Y EL RENCOR COMO PREWORKOUT!\n\n[Break][Spanish Male Voice][Lo-Fi Trainer Delay, Water Bottle FX, Bombo Sordo]\nTu ex hace burpees\nTu abuela hace burpees\nEl de la tienda de vapeo hace burpees\nY tú...\ntú haces ruido\n\n[Final][Spanish Male Voice][Whistle Echo, Slow Fade, Beat Slam FX]\nHaz uno bien\nSolo uno\nY si no puedes…\nal menos baila mientras finges\n\nPorque el bombo\nno juzga\npero sí te empuja\nal suelo\n",
+    "refund_credits": false,
+    "stream": true,
+    "tags": "Hardtek, Gymcore, Coachcore, Satirical Fitness Hardcore, Motivational BPM Abuse",
+    "type": "gen",
+    "uses_latest_model": false,
+    "video_is_stale": false
+  },
+  "model_name": "chirp-auk",
+  "ownership": {
+    "ownership_reason": "subscribed"
+  },
+  "play_count": 6,
+  "project": {
+    "description": "1-Temazos",
+    "id": "34d638ba-5606-4a9f-ad83-cfb2d9f7d7b8",
+    "is_public": false,
+    "is_trashed": false,
+    "name": "1-Temazos"
+  },
+  "reaction": {
+    "clip": "0b01257b-d8b7-4152-958a-329519fe4501",
+    "flagged": false,
+    "play_count": 5,
+    "reaction_type": "L",
+    "skip_count": 0,
+    "updated_at": "2026-04-04T00:00:15.598Z"
+  },
+  "status": "complete",
+  "title": "Has estado haciendo burpees mal todo este tiempo",
+  "upvote_count": 1,
+  "user_id": "6755b056-24ad-46c6-904c-8687163942ad",
+  "video_url": "https://cdn1.suno.ai/0b01257b-d8b7-4152-958a-329519fe4501.mp4",
+  "workspaceId": "34d638ba-5606-4a9f-ad83-cfb2d9f7d7b8",
+  "workspaceName": "1-Temazos",
+  "_cacheTimestamp": 1782504031178
+}

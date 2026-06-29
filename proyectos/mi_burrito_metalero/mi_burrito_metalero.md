@@ -33,7 +33,7 @@ Spanish Folk Metal, Male Vocals (Lyrical Tenor with gritty rock tone), Symphonic
 [Celtic Flute Solo: Melancholic & Virtuoso]
 [Violin Entry: Fast Jig]
 [Full Band Explosion]
-[Rhythm: Galloping 6/8]
+[Rhythm: Galloping 6\8]
 [Crowd: Hey! Hey! Hey!]
 
 [Verse 1]

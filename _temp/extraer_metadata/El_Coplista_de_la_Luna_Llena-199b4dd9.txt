@@ -1,0 +1,354 @@
+Metadata for: El_Coplista_de_la_Luna_Llena-199b4dd9
+Generated: 2026-06-26T20:05:53.083Z
+
+--- Track Information ---
+Title: El Coplista de la Luna Llena
+Artist: AngieSoundlab
+
+--- Musical Information ---
+
+--- Creation Details ---
+Prompt: SPANISH NEUROFUNK BAROQUE, CLASSICAL FUGUE, 175 BPM, aggressive drill rap, gritty mutant reese bass, massive gothic church organ, virtuosic modern piano, heavy electric guitar riffs, whammy pedal distortion
+Track ID: 199b4dd9-b38c-4022-af04-7b334dbc067d
+
+--- Lyrics ---
+[MOOD: Psychotic, Cyberpunk, Menacing, Arrogant]
+[PRODUCTION: Clinical separation, 3D Spatial Panning Swirl, Hard-panned instruments, overdriven limiter master pump, heavy sidechain bounce]
+
+[Voice Cocky aggressive drill flow, arrogant raspy tone, psychotic swagger, dry close-mic]
+
+[Intro: Exposition, Distant ominous cathedral room reverb]
+[Solo church organ Subject entry]
+
+[Answer: Mutant reese bass enters with Subject, hard-panned church organ plays Countersubject]
+
+[Voice 3 Entry, bouncy staccato delivery, technical syncopated drum delivery]
+Mírame los ojos, mírame bien
+Llevo un mes en el pozo por no ser un rehén
+El duque me encierra, no firmo el papel
+Escribo las fugas con sangre en la piel
+
+[Divertimento 1: Instrumental Break, Syncopated 2-step drums enter, aggressive church organ polyphony]
+
+[Episode 1: tempo ramping, hard-panned church organ riffs]
+Celda fría, contrapunto, ley del penal
+La música es orden, ¡tu paz me sienta MAL! (¡MAL!)
+(¡Escribo en la sombra la fuga inmortal!)
+
+[Middle Entry: Church organ and Reese bass exchange motifs, rapid modulations]
+
+[Episode 2: Double-time vocal delivery, mocking tone, polyphonic church organ melody cuts through]
+¿Ves a ese gordo del fagot? ¡Un farsante!
+Le llamé ZOPENCO, se puso arrogante
+Brilló la daga en mitad del jardín
+Casi lo mato tocando el violín
+
+[Repercussion: Short bass drop, minimal drums, vocal fry]
+No me hables de vibras, yo juego de ley
+¡Saca el acero si insultas al REY! (¡AL REY!)
+(¡Zopen-co... taca-ta... fin de tu ley!)
+
+[Bridge: Entry Section, Macro-tension build-up, desperate breathless delivery]
+Cuatrocientos kilómetros, fannn-gooo y dolor
+Botas de hierro, cruzando el horror
+Alemania tiembla, la suela rota
+Solo por ver cómo el ÓRGANO explota
+
+[Pre-Chorus: Accelerando crescendo burst, frantic church organ, electric guitar power chords rise]
+Buxtehude al teclado, la mente me vuela
+¿Tú te cansas andando? ¡Yo quemo la suela!
+(¡La quemo!) ¡La quemo! (¡Yo quemo la suela!)
+
+[Instrumental Bridge, The Grand Duel, Modern Piano and Electric Guitar, explosive energy]
+.
+.
+[Interlude, Lead Modern Piano, virtuoso, rapid neo-classical runs, taking the melody]
+(¡Fuego!)
+.
+.
+.
+.
+[Interlude, Lead Electric Guitar, heavy riff, whammy pedal squeals, DJ scratch style]
+(¡Rómpelo Juanbach!)
+.
+.
+.
+.
+[Modern Piano and Electric Guitar overlapping counterpoint over syncopated 2-step drums]
+.
+.
+
+[Episode 3: maniacal swagger, heavy bassline returns]
+Dame más negro, dame esa jarra
+Si no hay café, mi cabeza desbarra
+Veinte cachorros chillando en la mesa
+Dos matrimonios, la vida me pesa
+
+[Build-Up: keeping hook melody]
+Matemática pura metida en la vena
+¡Fuuu-gaaa perfecta que rompe la pena!
+
+[Buffer Underrun Glitch]
+[Sudden Silence | Acapella Whisper | Claustrophobic Panic Center Collapse]
+Y al final del camino... la noche se cie-cie-cierra...
+
+[Stretto Drop: Pedal Point Sub-Bass Drone, 00s brickwall limiter pump, all-out sonic assault blast]
+
+[Chorus: Stretto Climax, Louder, triumphant roaring, borderline shouted, chaotic classical fugue layers]
+¡LLEGA JOHN TAYLOR, EL TIPO ME ENTIERRA!
+[overlapping] ¡AGUJA SUCIA, CIRUJANOOO MALDITO!
+Me pincha los ojos, ciego y sin grito (¡SIN GRITO!)
+
+[Post-Chorus: Subject and Countersubject overlapping, rapid vocal delivery]
+No veo el destello, no veo el brillo
+¡PERO SIGO MANDANDO EN EL PUTO CASTILLO! (¡CASTILLO!)
+
+[Outro: Room Ambience, heavy panting, fade out drums and vanished bass]
+(Ciego... de Leipzig... el puto castillo...)
+
+[Coda: Intricate virtuoso baroque fugue conclusion, Electric Guitar and Modern Piano unison finish]
+
+[Hard Stop]
+[End]
+
+Cover Art URL: https://cdn2.suno.ai/image_199b4dd9-b38c-4022-af04-7b334dbc067d.jpeg
+
+--- Respuesta Bruta de la API ---
+{
+  "action_config": {
+    "actions": [
+      {
+        "action_type": "add_to_playlist",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "like_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "share_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "dislike_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "report_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "remove_from_playlist",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "delete_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "edit_song_details",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "create_hook",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "download_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "download_as_video",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "publish_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "remaster",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "remix_extend",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "remix_cover",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "remix_reuse_style",
+        "disabled": false,
+        "visible": true
+      }
+    ]
+  },
+  "allow_comments": true,
+  "audio_url": "https://cdn1.suno.ai/199b4dd9-b38c-4022-af04-7b334dbc067d.mp3",
+  "avatar_image_url": "https://cdn1.suno.ai/8b5db1b2.webp",
+  "batch_index": 1,
+  "clip_roots": {
+    "clip_attribution_type": "remix",
+    "clips": [
+      {
+        "id": "80cd742b-24a1-4003-b67f-48be1b11ab3d",
+        "image_url": "https://cdn2.suno.ai/image_80cd742b-24a1-4003-b67f-48be1b11ab3d.jpeg",
+        "is_public": false,
+        "title": "El Coplista de la Luna Llena",
+        "user_avatar_image_url": "https://cdn1.suno.ai/8b5db1b2.webp",
+        "user_display_name": "AngieSoundlab",
+        "user_handle": "angiesoundlab"
+      }
+    ]
+  },
+  "comment_count": 0,
+  "created_at": "2026-06-20T10:18:40.698Z",
+  "display_name": "AngieSoundlab",
+  "display_tags": "Spanish neurofunk, drill rap, baroque",
+  "entity_type": "song_schema",
+  "explicit": true,
+  "flag_count": 0,
+  "handle": "angiesoundlab",
+  "has_hook": false,
+  "id": "199b4dd9-b38c-4022-af04-7b334dbc067d",
+  "image_large_url": "https://cdn2.suno.ai/image_large_199b4dd9-b38c-4022-af04-7b334dbc067d.jpeg",
+  "image_url": "https://cdn2.suno.ai/image_199b4dd9-b38c-4022-af04-7b334dbc067d.jpeg",
+  "is_contest_clip": false,
+  "is_following_creator": false,
+  "is_handle_updated": true,
+  "is_hidden": false,
+  "is_liked": true,
+  "is_persona_root": false,
+  "is_public": false,
+  "is_trashed": false,
+  "is_verified": false,
+  "major_model_version": "v5.5",
+  "media_urls": [
+    {
+      "content_type": "m4a-opus",
+      "delivery": "progressive",
+      "encoding": "1.0.0",
+      "url": "https://d2lwuy8qc234o3.cloudfront.net/1/clip/199b4dd9-b38c-4022-af04-7b334dbc067d.m4a"
+    },
+    {
+      "content_type": "mp3",
+      "delivery": "progressive",
+      "url": "https://cdn1.suno.ai/199b4dd9-b38c-4022-af04-7b334dbc067d.mp3"
+    }
+  ],
+  "metadata": {
+    "avg_bpm": 169.91,
+    "can_publish_with_vocal": true,
+    "can_remix": true,
+    "control_sliders": {
+      "audio_weight": 0.6,
+      "style_weight": 0.81
+    },
+    "cover_clip_id": "80cd742b-24a1-4003-b67f-48be1b11ab3d",
+    "duration": 237.56,
+    "edited_clip_id": "80cd742b-24a1-4003-b67f-48be1b11ab3d",
+    "has_stem": true,
+    "has_vocal": false,
+    "is_mumble": false,
+    "is_remix": true,
+    "make_instrumental": false,
+    "max_bpm": 230.77,
+    "min_bpm": 157.89,
+    "model_badges": {
+      "songcard": {
+        "dark": {
+          "background_color": "0000004D",
+          "border_color": "00000000",
+          "text_color": "FD429C"
+        },
+        "display_name": "v5.5",
+        "light": {
+          "background_color": "0000004D",
+          "border_color": "00000000",
+          "text_color": "FD429C"
+        }
+      },
+      "songrow": {
+        "dark": {
+          "background_color": "FD429C40",
+          "border_color": "00000000",
+          "text_color": "FD429C"
+        },
+        "display_name": "v5.5",
+        "light": {
+          "background_color": "FD429C1A",
+          "border_color": "00000000",
+          "text_color": "FD429C"
+        }
+      }
+    },
+    "negative_tags": "bright, cheerful, pop, melodic chorus, acoustic guitar, slow, peaceful, ambient pad, violin, strings, cello, harpsichord",
+    "priority": 10,
+    "prompt": "[MOOD: Psychotic, Cyberpunk, Menacing, Arrogant]\n[PRODUCTION: Clinical separation, 3D Spatial Panning Swirl, Hard-panned instruments, overdriven limiter master pump, heavy sidechain bounce]\n\n[Voice Cocky aggressive drill flow, arrogant raspy tone, psychotic swagger, dry close-mic]\n\n[Intro: Exposition, Distant ominous cathedral room reverb]\n[Solo church organ Subject entry]\n\n[Answer: Mutant reese bass enters with Subject, hard-panned church organ plays Countersubject]\n\n[Voice 3 Entry, bouncy staccato delivery, technical syncopated drum delivery]\nMírame los ojos, mírame bien\nLlevo un mes en el pozo por no ser un rehén\nEl duque me encierra, no firmo el papel\nEscribo las fugas con sangre en la piel\n\n[Divertimento 1: Instrumental Break, Syncopated 2-step drums enter, aggressive church organ polyphony]\n\n[Episode 1: tempo ramping, hard-panned church organ riffs]\nCelda fría, contrapunto, ley del penal\nLa música es orden, ¡tu paz me sienta MAL! (¡MAL!)\n(¡Escribo en la sombra la fuga inmortal!)\n\n[Middle Entry: Church organ and Reese bass exchange motifs, rapid modulations]\n\n[Episode 2: Double-time vocal delivery, mocking tone, polyphonic church organ melody cuts through]\n¿Ves a ese gordo del fagot? ¡Un farsante!\nLe llamé ZOPENCO, se puso arrogante\nBrilló la daga en mitad del jardín\nCasi lo mato tocando el violín\n\n[Repercussion: Short bass drop, minimal drums, vocal fry]\nNo me hables de vibras, yo juego de ley\n¡Saca el acero si insultas al REY! (¡AL REY!)\n(¡Zopen-co... taca-ta... fin de tu ley!)\n\n[Bridge: Entry Section, Macro-tension build-up, desperate breathless delivery]\nCuatrocientos kilómetros, fannn-gooo y dolor\nBotas de hierro, cruzando el horror\nAlemania tiembla, la suela rota\nSolo por ver cómo el ÓRGANO explota\n\n[Pre-Chorus: Accelerando crescendo burst, frantic church organ, electric guitar power chords rise]\nBuxtehude al teclado, la mente me vuela\n¿Tú te cansas andando? ¡Yo quemo la suela!\n(¡La quemo!) ¡La quemo! (¡Yo quemo la suela!)\n\n[Instrumental Bridge, The Grand Duel, Modern Piano and Electric Guitar, explosive energy]\n.\n.\n[Interlude, Lead Modern Piano, virtuoso, rapid neo-classical runs, taking the melody]\n(¡Fuego!)\n.\n.\n.\n.\n[Interlude, Lead Electric Guitar, heavy riff, whammy pedal squeals, DJ scratch style]\n(¡Rómpelo Juanbach!)\n.\n.\n.\n.\n[Modern Piano and Electric Guitar overlapping counterpoint over syncopated 2-step drums]\n.\n.\n\n[Episode 3: maniacal swagger, heavy bassline returns]\nDame más negro, dame esa jarra\nSi no hay café, mi cabeza desbarra\nVeinte cachorros chillando en la mesa\nDos matrimonios, la vida me pesa\n\n[Build-Up: keeping hook melody]\nMatemática pura metida en la vena\n¡Fuuu-gaaa perfecta que rompe la pena!\n\n[Buffer Underrun Glitch]\n[Sudden Silence | Acapella Whisper | Claustrophobic Panic Center Collapse]\nY al final del camino... la noche se cie-cie-cierra...\n\n[Stretto Drop: Pedal Point Sub-Bass Drone, 00s brickwall limiter pump, all-out sonic assault blast]\n\n[Chorus: Stretto Climax, Louder, triumphant roaring, borderline shouted, chaotic classical fugue layers]\n¡LLEGA JOHN TAYLOR, EL TIPO ME ENTIERRA!\n[overlapping] ¡AGUJA SUCIA, CIRUJANOOO MALDITO!\nMe pincha los ojos, ciego y sin grito (¡SIN GRITO!)\n\n[Post-Chorus: Subject and Countersubject overlapping, rapid vocal delivery]\nNo veo el destello, no veo el brillo\n¡PERO SIGO MANDANDO EN EL PUTO CASTILLO! (¡CASTILLO!)\n\n[Outro: Room Ambience, heavy panting, fade out drums and vanished bass]\n(Ciego... de Leipzig... el puto castillo...)\n\n[Coda: Intricate virtuoso baroque fugue conclusion, Electric Guitar and Modern Piano unison finish]\n\n[Hard Stop]\n[End]",
+    "refund_credits": false,
+    "secondary_badges": [
+      {
+        "dark": {
+          "background_color": "FFFFFF0C",
+          "border_color": "00000000",
+          "text_color": "A3A3A3"
+        },
+        "display_name": "Cover",
+        "light": {
+          "background_color": "1C1C1F0A",
+          "border_color": "00000000",
+          "text_color": "7D7C83"
+        }
+      }
+    ],
+    "stream": true,
+    "tags": "SPANISH NEUROFUNK BAROQUE, CLASSICAL FUGUE, 175 BPM, aggressive drill rap, gritty mutant reese bass, massive gothic church organ, virtuosic modern piano, heavy electric guitar riffs, whammy pedal distortion",
+    "task": "cover",
+    "type": "gen",
+    "uses_latest_model": true
+  },
+  "model_name": "chirp-fenix",
+  "ownership": {
+    "ownership_reason": "subscribed"
+  },
+  "play_count": 45,
+  "project": {
+    "description": "1-Temazos",
+    "id": "34d638ba-5606-4a9f-ad83-cfb2d9f7d7b8",
+    "is_public": false,
+    "is_trashed": false,
+    "name": "1-Temazos"
+  },
+  "reaction": {
+    "clip": "199b4dd9-b38c-4022-af04-7b334dbc067d",
+    "flagged": false,
+    "play_count": 35,
+    "reaction_type": "L",
+    "skip_count": 0,
+    "updated_at": "2026-06-25T01:20:18.626Z"
+  },
+  "status": "complete",
+  "title": "El Coplista de la Luna Llena",
+  "upvote_count": 1,
+  "user_id": "6755b056-24ad-46c6-904c-8687163942ad",
+  "video_url": "",
+  "workspaceId": "34d638ba-5606-4a9f-ad83-cfb2d9f7d7b8",
+  "workspaceName": "1-Temazos",
+  "_cacheTimestamp": 1782504031178
+}

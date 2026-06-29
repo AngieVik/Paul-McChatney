@@ -12,7 +12,7 @@
 * **Bass House:** Groove clásico del house pero saturado con la distorsión, los bamboleos y el gran peso en graves del dubstep y el UK bass.
 * **Tropical House:** Estética veraniega y relajada que incorpora tempos más lentos e instrumentos acústicos como marimbas, flautas y tambores de acero.
 * **French House (Filter House):** Pistas fuertemente influenciadas por el disco y el funk donde destacan los barridos de filtros analógicos sobre los samples.
-* **Garage House / UK Garage:** Ritmos sincopados y oscilantes (swing) adornados con cálidos recortes de vocales de estilo R&B.
+* **Garage House \ UK Garage:** Ritmos sincopados y oscilantes (swing) adornados con cálidos recortes de vocales de estilo R&B.
 * **Chicago House:** La encarnación original y fundamental del house, basada en cálidas influencias disco, soul y cajas de ritmo tempranas.
 * **Funky House:** Subgénero de marcado carácter bailable basado principalmente en samples y ritmos funk.
 * **Microhouse:** House minimalista que integra sonidos extraños, diseño abstracto y experimentación detallada tipo glitch.
@@ -62,7 +62,7 @@
 ## Trance
 
 * **Progressive Trance:** Énfasis en el desarrollo paulatino de los elementos, transiciones muy sutiles y composiciones prolongadas e hipnóticas de capas envolventes.
-* **Uplifting / Epic Trance:** Himnos eufóricos de alta energía y tempo veloz con acordes majestuosos y caídas orquestales que buscan elevar el estado de ánimo.
+* **Uplifting \ Epic Trance:** Himnos eufóricos de alta energía y tempo veloz con acordes majestuosos y caídas orquestales que buscan elevar el estado de ánimo.
 * **Psytrance (Psychedelic Trance):** Capas de diseño de sonido alucinógeno, ritmos galopantes de bajo hipnótico continuo y temáticas existenciales o extraterrestres.
 * **Tech Trance:** Ritmos mecánicos, duros y pesados tomados de la base del techno que se fusionan con los grandes y épicos sintetizadores del trance.
 * **Goa Trance:** Antecesor directo del psytrance proveniente de la India en los años 90, mezclando líneas percusivas psicodélicas con motivos espirituales.
@@ -88,12 +88,12 @@
 * **Trap (Electronic):** Adopta la caja de ritmos 808, hi-hats de redoble ultra rápido y samples vocales del hip hop sureño fusionados con sintetizadores potentes para las pistas de baile.
 * **Hybrid Trap:** Combina sin piedad la percusión rápida y agitada del trap electrónico con el diseño agresivo de graves estridentes del dubstep.
 * **Future Bass:** Sonido brillante, optimista y colorido caracterizado por acordes de sintetizador ricos, muy modulados, y voces con cambio de tono (pitch).
-* **Wave / Hardwave:** Trap atmosférico impregnado de oscuridad emocional, sonidos cinematográficos de onda gótica y sintetizadores de música trance.
+* **Wave \ Hardwave:** Trap atmosférico impregnado de oscuridad emocional, sonidos cinematográficos de onda gótica y sintetizadores de música trance.
 * **Midtempo Bass:** Tempos muy lentos (90-115 BPM) que empujan estéticas pesadas de música industrial de corte ciberpunk sobre bajos pulsantes continuos.
 * **Big Beat:** Pistas de fiesta accesibles y enormes donde chocan duros breakbeats, riffs de guitarras de rock y actitud punk de los años 90.
-* **UK Breakbeat / Breaks:** Uso focal de breakbeats sin métrica fija a tempos más rápidos y pisteros (130-140 BPM) que transmiten el pulso subterráneo de la escena británica.
+* **UK Breakbeat \ Breaks:** Uso focal de breakbeats sin métrica fija a tempos más rápidos y pisteros (130-140 BPM) que transmiten el pulso subterráneo de la escena británica.
 * **Post-Dubstep:** Fusión ecléctica sin fijación estricta de BPM que mezcla texturas suaves del dubstep con el ritmo roto y sincopado del UK garage y microediciones.
-* **Minimal / Deep Dubstep (Substep):** Dubstep cavernoso centrado en subgraves viscerales puros (ondas sinusoidales), ritmos muy dispersos a medio tempo y atmósferas de ecos dub.
+* **Minimal \ Deep Dubstep (Substep):** Dubstep cavernoso centrado en subgraves viscerales puros (ondas sinusoidales), ritmos muy dispersos a medio tempo y atmósferas de ecos dub.
 * **Glitch:** Género artístico centrado en el uso musical de errores de hardware, crujidos digitales y arreglos rítmicos microscópicos impredecibles.
 * **Dark Garage:** Variante oscura de UK Garage, que mantiene el groove de platillos pero en un tono más ominoso, nocturno y dominado por potentes líneas de subgrave.
 
@@ -107,9 +107,9 @@
 
 ## Drum & Bass y Jungle
 
-* **Jungle:** El estruendo fundacional del género (160-180 BPM), donde bajos profundos de dub/reggae chocan violentamente con bucles de batería funk frenéticos hiper-editados.
+* **Jungle:** El estruendo fundacional del género (160-180 BPM), donde bajos profundos de dub\reggae chocan violentamente con bucles de batería funk frenéticos hiper-editados.
 * **Ragga Jungle:** Jungle intensamente influenciado por la cultura jamaiquina del soundsystem, marcado por ruidosas voces de MCs dancehall y coros rasta.
-* **Intelligent / Atmospheric Jungle:** Una perspectiva refinada y profunda del jungle colmada de pads espaciales, progresiones cósmicas, acordes jazzísticos y ritmos complejos.
+* **Intelligent \ Atmospheric Jungle:** Una perspectiva refinada y profunda del jungle colmada de pads espaciales, progresiones cósmicas, acordes jazzísticos y ritmos complejos.
 * **Liquid Drum & Bass:** Baterías veloces pero limpias entrelazadas con paisajes melódicos exuberantes, atmósferas conmovedoras e instrumentación de jazz y soul.
 * **Neurofunk:** Drum & Bass técnico y oscuro caracterizado por un diseño hiper detellado de bajo filtrado (reeces), sintetizadores alienígenas y estéticas de ciencia ficción.
 * **Jump-Up:** Diversión fiestera agresiva gracias a líneas de bajo rechinantes, saltarinas y extremadamente potentes sobre ritmos fáciles de asimilar (incluye estilo Foghorn de notas graves largas).
@@ -119,7 +119,7 @@
 * **Halftime:** Percusiones abstractas que golpean a la mitad del tempo (aprox. 85 BPM) mientras preservan la cuadrícula de 170 BPM con un diseño de bajo masivo estilo hip-hop.
 * **Sambass:** Tambores rápidos adornados con la cálida cadencia latina, percusiones tribales e instrumentos acústicos vivos del bossa nova y la samba brasileña.
 * **Dancefloor D&B:** Pistas de gran energía listas para escenarios de festival principales, cargadas de vocales pop pegadizas, producción pulida y caídas masivas.
-* **Drumfunk / Choppage:** Minimalismo sintético armónico para centrar todo el virtuosismo en el arreglo matemático y caótico de minúsculos cortes rítmicos de batería.
+* **Drumfunk \ Choppage:** Minimalismo sintético armónico para centrar todo el virtuosismo en el arreglo matemático y caótico de minúsculos cortes rítmicos de batería.
 * **Jazzstep:** Combinación orgánica y natural que enlaza la velocidad programada del D&B con instrumentos en vivo y la improvisación fluida de solos de jazz.
 * **Autonomic:** Drum & bass rítmicamente contenido, emocionalmente nocturno, austero y experimental con ecos cinematográficos y sensibilidad del IDM.
 * **Minimal Drum and Bass:** Ritmos esqueléticos, diseño minucioso micro-detallado y amplios espacios de silencio que cultivan una enorme tensión de subgraves.
@@ -134,10 +134,10 @@
 
 ## Hardcore, Hard Dance y Free Tekno
 
-* **Gabber / Early Hardcore:** Hardcore original holandés sumamente rápido (160-190 BPM) famoso por su bombo cuadrado hiper-distorsionado y oscuros sintetizadores cortantes tipo "hoover".
-* **Mainstream Hardcore / New Style:** Evolución con ritmos levemente más lentos y depurados, melodías más accesibles y producciones rítmicas sofisticadas contemporáneas.
+* **Gabber \ Early Hardcore:** Hardcore original holandés sumamente rápido (160-190 BPM) famoso por su bombo cuadrado hiper-distorsionado y oscuros sintetizadores cortantes tipo "hoover".
+* **Mainstream Hardcore \ New Style:** Evolución con ritmos levemente más lentos y depurados, melodías más accesibles y producciones rítmicas sofisticadas contemporáneas.
 * **Industrial Hardcore:** Fusión de ritmos extremos del hardcore con golpes metálicos inmensos, ruidos fríos, samples macabros y estética desoladora de fábrica.
-* **Frenchcore:** Hardcore rítmicamente juguetón que golpea fuertemente a contratiempo (off-beat) a 180-220 BPM, intercalando texturas eufóricas o samples de acordeón/culturales.
+* **Frenchcore:** Hardcore rítmicamente juguetón que golpea fuertemente a contratiempo (off-beat) a 180-220 BPM, intercalando texturas eufóricas o samples de acordeón\culturales.
 * **Uptempo Hardcore:** Furia lo-fi brutal a tempos desquiciados (185-220 BPM) impulsada por kicks cortados extra saturados de colas tonales largas y gritos vocales agresivos.
 * **Speedcore:** Agresión auditiva extremadamente extrema a unos estruendosos 300+ BPM donde el sonido del bombo aúlla como si fuera una ráfaga o una sierra constante.
 * **Terrorcore (Terror):** Variante castigadora y caótica (200-250 BPM) plagada de disonancias, cortes caóticos de batería y macabras muestras vocales de horror o gritos.
@@ -147,7 +147,7 @@
 * **Hardstyle:** Himnos monumentales festivaleros de alrededor de 150 BPM con melodías de estadio, sintetizadores agudos y su masiva firma sonora del bajo invertido (reverse bass).
 * **Rawstyle (Raw Hardstyle):** Despoja al hardstyle de sus grandes melodías eufóricas para potenciar brutalmente la fuerza de los bajos atronadores crudos y la ferocidad sónica.
 * **Xtra Raw:** Variante extrema y oscura del rawstyle que asimila la violencia ruidosa percusiva del hardcore industrial y los hiper-distorsionados bombos aserrados ("zaag kicks").
-* **Euphoric Hardstyle / Rawphoric:** Enfoque rítmico total en los acordes de melodías hermosas y emotivas cantadas que acompañan los potentes golpes del bombo base del hardstyle.
+* **Euphoric Hardstyle \ Rawphoric:** Enfoque rítmico total en los acordes de melodías hermosas y emotivas cantadas que acompañan los potentes golpes del bombo base del hardstyle.
 * **Jumpstyle:** Vertiente de hardstyle de origen belga muy simplificada y rebotante, concebida específicamente para acompañar coreografías veloces de saltos y piernas.
 * **Happy Hardcore:** Tempos veloces desbordantes de positividad, coros eufóricos con "voces de ardilla" subidas de tono y brillantes estocadas nostálgicas de piano estilo Italo house.
 * **UK Hardcore:** Evolución moderna de club británica para el happy hardcore, reemplazando lo excesivamente tierno o cursi por impactantes e implacables líneas de sintetizador en sierra.
@@ -156,15 +156,15 @@
 * **Lento Violento:** Disminución drástica e inusual del BPM de las pistas de hardcore clásico italiano que conserva intencionalmente un pesado y agresivo poder de compresión.
 * **Trancecore:** Mezcla híbrida vertiginosa con el ataque rítmico del hardcore pero construida sobre las ensoñadoras atmósferas melódicas y cósmicas del trance o los sonidos del acid.
 * **Freeform Hardcore:** Evolución trancecore contemporánea orientada casi por completo a pasajes instrumentales retorcidos con mayor dureza y sintetizadores agresivos rápidos.
-* **Psycore / Dark Psycore / Full-on Hardcore:** Bombos incesantes rapidísimos entre 145 y 180+ BPM envueltos en atmósferas oscuras, bajos alienígenas al galope e influjos del psytrance.
+* **Psycore \ Dark Psycore \ Full-on Hardcore:** Bombos incesantes rapidísimos entre 145 y 180+ BPM envueltos en atmósferas oscuras, bajos alienígenas al galope e influjos del psytrance.
 * **Crossbreed:** Mutación que impacta al oyente alternando bombos rectos ultradistorsionados del hardcore industrial con las ágiles pero amenazantes cajas rítmicas del darkstep (DnB).
 * **Free Tekno (Freetekno):** Pistas subterráneas hipnóticas sin pulir nacidas en raves y teknivals al aire libre, destacando ritmos rodantes continuos a altas velocidades (150-185 BPM).
 * **Hardtek:** Sonido sumamente bailable de teknival underground a 160-190 BPM, con percusiones fuertes muy marcadas y un frecuente e irreverente uso de samples cómicos o pop.
-* **Tribe / Tribetek:** Subgénero de inducción chamánica y de alta resistencia diseñado para tocar en el exterior con bucles hipnóticos minimalistas prolongadísimos y cantos místicos.
-* **Pumping Tek / Pumping Tribe:** Tribe energizado, definido por un golpe de bajo constante saltarín y elástico que inyecta dinamismo y rebote perpetuo a las pistas de baile de los eventos.
+* **Tribe \ Tribetek:** Subgénero de inducción chamánica y de alta resistencia diseñado para tocar en el exterior con bucles hipnóticos minimalistas prolongadísimos y cantos místicos.
+* **Pumping Tek \ Pumping Tribe:** Tribe energizado, definido por un golpe de bajo constante saltarín y elástico que inyecta dinamismo y rebote perpetuo a las pistas de baile de los eventos.
 * **Hardfloor:** Una amalgama de la regularidad y solidez de los duros ritmos constantes del hardtek con las complejas progresiones chirriantes y mutantes del sonido acidcore.
 * **Acidcore:** Fusión frenética, cruda y muy ruidosa de los ruidosos ritmos de las fiestas ilegales, fundamentada casi por completo en secuencias de bajos ácidos extraterrestres de una TB-303.
-* **Hitech (Hardtek / Psy):** Ritmos hardcore extremadamente rápidos entrelazados caótica y milimétricamente con láseres de ciencia ficción y estéticas hipercomplejas extraídas directamente del psytrance.
+* **Hitech (Hardtek \ Psy):** Ritmos hardcore extremadamente rápidos entrelazados caótica y milimétricamente con láseres de ciencia ficción y estéticas hipercomplejas extraídas directamente del psytrance.
 * **Modern Hardtek:** Evolución sumamente limpia orientada a estadios, de producción contemporánea muy alta con diseño de bajos masivo de estilo EDM pero con los ritmos agresivos y BPM del hardtek clásico.
 * **Novo Dub:** Cepa centrada en la experimentación francesa que cruza ecos de dub jamaicanos vivos, grandes retrasos y vibraciones profundas de subgraves con influencias drum and bass y post-rock.
 
@@ -182,8 +182,8 @@
 
 ## Experimentación Periférica, Sintética y Lo-Fi
 
-* **Chiptune / 8-bit:** Composición ejecutada nativamente sobre los chips de hardware de sonido de consolas u ordenadores antiguos (SID, Ricoh 2A03). Sus estrictas limitaciones de polifonía de canales fuerzan la programación de arpegios a velocidades extremas para generar la ilusión psicoacústica de acordes completos, usando formas de onda puras (pulso, triángulo, ruido).
+* **Chiptune \ 8-bit:** Composición ejecutada nativamente sobre los chips de hardware de sonido de consolas u ordenadores antiguos (SID, Ricoh 2A03). Sus estrictas limitaciones de polifonía de canales fuerzan la programación de arpegios a velocidades extremas para generar la ilusión psicoacústica de acordes completos, usando formas de onda puras (pulso, triángulo, ruido).
 * **Skweee:** Minimalismo analógico nacido en Escandinavia. Combina líneas de bajo sintéticas, secuencias rítmicas frágiles o disonantes y melodías rudimentarias en tiempos inusualmente lentos, priorizando siempre la imperfección humana y cierto *groove* funk desajustado.
 * **Folktronica:** Ensamblaje acústico-digital donde grabaciones de instrumentos tradicionales o de madera (guitarras, flautas, cuerdas orgánicas) son empalmados y procesados rítmicamente mediante *samplers*, introduciendo sutiles secuencias rítmicas de IDM.
-* **Power Electronics:** Extremo ruidista y abstracto donde todo rastro de ritmo en 4/4 o melodía queda erradicado. La pista se satura intencionalmente a través de retroalimentación electroacústica (feedback) ensordecedora, sintetizadores sin oscilar, ondas de ruido puro y manipulaciones acústicas frecuentemente hostiles.
+* **Power Electronics:** Extremo ruidista y abstracto donde todo rastro de ritmo en 4\4 o melodía queda erradicado. La pista se satura intencionalmente a través de retroalimentación electroacústica (feedback) ensordecedora, sintetizadores sin oscilar, ondas de ruido puro y manipulaciones acústicas frecuentemente hostiles.
 * **Electroclash:** Movimiento revanchista de la electrónica de los años 90 y 2000. Sintetiza la arrogancia y crudeza del punk-rock y la *coldwave* con la sequedad acústica de las primeras cajas de ritmos (CR-78, LinnDrum), resultando en temas de pulsos fijos impulsados por arpegios de bajo arcaicos y letras declamativas monótonas.

@@ -45,7 +45,7 @@ Empezó a zumbar como un enjambre
 La habitación olía a coche recién lavado
 Pero… la lámpara se encendió sola
 
-[Hook / Drop][Spanish Male Voice][Siren FX, Electric Kickroll, Spark Loops]
+[Hook \ Drop][Spanish Male Voice][Siren FX, Electric Kickroll, Spark Loops]
 ¡ENERGÍA INFINITA!
 ¡POR 1,50€!
 ¡SIN IVA!

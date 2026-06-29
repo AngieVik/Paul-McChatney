@@ -4,7 +4,7 @@
 
 ## Titulo Original
 
-爆発アイスクリーム" (Bakuhatsu Ice Cream / Exploding Ice Cream) v2
+爆発アイスクリーム" (Bakuhatsu Ice Cream \ Exploding Ice Cream) v2
 
 ## Generated
 

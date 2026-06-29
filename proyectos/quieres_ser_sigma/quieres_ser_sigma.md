@@ -45,7 +45,7 @@ Invierte en ti (pero sin comer)
 Bloquea a tu madre
 Sigue al gurú del mes
 
-[Hook / Drop][Spanish Male Voice][Kickroll Drop, Dual Delay, Vox FX]
+[Hook \ Drop][Spanish Male Voice][Kickroll Drop, Dual Delay, Vox FX]
 ¡Eres un sigma!
 ¡Nadie te entiende!
 ¡Por eso posteas en mayúsculas!

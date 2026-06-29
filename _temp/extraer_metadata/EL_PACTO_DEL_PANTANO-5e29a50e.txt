@@ -1,0 +1,292 @@
+Metadata for: EL_PACTO_DEL_PANTANO-5e29a50e
+Generated: 2026-06-26T20:05:53.084Z
+
+--- Track Information ---
+Title: EL PACTO DEL PANTANO
+Artist: AngieSoundlab
+
+--- Musical Information ---
+
+--- Creation Details ---
+Prompt: SPANISH DELTA BLUES ACID TECNO, 130 BPM, dirty acoustic guitar, rusty harmonica, squelchy TB-303 bassline, distorted 909 kicks, gritty male vocal
+
+Track ID: 5e29a50e-d2f1-4b65-a162-54be26078053
+
+--- Lyrics ---
+[MOOD: Dark, Swampy, Occult]
+[PRODUCTION: Distorted master, heavy sidechain, raw acoustic mix]
+
+[Vocals: gritty male vocal, deep southern drawl, slight vocal fry]
+
+[Intro, raw dirty acoustic guitar, rusty harmonica, stomping boots rhythm]
+
+[Verse 1, gritty vocal, slow and heavy]
+Crucé los pantanos de asfalto y alquitrán
+Con el alma vacía y sin un puto plan
+A las doce en punto en el cruce de vías
+Buscando al diablo de las melodías
+
+[Pre-Chorus, squelchy TB-303 bassline enters, distorted 909 kick building]
+No olía a azufre olía a motor
+Un traje de cables y un negro visor
+Me dijo muchacho qué vienes a dar
+Si quieres la fama te va a costar
+
+[Chorus, explosive energy, shouted vocals, wall of sound]
+FIRMA CON SANGRE SOBRE EL METAL
+
+VENDE TU ALMA AL RUIDO INFERNAL
+EL BAJO TE MUERDE TE ROMPE LA PIEL
+BAILANDO EN EL BARRO HASTA ENLOQUECER
+
+[Verse 2, frantic acid synths, gritty delivery]
+Me clavó una aguja directo en la sien
+Sentí el cortocircuito a más de cien
+Mi voz ahora suena a chatarra y dolor
+Soy el puto rey de este sucio rincón
+
+[Pre-Chorus, squelchy TB-303 bassline, distorted 909 kick building]
+No olía a azufre olía a motor
+Un traje de cables y un negro visor
+Me dijo muchacho qué vienes a dar
+Si quieres la fama te va a costar
+
+[Chorus, explosive energy, shouted vocals, wall of sound]
+FIRMA CON SANGRE SOBRE EL METAL
+VENDE TU ALMA AL RUIDO INFERNAL
+EL BAJO TE MUERDE TE ROMPE LA PIEL
+BAILANDO EN EL BARRO HASTA ENLOQUECER
+
+[Drop, massive 303 acid lead, distorted guitar solo -> expose vocals]
+(Aaaahhhhhhh)
+¡EL PACTO ESTÁ HECHO!
+
+[Outro, fading harmonica, distorted 303 decay, heavy footsteps]
+El diablo se ríe
+Me arranco el pecho
+(Se ríe)
+
+[End]
+
+Cover Art URL: https://cdn2.suno.ai/image_large_b82eb1e3-41b5-4409-80ce-d59e1c115e1e.jpeg
+
+--- Respuesta Bruta de la API ---
+{
+  "action_config": {
+    "actions": [
+      {
+        "action_type": "add_to_playlist",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "like_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "share_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "dislike_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "report_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "remove_from_playlist",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "delete_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "edit_song_details",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "create_hook",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "download_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "download_as_video",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "unpublish_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "remaster",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "allow_comments_toggle_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "allow_remix",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "pin_to_profile",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "remix_extend",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "remix_cover",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "remix_reuse_style",
+        "disabled": false,
+        "visible": true
+      }
+    ]
+  },
+  "allow_comments": true,
+  "audio_url": "https://cdn1.suno.ai/5e29a50e-d2f1-4b65-a162-54be26078053.mp3",
+  "avatar_image_url": "https://cdn1.suno.ai/8b5db1b2.webp",
+  "batch_index": 0,
+  "comment_count": 0,
+  "created_at": "2026-04-10T03:50:23.875Z",
+  "display_name": "AngieSoundlab",
+  "display_tags": "acid techno, delta blues, blues-rock",
+  "entity_type": "song_schema",
+  "explicit": true,
+  "flag_count": 0,
+  "handle": "angiesoundlab",
+  "has_hook": false,
+  "id": "5e29a50e-d2f1-4b65-a162-54be26078053",
+  "image_large_url": "https://cdn2.suno.ai/image_large_b82eb1e3-41b5-4409-80ce-d59e1c115e1e.jpeg",
+  "image_url": "https://cdn2.suno.ai/image_large_b82eb1e3-41b5-4409-80ce-d59e1c115e1e.jpeg",
+  "is_contest_clip": false,
+  "is_following_creator": false,
+  "is_handle_updated": true,
+  "is_hidden": false,
+  "is_liked": true,
+  "is_persona_root": false,
+  "is_public": true,
+  "is_trashed": false,
+  "is_verified": false,
+  "major_model_version": "v5.5",
+  "media_urls": [
+    {
+      "content_type": "m4a-opus",
+      "delivery": "progressive",
+      "encoding": "1.0.0",
+      "url": "https://d2lwuy8qc234o3.cloudfront.net/1/clip/5e29a50e-d2f1-4b65-a162-54be26078053.m4a"
+    },
+    {
+      "content_type": "mp3",
+      "delivery": "progressive",
+      "url": "https://cdn1.suno.ai/5e29a50e-d2f1-4b65-a162-54be26078053.mp3"
+    }
+  ],
+  "metadata": {
+    "avg_bpm": 131.05,
+    "can_remix": true,
+    "control_sliders": {
+      "style_weight": 0.7
+    },
+    "duration": 232.28,
+    "has_stem": true,
+    "is_mumble": false,
+    "is_remix": false,
+    "make_instrumental": false,
+    "max_bpm": 142.86,
+    "min_bpm": 125,
+    "model_badges": {
+      "songcard": {
+        "dark": {
+          "background_color": "0000004D",
+          "border_color": "00000000",
+          "text_color": "FD429C"
+        },
+        "display_name": "v5.5",
+        "light": {
+          "background_color": "0000004D",
+          "border_color": "00000000",
+          "text_color": "FD429C"
+        }
+      },
+      "songrow": {
+        "dark": {
+          "background_color": "FD429C40",
+          "border_color": "00000000",
+          "text_color": "FD429C"
+        },
+        "display_name": "v5.5",
+        "light": {
+          "background_color": "FD429C1A",
+          "border_color": "00000000",
+          "text_color": "FD429C"
+        }
+      }
+    },
+    "negative_tags": "clean, happy, pop, soft, orchestral, lo-fi, jazz",
+    "priority": 10,
+    "prompt": "[MOOD: Dark, Swampy, Occult]\n[PRODUCTION: Distorted master, heavy sidechain, raw acoustic mix]\n\n[Vocals: gritty male vocal, deep southern drawl, slight vocal fry]\n\n[Intro, raw dirty acoustic guitar, rusty harmonica, stomping boots rhythm]\n\n[Verse 1, gritty vocal, slow and heavy]\nCrucé los pantanos de asfalto y alquitrán\nCon el alma vacía y sin un puto plan\nA las doce en punto en el cruce de vías\nBuscando al diablo de las melodías\n\n[Pre-Chorus, squelchy TB-303 bassline enters, distorted 909 kick building]\nNo olía a azufre olía a motor\nUn traje de cables y un negro visor\nMe dijo muchacho qué vienes a dar\nSi quieres la fama te va a costar\n\n[Chorus, explosive energy, shouted vocals, wall of sound]\nFIRMA CON SANGRE SOBRE EL METAL\n\nVENDE TU ALMA AL RUIDO INFERNAL\nEL BAJO TE MUERDE TE ROMPE LA PIEL\nBAILANDO EN EL BARRO HASTA ENLOQUECER\n\n[Verse 2, frantic acid synths, gritty delivery]\nMe clavó una aguja directo en la sien\nSentí el cortocircuito a más de cien\nMi voz ahora suena a chatarra y dolor\nSoy el puto rey de este sucio rincón\n\n[Pre-Chorus, squelchy TB-303 bassline, distorted 909 kick building]\nNo olía a azufre olía a motor\nUn traje de cables y un negro visor\nMe dijo muchacho qué vienes a dar\nSi quieres la fama te va a costar\n\n[Chorus, explosive energy, shouted vocals, wall of sound]\nFIRMA CON SANGRE SOBRE EL METAL\nVENDE TU ALMA AL RUIDO INFERNAL\nEL BAJO TE MUERDE TE ROMPE LA PIEL\nBAILANDO EN EL BARRO HASTA ENLOQUECER\n\n[Drop, massive 303 acid lead, distorted guitar solo -> expose vocals]\n(Aaaahhhhhhh)\n¡EL PACTO ESTÁ HECHO!\n\n[Outro, fading harmonica, distorted 303 decay, heavy footsteps]\nEl diablo se ríe\nMe arranco el pecho\n(Se ríe)\n\n[End]",
+    "refund_credits": false,
+    "stream": true,
+    "tags": "SPANISH DELTA BLUES ACID TECNO, 130 BPM, dirty acoustic guitar, rusty harmonica, squelchy TB-303 bassline, distorted 909 kicks, gritty male vocal\n",
+    "type": "gen",
+    "uses_latest_model": true,
+    "video_is_stale": false
+  },
+  "model_name": "chirp-fenix",
+  "ownership": {
+    "ownership_reason": "subscribed"
+  },
+  "play_count": 5,
+  "project": {
+    "description": "1-Temazos",
+    "id": "34d638ba-5606-4a9f-ad83-cfb2d9f7d7b8",
+    "is_public": false,
+    "is_trashed": false,
+    "name": "1-Temazos"
+  },
+  "reaction": {
+    "clip": "5e29a50e-d2f1-4b65-a162-54be26078053",
+    "flagged": false,
+    "play_count": 5,
+    "reaction_type": "L",
+    "skip_count": 0,
+    "updated_at": "2026-06-25T01:43:19.988Z"
+  },
+  "status": "complete",
+  "title": "EL PACTO DEL PANTANO",
+  "upvote_count": 1,
+  "user_id": "6755b056-24ad-46c6-904c-8687163942ad",
+  "video_url": "https://cdn1.suno.ai/5e29a50e-d2f1-4b65-a162-54be26078053.mp4",
+  "workspaceId": "34d638ba-5606-4a9f-ad83-cfb2d9f7d7b8",
+  "workspaceName": "1-Temazos",
+  "_cacheTimestamp": 1782504031178
+}

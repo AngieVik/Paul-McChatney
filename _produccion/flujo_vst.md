@@ -19,8 +19,8 @@ Selecciona la **pista de voz**. Aplica los efectos **en este orden** (limpiar �
 
 Es el mismo plugin que usas en el instrumental, pero con otros ajustes. Aquí **NO actives Threshold** en ninguna banda (son cortes fijos, no dinámicos).
 
-- **HPF (filtro paso alto):** actívalo en **85 Hz**, pendiente **12 dB/oct**. Quita el retumbe y los "pops" de la voz.
-- **Una banda → 300 Hz:** baja la ganancia **−3 dB** (deja la Q como viene). Quita el sonido "a caja / enlatado".
+- **HPF (filtro paso alto):** actívalo en **85 Hz**, pendiente **12 dB\oct**. Quita el retumbe y los "pops" de la voz.
+- **Una banda → 300 Hz:** baja la ganancia **−3 dB** (deja la Q como viene). Quita el sonido "a caja \ enlatado".
 - **Aplicar.**
 
 > Salta este paso si la voz ya suena limpia. Úsalo si notas la voz "embotada", con retumbe o metida en una caja.
@@ -35,7 +35,7 @@ Es el mismo plugin que usas en el instrumental, pero con otros ajustes. Aquí **
 ### Techivation T-De-Esser — quita el exceso de "S"
 
 - **Frequency:** High
-- **Intensity / Threshold:** súbelo hasta que el medidor de reducción marque entre **−3 y −6 dB**, y **solo** cuando suene una "s" o "ch".
+- **Intensity \ Threshold:** súbelo hasta que el medidor de reducción marque entre **−3 y −6 dB**, y **solo** cuando suene una "s" o "ch".
 - **Sharpness:** 50%
 - **Aplicar.**
 
@@ -49,7 +49,7 @@ Selecciona la **pista instrumental**. Un solo efecto:
 
 ### TDR Nova — limpia graves y asperezas
 
-- **HPF (filtro paso alto):** actívalo en **30 Hz**, pendiente **18 dB/oct**. Quita el retumbe grave que no se oye pero estorba.
+- **HPF (filtro paso alto):** actívalo en **30 Hz**, pendiente **18 dB\oct**. Quita el retumbe grave que no se oye pero estorba.
 - **Banda 1 → 300 Hz:** activa **Threshold** y ajústala para que baje **−2 dB** cuando los graves suenen embarrados.
 - **Banda 4 → 5000 Hz (5 kHz):** activa **Threshold** y ajústala para bajar **−2 a −3 dB** cuando los platillos o los sintes suenen ásperos.
 - **Aplicar.**
@@ -96,7 +96,7 @@ Selecciona la **pista única**. Aplica estos efectos en orden:
 
 **Aplicar.**
 
-**Qué hace este paso:** deja tu canción al mismo volumen que las demás en Spotify/YouTube, sin pasarse. Si la quieres con más pegada, prueba **−12 LUFS**; más fuerte que eso empieza a apretar de más.
+**Qué hace este paso:** deja tu canción al mismo volumen que las demás en Spotify\YouTube, sin pasarse. Si la quieres con más pegada, prueba **−12 LUFS**; más fuerte que eso empieza a apretar de más.
 
 ---
 
@@ -112,7 +112,7 @@ Antes de exportar, comprueba abajo a la izquierda que la **Frecuencia de proyect
 **Frecuencia:** 44100 Hz
 **Canales:** Estéreo
 
-### Exportar en MP3 (para compartir / subir)
+### Exportar en MP3 (para compartir \ subir)
 
 **Archivo → Exportar audio → ...** y elige **MP3**.
 **Modo de tasa de bits:** **Constante**
@@ -130,18 +130,18 @@ Cosas que conviene dejar puestas antes de empezar; te ahorran errores.
 - **Frecuencia de proyecto a 44100 Hz** — esquina **inferior izquierda**. Que coincida con la exportación.
 - **Activar el aviso de saturación:** menú **Ver → Mostrar recortes**. Pinta en **rojo** las zonas que saturan; así las ves de un vistazo sin adivinar.
 - **Calidad de trabajo:** **Editar → Preferencias → Calidad → Formato de muestra: 32 bits flotante**. Da margen para que los efectos no saturen mientras trabajas (al exportar en WAV ya bajas a 16 bits).
-- **Guarda el proyecto, no solo el audio:** **Archivo → Guardar proyecto** (genera un `.aup3`). Guarda pistas y ajustes para retomar otro día. Exportar (WAV/MP3) es solo el resultado final.
+- **Guarda el proyecto, no solo el audio:** **Archivo → Guardar proyecto** (genera un `.aup3`). Guarda pistas y ajustes para retomar otro día. Exportar (WAV\MP3) es solo el resultado final.
 
 ### Atajos que más vas a usar
 
-- **Barra espaciadora** → reproducir / parar
+- **Barra espaciadora** → reproducir \ parar
 - **Ctrl + Z** → deshacer (tu mejor amigo)
 - **Ctrl + A** → seleccionar toda la pista
-- **Inicio / Fin** → ir al principio / al final de la canción
+- **Inicio \ Fin** → ir al principio \ al final de la canción
 - **Ctrl + S** → guardar el proyecto
 
 ### Si algo suena mal, mira esto primero
 
 - **¿Satura (rojo)?** Baja el **deslizador de ganancia** de la pista, no subas más efectos.
 - **¿Te pasaste con un efecto?** **Ctrl + Z** y vuelve a aplicarlo con valores más suaves.
-- **¿Quieres comparar antes/después?** Usa **Reproducir** dentro del efecto antes de pulsar Aplicar.
+- **¿Quieres comparar antes\después?** Usa **Reproducir** dentro del efecto antes de pulsar Aplicar.

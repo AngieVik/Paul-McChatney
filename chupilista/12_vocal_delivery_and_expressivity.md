@@ -109,7 +109,7 @@
 [Screaming Thrash Metal Shout Angry Male Voice]
 [Screaming Thrash Metal Shout]
 [Screaming Voice]
-[Screamo / Guttural Growl]
+[Screamo \ Guttural Growl]
 [Shout]
 [Shouted Anthem Delivery Shouted Anthem Choir]
 [Shouted Anthem Delivery]
@@ -344,7 +344,7 @@
 [Autotuned Voice]
 [Binary Code Recitation Monotone Robotic Coldness]
 [Binary Code Recitation]
-[Choppy Glitched Stutter 1/32 Audio Matrix Beat]
+[Choppy Glitched Stutter 1\32 Audio Matrix Beat]
 [Choppy Glitched Stutter]
 [Choppy Segmented Delivery Rigid Robotic Droid]
 [Choppy Segmented Delivery]
@@ -361,8 +361,8 @@
 [Gated Vocal Stutter Grid Hard Gated Vocal Cut]
 [Gated Vocal Stutter]
 [Glitch Broken Singing]
-[Glitched Stutter 1/32 Glitch Stutter Grid 1/32]
-[Glitched Stutter 1/32]
+[Glitched Stutter 1\32 Glitch Stutter Grid 1\32]
+[Glitched Stutter 1\32]
 [Glitchy Micro Sampled Vocal Chop Grid]
 [Glitchy Vocals]
 [Granular Synthesis Scatter Granular Vocal Scatter Grid]
@@ -385,10 +385,10 @@
 [Ring Modulator Robot Voice]
 [Robotic Vocoder Spliced Cybernetic Vocoder Harmonies]
 [Robotic Vocoder Spliced]
-[Stutter FX 1/16 Delivery Stutter FX 1/16 Vocalist]
-[Stutter FX 1/16 Delivery]
-[Stutter FX 1/32 Grid Vocal Stutter Glitch Matrix]
-[Stutter FX 1/32 Grid]
+[Stutter FX 1\16 Delivery Stutter FX 1\16 Vocalist]
+[Stutter FX 1\16 Delivery]
+[Stutter FX 1\32 Grid Vocal Stutter Glitch Matrix]
+[Stutter FX 1\32 Grid]
 [Stuttering Anxious Computer Terminal Delivery]
 [Synthetic Vocoder Choir Robot Harmony Grid]
 [Synthwave Retrowave Retro Cyber Tenor Delivery]
@@ -576,7 +576,7 @@
 
 ### 9 · Efectos de Estudio, Capas y Modulación de Tono
 
-*Simulaciones de hardware analógico, entornos físicos, filtros telefónicos, megáfonos, coros estratificados, delays y manipulación de pitch/formante.*
+*Simulaciones de hardware analógico, entornos físicos, filtros telefónicos, megáfonos, coros estratificados, delays y manipulación de pitch\formante.*
 *Palabras clave: lo-fi, megáfono, teléfono, radio antigua, delay, reverb, sub-bass, coros, octava, pitch-shift, formantes, phaser, chorus, espacial, filtro.*
 
 [Atonal Chanted Delivery Avant-Garde Sound Poetry]

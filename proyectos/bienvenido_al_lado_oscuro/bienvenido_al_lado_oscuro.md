@@ -44,7 +44,7 @@ Ladea una sonrisa.
 Habla lento, luego acelera.
 Termina con una amenaza disfrazada.
 
-[Drop / Break][Spanish Male Voice][Whispered Vox, Kickroll, Low Sub Hit]
+[Drop \ Break][Spanish Male Voice][Whispered Vox, Kickroll, Low Sub Hit]
 Esto no es manipulación.
 Es marketing emocional.
 Y tú eres la oferta de hoy.

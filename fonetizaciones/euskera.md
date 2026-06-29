@@ -13,9 +13,9 @@ El euskera exige una tensión muscular ininterrumpida en el tracto vocal, careci
 
 ## 2. Mapeo de Vocales (Reducción al Español)
 
-El sistema vocálico vasco es idéntico al pentavocálico del español (/a, e, i, o, u/). La adaptación fonética exige preservar la pureza tímbrica de la vocal independientemente de su posición acentual.
+El sistema vocálico vasco es idéntico al pentavocálico del español (\a, e, i, o, u\). La adaptación fonética exige preservar la pureza tímbrica de la vocal independientemente de su posición acentual.
 
-| Patrón / Grafía Original | Regla de Transformación | Equivalencia Fonética | Ejemplo Práctico |
+| Patrón \ Grafía Original | Regla de Transformación | Equivalencia Fonética | Ejemplo Práctico |
 | :--- | :--- | :--- | :--- |
 | **a, e, i, o, u** | Lectura directa literal sin relajación átona | **a, e, i, o, u** | *bat* → **bát** |
 | **au** | Diptongo decreciente tenso y veloz | **áu** | *aurrera* → **áu rre ra** |
@@ -30,13 +30,13 @@ La ortografía estandarizada codifica las sibilantes mediante un sistema riguros
 
 | Sonido de Origen (IPA) | Descripción Articulatoria | Fonetización en Español |
 | :--- | :--- | :--- |
-| **z** (/s̻/) | Fricativa laminoalveolar sorda. Dorso tras incisivos. | **s** (silbo plano) |
-| **s** (/s̺/) | Fricativa apicoalveolar sorda. Ápice hacia alvéolo superior. | **s** (silbo cóncavo grave) |
-| **x** (/ʃ/) | Fricativa postalveolar sorda. | **sh** |
-| **tz** (/ts̻/) | Africada laminoalveolar sorda. | **ts** (suave) |
-| **ts** (/ts̺/) | Africada apicoalveolar sorda. | **ts** (dura) |
-| **tx** (/tʃ/) | Africada postalveolar sorda. | **ch** |
-| **j** (/j/ o /x/) | Aproximante palatal (estándar) o fricativa velar (dialectal). | **y** o **j** |
+| **z** (\s̻\) | Fricativa laminoalveolar sorda. Dorso tras incisivos. | **s** (silbo plano) |
+| **s** (\s̺\) | Fricativa apicoalveolar sorda. Ápice hacia alvéolo superior. | **s** (silbo cóncavo grave) |
+| **x** (\ʃ\) | Fricativa postalveolar sorda. | **sh** |
+| **tz** (\ts̻\) | Africada laminoalveolar sorda. | **ts** (suave) |
+| **ts** (\ts̺\) | Africada apicoalveolar sorda. | **ts** (dura) |
+| **tx** (\tʃ\) | Africada postalveolar sorda. | **ch** |
+| **j** (\j\ o \x\) | Aproximante palatal (estándar) o fricativa velar (dialectal). | **y** o **j** |
 
 * **Consonantes mudas:** La grafía **h** es fonológicamente nula en los dialectos peninsulares (Hegoalde). Por convención de lectura estándar occidental: carece de valor fonético y se ignora por completo.
 
@@ -50,8 +50,8 @@ El euskera occidental posee un sistema acentual de intensidad subyacente paramet
 
 ## 5. Excepciones y "Falsos Amigos" Fonéticos
 
-* **La letra 'z' y el dígrafo 'tz':** Constituyen el mayor error de transferencia. Jamás articulan la fricativa interdental sorda del español peninsular (/θ/). Su lectura literal destruye el valor léxico. Son siempre sibilantes.
-* **La letra 'j':** Su ejecución como fricativa velar sorda (/x/, 'j' española) es una asimilación areal limitada a Gipuzkoa. El estándar batua y la fonética histórica prescriben un sonido palatal (/j/, 'y' española).
+* **La letra 'z' y el dígrafo 'tz':** Constituyen el mayor error de transferencia. Jamás articulan la fricativa interdental sorda del español peninsular (\θ\). Su lectura literal destruye el valor léxico. Son siempre sibilantes.
+* **La letra 'j':** Su ejecución como fricativa velar sorda (\x\, 'j' española) es una asimilación areal limitada a Gipuzkoa. El estándar batua y la fonética histórica prescriben un sonido palatal (\j\, 'y' española).
 
 ## 6. Casos Prácticos de Aplicación (Lectura Directa)
 
@@ -80,7 +80,7 @@ El contacto sociolingüístico genera un sustrato fonético identificable cuando
 
 ### 7.2. Sustitución Consonántica y Fricación
 
-* **Sustitución Sibilante:** Transferencia de la fricativa apicoalveolar vasca (/s̺/) a todas las grafías 's' del español, otorgando un timbre sibilante denso.
+* **Sustitución Sibilante:** Transferencia de la fricativa apicoalveolar vasca (\s̺\) a todas las grafías 's' del español, otorgando un timbre sibilante denso.
 * **Ensordecimiento Oclusivo:** Neutralización de las oclusivas sonoras en posición final absoluta (b, d, g), articulándose como sordas tensas (p, t, k) (ej. *salud* → **sa lút**).
 
 ### 7.3. Alteración Rítmica
@@ -90,7 +90,7 @@ El contacto sociolingüístico genera un sustrato fonético identificable cuando
 ### 7.4. Casos Prácticos de Aplicación (Lectura Extranjerizada)
 
 * **Palabra Española:** `Zapatillas`
-  * *Desglose de Interferencia:* Sustitución de la interdental /θ/ por apicoalveolar /s̺/. Hipertensión en la explosión de 'p' y 't'. Ritmo de metrónomo.
+  * *Desglose de Interferencia:* Sustitución de la interdental \θ\ por apicoalveolar \s̺\. Hipertensión en la explosión de 'p' y 't'. Ritmo de metrónomo.
   * *Fonetización simulada:* **sa pa tí yas**
 
 * **Palabra Española:** `Madrid`

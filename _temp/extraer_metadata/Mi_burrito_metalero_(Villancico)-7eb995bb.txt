@@ -1,0 +1,296 @@
+Metadata for: Mi_burrito_metalero_(Villancico)-7eb995bb
+Generated: 2026-06-26T20:05:53.085Z
+
+--- Track Information ---
+Title: Mi burrito metalero (Villancico)
+Artist: AngieSoundlab
+
+--- Musical Information ---
+
+--- Creation Details ---
+Prompt: Spanish Folk Metal, Male Vocals (Lyrical Tenor with gritty rock tone), Symphonic Folk Style, High Energy.
+Track ID: 7eb995bb-cf43-46bd-9511-59748451d4ea
+
+--- Lyrics ---
+[Essence: Epic Journey, Freedom, Celtic Fantasy, Hymn]
+[Production: Spanish Folk Metal, Symphonic Orchestra, Celtic Flute Lead, Violin Solo, Galloping Bass, Double Kick Drum]
+
+[Intro]
+[Celtic Flute Solo: Melancholic & Virtuoso]
+[Violin Entry: Fast Jig]
+[Full Band Explosion]
+[Rhythm: Galloping 6/8]
+[Crowd: Hey! Hey! Hey!]
+
+[Verse 1]
+[Vocals: Narrative & Solemn][Bass: Melodic]
+Con mi burrito metalero, voy cruzando el temporal,
+con mi burrito metalero, voy cruzando el temporal.
+No llevo oro en las alforjas, ni mapas de un reino mortal,
+tan solo sueños y canciones para vencer al mal.
+
+[Pre-Chorus]
+[Dynamics: Crescendo][Strings: Legato]
+Y aunque la noche cubra el bosque con su manto de cristal,
+nuestras pisadas son truenos que despiertan el metal.
+
+[Chorus]
+[Dynamics: Fortissimo][Choir: Epic Harmonies][Melody: Anthem]
+¡Si me ven! ¡Si me ven!
+¡Voy camino del Edén!
+¡Si me ven! ¡Si me ven!
+¡Voy camino del Edén!
+La senda es larga y el destino es la voz de la libertad,
+donde los cuentos y leyendas se convierten en verdad.
+
+[Post-Chorus]
+[Violin Hook: Festive Melody]
+[Tempo: Upbeat]
+¡Trota, trota, noble amigo!
+¡Trota lejos del olvido!
+
+[Verse 2]
+[Vocals: Emotional][Atmosphere: Mystic]
+El lucerito mañanero ilumina mi jardín,
+el lucerito mañanero ilumina mi jardín.
+Somos juglares del asfalto, quijotes de la realidad,
+luchando contra los gigantes de la gris mediocridad.
+
+[Bridge]
+[Tempo: Breakdown][Percussion: Tribal][Vocals: Chant]
+[Instrumentation: Minimalist Flute & Drums]
+Tuqui, tuqui, tuqui, tuqui... (¡El corazón!)
+Tuqui, tuqui, tuqui, ta... (¡Marca el son!)
+¡Apresura el paso, amigo, que el telón se va a alzar!
+Tuqui, tuqui, tuqui, tuqui... (¡Sin temor!)
+Tuqui, tuqui, tuqui, tu... (¡Con valor!)
+¡Que la gloria nos espera donde muere la luz!
+
+[Solo]
+[Instrumental Duel]
+[Keyboard Solo: Baroque Harpsichord Style]
+[Guitar Solo: Melodic Twin Harmonies]
+[Violin & Flute: Celtic Call and Response]
+
+[Chorus]
+[Dynamics: Maximum Power][Full Orchestra]
+¡Si me ven! ¡Si me ven!
+¡Voy camino del Edén!
+¡Si me ven! ¡Si me ven!
+¡Voy camino del Edén!
+La senda es larga y el destino es la voz de la libertad,
+donde los cuentos y leyendas se convierten en verdad.
+
+[Outro]
+[Tempo: Accelerando][Atmosphere: Festival]
+¡Adelante, fiel amigo! (¡Hasta el final!)
+¡El camino es nuestro hogar!
+[Vocal Ad-lib: High Note Scream]
+¡Nuestro hooogaaaaaaaar!
+[Final Orchestral Hit]
+[Violin Flourish]
+[Feedback]
+[Fade Out]
+[End]
+
+Cover Art URL: https://cdn2.suno.ai/image_7eb995bb-cf43-46bd-9511-59748451d4ea.jpeg
+
+--- Respuesta Bruta de la API ---
+{
+  "action_config": {
+    "actions": [
+      {
+        "action_type": "add_to_playlist",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "like_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "share_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "dislike_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "report_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "remove_from_playlist",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "delete_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "edit_song_details",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "create_hook",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "download_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "download_as_video",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "unpublish_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "remaster",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "allow_comments_toggle_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "allow_remix",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "pin_to_profile",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "remix_extend",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "remix_cover",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "remix_reuse_style",
+        "disabled": false,
+        "visible": true
+      }
+    ]
+  },
+  "allow_comments": true,
+  "audio_url": "https://cdn1.suno.ai/7eb995bb-cf43-46bd-9511-59748451d4ea.mp3",
+  "avatar_image_url": "https://cdn1.suno.ai/8b5db1b2.webp",
+  "batch_index": 0,
+  "comment_count": 0,
+  "created_at": "2025-12-23T02:55:37.405Z",
+  "display_name": "AngieSoundlab",
+  "entity_type": "song_schema",
+  "explicit": false,
+  "flag_count": 0,
+  "handle": "angiesoundlab",
+  "has_hook": false,
+  "id": "7eb995bb-cf43-46bd-9511-59748451d4ea",
+  "image_large_url": "https://cdn2.suno.ai/image_large_7eb995bb-cf43-46bd-9511-59748451d4ea.jpeg",
+  "image_url": "https://cdn2.suno.ai/image_7eb995bb-cf43-46bd-9511-59748451d4ea.jpeg",
+  "is_contest_clip": false,
+  "is_following_creator": false,
+  "is_handle_updated": true,
+  "is_hidden": false,
+  "is_liked": true,
+  "is_persona_root": false,
+  "is_public": true,
+  "is_trashed": false,
+  "is_verified": false,
+  "major_model_version": "v4.5+",
+  "media_urls": [
+    {
+      "content_type": "m4a-opus",
+      "delivery": "progressive",
+      "encoding": "1.0.0",
+      "url": "https://d2lwuy8qc234o3.cloudfront.net/1/clip/7eb995bb-cf43-46bd-9511-59748451d4ea.m4a"
+    },
+    {
+      "content_type": "mp3",
+      "delivery": "progressive",
+      "url": "https://cdn1.suno.ai/7eb995bb-cf43-46bd-9511-59748451d4ea.mp3"
+    }
+  ],
+  "metadata": {
+    "can_remix": true,
+    "duration": 255,
+    "has_stem": false,
+    "is_mumble": false,
+    "is_remix": false,
+    "make_instrumental": false,
+    "model_badges": {
+      "songrow": {
+        "dark": {
+          "background_color": "00000000",
+          "border_color": "FFFFFF1A",
+          "text_color": "A3A3A3"
+        },
+        "display_name": "v4.5+",
+        "light": {
+          "background_color": "00000000",
+          "border_color": "0000001A",
+          "text_color": "7D7C83"
+        }
+      }
+    },
+    "priority": 10,
+    "prompt": "[Essence: Epic Journey, Freedom, Celtic Fantasy, Hymn]\n[Production: Spanish Folk Metal, Symphonic Orchestra, Celtic Flute Lead, Violin Solo, Galloping Bass, Double Kick Drum]\n\n[Intro]\n[Celtic Flute Solo: Melancholic & Virtuoso]\n[Violin Entry: Fast Jig]\n[Full Band Explosion]\n[Rhythm: Galloping 6/8]\n[Crowd: Hey! Hey! Hey!]\n\n[Verse 1]\n[Vocals: Narrative & Solemn][Bass: Melodic]\nCon mi burrito metalero, voy cruzando el temporal,\ncon mi burrito metalero, voy cruzando el temporal.\nNo llevo oro en las alforjas, ni mapas de un reino mortal,\ntan solo sueños y canciones para vencer al mal.\n\n[Pre-Chorus]\n[Dynamics: Crescendo][Strings: Legato]\nY aunque la noche cubra el bosque con su manto de cristal,\nnuestras pisadas son truenos que despiertan el metal.\n\n[Chorus]\n[Dynamics: Fortissimo][Choir: Epic Harmonies][Melody: Anthem]\n¡Si me ven! ¡Si me ven!\n¡Voy camino del Edén!\n¡Si me ven! ¡Si me ven!\n¡Voy camino del Edén!\nLa senda es larga y el destino es la voz de la libertad,\ndonde los cuentos y leyendas se convierten en verdad.\n\n[Post-Chorus]\n[Violin Hook: Festive Melody]\n[Tempo: Upbeat]\n¡Trota, trota, noble amigo!\n¡Trota lejos del olvido!\n\n[Verse 2]\n[Vocals: Emotional][Atmosphere: Mystic]\nEl lucerito mañanero ilumina mi jardín,\nel lucerito mañanero ilumina mi jardín.\nSomos juglares del asfalto, quijotes de la realidad,\nluchando contra los gigantes de la gris mediocridad.\n\n[Bridge]\n[Tempo: Breakdown][Percussion: Tribal][Vocals: Chant]\n[Instrumentation: Minimalist Flute & Drums]\nTuqui, tuqui, tuqui, tuqui... (¡El corazón!)\nTuqui, tuqui, tuqui, ta... (¡Marca el son!)\n¡Apresura el paso, amigo, que el telón se va a alzar!\nTuqui, tuqui, tuqui, tuqui... (¡Sin temor!)\nTuqui, tuqui, tuqui, tu... (¡Con valor!)\n¡Que la gloria nos espera donde muere la luz!\n\n[Solo]\n[Instrumental Duel]\n[Keyboard Solo: Baroque Harpsichord Style]\n[Guitar Solo: Melodic Twin Harmonies]\n[Violin & Flute: Celtic Call and Response]\n\n[Chorus]\n[Dynamics: Maximum Power][Full Orchestra]\n¡Si me ven! ¡Si me ven!\n¡Voy camino del Edén!\n¡Si me ven! ¡Si me ven!\n¡Voy camino del Edén!\nLa senda es larga y el destino es la voz de la libertad,\ndonde los cuentos y leyendas se convierten en verdad.\n\n[Outro]\n[Tempo: Accelerando][Atmosphere: Festival]\n¡Adelante, fiel amigo! (¡Hasta el final!)\n¡El camino es nuestro hogar!\n[Vocal Ad-lib: High Note Scream]\n¡Nuestro hooogaaaaaaaar!\n[Final Orchestral Hit]\n[Violin Flourish]\n[Feedback]\n[Fade Out]\n[End]",
+    "refund_credits": false,
+    "stream": true,
+    "tags": "Spanish Folk Metal, Male Vocals (Lyrical Tenor with gritty rock tone), Symphonic Folk Style, High Energy.",
+    "type": "gen",
+    "uses_latest_model": false,
+    "video_is_stale": false
+  },
+  "model_name": "chirp-bluejay",
+  "ownership": {
+    "ownership_reason": "subscribed"
+  },
+  "play_count": 8,
+  "project": {
+    "description": "1-Temazos",
+    "id": "34d638ba-5606-4a9f-ad83-cfb2d9f7d7b8",
+    "is_public": false,
+    "is_trashed": false,
+    "name": "1-Temazos"
+  },
+  "reaction": {
+    "clip": "7eb995bb-cf43-46bd-9511-59748451d4ea",
+    "flagged": false,
+    "play_count": 7,
+    "reaction_type": "L",
+    "skip_count": 0,
+    "updated_at": "2026-03-20T05:21:38.249Z"
+  },
+  "status": "complete",
+  "title": "Mi burrito metalero (Villancico)",
+  "upvote_count": 1,
+  "user_id": "6755b056-24ad-46c6-904c-8687163942ad",
+  "video_url": "https://cdn1.suno.ai/7eb995bb-cf43-46bd-9511-59748451d4ea.mp4",
+  "workspaceId": "34d638ba-5606-4a9f-ad83-cfb2d9f7d7b8",
+  "workspaceName": "1-Temazos",
+  "_cacheTimestamp": 1782504031178
+}

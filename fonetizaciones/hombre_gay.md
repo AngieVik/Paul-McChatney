@@ -1,4 +1,4 @@
-# Guía de Fonetización en Español: Sociolecto Queer Contemporáneo (Voz Masculina / Diva Energy)
+# Guía de Fonetización en Español: Sociolecto Queer Contemporáneo (Voz Masculina \ Diva Energy)
 
 **Notas de Configuración Fonética:** Sistema altamente prosódico y elástico. No se basa en cambiar fonemas radicales, sino en la alteración dramática del tono (pitch), el alargamiento vocálico exagerado y la hiper-articulación o relajación estratégica de ciertas consonantes para denotar actitud, confianza y teatralidad.
 
@@ -9,16 +9,16 @@
 Una introducción al "carácter" del idioma para establecer la postura articulatoria del lector.
 
 * **Descripción:** Ritmo rebotado y melódico. La voz fluctúa constantemente entre un registro modal relajado y picos de falsete o agudos súbitos. La posición de la boca suele ser abierta y proyectada hacia adelante en las vocales tónicas.
-* **Rasgo Distintivo:** Presencia de "vocal fry" (frito vocal o voz ronca/arrastrada) al final de las frases afirmativas, y una 's' extremadamente sibilante y dental.
+* **Rasgo Distintivo:** Presencia de "vocal fry" (frito vocal o voz ronca\arrastrada) al final de las frases afirmativas, y una 's' extremadamente sibilante y dental.
 
 ## 2. Mapeo de Vocales (Reducción al Español)
 
 Adaptación del sistema vocálico para simular la elasticidad y el dramatismo del personaje.
 
-| Patrón / Grafía Original | Regla de Transformación | Equivalencia Fonética | Ejemplo Práctico |
+| Patrón \ Grafía Original | Regla de Transformación | Equivalencia Fonética | Ejemplo Práctico |
 | :--- | :--- | :--- | :--- |
 | Vocal Tónica | Se alarga rítmicamente para añadir peso dramático | **V-V** | *diva* → **dí-i va** |
-| Vocal Final Átona | Se arrastra cayendo en tono (vocal fry) o se corta en seco | **V-** / **V** | *bueno* → **bué no-o** |
+| Vocal Final Átona | Se arrastra cayendo en tono (vocal fry) o se corta en seco | **V-** \ **V** | *bueno* → **bué no-o** |
 | Diptongos Exagerados | Transición lenta entre las dos vocales del diptongo | **V-V** | *reina* → **ré-i na** |
 
 * **Diptongos clave:** Las combinaciones "ie" y "ei" se pronuncian con una fricción casi palatal, dándoles muchísimo brillo.
@@ -29,9 +29,9 @@ Cómo representar fonemas para forzar la actitud en el motor TTS.
 
 | Sonido de Origen (IPA) | Descripción Articulatoria | Fonetización en Español |
 | :--- | :--- | :--- |
-| /s/ (Afilada) | Fricativa alveolar sorda hiper-articulada | **ss** (o **s-s** para énfasis) |
-| /t/ /d/ (Enfáticas) | Oclusivas dentales marcadas con fuerza | **t** / **d** (aisladas con pausa leve) |
-| /k/ /p/ (Aspiradas) | Oclusivas con explosión de aire al inicio de palabra | **kh** / **ph** |
+| \s\ (Afilada) | Fricativa alveolar sorda hiper-articulada | **ss** (o **s-s** para énfasis) |
+| \t\ \d\ (Enfáticas) | Oclusivas dentales marcadas con fuerza | **t** \ **d** (aisladas con pausa leve) |
+| \k\ \p\ (Aspiradas) | Oclusivas con explosión de aire al inicio de palabra | **kh** \ **ph** |
 
 * **Consonantes mudas o elididas:** La 'd' intervocálica final a veces se omite por completo para sonar más coloquial e íntimo (Ej. *pesada* → **pe sá-a**).
 

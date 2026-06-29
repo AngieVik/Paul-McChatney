@@ -20,7 +20,7 @@ Rareza —%
 Influencia estilo —%
 
 ## Style Box
-4/4, Spanish Rumba Flamenca, Modern Cante Jondo, Andalusian Folk, Urban Spanish Pop, Cajón Flamenco, Spanish Guitar, Deep Sub Bass, Emotional Atmosphere, Ocean Rescuer Metaphor, Cinematic
+4\4, Spanish Rumba Flamenca, Modern Cante Jondo, Andalusian Folk, Urban Spanish Pop, Cajón Flamenco, Spanish Guitar, Deep Sub Bass, Emotional Atmosphere, Ocean Rescuer Metaphor, Cinematic
 
 ## Negative Prompts
 

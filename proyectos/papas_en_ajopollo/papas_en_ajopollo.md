@@ -49,7 +49,7 @@ Colorante con dudas
 Un caldo que huele a casa ajena
 Y un beat que huele a fritanga
 
-[Hook / Drop][Spanish Male Voice][Sizzling Bass, Siren Tapa, Spoon Crash FX]
+[Hook \ Drop][Spanish Male Voice][Sizzling Bass, Siren Tapa, Spoon Crash FX]
 ¡Papas en ajopollo!
 ¡3 días sin luz pero con sabor!
 

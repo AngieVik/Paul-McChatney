@@ -1,20 +1,20 @@
 *ALKAN GYPSYCORE*
 Acordeones desquiciados, trompetas balcánicas de feria tocando a toda velocidad y un bombo de Hardtek oscuro y rebotón.
 *OPERA TRAP HARDTEK*
-Vocales de soprano de ópera cantando lamentos clásicos, cruzadas con los hi-hats frenéticos del Drill/Trap y el bajo pesado del Hardtek.
-*DOOMCORE / TERRORCORE*
+Vocales de soprano de ópera cantando lamentos clásicos, cruzadas con los hi-hats frenéticos del Drill\Trap y el bajo pesado del Hardtek.
+*DOOMCORE \ TERRORCORE*
 Lento, asfixiante, atmósferas de película de terror y bombos que suenan como pasos de un gigante.
 *ORCHESTRAL FRENCHCORE u OPERATIC HARDTEK*
 Coros gregorianos, violines tensos o una voz de soprano dramática cantando como si se acabara el mundo, cabalgando sobre un ritmo de Hardtek a toda velocidad.
-*HARDTEK / FRENCHCORE*
+*HARDTEK \ FRENCHCORE*
 Sintetizadores agresivos, bombos distorsionados, velocidad pura.
-*RAGGATEK / RAGGA FRENCHCORE*
-Voces de reggae/dancehall o fraseos urbanos ametrallados a doble tempo, combinados con bajos que hacen temblar los cristales.
+*RAGGATEK \ RAGGA FRENCHCORE*
+Voces de reggae\dancehall o fraseos urbanos ametrallados a doble tempo, combinados con bajos que hacen temblar los cristales.
 *RAGGATEK*
-El ritmo pesado del Hardtek cruzado con vocales aceleradas de reggae/dancehall.
+El ritmo pesado del Hardtek cruzado con vocales aceleradas de reggae\dancehall.
 *CYBERPUNK NU-METAL HARDTEK*
 Guitarras eléctricas con mucha distorsión (riffs de metal), sintetizadores ácidos que suenan a sirenas de alarma, y voces desgarradas o susurros robóticos.
-*CYBERPUNK / INDUSTRIAL HARDCORE*
+*CYBERPUNK \ INDUSTRIAL HARDCORE*
 Metálico, oscuro, ruidos de maquinaria, sirenas y bajos pesados.
 *SPANISH FLAMENCO HARDTEK*
 Guitarras españolas crudas, palmas rítmicas y lamentos flamencos, pero cuando llega el drop... ¡PUM! Un bombo de Frenchcore distorsionado te aplasta contra el suelo.

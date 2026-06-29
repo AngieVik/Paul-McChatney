@@ -1,0 +1,274 @@
+Metadata for: A_TRAVÉS_DEL_RUGIDO-d36d74f3
+Generated: 2026-06-26T20:05:53.086Z
+
+--- Track Information ---
+Title: A TRAVÉS DEL RUGIDO
+Artist: AngieSoundlab
+
+--- Musical Information ---
+
+--- Creation Details ---
+Prompt: Style: Power Metal épico, Viking storytelling, speed shred vocals, mythological narrative, [Spanish Voice][Extended Vocal Techniques][Dynamic Choir Sections][Effect: Stereo Panning][Rubato Attack]
+Track ID: d36d74f3-2beb-4d81-bdeb-09225870ee00
+
+--- Lyrics ---
+Tronan las nubes de hielo y granizo
+el martillo desciende buscando castigo
+delante, Jötunheimr
+silencio de piedra
+y un dios que no se calla
+
+Caminaron sin miedo
+entre gritos del viento
+Loki reía con hambre
+Thor buscaba tormento
+
+castillo de engaños
+torres de sombra
+Útgarða-Loki
+los espera y se asombra
+
+¡A TRAVÉS DEL RUGIDO!
+cuando el trueno se rompe en la piel
+¡A TRAVÉS DEL RUGIDO!
+ni la magia me pudo vencer
+¡A TRAVÉS DEL RUGIDO!
+aunque pierda, no dejo de arder
+¡A TRAVÉS DEL RUGIDO!
+yo nací para volver
+
+Loki contra un gigante
+en un festín infernal
+la carne fue su espada
+pero el hueso fue su final
+
+Thor alzó el cuerno
+el mar se inclinó
+bebió hasta temblar el fiordo
+y la marea nació
+
+Un gato sin forma
+una pata que pesa el mundo
+el dios no lo sabe
+pero lo abraza rotundo
+
+Elli lo tumba
+y el tiempo se ríe
+ni el trueno eterno
+vence a lo que envejece
+
+¡A TRAVÉS DEL RUGIDO!
+cuando el trueno se rompe en la piel
+¡A TRAVÉS DEL RUGIDO!
+ni la magia me pudo vencer
+¡A TRAVÉS DEL RUGIDO!
+aunque pierda, no dejo de arder
+¡A TRAVÉS DEL RUGIDO!
+yo nací para volver
+
+
+
+Cover Art URL: https://cdn2.suno.ai/d36d74f3-2beb-4d81-bdeb-09225870ee00_5226bd0b.jpeg
+
+--- Respuesta Bruta de la API ---
+{
+  "action_config": {
+    "actions": [
+      {
+        "action_type": "add_to_playlist",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "like_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "share_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "dislike_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "report_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "remove_from_playlist",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "delete_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "edit_song_details",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "create_hook",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "download_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "download_as_video",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "unpublish_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "remaster",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "allow_comments_toggle_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "allow_remix",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "pin_to_profile",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "show_video_cover_in_hooks_feed",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "remix_extend",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "remix_cover",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "remix_reuse_style",
+        "disabled": false,
+        "visible": true
+      }
+    ]
+  },
+  "allow_comments": true,
+  "audio_url": "https://cdn1.suno.ai/d36d74f3-2beb-4d81-bdeb-09225870ee00.mp3",
+  "avatar_image_url": "https://cdn1.suno.ai/8b5db1b2.webp",
+  "batch_index": 0,
+  "caption": "Ni los dioses escapan al truco, ni el trueno olvida la humillación. La gloria se grita, se sangra y se gana rugiendo.",
+  "comment_count": 0,
+  "created_at": "2025-04-30T18:18:54.176Z",
+  "display_name": "AngieSoundlab",
+  "entity_type": "song_schema",
+  "explicit": true,
+  "flag_count": 0,
+  "handle": "angiesoundlab",
+  "has_hook": false,
+  "id": "d36d74f3-2beb-4d81-bdeb-09225870ee00",
+  "image_large_url": "https://cdn2.suno.ai/d36d74f3-2beb-4d81-bdeb-09225870ee00_5226bd0b.jpeg",
+  "image_url": "https://cdn2.suno.ai/d36d74f3-2beb-4d81-bdeb-09225870ee00_5226bd0b.jpeg",
+  "is_contest_clip": false,
+  "is_following_creator": false,
+  "is_handle_updated": true,
+  "is_hidden": false,
+  "is_liked": true,
+  "is_persona_root": false,
+  "is_public": true,
+  "is_trashed": false,
+  "is_verified": false,
+  "major_model_version": "v4",
+  "media_urls": [
+    {
+      "content_type": "mp3",
+      "delivery": "progressive",
+      "url": "https://cdn1.suno.ai/d36d74f3-2beb-4d81-bdeb-09225870ee00.mp3"
+    }
+  ],
+  "metadata": {
+    "can_remix": false,
+    "duration": 240,
+    "has_stem": false,
+    "is_remix": false,
+    "make_instrumental": false,
+    "model_badges": {
+      "songrow": {
+        "dark": {
+          "background_color": "00000000",
+          "border_color": "FFFFFF1A",
+          "text_color": "A3A3A3"
+        },
+        "display_name": "v4",
+        "light": {
+          "background_color": "00000000",
+          "border_color": "0000001A",
+          "text_color": "7D7C83"
+        }
+      }
+    },
+    "priority": 10,
+    "prompt": "Tronan las nubes de hielo y granizo\nel martillo desciende buscando castigo\ndelante, Jötunheimr\nsilencio de piedra\ny un dios que no se calla\n\nCaminaron sin miedo\nentre gritos del viento\nLoki reía con hambre\nThor buscaba tormento\n\ncastillo de engaños\ntorres de sombra\nÚtgarða-Loki\nlos espera y se asombra\n\n¡A TRAVÉS DEL RUGIDO!\ncuando el trueno se rompe en la piel\n¡A TRAVÉS DEL RUGIDO!\nni la magia me pudo vencer\n¡A TRAVÉS DEL RUGIDO!\naunque pierda, no dejo de arder\n¡A TRAVÉS DEL RUGIDO!\nyo nací para volver\n\nLoki contra un gigante\nen un festín infernal\nla carne fue su espada\npero el hueso fue su final\n\nThor alzó el cuerno\nel mar se inclinó\nbebió hasta temblar el fiordo\ny la marea nació\n\nUn gato sin forma\nuna pata que pesa el mundo\nel dios no lo sabe\npero lo abraza rotundo\n\nElli lo tumba\ny el tiempo se ríe\nni el trueno eterno\nvence a lo que envejece\n\n¡A TRAVÉS DEL RUGIDO!\ncuando el trueno se rompe en la piel\n¡A TRAVÉS DEL RUGIDO!\nni la magia me pudo vencer\n¡A TRAVÉS DEL RUGIDO!\naunque pierda, no dejo de arder\n¡A TRAVÉS DEL RUGIDO!\nyo nací para volver\n\n",
+    "refund_credits": false,
+    "stream": true,
+    "tags": "Style: Power Metal épico, Viking storytelling, speed shred vocals, mythological narrative, [Spanish Voice][Extended Vocal Techniques][Dynamic Choir Sections][Effect: Stereo Panning][Rubato Attack]",
+    "type": "gen",
+    "uses_latest_model": false,
+    "video_is_stale": false,
+    "video_upload_height": 720,
+    "video_upload_width": 1280
+  },
+  "model_name": "chirp-v4",
+  "ownership": {
+    "ownership_reason": "subscribed"
+  },
+  "play_count": 10,
+  "preview_url": "https://cdn1.suno.ai/video_upload_938ebc87-6150-419d-ae5c-8e072707e529_preview.mp4",
+  "project": {
+    "description": "1-Temazos",
+    "id": "34d638ba-5606-4a9f-ad83-cfb2d9f7d7b8",
+    "is_public": false,
+    "is_trashed": false,
+    "name": "1-Temazos"
+  },
+  "reaction": {
+    "clip": "d36d74f3-2beb-4d81-bdeb-09225870ee00",
+    "flagged": false,
+    "play_count": 10,
+    "reaction_type": "L",
+    "skip_count": 0,
+    "updated_at": "2026-06-03T05:10:52.522Z"
+  },
+  "status": "complete",
+  "title": "A TRAVÉS DEL RUGIDO",
+  "upvote_count": 1,
+  "user_id": "6755b056-24ad-46c6-904c-8687163942ad",
+  "video_cover_url": "https://cdn1.suno.ai/video_upload_938ebc87-6150-419d-ae5c-8e072707e529.mp4",
+  "video_url": "https://cdn1.suno.ai/d36d74f3-2beb-4d81-bdeb-09225870ee00.mp4",
+  "workspaceId": "34d638ba-5606-4a9f-ad83-cfb2d9f7d7b8",
+  "workspaceName": "1-Temazos",
+  "_cacheTimestamp": 1782504031178
+}

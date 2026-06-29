@@ -20,7 +20,7 @@ Escribe aquí los exclude_styles
 ```
 
 ```text
-[MOOD: Define el mood con 3 adjetivos]
+[MOOD: 1 etiqueta de humor + 1 de energía + instrumentos clave].
 [PRODUCTION: Aplica comandos de producción]
 
 Escribe aquí todo el contenido del lyrics_box

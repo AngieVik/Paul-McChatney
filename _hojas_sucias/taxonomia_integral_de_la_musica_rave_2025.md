@@ -34,7 +34,7 @@ Hardstyle: Estructuras hímnicas con bajos invertidos (reverse bass) y bombos af
 Rawstyle: Enfoque en la oscuridad industrial con bombos de diseño extremo, incluyendo los ruidosos Zaag kicks (sonido de sierra).
 Frenchcore: Tempo rápido (190-200 BPM) con pulso a contratiempo y bajos zumbantes y secos.
 Uptempo Hardcore: Velocidad y agresividad mínima. En 2025, predominan los Piep kicks, caracterizados por una resonancia de alta frecuencia que desafía la percepción tonal.
-Terror / Speedcore / Extratone: El límite de la percepción. Mientras el Speedcore opera a >300 BPM, el Extratone supera los 1000 BPM, donde el ritmo se colapsa en una frecuencia tonal pura.
+Terror \ Speedcore \ Extratone: El límite de la percepción. Mientras el Speedcore opera a >300 BPM, el Extratone supera los 1000 BPM, donde el ritmo se colapsa en una frecuencia tonal pura.
 Esta rigidez rítmica y la cultura de la distorsión nos remiten a la arquitectura fundamental del techno estructural y sus raíces europeas.
 2. La Familia del Techno e Industrial
 El techno es la columna vertebral de la escena global, una fusión de la precisión robótica europea y el alma funcional del funk de Detroit. Es una arquitectura de repetición hipnótica diseñada para la simbiosis hombre-máquina.

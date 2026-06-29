@@ -1,0 +1,340 @@
+Metadata for: Lega_la_uve-b7c2a2dd
+Generated: 2026-06-26T20:05:53.084Z
+
+--- Track Information ---
+Title: Lega la uve
+Artist: AngieSoundlab
+
+--- Musical Information ---
+
+--- Creation Details ---
+Prompt: ANDALUSIAN ACCENT,  SPANISH HIP HOP, FUNK RAP, BARITONE MALE VOCALS , ENERGETIC, CLOSE-MIC, CHULO, FLAMENCO GUITAR, BOOM BAP DRUMS, SLAP BASS GROOVE, DRY FLAMENCO CLAPS, UPBEAT, FLAMENCO INFLECTION
+Track ID: b7c2a2dd-a62f-436b-9daa-d8cc529c6d85
+
+--- Lyrics ---
+[MOOD: Chulo, Energetic, Desert-Survival]
+[PRODUCTION: STUDIO PRODUCTION, Sparse mix, Crisp Vocals, clear left-right imaging, Heavy Bass Bounce, Hard-panned instruments]
+[Vocals: Spanish Hip Hop, Andalusian accent, flamenco inflection, low-pitched bass, slight rasp, energetic, close-mic]
+
+[Intro | Flamenco Guitar  | Funky Bassline]
+yeh... uveinticuatro...
+
+[Instrumental Break]
+
+Sol de plomo, arena en la garganta... 
+cincuenta gráos... aquí nadie se aguanta.
+La Titan te traga y de una te escupe... 
+pero tranquilo mi niño... que llega la Uve.
+
+[Verse 1 | Laid-back flow | Slap Bass Rhythm]
+Uveinticuatro pateando Marruecos, 
+rescatando titanes que se quean secos.
+Tú dale al pedal pisha, échale coraje,
+si muerdes el polvo... la Uve es tu blindaje.
+
+[Build-up | Tension rising | Muted Bass]
+Cuando el sol aprieta y te falte el aliento
+cuando el desierto te robe el conocimiento
+Tú mira a lo lejos, buscando el destello
+no es un espejismo...  tampoco un camello.
+
+[Funky Bass Drop]
+
+[Hook | Heavy Bounce | High Energy]
+Somos U-veinticuatro, los reyes de la duna,
+si la carrera es dura... LA UVE ES LA VACUNA.
+Plato a fuego, sol, sudor y fatiga...
+tú pones las piernas... (NOSOTROS LA VIDA)
+
+[Vocals: Spanish Hip Hop, Andalusian accent, flamenco inflection, low-pitched bass, slight rasp, energetic, close-mic]
+[Verse 2 | Double Time Flow | Heavy Beat]
+Cuatro por cuatro comiendo el terreNO 
+Si el pulso te falla eshamo el freNO
+Gepese fijao entrada en calienTE 
+Suero fisiológico directo al torrenTE
+Traemo salú al medio del desierTO 
+Chequeo de constantes los ojo abierTO
+No importa el terreno la roca o el loDO 
+Uveinticuatro lo soluciona todDO
+
+Manta térmica sutura y vendaJE 
+Curando al ciclista con pasión y coraJE
+Vía canalizá trauma bajo contrOL 
+Sudando la bata bajo el fuego del sOL
+Ni el caló del Sahara ni la fatiga nos freNA 
+Llevamo la cura corriendo en la veNA
+Cruzamos el abismo si estás cayendo. 
+Nada quiebra nuestro juramento.
+
+[Flamenco Guitar Solo | Spanish Flamenco Fusion | Instrumental Dominance]
+
+[Vocals: Spanish Hip Hop, Andalusian accent, flamenco inflection, low-pitched bass, slight rasp, energetic, close-mic]
+[Build-up | Funky Groove returns |  Flamenco Guitar Licks]
+Con valor y el botiquín en la espalda, derrapando en la arena aquí nadie se achanta
+Metiendo fulete mientra el sol nos levanta, tenemo el fuego metío en la garganta
+Lucimo el flow cruzando el Sahara entero, cuidando a la tropa, joseando los primeros
+
+[Massive Bass Drop]
+
+[Hook | Heavy Bounce | Overlapping Vocals | Chulo Delivery]
+Somos U-veinticuatro, los reyes de la duna,
+si la carrera es dura... LA UVE ES LA VACUNA.
+Plato a fuego, sol, sudor y fatiga...
+tú pones las piernas... (NOSOTROS LA VIDA)
+
+[Vocals: Spanish Hip Hop, Andalusian accent, flamenco inflection, low-pitched bass, slight rasp, energetic, close-mic]
+[Bridge | A capella | Spoken Word | Heavy Breathing FX]
+Marruecos. 
+Los titanes. 
+Uveinticuatro en la casa.
+Nosotros cuidamos, nadie se queda atrás.
+Porque donde un titán cae... DOS SE LEVANTAN.
+La Uve de vida.
+Díselo illo... DÍSELO
+
+[Anthemic Peak | Full Band | Choir | Epic Climax]
+Somos U-veinticuatro, los reyes de la duna,
+si la carrera es dura... LA UVE ES LA VACUNA.
+Plato a fuego, sol, sudor y fatiga...
+tú pones las piernas... (NOSOTROS LA VIDA)
+
+[Outro | Fade out | Flamenco flourishes]
+(uveinticuatro)
+(uveinticuatro...)
+Titanes del desierto...
+
+[Room Ambience | Final Snare Hit]
+
+[End]
+
+
+
+Cover Art URL: https://cdn2.suno.ai/image_b7c2a2dd-a62f-436b-9daa-d8cc529c6d85.jpeg
+
+--- Respuesta Bruta de la API ---
+{
+  "action_config": {
+    "actions": [
+      {
+        "action_type": "add_to_playlist",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "like_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "share_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "dislike_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "report_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "remove_from_playlist",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "delete_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "edit_song_details",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "create_hook",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "download_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "download_as_video",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "unpublish_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "remaster",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "allow_comments_toggle_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "allow_remix",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "pin_to_profile",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "remix_extend",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "remix_cover",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "remix_reuse_style",
+        "disabled": false,
+        "visible": true
+      }
+    ]
+  },
+  "allow_comments": true,
+  "audio_url": "https://cdn1.suno.ai/b7c2a2dd-a62f-436b-9daa-d8cc529c6d85.mp3",
+  "avatar_image_url": "https://cdn1.suno.ai/8b5db1b2.webp",
+  "batch_index": 1,
+  "comment_count": 0,
+  "created_at": "2026-04-10T00:45:44.440Z",
+  "display_name": "AngieSoundlab",
+  "display_tags": "spanish hip hop, funk rap, flamenco (flamenco hip hop/boom bap fusion)",
+  "entity_type": "song_schema",
+  "explicit": false,
+  "flag_count": 0,
+  "handle": "angiesoundlab",
+  "has_hook": false,
+  "id": "b7c2a2dd-a62f-436b-9daa-d8cc529c6d85",
+  "image_large_url": "https://cdn2.suno.ai/image_large_b7c2a2dd-a62f-436b-9daa-d8cc529c6d85.jpeg",
+  "image_url": "https://cdn2.suno.ai/image_b7c2a2dd-a62f-436b-9daa-d8cc529c6d85.jpeg",
+  "is_contest_clip": false,
+  "is_following_creator": false,
+  "is_handle_updated": true,
+  "is_hidden": false,
+  "is_liked": true,
+  "is_persona_root": false,
+  "is_public": true,
+  "is_trashed": false,
+  "is_verified": false,
+  "major_model_version": "v5.5",
+  "media_urls": [
+    {
+      "content_type": "m4a-opus",
+      "delivery": "progressive",
+      "encoding": "1.0.0",
+      "url": "https://d2lwuy8qc234o3.cloudfront.net/1/clip/b7c2a2dd-a62f-436b-9daa-d8cc529c6d85.m4a"
+    },
+    {
+      "content_type": "mp3",
+      "delivery": "progressive",
+      "url": "https://cdn1.suno.ai/b7c2a2dd-a62f-436b-9daa-d8cc529c6d85.mp3"
+    }
+  ],
+  "metadata": {
+    "avg_bpm": 100.93,
+    "can_remix": true,
+    "control_sliders": {
+      "audio_weight": 0.7,
+      "style_weight": 0.7
+    },
+    "duration": 261.64,
+    "has_stem": true,
+    "is_mumble": false,
+    "is_remix": false,
+    "make_instrumental": false,
+    "max_bpm": 107.14,
+    "min_bpm": 93.75,
+    "model_badges": {
+      "songcard": {
+        "dark": {
+          "background_color": "0000004D",
+          "border_color": "00000000",
+          "text_color": "FD429C"
+        },
+        "display_name": "v5.5",
+        "light": {
+          "background_color": "0000004D",
+          "border_color": "00000000",
+          "text_color": "FD429C"
+        }
+      },
+      "songrow": {
+        "dark": {
+          "background_color": "FD429C40",
+          "border_color": "00000000",
+          "text_color": "FD429C"
+        },
+        "display_name": "v5.5",
+        "light": {
+          "background_color": "FD429C1A",
+          "border_color": "00000000",
+          "text_color": "FD429C"
+        }
+      }
+    },
+    "negative_tags": "cuban, caribbean, reggaeton, latin urban, dembow, tropical",
+    "playlist_clip_ids": [
+      "b92197c4-2ac5-45af-ae0c-4a7da153c4fb",
+      "fd928619-1b81-4dcc-a6a1-26b053560e4b"
+    ],
+    "playlist_id": "00000000-0000-0000-0000-000000000000",
+    "priority": 10,
+    "prompt": "[MOOD: Chulo, Energetic, Desert-Survival]\n[PRODUCTION: STUDIO PRODUCTION, Sparse mix, Crisp Vocals, clear left-right imaging, Heavy Bass Bounce, Hard-panned instruments]\n[Vocals: Spanish Hip Hop, Andalusian accent, flamenco inflection, low-pitched bass, slight rasp, energetic, close-mic]\n\n[Intro | Flamenco Guitar  | Funky Bassline]\nyeh... uveinticuatro...\n\n[Instrumental Break]\n\nSol de plomo, arena en la garganta... \ncincuenta gráos... aquí nadie se aguanta.\nLa Titan te traga y de una te escupe... \npero tranquilo mi niño... que llega la Uve.\n\n[Verse 1 | Laid-back flow | Slap Bass Rhythm]\nUveinticuatro pateando Marruecos, \nrescatando titanes que se quean secos.\nTú dale al pedal pisha, échale coraje,\nsi muerdes el polvo... la Uve es tu blindaje.\n\n[Build-up | Tension rising | Muted Bass]\nCuando el sol aprieta y te falte el aliento\ncuando el desierto te robe el conocimiento\nTú mira a lo lejos, buscando el destello\nno es un espejismo...  tampoco un camello.\n\n[Funky Bass Drop]\n\n[Hook | Heavy Bounce | High Energy]\nSomos U-veinticuatro, los reyes de la duna,\nsi la carrera es dura... LA UVE ES LA VACUNA.\nPlato a fuego, sol, sudor y fatiga...\ntú pones las piernas... (NOSOTROS LA VIDA)\n\n[Vocals: Spanish Hip Hop, Andalusian accent, flamenco inflection, low-pitched bass, slight rasp, energetic, close-mic]\n[Verse 2 | Double Time Flow | Heavy Beat]\nCuatro por cuatro comiendo el terreNO \nSi el pulso te falla eshamo el freNO\nGepese fijao entrada en calienTE \nSuero fisiológico directo al torrenTE\nTraemo salú al medio del desierTO \nChequeo de constantes los ojo abierTO\nNo importa el terreno la roca o el loDO \nUveinticuatro lo soluciona todDO\n\nManta térmica sutura y vendaJE \nCurando al ciclista con pasión y coraJE\nVía canalizá trauma bajo contrOL \nSudando la bata bajo el fuego del sOL\nNi el caló del Sahara ni la fatiga nos freNA \nLlevamo la cura corriendo en la veNA\nCruzamos el abismo si estás cayendo. \nNada quiebra nuestro juramento.\n\n[Flamenco Guitar Solo | Spanish Flamenco Fusion | Instrumental Dominance]\n\n[Vocals: Spanish Hip Hop, Andalusian accent, flamenco inflection, low-pitched bass, slight rasp, energetic, close-mic]\n[Build-up | Funky Groove returns |  Flamenco Guitar Licks]\nCon valor y el botiquín en la espalda, derrapando en la arena aquí nadie se achanta\nMetiendo fulete mientra el sol nos levanta, tenemo el fuego metío en la garganta\nLucimo el flow cruzando el Sahara entero, cuidando a la tropa, joseando los primeros\n\n[Massive Bass Drop]\n\n[Hook | Heavy Bounce | Overlapping Vocals | Chulo Delivery]\nSomos U-veinticuatro, los reyes de la duna,\nsi la carrera es dura... LA UVE ES LA VACUNA.\nPlato a fuego, sol, sudor y fatiga...\ntú pones las piernas... (NOSOTROS LA VIDA)\n\n[Vocals: Spanish Hip Hop, Andalusian accent, flamenco inflection, low-pitched bass, slight rasp, energetic, close-mic]\n[Bridge | A capella | Spoken Word | Heavy Breathing FX]\nMarruecos. \nLos titanes. \nUveinticuatro en la casa.\nNosotros cuidamos, nadie se queda atrás.\nPorque donde un titán cae... DOS SE LEVANTAN.\nLa Uve de vida.\nDíselo illo... DÍSELO\n\n[Anthemic Peak | Full Band | Choir | Epic Climax]\nSomos U-veinticuatro, los reyes de la duna,\nsi la carrera es dura... LA UVE ES LA VACUNA.\nPlato a fuego, sol, sudor y fatiga...\ntú pones las piernas... (NOSOTROS LA VIDA)\n\n[Outro | Fade out | Flamenco flourishes]\n(uveinticuatro)\n(uveinticuatro...)\nTitanes del desierto...\n\n[Room Ambience | Final Snare Hit]\n\n[End]\n\n",
+    "refund_credits": false,
+    "stream": true,
+    "tags": "ANDALUSIAN ACCENT,  SPANISH HIP HOP, FUNK RAP, BARITONE MALE VOCALS , ENERGETIC, CLOSE-MIC, CHULO, FLAMENCO GUITAR, BOOM BAP DRUMS, SLAP BASS GROOVE, DRY FLAMENCO CLAPS, UPBEAT, FLAMENCO INFLECTION",
+    "task": "playlist_condition",
+    "type": "gen",
+    "uses_latest_model": true,
+    "video_is_stale": false
+  },
+  "model_name": "chirp-fenix",
+  "ownership": {
+    "ownership_reason": "subscribed"
+  },
+  "play_count": 29,
+  "project": {
+    "description": "1-Temazos",
+    "id": "34d638ba-5606-4a9f-ad83-cfb2d9f7d7b8",
+    "is_public": false,
+    "is_trashed": false,
+    "name": "1-Temazos"
+  },
+  "reaction": {
+    "clip": "b7c2a2dd-a62f-436b-9daa-d8cc529c6d85",
+    "flagged": false,
+    "play_count": 40,
+    "reaction_type": "L",
+    "skip_count": 0,
+    "updated_at": "2026-06-02T20:10:23.750Z"
+  },
+  "status": "complete",
+  "title": "Lega la uve",
+  "upvote_count": 1,
+  "user_id": "6755b056-24ad-46c6-904c-8687163942ad",
+  "video_url": "https://cdn1.suno.ai/b7c2a2dd-a62f-436b-9daa-d8cc529c6d85.mp4",
+  "workspaceId": "34d638ba-5606-4a9f-ad83-cfb2d9f7d7b8",
+  "workspaceName": "1-Temazos",
+  "_cacheTimestamp": 1782504031178
+}

@@ -97,14 +97,14 @@ Suno no procesa bien "NO". Para eliminar un elemento, inunda el prompt con su op
 Suno decide la identidad vocal en el primer segundo: pon el anclaje en la línea cero del lyrics_box, ANTES de cualquier estructura o verso.
 - **Letras (línea 1):** `[Vocal Identity: Close-mic breathy alto | intimate]`
 
-### El hack del Rap/Drill
-`[Chorus]` fuerza el modo melódico/pop y arruina géneros oscuros o rap duro. Sustitúyela por etiquetas de comportamiento energético.
+### El hack del Rap\Drill
+`[Chorus]` fuerza el modo melódico\pop y arruina géneros oscuros o rap duro. Sustitúyela por etiquetas de comportamiento energético.
 - **Tags:** `[Structure: Anthemic Peak]` · `[Hook: Aggressive Rhythm]` · `[Drop: High Energy]`
 
 ### Sacrificio gramatical
 Sacrifica la ortografía por la entrega métrica usando mayúsculas para los acentos tónicos cuando el motor tropieza.
 - **Inglés:** `eh-FEM-er-uhl` (ephemeral) · `byoo-ROCK-ruh-see` (bureaucracy)
-- **Acento / code-switching:** mete `[Spanish vocals]` o fuerza pronunciación fonética exagerada (ej. `Jái escul`).
+- **Acento \ code-switching:** mete `[Spanish vocals]` o fuerza pronunciación fonética exagerada (ej. `Jái escul`).
 
 ### Glitch forzado y stutter vocal
 Escríbelo en la letra con guiones que rompan las sílabas, combinado con metaetiquetas.
@@ -161,11 +161,11 @@ Detiene la banda en seco dejando un acorde sonando en el aire.
 
 ### Hack espacial emocional
 Altera la física de la mezcla estéreo con la atmósfera.
-- **Cerradas (centro/mono):** `[Sensory Deprivation]` · `[Buried Alive]` · `[Claustrophobic Panic]`
+- **Cerradas (centro\mono):** `[Sensory Deprivation]` · `[Buried Alive]` · `[Claustrophobic Panic]`
 - **Expansivas (estéreo 3D):** `[Galactic Isolation]` · `[Mountain Peak Epiphany]`
 
 ### Hack de diseño de sonido
-Fuerza un bucle/cuelgue del sistema antes de un estribillo (Hyperpop, Cyberpunk): el motor repite la última vocal como disco rayado antes de reventar el drop.
+Fuerza un bucle\cuelgue del sistema antes de un estribillo (Hyperpop, Cyberpunk): el motor repite la última vocal como disco rayado antes de reventar el drop.
 - **Tags:** `[Buffer Underrun Glitch]` · `[Fake Buffering Loop]`
 
 ### False Fade-Out
@@ -186,7 +186,7 @@ Desactiva "Make same length as section" en un Replace Section: da libertad matem
 - **Lyrics Box:** `[Extended Guitar Solo -> Dramatic Stop-Time]`
 
 ### El bloqueo melódico (gain reset)
-Si la canción se degrada (Volume Creep tras 2–3 min) o la voz cambia de identidad, haz un "Cover" de tu propia pista con Audio Influence al 100% y Weirdness a 0%: reinicia la cadena de ganancia y fija la identidad melódica/vocal original para las siguientes extensiones.
+Si la canción se degrada (Volume Creep tras 2–3 min) o la voz cambia de identidad, haz un "Cover" de tu propia pista con Audio Influence al 100% y Weirdness a 0%: reinicia la cadena de ganancia y fija la identidad melódica\vocal original para las siguientes extensiones.
 
 ### Picos locales (localized hard turns)
 No pongas etiquetas de alta energía en el style_box si quieres impacto real: mantén la base contenida ("top-loading") e inserta el comando de energía extrema en las letras justo antes de la sección que debe explotar → contraste real, no monotonía fuerte.
@@ -219,7 +219,7 @@ Añadir una década o época al género ancla la precisión del modelo (asocia c
 - **Ejemplo:** en vez de `[Synth Pop]`, usa `[80s Synth Pop]` o `[90s Grunge]`.
 
 ### El camuflaje del artefacto de los 48 segundos
-En la v5.5 hay un fallo cerca de los 0:48 ("0:48 Artifact" / "Wind Tunnel") con distorsión o siseo fuerte. Enmascáralo programando una transición rítmica pesada, un cambio de sección o una entrada de batería fuerte justo en ese segundo de la letra.
+En la v5.5 hay un fallo cerca de los 0:48 ("0:48 Artifact" \ "Wind Tunnel") con distorsión o siseo fuerte. Enmascáralo programando una transición rítmica pesada, un cambio de sección o una entrada de batería fuerte justo en ese segundo de la letra.
 
 ### Solución para consonantes duras (vocal crackle)
 La v5.5 genera chasquidos en consonantes duras (P, B, T, S). Mitígalo ordenando suavizar la pronunciación en el style_box.
@@ -228,7 +228,7 @@ La v5.5 genera chasquidos en consonantes duras (P, B, T, S). Mitígalo ordenando
 ## 6 · Modelos personalizados y referencias
 
 ### Entrenamiento de modelos personalizados "puros"
-Los usuarios Pro/Premier entrenan Custom Models con un mínimo de 6 pistas propias. El material debe ser estrictamente consistente (todo orquestal, o todo indie folk); mezclar estilos vuelve "ruidoso" el aprendizaje.
+Los usuarios Pro\Premier entrenan Custom Models con un mínimo de 6 pistas propias. El material debe ser estrictamente consistente (todo orquestal, o todo indie folk); mezclar estilos vuelve "ruidoso" el aprendizaje.
 
 ### Clonación de banda incompleta (Audio Influence)
 Sube un clip básico (tarareo, ritmo de batería), pon Audio Influence 70–100% y Style Influence moderado, y describe en texto **los instrumentos que faltan** (ej. "bajo funky, guitarras eléctricas"): el motor mantiene tu audio base y rellena el resto de la banda alrededor.

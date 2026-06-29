@@ -49,7 +49,7 @@ Y cuando veas la muñeca moverse…
 rompe el compás.
 Y corre.
 
-[Hook / Drop][Spanish Male Voice][Distorted Shout, Knife Clash FX, Sub Bass Thrust]
+[Hook \ Drop][Spanish Male Voice][Distorted Shout, Knife Clash FX, Sub Bass Thrust]
 ¡Cuchillo a la vista!
 ¡Tensión máxima!
 ¡Golpea el ritmo o el ritmo te golpea!

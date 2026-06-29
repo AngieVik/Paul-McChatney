@@ -50,7 +50,7 @@ Y mandaron a los actores de vuelta
 Pero la nave...
 Sigue allí
 
-[Hook / Drop][Spanish Male Voice][Distorted Vox, Sirens, Engine FX]
+[Hook \ Drop][Spanish Male Voice][Distorted Vox, Sirens, Engine FX]
 ¡El Apollo 13 sigue en órbita!
 ¡Comiendo latas desde el 70!
 ¡Viendo la Tierra… sin wifi!

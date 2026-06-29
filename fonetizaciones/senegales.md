@@ -15,11 +15,11 @@ El wolof se articula con un flujo de aire percusivo y claro. Es un idioma de res
 
 El wolof distingue sistemáticamente entre vocales breves (escritas simples) y largas (escritas dobles). Posee además una vocal neutra o schwa.
 
-| Patrón / Grafía Original | Regla de Transformación | Equivalencia Fonética | Ejemplo Práctico |
+| Patrón \ Grafía Original | Regla de Transformación | Equivalencia Fonética | Ejemplo Práctico |
 | :--- | :--- | :--- | :--- |
 | **a, e, i, o, u** | Breves, idénticas al español | **a, e, i, o, u** | *nit* → **nít** |
 | **aa, ee, ii, oo, uu** | Vocales largas (doble duración) | **a-, e-, i-, o-, u-** | *baat* → **bá-t** |
-| **ë** | Schwa o vocal media central no redondeada | **e** (oscura/gutural) | *bët* → **bét** |
+| **ë** | Schwa o vocal media central no redondeada | **e** (oscura\gutural) | *bët* → **bét** |
 | **ay, aw, oy** | Semiconsonantes que actúan como diptongos | **ái, áu, ói** | *fay* → **fái** |
 
 * **Diptongos clave:** Las combinaciones de vocal + 'w' o 'y' forman los diptongos naturales. Las secuencias de dos vocales distintas escritas juntas (ej. *ia*, *ua*) suelen articularse en hiato, en sílabas separadas.
@@ -30,12 +30,12 @@ El inventario consonántico contiene fricativas, palatales y prenasalizadas que 
 
 | Sonido de Origen (IPA) | Descripción Articulatoria | Fonetización en Español |
 | :--- | :--- | :--- |
-| **c** (/c/ o /tʃ/) | Africada / oclusiva palatal sorda. | **ch** (limpia y seca) |
-| **j** (/ɟ/ o /dʒ/) | Africada / oclusiva palatal sonora. | **y** (fuerte / vibrante) |
-| **x** (/x/) | Fricativa velar sorda. | **j** (española, fuerte) |
-| **q** (/q/) | Oclusiva uvular sorda (suele ser geminada). | **k** (muy profunda/gutural) |
+| **c** (\c\ o \tʃ\) | Africada \ oclusiva palatal sorda. | **ch** (limpia y seca) |
+| **j** (\ɟ\ o \dʒ\) | Africada \ oclusiva palatal sonora. | **y** (fuerte \ vibrante) |
+| **x** (\x\) | Fricativa velar sorda. | **j** (española, fuerte) |
+| **q** (\q\) | Oclusiva uvular sorda (suele ser geminada). | **k** (muy profunda\gutural) |
 | **mb, nd, ng, nj** | Oclusivas prenasalizadas. Se emiten simultáneamente, canalizando aire por la nariz antes de la explosión. | **mb, nd, ng, ñ** (ligadas) |
-| **ñ** (/ɲ/) | Nasal palatal. | **ñ** |
+| **ñ** (\ɲ\) | Nasal palatal. | **ñ** |
 
 * **Consonantes mudas:** El wolof es estrictamente fonético. Se pronuncian todas las letras de la cadena escrita, sin excepciones estructurales.
 
@@ -47,8 +47,8 @@ El inventario consonántico contiene fricativas, palatales y prenasalizadas que 
 
 ## 5. Excepciones y "Falsos Amigos" Fonéticos
 
-* **La letra 'C':** Su lectura literal hispánica como /k/ o /s/ destruye el significado. En wolof, la 'c' siempre representa el sonido **ch** (ej. *ceeb* se lee **ché-p**).
-* **La letra 'X':** Jamás se lee como /ks/ o /s/. Representa exactamente la **J** fuerte del castellano peninsular (ej. *xar* se lee **jár**).
+* **La letra 'C':** Su lectura literal hispánica como \k\ o \s\ destruye el significado. En wolof, la 'c' siempre representa el sonido **ch** (ej. *ceeb* se lee **ché-p**).
+* **La letra 'X':** Jamás se lee como \ks\ o \s\. Representa exactamente la **J** fuerte del castellano peninsular (ej. *xar* se lee **jár**).
 * **Ensordecimiento en Coda:** Similar al alemán o al ruso, las oclusivas sonoras (b, d, g, j) al final de una palabra tienden a ensordecerse ligeramente, sonando casi como p, t, k, c.
 
 ## 6. Casos Prácticos de Aplicación (Lectura Directa)
@@ -62,7 +62,7 @@ El inventario consonántico contiene fricativas, palatales y prenasalizadas que 
   * *Fonetización final:* **mbú ru**
 
 * **Palabra:** `Waaw` (Sí)
-  * *Desglose:* Semivocal 'w' inicial (gu/u). Doble 'a' exige elongación física de la vocal. 'w' final cierra el sonido.
+  * *Desglose:* Semivocal 'w' inicial (gu\u). Doble 'a' exige elongación física de la vocal. 'w' final cierra el sonido.
   * *Fonetización final:* **guá-u** (o **wá-w**)
 
 ---
@@ -78,9 +78,9 @@ El wolof carece de varios grupos consonánticos europeos (clústeres) y de frica
 
 ### 7.2. Sustitución Consonántica y Fricación
 
-* **Desplazamiento de la Vibrante Múltiple:** El wolof solo posee la vibrante simple (/ɾ/). La 'rr' española es sistemáticamente reducida a una 'r' simple o, por influencia de la escolarización secundaria en francés, sustituida por una fricativa uvular (ej. *perro* → **pé ro**).
-* **Ausencia de Interdental:** Sustitución de la 'z' / 'c' peninsular (/θ/) por una fricativa alveolar 's' muy limpia.
-* **Neutralización de Labiodentales / Confusión v/b:** Como en español, la 'v' y la 'b' se confunden, pero el hablante senegalés tenderá a articular ambas como una oclusiva bilabial 'B' muy fuerte y percusiva.
+* **Desplazamiento de la Vibrante Múltiple:** El wolof solo posee la vibrante simple (\ɾ\). La 'rr' española es sistemáticamente reducida a una 'r' simple o, por influencia de la escolarización secundaria en francés, sustituida por una fricativa uvular (ej. *perro* → **pé ro**).
+* **Ausencia de Interdental:** Sustitución de la 'z' \ 'c' peninsular (\θ\) por una fricativa alveolar 's' muy limpia.
+* **Neutralización de Labiodentales \ Confusión v\b:** Como en español, la 'v' y la 'b' se confunden, pero el hablante senegalés tenderá a articular ambas como una oclusiva bilabial 'B' muy fuerte y percusiva.
 
 ### 7.3. Alteración Rítmica
 

@@ -1,0 +1,283 @@
+Metadata for: EL_JAMBO_TIESO-21ae6d67
+Generated: 2026-06-26T20:05:53.084Z
+
+--- Track Information ---
+Title: EL JAMBO TIESO
+Artist: AngieSoundlab
+
+--- Musical Information ---
+
+--- Creation Details ---
+Prompt: SPANISH ELECTRO-SWING GYPSYCORE, 170 BPM, gypsy brass, flamenco acoustic guitar, distorted kicks, cheeky male rap, flamenco inflection
+Track ID: 21ae6d67-0f73-4c88-9775-6f29eeddbe60
+
+--- Lyrics ---
+[MOOD: Cheeky, Street-smart, Frantic]
+[PRODUCTION: Vintage swing sample, distorted master, heavy sidechain bounce]
+
+[Vocals: cheeky male rap, rhythmic flow, flamenco inflection, conversational]
+
+[Intro, big gypsy brass section, flamenco guitar arpeggios, fast swing rhythm]
+
+[Verse 1, cheeky male rap, street swagger, fast rhythmic delivery]
+diquela el porte que gasta el menda en el salón
+traje prestao aguantando bien el tirón
+las chaborrís me camelan y yo les doy coba
+pero la tripa me ruge pidiendo escoba
+
+[Pre-Chorus, rising tension, accordion stabs, fast palmas]
+no me suba la perlacha que te doy el enganchón
+yarsa de aquí con tu rollo que me das risión
+sin un chavo en los bolsillos puro teatro
+pero el compás lo remato al tres por cuatro
+
+[Chorus, confident delivery, cheeky rap style, heavy sidechain]
+mucho arte mucha labia pero nasti de parné
+vacilando en la pista sin saber ni qué jalar
+el jambo más flamenco que te puedas diquelar
+y me rilan las canillas de no poder masticar
+
+[Verse 2, frantic rhythm, heavy sidechain, cheeky rap style]
+achanta la boca parguela y mira el compás
+que el hambre da fatiga pero el arte duele más
+voy esquivando las trampas buscando el encargo
+y aunque no haya pa pipas el flow es de largo
+
+[Pre-Chorus, rising tension, accordion stabs, fast palmas]
+no me suba la perlacha que te doy el enganchón
+yarsa de aquí con tu rollo que me das risión
+sin un chavo en los bolsillos puro teatro
+pero el compás lo remato al tres por cuatro
+
+[Chorus, confident delivery, cheeky rap style, heavy sidechain]
+mucho arte mucha labia pero nasti de parné
+vacilando en la pista sin saber ni qué jalar
+el jambo más flamenco que te puedas diquelar
+y me rilan las canillas de no poder masticar
+
+[Outro, reduce drums -> expose brass and guitar, humorous tone]
+ay undebel qué lacha
+a ver si algún chacho se estira y me pasa un currusco
+que me caigo redondo
+
+[End]
+
+Cover Art URL: https://cdn2.suno.ai/image_21ae6d67-0f73-4c88-9775-6f29eeddbe60.jpeg
+
+--- Respuesta Bruta de la API ---
+{
+  "action_config": {
+    "actions": [
+      {
+        "action_type": "add_to_playlist",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "like_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "share_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "dislike_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "report_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "remove_from_playlist",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "delete_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "edit_song_details",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "create_hook",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "download_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "download_as_video",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "unpublish_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "remaster",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "allow_comments_toggle_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "allow_remix",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "pin_to_profile",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "remix_extend",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "remix_cover",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "remix_reuse_style",
+        "disabled": false,
+        "visible": true
+      }
+    ]
+  },
+  "allow_comments": true,
+  "audio_url": "https://cdn1.suno.ai/21ae6d67-0f73-4c88-9775-6f29eeddbe60.mp3",
+  "avatar_image_url": "https://cdn1.suno.ai/8b5db1b2.webp",
+  "batch_index": 1,
+  "comment_count": 0,
+  "created_at": "2026-04-10T03:57:14.728Z",
+  "display_name": "AngieSoundlab",
+  "display_tags": "electro-swing gypsycore, flamenco rap, electro dance",
+  "entity_type": "song_schema",
+  "explicit": false,
+  "flag_count": 0,
+  "handle": "angiesoundlab",
+  "has_hook": false,
+  "id": "21ae6d67-0f73-4c88-9775-6f29eeddbe60",
+  "image_large_url": "https://cdn2.suno.ai/image_large_21ae6d67-0f73-4c88-9775-6f29eeddbe60.jpeg",
+  "image_url": "https://cdn2.suno.ai/image_21ae6d67-0f73-4c88-9775-6f29eeddbe60.jpeg",
+  "is_contest_clip": false,
+  "is_following_creator": false,
+  "is_handle_updated": true,
+  "is_hidden": false,
+  "is_liked": true,
+  "is_persona_root": false,
+  "is_public": true,
+  "is_trashed": false,
+  "is_verified": false,
+  "major_model_version": "v5.5",
+  "media_urls": [
+    {
+      "content_type": "m4a-opus",
+      "delivery": "progressive",
+      "encoding": "1.0.0",
+      "url": "https://d2lwuy8qc234o3.cloudfront.net/1/clip/21ae6d67-0f73-4c88-9775-6f29eeddbe60.m4a"
+    },
+    {
+      "content_type": "mp3",
+      "delivery": "progressive",
+      "url": "https://cdn1.suno.ai/21ae6d67-0f73-4c88-9775-6f29eeddbe60.mp3"
+    }
+  ],
+  "metadata": {
+    "can_remix": true,
+    "control_sliders": {
+      "style_weight": 0.6
+    },
+    "duration": 126.08,
+    "has_stem": false,
+    "is_mumble": false,
+    "is_remix": false,
+    "make_instrumental": false,
+    "model_badges": {
+      "songcard": {
+        "dark": {
+          "background_color": "0000004D",
+          "border_color": "00000000",
+          "text_color": "FD429C"
+        },
+        "display_name": "v5.5",
+        "light": {
+          "background_color": "0000004D",
+          "border_color": "00000000",
+          "text_color": "FD429C"
+        }
+      },
+      "songrow": {
+        "dark": {
+          "background_color": "FD429C40",
+          "border_color": "00000000",
+          "text_color": "FD429C"
+        },
+        "display_name": "v5.5",
+        "light": {
+          "background_color": "FD429C1A",
+          "border_color": "00000000",
+          "text_color": "FD429C"
+        }
+      }
+    },
+    "negative_tags": "sad, slow, classical, lo-fi, ambient, clean beats, serious",
+    "priority": 10,
+    "prompt": "[MOOD: Cheeky, Street-smart, Frantic]\n[PRODUCTION: Vintage swing sample, distorted master, heavy sidechain bounce]\n\n[Vocals: cheeky male rap, rhythmic flow, flamenco inflection, conversational]\n\n[Intro, big gypsy brass section, flamenco guitar arpeggios, fast swing rhythm]\n\n[Verse 1, cheeky male rap, street swagger, fast rhythmic delivery]\ndiquela el porte que gasta el menda en el salón\ntraje prestao aguantando bien el tirón\nlas chaborrís me camelan y yo les doy coba\npero la tripa me ruge pidiendo escoba\n\n[Pre-Chorus, rising tension, accordion stabs, fast palmas]\nno me suba la perlacha que te doy el enganchón\nyarsa de aquí con tu rollo que me das risión\nsin un chavo en los bolsillos puro teatro\npero el compás lo remato al tres por cuatro\n\n[Chorus, confident delivery, cheeky rap style, heavy sidechain]\nmucho arte mucha labia pero nasti de parné\nvacilando en la pista sin saber ni qué jalar\nel jambo más flamenco que te puedas diquelar\ny me rilan las canillas de no poder masticar\n\n[Verse 2, frantic rhythm, heavy sidechain, cheeky rap style]\nachanta la boca parguela y mira el compás\nque el hambre da fatiga pero el arte duele más\nvoy esquivando las trampas buscando el encargo\ny aunque no haya pa pipas el flow es de largo\n\n[Pre-Chorus, rising tension, accordion stabs, fast palmas]\nno me suba la perlacha que te doy el enganchón\nyarsa de aquí con tu rollo que me das risión\nsin un chavo en los bolsillos puro teatro\npero el compás lo remato al tres por cuatro\n\n[Chorus, confident delivery, cheeky rap style, heavy sidechain]\nmucho arte mucha labia pero nasti de parné\nvacilando en la pista sin saber ni qué jalar\nel jambo más flamenco que te puedas diquelar\ny me rilan las canillas de no poder masticar\n\n[Outro, reduce drums -> expose brass and guitar, humorous tone]\nay undebel qué lacha\na ver si algún chacho se estira y me pasa un currusco\nque me caigo redondo\n\n[End]",
+    "refund_credits": false,
+    "stream": true,
+    "tags": "SPANISH ELECTRO-SWING GYPSYCORE, 170 BPM, gypsy brass, flamenco acoustic guitar, distorted kicks, cheeky male rap, flamenco inflection",
+    "type": "gen",
+    "uses_latest_model": true,
+    "video_is_stale": false
+  },
+  "model_name": "chirp-fenix",
+  "ownership": {
+    "ownership_reason": "subscribed"
+  },
+  "play_count": 10,
+  "project": {
+    "description": "1-Temazos",
+    "id": "34d638ba-5606-4a9f-ad83-cfb2d9f7d7b8",
+    "is_public": false,
+    "is_trashed": false,
+    "name": "1-Temazos"
+  },
+  "reaction": {
+    "clip": "21ae6d67-0f73-4c88-9775-6f29eeddbe60",
+    "flagged": false,
+    "play_count": 10,
+    "reaction_type": "L",
+    "skip_count": 0,
+    "updated_at": "2026-06-03T04:52:22.794Z"
+  },
+  "status": "complete",
+  "title": "EL JAMBO TIESO",
+  "upvote_count": 2,
+  "user_id": "6755b056-24ad-46c6-904c-8687163942ad",
+  "video_url": "https://cdn1.suno.ai/21ae6d67-0f73-4c88-9775-6f29eeddbe60.mp4",
+  "workspaceId": "34d638ba-5606-4a9f-ad83-cfb2d9f7d7b8",
+  "workspaceName": "1-Temazos",
+  "_cacheTimestamp": 1782504031178
+}

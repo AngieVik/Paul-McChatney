@@ -94,7 +94,7 @@
 
 ### 2 · Animales y Criaturas
 
-*Vocalizaciones, movimientos biológicos de fauna real y criaturas de ciencia ficción/fantasía.*
+*Vocalizaciones, movimientos biológicos de fauna real y criaturas de ciencia ficción\fantasía.*
 *fauna, bestias, pájaros, insectos, monstruos, rugidos, alien, mascotas, animals, creatures, beasts.*
 
 [Alien Bio-Slime Squelch]

@@ -1,0 +1,286 @@
+Metadata for: KIKE-975613f5
+Generated: 2026-06-26T20:05:53.085Z
+
+--- Track Information ---
+Title: KIKE
+Artist: AngieSoundlab
+
+--- Musical Information ---
+
+--- Creation Details ---
+Prompt: [Style: Funk-metalcore with tempo shifts, slap-driven breakdowns, shouted Japanese/English vocals, bass solos replacing guitar leads, Maximum the Hormone-inspired energy]
+Track ID: 975613f5-9eb1-454b-8a1a-04b5f2154bb6
+
+--- Lyrics ---
+[Production: Clean studio mix, forward slap bass, tight low-end response, crisp drums, wide stereo imaging]
+
+[Intro][Slap Bass Lead][Breakbeat Groove]
+KIKE
+KIKE
+KIKE
+KIKE
+
+[Verse A][Rhythmic spoken voice][High Energy Funkcore]
+He didn’t talk
+He plugged in
+He didn’t ask
+He locked in
+
+London shook
+From the low
+No backup
+Just soul
+
+[Break][Syncopated Bass Solo][Effect: Filtered Funk Distortion]
+
+[Verse B][Shouted voice][Breakbeat Groove]
+No plan
+No praise
+Only Rosa
+Only bass
+
+Heartbeat sync
+Groove divine
+Every note
+Out of line
+
+[Pre-Chorus][Screamed Pre-Chorus][Half-time Breakdown]
+He doesn’t scream
+But you feel the sound
+From bone to air
+He spins it round
+
+[Chorus][Melodic Chorus Hook][Distorted Chorus Section]
+KIKE
+BECAME KIKA
+LOVE WENT LOW
+SLAP WAS THE SAKRA
+
+NO DRUMS
+NO GOD
+JUST GROOVE
+AND A FLAW
+
+[Break][Slap Bass Lead][Effect: Funk Envelope Filter]
+
+[Verse C][Rhythmic spoken voice][High Energy Funkcore]
+He left the land
+But brought the root
+Across the sea
+He slapped the truth
+
+One hand to Rosa
+One hand to fate
+One string to scream
+One sound to shape
+
+[Final Chorus][Melodic Chorus Hook][Distorted Chorus Section]
+KIKE
+KIKA
+NO LIFE
+WITHOUT SLAP
+
+KIKE
+KIKA
+BASSLINE
+IS FACT
+
+[Outro][Spoken Japanese][Effect: Dry Voice Fade]
+彼のグルーヴは命だった。
+(“His groove was life.”)
+
+Cover Art URL: https://cdn2.suno.ai/image_975613f5-9eb1-454b-8a1a-04b5f2154bb6.jpeg
+
+--- Respuesta Bruta de la API ---
+{
+  "action_config": {
+    "actions": [
+      {
+        "action_type": "add_to_playlist",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "like_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "share_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "dislike_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "report_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "remove_from_playlist",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "delete_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "edit_song_details",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "create_hook",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "download_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "download_as_video",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "unpublish_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "remaster",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "allow_comments_toggle_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "allow_remix",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "pin_to_profile",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "remix_extend",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "remix_cover",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "remix_reuse_style",
+        "disabled": false,
+        "visible": true
+      }
+    ]
+  },
+  "allow_comments": true,
+  "audio_url": "https://cdn1.suno.ai/975613f5-9eb1-454b-8a1a-04b5f2154bb6.mp3",
+  "avatar_image_url": "https://cdn1.suno.ai/8b5db1b2.webp",
+  "batch_index": 0,
+  "comment_count": 0,
+  "created_at": "2025-05-29T11:58:40.110Z",
+  "display_name": "AngieSoundlab",
+  "display_tags": "funk-metalcore, alternative metal, nu metal",
+  "entity_type": "song_schema",
+  "explicit": false,
+  "flag_count": 0,
+  "handle": "angiesoundlab",
+  "has_hook": false,
+  "id": "975613f5-9eb1-454b-8a1a-04b5f2154bb6",
+  "image_large_url": "https://cdn2.suno.ai/image_large_975613f5-9eb1-454b-8a1a-04b5f2154bb6.jpeg",
+  "image_url": "https://cdn2.suno.ai/image_975613f5-9eb1-454b-8a1a-04b5f2154bb6.jpeg",
+  "is_contest_clip": false,
+  "is_following_creator": false,
+  "is_handle_updated": true,
+  "is_hidden": false,
+  "is_liked": true,
+  "is_persona_root": false,
+  "is_public": true,
+  "is_trashed": false,
+  "is_verified": false,
+  "major_model_version": "v4.5",
+  "media_urls": [
+    {
+      "content_type": "mp3",
+      "delivery": "progressive",
+      "url": "https://cdn1.suno.ai/975613f5-9eb1-454b-8a1a-04b5f2154bb6.mp3"
+    }
+  ],
+  "metadata": {
+    "can_remix": true,
+    "duration": 176.12,
+    "has_stem": false,
+    "is_remix": false,
+    "make_instrumental": false,
+    "model_badges": {
+      "songrow": {
+        "dark": {
+          "background_color": "00000000",
+          "border_color": "FFFFFF1A",
+          "text_color": "A3A3A3"
+        },
+        "display_name": "v4.5",
+        "light": {
+          "background_color": "00000000",
+          "border_color": "0000001A",
+          "text_color": "7D7C83"
+        }
+      }
+    },
+    "priority": 10,
+    "prompt": "[Production: Clean studio mix, forward slap bass, tight low-end response, crisp drums, wide stereo imaging]\n\n[Intro][Slap Bass Lead][Breakbeat Groove]\nKIKE\nKIKE\nKIKE\nKIKE\n\n[Verse A][Rhythmic spoken voice][High Energy Funkcore]\nHe didn’t talk\nHe plugged in\nHe didn’t ask\nHe locked in\n\nLondon shook\nFrom the low\nNo backup\nJust soul\n\n[Break][Syncopated Bass Solo][Effect: Filtered Funk Distortion]\n\n[Verse B][Shouted voice][Breakbeat Groove]\nNo plan\nNo praise\nOnly Rosa\nOnly bass\n\nHeartbeat sync\nGroove divine\nEvery note\nOut of line\n\n[Pre-Chorus][Screamed Pre-Chorus][Half-time Breakdown]\nHe doesn’t scream\nBut you feel the sound\nFrom bone to air\nHe spins it round\n\n[Chorus][Melodic Chorus Hook][Distorted Chorus Section]\nKIKE\nBECAME KIKA\nLOVE WENT LOW\nSLAP WAS THE SAKRA\n\nNO DRUMS\nNO GOD\nJUST GROOVE\nAND A FLAW\n\n[Break][Slap Bass Lead][Effect: Funk Envelope Filter]\n\n[Verse C][Rhythmic spoken voice][High Energy Funkcore]\nHe left the land\nBut brought the root\nAcross the sea\nHe slapped the truth\n\nOne hand to Rosa\nOne hand to fate\nOne string to scream\nOne sound to shape\n\n[Final Chorus][Melodic Chorus Hook][Distorted Chorus Section]\nKIKE\nKIKA\nNO LIFE\nWITHOUT SLAP\n\nKIKE\nKIKA\nBASSLINE\nIS FACT\n\n[Outro][Spoken Japanese][Effect: Dry Voice Fade]\n彼のグルーヴは命だった。\n(“His groove was life.”)",
+    "refund_credits": false,
+    "stream": true,
+    "tags": "[Style: Funk-metalcore with tempo shifts, slap-driven breakdowns, shouted Japanese/English vocals, bass solos replacing guitar leads, Maximum the Hormone-inspired energy]",
+    "type": "gen",
+    "uses_latest_model": false,
+    "video_is_stale": false
+  },
+  "model_name": "chirp-auk",
+  "ownership": {
+    "ownership_reason": "subscribed"
+  },
+  "play_count": 29,
+  "project": {
+    "description": "1-Temazos",
+    "id": "34d638ba-5606-4a9f-ad83-cfb2d9f7d7b8",
+    "is_public": false,
+    "is_trashed": false,
+    "name": "1-Temazos"
+  },
+  "reaction": {
+    "clip": "975613f5-9eb1-454b-8a1a-04b5f2154bb6",
+    "flagged": false,
+    "play_count": 25,
+    "reaction_type": "L",
+    "skip_count": 0,
+    "updated_at": "2026-04-03T23:47:47.089Z"
+  },
+  "status": "complete",
+  "title": "KIKE",
+  "upvote_count": 1,
+  "user_id": "6755b056-24ad-46c6-904c-8687163942ad",
+  "video_url": "https://cdn1.suno.ai/975613f5-9eb1-454b-8a1a-04b5f2154bb6.mp4",
+  "workspaceId": "34d638ba-5606-4a9f-ad83-cfb2d9f7d7b8",
+  "workspaceName": "1-Temazos",
+  "_cacheTimestamp": 1782504031178
+}

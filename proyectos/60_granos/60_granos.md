@@ -121,5 +121,5 @@ Porque en este maldito escenario... el amo del ruido... soy yo
 
 ### Nota para futuras canciones similares
 
-- En géneros hardcore/rawstyle, describir el kick explícitamente ("distorted piep kicks") marca diferencia de timbre
+- En géneros hardcore\rawstyle, describir el kick explícitamente ("distorted piep kicks") marca diferencia de timbre
 - El personaje-villano (arrogante, teatral) aguanta bien un arco largo de 8 secciones sin perder coherencia

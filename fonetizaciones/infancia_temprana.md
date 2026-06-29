@@ -15,7 +15,7 @@ El aparato fonador del niño pequeño es más pequeño y menos flexible; sus rut
 
 El sistema de 5 vocales se adquiere tempranamente, pero su ejecución es exagerada y a menudo "vocalizada" en exceso para compensar la falta de consonantes claras.
 
-| Patrón / Grafía Original | Regla de Transformación | Equivalencia Fonética | Ejemplo Práctico |
+| Patrón \ Grafía Original | Regla de Transformación | Equivalencia Fonética | Ejemplo Práctico |
 | :--- | :--- | :--- | :--- |
 | **a, e, i, o, u** | Articulación exagerada (mandíbula muy abierta) | **a, e, i, o, u** | *mamá* → **ma má** |
 | **Diptongos complejos** | Reducción a la vocal más abierta | **V** (simple) | *fuente* → **fén te** |
@@ -29,9 +29,9 @@ El niño sustituye fonemas complejos (líquidas, sibilantes, vibrantes) por otro
 
 | Sonido de Origen (IPA) | Descripción Articulatoria | Fonetización en Español |
 | :--- | :--- | :--- |
-| **r / rr** (Vibrantes) | Sustitución por oclusiva o aproximante. | **l** o **d** |
-| **s / z / j / ch** | Sustitución por fonemas frontales (oclusivas). | **t, d, p, b** |
-| **l / ll / ñ** | Sustitución por sonidos más sencillos (nasales o laterales). | **n, l, y** |
+| **r \ rr** (Vibrantes) | Sustitución por oclusiva o aproximante. | **l** o **d** |
+| **s \ z \ j \ ch** | Sustitución por fonemas frontales (oclusivas). | **t, d, p, b** |
+| **l \ ll \ ñ** | Sustitución por sonidos más sencillos (nasales o laterales). | **n, l, y** |
 | **Grupos cultos** (pl, tr, cl) | Reducción a una sola consonante. | **p, t, c** |
 
 * **Consonantes mudas:** El niño no ignora letras, ignora "esfuerzos". La estructura básica es CV (Consonante-Vocal). Si una palabra tiene una estructura más compleja, el niño la "arregla" eliminando el exceso de información.
@@ -74,7 +74,7 @@ Esta simulación aplica procesos de simplificación a cualquier oración adulta 
 
 ### 7.2. Sustitución Consonántica (Simplificación de Esfuerzo)
 
-* **Velarización/Frontalización:** Mover todos los sonidos hacia la zona frontal (labios/dientes) o hacia la zona posterior (velar).
+* **Velarización\Frontalización:** Mover todos los sonidos hacia la zona frontal (labios\dientes) o hacia la zona posterior (velar).
 * **Oclusivización:** Sustituir fricativas (f, s, z, j) por oclusivas (p, t, k, b, d, g).
 
 ### 7.3. Alteración Rítmica

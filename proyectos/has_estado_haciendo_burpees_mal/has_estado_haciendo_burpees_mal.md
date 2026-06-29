@@ -49,7 +49,7 @@ Es un bostezo agachado
 Un fracaso con zapatillas
 Una sentadilla con ansiedad social
 
-[Hook / Drop][Spanish Male Voice][Distorted Vox, Gym Bell FX, Kick Deathroll]
+[Hook \ Drop][Spanish Male Voice][Distorted Vox, Gym Bell FX, Kick Deathroll]
 ¡BURPEE REAL!
 ¡SANGRE EN EL SUELO!
 ¡LATIDOS A 200 BPM!

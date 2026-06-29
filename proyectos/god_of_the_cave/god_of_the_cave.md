@@ -4,7 +4,7 @@
 
 ## Titulo Original
 
-洞窟の神 (Dōkutsu no Kami / God of the Cave)
+洞窟の神 (Dōkutsu no Kami \ God of the Cave)
 
 ## Generated
 

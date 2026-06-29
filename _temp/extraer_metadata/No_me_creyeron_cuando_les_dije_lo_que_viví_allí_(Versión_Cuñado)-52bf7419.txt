@@ -1,0 +1,254 @@
+Metadata for: No_me_creyeron_cuando_les_dije_lo_que_viví_allí_(Versión_Cuñado)-52bf7419
+Generated: 2026-06-26T20:05:53.085Z
+
+--- Track Information ---
+Title: No me creyeron cuando les dije lo que viví allí (Versión Cuñado)
+Artist: AngieSoundlab
+
+--- Musical Information ---
+
+--- Creation Details ---
+Prompt: Hardtek, Coachcore, Cuñadismo Rave, Testimonial Ragecore, Urban Legend Bounce
+Track ID: 52bf7419-dd8f-4a98-895a-d74eb1ef5780
+
+--- Lyrics ---
+[Production: Hardtek, Gas Station Bass, Rumor FX, Kickroll de Bar, Cuñao Delay]
+
+[Intro][Spanish Male Voice][Beer Can FX, Static Rumor FX, Kickroll]
+No me creyeron.
+Pero yo estuve allí.
+Lo vi todo.
+Y tengo pruebas…
+en otro móvil.
+
+[Verse][Spanish Male Voice][Dry Flow, Cheap Reverb, Bar Table FX]
+Donde yo echo gasolina vale un euro
+El bar estaba lleno de tías solteras
+Y todas me miraban, no sé por qué
+Ayer me llamó Rajoy
+me dijo: “te estoy observando, máquina”
+
+Las adidas que llevo me las regalan
+Yo no las pido, me las mandan
+Me encontré un billete de 500
+en el suelo del Primark
+Y me lo gasté
+en bitcoins…
+antes de que subieran
+
+[Hook / Drop][Spanish Male Voice][Distorted Vox, Alarm Ping, Full Bass Crack]
+¡NO ME CREYERON!
+¡PERO TODO PASÓ!
+¡Y LO VOLVERÍA A HACER!
+¡CON LAS MISMAS ZAPATILLAS!
+
+[Break][Spanish Male Voice][Tape Stretch FX, WhatsApp Ping, Echoed Laughter]
+No tengo pruebas
+pero tengo testigos
+que ya no me hablan
+porque les dije la verdad
+
+[Final][Spanish Male Voice][Bombo Tremble, Bar Fadeout FX]
+Ahora cada vez que bajo a la gasolinera
+me guiña el surtidor
+y suena hardcore de fondo
+
+Y si tú tampoco me crees…
+es porque no has estado
+allí.
+
+Cover Art URL: https://cdn2.suno.ai/image_52bf7419-dd8f-4a98-895a-d74eb1ef5780.jpeg
+
+--- Respuesta Bruta de la API ---
+{
+  "action_config": {
+    "actions": [
+      {
+        "action_type": "add_to_playlist",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "like_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "share_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "dislike_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "report_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "remove_from_playlist",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "delete_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "edit_song_details",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "create_hook",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "download_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "download_as_video",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "unpublish_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "remaster",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "allow_comments_toggle_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "allow_remix",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "pin_to_profile",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "remix_extend",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "remix_cover",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "remix_reuse_style",
+        "disabled": false,
+        "visible": true
+      }
+    ]
+  },
+  "allow_comments": true,
+  "audio_url": "https://cdn1.suno.ai/52bf7419-dd8f-4a98-895a-d74eb1ef5780.mp3",
+  "avatar_image_url": "https://cdn1.suno.ai/8b5db1b2.webp",
+  "batch_index": 1,
+  "comment_count": 0,
+  "created_at": "2025-05-22T13:49:13.865Z",
+  "display_name": "AngieSoundlab",
+  "display_tags": "Hardtek, Coachcore, Cuñadismo Rave, Testimonial Ragecore, Urban Legend Bounce",
+  "entity_type": "song_schema",
+  "explicit": false,
+  "flag_count": 0,
+  "handle": "angiesoundlab",
+  "has_hook": false,
+  "id": "52bf7419-dd8f-4a98-895a-d74eb1ef5780",
+  "image_large_url": "https://cdn2.suno.ai/image_large_52bf7419-dd8f-4a98-895a-d74eb1ef5780.jpeg",
+  "image_url": "https://cdn2.suno.ai/image_52bf7419-dd8f-4a98-895a-d74eb1ef5780.jpeg",
+  "is_contest_clip": false,
+  "is_following_creator": false,
+  "is_handle_updated": true,
+  "is_hidden": false,
+  "is_liked": true,
+  "is_persona_root": false,
+  "is_public": true,
+  "is_trashed": false,
+  "is_verified": false,
+  "major_model_version": "v4.5",
+  "media_urls": [
+    {
+      "content_type": "mp3",
+      "delivery": "progressive",
+      "url": "https://cdn1.suno.ai/52bf7419-dd8f-4a98-895a-d74eb1ef5780.mp3"
+    }
+  ],
+  "metadata": {
+    "can_remix": true,
+    "duration": 188.28,
+    "has_stem": false,
+    "is_remix": false,
+    "make_instrumental": false,
+    "model_badges": {
+      "songrow": {
+        "dark": {
+          "background_color": "00000000",
+          "border_color": "FFFFFF1A",
+          "text_color": "A3A3A3"
+        },
+        "display_name": "v4.5",
+        "light": {
+          "background_color": "00000000",
+          "border_color": "0000001A",
+          "text_color": "7D7C83"
+        }
+      }
+    },
+    "priority": 10,
+    "prompt": "[Production: Hardtek, Gas Station Bass, Rumor FX, Kickroll de Bar, Cuñao Delay]\n\n[Intro][Spanish Male Voice][Beer Can FX, Static Rumor FX, Kickroll]\nNo me creyeron.\nPero yo estuve allí.\nLo vi todo.\nY tengo pruebas…\nen otro móvil.\n\n[Verse][Spanish Male Voice][Dry Flow, Cheap Reverb, Bar Table FX]\nDonde yo echo gasolina vale un euro\nEl bar estaba lleno de tías solteras\nY todas me miraban, no sé por qué\nAyer me llamó Rajoy\nme dijo: “te estoy observando, máquina”\n\nLas adidas que llevo me las regalan\nYo no las pido, me las mandan\nMe encontré un billete de 500\nen el suelo del Primark\nY me lo gasté\nen bitcoins…\nantes de que subieran\n\n[Hook / Drop][Spanish Male Voice][Distorted Vox, Alarm Ping, Full Bass Crack]\n¡NO ME CREYERON!\n¡PERO TODO PASÓ!\n¡Y LO VOLVERÍA A HACER!\n¡CON LAS MISMAS ZAPATILLAS!\n\n[Break][Spanish Male Voice][Tape Stretch FX, WhatsApp Ping, Echoed Laughter]\nNo tengo pruebas\npero tengo testigos\nque ya no me hablan\nporque les dije la verdad\n\n[Final][Spanish Male Voice][Bombo Tremble, Bar Fadeout FX]\nAhora cada vez que bajo a la gasolinera\nme guiña el surtidor\ny suena hardcore de fondo\n\nY si tú tampoco me crees…\nes porque no has estado\nallí.",
+    "refund_credits": false,
+    "stream": true,
+    "tags": "Hardtek, Coachcore, Cuñadismo Rave, Testimonial Ragecore, Urban Legend Bounce",
+    "type": "gen",
+    "uses_latest_model": false,
+    "video_is_stale": false
+  },
+  "model_name": "chirp-auk",
+  "ownership": {
+    "ownership_reason": "subscribed"
+  },
+  "play_count": 6,
+  "project": {
+    "description": "1-Temazos",
+    "id": "34d638ba-5606-4a9f-ad83-cfb2d9f7d7b8",
+    "is_public": false,
+    "is_trashed": false,
+    "name": "1-Temazos"
+  },
+  "reaction": {
+    "clip": "52bf7419-dd8f-4a98-895a-d74eb1ef5780",
+    "flagged": false,
+    "play_count": 5,
+    "reaction_type": "L",
+    "skip_count": 0,
+    "updated_at": "2026-06-03T04:50:55.059Z"
+  },
+  "status": "complete",
+  "title": "No me creyeron cuando les dije lo que viví allí (Versión Cuñado)",
+  "upvote_count": 1,
+  "user_id": "6755b056-24ad-46c6-904c-8687163942ad",
+  "video_url": "https://cdn1.suno.ai/52bf7419-dd8f-4a98-895a-d74eb1ef5780.mp4",
+  "workspaceId": "34d638ba-5606-4a9f-ad83-cfb2d9f7d7b8",
+  "workspaceName": "1-Temazos",
+  "_cacheTimestamp": 1782504031178
+}

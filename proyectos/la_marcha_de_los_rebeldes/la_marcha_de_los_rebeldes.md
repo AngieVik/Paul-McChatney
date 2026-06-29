@@ -33,7 +33,7 @@ Spanish Folk Metal, Male Vocals (Melodic Power & Gritty), Fast & Festive.
 [Sound Effect: Thunder & Horse Whinny]
 [Violin Solo: Fast Neoclassical Folk Style]
 [Rhythm: Galloping Metal Beat]
-[Tempo: Fast 4/4]
+[Tempo: Fast 4\4]
 
 [Verse 1]
 [Vocals: Narrative & Deep][Bass: Driving]

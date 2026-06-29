@@ -1,4 +1,4 @@
-# Guía de Fonetización en Español: Portugués (Europeo / Continental)
+# Guía de Fonetización en Español: Portugués (Europeo \ Continental)
 
 **Notas de Configuración Fonética:** Sistema ortográficamente engañoso para el hispanohablante. Aunque comparte la misma raíz y gran parte del léxico con el español y el gallego, su fonología es radicalmente distinta. Se caracteriza por un colapso masivo de las vocales átonas y un denso agrupamiento consonántico, lo que a menudo provoca que auditivamente se confunda con idiomas eslavos como el ruso.
 
@@ -15,13 +15,13 @@ El portugués europeo requiere mantener la boca mucho más cerrada que en españ
 
 El sistema vocálico es complejo, con 9 vocales orales y 5 nasales. La regla de oro para simular el acento es la destrucción de las vocales átonas.
 
-| Patrón / Grafía Original | Regla de Transformación | Equivalencia Fonética | Ejemplo Práctico |
+| Patrón \ Grafía Original | Regla de Transformación | Equivalencia Fonética | Ejemplo Práctico |
 | :--- | :--- | :--- | :--- |
-| **a** (átona final o ante nasal) | Se cierra hacia un sonido neutro oscuro | **a** (gutural/sorda) | *cama* → **ká- ma** (sorda) |
+| **a** (átona final o ante nasal) | Se cierra hacia un sonido neutro oscuro | **a** (gutural\sorda) | *cama* → **ká- ma** (sorda) |
 | **e** (átona) | Se reduce a schwa casi imperceptible o se elimina | **e** (muy débil) o **Ø** | *menino* → **m'ní- nu** |
 | **o** (átona inicial o final) | Se cierra completamente hacia la 'u' | **u** | *gato* → **gá- tu** |
-| **e** (final de palabra) | Prácticamente muda (microsusurro) | **(e)** muda / suprimida | *cidade* → **si dá- d(e)** |
-| **ão, õe** (y vocales ante m/n) | Vocal fuertemente nasalizada (aire por la nariz) | **aun, oin** (nasales) | *pão* → **páung** (nasal) |
+| **e** (final de palabra) | Prácticamente muda (microsusurro) | **(e)** muda \ suprimida | *cidade* → **si dá- d(e)** |
+| **ão, õe** (y vocales ante m\n) | Vocal fuertemente nasalizada (aire por la nariz) | **aun, oin** (nasales) | *pão* → **páung** (nasal) |
 
 * **Diptongos clave:** Conserva diptongos decrecientes (como *ou*, *ei*) que a menudo se monoptongan sutilmente en el habla rápida, pero el diptongo nasal **ão** es el más crítico; debe sonar como un 'au' que resuena en la cavidad nasal, terminando casi en una 'ng' velar muy suave.
 
@@ -31,15 +31,15 @@ El portugués posee fricativas sonoras y sordas ausentes en el español peninsul
 
 | Sonido de Origen (IPA) | Descripción Articulatoria | Fonetización en Español |
 | :--- | :--- | :--- |
-| **s / z** (final de palabra o sílaba) | Fricativa postalveolar sorda (ante sorda o pausa). | **sh** |
-| **s / z** (ante consonante sonora) | Fricativa postalveolar sonora (/ʒ/). | **y** (vibrante/zumbadora) |
+| **s \ z** (final de palabra o sílaba) | Fricativa postalveolar sorda (ante sorda o pausa). | **sh** |
+| **s \ z** (ante consonante sonora) | Fricativa postalveolar sonora (\ʒ\). | **y** (vibrante\zumbadora) |
 | **z** (intervocálica) | Fricativa alveolar sonora. | **s** (vibrante, de mosquito) |
-| **j / g** (+ e, i) | Fricativa postalveolar sonora (/ʒ/). | **y** (francesa, suave) |
+| **j \ g** (+ e, i) | Fricativa postalveolar sonora (\ʒ\). | **y** (francesa, suave) |
 | **v** | Fricativa labiodental sonora. | **v** (mordiendo labio) |
-| **ch** (/ʃ/) | Fricativa postalveolar sorda. | **sh** |
-| **lh** (/ʎ/) | Lateral palatal. | **ll** (pura, no yeísta) |
-| **nh** (/ɲ/) | Nasal palatal. | **ñ** |
-| **r** (inicial) / **rr** | Fricativa uvular sonora (como en francés). | **j** (suave/gutural) |
+| **ch** (\ʃ\) | Fricativa postalveolar sorda. | **sh** |
+| **lh** (\ʎ\) | Lateral palatal. | **ll** (pura, no yeísta) |
+| **nh** (\ɲ\) | Nasal palatal. | **ñ** |
+| **r** (inicial) \ **rr** | Fricativa uvular sonora (como en francés). | **j** (suave\gutural) |
 
 * **Consonantes mudas:** La **h** inicial es muda. La **c** y la **p** antes de 't' o 'c' a veces son mudas dependiendo del acuerdo ortográfico y la variante (ej. *acto* se lee **á- tu**).
 
@@ -51,7 +51,7 @@ El portugués posee fricativas sonoras y sordas ausentes en el español peninsul
 
 ## 5. Excepciones y "Falsos Amigos" Fonéticos
 
-* **El falso amigo 'CH':** Al igual que en francés, nunca suena como la africada española (/tʃ/). Siempre es fricativa continua **sh**. *Chave* (llave) se lee **shá- v(e)**.
+* **El falso amigo 'CH':** Al igual que en francés, nunca suena como la africada española (\tʃ\). Siempre es fricativa continua **sh**. *Chave* (llave) se lee **shá- v(e)**.
 * **El falso amigo 'X':** Es la letra más anárquica. Puede sonar como **sh** (*xícara*), como **ks** (*táxi*), como **s** (*próximo*) o como **z** sonora (*exame*). Por defecto en posiciones iniciales o tras diptongo suele ser **sh**.
 * **Diferencia con el Portugués Brasileño:** En Brasil, la 't' y 'd' ante 'i' se palatalizan en 'ch' y 'dj' (*tia* → *chía*). En Portugal esto **no** ocurre (*tia* → **tí- a** limpia). En Brasil la 'l' final se vuelve 'u' (*Brasil* → *Brasiu*). En Portugal es una 'l' velar oscura (**bra zíl**).
 
@@ -83,7 +83,7 @@ La aplicación de la fonología lusitana sobre el castellano destruye la clarida
 ### 7.2. Sustitución Consonántica y Fricación
 
 * **Palatalización de las Sibilantes ('s' a 'sh'):** Cualquier 's' española que cierre una sílaba o palabra será convertida instantáneamente en 'sh' (ej. *los niños* → **lush ní- ñush**).
-* **Sonorización Intervocálica:** La 's' española entre vocales se convierte en un zumbido sonoro /z/ (*casa* → **ká- za**).
+* **Sonorización Intervocálica:** La 's' española entre vocales se convierte en un zumbido sonoro \z\ (*casa* → **ká- za**).
 * **Fricación Labiodental y Uvular:** Transformación de la 'v' ortográfica española en fricativa labiodental sonora. Sustitución de la 'rr' española por la fricativa uvular francesa (una gárgara suave en la garganta).
 
 ### 7.3. Alteración Rítmica

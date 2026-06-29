@@ -45,7 +45,7 @@ son agresión en standby
 La cadera apunta
 hacia donde quiere escapar
 
-[Hook / Drop][Spanish Male Voice][Distorted Vox, Click FX, Siren Trigger]
+[Hook \ Drop][Spanish Male Voice][Distorted Vox, Click FX, Siren Trigger]
 ¡Lenguaje corporal!
 ¡No necesita subtítulos!
 ¡Cien microgestos por minuto!

@@ -4,7 +4,7 @@
 
 ### Efectos
 stutter effectf - voz repetitivo.
-auto tune -  voz con afinación automática estilo T-Pain/Travis Scott.
+auto tune -  voz con afinación automática estilo T-Pain\Travis Scott.
 reverb effect - eco amplio, ideal para baladas o coros.
 vocal delay - retraso tipo eco corto.
 distorted vocals - voz con distorsión, más agresiva.
@@ -31,11 +31,11 @@ Para definir con precisión el tipo de cantante y su registro:
   * **`Bajo de E2 a E4`**: Para un tono muy profundo.
   * **`Varitono de G2 a G4`**: Para una voz con cuerpo y fuerza, un poco más alta.
   * **`Tenor de C3 a C5`**: Para voces limpias, melódicas y más agudas.
-* **Voces Femeninas (Estilo "No Diva" / Íntimo):**
+* **Voces Femeninas (Estilo "No Diva" \ Íntimo):**
   * **`Voz femenina registro muy bajo`**.
-  * **`Susurrada`** / **`Íntima`**.
+  * **`Susurrada`** \ **`Íntima`**.
   * **`Tesitura solo rango bajo`**.
-  * **`Límite de rango vocal E3 a A3`** / **`No exceder`**,.
+  * **`Límite de rango vocal E3 a A3`** \ **`No exceder`**,.
 
 ### Dinámica y Volumen (Intensidad)
 
@@ -52,7 +52,7 @@ Instrucciones específicas sobre cómo debe cantar la IA:
 * **`Sotoboce`** (Sotto voce): Cantar en voz baja o susurrando.
 * **`Sin vibrato`**: Para una voz más plana y directa.
 * **`Sin ad libs`**: Para evitar improvisaciones vocales extras.
-* **`Emoción desapegada`** / **`Internalizada`**: Para interpretaciones más frías o introspectivas.
+* **`Emoción desapegada`** \ **`Internalizada`**: Para interpretaciones más frías o introspectivas.
 
 ### Efectos y Texturas (Instrumental y Mezcla)
 

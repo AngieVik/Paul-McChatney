@@ -1,0 +1,277 @@
+Metadata for: Sebas_el_grande-7d4c44bb
+Generated: 2026-06-26T20:05:53.087Z
+
+--- Track Information ---
+Title: Sebas el grande
+Artist: AngieSoundlab
+
+--- Musical Information ---
+
+--- Creation Details ---
+Prompt: "Cumbia villera explosiva, acordeón al frente, bajo pesado, congas marcando fuerte, güiro constante. Voz intensa con actitud callejera, sonido crudo y callejero. Ritmo pegajoso que obliga a bailar."
+Track ID: 7d4c44bb-f789-4fff-9d5d-ba353d8c6441
+
+--- Lyrics ---
+(Intro - Instrumental con acordeón y trompeta)
+(¡Ahí viene el moreno! ¡Con su facha y sus gafas divinas!)
+
+(Verso 1)
+Ahí llega el Sebas con su canción,
+si hay poca fiesta, él la levanta.
+Siempre sonríe, siempre elegante,
+bailando cumbia con los parlantes.
+
+(Verso 2)
+Él es un capo, un vacilón,
+mueve la cumbia con su motor.
+Siempre sonríe, nunca está mal,
+si ves su sombra, ya viene el baile.
+
+(Estribillo - BIS)
+¡Cerre-cerre-cerrepete!
+¡Que suene fuerte, que suene el tren!
+¡Cerre-cerre-cerrepete!
+¡Si él lo hace, tú también!
+
+(Verso 3)
+Lleva unas gafas de puro flow,
+aunque sean de mujer, ¡Son lo mejor!
+La gente mira y se pregunta:
+"¿Quién es ese con tanta facha?"
+
+(Verso 4)
+No hay mañana sin sentadillas,
+despierta el barrio con su energía.
+Sube a su nave, la ambulancia,
+y la guarachas entran en confianza.
+
+(Puente - Medio tiempo, con bajo y güiro al frente)
+Dale Sebita, muévelo, muévelo,
+con esa técnica, rompiéndolo, rompiéndolo.
+Que el barrio entero ya está prendido,
+dale hasta el suelo, no hay que rendirse.
+
+( Estribillo - BIS)
+¡Cerre-cerre-cerrepete!
+¡Que suene fuerte, que suene el tren!
+¡Cerre-cerre-cerrepete!
+¡Él es el rey, no hay quién le venza!
+
+(Verso 5 - Explosivo)
+Si está en la esquina, se arma la ronda,
+nadie se escapa de su maniobra.
+Con una risa, te gana el juego,
+y si te despistas, ¡te mete cuello!
+
+(Estribillo Final - BIS con más power y corte al final)
+¡Cerre-cerre-cerrepete!
+¡Que suene fuerte, que explote el tren!
+¡Cerre-cerre-cerrepete!
+¡Baila hasta el suelo, no pares, ven!
+
+¡Cerre-cerre-cerrepete!
+¡Sebas lo mueve, lo mueve bien!
+¡Cerre-cerre-cerrepete!
+¡Gafas brillando, lo ves, lo ves!
+
+(Corte de música, solo voz y palmas del público)
+"¡Ceeerreeee-peeeteee!" (Pausa)
+"¡Vamos, vamos, que esto no se acaba!"
+
+(Explosión final con toda la banda entrando fuerte)
+ ¡Cerrepete, cerrepete, que siga el showooo! 
+
+(Outro - Instrumental con acordeón y trompeta)
+(Y se vaaa... Sebas el grande, moviéndolo, moviéndolo...  Con sus gafas divinas y el pasito villero, ¡Cumbiaaa!) 
+
+Cover Art URL: https://cdn2.suno.ai/image_7d4c44bb-f789-4fff-9d5d-ba353d8c6441.jpeg
+
+--- Respuesta Bruta de la API ---
+{
+  "action_config": {
+    "actions": [
+      {
+        "action_type": "add_to_playlist",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "like_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "share_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "dislike_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "report_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "remove_from_playlist",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "delete_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "edit_song_details",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "create_hook",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "download_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "download_as_video",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "unpublish_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "remaster",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "allow_comments_toggle_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "allow_remix",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "pin_to_profile",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "remix_extend",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "remix_cover",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "remix_reuse_style",
+        "disabled": false,
+        "visible": true
+      }
+    ]
+  },
+  "allow_comments": true,
+  "audio_url": "https://cdn1.suno.ai/7d4c44bb-f789-4fff-9d5d-ba353d8c6441.mp3",
+  "avatar_image_url": "https://cdn1.suno.ai/8b5db1b2.webp",
+  "batch_index": 0,
+  "comment_count": 0,
+  "created_at": "2025-04-02T17:44:20.752Z",
+  "display_name": "AngieSoundlab",
+  "entity_type": "song_schema",
+  "explicit": false,
+  "flag_count": 0,
+  "handle": "angiesoundlab",
+  "has_hook": false,
+  "id": "7d4c44bb-f789-4fff-9d5d-ba353d8c6441",
+  "image_large_url": "https://cdn2.suno.ai/image_large_7d4c44bb-f789-4fff-9d5d-ba353d8c6441.jpeg",
+  "image_url": "https://cdn2.suno.ai/image_7d4c44bb-f789-4fff-9d5d-ba353d8c6441.jpeg",
+  "is_contest_clip": false,
+  "is_following_creator": false,
+  "is_handle_updated": true,
+  "is_hidden": false,
+  "is_liked": true,
+  "is_persona_root": false,
+  "is_public": true,
+  "is_trashed": false,
+  "is_verified": false,
+  "major_model_version": "v4",
+  "media_urls": [
+    {
+      "content_type": "mp3",
+      "delivery": "progressive",
+      "url": "https://cdn1.suno.ai/7d4c44bb-f789-4fff-9d5d-ba353d8c6441.mp3"
+    }
+  ],
+  "metadata": {
+    "can_remix": false,
+    "duration": 203.72,
+    "free_quota_category": "web_v4_gen",
+    "has_stem": false,
+    "is_remix": false,
+    "make_instrumental": false,
+    "model_badges": {
+      "songrow": {
+        "dark": {
+          "background_color": "00000000",
+          "border_color": "FFFFFF1A",
+          "text_color": "A3A3A3"
+        },
+        "display_name": "v4",
+        "light": {
+          "background_color": "00000000",
+          "border_color": "0000001A",
+          "text_color": "7D7C83"
+        }
+      }
+    },
+    "priority": 0,
+    "prompt": "(Intro - Instrumental con acordeón y trompeta)\n(¡Ahí viene el moreno! ¡Con su facha y sus gafas divinas!)\n\n(Verso 1)\nAhí llega el Sebas con su canción,\nsi hay poca fiesta, él la levanta.\nSiempre sonríe, siempre elegante,\nbailando cumbia con los parlantes.\n\n(Verso 2)\nÉl es un capo, un vacilón,\nmueve la cumbia con su motor.\nSiempre sonríe, nunca está mal,\nsi ves su sombra, ya viene el baile.\n\n(Estribillo - BIS)\n¡Cerre-cerre-cerrepete!\n¡Que suene fuerte, que suene el tren!\n¡Cerre-cerre-cerrepete!\n¡Si él lo hace, tú también!\n\n(Verso 3)\nLleva unas gafas de puro flow,\naunque sean de mujer, ¡Son lo mejor!\nLa gente mira y se pregunta:\n\"¿Quién es ese con tanta facha?\"\n\n(Verso 4)\nNo hay mañana sin sentadillas,\ndespierta el barrio con su energía.\nSube a su nave, la ambulancia,\ny la guarachas entran en confianza.\n\n(Puente - Medio tiempo, con bajo y güiro al frente)\nDale Sebita, muévelo, muévelo,\ncon esa técnica, rompiéndolo, rompiéndolo.\nQue el barrio entero ya está prendido,\ndale hasta el suelo, no hay que rendirse.\n\n( Estribillo - BIS)\n¡Cerre-cerre-cerrepete!\n¡Que suene fuerte, que suene el tren!\n¡Cerre-cerre-cerrepete!\n¡Él es el rey, no hay quién le venza!\n\n(Verso 5 - Explosivo)\nSi está en la esquina, se arma la ronda,\nnadie se escapa de su maniobra.\nCon una risa, te gana el juego,\ny si te despistas, ¡te mete cuello!\n\n(Estribillo Final - BIS con más power y corte al final)\n¡Cerre-cerre-cerrepete!\n¡Que suene fuerte, que explote el tren!\n¡Cerre-cerre-cerrepete!\n¡Baila hasta el suelo, no pares, ven!\n\n¡Cerre-cerre-cerrepete!\n¡Sebas lo mueve, lo mueve bien!\n¡Cerre-cerre-cerrepete!\n¡Gafas brillando, lo ves, lo ves!\n\n(Corte de música, solo voz y palmas del público)\n\"¡Ceeerreeee-peeeteee!\" (Pausa)\n\"¡Vamos, vamos, que esto no se acaba!\"\n\n(Explosión final con toda la banda entrando fuerte)\n ¡Cerrepete, cerrepete, que siga el showooo! \n\n(Outro - Instrumental con acordeón y trompeta)\n(Y se vaaa... Sebas el grande, moviéndolo, moviéndolo...  Con sus gafas divinas y el pasito villero, ¡Cumbiaaa!) ",
+    "refund_credits": false,
+    "stream": true,
+    "tags": "\"Cumbia villera explosiva, acordeón al frente, bajo pesado, congas marcando fuerte, güiro constante. Voz intensa con actitud callejera, sonido crudo y callejero. Ritmo pegajoso que obliga a bailar.\"",
+    "type": "gen",
+    "uses_latest_model": false
+  },
+  "model_name": "chirp-v4",
+  "play_count": 12,
+  "project": {
+    "description": "1-Temazos",
+    "id": "34d638ba-5606-4a9f-ad83-cfb2d9f7d7b8",
+    "is_public": false,
+    "is_trashed": false,
+    "name": "1-Temazos"
+  },
+  "reaction": {
+    "clip": "7d4c44bb-f789-4fff-9d5d-ba353d8c6441",
+    "flagged": false,
+    "play_count": 12,
+    "reaction_type": "L",
+    "skip_count": 0,
+    "updated_at": "2026-03-20T03:06:11.379Z"
+  },
+  "status": "complete",
+  "title": "Sebas el grande",
+  "upvote_count": 1,
+  "user_id": "6755b056-24ad-46c6-904c-8687163942ad",
+  "video_url": "https://cdn1.suno.ai/7d4c44bb-f789-4fff-9d5d-ba353d8c6441.mp4",
+  "workspaceId": "34d638ba-5606-4a9f-ad83-cfb2d9f7d7b8",
+  "workspaceName": "1-Temazos",
+  "_cacheTimestamp": 1782504031178
+}

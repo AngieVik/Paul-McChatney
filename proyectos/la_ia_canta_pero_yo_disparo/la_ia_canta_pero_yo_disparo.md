@@ -58,13 +58,13 @@ hay beats que no suenan ni con cien notas
 rimas de asfalto, heridas sin cura
 cada palabra escrita sin censura
 
-[Chorus][Dual male voice, saturated high mids][4/4 solid pulse][Heroic-sorrowful][Heavy sidechain, stereo spread]
+[Chorus][Dual male voice, saturated high mids][4\4 solid pulse][Heroic-sorrowful][Heavy sidechain, stereo spread]
 La IA canta, pero yo disparo
 con rabia real, con fuego bizarro
 el beat es de código, el alma del barro
 bienvenido a la escena donde no sangro
 
-[Chorus][Dual male voice, saturated high mids][4/4 solid pulse][Heroic-sorrowful][Heavy sidechain, stereo spread]
+[Chorus][Dual male voice, saturated high mids][4\4 solid pulse][Heroic-sorrowful][Heavy sidechain, stereo spread]
 La IA canta, pero yo disparo
 con rabia real, con fuego bizarro
 el beat es de código, el alma del barro

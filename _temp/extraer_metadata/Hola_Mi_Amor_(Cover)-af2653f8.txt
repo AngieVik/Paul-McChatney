@@ -1,0 +1,287 @@
+Metadata for: Hola_Mi_Amor_(Cover)-af2653f8
+Generated: 2026-06-26T20:05:53.085Z
+
+--- Track Information ---
+Title: Hola Mi Amor (Cover)
+Artist: AngieSoundlab
+
+--- Musical Information ---
+
+--- Creation Details ---
+Prompt: Spanish Heavy Metal, Power Ballad, Emotional, Passionate, Male Vocals, Driving Rhythm, Anthemic Chorus, Andalusian Scales.
+
+Track ID: af2653f8-010a-4fec-a7e1-c388258ef88f
+
+--- Lyrics ---
+[Essence: Desperate Ultimatum, Romantic Anguish, Heavy Power Ballad]
+[Production: Spanish Heavy Metal, High Gain Distortion, Melodic Shredding, Thunderous Drums, Raw Emotional Vocals, Wall of Sound, Power Metal Influence, Stadium Reverb, Crisp Mixing]
+ 
+[Intro]
+[Clean Guitar Arpeggio][Melancholic Atmosphere]
+[A sombre, clean guitar melody plays alone]
+[Explosive Transition][Heavy Metal Riff]
+[Full band kicks in with heavy distortion]
+[Double Bass Drum][Tempo: 150 BPM]
+[Guitar Harmony]
+
+[Verso 1]
+[Bass Driving][Palm Mute Riff]
+[Voz Masculina][Raspy Tone]
+Hola mi amor tengo que hablar contigo
+Estoy cansadooo-o estoy hecho un lío 
+[Guitar Squeal]
+Dime mi amor qué es lo que quieres de mí
+Dímelo ya y no me hagas sufri-ir (ii-ii)
+
+[Estribillo]
+[Anthemic Chorus][Power Chords][Open High-Hat]
+Yo no quiero ser tu amante yo no puedo serlo más
+yo no quiero ser tu amante yo quiero ser algo más
+[Double Bass Speed]
+yo no quiero ser tu amante yo no puedo serlo más
+yo ya no quiero ser tu amante yo quiero ser algo más
+
+[Verso 2]
+[Heavy Riff][Aggressive]
+Hace ya tiempo que te lo digo
+No es suficiente-e-e el ser tu amigo 
+[Drum Fill][Snare Roll]
+Quiero algo más lo te necesito-o-o
+Déjalo todo y vente conmigo
+
+[Estribillo]
+[Full Power][Crash Cymbals]
+Yo no quiero ser tu amante yo no puedo serlo más
+yo no quiero ser tu amante yo quiero ser algo más
+yo no quiero ser tu amante yo no puedo serlo más
+yo ya no quiero ser tu amante yo quiero ser algo más
+
+[Puente]
+[Half-time Feel][Breakdown]
+[Voz Melancólica][Whispering Tension]
+Quiero saber si esto es verdad amor
+[Build-up][Rising Tension]
+Si son deseos o solamente una ilusión 
+
+[Solo De Guitarra]
+[Distorted Guitar Solo][Emotional Shred]
+(Melodic solo with Phrygian dominant flavor, soaring bends)
+[Twin Guitars][Fast Runs]
+
+[Estribillo Final]
+[Maximum Volume][Epic Feel][Key Change]
+Yo no quiero ser tu amante yo no puedo serlo más 
+yo no quiero ser tu amante yo quiero ser algo más
+[Grito Desgarrador]
+Yo ya no quiero ser tu amante yo ya no puedo serlo más
+yo ya no quiero ser tu amante yo quiero ser algo más
+
+[Outro]
+[Heavy Riff Breakdown][Feedback]
+Algo más...
+(Algo más...)
+[Big Finish][Sustained Power Chord]
+[End]
+
+Cover Art URL: https://cdn2.suno.ai/image_af2653f8-010a-4fec-a7e1-c388258ef88f.jpeg
+
+--- Respuesta Bruta de la API ---
+{
+  "action_config": {
+    "actions": [
+      {
+        "action_type": "add_to_playlist",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "like_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "share_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "dislike_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "report_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "remove_from_playlist",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "delete_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "edit_song_details",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "create_hook",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "download_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "download_as_video",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "unpublish_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "remaster",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "allow_comments_toggle_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "allow_remix",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "pin_to_profile",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "remix_extend",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "remix_cover",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "remix_reuse_style",
+        "disabled": false,
+        "visible": true
+      }
+    ]
+  },
+  "allow_comments": true,
+  "audio_url": "https://cdn1.suno.ai/af2653f8-010a-4fec-a7e1-c388258ef88f.mp3",
+  "avatar_image_url": "https://cdn1.suno.ai/8b5db1b2.webp",
+  "batch_index": 1,
+  "comment_count": 0,
+  "created_at": "2026-01-05T05:46:48.010Z",
+  "display_name": "AngieSoundlab",
+  "display_tags": "heavy metal, power ballad",
+  "entity_type": "song_schema",
+  "explicit": false,
+  "flag_count": 0,
+  "handle": "angiesoundlab",
+  "has_hook": false,
+  "id": "af2653f8-010a-4fec-a7e1-c388258ef88f",
+  "image_large_url": "https://cdn2.suno.ai/image_large_af2653f8-010a-4fec-a7e1-c388258ef88f.jpeg",
+  "image_url": "https://cdn2.suno.ai/image_af2653f8-010a-4fec-a7e1-c388258ef88f.jpeg",
+  "is_contest_clip": false,
+  "is_following_creator": false,
+  "is_handle_updated": true,
+  "is_hidden": false,
+  "is_liked": true,
+  "is_persona_root": false,
+  "is_public": true,
+  "is_trashed": false,
+  "is_verified": false,
+  "major_model_version": "v4.5+",
+  "media_urls": [
+    {
+      "content_type": "m4a-opus",
+      "delivery": "progressive",
+      "encoding": "1.0.0",
+      "url": "https://d2lwuy8qc234o3.cloudfront.net/1/clip/af2653f8-010a-4fec-a7e1-c388258ef88f.m4a"
+    },
+    {
+      "content_type": "mp3",
+      "delivery": "progressive",
+      "url": "https://cdn1.suno.ai/af2653f8-010a-4fec-a7e1-c388258ef88f.mp3"
+    }
+  ],
+  "metadata": {
+    "can_remix": true,
+    "duration": 288.48,
+    "has_stem": false,
+    "is_mumble": false,
+    "is_remix": false,
+    "make_instrumental": false,
+    "model_badges": {
+      "songrow": {
+        "dark": {
+          "background_color": "00000000",
+          "border_color": "FFFFFF1A",
+          "text_color": "A3A3A3"
+        },
+        "display_name": "v4.5+",
+        "light": {
+          "background_color": "00000000",
+          "border_color": "0000001A",
+          "text_color": "7D7C83"
+        }
+      }
+    },
+    "priority": 10,
+    "prompt": "[Essence: Desperate Ultimatum, Romantic Anguish, Heavy Power Ballad]\n[Production: Spanish Heavy Metal, High Gain Distortion, Melodic Shredding, Thunderous Drums, Raw Emotional Vocals, Wall of Sound, Power Metal Influence, Stadium Reverb, Crisp Mixing]\n \n[Intro]\n[Clean Guitar Arpeggio][Melancholic Atmosphere]\n[A sombre, clean guitar melody plays alone]\n[Explosive Transition][Heavy Metal Riff]\n[Full band kicks in with heavy distortion]\n[Double Bass Drum][Tempo: 150 BPM]\n[Guitar Harmony]\n\n[Verso 1]\n[Bass Driving][Palm Mute Riff]\n[Voz Masculina][Raspy Tone]\nHola mi amor tengo que hablar contigo\nEstoy cansadooo-o estoy hecho un lío \n[Guitar Squeal]\nDime mi amor qué es lo que quieres de mí\nDímelo ya y no me hagas sufri-ir (ii-ii)\n\n[Estribillo]\n[Anthemic Chorus][Power Chords][Open High-Hat]\nYo no quiero ser tu amante yo no puedo serlo más\nyo no quiero ser tu amante yo quiero ser algo más\n[Double Bass Speed]\nyo no quiero ser tu amante yo no puedo serlo más\nyo ya no quiero ser tu amante yo quiero ser algo más\n\n[Verso 2]\n[Heavy Riff][Aggressive]\nHace ya tiempo que te lo digo\nNo es suficiente-e-e el ser tu amigo \n[Drum Fill][Snare Roll]\nQuiero algo más lo te necesito-o-o\nDéjalo todo y vente conmigo\n\n[Estribillo]\n[Full Power][Crash Cymbals]\nYo no quiero ser tu amante yo no puedo serlo más\nyo no quiero ser tu amante yo quiero ser algo más\nyo no quiero ser tu amante yo no puedo serlo más\nyo ya no quiero ser tu amante yo quiero ser algo más\n\n[Puente]\n[Half-time Feel][Breakdown]\n[Voz Melancólica][Whispering Tension]\nQuiero saber si esto es verdad amor\n[Build-up][Rising Tension]\nSi son deseos o solamente una ilusión \n\n[Solo De Guitarra]\n[Distorted Guitar Solo][Emotional Shred]\n(Melodic solo with Phrygian dominant flavor, soaring bends)\n[Twin Guitars][Fast Runs]\n\n[Estribillo Final]\n[Maximum Volume][Epic Feel][Key Change]\nYo no quiero ser tu amante yo no puedo serlo más \nyo no quiero ser tu amante yo quiero ser algo más\n[Grito Desgarrador]\nYo ya no quiero ser tu amante yo ya no puedo serlo más\nyo ya no quiero ser tu amante yo quiero ser algo más\n\n[Outro]\n[Heavy Riff Breakdown][Feedback]\nAlgo más...\n(Algo más...)\n[Big Finish][Sustained Power Chord]\n[End]",
+    "refund_credits": false,
+    "stream": true,
+    "tags": "Spanish Heavy Metal, Power Ballad, Emotional, Passionate, Male Vocals, Driving Rhythm, Anthemic Chorus, Andalusian Scales.\n",
+    "type": "gen",
+    "uses_latest_model": false,
+    "video_is_stale": true
+  },
+  "model_name": "chirp-bluejay",
+  "ownership": {
+    "ownership_reason": "subscribed"
+  },
+  "play_count": 7,
+  "project": {
+    "description": "1-Temazos",
+    "id": "34d638ba-5606-4a9f-ad83-cfb2d9f7d7b8",
+    "is_public": false,
+    "is_trashed": false,
+    "name": "1-Temazos"
+  },
+  "reaction": {
+    "clip": "af2653f8-010a-4fec-a7e1-c388258ef88f",
+    "flagged": false,
+    "play_count": 7,
+    "reaction_type": "L",
+    "skip_count": 0,
+    "updated_at": "2026-04-03T22:50:16.657Z"
+  },
+  "status": "complete",
+  "title": "Hola Mi Amor (Cover)",
+  "upvote_count": 1,
+  "user_id": "6755b056-24ad-46c6-904c-8687163942ad",
+  "video_url": "https://cdn1.suno.ai/af2653f8-010a-4fec-a7e1-c388258ef88f.mp4",
+  "workspaceId": "34d638ba-5606-4a9f-ad83-cfb2d9f7d7b8",
+  "workspaceName": "1-Temazos",
+  "_cacheTimestamp": 1782504031178
+}

@@ -50,7 +50,7 @@ Y me lo gasté
 en bitcoins…
 antes de que subieran
 
-[Hook / Drop][Spanish Male Voice][Distorted Vox, Alarm Ping, Full Bass Crack]
+[Hook \ Drop][Spanish Male Voice][Distorted Vox, Alarm Ping, Full Bass Crack]
 ¡NO ME CREYERON!
 ¡PERO TODO PASÓ!
 ¡Y LO VOLVERÍA A HACER!

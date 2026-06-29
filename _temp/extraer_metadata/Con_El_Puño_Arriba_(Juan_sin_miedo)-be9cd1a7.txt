@@ -1,0 +1,274 @@
+Metadata for: Con_El_Puño_Arriba_(Juan_sin_miedo)-be9cd1a7
+Generated: 2026-06-26T20:05:53.086Z
+
+--- Track Information ---
+Title: Con El Puño Arriba (Juan sin miedo)
+Artist: AngieSoundlab
+
+--- Musical Information ---
+
+--- Creation Details ---
+Prompt: Style: Hard Rock, Heavy Metal, Rock Opera, Absurdist Blues, Epic Theatrical, Dark Comedy
+Track ID: be9cd1a7-0b40-4447-b083-dddcf2a700db
+
+--- Lyrics ---
+[Production: Over-the-top, Cinematic, Epic Metal Comedy, Soundtrack Vibes]
+
+[Essence: Absurd, Epic, Chaotic, Empowering, Darkly Comedic, Surreal, Victorious]
+
+[Prologue][Narrator: Overacted and Dramatic][Male Voice - Deep][Thunder, Wind SFX]
+En un pueblo perdido, donde el miedo manda
+Nació Juan Sin Miedo, con el alma templada
+Nunca tuvo escalofríos, ni se asustó del trueno
+Pero hoy va al castillo... donde reina lo macabro
+
+[Act I][Singer: Screaming Voice][Electric Guitar][Fast Build, Explosive Riffs, Chainsaw SFX]
+Juan entra al castillo, con los puños al aire
+Las puertas se abren, ¡un ejército de calaveras en la calle!
+"¿Tú eres Juan, el que no teme a nada?"
+Y Juan se ríe, "Soy el que parte espadas"
+
+[Transition - Dialogue][Narrator: Whispering, Sinister][Male Voice - Echo][Glass Shatter, Laughter SFX]
+"Pero Juan no sabe lo que le espera...
+La primera prueba es un monstruo sin cara"
+El eco aúlla, la sombra se expande
+Y Juan sonríe, "¿Eso es todo lo que tienes, cobarde?"
+
+[Act II - First Trial][Singer: Gruff Voice][Electric Guitar, Bass][Dragging Rhythm, Distorted Bass, Echo SFX]
+Juan camina en la sala de espejos rotos
+Un reflejo sin rostro, un eco roto
+"¿Quién eres tú?", le grita la voz
+Y Juan responde, "El que no teme ni al feroz"
+Las sombras avanzan, los espejos crujen
+Juan sonríe y grita, "¡Vengan a ver si me destruyen!"
+Las calaveras se rompen, los espejos estallan
+Pero Juan sigue en pie, mientras el miedo se calla
+
+[Transition - Dialogue][Narrator: Whispering, Sinister][Male Voice - Echo][Wind Howl, Chains SFX]
+"Pero Juan no ha terminado...
+La segunda prueba espera... más oscura, más pesada"
+El eco resuena, los muros crujen
+Y Juan afila los puños, "¡Vengan a ver si me hunden!"
+
+[Act III - Second Trial][Singer: Powerful Voice][Electric Guitar, Drums][Slow Build, Thunderclap SFX, Gong SFX]
+Juan entra a la sala donde el piso es fuego
+Cuerdas de acero se enredan en su cuello
+"¿Quién se atreve a desafiarme ahora?", grita Juan
+"¡El miedo no es más que un perro sin correa!"
+Los muros retumban, las cadenas se agitan
+Un ejército de sombras surge y le gritan:
+"Juan, tú que no temes a nada...
+¿Sabes lo que es perder tu alma en la jugada?"
+Juan ríe, alza el puño al aire
+"¡El miedo es un fantasma que vive en el aire!"
+Y con un grito, rompe las cadenas
+Mientras las sombras se desvanecen como arena
+
+[Grand Finale][Singer: Epic Ballad Voice][Electric Guitar, Choir][Epic Build, Explosive Drums, Final Bell SFX]
+Juan se alza, el castillo se desmorona
+Las sombras gritan, "¡Nunca podrás vencer al miedo!"
+Juan sonríe, levanta el puño al cielo
+"¡El miedo es un eco vacío, un grito sin dueño!"
+El cuervo aparece, su voz es un trueno
+"Juan, tú que no temes a nada...
+El miedo es un reflejo, un fantasma sin cara"
+Juan cierra los ojos, el aire se apaga
+Y en el último acorde, el eco rompe en llamas
+
+
+Cover Art URL: https://cdn2.suno.ai/image_be9cd1a7-0b40-4447-b083-dddcf2a700db.jpeg
+
+--- Respuesta Bruta de la API ---
+{
+  "action_config": {
+    "actions": [
+      {
+        "action_type": "add_to_playlist",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "like_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "share_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "dislike_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "report_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "remove_from_playlist",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "delete_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "edit_song_details",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "create_hook",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "download_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "download_as_video",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "unpublish_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "remaster",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "allow_comments_toggle_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "allow_remix",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "pin_to_profile",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "remix_extend",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "remix_cover",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "remix_reuse_style",
+        "disabled": false,
+        "visible": true
+      }
+    ]
+  },
+  "allow_comments": true,
+  "audio_url": "https://cdn1.suno.ai/be9cd1a7-0b40-4447-b083-dddcf2a700db.mp3",
+  "avatar_image_url": "https://cdn1.suno.ai/8b5db1b2.webp",
+  "batch_index": 0,
+  "comment_count": 0,
+  "created_at": "2025-05-15T00:14:03.380Z",
+  "display_name": "AngieSoundlab",
+  "entity_type": "song_schema",
+  "explicit": true,
+  "flag_count": 0,
+  "handle": "angiesoundlab",
+  "has_hook": false,
+  "id": "be9cd1a7-0b40-4447-b083-dddcf2a700db",
+  "image_large_url": "https://cdn2.suno.ai/image_large_be9cd1a7-0b40-4447-b083-dddcf2a700db.jpeg",
+  "image_url": "https://cdn2.suno.ai/image_be9cd1a7-0b40-4447-b083-dddcf2a700db.jpeg",
+  "is_contest_clip": false,
+  "is_following_creator": false,
+  "is_handle_updated": true,
+  "is_hidden": false,
+  "is_liked": true,
+  "is_persona_root": false,
+  "is_public": true,
+  "is_trashed": false,
+  "is_verified": false,
+  "major_model_version": "v4.5",
+  "media_urls": [
+    {
+      "content_type": "mp3",
+      "delivery": "progressive",
+      "url": "https://cdn1.suno.ai/be9cd1a7-0b40-4447-b083-dddcf2a700db.mp3"
+    }
+  ],
+  "metadata": {
+    "can_remix": false,
+    "duration": 369.76,
+    "edited_clip_id": "a73c8e12-df39-4fef-a10a-12dc23a4b1ff",
+    "has_stem": false,
+    "is_remix": false,
+    "model_badges": {
+      "songrow": {
+        "dark": {
+          "background_color": "00000000",
+          "border_color": "FFFFFF1A",
+          "text_color": "A3A3A3"
+        },
+        "display_name": "v4.5",
+        "light": {
+          "background_color": "00000000",
+          "border_color": "0000001A",
+          "text_color": "7D7C83"
+        }
+      }
+    },
+    "priority": 10,
+    "prompt": "[Production: Over-the-top, Cinematic, Epic Metal Comedy, Soundtrack Vibes]\n\n[Essence: Absurd, Epic, Chaotic, Empowering, Darkly Comedic, Surreal, Victorious]\n\n[Prologue][Narrator: Overacted and Dramatic][Male Voice - Deep][Thunder, Wind SFX]\nEn un pueblo perdido, donde el miedo manda\nNació Juan Sin Miedo, con el alma templada\nNunca tuvo escalofríos, ni se asustó del trueno\nPero hoy va al castillo... donde reina lo macabro\n\n[Act I][Singer: Screaming Voice][Electric Guitar][Fast Build, Explosive Riffs, Chainsaw SFX]\nJuan entra al castillo, con los puños al aire\nLas puertas se abren, ¡un ejército de calaveras en la calle!\n\"¿Tú eres Juan, el que no teme a nada?\"\nY Juan se ríe, \"Soy el que parte espadas\"\n\n[Transition - Dialogue][Narrator: Whispering, Sinister][Male Voice - Echo][Glass Shatter, Laughter SFX]\n\"Pero Juan no sabe lo que le espera...\nLa primera prueba es un monstruo sin cara\"\nEl eco aúlla, la sombra se expande\nY Juan sonríe, \"¿Eso es todo lo que tienes, cobarde?\"\n\n[Act II - First Trial][Singer: Gruff Voice][Electric Guitar, Bass][Dragging Rhythm, Distorted Bass, Echo SFX]\nJuan camina en la sala de espejos rotos\nUn reflejo sin rostro, un eco roto\n\"¿Quién eres tú?\", le grita la voz\nY Juan responde, \"El que no teme ni al feroz\"\nLas sombras avanzan, los espejos crujen\nJuan sonríe y grita, \"¡Vengan a ver si me destruyen!\"\nLas calaveras se rompen, los espejos estallan\nPero Juan sigue en pie, mientras el miedo se calla\n\n[Transition - Dialogue][Narrator: Whispering, Sinister][Male Voice - Echo][Wind Howl, Chains SFX]\n\"Pero Juan no ha terminado...\nLa segunda prueba espera... más oscura, más pesada\"\nEl eco resuena, los muros crujen\nY Juan afila los puños, \"¡Vengan a ver si me hunden!\"\n\n[Act III - Second Trial][Singer: Powerful Voice][Electric Guitar, Drums][Slow Build, Thunderclap SFX, Gong SFX]\nJuan entra a la sala donde el piso es fuego\nCuerdas de acero se enredan en su cuello\n\"¿Quién se atreve a desafiarme ahora?\", grita Juan\n\"¡El miedo no es más que un perro sin correa!\"\nLos muros retumban, las cadenas se agitan\nUn ejército de sombras surge y le gritan:\n\"Juan, tú que no temes a nada...\n¿Sabes lo que es perder tu alma en la jugada?\"\nJuan ríe, alza el puño al aire\n\"¡El miedo es un fantasma que vive en el aire!\"\nY con un grito, rompe las cadenas\nMientras las sombras se desvanecen como arena\n\n[Grand Finale][Singer: Epic Ballad Voice][Electric Guitar, Choir][Epic Build, Explosive Drums, Final Bell SFX]\nJuan se alza, el castillo se desmorona\nLas sombras gritan, \"¡Nunca podrás vencer al miedo!\"\nJuan sonríe, levanta el puño al cielo\n\"¡El miedo es un eco vacío, un grito sin dueño!\"\nEl cuervo aparece, su voz es un trueno\n\"Juan, tú que no temes a nada...\nEl miedo es un reflejo, un fantasma sin cara\"\nJuan cierra los ojos, el aire se apaga\nY en el último acorde, el eco rompe en llamas\n",
+    "refund_credits": false,
+    "stream": false,
+    "tags": "Style: Hard Rock, Heavy Metal, Rock Opera, Absurdist Blues, Epic Theatrical, Dark Comedy",
+    "task": "upsample",
+    "type": "upsample",
+    "upsample_clip_id": "a73c8e12-df39-4fef-a10a-12dc23a4b1ff",
+    "uses_latest_model": false,
+    "video_is_stale": false
+  },
+  "model_name": "chirp-ahi",
+  "ownership": {
+    "ownership_reason": "subscribed"
+  },
+  "play_count": 12,
+  "project": {
+    "description": "1-Temazos",
+    "id": "34d638ba-5606-4a9f-ad83-cfb2d9f7d7b8",
+    "is_public": false,
+    "is_trashed": false,
+    "name": "1-Temazos"
+  },
+  "reaction": {
+    "clip": "be9cd1a7-0b40-4447-b083-dddcf2a700db",
+    "flagged": false,
+    "play_count": 13,
+    "reaction_type": "L",
+    "skip_count": 0,
+    "updated_at": "2026-04-04T00:20:17.533Z"
+  },
+  "status": "complete",
+  "title": "Con El Puño Arriba (Juan sin miedo)",
+  "upvote_count": 1,
+  "user_id": "6755b056-24ad-46c6-904c-8687163942ad",
+  "video_url": "https://cdn1.suno.ai/be9cd1a7-0b40-4447-b083-dddcf2a700db.mp4",
+  "workspaceId": "34d638ba-5606-4a9f-ad83-cfb2d9f7d7b8",
+  "workspaceName": "1-Temazos",
+  "_cacheTimestamp": 1782504031178
+}

@@ -1,0 +1,290 @@
+Metadata for: El_cartero_que_no_llega-904241e4
+Generated: 2026-06-26T20:05:53.084Z
+
+--- Track Information ---
+Title: El cartero que no llega
+Artist: AngieSoundlab
+
+--- Musical Information ---
+
+--- Creation Details ---
+Prompt: JOTA ARAGONESA HARDTEK, 190 BPM, aged female voice, melancholic traditional folk singing, castanetsacoustic bandurria, distorted hardtek kick, industrial noise, extreme dynamic contrast, rural desolation
+Track ID: 904241e4-2984-4013-a549-32ead6e5ed82
+
+--- Lyrics ---
+[MOOD: Melancólico, Desolado, Agresivo]
+[PRODUCTION: Bitcrushed Master, Analog Dust Layer, extreme dynamic contrast]
+
+[Intro, howling wind, acoustic bandurria, ambient noise texture]
+
+[Vocal: Aged female voice | melancholic traditional folk singing | vocal fry | rural aragonese accent]
+[Verse 1, a cappella style with sparse bandurria, traditional jota rhythm]
+[Vibrato] El cartero que no llee-gaa
+miro la pared rascá
+[Vibrato] y el cartero que no llee-gaa
+soy la última que aguaan-ta
+en este pueblo de pie-edraa en este pueblo de pie-edraa
+miro la pared rascá
+
+[Pre-Chorus, tension build, industrial noise fading in, vocal getting desperate]
+¡Ay! que la grieta se abre
+¡Ay! que el silencio me tragaa
+Golpea el viento en la chaApaa
+[Melismatic] y en la calle no hay un alma...
+
+[Sudden Silence]
+[Buffer Underrun Glitch]
+
+[Massive Drop, 190 BPM, distorted hardtek kick, castanets, industrial chaos]
+
+[Verse 2, fast paced, aggressive kick, vocal struggles against the noise]
+[Vibrato] No hay críos por la plazee-taa
+ya no humean los tejaos
+[Vibrato] ni hay críos por la plazee-taa
+solo el cierzo que me haa-bla
+por la puerta entreabie-ertaa por la puerta entreabie-ertaa
+ya no humean los tejaos
+
+[Pre-Chorus, tension build, noise wall, vocal gets louder]
+¡Ay! que la grieta se abre
+¡Ay! que el silencio me tragaa
+Golpea el viento en la chaApaa
+[Voice cracks] y en la calle no hay un alma...
+
+[Sudden Silence]
+
+[Bridge, complete silence of electronics, only acoustic bandurria]
+[Vibrato] Pero miro a la cancee-laa
+no espero ninguna carta
+[Vibrato] pero miro a la cancee-laa
+que hasta el polvo del camii-no
+se olvidó de quién me espe-eraa se olvidó de quién me espe-eraa
+no espero ninguna carta
+
+[Outro, fading industrial noise, wind blowing]
+No 
+Espero
+Ninguna carta
+
+[End]
+
+Cover Art URL: https://cdn2.suno.ai/image_904241e4-2984-4013-a549-32ead6e5ed82.jpeg
+
+--- Respuesta Bruta de la API ---
+{
+  "action_config": {
+    "actions": [
+      {
+        "action_type": "add_to_playlist",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "like_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "share_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "dislike_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "report_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "remove_from_playlist",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "delete_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "edit_song_details",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "create_hook",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "download_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "download_as_video",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "unpublish_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "remaster",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "allow_comments_toggle_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "allow_remix",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "pin_to_profile",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "remix_extend",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "remix_cover",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "remix_reuse_style",
+        "disabled": false,
+        "visible": true
+      }
+    ]
+  },
+  "allow_comments": true,
+  "audio_url": "https://cdn1.suno.ai/904241e4-2984-4013-a549-32ead6e5ed82.mp3",
+  "avatar_image_url": "https://cdn1.suno.ai/8b5db1b2.webp",
+  "batch_index": 0,
+  "comment_count": 0,
+  "created_at": "2026-04-15T10:39:27.469Z",
+  "display_name": "AngieSoundlab",
+  "display_tags": "hardtek, industrial, folk",
+  "entity_type": "song_schema",
+  "explicit": false,
+  "flag_count": 0,
+  "handle": "angiesoundlab",
+  "has_hook": false,
+  "id": "904241e4-2984-4013-a549-32ead6e5ed82",
+  "image_large_url": "https://cdn2.suno.ai/image_large_904241e4-2984-4013-a549-32ead6e5ed82.jpeg",
+  "image_url": "https://cdn2.suno.ai/image_904241e4-2984-4013-a549-32ead6e5ed82.jpeg",
+  "is_contest_clip": false,
+  "is_following_creator": false,
+  "is_handle_updated": true,
+  "is_hidden": false,
+  "is_liked": true,
+  "is_persona_root": false,
+  "is_public": true,
+  "is_trashed": false,
+  "is_verified": false,
+  "major_model_version": "v5.5",
+  "media_urls": [
+    {
+      "content_type": "m4a-opus",
+      "delivery": "progressive",
+      "encoding": "1.0.0",
+      "url": "https://d2lwuy8qc234o3.cloudfront.net/1/clip/904241e4-2984-4013-a549-32ead6e5ed82.m4a"
+    },
+    {
+      "content_type": "mp3",
+      "delivery": "progressive",
+      "url": "https://cdn1.suno.ai/904241e4-2984-4013-a549-32ead6e5ed82.mp3"
+    }
+  ],
+  "metadata": {
+    "can_remix": true,
+    "control_sliders": {
+      "style_weight": 0.8,
+      "weirdness_constraint": 0.4
+    },
+    "duration": 249.4,
+    "has_stem": false,
+    "is_mumble": false,
+    "is_remix": false,
+    "make_instrumental": false,
+    "model_badges": {
+      "songcard": {
+        "dark": {
+          "background_color": "0000004D",
+          "border_color": "00000000",
+          "text_color": "FD429C"
+        },
+        "display_name": "v5.5",
+        "light": {
+          "background_color": "0000004D",
+          "border_color": "00000000",
+          "text_color": "FD429C"
+        }
+      },
+      "songrow": {
+        "dark": {
+          "background_color": "FD429C40",
+          "border_color": "00000000",
+          "text_color": "FD429C"
+        },
+        "display_name": "v5.5",
+        "light": {
+          "background_color": "FD429C1A",
+          "border_color": "00000000",
+          "text_color": "FD429C"
+        }
+      }
+    },
+    "negative_tags": "modern pop, clean electronic, happy, upbeat, autotune, smooth, polished, bright",
+    "priority": 10,
+    "prompt": "[MOOD: Melancólico, Desolado, Agresivo]\n[PRODUCTION: Bitcrushed Master, Analog Dust Layer, extreme dynamic contrast]\n\n[Intro, howling wind, acoustic bandurria, ambient noise texture]\n\n[Vocal: Aged female voice | melancholic traditional folk singing | vocal fry | rural aragonese accent]\n[Verse 1, a cappella style with sparse bandurria, traditional jota rhythm]\n[Vibrato] El cartero que no llee-gaa\nmiro la pared rascá\n[Vibrato] y el cartero que no llee-gaa\nsoy la última que aguaan-ta\nen este pueblo de pie-edraa en este pueblo de pie-edraa\nmiro la pared rascá\n\n[Pre-Chorus, tension build, industrial noise fading in, vocal getting desperate]\n¡Ay! que la grieta se abre\n¡Ay! que el silencio me tragaa\nGolpea el viento en la chaApaa\n[Melismatic] y en la calle no hay un alma...\n\n[Sudden Silence]\n[Buffer Underrun Glitch]\n\n[Massive Drop, 190 BPM, distorted hardtek kick, castanets, industrial chaos]\n\n[Verse 2, fast paced, aggressive kick, vocal struggles against the noise]\n[Vibrato] No hay críos por la plazee-taa\nya no humean los tejaos\n[Vibrato] ni hay críos por la plazee-taa\nsolo el cierzo que me haa-bla\npor la puerta entreabie-ertaa por la puerta entreabie-ertaa\nya no humean los tejaos\n\n[Pre-Chorus, tension build, noise wall, vocal gets louder]\n¡Ay! que la grieta se abre\n¡Ay! que el silencio me tragaa\nGolpea el viento en la chaApaa\n[Voice cracks] y en la calle no hay un alma...\n\n[Sudden Silence]\n\n[Bridge, complete silence of electronics, only acoustic bandurria]\n[Vibrato] Pero miro a la cancee-laa\nno espero ninguna carta\n[Vibrato] pero miro a la cancee-laa\nque hasta el polvo del camii-no\nse olvidó de quién me espe-eraa se olvidó de quién me espe-eraa\nno espero ninguna carta\n\n[Outro, fading industrial noise, wind blowing]\nNo \nEspero\nNinguna carta\n\n[End]",
+    "refund_credits": false,
+    "stream": true,
+    "tags": "JOTA ARAGONESA HARDTEK, 190 BPM, aged female voice, melancholic traditional folk singing, castanetsacoustic bandurria, distorted hardtek kick, industrial noise, extreme dynamic contrast, rural desolation",
+    "type": "gen",
+    "uses_latest_model": true,
+    "video_is_stale": false
+  },
+  "model_name": "chirp-fenix",
+  "ownership": {
+    "ownership_reason": "subscribed"
+  },
+  "play_count": 14,
+  "project": {
+    "description": "1-Temazos",
+    "id": "34d638ba-5606-4a9f-ad83-cfb2d9f7d7b8",
+    "is_public": false,
+    "is_trashed": false,
+    "name": "1-Temazos"
+  },
+  "reaction": {
+    "clip": "904241e4-2984-4013-a549-32ead6e5ed82",
+    "flagged": false,
+    "play_count": 14,
+    "reaction_type": "L",
+    "skip_count": 0,
+    "updated_at": "2026-05-05T01:50:42.886Z"
+  },
+  "status": "complete",
+  "title": "El cartero que no llega",
+  "upvote_count": 1,
+  "user_id": "6755b056-24ad-46c6-904c-8687163942ad",
+  "video_url": "https://cdn1.suno.ai/904241e4-2984-4013-a549-32ead6e5ed82.mp4",
+  "workspaceId": "34d638ba-5606-4a9f-ad83-cfb2d9f7d7b8",
+  "workspaceName": "1-Temazos",
+  "_cacheTimestamp": 1782504031178
+}

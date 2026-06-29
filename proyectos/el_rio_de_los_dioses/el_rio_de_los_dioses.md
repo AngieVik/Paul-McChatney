@@ -27,14 +27,14 @@ Spanish Folk Metal, Male Vocals (Rough & Festive), Tavern Folk Style, High Energ
 ## Lyrics Box
 
 [Essence: Tavern Party, Mystic Ritual, Celebration, Speed]
-[Production: Spanish Folk Metal, Fast Waltz Rhythm (6/8), Celtic Fiddle Lead, Accordion Layer, Crowd Clapping, Double Kick Drum]
+[Production: Spanish Folk Metal, Fast Waltz Rhythm (6\8), Celtic Fiddle Lead, Accordion Layer, Crowd Clapping, Double Kick Drum]
 
 [Intro]
 [Atmosphere: Flowing Water & Night Sounds]
 [Violin Solo: Melancholic start]
 [Tempo: Accelerando to Fast]
 [Accordion Entry]
-[Rhythm: Fast 6/8 Gallop]
+[Rhythm: Fast 6\8 Gallop]
 [Crowd: Clapping in rhythm]
 
 [Verse 1]

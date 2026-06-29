@@ -53,7 +53,7 @@ y mientras tanto…
 te gritan desde dentro:
 “¡UNAS BRAVAS Y UNA DE CHOCO!”
 
-[Hook / Drop][Spanish Male Voice][Distorted Vox, Risa en Eco, Claxon de Camión]
+[Hook \ Drop][Spanish Male Voice][Distorted Vox, Risa en Eco, Claxon de Camión]
 ¡NO ME DIO TIEMPO!
 ¡SE FUE ANTES DEL POSTRE!
 ¡LE DIJE “UNA DE CALAMARES” Y ME MIRÓ!

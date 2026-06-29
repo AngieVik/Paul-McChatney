@@ -1,0 +1,332 @@
+Metadata for: El_Tambor_De_Hierro_(RO-PO-POM)_(Villancico)-5fbe8989
+Generated: 2026-06-26T20:05:53.085Z
+
+--- Track Information ---
+Title: El Tambor De Hierro (RO-PO-POM) (Villancico)
+Artist: AngieSoundlab
+
+--- Musical Information ---
+
+--- Creation Details ---
+Prompt: Spanish Epic Folk Metal, Spanish Tribal Metal, Heavy Tribal March, Drum Focused Arrangement, Aggressive Percussion, Double Kick Drum, Blast Beats, Guttural Growls, Bagpipes Background.
+Track ID: 5fbe8989-3cf3-4ffd-a78e-784bdef7cdd7
+
+--- Lyrics ---
+[Essence: Epic Devotion, Ancient Winter, Sonic Earthquake]
+
+[Production: Reverb Heavy, Saturated Drum Kit, Deep Sub Bass, Wide Stereo Spread, Compression Heavy, Dolby Surround, Clear Transient Response]
+
+[Intro]
+
+[Atmosphere: Mystic Forest Silence]
+
+[Instrumental: Tribal Drums Break]
+
+[Description: The drums start soft, like a heartbeat: Tum... Tum... Tum...]
+
+[Build-up: Slow Build]
+
+[Instrumental: Celtic Fiddle][Sound: Distant War Drums]
+
+[Transition: Drum Fill]
+
+[Description: Explosion of sound. Full band enters with a heavy rhythmic groove]
+
+[Verse 1]
+
+[Vocal Style: Folk Storyteller Voice][Texture: Gritty]
+
+[Instrumental: Tom-Tom Groove]
+La montaña de hielo y metal (y metal...)
+Cruza el valle bajo el temporal
+Los guerreros hoy buscan su luz,
+Llevan ofrendas cargando su cruz...
+
+[Pre-Chorus]
+
+[Vocal Style: Raspy Growl][Dynamics: Breath Control]
+
+[Instrumental: Snare Marching Roll]
+Y yo no tengo joyas... (no...)
+Ni plata del camino... (no...)
+Solo traigo el golpe de mi destino.
+
+[Chorus]
+
+[Vocal Style: Male Power Belt][Instrumental: Blast Beat, Heavy Metal Riff]
+
+[Dynamics: Explosive Triumph]
+¡ROM-PO-POM-POM! (¡HEY!)
+¡ROM-PO-POM-POM! (¡HEY!)
+Ha nacido entre el frío y la ley...
+
+[Vocal: Primal Scream]
+¡EL NUEVO REY!
+
+[Interlude]
+
+[Instrumental: Percussion Break]
+
+[Technique: Double Kick Speed]
+
+[Description: Fast and aggressive double bass drum pattern driving the rhythm]
+
+[Verse 2]
+
+[Vocal Style: Melancólico][Texture: Velvet Voice]
+
+[Description: Bass and Kick Drum only, intimate atmosphere]
+Hoy quisiera dejarte ante ti,
+Un tributo que nazca de mí...
+
+[Instrumental: Bass Drop]
+
+[Vocal: Broken Voice]
+Bien sabes que nada tengo yo,
+Solo este viejo y gastado tambor.
+
+[Bridge]
+
+[Atmosphere: Violent Inner Storm][Tempo: Accelerando]
+
+[Vocal Style: Choral Wall Of Sound]
+
+[Instrumental: Polyrhythmic Fill]
+(Es mi honor...) ¡Romperé el silencio!
+(Con valor...) ¡Tocaré con fuego!
+
+[Vocal: Heavy Breathing]
+No hay tesoros, no hay rubíes,
+¡Solo el trueno de mis manos grises!
+¡CON MI TAMBOR!
+
+[Solo]
+
+[Solo De Batería]
+
+[Technique: Gravity Blast, Cymbal Choke, Tribal Rhythms]
+
+[Description: A massive drum solo. Starts with tribal toms, moves to lightning fast snare, ends with quad-kick fury]
+
+[Verse 3]
+
+[Vocal Style: Operatic Tenor][Dynamics: Crescendo]
+
+[Instrumental: Heavy Groove]
+La montaña de hielo y metal,
+Yo la rompo con este ritual...
+Nada existe que pueda ofrecer,
+
+[Vocal: Spoken Word Flow]
+(Este ritmo...)
+
+[Vocal: High Pitch Scream]
+¡ES MI FORMA DE ARDER!
+Cuando el Rey me vio tocando ante Él...
+
+[Breakdown: Silence]
+
+[Description: One second of total silence]
+
+[Vocal: Soft Gritty Voice][Instrumental: Cymbals Swell]
+...me sonrió.
+
+
+Cover Art URL: https://cdn2.suno.ai/image_5fbe8989-3cf3-4ffd-a78e-784bdef7cdd7.jpeg
+
+--- Respuesta Bruta de la API ---
+{
+  "action_config": {
+    "actions": [
+      {
+        "action_type": "add_to_playlist",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "like_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "share_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "dislike_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "report_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "remove_from_playlist",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "delete_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "edit_song_details",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "create_hook",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "download_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "download_as_video",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "unpublish_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "remaster",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "allow_comments_toggle_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "allow_remix",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "pin_to_profile",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "remix_extend",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "remix_cover",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "remix_reuse_style",
+        "disabled": false,
+        "visible": true
+      }
+    ]
+  },
+  "allow_comments": true,
+  "audio_url": "https://cdn1.suno.ai/5fbe8989-3cf3-4ffd-a78e-784bdef7cdd7.mp3",
+  "avatar_image_url": "https://cdn1.suno.ai/8b5db1b2.webp",
+  "batch_index": 0,
+  "clip_roots": {
+    "clip_attribution_type": "remix",
+    "clips": [
+      {
+        "id": "d96ad4e3-9205-4137-bef5-0ff9841b8ef2",
+        "image_url": "https://cdn2.suno.ai/image_d96ad4e3-9205-4137-bef5-0ff9841b8ef2.jpeg",
+        "is_public": false,
+        "title": "EL TAMBOR DE HIERRO (RO-PO-POM)",
+        "user_avatar_image_url": "https://cdn1.suno.ai/8b5db1b2.webp",
+        "user_display_name": "AngieSoundlab",
+        "user_handle": "angiesoundlab"
+      }
+    ]
+  },
+  "comment_count": 0,
+  "created_at": "2025-12-23T10:15:05.292Z",
+  "display_name": "AngieSoundlab",
+  "entity_type": "song_schema",
+  "explicit": false,
+  "flag_count": 0,
+  "handle": "angiesoundlab",
+  "has_hook": false,
+  "id": "5fbe8989-3cf3-4ffd-a78e-784bdef7cdd7",
+  "image_large_url": "https://cdn2.suno.ai/image_large_5fbe8989-3cf3-4ffd-a78e-784bdef7cdd7.jpeg",
+  "image_url": "https://cdn2.suno.ai/image_5fbe8989-3cf3-4ffd-a78e-784bdef7cdd7.jpeg",
+  "is_contest_clip": false,
+  "is_following_creator": false,
+  "is_handle_updated": true,
+  "is_hidden": false,
+  "is_liked": true,
+  "is_persona_root": false,
+  "is_public": true,
+  "is_trashed": false,
+  "is_verified": false,
+  "major_model_version": "",
+  "media_urls": [
+    {
+      "content_type": "m4a-opus",
+      "delivery": "progressive",
+      "encoding": "1.0.0",
+      "url": "https://d2lwuy8qc234o3.cloudfront.net/1/clip/5fbe8989-3cf3-4ffd-a78e-784bdef7cdd7.m4a"
+    },
+    {
+      "content_type": "mp3",
+      "delivery": "progressive",
+      "url": "https://cdn1.suno.ai/5fbe8989-3cf3-4ffd-a78e-784bdef7cdd7.mp3"
+    }
+  ],
+  "metadata": {
+    "can_publish_with_vocal": true,
+    "can_remix": false,
+    "duration": 279.89954166666666,
+    "edited_clip_id": "d96ad4e3-9205-4137-bef5-0ff9841b8ef2",
+    "has_stem": false,
+    "has_vocal": false,
+    "is_remix": false,
+    "prompt": "[Essence: Epic Devotion, Ancient Winter, Sonic Earthquake]\n\n[Production: Reverb Heavy, Saturated Drum Kit, Deep Sub Bass, Wide Stereo Spread, Compression Heavy, Dolby Surround, Clear Transient Response]\n\n[Intro]\n\n[Atmosphere: Mystic Forest Silence]\n\n[Instrumental: Tribal Drums Break]\n\n[Description: The drums start soft, like a heartbeat: Tum... Tum... Tum...]\n\n[Build-up: Slow Build]\n\n[Instrumental: Celtic Fiddle][Sound: Distant War Drums]\n\n[Transition: Drum Fill]\n\n[Description: Explosion of sound. Full band enters with a heavy rhythmic groove]\n\n[Verse 1]\n\n[Vocal Style: Folk Storyteller Voice][Texture: Gritty]\n\n[Instrumental: Tom-Tom Groove]\nLa montaña de hielo y metal (y metal...)\nCruza el valle bajo el temporal\nLos guerreros hoy buscan su luz,\nLlevan ofrendas cargando su cruz...\n\n[Pre-Chorus]\n\n[Vocal Style: Raspy Growl][Dynamics: Breath Control]\n\n[Instrumental: Snare Marching Roll]\nY yo no tengo joyas... (no...)\nNi plata del camino... (no...)\nSolo traigo el golpe de mi destino.\n\n[Chorus]\n\n[Vocal Style: Male Power Belt][Instrumental: Blast Beat, Heavy Metal Riff]\n\n[Dynamics: Explosive Triumph]\n¡ROM-PO-POM-POM! (¡HEY!)\n¡ROM-PO-POM-POM! (¡HEY!)\nHa nacido entre el frío y la ley...\n\n[Vocal: Primal Scream]\n¡EL NUEVO REY!\n\n[Interlude]\n\n[Instrumental: Percussion Break]\n\n[Technique: Double Kick Speed]\n\n[Description: Fast and aggressive double bass drum pattern driving the rhythm]\n\n[Verse 2]\n\n[Vocal Style: Melancólico][Texture: Velvet Voice]\n\n[Description: Bass and Kick Drum only, intimate atmosphere]\nHoy quisiera dejarte ante ti,\nUn tributo que nazca de mí...\n\n[Instrumental: Bass Drop]\n\n[Vocal: Broken Voice]\nBien sabes que nada tengo yo,\nSolo este viejo y gastado tambor.\n\n[Bridge]\n\n[Atmosphere: Violent Inner Storm][Tempo: Accelerando]\n\n[Vocal Style: Choral Wall Of Sound]\n\n[Instrumental: Polyrhythmic Fill]\n(Es mi honor...) ¡Romperé el silencio!\n(Con valor...) ¡Tocaré con fuego!\n\n[Vocal: Heavy Breathing]\nNo hay tesoros, no hay rubíes,\n¡Solo el trueno de mis manos grises!\n¡CON MI TAMBOR!\n\n[Solo]\n\n[Solo De Batería]\n\n[Technique: Gravity Blast, Cymbal Choke, Tribal Rhythms]\n\n[Description: A massive drum solo. Starts with tribal toms, moves to lightning fast snare, ends with quad-kick fury]\n\n[Verse 3]\n\n[Vocal Style: Operatic Tenor][Dynamics: Crescendo]\n\n[Instrumental: Heavy Groove]\nLa montaña de hielo y metal,\nYo la rompo con este ritual...\nNada existe que pueda ofrecer,\n\n[Vocal: Spoken Word Flow]\n(Este ritmo...)\n\n[Vocal: High Pitch Scream]\n¡ES MI FORMA DE ARDER!\nCuando el Rey me vio tocando ante Él...\n\n[Breakdown: Silence]\n\n[Description: One second of total silence]\n\n[Vocal: Soft Gritty Voice][Instrumental: Cymbals Swell]\n...me sonrió.\n",
+    "tags": "Spanish Epic Folk Metal, Spanish Tribal Metal, Heavy Tribal March, Drum Focused Arrangement, Aggressive Percussion, Double Kick Drum, Blast Beats, Guttural Growls, Bagpipes Background.",
+    "type": "edit_v3_export",
+    "uses_latest_model": false,
+    "video_is_stale": false
+  },
+  "model_name": "chirp-chirp",
+  "ownership": {
+    "ownership_reason": "subscribed"
+  },
+  "play_count": 5,
+  "project": {
+    "description": "1-Temazos",
+    "id": "34d638ba-5606-4a9f-ad83-cfb2d9f7d7b8",
+    "is_public": false,
+    "is_trashed": false,
+    "name": "1-Temazos"
+  },
+  "reaction": {
+    "clip": "5fbe8989-3cf3-4ffd-a78e-784bdef7cdd7",
+    "flagged": false,
+    "play_count": 5,
+    "reaction_type": "L",
+    "skip_count": 0,
+    "updated_at": "2026-04-03T22:45:22.455Z"
+  },
+  "status": "complete",
+  "title": "El Tambor De Hierro (RO-PO-POM) (Villancico)",
+  "upvote_count": 1,
+  "user_id": "6755b056-24ad-46c6-904c-8687163942ad",
+  "video_url": "https://cdn1.suno.ai/5fbe8989-3cf3-4ffd-a78e-784bdef7cdd7.mp4",
+  "workspaceId": "34d638ba-5606-4a9f-ad83-cfb2d9f7d7b8",
+  "workspaceName": "1-Temazos",
+  "_cacheTimestamp": 1782504031178
+}

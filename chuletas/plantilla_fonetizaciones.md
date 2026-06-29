@@ -1,4 +1,4 @@
-# Guía de Fonetización en Español: [Nombre del Idioma/Dialecto]
+# Guía de Fonetización en Español: [Nombre del Idioma\Dialecto]
 
 **Notas de Configuración Fonética:** [Breve descripción general del sistema fonológico. Ej. "Sistema opaco, requiere memorización de patrones ortográficos".]
 
@@ -8,17 +8,17 @@
 
 Una introducción al "carácter" del idioma para establecer la postura articulatoria del lector.
 
-* **Descripción:** [Ritmo, tono base y posición de la lengua/boca].
+* **Descripción:** [Ritmo, tono base y posición de la lengua\boca].
 * **Rasgo Distintivo:** [Ej. "Lenguaje no rótico, las 'r' finales se vocalizan"].
 
 ## Mapeo de Vocales (Reducción al Español)
 
 Adaptación del sistema vocálico complejo del idioma origen a las 5 vocales puras del español.
 
-| Patrón / Grafía Original | Regla de Transformación | Equivalencia Fonética | Ejemplo Práctico |
+| Patrón \ Grafía Original | Regla de Transformación | Equivalencia Fonética | Ejemplo Práctico |
 | :--- | :--- | :--- | :--- |
-| [Ej. 'ee' / 'ea'] | Se pronuncia como una 'i' alargada | **i** | *see* → **sí** |
-| [Ej. Vocal átona] | Se reduce a sonido neutro (Schwa) | **a / e / o** débil | *about* → **a**-báut |
+| [Ej. 'ee' \ 'ea'] | Se pronuncia como una 'i' alargada | **i** | *see* → **sí** |
+| [Ej. Vocal átona] | Se reduce a sonido neutro (Schwa) | **a \ e \ o** débil | *about* → **a**-báut |
 
 * **Diptongos clave:** [Explicación de las uniones vocálicas más comunes, ej. "ay" → 'éi'].
 
@@ -28,8 +28,8 @@ Cómo representar fonemas que no existen en el español usando nuestras grafías
 
 | Sonido de Origen (IPA) | Descripción Articulatoria | Fonetización en Español |
 | :--- | :--- | :--- |
-| [Ej. /v/] | Fricativa labiodental sonora | **v** (forzando vibración de labios) |
-| [Ej. /ʃ/] | Fricativa postalveolar sorda | **sh** |
+| [Ej. \v\] | Fricativa labiodental sonora | **v** (forzando vibración de labios) |
+| [Ej. \ʃ\] | Fricativa postalveolar sorda | **sh** |
 
 * **Consonantes mudas:** [Reglas estrictas sobre qué letras ignorar. Ej. "La 'k' ante 'n' inicial es muda"].
 

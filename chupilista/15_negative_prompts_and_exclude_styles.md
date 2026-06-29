@@ -418,7 +418,7 @@
 
 ### 6 · Distorsión, Saturación y Estética Lo-Fi
 
-*Efectos que degradan la señal introduciendo armónicos, saturación de cinta/válvulas, reducción de bits o ruido analógico.*
+*Efectos que degradan la señal introduciendo armónicos, saturación de cinta\válvulas, reducción de bits o ruido analógico.*
 *Palabras clave: distorsión, fuzz, saturación, lo-fi, overdrive, bitcrusher, analógico, vinilo, cassette, cinta, overdrive, válvulas.*
 
 [12-Bit Aliasing]

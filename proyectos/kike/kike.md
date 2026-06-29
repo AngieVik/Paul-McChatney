@@ -20,7 +20,7 @@ Rareza —%
 Influencia estilo —%
 
 ## Style Box
-[Style: Funk-metalcore with tempo shifts, slap-driven breakdowns, shouted Japanese/English vocals, bass solos replacing guitar leads, Maximum the Hormone-inspired energy]
+[Style: Funk-metalcore with tempo shifts, slap-driven breakdowns, shouted Japanese\English vocals, bass solos replacing guitar leads, Maximum the Hormone-inspired energy]
 
 ## Negative Prompts
 

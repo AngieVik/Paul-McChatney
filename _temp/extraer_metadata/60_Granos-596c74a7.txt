@@ -1,0 +1,307 @@
+Metadata for: 60_Granos-596c74a7
+Generated: 2026-06-26T20:05:53.084Z
+
+--- Track Information ---
+Title: 60 Granos
+Artist: AngieSoundlab
+
+--- Musical Information ---
+
+--- Creation Details ---
+Prompt: SPANISH SYMPHONIC RAWSTYLE HARDCORE, 200 BPM, virtuosic bright tack piano lead, high-register staccato keys, dark neoclassical, aggressive gabber bass, distorted piep kicks, dueling keyboards
+Track ID: 596c74a7-76fa-477a-ae24-6dfe4deac45a
+
+--- Lyrics ---
+[MOOD: Dark, Arrogant, Theatrical]
+[PRODUCTION: Wall of sound, aggressive sidechain, very loud bright tack piano upfront, sharp transients]
+
+[45 year old operatic baritone, spoken to aggressive shouting, arrogant villain]
+
+[Intro, fast rhythm, bright tack piano arpeggios, heavy orchestral brass]
+
+[Verse 1, dark syncopated tack piano, sharp staccato]
+[Talk-sung delivery, intimate]
+Sesenta granos exactos. Ni uno más, ni uno menos
+El molinillo de café marca el pulso de mis oscuros venenos
+Viena me aburre, la burguesía respira naftalina y tormento
+Y mi cabeza es un sótano a oscuras... exigiendo un clímax violento
+
+[Verse 2, gabber bass enters, rhythmic push]
+[Vocals getting intense]
+Y ahí está Steibelt, la estrellita pop de porcelana
+Acariciando el marfil como si le diera miedo rasguñarlo
+Sus arpegios son tan flácidos, de una cursilería tan vana
+que ofende a la acústica del salón el mero hecho de escucharlo
+
+[Pre-Chorus, massive piano chords, choir hits, accelerating tension]
+¿A esto le llamáis contrapunto? Qué insulto al Do menor
+Su frecuencia carece de sangre, de óverdraiv... de sudor
+
+[Verse 3, sinister staccato march, heavy low strings, loud]
+Camino hacia el piano con la cadencia pesada de un verdugo
+Lo miro desde arriba, le arranco su partitura compasiva
+y la coloco bocabajo en el atril frente a sus ojos de orugo
+
+[Build-up, frantic virtuoso tack piano, drum roll, risers ramping, maximum velocity]
+Leo su melodía al revés... decodificando el denso abismo
+Aparta tus manos mediocres... ¡vas-a-tragar-el-ca-ta-clismo!
+
+[Sudden Silence, tension peak]
+
+[Instrumental Drop, extremely loud bright tack piano takes the lead melody, frantic high-register arpeggios, aggressive hardcore kicks pushing the rhythm]
+
+[Chorus, aggressive piano smash, wall of sound, rawstyle kicks, vocal shouting]
+Mis dedos caen como mazos de plomo reventando la madera
+¡SÚBITO FORTE DIRECTO AL ESTERNÓN, DISONANCIA APLASTANTE!
+Doscientos bits por minuto, el teclado es una trinchera
+Un escrích industrial machacando tu ego de farsante
+Bajos chirriantes de ira, rompiendo la métrica sagrada
+(¡Métrica sagrada!)
+¡FUERZA BRUTA! Mi improvisación te ha dejado en... 
+(¡NADA!)
+¡EN NADA!
+
+[Breakdown, energy resets to zero]
+
+[Interlude, solitary dark high piano note ringing out, slow atmospheric build]
+
+[Outro, dueling keyboards battle, bright tack piano vs modern synth, building peak]
+[Operatic baritone, melodic shouting, arrogant]
+Míralo cómo tiembla... huyendo por la puerta principal
+Vuelve a París, bufón. No soportas este nivel de decibelios
+Dejadme a solas con las teclas
+Porque en este maldito escenario... el amo del ruido... soy yo
+
+[Fade Out, single high piano note, heavy sustain]
+[End]
+
+Cover Art URL: https://cdn2.suno.ai/image_596c74a7-76fa-477a-ae24-6dfe4deac45a.jpeg
+
+--- Respuesta Bruta de la API ---
+{
+  "action_config": {
+    "actions": [
+      {
+        "action_type": "add_to_playlist",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "like_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "share_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "dislike_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "report_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "remove_from_playlist",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "delete_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "edit_song_details",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "create_hook",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "download_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "download_as_video",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "unpublish_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "remaster",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "allow_comments_toggle_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "allow_remix",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "pin_to_profile",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "remix_extend",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "remix_cover",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "remix_reuse_style",
+        "disabled": false,
+        "visible": true
+      }
+    ]
+  },
+  "allow_comments": true,
+  "audio_url": "https://cdn1.suno.ai/596c74a7-76fa-477a-ae24-6dfe4deac45a.mp3",
+  "avatar_image_url": "https://cdn1.suno.ai/8b5db1b2.webp",
+  "batch_index": 1,
+  "comment_count": 0,
+  "created_at": "2026-06-20T07:11:38.386Z",
+  "display_name": "AngieSoundlab",
+  "display_tags": "Spanish symphonic rawstyle hardcore, neoclassical dark, gabber hardcore",
+  "entity_type": "song_schema",
+  "explicit": false,
+  "flag_count": 0,
+  "handle": "angiesoundlab",
+  "has_hook": false,
+  "id": "596c74a7-76fa-477a-ae24-6dfe4deac45a",
+  "image_large_url": "https://cdn2.suno.ai/image_large_596c74a7-76fa-477a-ae24-6dfe4deac45a.jpeg",
+  "image_url": "https://cdn2.suno.ai/image_596c74a7-76fa-477a-ae24-6dfe4deac45a.jpeg",
+  "is_contest_clip": false,
+  "is_following_creator": false,
+  "is_handle_updated": true,
+  "is_hidden": false,
+  "is_liked": true,
+  "is_persona_root": false,
+  "is_public": true,
+  "is_trashed": false,
+  "is_verified": false,
+  "major_model_version": "v5.5",
+  "media_urls": [
+    {
+      "content_type": "m4a-opus",
+      "delivery": "progressive",
+      "encoding": "1.0.0",
+      "url": "https://d2lwuy8qc234o3.cloudfront.net/1/clip/596c74a7-76fa-477a-ae24-6dfe4deac45a.m4a"
+    },
+    {
+      "content_type": "mp3",
+      "delivery": "progressive",
+      "url": "https://cdn1.suno.ai/596c74a7-76fa-477a-ae24-6dfe4deac45a.mp3"
+    }
+  ],
+  "metadata": {
+    "avg_bpm": 156.66,
+    "can_remix": false,
+    "control_sliders": {
+      "audio_weight": 0.3,
+      "style_weight": 0.8
+    },
+    "duration": 252.56,
+    "has_stem": true,
+    "is_mumble": false,
+    "is_remix": false,
+    "make_instrumental": false,
+    "max_bpm": 166.67,
+    "min_bpm": 142.86,
+    "model_badges": {
+      "songcard": {
+        "dark": {
+          "background_color": "0000004D",
+          "border_color": "00000000",
+          "text_color": "FD429C"
+        },
+        "display_name": "v5.5",
+        "light": {
+          "background_color": "0000004D",
+          "border_color": "00000000",
+          "text_color": "FD429C"
+        }
+      },
+      "songrow": {
+        "dark": {
+          "background_color": "FD429C40",
+          "border_color": "00000000",
+          "text_color": "FD429C"
+        },
+        "display_name": "v5.5",
+        "light": {
+          "background_color": "FD429C1A",
+          "border_color": "00000000",
+          "text_color": "FD429C"
+        }
+      }
+    },
+    "negative_tags": "grand piano, soft ambient intro, mellow, slow tempo, quiet silence, crooner, romantic ballad, latin pop, generic edm, lo-fi, standard reggaeton",
+    "playlist_clip_ids": [
+      "e7515c34-7455-4f0a-8c01-86d6b5fe9e7a",
+      "02c8951a-4fe4-4e82-a784-d9458eb655ab",
+      "ee801115-0c79-48ba-8f92-078edeb60fd5"
+    ],
+    "playlist_id": "00000000-0000-0000-0000-000000000000",
+    "priority": 10,
+    "prompt": "[MOOD: Dark, Arrogant, Theatrical]\n[PRODUCTION: Wall of sound, aggressive sidechain, very loud bright tack piano upfront, sharp transients]\n\n[45 year old operatic baritone, spoken to aggressive shouting, arrogant villain]\n\n[Intro, fast rhythm, bright tack piano arpeggios, heavy orchestral brass]\n\n[Verse 1, dark syncopated tack piano, sharp staccato]\n[Talk-sung delivery, intimate]\nSesenta granos exactos. Ni uno más, ni uno menos\nEl molinillo de café marca el pulso de mis oscuros venenos\nViena me aburre, la burguesía respira naftalina y tormento\nY mi cabeza es un sótano a oscuras... exigiendo un clímax violento\n\n[Verse 2, gabber bass enters, rhythmic push]\n[Vocals getting intense]\nY ahí está Steibelt, la estrellita pop de porcelana\nAcariciando el marfil como si le diera miedo rasguñarlo\nSus arpegios son tan flácidos, de una cursilería tan vana\nque ofende a la acústica del salón el mero hecho de escucharlo\n\n[Pre-Chorus, massive piano chords, choir hits, accelerating tension]\n¿A esto le llamáis contrapunto? Qué insulto al Do menor\nSu frecuencia carece de sangre, de óverdraiv... de sudor\n\n[Verse 3, sinister staccato march, heavy low strings, loud]\nCamino hacia el piano con la cadencia pesada de un verdugo\nLo miro desde arriba, le arranco su partitura compasiva\ny la coloco bocabajo en el atril frente a sus ojos de orugo\n\n[Build-up, frantic virtuoso tack piano, drum roll, risers ramping, maximum velocity]\nLeo su melodía al revés... decodificando el denso abismo\nAparta tus manos mediocres... ¡vas-a-tragar-el-ca-ta-clismo!\n\n[Sudden Silence, tension peak]\n\n[Instrumental Drop, extremely loud bright tack piano takes the lead melody, frantic high-register arpeggios, aggressive hardcore kicks pushing the rhythm]\n\n[Chorus, aggressive piano smash, wall of sound, rawstyle kicks, vocal shouting]\nMis dedos caen como mazos de plomo reventando la madera\n¡SÚBITO FORTE DIRECTO AL ESTERNÓN, DISONANCIA APLASTANTE!\nDoscientos bits por minuto, el teclado es una trinchera\nUn escrích industrial machacando tu ego de farsante\nBajos chirriantes de ira, rompiendo la métrica sagrada\n(¡Métrica sagrada!)\n¡FUERZA BRUTA! Mi improvisación te ha dejado en... \n(¡NADA!)\n¡EN NADA!\n\n[Breakdown, energy resets to zero]\n\n[Interlude, solitary dark high piano note ringing out, slow atmospheric build]\n\n[Outro, dueling keyboards battle, bright tack piano vs modern synth, building peak]\n[Operatic baritone, melodic shouting, arrogant]\nMíralo cómo tiembla... huyendo por la puerta principal\nVuelve a París, bufón. No soportas este nivel de decibelios\nDejadme a solas con las teclas\nPorque en este maldito escenario... el amo del ruido... soy yo\n\n[Fade Out, single high piano note, heavy sustain]\n[End]",
+    "refund_credits": false,
+    "stream": true,
+    "tags": "SPANISH SYMPHONIC RAWSTYLE HARDCORE, 200 BPM, virtuosic bright tack piano lead, high-register staccato keys, dark neoclassical, aggressive gabber bass, distorted piep kicks, dueling keyboards",
+    "task": "playlist_condition",
+    "type": "gen",
+    "uses_latest_model": true,
+    "video_is_stale": false
+  },
+  "model_name": "chirp-fenix",
+  "ownership": {
+    "ownership_reason": "subscribed"
+  },
+  "play_count": 10,
+  "project": {
+    "description": "1-Temazos",
+    "id": "34d638ba-5606-4a9f-ad83-cfb2d9f7d7b8",
+    "is_public": false,
+    "is_trashed": false,
+    "name": "1-Temazos"
+  },
+  "reaction": {
+    "clip": "596c74a7-76fa-477a-ae24-6dfe4deac45a",
+    "flagged": false,
+    "play_count": 10,
+    "reaction_type": "L",
+    "skip_count": 0,
+    "updated_at": "2026-06-25T01:25:21.316Z"
+  },
+  "status": "complete",
+  "title": "60 Granos",
+  "upvote_count": 1,
+  "user_id": "6755b056-24ad-46c6-904c-8687163942ad",
+  "video_url": "https://cdn1.suno.ai/596c74a7-76fa-477a-ae24-6dfe4deac45a.mp4",
+  "workspaceId": "34d638ba-5606-4a9f-ad83-cfb2d9f7d7b8",
+  "workspaceName": "1-Temazos",
+  "_cacheTimestamp": 1782504031178
+}

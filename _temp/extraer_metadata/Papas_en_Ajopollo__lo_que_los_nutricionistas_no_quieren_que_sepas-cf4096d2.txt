@@ -1,0 +1,243 @@
+Metadata for: Papas_en_Ajopollo__lo_que_los_nutricionistas_no_quieren_que_sepas-cf4096d2
+Generated: 2026-06-26T20:05:53.086Z
+
+--- Track Information ---
+Title: Papas en Ajopollo: lo que los nutricionistas no quieren que sepas
+Artist: AngieSoundlab
+
+--- Musical Information ---
+
+--- Creation Details ---
+Prompt: Hardtek, Hardcore Cocinado, Coachcore Gastronómico, Low Budget Foodstep
+Track ID: cf4096d2-5044-46e6-838a-165a4c1d5323
+
+--- Lyrics ---
+[Production: Hardtek, Greasecore, Kitchen Bass FX, Acid Oil Drops, Broken Cutlery Perc]
+
+[Intro][Spanish Male Voice][Oil Fry FX, Clang Beat, Alarm Tapas FX]
+Me lo advirtieron.
+"Eso tiene demasiada grasa"
+"Eso no alimenta el alma"
+"Eso ya ni se cocina"
+
+Y aun así…
+eché el ajo.
+
+[Verse][Spanish Male Voice][Dry Flow, Chopped Kick, Reverse Pan SFX]
+Freí pan duro con rabia
+Aplasté ajo como si fuera Hacienda
+Doré almendras como recuerdos de infancia
+Y lo mezclé…
+con papas hervidas y un gramo  (de sal)
+
+Vinagre del barato
+Colorante con dudas
+Un caldo que huele a casa ajena
+Y un beat que huele a fritanga
+
+[Hook / Drop][Spanish Male Voice][Sizzling Bass, Siren Tapa, Spoon Crash FX]
+¡Papas en ajopollo!
+¡3 días sin luz pero con sabor!
+
+[Final][Spanish Male Voice][Slam Delay, Sub Fat Hit, Oil Bubble FX]
+Lo comí en ayunas.
+Lo comí en la rave.
+Y ahora…
+No sudo droga
+sudo ajo.
+
+Cover Art URL: https://cdn2.suno.ai/image_cf4096d2-5044-46e6-838a-165a4c1d5323.jpeg
+
+--- Respuesta Bruta de la API ---
+{
+  "action_config": {
+    "actions": [
+      {
+        "action_type": "add_to_playlist",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "like_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "share_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "dislike_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "report_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "remove_from_playlist",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "delete_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "edit_song_details",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "create_hook",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "download_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "download_as_video",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "unpublish_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "remaster",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "allow_comments_toggle_song",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "allow_remix",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "pin_to_profile",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "remix_extend",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "remix_cover",
+        "disabled": false,
+        "visible": true
+      },
+      {
+        "action_type": "remix_reuse_style",
+        "disabled": false,
+        "visible": true
+      }
+    ]
+  },
+  "allow_comments": true,
+  "audio_url": "https://cdn1.suno.ai/cf4096d2-5044-46e6-838a-165a4c1d5323.mp3",
+  "avatar_image_url": "https://cdn1.suno.ai/8b5db1b2.webp",
+  "batch_index": 0,
+  "comment_count": 0,
+  "created_at": "2025-05-22T03:08:35.148Z",
+  "display_name": "AngieSoundlab",
+  "display_tags": "hardtek, hardcore, foodstep",
+  "entity_type": "song_schema",
+  "explicit": false,
+  "flag_count": 0,
+  "handle": "angiesoundlab",
+  "has_hook": false,
+  "id": "cf4096d2-5044-46e6-838a-165a4c1d5323",
+  "image_large_url": "https://cdn2.suno.ai/image_large_cf4096d2-5044-46e6-838a-165a4c1d5323.jpeg",
+  "image_url": "https://cdn2.suno.ai/image_cf4096d2-5044-46e6-838a-165a4c1d5323.jpeg",
+  "is_contest_clip": false,
+  "is_following_creator": false,
+  "is_handle_updated": true,
+  "is_hidden": false,
+  "is_liked": true,
+  "is_persona_root": false,
+  "is_public": true,
+  "is_trashed": false,
+  "is_verified": false,
+  "major_model_version": "v4.5",
+  "media_urls": [
+    {
+      "content_type": "mp3",
+      "delivery": "progressive",
+      "url": "https://cdn1.suno.ai/cf4096d2-5044-46e6-838a-165a4c1d5323.mp3"
+    }
+  ],
+  "metadata": {
+    "can_remix": true,
+    "duration": 215.8,
+    "has_stem": false,
+    "is_remix": false,
+    "make_instrumental": false,
+    "model_badges": {
+      "songrow": {
+        "dark": {
+          "background_color": "00000000",
+          "border_color": "FFFFFF1A",
+          "text_color": "A3A3A3"
+        },
+        "display_name": "v4.5",
+        "light": {
+          "background_color": "00000000",
+          "border_color": "0000001A",
+          "text_color": "7D7C83"
+        }
+      }
+    },
+    "priority": 10,
+    "prompt": "[Production: Hardtek, Greasecore, Kitchen Bass FX, Acid Oil Drops, Broken Cutlery Perc]\n\n[Intro][Spanish Male Voice][Oil Fry FX, Clang Beat, Alarm Tapas FX]\nMe lo advirtieron.\n\"Eso tiene demasiada grasa\"\n\"Eso no alimenta el alma\"\n\"Eso ya ni se cocina\"\n\nY aun así…\neché el ajo.\n\n[Verse][Spanish Male Voice][Dry Flow, Chopped Kick, Reverse Pan SFX]\nFreí pan duro con rabia\nAplasté ajo como si fuera Hacienda\nDoré almendras como recuerdos de infancia\nY lo mezclé…\ncon papas hervidas y un gramo  (de sal)\n\nVinagre del barato\nColorante con dudas\nUn caldo que huele a casa ajena\nY un beat que huele a fritanga\n\n[Hook / Drop][Spanish Male Voice][Sizzling Bass, Siren Tapa, Spoon Crash FX]\n¡Papas en ajopollo!\n¡3 días sin luz pero con sabor!\n\n[Final][Spanish Male Voice][Slam Delay, Sub Fat Hit, Oil Bubble FX]\nLo comí en ayunas.\nLo comí en la rave.\nY ahora…\nNo sudo droga\nsudo ajo.",
+    "refund_credits": false,
+    "stream": true,
+    "tags": "Hardtek, Hardcore Cocinado, Coachcore Gastronómico, Low Budget Foodstep",
+    "type": "gen",
+    "uses_latest_model": false,
+    "video_is_stale": false
+  },
+  "model_name": "chirp-auk",
+  "ownership": {
+    "ownership_reason": "subscribed"
+  },
+  "play_count": 8,
+  "project": {
+    "description": "1-Temazos",
+    "id": "34d638ba-5606-4a9f-ad83-cfb2d9f7d7b8",
+    "is_public": false,
+    "is_trashed": false,
+    "name": "1-Temazos"
+  },
+  "reaction": {
+    "clip": "cf4096d2-5044-46e6-838a-165a4c1d5323",
+    "flagged": false,
+    "play_count": 7,
+    "reaction_type": "L",
+    "skip_count": 0,
+    "updated_at": "2026-06-03T04:51:23.372Z"
+  },
+  "status": "complete",
+  "title": "Papas en Ajopollo: lo que los nutricionistas no quieren que sepas",
+  "upvote_count": 1,
+  "user_id": "6755b056-24ad-46c6-904c-8687163942ad",
+  "video_url": "https://cdn1.suno.ai/cf4096d2-5044-46e6-838a-165a4c1d5323.mp4",
+  "workspaceId": "34d638ba-5606-4a9f-ad83-cfb2d9f7d7b8",
+  "workspaceName": "1-Temazos",
+  "_cacheTimestamp": 1782504031178
+}

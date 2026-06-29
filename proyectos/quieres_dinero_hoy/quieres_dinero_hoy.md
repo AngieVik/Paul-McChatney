@@ -46,7 +46,7 @@ Vende ropa ajena en un mercadillo ilegal
 Alquila tu salón como coworking
 Revende entradas pa’ conciertos que no vas
 
-[Hook / Drop][Spanish Male Voice][Overcompressed Vox, Cowbell, Kickloop]
+[Hook \ Drop][Spanish Male Voice][Overcompressed Vox, Cowbell, Kickloop]
 ¡Gana dinero!
 ¡Ya mismo!
 ¡Hoy!

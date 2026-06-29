@@ -46,7 +46,7 @@ Máster de humo, convenio precario
 te cobran hasta por respirar
 Y endesa te corta, sin avisar.
 
-[Hook / Drop][Spanish Male Voice][Riser, Reverse Clap, Cowbell FX]
+[Hook \ Drop][Spanish Male Voice][Riser, Reverse Clap, Cowbell FX]
 ¡Pero no es ironía, bro!
 Es la vida real con techno
 ¡No es ironía, bro!
@@ -69,7 +69,7 @@ En esta edición de democracia 3.0
 te ofrecemos recortes frescos, influencers de saldo
 y el nuevo plan joven: paga, calla y baila”
 
-[Final Hook / Drop][Spanish Male Voice][Distorted Choir FX, Flamethrower Sweep, Siren]
+[Final Hook \ Drop][Spanish Male Voice][Distorted Choir FX, Flamethrower Sweep, Siren]
 ¡No es ironía, bro!
 Te ríes, pero es en serio
 ¡No es ironía, bro!

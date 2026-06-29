@@ -4,7 +4,7 @@
 
 ## Titulo Original
 
-かんちがいエンジェル (Kanchigai Angel / Misunderstood Angel)
+かんちがいエンジェル (Kanchigai Angel \ Misunderstood Angel)
 
 ## Generated
 

@@ -4,7 +4,7 @@
 
 ## Titulo Original
 
-骨でダンス" (Hone de Dansu / Dance with Bones)v2
+骨でダンス" (Hone de Dansu \ Dance with Bones)v2
 
 ## Generated
 
