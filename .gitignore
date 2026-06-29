@@ -27,11 +27,16 @@ proyectos/*
 
 # --- binarios de produccion (instaladores de plugins) ---
 _produccion/plugins_angie/
+# --- Carpetas ignoradas por completo ---
+_docs/
+_temp/
+_produccion/
+proyectos/
+_proyectos/
+chuletas/
+_hojas_sucias/
 
 # --- temporales / sistema ---
-_temp/
-_docs/
 .DS_Store
 Thumbs.db
-_produccion/temporal_produccion/
 .prettierignore
