@@ -6,7 +6,8 @@ description: Índice maestro de todos los módulos de conocimiento y reglas del 
 # Paul McChatney — Módulos de Conocimiento
 
 Este directorio contiene los índices de referencia para todos los módulos del sistema.
-Claude Code los carga bajo demanda usando la sintaxis `@` en CLAUDE.md.
+
+**No se cargan con `@`:** abre con la herramienta de lectura solo la guía del acento que pida la obra (este índice es el mapa).
 
 ## Módulos disponibles
 

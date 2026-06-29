@@ -2,15 +2,13 @@
 title: fonetizaciones
 description: Guías de fonetización para 20 idiomas y dialectos. Permiten simular acentos específicos en la letra para que Suno AI los reproduzca en el canto.
 ---
-
 > **Importante** Cualquier modificación en estos archivos se hara bajo peticion o propuesta de mejora, con consentimiento explicito del usuario.
+> **Principio clave:** Un mismo texto cantado con fonetización diferente produce canciones radicalmente distintas en timbre y emoción.
 
 # Fonetizaciones — Guías de Acento
 
 Cada archivo describe cómo adaptar la letra escrita para que Suno interprete un acento o idioma concreto. Las fonetizaciones van en la letra cantable, no en el style_box.
-**No se cargan con `@`:** abre con la herramienta de lectura solo la guía del acento que pida la obra (este índice es el mapa).
-
-> **Principio clave:** Un mismo texto cantado con fonetización diferente produce canciones radicalmente distintas en timbre y emoción.
+**No se cargan con `@`:** abre con la herramienta de lectura solo la guía del acento que pida el usuario (este índice es el mapa).
 
 ## Guías disponibles
 

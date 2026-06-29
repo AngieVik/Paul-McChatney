@@ -3,9 +3,10 @@ title: Composición
 description: Instrucciones de oficio (cómo compone Paul) para las fases de producción. Se abren bajo demanda con la herramienta de lectura (sin `@`), un archivo cada vez según la fase.
 ---
 
-# Composición — Instrucciones de oficio
+# Composición
 
-Reglas operativas de composición que Paul aplica durante la producción. **No se carga con `@`:** este índice (sí cargado) es el mapa concepto→archivo; abre cada `composicion/<archivo>.md` con la herramienta de lectura, solo el que pida la fase.
+Reglas operativas de composición que Paul aplica durante la producción.
+**No se carga con `@`:** este índice (sí cargado) es el mapa concepto→archivo; abre cada `composicion/<archivo>.md` con la herramienta de lectura, solo el que pida la fase.
 
 ## Documentos
 

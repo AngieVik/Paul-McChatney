@@ -2,9 +2,10 @@
 
 ```plaintext
 Paul McChatney
-├── _docs\
-├── _hojas_sucias\
-│   ├── IDEAS.md [303 bytes]
+├── _docs/
+│   └── _auditoria_estructura_2026-06-27.md [8.53 KB]
+├── _hojas_sucias/
+│   ├── IDEAS.md [840 bytes]
 │   ├── clasic_hardcore.md [15.06 KB]
 │   ├── clasificacion_proyectos.md [1.98 KB]
 │   ├── deudas.md [43 bytes]
@@ -15,32 +16,32 @@ Paul McChatney
 │   ├── sliders.md [408 bytes]
 │   ├── taxonomia_integral_de_la_musica_rave_2025.md [8.04 KB]
 │   └── tuneos_pichi.md [61 bytes]
-├── _produccion\
-│   ├── plugins_angie\
-│   │   ├── audacity\
+├── _produccion/
+│   ├── plugins_angie/
+│   │   ├── audacity/
 │   │   │   ├── 7318_ChowTapeModel-Win-2.8.0.zip [9.10 MB]
 │   │   │   ├── IVGI2-win-installer.zip [4.48 MB]
 │   │   │   ├── T-De-Esser 2 Installers v1.0.0.zip [42.82 MB]
 │   │   │   ├── TDR Kotelnikov (installer).zip [7.37 MB]
 │   │   │   └── TDR Nova (installer).zip [7.83 MB]
-│   │   └── voicemeeter\
+│   │   └── voicemeeter/
 │   │       └── VoicemeeterSetup_v1122.zip [21.41 MB]
-│   ├── temporal_produccion\
-│   │   ├── 60 Granos Stems (157BPM)\
+│   ├── temporal_produccion/
+│   │   ├── 60 Granos Stems (157BPM)/
 │   │   │   ├── 0 Lead Vocal.wav [46.12 MB]
 │   │   │   ├── 1 Lead Vocal.wav [46.12 MB]
 │   │   │   └── 60_granos_adjunt.jpg [10.17 KB]
-│   │   ├── CanonTek en Menor Stems (103BPM)\
-│   │   ├── EL PACTO DEL PANTANO (131BPM)\
-│   │   ├── El Coplista de la Luna Llena Stems (170BPM)\
+│   │   ├── CanonTek en Menor Stems (103BPM)/
+│   │   ├── EL PACTO DEL PANTANO (131BPM)/
+│   │   ├── El Coplista de la Luna Llena Stems (170BPM)/
 │   │   └── desktop.ini [114 bytes]
 │   └── flujo_vst.md [6.01 KB]
-├── _prompts_antiguos\
+├── _prompts_antiguos/
 │   ├── 14-6-26system_prompt.md [23.69 KB]
 │   ├── 19-6-26system_prompt.md [23.91 KB]
 │   └── prompt_principal_paul_original.md [12.72 KB]
-├── _temp\
-│   ├── extraer_metadata\
+├── _temp/
+│   ├── extraer_metadata/
 │   │   ├── 60_Granos-596c74a7.txt [11.96 KB]
 │   │   ├── A_TRAVÉS_DEL_RUGIDO-d36d74f3.txt [8.08 KB]
 │   │   ├── Aquí_se_vota_y_no_cambia_nada-61bcc134.txt [8.89 KB]
@@ -112,10 +113,10 @@ Paul McChatney
 │   │   ├── 爆発アイスクリーム__(Bakuhatsu_Ice_Cream___Exploding_Ice_Cream)_v2-e75f039f.txt [8.66 KB]
 │   │   └── 骨でダンス__(Hone_de_Dansu___Dance_with_Bones)v2-6ae606e9.txt [8.57 KB]
 │   └── nueva_skill.md [5.54 KB]
-├── chuletas\
+├── chuletas/
 │   ├── plantilla_fonetizaciones.md [3.89 KB]
 │   └── plantilla_proyecto.md [3.65 KB]
-├── chupilista\
+├── chupilista/
 │   ├── 01_core_genres_and_subgenres.md [24.84 KB]
 │   ├── 02_atmosphere_and_mood.md [29.79 KB]
 │   ├── 03_instrumentation_and_stems.md [27.31 KB]
@@ -131,22 +132,22 @@ Paul McChatney
 │   ├── 13_advanced_modifiers_allowed.md [33.07 KB]
 │   ├── 14_nudging_and_callbacks.md [33.14 KB]
 │   └── 15_negative_prompts_and_exclude_styles.md [15.25 KB]
-├── composicion\
-│   ├── distribucion_etiquetas.md [4.20 KB]
-│   ├── etiquetas_y_comandos.md [2.21 KB]
-│   ├── formato.md [676 bytes]
+├── composicion/
+│   ├── distribucion_etiquetas.md [4.62 KB]
+│   ├── efectos.md [4.87 KB]
+│   ├── etiquetas_y_comandos.md [3.44 KB]
+│   ├── formato.md [703 bytes]
 │   ├── ingenieria_de_composicion.md [1.64 KB]
 │   ├── lirica.md [1.21 KB]
-│   └── narrativa.md [962 bytes]
-├── conocimientos\
-│   ├── archivos_retrospectiva\
+│   ├── narrativa.md [962 bytes]
+│   └── tecnicas_vocales.md [3.50 KB]
+├── conocimientos/
+│   ├── archivos_retrospectiva/
 │   │   └── changelog_retrospectiva.md [1021 bytes]
-│   ├── efectos.md [1.67 KB]
 │   ├── manual_alquimia_sonora.md [13.04 KB]
 │   ├── metrica_y_ritmo_en_la_poesia.md [4.66 KB]
-│   ├── retrospectiva.md [3.01 KB]
-│   └── tecnicas_vocales.md [3.56 KB]
-├── fonetizaciones\
+│   └── retrospectiva.md [3.01 KB]
+├── fonetizaciones/
 │   ├── aleman.md [8.02 KB]
 │   ├── americano.md [7.82 KB]
 │   ├── andaluz.md [8.12 KB]
@@ -166,12 +167,11 @@ Paul McChatney
 │   ├── rural_profundo.md [7.13 KB]
 │   ├── ruso.md [8.29 KB]
 │   └── senegales.md [7.56 KB]
-├── proyectos\
-├── system_prompt\
+├── proyectos/
+├── system_prompt/
 │   └── system_prompt.md [5.23 KB]
 ├── PROYECTOS.md [10.74 KB]
-├── _auditoria_estructura_2026-06-27.md [8.53 KB]
-└── folder-structure.md [12.93 KB]
+└── folder-structure.md [12.57 KB]
 ```
 
 
@@ -190,82 +190,82 @@ File Types:
   - .txt Files: 70
 Largest File: 0 Lead Vocal.wav [46.12 MB]
 Smallest File: deudas.md [43 bytes]
-Total Project Size: 186.67 MB
+Total Project Size: 186.68 MB
 Ignored Files and Folders:
-  - proyectos\60_granos
-  - proyectos\aqui_se_vota_y_no_cambia_nada
-  - proyectos\a_traves_del_rugido
-  - proyectos\banana_chainsaw_massacre
-  - proyectos\bata_blanca_y_pasion
-  - proyectos\bienvenido_al_lado_oscuro
-  - proyectos\canontek_en_menor
-  - proyectos\carmen_nina_de_sol
-  - proyectos\como_defenderte_contra_un_cuchillo
-  - proyectos\como_entablar_una_conversacion_con_ella
-  - proyectos\con_el_puno_arriba
-  - proyectos\dance_with_bones
-  - proyectos\ducha_fria
-  - proyectos\el_camino_del_justo
-  - proyectos\el_cartero_que_no_llega
-  - proyectos\el_coplista_de_la_luna_llena
-  - proyectos\el_gato_de_carabas
-  - proyectos\el_guitarrista_de_hamelin
-  - proyectos\el_jambo_tieso
-  - proyectos\el_legionario_y_la_morita_cover
-  - proyectos\el_mal_del_carpintero
-  - proyectos\el_morito_juan_cover
-  - proyectos\el_pacto_del_pantano
-  - proyectos\el_patito_metalero
-  - proyectos\el_rio_de_los_dioses
-  - proyectos\el_tambor_de_hierro
-  - proyectos\el_ultimo_asado
-  - proyectos\energia_infinita_con_un_ambientador_del_mercadona_y_una_papa
-  - proyectos\exploding_ice_cream
-  - proyectos\frutilla_lunar
-  - proyectos\geim_over
-  - proyectos\god_of_the_cave
-  - proyectos\has_estado_haciendo_burpees_mal
-  - proyectos\hola_mi_amor_cover
-  - proyectos\houston_tenemos_un_problema
-  - proyectos\in_nomine_litio
-  - proyectos\jimmy_al_rescate
-  - proyectos\jindama_de_plomo
-  - proyectos\kike
-  - proyectos\kurabikura
-  - proyectos\la_cuna_y_el_cano
-  - proyectos\la_dama_de_la_niebla
-  - proyectos\la_ia_canta_pero_yo_disparo
-  - proyectos\la_letra_pequena
-  - proyectos\la_marcha_de_los_rebeldes
-  - proyectos\la_paya_cover
-  - proyectos\la_princesa_de_ceilan_cover
-  - proyectos\la_tregua_que_no_firmamos
-  - proyectos\la_via_del_oxido
-  - proyectos\la_virgen_tapiada
-  - proyectos\lega_la_uve
-  - proyectos\lenguaje_corporal_tips_que_no_conocias
-  - proyectos\megane_punk
-  - proyectos\mehrunes_dagon
-  - proyectos\meniquito_heroe_diminuto
-  - proyectos\miopia_balistica
-  - proyectos\misunderstood_angel
-  - proyectos\mi_burrito_metalero
-  - proyectos\monumento_al_fracaso
-  - proyectos\nina_de_salitre
-  - proyectos\nina_sonrisa
-  - proyectos\no_me_creyeron
-  - proyectos\oscar_lo_arregla
-  - proyectos\pablik
-  - proyectos\papas_en_ajopollo
-  - proyectos\parece_de_murcia
-  - proyectos\paul_mcchatney
-  - proyectos\por_que_rechace_un_trabajo
-  - proyectos\poyekhali_el_guaguanco_de_la_vostok
-  - proyectos\quieres_dinero_hoy
-  - proyectos\quieres_ser_sigma
-  - proyectos\rito_da_fraga
-  - proyectos\sandra_empieza_con_zeta
-  - proyectos\sangre_de_litio
-  - proyectos\sebas_el_grande
-  - proyectos\tranqui_mi_nino
+  - proyectos/60_granos
+  - proyectos/aqui_se_vota_y_no_cambia_nada
+  - proyectos/a_traves_del_rugido
+  - proyectos/banana_chainsaw_massacre
+  - proyectos/bata_blanca_y_pasion
+  - proyectos/bienvenido_al_lado_oscuro
+  - proyectos/canontek_en_menor
+  - proyectos/carmen_nina_de_sol
+  - proyectos/como_defenderte_contra_un_cuchillo
+  - proyectos/como_entablar_una_conversacion_con_ella
+  - proyectos/con_el_puno_arriba
+  - proyectos/dance_with_bones
+  - proyectos/ducha_fria
+  - proyectos/el_camino_del_justo
+  - proyectos/el_cartero_que_no_llega
+  - proyectos/el_coplista_de_la_luna_llena
+  - proyectos/el_gato_de_carabas
+  - proyectos/el_guitarrista_de_hamelin
+  - proyectos/el_jambo_tieso
+  - proyectos/el_legionario_y_la_morita_cover
+  - proyectos/el_mal_del_carpintero
+  - proyectos/el_morito_juan_cover
+  - proyectos/el_pacto_del_pantano
+  - proyectos/el_patito_metalero
+  - proyectos/el_rio_de_los_dioses
+  - proyectos/el_tambor_de_hierro
+  - proyectos/el_ultimo_asado
+  - proyectos/energia_infinita_con_un_ambientador_del_mercadona_y_una_papa
+  - proyectos/exploding_ice_cream
+  - proyectos/frutilla_lunar
+  - proyectos/geim_over
+  - proyectos/god_of_the_cave
+  - proyectos/has_estado_haciendo_burpees_mal
+  - proyectos/hola_mi_amor_cover
+  - proyectos/houston_tenemos_un_problema
+  - proyectos/in_nomine_litio
+  - proyectos/jimmy_al_rescate
+  - proyectos/jindama_de_plomo
+  - proyectos/kike
+  - proyectos/kurabikura
+  - proyectos/la_cuna_y_el_cano
+  - proyectos/la_dama_de_la_niebla
+  - proyectos/la_ia_canta_pero_yo_disparo
+  - proyectos/la_letra_pequena
+  - proyectos/la_marcha_de_los_rebeldes
+  - proyectos/la_paya_cover
+  - proyectos/la_princesa_de_ceilan_cover
+  - proyectos/la_tregua_que_no_firmamos
+  - proyectos/la_via_del_oxido
+  - proyectos/la_virgen_tapiada
+  - proyectos/lega_la_uve
+  - proyectos/lenguaje_corporal_tips_que_no_conocias
+  - proyectos/megane_punk
+  - proyectos/mehrunes_dagon
+  - proyectos/meniquito_heroe_diminuto
+  - proyectos/miopia_balistica
+  - proyectos/misunderstood_angel
+  - proyectos/mi_burrito_metalero
+  - proyectos/monumento_al_fracaso
+  - proyectos/nina_de_salitre
+  - proyectos/nina_sonrisa
+  - proyectos/no_me_creyeron
+  - proyectos/oscar_lo_arregla
+  - proyectos/pablik
+  - proyectos/papas_en_ajopollo
+  - proyectos/parece_de_murcia
+  - proyectos/paul_mcchatney
+  - proyectos/por_que_rechace_un_trabajo
+  - proyectos/poyekhali_el_guaguanco_de_la_vostok
+  - proyectos/quieres_dinero_hoy
+  - proyectos/quieres_ser_sigma
+  - proyectos/rito_da_fraga
+  - proyectos/sandra_empieza_con_zeta
+  - proyectos/sangre_de_litio
+  - proyectos/sebas_el_grande
+  - proyectos/tranqui_mi_nino
 ```

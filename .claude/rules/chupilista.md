@@ -5,8 +5,9 @@ description: Vocabulario exhaustivo de tags para Suno AI organizado en 15 módul
 
 # Chupilista — Vocabulario de Tags Suno
 
-Biblioteca de etiquetas y modificadores para el style*box de Suno AI.
-Organizada en 15 módulos especializados. **No se carga con `@`:** este índice (sí cargado) es el mapa concepto→archivo; abre cada `chupilista/NN*/\*.md` con la herramienta de lectura, solo el del género de la obra.
+Biblioteca de etiquetas y modificadores para el style_box.
+Organizada en 15 módulos especializados.
+**No se carga con `@`:** este índice (sí cargado) es el mapa concepto→archivo; abre cada `chupilista/<archivo>.md` con la herramienta de lectura, solo el del género de la obra.
 
 ## Módulos
 

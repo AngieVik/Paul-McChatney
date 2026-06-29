@@ -2,7 +2,7 @@
 # Regla: el repo versiona TEXTO (prompts, letras, configs). La media (audio, vídeo,
 # imágenes) se queda fuera. No hay que mantener esto carpeta por carpeta.
 
-# --- Media \ binarios: nunca a git ---
+# --- Media / binarios: nunca a git ---
 *.wav
 *.mp3
 *.flac
@@ -18,16 +18,20 @@
 *.zip
 
 # --- proyectos: solo .md ---
-proyectos\**
-!proyectos\**\
-!proyectos\**\*.md
+# 1. Ignorar todo el contenido de la carpeta proyectos
+proyectos/*
+# 2. Permitir que Git lea los subdirectorios dentro de proyectos (necesario para buscar dentro)
+!proyectos/*/
+# 3. Excluir de la regla de ignorar a todos los archivos .md en cualquier nivel
+!proyectos/**/*.md
 
 # --- binarios de produccion (instaladores de plugins) ---
-_produccion\plugins_angie\
+_produccion/plugins_angie/
 
-# --- temporales \ sistema ---
-_temp\
-_docs\
+# --- temporales / sistema ---
+_temp/
+_docs/
 .DS_Store
 Thumbs.db
-_produccion\temporal_produccion\
+_produccion/temporal_produccion/
+.prettierignore
