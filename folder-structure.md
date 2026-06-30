@@ -5,7 +5,7 @@ Paul McChatney
 ├── _docs/
 │   └── _auditoria_estructura_2026-06-27.md [8.53 KB]
 ├── _hojas_sucias/
-│   ├── IDEAS.md [840 bytes]
+│   ├── IDEAS.md [1.68 KB]
 │   ├── clasic_hardcore.md [15.06 KB]
 │   ├── clasificacion_proyectos.md [1.98 KB]
 │   ├── deudas.md [43 bytes]
@@ -133,19 +133,14 @@ Paul McChatney
 │   ├── 14_nudging_and_callbacks.md [33.14 KB]
 │   └── 15_negative_prompts_and_exclude_styles.md [15.25 KB]
 ├── composicion/
-│   ├── tags.md [4.62 KB]
-│   ├── efectos.md [4.87 KB]
-│   ├── tags.md [3.44 KB]
-│   ├── formato.md [703 bytes]
-│   ├── alquimia.md [1.64 KB]
-│   ├── letra.md [1.21 KB]
-│   ├── letra.md [962 bytes]
-│   └── tecnicas_vocales_y_efectos.md [3.50 KB]
+│   ├── alquimia.md [8.37 KB]
+│   ├── formato.md [755 bytes]
+│   ├── letra.md [7.66 KB]
+│   ├── tags.md [13.76 KB]
+│   └── tecnicas_vocales_y_efectos.md [12.42 KB]
 ├── conocimientos/
 │   ├── archivos_retrospectiva/
-│   │   └── changelog_retrospectiva.md [1021 bytes]
-│   ├── alquimia.md [13.04 KB]
-│   ├── letra.md [4.66 KB]
+│   │   └── changelog_retrospectiva.md [1004 bytes]
 │   └── retrospectiva.md [3.01 KB]
 ├── fonetizaciones/
 │   ├── aleman.md [8.02 KB]
@@ -169,9 +164,9 @@ Paul McChatney
 │   └── senegales.md [7.56 KB]
 ├── proyectos/
 ├── system_prompt/
-│   └── system_prompt.md [5.23 KB]
+│   └── system_prompt.md [5.41 KB]
 ├── PROYECTOS.md [10.74 KB]
-└── folder-structure.md [12.57 KB]
+└── folder-structure.md [12.50 KB]
 ```
 
 
@@ -180,9 +175,9 @@ Paul McChatney
 ```plaintext
 Root Folder: Paul McChatney
 Total Folders: 22
-Total Files: 148
+Total Files: 143
 File Types:
-  - .md Files: 68
+  - .md Files: 63
   - .zip Files: 6
   - .ini Files: 1
   - .wav Files: 2
