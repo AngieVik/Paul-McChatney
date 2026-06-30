@@ -1,5 +1,5 @@
 # Letra
-*Escritura técnica y tipografía como partitura física: narrativa, control fonético y aritmética métrica. Fases 2 y 3.*
+*Escritura técnica y tipografía como partitura física: narrativa, control fonético y aritmética métrica.*
 *Recordatorio: consulta por búsqueda (grep) o salto por sección.*
 
 ## Índice

@@ -1,5 +1,5 @@
 # alquimia
-*Reglas de ingeniería de composición: arco de energía, estructura de la obra y alquimia. Fase 3.*
+*Psicología del espacio latente, fusiones lingüístico-tonales y arquitectura de energía: técnicas de vanguardia para resultados no deterministas.*
 *Recordatorio: consulta por búsqueda (grep) o salto por sección.*
 
 ## Indice

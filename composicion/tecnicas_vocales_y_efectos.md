@@ -1,5 +1,5 @@
 # tecnicas_vocales_y_efectos
-*Efectos y técnicas para dar personalidad y textura a las voces: puntuación, dirección vocal, persona stacking e interpretación. Fase 3.*
+*Arquitecturas de identidad (Persona Stacking), dirección interpretativa y procesamiento de señales (DSP): física de la voz y espacialidad estéreo.*
 *Recordatorio: consulta por búsqueda (grep) o salto por sección.*
 
 ## Índice
@@ -64,15 +64,15 @@
 > [Verse 1]
 > I remember the days when the sun was cold
 
-#### 2.2 · El Anclaje de Identidad Vocal (Pre-Roll)
-*Suno determina la identidad y el "ADN" de la voz en el **segundo cero** de la generación [1]. Para evitar mutaciones tímbricas o cambios de género inesperados, es vital fijar la voz antes de que comience la interpretación.*
+#### 2.2 · El Anclaje de Identidad Vocal
+*Suno determina la identidad y el "ADN" de la voz en el **segundo cero** de la generación . Para evitar mutaciones tímbricas o cambios de género inesperados, es vital fijar la voz antes de que comience la interpretación.*
 - **Técnica de la "Línea Cero":** Coloca una etiqueta de **Persona Stacking** en la primera línea del `lyrics_box`, separada por un salto de línea del resto de la letra.
 * **Ejemplo:**
 > [Vocal Identity: Close-mic breathy alto, intimate]
 > [Verse 1]
 > Hoy el silencio pesa más que ayer...
 
-##### 2.7 · Dirección de Interpretación Dinámica (Inline Acting)
+##### 2.7 · Dirección de Interpretación Dinámica
 *A diferencia de las etiquetas de estilo globales, la v5.5 responde con alta precisión a comandos de actuación inyectados directamente entre las líneas de la letra.*
 - **Uso de descriptores locales:** Inserta términos entre paréntesis `( )` para dictar cambios emocionales o físicos en la entrega sin alterar el estilo general de la banda.
 - **Comandos validados:** `(whispered)`, `(shouted)`, `(conversational)`, `(borderline shouted)`, `(breathy)`.

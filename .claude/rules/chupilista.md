@@ -1,16 +1,12 @@
----
 title: chupilista
 description: Vocabulario exhaustivo de tags para Suno AI organizado en 15 módulos temáticos. La chupilista es la referencia principal al construir el style_box de cualquier canción.
 ---
-
-# Chupilista — Vocabulario de Tags Suno
-
-Biblioteca de etiquetas y modificadores para el style_box.
-Organizada en 15 módulos especializados.
-**No se carga con `@`:** este índice (sí cargado) es el mapa concepto→archivo; abre cada `chupilista/<archivo>.md` con la herramienta de lectura, solo el del género de la obra.
-
-## Módulos
-
+* **Biblioteca de etiquetas** y modificadores para crear musica organizada en 15 módulos especializados.
+---
+* **No se carga con `@`:** este índice (sí cargado) es el mapa concepto→archivo; abre cada `chupilista/<archivo>.md` con la herramienta de lectura, solo el del género de la obra.
+* **Consulta por búsqueda (grep) o salto por Índice.**
+---
+* **Módulos:**
 | Nº  | Archivo                                                                                                 | Contenido                                                                           |
 | --- | ------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
 | 01  | [01_core_genres_and_subgenres.md](../../chupilista/01_core_genres_and_subgenres.md)                     | Géneros y subgéneros: el vocabulario base para definir el estilo principal          |
@@ -28,3 +24,4 @@ Organizada en 15 módulos especializados.
 | 13  | [13_advanced_modifiers_allowed.md](../../chupilista/13_advanced_modifiers_allowed.md)                   | Modificadores avanzados: combinaciones validadas y uso de tags poco comunes         |
 | 14  | [14_nudging_and_callbacks.md](../../chupilista/14_nudging_and_callbacks.md)                             | Nudging y callbacks: cómo guiar a Suno hacia un resultado específico entre intentos |
 | 15  | [15_negative_prompts_and_exclude_styles.md](../../chupilista/15_negative_prompts_and_exclude_styles.md) | Prompts negativos y exclusiones: qué excluir del style_box y cómo formularlo        |
+---

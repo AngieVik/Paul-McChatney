@@ -1,12 +1,9 @@
----
 title: letra
-description: Escritura técnica y tipografía como partitura física: narrativa, control fonético y aritmética métrica. Fases 2 y 3.
+description: Escritura técnica y tipografía como partitura física: narrativa, control fonético y aritmética métrica.
 ---
-
-> Consulta por búsqueda (grep) o salto por Índice.
-
-- **Índice**
-
+* **Consulta por búsqueda (grep) o salto por Índice.**
+---
+* **Índice:**
 `1 · Narrativa`
   `1.1 · Métrica y lirismo libre`
   `1.2 · Rigidez estructural (solo Fases 3 y 4)`
@@ -26,5 +23,6 @@ description: Escritura técnica y tipografía como partitura física: narrativa,
   `3.4 · Tipos de versos según longitud`
   `3.5 · El ritmo y la rima`
 ---
-
-| [letra.md](../../composicion/letra.md) | **Métrica y ritmo en poesía española** — Conteo silábico, sinalefas, hiatos, licencias, tipos de verso y rima. |
+* **Documentos:**
+| [letra.md](../../composicion/letra.md) | **Letra** — Escritura técnica y tipografía como partitura física: narrativa, control fonético y aritmética métrica. |
+---
