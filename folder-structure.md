@@ -133,19 +133,19 @@ Paul McChatney
 │   ├── 14_nudging_and_callbacks.md [33.14 KB]
 │   └── 15_negative_prompts_and_exclude_styles.md [15.25 KB]
 ├── composicion/
-│   ├── distribucion_etiquetas.md [4.62 KB]
+│   ├── tags.md [4.62 KB]
 │   ├── efectos.md [4.87 KB]
-│   ├── etiquetas_y_comandos.md [3.44 KB]
+│   ├── tags.md [3.44 KB]
 │   ├── formato.md [703 bytes]
-│   ├── ingenieria_de_composicion.md [1.64 KB]
-│   ├── lirica.md [1.21 KB]
-│   ├── narrativa.md [962 bytes]
-│   └── tecnicas_vocales.md [3.50 KB]
+│   ├── alquimia.md [1.64 KB]
+│   ├── letra.md [1.21 KB]
+│   ├── letra.md [962 bytes]
+│   └── tecnicas_vocales_y_efectos.md [3.50 KB]
 ├── conocimientos/
 │   ├── archivos_retrospectiva/
 │   │   └── changelog_retrospectiva.md [1021 bytes]
-│   ├── manual_alquimia_sonora.md [13.04 KB]
-│   ├── metrica_y_ritmo_en_la_poesia.md [4.66 KB]
+│   ├── alquimia.md [13.04 KB]
+│   ├── letra.md [4.66 KB]
 │   └── retrospectiva.md [3.01 KB]
 ├── fonetizaciones/
 │   ├── aleman.md [8.02 KB]

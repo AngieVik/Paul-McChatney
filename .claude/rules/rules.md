@@ -16,7 +16,7 @@ Este directorio contiene los índices de referencia para todos los módulos del 
 | **System Prompt**  | [system_prompt.md](system_prompt.md)   | Archivo de el prompt principal de Paul McChatney.                                                       |
 | **Chupilista**     | [chupilista.md](chupilista.md)         | Vocabulario de tags de Suno organizado en 15 categorías temáticas                                       |
 | **Fonetizaciones** | [fonetizaciones.md](fonetizaciones.md) | Guías de acento y fonética para 20 idiomas\dialectos                                                    |
-| **Conocimientos**  | [conocimientos.md](conocimientos.md)   | Técnicas vocales, alquimia sonora y métrica española                                                    |
+| **Conocimientos**  | [conocimientos.md](conocimientos.md)   | Sistema de log y aprendizaje.                                                   |
 | **Composicion**    | [composicion.md](composicion.md)       | Narrativa, lirica, etiquetas y comandos, distribucion de etiquetas, ingenieria de composicion y formato |
 
 ## Estructura del proyecto

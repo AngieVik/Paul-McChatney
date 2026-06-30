@@ -14,10 +14,10 @@ Cada archivo describe cómo adaptar la letra escrita para que Suno interprete un
 
 | Archivo                                                           | Idioma / Acento      | Notas                                                                          |
 | ----------------------------------------------------------------- | -------------------- | ------------------------------------------------------------------------------ |
-| [andaluz.md](../../fonetizaciones/andaluz.md)                     | Español Andaluz 🇪🇸   | Aspiración de s, ceceo/seseo, elisiones vocálicas. El más usado en el proyecto |
-| [americano.md](../../fonetizaciones/americano.md)                 | Inglés Americano 🇺🇸  | Acento anglosajón neutro para letras en inglés o mezclas                       |
-| [aleman.md](../../fonetizaciones/aleman.md)                       | Alemán 🇩🇪            | Pronunciación germánica de vocales y consonantes                               |
-| [arabe.md](../../fonetizaciones/arabe.md)                         | Árabe 🕌             | Énfasis en guturales, enfáticas y alargamientos vocálicos                      |
+| [andaluz.md](../../fonetizaciones/andaluz.md)                     | Español Andaluz 🇪🇸    | Aspiración de s, ceceo/seseo, elisiones vocálicas. El más usado en el proyecto |
+| [americano.md](../../fonetizaciones/americano.md)                 | Inglés Americano 🇺🇸   | Acento anglosajón neutro para letras en inglés o mezclas                       |
+| [aleman.md](../../fonetizaciones/aleman.md)                       | Alemán 🇩🇪             | Pronunciación germánica de vocales y consonantes                               |
+| [arabe.md](../../fonetizaciones/arabe.md)                         | Árabe 🕌              | Énfasis en guturales, enfáticas y alargamientos vocálicos                      |
 | [chino.md](../../fonetizaciones/chino.md)                         | Chino Mandarín 🇨🇳    | Tonos, consonantes aspiradas y finales silábicos cerrados                      |
 | [euskera.md](../../fonetizaciones/euskera.md)                     | Euskera / Vasco 🌿   | Consonantes apicoalveolares y vocales puras                                    |
 | [frances.md](../../fonetizaciones/frances.md)                     | Francés 🇫🇷           | Nasales, liaison, vocal final muda y ritmo silábico                            |

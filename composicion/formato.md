@@ -16,12 +16,14 @@ Escribe aquí el contenido del style_box
 ```
 
 ```text
-Escribe aquí los exclude_styles
+Escribe aquí el contenido del exclude_box
+Escribe aquí el contenido del sliders_box
 ```
 
 ```text
 [MOOD: 1 etiqueta de humor + 1 de energía + instrumentos clave].
 [PRODUCTION: Aplica comandos de producción]
 
-Escribe aquí todo el contenido del lyrics_box
+Escribe aquí el contenido del lyrics_box
 ```
+---

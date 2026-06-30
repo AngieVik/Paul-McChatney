@@ -10,7 +10,7 @@ Escribe **solo la letra limpia** (Fase 2): calidad poética y narrativa, sin cor
 ## Pasos
 
 1. Fija la voz narrativa, la historia y el tono (`@system_prompt\04_narrativa.md`).
-2. Escribe con métrica libre pero cadencia consistente en estribillos. Para conteo silábico y formas clásicas (soleá, seguiriya, romance…) consulta `conocimientos\metrica_y_ritmo_en_la_poesia.md`.
+2. Escribe con métrica libre pero cadencia consistente en estribillos. Para conteo silábico y formas clásicas (soleá, seguiriya, romance…) consulta `conocimientos\letra.md`.
 3. Inyecta anclaje regional con jerga\modismos locales (fuerzan acento en Suno).
 4. Huye del cliché de IA: perspectivas únicas, verbos contundentes, frescura.
 

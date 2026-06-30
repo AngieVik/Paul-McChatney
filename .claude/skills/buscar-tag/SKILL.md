@@ -15,7 +15,7 @@ Buscador de la CHUPILISTA: dado un concepto (instrumento, emoción, efecto, ritm
    Los núcleos son listas planas alfabéticas de tags, así que la forma correcta de consultarlos es buscar (grep) la raíz del término —y sus variantes\sinónimos— y traer solo las líneas que casan (+ contexto mínimo). Repite en un 2.º núcleo solo si el concepto es transversal.
 3. **Suma tu instinto:**
    Combina los tags canónicos hallados con tu criterio de productor; propón variantes o fusiones propias cuando el canon se quede corto, marcándolas como invención.
-4. Devuelve 3–8 tags candidatos: tag exacto · núcleo de origen · cuándo usarlo. Señala si va en `style_box` o en `lyrics_box` (`@system_prompt\09_distribucion_etiquetas.md`).
+4. Devuelve 3–8 tags candidatos: tag exacto · núcleo de origen · cuándo usarlo. Señala si va en `style_box` o en `lyrics_box` (`@system_prompt\09_etiquetas_comandos_y_distribucion.md`).
 
 ## Ejemplo
 

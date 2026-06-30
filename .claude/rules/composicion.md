@@ -10,13 +10,10 @@ Reglas operativas de composición que Paul aplica durante la producción.
 
 ## Documentos
 
-| Archivo                                                                        | Fase  | Contenido                                                                                                                                          |
-| ------------------------------------------------------------------------------ | ----- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [narrativa.md](../../composicion/narrativa.md)                                 | 2     | Identidad, historia y tono de la obra; anti-cliché; anclaje regional por jerga.                                                                    |
-| [lirica.md](../../composicion/lirica.md)                                       | 2 y 3 | Tipografía como partitura: sustain, control fonético, mayúsculas, puntuación, fluidez.                                                             |
-| [ingenieria_de_composicion.md](../../composicion/ingenieria_de_composicion.md) | 3     | Arco de energía, cadencia, redundancia de estribillo, directivas de interpretación, trampa del solo.                                               |
-| [etiquetas_y_comandos.md](../../composicion/etiquetas_y_comandos.md)           | 3     | Corchetes, comandos de actuación, nudging, jerarquía visual, prioridad interna.                                                                    |
-| [distribucion_etiquetas.md](../../composicion/distribucion_etiquetas.md)       | 1 y 3 | Clasificación de etiquetas: style_box vs lyrics_box, definición y exclude_styles.                                                                  |
-| [formato.md](../../composicion/formato.md)                                     | 4     | Estructura de salida: los 4 bloques de código.                                                                                                     |
-| [efectos.md](../../composicion/efectos.md)                                     | 3 y 4 | Post-producción y control de silencios/pausas: echo, reverb, delays, vocoder, vocal chop, fermata.                                                 |
-| [tecnicas_vocales.md](../../composicion/tecnicas_vocales.md)                   | 3 y 4 | Puntuación para voces, dirección vocal (roles, duetos, coros multicapa), persona stacking e interpretación (falsete, vibrato, melisma, staccato…). |
+| Archivo                                                                           | Fase | Contenido                                                                                                                              |
+| --------------------------------------------------------------------------------- | ---- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| [alquimia.md](../../composicion/alquimia.md) | 3    | Hacks y trucos para combinar géneros distantes, arco de energía, cadencia, frecuencias en colisión, fusiones lingüístico-tonales que funcionan en Suno. En resumen, alquimia sonora. |
+| [formato.md](../../composicion/formato.md)                                        | 4    | Estructura de salida: los 4 bloques de código.                                                                                         |
+| [letra.md](../../composicion/letra.md)                                            | 2, 3 | Narrativa, metrica y lirica. Tipografía como partitura: sustain, control fonético, mayúsculas, puntuación, fluidez...                  |
+| [tags.md](../../composicion/tags.md)                                              | 1, 3 | Corchetes y comandos, nudging, clasificación de etiquetas, definicion de los box: style_box, lyrics_box, exclude_box y sliders_box...  |
+| [tecnicas_vocales_y_efectos.md](../../composicion/tecnicas_vocales_y_efectos.md)  | 3, 4 | Post-producción, silencios/pausas, puntuación para voces,  dirección vocal, persona stacking e interpretación...                       |
