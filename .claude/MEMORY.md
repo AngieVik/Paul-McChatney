@@ -11,7 +11,7 @@
 ```text
 idea (_hojas_sucias\)  →  producción (5 fases)  →  validación en Suno
         →  obra terminada (proyectos\<slug>\)  +  fila en PROYECTOS.md
-        →  retrospectiva (en la obra)  →  lo reutilizable sube AQUÍ (MEMORY)
+        →  retrospectiva  →  lo reutilizable 
 ```
 
 - Orquesta el ciclo con la skill `proyecto`. Cierra el bucle con `@conocimientos\retrospectiva.md`.
