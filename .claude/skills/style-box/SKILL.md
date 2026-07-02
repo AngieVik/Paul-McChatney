@@ -1,12 +1,15 @@
 ---
 name: style-box
-description: construye solo el `style_box` consultando CHUPILISTA.
+description: construye solo el style_box (+ exclude_box) de una obra consultando CHUPILISTA (Fase 1 aislada).
 ---
 
 # style-box
 
-Construye **solo** el `style_box` (+ `exclude_styles`) de una obra, sin escribir letra.
-Es la Fase 1 aislada — ideal para iterar rápido sobre el molde sonoro.
+Construye **solo** el `style_box` (+ `exclude_box`) de una obra, sin escribir letra. Es la Fase 1 aislada — ideal para iterar rápido sobre el molde sonoro.
+
+## Cuándo se activa
+
+Necesitas el molde sonoro de una obra sin escribir letra: arranque de Fase 1 o iteración rápida.
 
 ## Pasos
 
@@ -14,13 +17,22 @@ Es la Fase 1 aislada — ideal para iterar rápido sobre el molde sonoro.
 2. Busca por concepto (grep, solo coincidencias) dentro del núcleo de `chupilista/` que toque —no lo leas entero— (sobre todo 01 género, 03 instrumentación, 04/12 voz, 05 ritmo, 08 dinámica, 10 experimental). La skill `buscar-tag` automatiza esta búsqueda.
 3. Redacta el `style_box`: **género de fusión primero** (MAYÚSCULAS), subgéneros de apoyo en minúsculas, instrumentos base con **Tag Anchoring**. Máx ~30 palabras.
 4. Aplica el **Anclaje Idiomático** (`system_prompt/system_prompt.md`): antepón el idioma solo si el género es global (ej. `SPANISH HEAVY METAL`); omítelo si el género ya es propio de esa cultura (flamenco, reggaetón…).
-5. Genera una línea de `exclude_styles` (comas) bloqueando clichés e instrumentos no deseados.
+5. Genera una línea de `exclude_box` (comas) bloqueando clichés e instrumentos no deseados.
 
 ## Reglas heredadas
 
 - Menos es más: 12–20 tags rinden mejor que 40 (`.claude/MEMORY.md`).
 - El orden pondera: lo más importante primero.
 - Nunca nombres de artistas reales en el style_box: describe el estilo.
+
+## Entra → Sale
+
+- **Entra:** género/mood, idioma de la letra y referencias.
+- **Sale:** `style_box` (≤30 palabras) + una línea de `exclude_box`.
+
+## Relación
+
+- Es la **Fase 1** de `produccion`. Se apoya en `buscar-tag` y `fusionar`.
 
 ## Ejemplo
 

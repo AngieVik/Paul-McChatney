@@ -1,21 +1,24 @@
 ---
 name: proyecto
-description: gestiona ideas de proyectos en `_hojas_sucias/` (crear, listar, retomar) y la memoria de proyectos.
+description: gestiona el ciclo de vida de una obra (crear, listar, retomar, cerrar) y la memoria de proyectos.
 ---
 
 # proyecto
 
-Orquesta la **memoria de proyectos**: el ciclo de vida de una obra desde idea hasta aprendizaje acumulado.
-Crea, lista y retoma proyectos, y cierra el bucle de retros.
+Orquesta la **memoria de proyectos**: el ciclo de vida de una obra desde idea hasta aprendizaje acumulado. Crea, lista y retoma proyectos, y cierra el bucle de retros.
+
+## Cuándo se activa
+
+Gestión de obras: crear/listar/retomar una idea, o cerrar una obra validada. La invoca `produccion` al validar.
 
 ## Mapa de la memoria
 
 | Capa             | Dónde                            | Qué guarda                            |
 | ---------------- | -------------------------------- | ------------------------------------- |
-| Ideas / backlog  | `_hojas_sucias/<slug>.md`       | conceptos sin producir, bocetos       |
+| Ideas / backlog  | `_hojas_sucias/<slug>.md`        | conceptos sin producir, bocetos       |
 | Obras terminadas | `proyectos/<slug>/<slug>.md`     | prompt final + retrospectiva          |
-| Catálogo         | `PROYECTOS.md`                  | índice navegable por género           |
-| Memoria global   | `.claude/MEMORY.md`             | aprendizajes que trascienden una obra |
+| Catálogo         | `PROYECTOS.md`                   | índice navegable por género           |
+| Memoria global   | `.claude/MEMORY.md`              | aprendizajes que trascienden una obra |
 | Plantilla        | `chuletas/plantilla_proyecto.md` | formato canónico                      |
 
 ## Acciones
@@ -27,8 +30,16 @@ Crea, lista y retoma proyectos, y cierra el bucle de retros.
 
 ## Regla de oro de la memoria
 
-Un prompt no validado en producción es hipótesis, no conocimiento: no escala a MEMORY ni a los archivos vivos hasta que el usuario valida la obra.
-Todo aprendizaje se redacta en **positivo** (qué hacer la próxima vez).
+Un prompt no validado en producción es hipótesis, no conocimiento: no escala a MEMORY ni a los archivos vivos hasta que el usuario valida la obra. Todo aprendizaje se redacta en **positivo** (qué hacer la próxima vez).
+
+## Entra → Sale
+
+- **Entra:** una orden de gestión (crear/listar/retomar/cerrar) + slug de la obra.
+- **Sale:** la acción ejecutada sobre la capa de memoria correspondiente (idea, obra, catálogo o MEMORY).
+
+## Relación
+
+- La invoca `produccion` al **validar**; cierra el ciclo lanzando la `retrospectiva`.
 
 ## Ejemplo
 

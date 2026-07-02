@@ -1,11 +1,15 @@
 ---
 name: buscar-tag
-description: busca en CHUPILISTA por concepto y devuelve las etiquetas más relevantes.
+description: busca en CHUPILISTA por concepto y devuelve 3–8 etiquetas relevantes con su núcleo y caja destino.
 ---
 
 # buscar-tag
 
 Buscador de la CHUPILISTA: dado un concepto (instrumento, emoción, efecto, ritmo…), devuelve las etiquetas más relevantes y dónde viven. Utilidad de referencia rápida.
+
+## Cuándo se activa
+
+Necesitas tags canónicos para el `style_box` o el `lyrics_box`; la orquestan `style-box` y `produccion` (Fases 1 y 3).
 
 ## Pasos
 
@@ -16,6 +20,15 @@ Buscador de la CHUPILISTA: dado un concepto (instrumento, emoción, efecto, ritm
 3. **Suma tu instinto:**
    Combina los tags canónicos hallados con tu criterio de productor; propón variantes o fusiones propias cuando el canon se quede corto, marcándolas como invención.
 4. Devuelve 3–8 tags candidatos: tag exacto · núcleo de origen · cuándo usarlo. Señala si va en `style_box` o en `lyrics_box` (`composicion/tags.md`).
+
+## Entra → Sale
+
+- **Entra:** un concepto (instrumento, emoción, efecto, ritmo…).
+- **Sale:** 3–8 tags candidatos con núcleo de origen y caja destino (`style_box` / `lyrics_box`).
+
+## Relación
+
+- Sub-utilidad de `style-box` y de `produccion` (Fases 1 y 3). Combina con `fusionar` para géneros insólitos.
 
 ## Ejemplo
 

@@ -10,6 +10,6 @@ description: Índice maestro de producción híbrida: marco de trabajo unificado
 | [alquimia.md](../../composicion/alquimia.md) | Psicología del espacio latente, fusiones lingüístico-tonales y arquitectura de energía: técnicas de vanguardia para resultados no deterministas. |
 | [formato.md](../../composicion/formato.md) | Estructura de salida: los 4 bloques de código. |
 | [letra.md](../../composicion/letra.md) | Escritura técnica y tipografía como partitura física: narrativa, control fonético y aritmética métrica.|
-| [tags.md](../../composicion/tags.md) | Control semántico, mapeo operativo de cajas (style_box, lyrics_box, exclude_bos, sliders_box) y gramática técnica, dirección de banda y lógica de exclusión.|
+| [tags.md](../../composicion/tags.md) | Control semántico, mapeo operativo de cajas (style_box, lyrics_box, exclude_box, sliders_box) y gramática técnica, dirección de banda y lógica de exclusión.|
 | [tecnicas_vocales_y_efectos.md](../../composicion/tecnicas_vocales_y_efectos.md) | Arquitecturas de identidad (Persona Stacking), dirección interpretativa y procesamiento de señales (DSP): física de la voz y espacialidad estéreo.|
 ---

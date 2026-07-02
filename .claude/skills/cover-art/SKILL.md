@@ -1,6 +1,6 @@
 ---
 name: cover-art
-description: crea un prompt para crear cover arts de las obras con gemini.
+description: genera 3 prompts 1:1 para Gemini a partir del sentimiento (no el argumento) de una obra.
 ---
 
 # Cover Art — Prompts para Gemini
@@ -86,3 +86,12 @@ COVER 2
 COVER 3
 <prompt en lenguaje natural, 1:1>
 /`/`/`
+
+## Entra → Sale
+
+- **Entra:** una obra terminada (letra + style_box/narrativa).
+- **Sale:** el núcleo emocional detectado + 3 prompts en lenguaje natural 1:1 para Gemini.
+
+## Relación
+
+- Posterior a una obra ya creada; independiente del flujo de 5 fases de `produccion`.

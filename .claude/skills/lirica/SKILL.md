@@ -1,11 +1,15 @@
 ---
 name: lirica
-description: redacta la letra limpia (Fase 2 aislada).
+description: redacta la letra limpia sin etiquetas (Fase 2 aislada): narrativa, cadencia y anclaje regional.
 ---
 
 # lirica
 
 Escribe **solo la letra limpia** (Fase 2): calidad poética y narrativa, sin corchetes ni metaetiquetas. El esqueleto cantable que luego se etiqueta en Fase 3.
+
+## Cuándo se activa
+
+Hace falta la letra de una obra sin tags: arranque de Fase 2 o escritura suelta.
 
 ## Pasos
 
@@ -20,7 +24,12 @@ Escribe **solo la letra limpia** (Fase 2): calidad poética y narrativa, sin cor
 - Desarrollo ambicioso: deja que la narrativa respire, evita lo mínimo exigible.
 - Si el cierre de verso va sin puntuación, Suno encadena en una misma respiración.
 
-## Relación con otras skills
+## Entra → Sale
+
+- **Entra:** tema, voz narrativa y tono.
+- **Sale:** letra limpia sin corchetes, lista para etiquetar en Fase 3.
+
+## Relación
 
 - ¿Necesitas acento concreto? → `fonetizar` (se aplica sobre la letra, no en el style_box).
 - ¿Lista para etiquetar? → vuelve a `produccion` Fase 3.

@@ -1,5 +1,5 @@
 title: tags
-description: Control semántico, mapeo operativo de cajas (style_box, lyrics_box, exclude_bos, sliders_box) y gramática técnica, dirección de banda y lógica de exclusión.
+description: Control semántico, mapeo operativo de cajas (style_box, lyrics_box, exclude_box, sliders_box) y gramática técnica, dirección de banda y lógica de exclusión.
 ---
 * **Consulta por búsqueda (grep) o salto por Índice.**
 ---
@@ -9,6 +9,7 @@ description: Control semántico, mapeo operativo de cajas (style_box, lyrics_box
     `1.2 · Aislamiento de personalidad`
     `1.3 · Modificadores parametrizados`
     `1.4 · Comandos de Actuación - La "banda imperfecta"`
+    `1.5 · DAW-Style Meta-Hacks`
     `1.6 · Nudging`
     `1.7 · Top-Loading`
     `1.8 · Vacuum Drop`

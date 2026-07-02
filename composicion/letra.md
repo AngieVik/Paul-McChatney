@@ -27,6 +27,8 @@
 ## 1 · Narrativa
 *Esculpe identidad, historia y tono de la obra. Fase 2 (boceto de letra).*
 
+- **Desarrollo ambicioso:** aspira a profundidad y a un arco de energía completo; deja respirar las atmósferas, asienta los temas y construye transiciones inmersivas. Ve la estructura como un todo (Modo Dios) y huye de versiones comprimidas o apresuradas.
+
 ### 1.1 · Métrica y lirismo libre
 *Autonomía total sobre longitud de verso, ritmo silábico e historia. Escribe desde la inspiración pura.*
 
@@ -49,6 +51,8 @@
 
 ### 2.1 · Cadencia y sustain
 - **Repite vocales** Para alargar el sonido y dar énfasis sostenido, permitiendo modulaciones y vibrato natural (**Ejemplo:** fiiiiiire, loooove).
+- **Anclaje de cadencia:** mantén un recuento de sílabas consistente en las líneas del estribillo para que la melodía se repita estable.
+- **Regla de la redundancia:** para que el estribillo suene con la misma melodía en cada aparición, escribe el bloque de texto completo en todos los lugares donde deba sonar (no dejes `[Chorus]` vacío esperando que lo repita).
 
 ### 2.2 · Control fonético
 - **Usa guiones para romper el flujo de la respiración** (**Ejemplo:** Ta-ta-ta...taca-ta). Usalo con moderación, para evitar cadencias robóticas.

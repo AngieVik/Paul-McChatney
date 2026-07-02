@@ -1,11 +1,15 @@
 ---
 name: fusionar
-description: modo "alquimia": propone 3-5 fusiones de géneros insólitas para un mood dado.
+description: modo "alquimia": propone 3–5 fusiones de géneros insólitas pero viables en Suno para un mood dado.
 ---
 
 # fusionar
 
 Modo alquimia: ante un mood o tema, propone **3–5 fusiones de géneros insólitas** pero viables en Suno, con su porqué. Alimenta la Fase 1 / la skill `style-box`.
+
+## Cuándo se activa
+
+Buscas un molde sonoro original para un mood/tema, o el `style_box` estándar se queda plano.
 
 ## Pasos
 
@@ -18,6 +22,15 @@ Modo alquimia: ante un mood o tema, propone **3–5 fusiones de géneros insóli
 
 - No mezcles >2 géneros principales sin un tag de fusión explícito (`.claude/MEMORY.md`).
 - Inventa géneros cruzando conceptos (ej. `RUSSIAN SALSA`, `HARDTEK POCOYÓ`).
+
+## Entra → Sale
+
+- **Entra:** un mood o tema.
+- **Sale:** 3–5 fusiones de género con gancho sonoro, una marcada como favorita.
+
+## Relación
+
+- Alimenta `style-box` / `produccion` Fase 1. Se apoya en `composicion/alquimia.md`.
 
 ## Ejemplo
 

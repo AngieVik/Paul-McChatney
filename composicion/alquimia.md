@@ -3,27 +3,13 @@
 *Recordatorio: consulta por búsqueda (grep) o salto por sección.*
 
 ## Indice
-`1 · ingeniería de composición`
-`2 · Fusión y frecuencias`
-`3 · Dinámicas rítmicas y estructurales`
-`4 · Ingeniería de audio y texturas (DAW hacks)`
-`5 · Control vocal y estructura de letras`
-`6 · Dirección de escena y efectos especiales`
+`1 · Fusión y frecuencias`
+`2 · Dinámicas rítmicas y estructurales`
+`3 · Ingeniería de audio y texturas (DAW hacks)`
+`4 · Control vocal y estructura de letras`
+`5 · Dirección de escena y efectos especiales`
 
-## 1 · ingeniería de composición
-- **Ingeniería de escena:** Diseña el arco de energía completo. Libertad para estructuras expansivas: deja respirar la obra, asienta los temas, busca un desarrollo rico y memorable. Huye de versiones comprimidas y estructuras apresuradas que recortan la experiencia del oyente.
-
-- **Ley de desarrollo ambicioso:** Aspira siempre a profundidad: deja evolucionar narrativa e instrumentación, respira las atmósferas, construye transiciones inmersivas. Meta: calidad total y una escucha robusta y generosa.
-
-- **Anclaje de cadencia:** Mantén un recuento de sílabas consistente en las líneas del estribillo.
-
-- **Regla de la redundancia:** Para que el estribillo se cante con la misma melodía exacta más adelante, escribe el bloque de texto completo en cada lugar donde deba sonar.
-
-- **Modo Dios:** Ve la estructura como un todo, trabajando la energía de cada sección para que sigan la línea deseada.
-
-- **La trampa del solo:** `[Solo -Instrumento-]` desacopla los instrumentos de la mezcla y deja el solo aislado y vacío. Para un solo manteniendo la inercia de la banda, usa OBLIGATORIAMENTE etiquetas de jerarquía (ej. `[Lead]`, `[Taking The Melody]`).
-
-## 2 · Fusión y frecuencias
+## 1 · Fusión y frecuencias
 - **Fusión lingüístico-tonal:** Cruza un idioma asiático o árabe con géneros técnicos: el modelo introduce escalas microtonales y ritmos asimétricos sin pedir "microtonal" explícito.
     * **Ejemplo:** `Mandarin Math Rock`, `Urdu Electropop`
 - **Fusión regional:** Tags de raíz cruda con prefijo geográfico opuesto: fuerza escalas latinas sobre timbres crudos de Delta Blues; saca guitarras e instrumentos nativos únicos.
@@ -33,7 +19,7 @@
 - **Expansión estéreo:** Combina subgéneros oscuros de internet con coros eclesiásticos o acústicos puros: texturas estéreo amplísimas y contrastes dinámicos pesados.
     * **Ejemplo:** `Drift Phonk | Gregorian Chant`
 
-## 3 · Dinámicas rítmicas y estructurales
+## 2 · Dinámicas rítmicas y estructurales
 
 - **Etiquetas rítmicas extremas:** Combina BPMs absurdos (Breakcore, Footwork) con anclajes atmosféricos (Slushwave, Monastic Choir): el choque limpia las frecuencias medias para que entren las voces → máster más agresivo y definido.
     * **Ejemplo:** `Breakcore | Monastic Choir`
@@ -43,7 +29,7 @@
     * **Style Box:** `[85 BPM | Lo-fi Groove]`
     * **Lyrics Box:** `[Drums: frantic 32nd note hi-hats | explosive energy]`
 
-## 4 · Ingeniería de audio y texturas (DAW hacks)
+## 3 · Ingeniería de audio y texturas (DAW hacks)
 
 - **Textural Bleed:** Invoca la física del formato analógico en vez de pedir "Lo-Fi": cruzado con voces nítidas, el modelo divide el render (instrumental viejo vs. voz moderna de cabina).
     * **Ejemplo:** `Melted Cassette Hiss` · `Dusty Vinyl Crackle` · `Degraded Wax Cylinder + Close-Mic Hi-Fi Vocal`
@@ -67,10 +53,7 @@
     * **Cero percusión:** `[Acapella]` · `[Purely vocal]` · `[Ambient drone]` · `[Beatless]`
     * **Cero voces:** `[Instrumental ONLY]` · `[Focus on Guitars]` · `[Zero Vocals]`
 
-## 5 · Control vocal y estructura de letras
-
-- **The Pre-Roll Anchor (ley del anclaje):** Suno decide la identidad vocal en el primer segundo: pon el anclaje en la línea cero del lyrics_box, ANTES de cualquier estructura o verso.
-- **Letras (línea 1):** `[Vocal Identity: Close-mic breathy alto | intimate]`
+## 4 · Control vocal y estructura de letras
 
 - **El hack del Rap/Drill:** `[Chorus]` fuerza el modo melódico/pop y arruina géneros oscuros o rap duro. Sustitúyela por etiquetas de comportamiento energético.
 - **Tags:** `[Structure: Anthemic Peak]` · `[Hook: Aggressive Rhythm]` · `[Drop: High Energy]`
@@ -84,7 +67,7 @@
 - **Hack de timbre (choque cognitivo):** Cruza etiquetas físicas extremas con géneros que no les corresponden: distorsiona la voz central manteniendo la percusión limpia.
 * **Ejemplo:** `[Death Metal Growl]` o `[Vocal Fry]` sobre instrumental de `[Smooth Jazz]` o `[Bossa Nova]`.
 
-## 6 · Dirección de escena y efectos especiales
+## 5 · Dirección de escena y efectos especiales
 
 - **Live Bootleg Hack:** Simula grabación en vivo tratando al público como un instrumento más.
     * **Style Box:** `Live Arena Soundboard Recording` · `Stadium Acoustics` · `Bootleg Tape`
