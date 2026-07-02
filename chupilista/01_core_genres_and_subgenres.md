@@ -1,6 +1,6 @@
 # core_genres_and_subgenres
 
-*Vocabulario de géneros y subgéneros para el style_box. Consulta por búsqueda (grep del género\raíz) o salta a la familia que toque vía el Índice.*
+*Vocabulario de géneros y subgéneros para el style_box. Consulta por búsqueda (grep del género/raíz) o salta a la familia que toque vía el Índice.*
 
 ---
 
@@ -23,7 +23,7 @@
 
 ### 1 · Música Electrónica, Dance y Derivados Sintéticos
 
-*House, techno, trance, drum & bass, dubstep, breakbeat, EDM, gabber, hardcore\hardstyle, synthwave y todo lo bailable de raíz electrónica o sintetizada.*
+*House, techno, trance, drum & bass, dubstep, breakbeat, EDM, gabber, hardcore/hardstyle, synthwave y todo lo bailable de raíz electrónica o sintetizada.*
 *Palabras clave: club, sintetizador, dj, rave, bass, electrónico, máquina, digital, beat, fiesta, rave.*
 
 [2-Step Country]
@@ -1228,7 +1228,7 @@
 
 ### 12 · Cibernética, Chiptune y Cultura de Videojuegos
 
-*Chiptune, 8-bit \ 16-bit, música de videojuegos y estética digital retro.*
+*Chiptune, 8-bit / 16-bit, música de videojuegos y estética digital retro.*
 *Palabras clave: retro, arcade, consola, 8-bit, 16-bit, nostalgia, pixel, sintetizador, futuro, sci-fi, gaming.*
 
 [16-Bit Celtic]

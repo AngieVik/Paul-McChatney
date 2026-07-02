@@ -1,4 +1,4 @@
-# Guía de Fonetización en Español: Gallego (Estándar Normativo \ ILG-RAG)
+# Guía de Fonetización en Español: Gallego (Estándar Normativo / ILG-RAG)
 
 **Notas de Configuración Fonética:** Sistema ortográficamente muy transparente para el hispanohablante, derivado del tronco galaicoportugués. Comparte gran parte del inventario consonántico con el castellano, pero se diferencia estructuralmente por poseer un sistema de siete vocales (frente a las cinco del español), una rica variedad de diptongos y una curva entonativa inconfundible.
 
@@ -9,13 +9,13 @@
 El gallego se articula con una fluidez melódica continua, sin la tensión percusiva del español ni la relajación extrema del portugués contemporáneo.
 
 * **Descripción:** Ritmo isosilábico ligado (syllable-timed), pero con una elongación característica de la vocal tónica que genera su famoso "canto".
-* **Rasgo Distintivo:** La conservación de las vocales abiertas y cerradas heredadas del latín tardío, y la presencia del fonema postalveolar fricativo \ʃ\ (la grafía 'X').
+* **Rasgo Distintivo:** La conservación de las vocales abiertas y cerradas heredadas del latín tardío, y la presencia del fonema postalveolar fricativo /ʃ/ (la grafía 'X').
 
 ## 2. Mapeo de Vocales (Reducción al Español)
 
-El gallego cuenta con 7 fonemas vocálicos en posición tónica: \a\, \e\ cerrada, \ɛ\ abierta, \i\, \o\ cerrada, \ɔ\ abierta, \u\. Para el hispanohablante, se transcribirán a las 5 vocales base, pero exigirán mayor apertura mandibular en ciertos casos.
+El gallego cuenta con 7 fonemas vocálicos en posición tónica: /a/, /e/ cerrada, /ɛ/ abierta, /i/, /o/ cerrada, /ɔ/ abierta, /u/. Para el hispanohablante, se transcribirán a las 5 vocales base, pero exigirán mayor apertura mandibular en ciertos casos.
 
-| Patrón \ Grafía Original | Regla de Transformación | Equivalencia Fonética | Ejemplo Práctico |
+| Patrón / Grafía Original | Regla de Transformación | Equivalencia Fonética | Ejemplo Práctico |
 | :--- | :--- | :--- | :--- |
 | **a, i, u** | Idénticas al español | **a, i, u** | *lúa* → **lú a** |
 | **e** (abierta o cerrada) | Lectura literal (la apertura depende de la raíz etimológica) | **e** | *terra* → **té rra** |
@@ -27,14 +27,14 @@ El gallego cuenta con 7 fonemas vocálicos en posición tónica: \a\, \e\ cerrad
 
 ## 3. Mapeo de Consonantes y Sonidos Inexistentes
 
-El inventario consonántico normativo es muy cercano al castellano, pero carece nativamente del sonido de la 'J' velar fuerte (\x\).
+El inventario consonántico normativo es muy cercano al castellano, pero carece nativamente del sonido de la 'J' velar fuerte (/x/).
 
 | Sonido de Origen (IPA) | Descripción Articulatoria | Fonetización en Español |
 | :--- | :--- | :--- |
-| **x** (\ʃ\) | Fricativa postalveolar sorda. Como la 'sh' inglesa o portuguesa. | **sh** |
-| **nh** (\ŋ\) | Nasal velar. El sonido resuena en el velo del paladar, como la 'ng' en *sing*. | **ng** (suave) o **n** (velarizada) |
-| **ll** (\ʎ\) | Lateral palatal. Idéntica a la 'll' clásica española (no yeísta). | **ll** (palatal pura) |
-| **ch** (\tʃ\) | Africada postalveolar sorda. | **ch** |
+| **x** (/ʃ/) | Fricativa postalveolar sorda. Como la 'sh' inglesa o portuguesa. | **sh** |
+| **nh** (/ŋ/) | Nasal velar. El sonido resuena en el velo del paladar, como la 'ng' en *sing*. | **ng** (suave) o **n** (velarizada) |
+| **ll** (/ʎ/) | Lateral palatal. Idéntica a la 'll' clásica española (no yeísta). | **ll** (palatal pura) |
+| **ch** (/tʃ/) | Africada postalveolar sorda. | **ch** |
 
 * **Consonantes mudas:** A diferencia del portugués, el gallego pronuncia todas sus letras ortográficas, careciendo de consonantes mudas puras.
 
@@ -48,9 +48,9 @@ La prosodia es el elemento que más delata a un hablante de gallego.
 
 ## 5. Excepciones y "Falsos Amigos" Fonéticos
 
-* **La letra 'X':** Jamás se lee como \ks\ (excepto en cultismos muy específicos normativizados) y jamás como la 'J' del español. La lectura literal hispánica de *Xunta* como *Ksunta* o *Junta* es un error grave; es invariablemente **sh**.
-* **El dígrafo 'NH':** Es un falso amigo con el portugués. En portugués representa a la 'ñ' (\ɲ\). En gallego representa a la nasal velar (\ŋ\), utilizada casi exclusivamente en la palabra *unha* (una) y sus derivados.
-* **Dialectalismos tolerados (Gheada y Seseo):** Aunque la norma estandariza la 'g' suave y diferencia s\z, amplias zonas de Galicia aplican la *gheada* (pronunciar la 'g' como una 'j' suave o aspirada) y el *seseo* (pronunciar la 'c\z' como 's').
+* **La letra 'X':** Jamás se lee como /ks/ (excepto en cultismos muy específicos normativizados) y jamás como la 'J' del español. La lectura literal hispánica de *Xunta* como *Ksunta* o *Junta* es un error grave; es invariablemente **sh**.
+* **El dígrafo 'NH':** Es un falso amigo con el portugués. En portugués representa a la 'ñ' (/ɲ/). En gallego representa a la nasal velar (/ŋ/), utilizada casi exclusivamente en la palabra *unha* (una) y sus derivados.
+* **Dialectalismos tolerados (Gheada y Seseo):** Aunque la norma estandariza la 'g' suave y diferencia s/z, amplias zonas de Galicia aplican la *gheada* (pronunciar la 'g' como una 'j' suave o aspirada) y el *seseo* (pronunciar la 'c/z' como 's').
 
 ## 6. Casos Prácticos de Aplicación (Lectura Directa)
 
@@ -60,7 +60,7 @@ La prosodia es el elemento que más delata a un hablante de gallego.
 
 * **Palabra:** `Unha` (Una)
   * *Desglose:* El dígrafo 'nh' indica una nasal velar (la lengua no toca el paladar, sube hacia la campanilla). Suena como una transición fluida nasalizada.
-  * *Fonetización final:* **ú nga** (con 'g' muy suave\nasal)
+  * *Fonetización final:* **ú nga** (con 'g' muy suave/nasal)
 
 * **Palabra:** `Muller` (Mujer)
   * *Desglose:* Conservación de la 'll' palatal. La 'e' es tónica abierta.
@@ -91,7 +91,7 @@ El contacto bilingüe en Galicia produce un sustrato fonético inconfundible al 
 
 * **Palabra Española:** `Gato`
   * *Desglose de Interferencia:* Aplicación dialectal de la *Gheada* sobre la oclusiva velar 'g'. Cerramiento átono de la 'o' final hacia la 'u'. Elongación de la 'a' tónica.
-  * *Fonetización simulada:* **já- tu** (con 'j' muy exhalada\suave).
+  * *Fonetización simulada:* **já- tu** (con 'j' muy exhalada/suave).
 
 * **Palabra Española:** `Dirección`
   * *Desglose de Interferencia:* Simplificación del grupo consonántico oculto ('cc' se reduce a 'c'). Velarización de la 'n' final.

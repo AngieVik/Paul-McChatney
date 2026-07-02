@@ -1,4 +1,4 @@
-# Guía de Fonetización en Español: Árabe (Estándar Moderno \ Fusha)
+# Guía de Fonetización en Español: Árabe (Estándar Moderno / Fusha)
 
 **Notas de Configuración Fonética:** Sistema consonántico de extrema profundidad gutural y opacidad vocálica. Se basa en una morfología de raíces triconsonánticas y exige el uso activo de la faringe y la laringe, zonas articulatorias prácticamente inactivas en la fonética romance.
 
@@ -13,9 +13,9 @@ El árabe demanda una tensión muscular concentrada en la parte posterior del tr
 
 ## 2. Mapeo de Vocales (Reducción al Español)
 
-El árabe estándar posee un sistema trivocálico estricto (\a, i, u\), que se divide fonémicamente por su longitud (cortas vs. largas). No existen la 'e' ni la 'o' puras.
+El árabe estándar posee un sistema trivocálico estricto (/a, i, u/), que se divide fonémicamente por su longitud (cortas vs. largas). No existen la 'e' ni la 'o' puras.
 
-| Patrón \ Grafía Original | Regla de Transformación | Equivalencia Fonética | Ejemplo Práctico |
+| Patrón / Grafía Original | Regla de Transformación | Equivalencia Fonética | Ejemplo Práctico |
 | :--- | :--- | :--- | :--- |
 | **a, i, u** (Breves) | Emisión rápida y seca | **a, i, u** | *min* → **mín** |
 | **aa, ii, uu** (Largas) | Vocal sostenida por dos tiempos métricos | **a-, i-, u-** | *baab* (puerta) → **bá-b** |
@@ -30,14 +30,14 @@ El árabe contiene una extensa serie de fricativas y oclusivas post-velares. Su 
 
 | Sonido de Origen (IPA) | Descripción Articulatoria | Fonetización en Español |
 | :--- | :--- | :--- |
-| **خ** (Khaa) \x\ | Fricativa velar sorda. | **j** (española fuerte y áspera) |
-| **ح** (Haa) \ħ\ | Fricativa faríngea sorda. Se exhala aire desde la garganta sin raspar el paladar. | **j** (muy suave \ susurrada) |
-| **غ** (Ghayn) \ɣ\ | Fricativa velar sonora. Similar a una gárgara suave. | **g** (gutural vibrante) o **r** francesa |
-| **ق** (Qaaf) \q\ | Oclusiva uvular sorda. Una 'k' percusiva tragada hacia la campanilla. | **k** (profunda\oscura) |
-| **ع** (Ayn) \ʕ\ | Fricativa faríngea sonora. Estrangulamiento de la garganta seguido de liberación vocal. | **'** (corte ahogado sobre la vocal) |
-| **ش** (Shiin) \ʃ\ | Fricativa postalveolar sorda. | **sh** |
-| **ث** (Thaa) \θ\ | Fricativa interdental sorda. | **z** (española peninsular) |
-| **ذ** (Dhaal) \ð\ | Fricativa interdental sonora. | **d** (interdental, como en *cada*) |
+| **خ** (Khaa) /x/ | Fricativa velar sorda. | **j** (española fuerte y áspera) |
+| **ح** (Haa) /ħ/ | Fricativa faríngea sorda. Se exhala aire desde la garganta sin raspar el paladar. | **j** (muy suave / susurrada) |
+| **غ** (Ghayn) /ɣ/ | Fricativa velar sonora. Similar a una gárgara suave. | **g** (gutural vibrante) o **r** francesa |
+| **ق** (Qaaf) /q/ | Oclusiva uvular sorda. Una 'k' percusiva tragada hacia la campanilla. | **k** (profunda/oscura) |
+| **ع** (Ayn) /ʕ/ | Fricativa faríngea sonora. Estrangulamiento de la garganta seguido de liberación vocal. | **'** (corte ahogado sobre la vocal) |
+| **ش** (Shiin) /ʃ/ | Fricativa postalveolar sorda. | **sh** |
+| **ث** (Thaa) /θ/ | Fricativa interdental sorda. | **z** (española peninsular) |
+| **ذ** (Dhaal) /ð/ | Fricativa interdental sonora. | **d** (interdental, como en *cada*) |
 
 * **Consonantes mudas:** En la escritura latinizada, la oclusión glotal (Hamza, representada por un apóstrofe `'`) funciona como una consonante real y requiere un micro-corte del flujo de aire, separando vocales sin enlazarlas.
 
@@ -49,8 +49,8 @@ El árabe contiene una extensa serie de fricativas y oclusivas post-velares. Su 
 
 ## 5. Excepciones y "Falsos Amigos" Fonéticos
 
-* **El artículo "Al-" y las Letras Solares:** El artículo definido *Al-* (El\La) es engañoso. Si la palabra siguiente comienza con una consonante coronal (t, d, r, s, z, sh, n, etc. — las "letras solares"), la 'l' es complemente muda y asimila su sonido a la consonante inicial, duplicándola. (ej. *Al-Rahman* → **ar raj mán**, jamás *al-rahman*).
-* **Ausencia de la 'P' y la 'V':** El alfabeto árabe clásico no posee los fonemas \p\ ni \v\. Cualquier transcripción que los incluya suele ser un extranjerismo o adaptación dialectal.
+* **El artículo "Al-" y las Letras Solares:** El artículo definido *Al-* (El/La) es engañoso. Si la palabra siguiente comienza con una consonante coronal (t, d, r, s, z, sh, n, etc. — las "letras solares"), la 'l' es complemente muda y asimila su sonido a la consonante inicial, duplicándola. (ej. *Al-Rahman* → **ar raj mán**, jamás *al-rahman*).
+* **Ausencia de la 'P' y la 'V':** El alfabeto árabe clásico no posee los fonemas /p/ ni /v/. Cualquier transcripción que los incluya suele ser un extranjerismo o adaptación dialectal.
 
 ## 6. Casos Prácticos de Aplicación (Lectura Directa)
 
@@ -79,7 +79,7 @@ Al aplicar la matriz fonotáctica del árabe sobre el español, se produce una c
 
 ### 7.2. Sustitución Consonántica y Aspiración
 
-* **Sustitución Oclusiva (P → B):** Dada la inexistencia de la oclusiva bilabial sorda \p\, es sustituida sistemáticamente por su equivalente sonora, la bilabial \b\ (ej. *papá* → **ba bá**).
+* **Sustitución Oclusiva (P → B):** Dada la inexistencia de la oclusiva bilabial sorda /p/, es sustituida sistemáticamente por su equivalente sonora, la bilabial /b/ (ej. *papá* → **ba bá**).
 * **Faringealización:** Las vocales adyacentes a ciertas consonantes ('t', 's', 'd') pueden adquirir un timbre hueco u oscuro al ser articuladas involuntariamente como consonantes "enfáticas" árabes.
 
 ### 7.3. Alteración Rítmica

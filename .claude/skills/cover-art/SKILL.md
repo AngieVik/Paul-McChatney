@@ -21,7 +21,7 @@ El usuario pide una portada, un cover, un cover art, una carátula o "imágenes 
 Antes de escribir nada, leer y entender la pieza completa:
 
 1. **Letra cantable** — qué cuenta, qué imágenes evoca, qué tono tiene.
-2. **Style_box \ narrativa** — género, atmósfera, mood, época, paleta emocional.
+2. **Style_box / narrativa** — género, atmósfera, mood, época, paleta emocional.
 3. **El subtexto** — buscar **conceptos semánticos y cualidades ocultas**:
    ¿qué se siente por debajo de las palabras? ¿qué metáfora central la sostiene?
    ¿de qué color huele? La meta es **hallar el sentimiento**, no el argumento.
@@ -57,14 +57,14 @@ Cada escena se traduce a **un prompt en lenguaje natural**, pensado para que Gem
 
 - **Fácil de comprender**: frases claras, una idea por bloque.
 - **Concreto**: sujeto, acción, entorno, luz, atmósfera y estilo.
-- **Cuadrado**: indicar siempre **aspect ratio 1:1 \ square composition**.
+- **Cuadrado**: indicar siempre **aspect ratio 1:1 / square composition**.
 - Sin jerga técnica de Suno ni metatags — esto es para un generador de imágenes.
 - Sin texto ni tipografía dentro de la imagen (salvo que el usuario lo pida).
 
 Estructura sugerida de cada prompt:
 
-> [Sujeto principal] + [acción\postura] + [entorno y época] + [luz y color] +
-> [atmósfera\emoción] + [estilo fotográfico] + **square 1:1 composition, high detail**.
+> [Sujeto principal] + [acción/postura] + [entorno y época] + [luz y color] +
+> [atmósfera/emoción] + [estilo fotográfico] + **square 1:1 composition, high detail**.
 
 ---
 
@@ -72,17 +72,17 @@ Estructura sugerida de cada prompt:
 
 Una primera línea con el **núcleo emocional** detectado (para que el usuario vea de dónde sale cada escena), seguida de tres bloques de código Markdown independientes, listos para copiar y pegar en Gemini:
 
-\`\`\`
+/`/`/`
 COVER 1
 <prompt en lenguaje natural, 1:1>
-\`\`\`
+/`/`/`
 
-\`\`\`
+/`/`/`
 COVER 2
 <prompt en lenguaje natural, 1:1>
-\`\`\`
+/`/`/`
 
-\`\`\`
+/`/`/`
 COVER 3
 <prompt en lenguaje natural, 1:1>
-\`\`\`
+/`/`/`

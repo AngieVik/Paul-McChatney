@@ -15,7 +15,7 @@ El habla bajo los efectos del alcohol pierde su precisión geométrica. La lengu
 
 Las vocales sufren una *centralización*: todas las vocales tienden a sonar como una versión relajada y mal articulada de la 'a' o la 'e' central, debido a que la mandíbula no se abre ni se cierra con precisión.
 
-| Patrón \ Grafía Original | Regla de Transformación | Equivalencia Fonética | Ejemplo Práctico |
+| Patrón / Grafía Original | Regla de Transformación | Equivalencia Fonética | Ejemplo Práctico |
 | :--- | :--- | :--- | :--- |
 | **a, e, i, o, u** | Relajación mandibular (boca casi fija) | **a, e, i, o, u** (difusas) | *luna* → **lú na** (espesa) |
 | **Diptongos** | Fusión forzada por falta de agilidad lingual | **V - V** (deshechos) | *aire* → **a-e** |
@@ -29,12 +29,12 @@ La pérdida de tono muscular destruye la distinción entre consonantes oclusivas
 
 | Sonido de Origen (IPA) | Descripción Articulatoria | Fonetización en Español |
 | :--- | :--- | :--- |
-| **p, t, k** (Oclusivas) | El cierre labial o lingual es incompleto. | **b, d, g** (muy suaves\fricativas) |
-| **s \ z** | Pérdida de la punta de la lengua; silbido difuso. | **sh** (o una 's' sucia) |
-| **r \ rr** (Vibrantes) | La lengua no alcanza el alvéolo. Se vuelve una aproximante. | **l** (velarizada) o **w** |
-| **n \ m** (Nasales) | Incapacidad de cerrar totalmente el velo. | **ng** (nasalidad exagerada) |
+| **p, t, k** (Oclusivas) | El cierre labial o lingual es incompleto. | **b, d, g** (muy suaves/fricativas) |
+| **s / z** | Pérdida de la punta de la lengua; silbido difuso. | **sh** (o una 's' sucia) |
+| **r / rr** (Vibrantes) | La lengua no alcanza el alvéolo. Se vuelve una aproximante. | **l** (velarizada) o **w** |
+| **n / m** (Nasales) | Incapacidad de cerrar totalmente el velo. | **ng** (nasalidad exagerada) |
 
-* **Consonantes mudas \ añadidas:** La principal alteración es la **epéntesis** por error motor: el hablante intenta articular un grupo consonántico pero se le escapa una vocal intermedia involuntaria (ej. *plato* → **pe lá to**).
+* **Consonantes mudas / añadidas:** La principal alteración es la **epéntesis** por error motor: el hablante intenta articular un grupo consonántico pero se le escapa una vocal intermedia involuntaria (ej. *plato* → **pe lá to**).
 
 ## 4. Reglas de Acentuación, Cadencia y Entonación
 

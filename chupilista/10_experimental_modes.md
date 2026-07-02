@@ -398,7 +398,7 @@
 
 ### 5 · Corrupción Digital, Glitch y Degradación de Datos
 
-*Simulación exhaustiva de fracaso sistémico, aliasing, downsampling, tartamudeo en la transmisión de datos (stutter\glitch) y volatilización de componentes digitales de audio.*
+*Simulación exhaustiva de fracaso sistémico, aliasing, downsampling, tartamudeo en la transmisión de datos (stutter/glitch) y volatilización de componentes digitales de audio.*
 *Palabras clave: glitch, bitcrusher, stutter, artifacts, aliasing, buffer, degradación, DSP, sample rate, data burst, chiptune.*
 
 [Algorithmic Stutter]
@@ -434,12 +434,12 @@
 [Digital Glitch Audio Volatilization System]
 [Digital Glitch Volatilization Mode Engine]
 [Digital Glitch Volatilization Mode]
-[Extreme Glitch Stutter 1\64 Matrix]
-[Extreme Glitch Stutter 1\64]
+[Extreme Glitch Stutter 1/64 Matrix]
+[Extreme Glitch Stutter 1/64]
 [Glitch Stutter Drop]
 [Glitch Stutter-Edit Audio Rate Retrigger Mode]
 [Glitch Stutter-Edit Audio Rate Engine]
-[Glitch Textures Matrix 1\32 Grid]
+[Glitch Textures Matrix 1/32 Grid]
 [Glitch Textures Matrix]
 [Hardware Circuit Degradation Burn]
 [Hardware Circuit Degradation]
@@ -459,8 +459,8 @@
 [Retro Bitcrushed 8-Bit Fracture]
 [Schizophrenic Audio Splicing Core]
 [Schizophrenic Audio Splicing]
-[Stutter FX 1\64 Asymmetrical Matrix]
-[Stutter FX 1\64 Asymmetrical]
+[Stutter FX 1/64 Asymmetrical Matrix]
+[Stutter FX 1/64 Asymmetrical]
 [Stuttering Anxious Audio-Gate Slicing Engine]
 [Stuttering Anxious Audio-Gate Slicing Retrigger]
 [Vaporwave Slowed Pitch-Shifted Degradation Matrix]

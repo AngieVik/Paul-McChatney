@@ -15,7 +15,7 @@ El registro rural peninsular exige una articulación recia, con gran tensión en
 
 El sistema base es idéntico al estándar, pero sufre alteraciones sistemáticas en las vocales átonas y en los encuentros vocálicos.
 
-| Patrón \ Grafía Original | Regla de Transformación | Equivalencia Fonética | Ejemplo Práctico |
+| Patrón / Grafía Original | Regla de Transformación | Equivalencia Fonética | Ejemplo Práctico |
 | :--- | :--- | :--- | :--- |
 | **e, o** (átonas) | Cerramiento vocálico (se elevan hacia 'i', 'u') | **i, u** | *medicina* → **mi di sí na** |
 | **ea, eo, oa** (hiatos) | Destrucción del hiato creando un diptongo forzado | **ia, io, ua** | *peor* → **piór** |
@@ -30,13 +30,13 @@ El inventario es puramente castellano, pero redistribuido mediante fenómenos de
 
 | Sonido de Origen (IPA) | Descripción Articulatoria | Fonetización en Español |
 | :--- | :--- | :--- |
-| **bue \ hue \ gue** | Velarización inicial. Fuerte cierre de la garganta. | **güe** |
+| **bue / hue / gue** | Velarización inicial. Fuerte cierre de la garganta. | **güe** |
 | **pt, ct, gn, x** | Simplificación del grupo culto (asimilación). | **t, n, s** |
 | **d** (intervocálica) | Síncopa (elisión total, especialmente en participios). | **Ø** (muda) |
 | **s** (final implosiva) | A diferencia del andaluz, la 's' suele conservarse rústica e intacta. | **s** (fuerte) |
-| **j \ g** (+e, i) | Fricativa velar sorda muy áspera y carrasposa. | **j** (carraspeada) |
+| **j / g** (+e, i) | Fricativa velar sorda muy áspera y carrasposa. | **j** (carraspeada) |
 
-* **Consonantes mudas \ añadidas:** Frecuente **metátesis** (cambio de lugar de las consonantes). La 'r' suele viajar de una sílaba a otra para acomodarse donde exige menos esfuerzo (ej. *Gabriel* → **gra biél**; *Pobreza* → **pro bé sa**).
+* **Consonantes mudas / añadidas:** Frecuente **metátesis** (cambio de lugar de las consonantes). La 'r' suele viajar de una sílaba a otra para acomodarse donde exige menos esfuerzo (ej. *Gabriel* → **gra biél**; *Pobreza* → **pro bé sa**).
 
 ## 4. Reglas de Acentuación, Cadencia y Entonación
 
@@ -47,7 +47,7 @@ El inventario es puramente castellano, pero redistribuido mediante fenómenos de
 ## 5. Excepciones y "Falsos Amigos" Fonéticos
 
 * **La Hipercorrección (Falso Amigo Evolutivo):** El hablante rural, sabedor de que "se come" las letras (como la 'd' en *-ao*), a menudo intenta hablar "fino" introduciendo consonantes donde históricamente nunca las hubo. (ej. *Bacalao* → **ba ka lá do**; *Bilbao* → **bil bá do**).
-* **La letra 'X':** Casi nunca se articula como el clúster culto \ks\. Se reduce matemáticamente a una 's' tensa y alargada (ej. *Taxi* → **tá si**; *Examen* → **e sá men**).
+* **La letra 'X':** Casi nunca se articula como el clúster culto /ks/. Se reduce matemáticamente a una 's' tensa y alargada (ej. *Taxi* → **tá si**; *Examen* → **e sá men**).
 
 ## 6. Casos Prácticos de Aplicación (Lectura Directa)
 
@@ -85,7 +85,7 @@ Esta sección detalla cómo el hablante rural filtra e interpreta la norma culta
 
 * **Cadencia:** Ritmo machacón, de isocronía silábica muy marcada pero entorpecido por micropausas reflexivas. Uso de alargamientos en las conjunciones o preposiciones mientras se piensa la siguiente frase (ej. *y luégo... pué-s...*).
 
-### 7.4. Casos Prácticos de Aplicación (Lectura Extranjerizada\Dialectal)
+### 7.4. Casos Prácticos de Aplicación (Lectura Extranjerizada/Dialectal)
 
 * **Palabra Española Estandar:** `Peinado`
   * *Desglose de Interferencia:* Aplicación de la síncopa en el sufijo participial. Caída de la 'd' intervocálica.

@@ -10,9 +10,9 @@ Audita un prompt de Suno ya escrito (Fase 4 aislada): detecta conflictos de etiq
 ## Pasos
 
 1. Pide el prompt (título, style_box, exclude_styles, lyrics_box). Si no hay, usa la última versión en caché.
-2. Consulta el marco de auditoría: solo el archivo de `conocimientos\` que aplique y los anti-patrones de `@.claude\MEMORY.md`.
+2. Consulta el marco de auditoría: solo el archivo de `conocimientos/` que aplique y los anti-patrones de `@.claude/MEMORY.md`.
 3. Revisa por capas:
-   - **Formato:** los 4 bloques (`@composicion\formato.md`), `[MOOD]`\`[PRODUCTION]` arriba, líneas en blanco entre secciones, cada bloque de letra etiquetado.
+   - **Formato:** los 4 bloques (`@composicion/formato.md`), `[MOOD]`/`[PRODUCTION]` arriba, líneas en blanco entre secciones, cada bloque de letra etiquetado.
    - **Conflictos:** géneros que se pelean sin tag de fusión, `[Solo]` mal usado, `[Epic]` sin apoyo instrumental, exceso de tags (>20), nombres de artistas reales.
    - **Idioma:** anclaje idiomático correcto, anglicismos fonetizados.
    - **Impacto:** dónde inyectar dinámica, contraste o nudging para elevar la obra.

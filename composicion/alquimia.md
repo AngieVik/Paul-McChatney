@@ -72,7 +72,7 @@
 - **The Pre-Roll Anchor (ley del anclaje):** Suno decide la identidad vocal en el primer segundo: pon el anclaje en la línea cero del lyrics_box, ANTES de cualquier estructura o verso.
 - **Letras (línea 1):** `[Vocal Identity: Close-mic breathy alto | intimate]`
 
-- **El hack del Rap\Drill:** `[Chorus]` fuerza el modo melódico\pop y arruina géneros oscuros o rap duro. Sustitúyela por etiquetas de comportamiento energético.
+- **El hack del Rap/Drill:** `[Chorus]` fuerza el modo melódico/pop y arruina géneros oscuros o rap duro. Sustitúyela por etiquetas de comportamiento energético.
 - **Tags:** `[Structure: Anthemic Peak]` · `[Hook: Aggressive Rhythm]` · `[Drop: High Energy]`
 
 - **Glitch forzado y stutter vocal:** Escríbelo en la letra con guiones que rompan las sílabas, combinado con metaetiquetas.
@@ -109,10 +109,10 @@
     * **Tags:** `[Fermata]` · `[Hold chord and let ring]` · `[Sustain]` · `[Complete silence]`
 
 - **Hack espacial emocional:** Altera la física de la mezcla estéreo con la atmósfera.
-    * **Cerradas (centro\mono):** `[Sensory Deprivation]` · `[Buried Alive]` · `[Claustrophobic Panic]`
+    * **Cerradas (centro/mono):** `[Sensory Deprivation]` · `[Buried Alive]` · `[Claustrophobic Panic]`
     * **Expansivas (estéreo 3D):** `[Galactic Isolation]` · `[Mountain Peak Epiphany]`
 
-- **Hack de diseño de sonido:** Fuerza un bucle\cuelgue del sistema antes de un estribillo (Hyperpop, Cyberpunk): el motor repite la última vocal como disco rayado antes de reventar el drop.
+- **Hack de diseño de sonido:** Fuerza un bucle/cuelgue del sistema antes de un estribillo (Hyperpop, Cyberpunk): el motor repite la última vocal como disco rayado antes de reventar el drop.
     * **Tags:** `[Buffer Underrun Glitch]` · `[Fake Buffering Loop]`
 
 - **False Fade-Out:** Simula el final, deja ambiente de sala y remata con un golpe final.

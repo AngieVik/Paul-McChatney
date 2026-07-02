@@ -5,4 +5,4 @@
 
 **changelog_conocimientos:**
 
-* **2026-06-28** — Estandarización de `conocimientos\` al estilo chupilista (cabecera + recordatorio + Índice). Técnica vocal unificada en `tecnicas_vocales_y_efectos.md` (nuevo) y efectos de audio separados en `efectos.md` (nuevo); eliminado `efectos_y_tecnicas_vocales_y_efectos.md`. Reescritos `letra.md` (título corregido + fence del ejemplo Benedetti arreglado), `alquimia.md` (Índice de 6 secciones) y `retrospectiva.md`. En paralelo, los módulos de oficio se externalizaron a la nueva carpeta `composicion\` (con su índice `.claude\rules\composicion.md`).
+* **2026-06-28** — Estandarización de `conocimientos/` al estilo chupilista (cabecera + recordatorio + Índice). Técnica vocal unificada en `tecnicas_vocales_y_efectos.md` (nuevo) y efectos de audio separados en `efectos.md` (nuevo); eliminado `efectos_y_tecnicas_vocales_y_efectos.md`. Reescritos `letra.md` (título corregido + fence del ejemplo Benedetti arreglado), `alquimia.md` (Índice de 6 secciones) y `retrospectiva.md`. En paralelo, los módulos de oficio se externalizaron a la nueva carpeta `composicion/` (con su índice `.claude/rules/composicion.md`).

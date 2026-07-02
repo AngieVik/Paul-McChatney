@@ -222,7 +222,7 @@
 [Non-Euclidean Structural Arrangement Rhythm Grid]
 [Non-Linear Timeline Groove]
 [Non-Linear Timeline Groove Placement]
-[Odd Time Signature 7\8]
+[Odd Time Signature 7/8]
 [Overlapping Polyrhythmic Waves]
 [Overlapping Polyrhythmic Waves Grid]
 [Phased Polyrhythmic Percussion Cascade Interaction]
@@ -242,7 +242,7 @@
 [Spiral Rhythm]
 [Straight 8ths]
 [Triple-Time Subdivision Fast Chopper Flow Grid]
-[Waltz Time 3\4]
+[Waltz Time 3/4]
 
 ---
 
@@ -511,13 +511,13 @@
 [Deconstructed Club Fracture Beat]
 [Digital Aliasing Micro-Rhythm]
 [Digital Glitch Audio Volatilization Pulse]
-[Digital Glitch Stutter 1\32]
+[Digital Glitch Stutter 1/32]
 [Digital Wavetable Sweeping Modulation Grid]
 [Electroacoustic Sound Collage]
 [Electroacoustic Sound Collage Rhythms]
 [Entropy Noise Cascade Rhythm]
 [Entropy Noise Rhythmic Cascade]
-[Extreme Glitch Stutter 1\64]
+[Extreme Glitch Stutter 1/64]
 [Fractal Pattern Rhythmic Grid]
 [Frenzied Manic Metric Chaos]
 [Frequency Modulation Rhythmic Warp]
@@ -526,8 +526,8 @@
 [Gitch-Hop Swinged Midtempo Electronic Pulse]
 [Glitch Hop Stagger]
 [Glitch Stutter-Edit Audio Rate Retrigger]
-[Glitched Stutter Grid 1\16]
-[Glitched Stutter Grid 1\32]
+[Glitched Stutter Grid 1/16]
+[Glitched Stutter Grid 1/32]
 [Granular Resynthesized Vaporization Cloud Pulse]
 [Hyper-Detailed Micro-Sound]
 [Hyper-Detailed Micro-Sound Rhythms]
@@ -576,8 +576,8 @@
 [Stochastic Composition Rhythmic Grid]
 [Stochastic Resonance Noise Modulation Pulse]
 [Stochastic Resynthesis Frequency Cloud Rhythm]
-[Stutter FX 1\16 Asymmetrical]
-[Stutter FX 1\32 Asymmetrical]
+[Stutter FX 1/16 Asymmetrical]
+[Stutter FX 1/32 Asymmetrical]
 [Stuttering Anxious Audio-Gate Slicing Retrigger]
 [Stuttering Kick Pattern]
 [Stuttering Synth Beat]
@@ -609,7 +609,7 @@
 
 ### 6 · Dinámica, Acústica Espacial y Estructura Rítmica
 
-*Procesamiento en la etapa de mezcla enfocado al ritmo: compresión sidechain, envolventes de transitorios, paneo espacial, cortes abruptos (drops\mutes) y el impacto acústico de la percusión.*
+*Procesamiento en la etapa de mezcla enfocado al ritmo: compresión sidechain, envolventes de transitorios, paneo espacial, cortes abruptos (drops/mutes) y el impacto acústico de la percusión.*
 *Palabras clave: sidechain, compression, reverb, delay, panning, drop, mute, transient, stereo, mono, volume, swell, filter.*
 
 [Aggressive Syncopated Accents]

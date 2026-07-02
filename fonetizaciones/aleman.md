@@ -1,4 +1,4 @@
-# Guía de Fonetización en Español: Alemán (Hochdeutsch \ Alemán Estándar)
+# Guía de Fonetización en Español: Alemán (Hochdeutsch / Alemán Estándar)
 
 **Notas de Configuración Fonética:** Sistema ortográficamente transparente pero fonológicamente denso. Se rige por una correspondencia grafema-fonema estricta, dominada por agrupaciones consonánticas complejas (clusters), el ensordecimiento de oclusivas finales y una dicotomía rígida entre vocales cortas y largas.
 
@@ -13,16 +13,16 @@ El alemán exige una articulación enérgica y proyectada desde la laringe, con 
 
 ## 2. Mapeo de Vocales (Reducción al Español)
 
-El sistema vocálico distingue fonémicamente la duración (vocales tensas\largas frente a relajadas\cortas). Posee metafonía (Umlaut) que altera el timbre.
+El sistema vocálico distingue fonémicamente la duración (vocales tensas/largas frente a relajadas/cortas). Posee metafonía (Umlaut) que altera el timbre.
 
-| Patrón \ Grafía Original | Regla de Transformación | Equivalencia Fonética | Ejemplo Práctico |
+| Patrón / Grafía Original | Regla de Transformación | Equivalencia Fonética | Ejemplo Práctico |
 | :--- | :--- | :--- | :--- |
 | **ie** | Vocal monoptongada larga y tensa | **i-** | *Bier* → **bí-a** |
-| **ei \ ai** | Diptongo decreciente frontal | **ái** | *Nein* → **náin** |
-| **eu \ äu** | Diptongo decreciente posterior | **ói** | *Deutsch* → **dóitsh** |
-| **ö** | Metafonía: posición de 'o', sonido de 'e' | **e** (oscura\cerrada) | *schön* → **shé-n** |
-| **ü** | Metafonía: posición de 'u', sonido de 'i' | **iu** \ **i** (francesa) | *fünf* → **fiúnf** |
-| **-er** (final) | Vocalización rótica (*Tiefschwa*) | **a** (breve\sorda) | *Mutter* → **mú ta** |
+| **ei / ai** | Diptongo decreciente frontal | **ái** | *Nein* → **náin** |
+| **eu / äu** | Diptongo decreciente posterior | **ói** | *Deutsch* → **dóitsh** |
+| **ö** | Metafonía: posición de 'o', sonido de 'e' | **e** (oscura/cerrada) | *schön* → **shé-n** |
+| **ü** | Metafonía: posición de 'u', sonido de 'i' | **iu** / **i** (francesa) | *fünf* → **fiúnf** |
+| **-er** (final) | Vocalización rótica (*Tiefschwa*) | **a** (breve/sorda) | *Mutter* → **mú ta** |
 
 * **Diptongos clave:** Las combinaciones escritas `ie` y `ei` son los falsos amigos visuales más comunes. Invierten su valor fonético respecto a su lectura literal en español.
 
@@ -32,14 +32,14 @@ El consonantismo alemán es agresivo, con múltiples puntos de fricación y un s
 
 | Sonido de Origen (IPA) | Descripción Articulatoria | Fonetización en Español |
 | :--- | :--- | :--- |
-| **v** (\f\) | Fricativa labiodental sorda. | **f** |
-| **w** (\v\) | Fricativa labiodental sonora. | **v** (mordiendo el labio) |
-| **z** (\ts\) | Africada alveolar sorda. | **ts** |
-| **sch** (\ʃ\) | Fricativa postalveolar sorda. | **sh** |
-| **sp \ st** (inicial) | Fricación asimilada al inicio de sílaba | **shp \ sht** |
-| **ch** (tras a, o, u) | Fricativa velar sorda (*Ach-Laut*). | **j** (fuerte\carrasposa) |
-| **ch** (tras e, i, ä, ö, ü)| Fricativa palatal sorda (*Ich-Laut*). | **sh** (muy suave\palatal) |
-| **h** (inicial) | Fricativa glotal sorda aspirada. | **j** (exhalada\suave) |
+| **v** (/f/) | Fricativa labiodental sorda. | **f** |
+| **w** (/v/) | Fricativa labiodental sonora. | **v** (mordiendo el labio) |
+| **z** (/ts/) | Africada alveolar sorda. | **ts** |
+| **sch** (/ʃ/) | Fricativa postalveolar sorda. | **sh** |
+| **sp / st** (inicial) | Fricación asimilada al inicio de sílaba | **shp / sht** |
+| **ch** (tras a, o, u) | Fricativa velar sorda (*Ach-Laut*). | **j** (fuerte/carrasposa) |
+| **ch** (tras e, i, ä, ö, ü)| Fricativa palatal sorda (*Ich-Laut*). | **sh** (muy suave/palatal) |
+| **h** (inicial) | Fricativa glotal sorda aspirada. | **j** (exhalada/suave) |
 
 * **Consonantes mudas:** La letra **h** es absolutamente muda cuando aparece detrás de una vocal (*Dehnungs-h*); su única función es indicar que dicha vocal se alarga físicamente (*sehen* → **zé- en**).
 
@@ -53,11 +53,11 @@ El consonantismo alemán es agresivo, con múltiples puntos de fricación y un s
 
 * **Ensordecimiento Final (*Auslautverhärtung*):** Toda consonante oclusiva o fricativa sonora (**b, d, g, v, z**) que se encuentre al final de una sílaba o palabra se ensordece automáticamente, convirtiéndose en **p, t, k, f, s** (ej. *und* no es *und*, es **únt**; *Tag* es **ták**).
 * **El Falso Amigo "V":** En palabras de origen germánico, la 'v' jamás suena como una oclusiva bilabial sonora ('b' española). Suena estrictamente como **f** (ej. *Vater* → **fá- ta**).
-* **El Falso Amigo "J":** Nunca representa la fricativa velar \x\ (la 'j' del español). Equivale a la aproximante palatal **y** de *yo* (ej. *Ja* → **yá-**).
+* **El Falso Amigo "J":** Nunca representa la fricativa velar /x/ (la 'j' del español). Equivale a la aproximante palatal **y** de *yo* (ej. *Ja* → **yá-**).
 
 ## 6. Casos Prácticos de Aplicación (Lectura Directa)
 
-* **Palabra:** `Entschuldigung` (Disculpa \ Perdón)
+* **Palabra:** `Entschuldigung` (Disculpa / Perdón)
   * *Desglose:* 'sch' es 'sh'. 'u' corta. 'gung' final mantiene la velar nasal pero amortigua la oclusiva debido al ensordecimiento (o la retiene en dialectos del sur). Acento en la raíz '-schul-'.
   * *Fonetización final:* **en tshúl di gung**
 
@@ -84,7 +84,7 @@ La superposición de la fonotáctica germánica sobre el español produce una le
 
 * **Ensordecimiento Terminal Categórico:** Transferencia del *Auslautverhärtung*. Toda 'd', 'b' o 'g' al final de palabra en español será ejecutada percusivamente como 't', 'p' o 'k'.
 * **Aspiración Oclusiva:** Hipertensión y liberación masiva de aire en las consonantes 'p', 't', 'k' al inicio de las sílabas tónicas.
-* **Labiodentalización Sonora:** La 'v' ortográfica española (que nativamente es bilabial \b\ o \β\) es leída aplicando la fricación labiodental germánica (mordiendo el labio inferior de forma sonora).
+* **Labiodentalización Sonora:** La 'v' ortográfica española (que nativamente es bilabial /b/ o /β/) es leída aplicando la fricación labiodental germánica (mordiendo el labio inferior de forma sonora).
 * **Sustitución de la Vibrante Múltiple:** Reemplazo de la 'rr' alveolar española por la fricativa uvular sonora alemana (un sonido similar a una gárgara suave en la parte posterior de la garganta, asimilable a una 'j' afrancesada).
 
 ### 7.3. Alteración Rítmica

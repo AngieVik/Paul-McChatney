@@ -554,7 +554,7 @@
 
 ### 7 · Compresión, Limitación y Procesamiento Dinámico
 
-*Técnicas de mezcla aplicadas como efecto dinámico: bombeos de compresión (sidechain), limitadores al extremo, barridos de filtros, saturación y uso extremo del panorama\estéreo.*
+*Técnicas de mezcla aplicadas como efecto dinámico: bombeos de compresión (sidechain), limitadores al extremo, barridos de filtros, saturación y uso extremo del panorama/estéreo.*
 *Palabras clave: pump, squeeze, ducking, limiter, brickwall, sidechain, filter, sweep, eq, saturation, overdrive, noise floor.*
 
 [Atari Glitch Neon Meltdown Burst]

@@ -1,4 +1,4 @@
-# Guía de Fonetización en Español: Francés (Estándar \ Metropolitano)
+# Guía de Fonetización en Español: Francés (Estándar / Metropolitano)
 
 **Notas de Configuración Fonética:** Sistema ortográficamente denso y de alta opacidad histórica, plagado de letras mudas y combinaciones vocálicas complejas. Sin embargo, a diferencia del inglés, el francés es estrictamente predecible: una vez memorizadas las reglas de asimilación y silenciamiento, la lectura es matemática y libre de ambigüedades.
 
@@ -15,13 +15,13 @@ El francés exige una reconfiguración muscular hacia la parte frontal de la boc
 
 El francés metropolitano posee hasta 16 fonemas vocálicos (incluyendo nasales). La escritura agrupa múltiples letras para producir un solo sonido puro.
 
-| Patrón \ Grafía Original | Regla de Transformación | Equivalencia Fonética | Ejemplo Práctico |
+| Patrón / Grafía Original | Regla de Transformación | Equivalencia Fonética | Ejemplo Práctico |
 | :--- | :--- | :--- | :--- |
 | **ou** | Vocal posterior cerrada (idéntica a la 'u' española) | **u** | *vous* → **vú** |
 | **u** | Vocal anterior redondeada (boca de 'u', sonido de 'i') | **iu** (aprox) | *tu* → **tiú** |
 | **eau, au, o** | Reducción a vocal posterior media | **o** | *eau* → **ó** |
 | **ai, ei, è, ê** | Reducción a vocal anterior abierta | **e** (abierta) | *lait* → **lé** |
-| **eu, œu** | Vocal central redondeada (boca de 'o', sonido de 'e') | **e** (oscura\gutural) | *feu* → **fé** |
+| **eu, œu** | Vocal central redondeada (boca de 'o', sonido de 'e') | **e** (oscura/gutural) | *feu* → **fé** |
 | **oi** | Semiconsonante velar + vocal | **ua** | *moi* → **muá** |
 
 * **Vocales Nasales (an, en, in, on, un):** Cuando una vocal precede a una 'n' o 'm' al final de sílaba, la consonante no se pronuncia articulando la lengua contra el paladar; en su lugar, el sonido resuena en la cavidad nasal. (Se transcribirán fonéticamente con una 'n' que indica nasalidad, ej. *vin* → **ván** (nasal)).
@@ -32,15 +32,15 @@ El consonantismo francés es suave. Carece de fricativas velares fuertes (no hay
 
 | Sonido de Origen (IPA) | Descripción Articulatoria | Fonetización en Español |
 | :--- | :--- | :--- |
-| **r** (\ʁ\) | Fricativa uvular sonora. La parte posterior de la lengua roza la úvula. | **j** (suave\gutural) o gárgara |
-| **v** (\v\) | Fricativa labiodental sonora. | **v** (mordiendo el labio) |
-| **z \ s** (intervocálica) | Fricativa alveolar sonora. | **s** (zumbadora \ de abeja) |
-| **j \ g** (+ e, i) | Fricativa postalveolar sonora (\ʒ\). | **y** (vibrante\rioplatense suave) |
-| **ch** (\ʃ\) | Fricativa postalveolar sorda. | **sh** |
-| **gn** (\ɲ\) | Nasal palatal. | **ñ** |
+| **r** (/ʁ/) | Fricativa uvular sonora. La parte posterior de la lengua roza la úvula. | **j** (suave/gutural) o gárgara |
+| **v** (/v/) | Fricativa labiodental sonora. | **v** (mordiendo el labio) |
+| **z / s** (intervocálica) | Fricativa alveolar sonora. | **s** (zumbadora / de abeja) |
+| **j / g** (+ e, i) | Fricativa postalveolar sonora (/ʒ/). | **y** (vibrante/rioplatense suave) |
+| **ch** (/ʃ/) | Fricativa postalveolar sorda. | **sh** |
+| **gn** (/ɲ/) | Nasal palatal. | **ñ** |
 
 * **Consonantes mudas (Regla del "CaReFuL"):** Por norma general estricta, todas las consonantes al final de una palabra son **mudas** (D, P, S, T, X, Z), a excepción de las letras que forman la palabra "CaReFuL" (C, R, F, L), que sí suelen pronunciarse.
-* **La 'e' final muda:** Toda palabra terminada en 'e' sin tilde gráfica (é, è, ê) vuelve a esa 'e' absolutamente muda, lo que a menudo fuerza a pronunciar la consonante anterior. (ej. *petit* → **pe tí** \ *petite* → **pe tít**).
+* **La 'e' final muda:** Toda palabra terminada en 'e' sin tilde gráfica (é, è, ê) vuelve a esa 'e' absolutamente muda, lo que a menudo fuerza a pronunciar la consonante anterior. (ej. *petit* → **pe tí** / *petite* → **pe tít**).
 
 ## 4. Reglas de Acentuación, Cadencia y Entonación
 
@@ -81,10 +81,10 @@ Al leer español, el francófono aplica su isosilabismo ligado, neutraliza el ac
 
 ### 7.2. Sustitución Consonántica y Fricación
 
-* **Sustitución de la Vibrante Múltiple:** Fisiológicamente no ejecutan la 'rr' alveolar española. La sustituyen invariablemente por la fricativa uvular francesa (una vibración o raspado en la garganta \ʁ\).
-* **Pérdida de la Interdental:** La 'z' y 'c' (español peninsular \θ\) son sustituidas sistemáticamente por la fricativa alveolar limpia \s\.
-* **Sonorización Intervocálica:** Fuerte tendencia a sonorizar la 's' del español cuando está entre vocales, convirtiéndola en un zumbido \z\ (ej. *casa* → **ka zá**).
-* **Desafricación de la 'Ch':** Pérdida del ataque oclusivo de la 'ch' española (\tʃ\), reduciéndola a una fricativa 'sh' continua (\ʃ\).
+* **Sustitución de la Vibrante Múltiple:** Fisiológicamente no ejecutan la 'rr' alveolar española. La sustituyen invariablemente por la fricativa uvular francesa (una vibración o raspado en la garganta /ʁ/).
+* **Pérdida de la Interdental:** La 'z' y 'c' (español peninsular /θ/) son sustituidas sistemáticamente por la fricativa alveolar limpia /s/.
+* **Sonorización Intervocálica:** Fuerte tendencia a sonorizar la 's' del español cuando está entre vocales, convirtiéndola en un zumbido /z/ (ej. *casa* → **ka zá**).
+* **Desafricación de la 'Ch':** Pérdida del ataque oclusivo de la 'ch' española (/tʃ/), reduciéndola a una fricativa 'sh' continua (/ʃ/).
 
 ### 7.3. Alteración Rítmica
 

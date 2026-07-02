@@ -187,7 +187,7 @@
 
 ### 3 · Saturación, Distorsión y Lo-Fi
 
-*Alteración armónica, clipping analógico\digital y degradación de señal intencionada (cinta, vinilo, reducción de bits).*
+*Alteración armónica, clipping analógico/digital y degradación de señal intencionada (cinta, vinilo, reducción de bits).*
 *Palabras clave: distorsión, overdrive, fuzz, bitcrush, saturación, tape, cassette, vinilo, lo-fi, clipping, armónicos, degradación.*
 
 [12-Bit Aliasing Fracture Low-Fi]
@@ -459,14 +459,14 @@
 [Bucket Brigade Delay Feedback]
 [Crushed Velvet Delay]
 [Delay Echo Trails]
-[Delay Ping-Pong 1\16 Glitch Matrix]
-[Delay Ping-Pong 1\16]
-[Delay Ping-Pong 1\4 Stereo Path]
-[Delay Ping-Pong 1\4]
-[Delay Ping-Pong 1\8 Rhythmic Hat]
-[Delay Ping-Pong 1\8]
-[Delay Ping-Pong 1\8D Trippy Trail]
-[Delay Ping-Pong 1\8D]
+[Delay Ping-Pong 1/16 Glitch Matrix]
+[Delay Ping-Pong 1/16]
+[Delay Ping-Pong 1/4 Stereo Path]
+[Delay Ping-Pong 1/4]
+[Delay Ping-Pong 1/8 Rhythmic Hat]
+[Delay Ping-Pong 1/8]
+[Delay Ping-Pong 1/8D Trippy Trail]
+[Delay Ping-Pong 1/8D]
 [Digital Delay Feedback Infinite Build]
 [Digital Delay Feedback]
 [Dreadlock Dub Delay Feedback Loop]
@@ -784,8 +784,8 @@
 [Fragmented Melody Fx]
 [Ghostly Reversed Vocals]
 [Glitch Fx]
-[Glitch Stutter 1\32 Audio Matrix]
-[Glitch Stutter 1\32]
+[Glitch Stutter 1/32 Audio Matrix]
+[Glitch Stutter 1/32]
 [Glitch Stutter-Edit Audio Rate]
 [Granular Synthesis Texture Micro-Clouds]
 [Granular Synthesis Texture]
@@ -816,10 +816,10 @@
 [Spectral Spectral Blur Smearing Cloud]
 [Spectral Spectral Blur]
 [Spectral Stretching]
-[Stutter FX 1\16 Choppy Segmented Rhythmic]
-[Stutter FX 1\16]
-[Stutter FX 1\32 Glitched Matrix Stutter]
-[Stutter FX 1\32]
+[Stutter FX 1/16 Choppy Segmented Rhythmic]
+[Stutter FX 1/16]
+[Stutter FX 1/32 Glitched Matrix Stutter]
+[Stutter FX 1/32]
 [Stuttering Anxious Audio-Gate]
 [Tape Stop Effect Turntable Needle Stop]
 [Tape Stop Effect]

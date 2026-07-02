@@ -1,6 +1,6 @@
-# Guía de Fonetización en Español: Italiano (Estándar \ Normativo)
+# Guía de Fonetización en Español: Italiano (Estándar / Normativo)
 
-**Notas de Configuración Fonética:** Sistema ortográficamente transparente pero que requiere un dominio estricto de dígrafos\trígrafos posicionales. La inteligibilidad y el acento natural dependen fundamentalmente del respeto absoluto por la cantidad consonántica (consonantes geminadas o dobles frente a simples) y la pureza vocálica.
+**Notas de Configuración Fonética:** Sistema ortográficamente transparente pero que requiere un dominio estricto de dígrafos/trígrafos posicionales. La inteligibilidad y el acento natural dependen fundamentalmente del respeto absoluto por la cantidad consonántica (consonantes geminadas o dobles frente a simples) y la pureza vocálica.
 
 ---
 
@@ -15,7 +15,7 @@ El italiano se articula con gran energía en la zona frontal de la cavidad bucal
 
 El italiano estándar posee un sistema de 7 vocales fonológicas (distinguiendo grados de apertura en la 'e' y la 'o' tónicas), pero todas colapsan de forma natural en el sistema pentavocálico español sin pérdida crítica de comprensión.
 
-| Patrón \ Grafía Original | Regla de Transformación | Equivalencia Fonética | Ejemplo Práctico |
+| Patrón / Grafía Original | Regla de Transformación | Equivalencia Fonética | Ejemplo Práctico |
 | :--- | :--- | :--- | :--- |
 | **a, i, u** | Lectura directa idéntica al español | **a, i, u** | *luna* → **lú na** |
 | **e, o** | Lectura directa, sin relajarse a final de palabra | **e, o** | *sole* → **só le** |
@@ -30,8 +30,8 @@ La ortografía utiliza la 'h' y la 'i' como marcadores diacríticos posicionales
 
 | Sonido de Origen (IPA) | Descripción Articulatoria | Fonetización en Español |
 | :--- | :--- | :--- |
-| **c \ g** (+ e, i) | Africada postalveolar sorda\sonora. | **ch** \ **y** (fuerte \ vibrante) |
-| **ch \ gh** (+ e, i) | Oclusiva velar sorda\sonora. La 'h' endurece el sonido. | **k** \ **g** (suave, de *gato*) |
+| **c / g** (+ e, i) | Africada postalveolar sorda/sonora. | **ch** / **y** (fuerte / vibrante) |
+| **ch / gh** (+ e, i) | Oclusiva velar sorda/sonora. La 'h' endurece el sonido. | **k** / **g** (suave, de *gato*) |
 | **sc** (+ e, i) | Fricativa postalveolar sorda. | **sh** |
 | **sch** (+ e, i) | Clúster fricativo + oclusivo sordo. | **sk** |
 | **z** | Africada alveolar sorda o sonora. | **ts** o **ds** |
@@ -39,7 +39,7 @@ La ortografía utiliza la 'h' y la 'i' como marcadores diacríticos posicionales
 | **gn** | Nasal palatal. | **ñ** |
 | **gl** (+ i) | Lateral palatal. | **ll** (pura, no yeísta) |
 
-* **Consonantes mudas:** La letra **h** al inicio de palabra o tras 'c\g' es absolutamente muda. La letra **i** intercalada en los grupos `cia`, `cio`, `ciu`, `gia`, `gio`, `giu`, `scia`, `scio`, `sciu` es un diacrítico silencioso; no se pronuncia, solo suaviza la consonante previa (ej. *ciao* se lee **cháo**, no *chi-a-o*).
+* **Consonantes mudas:** La letra **h** al inicio de palabra o tras 'c/g' es absolutamente muda. La letra **i** intercalada en los grupos `cia`, `cio`, `ciu`, `gia`, `gio`, `giu`, `scia`, `scio`, `sciu` es un diacrítico silencioso; no se pronuncia, solo suaviza la consonante previa (ej. *ciao* se lee **cháo**, no *chi-a-o*).
 
 ## 4. Reglas de Acentuación, Cadencia y Entonación
 
@@ -50,7 +50,7 @@ La ortografía utiliza la 'h' y la 'i' como marcadores diacríticos posicionales
 ## 5. Excepciones y "Falsos Amigos" Fonéticos
 
 * **El falso amigo 'CH':** A diferencia del español y el inglés, en italiano el dígrafo 'ch' jamás equivale a una africada. Es una oclusiva velar sorda estricta (**k**). *Macchina* se lee **mák ki na**, nunca *ma-chi-na*.
-* **El falso amigo 'Z':** Nunca representa la fricativa interdental peninsular (\θ\ como en *zapato*). Siempre detona una explosión dental (**ts** o **dz**). *Pizza* se lee **pí- tsa**.
+* **El falso amigo 'Z':** Nunca representa la fricativa interdental peninsular (/θ/ como en *zapato*). Siempre detona una explosión dental (**ts** o **dz**). *Pizza* se lee **pí- tsa**.
 * **Las Consonantes Geminadas:** La doble consonante no es un adorno ortográfico, es un fonema distinto. Exige una micro-pausa oclusiva antes de liberar el sonido (ej. *nonno* → **nón no**). Ignorarlo altera el significado léxico (*pena* vs. *penna*).
 
 ## 6. Casos Prácticos de Aplicación (Lectura Directa)
@@ -82,7 +82,7 @@ El italiano calca su marco rítmico oscilante sobre el español, sobrearticuland
 
 * **Geminación Parásita:** Tendencia instintiva a duplicar la consonante que sigue a una vocal tónica corta, insertando oclusiones artificiales en medio de la palabra española (ej. *gato* → **gát to**; *loco* → **lók ko**).
 * **Labiodentalización Continua:** Transformación de las oclusivas o aproximantes bilabiales españolas ('v' y a veces 'b') en fricativas labiodentales sonoras (mordiendo el labio ruidosamente).
-* **Sustitución Africada:** Lectura del falso amigo 'z' aplicando la africada alveolar italiana (\ts\).
+* **Sustitución Africada:** Lectura del falso amigo 'z' aplicando la africada alveolar italiana (/ts/).
 
 ### 7.3. Alteración Rítmica
 

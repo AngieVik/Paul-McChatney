@@ -1,4 +1,4 @@
-# Guía de Fonetización en Español: Edad Avanzada (Presbifonía \ Sociodialecto Generacional)
+# Guía de Fonetización en Español: Edad Avanzada (Presbifonía / Sociodialecto Generacional)
 
 **Notas de Configuración Fonética:** Este perfil no responde a una delimitación geográfica, sino fisiológica y generacional. Se fundamenta en la *presbifonía* (envejecimiento del aparato fonador humano) que conlleva pérdida de masa muscular en las cuerdas vocales, menor capacidad pulmonar y posibles alteraciones articulatorias por falta de piezas dentales o fatiga neuromuscular.
 
@@ -15,10 +15,10 @@ La emisión de voz en la senectud requiere un esfuerzo físico evidente. La arti
 
 El sistema vocálico es el estándar del hablante, pero sufre alteraciones temporales graves y pérdida de energía armónica.
 
-| Patrón \ Grafía Original | Regla de Transformación | Equivalencia Fonética | Ejemplo Práctico |
+| Patrón / Grafía Original | Regla de Transformación | Equivalencia Fonética | Ejemplo Práctico |
 | :--- | :--- | :--- | :--- |
 | **a, e, i, o, u** (Tónicas) | Elongación asténica (estiramiento con temblor de la voz) | **V-** (larga y temblorosa) | *nieto* → **nié- to** |
-| **a, e, i, o, u** (Finales) | Ensordecimiento o aspiración por agotamiento pulmonar | **V** (sorda\susurrada) | *casa* → **ká- sa** (débil) |
+| **a, e, i, o, u** (Finales) | Ensordecimiento o aspiración por agotamiento pulmonar | **V** (sorda/susurrada) | *casa* → **ká- sa** (débil) |
 | **Diptongos veloces** | Ralentización forzada, tendiendo al hiato articulatorio | **V - V** | *ciudad* → **siu- dá-** |
 
 * **Diptongos clave:** La falta de agilidad muscular impide la transición rápida entre vocales. Los diptongos suelen alargarse excesivamente, apoyándose fuertemente en la primera vocal antes de deslizarse hacia la segunda (ej. *bueno* → **bué- no**).
@@ -29,12 +29,12 @@ La pérdida de tensión muscular (hipotonía) y los problemas de oclusión denta
 
 | Sonido de Origen (IPA) | Descripción Articulatoria | Fonetización en Español |
 | :--- | :--- | :--- |
-| **p, t, k** (Oclusivas sordas) | Fricativización por incapacidad de generar un cierre hermético. | **b, d, g** (suaves \ sopladas) |
-| **s \ z** | Alteración sibilante (siseo difuso, a menudo silbado o "sucio" por fugas de aire dental). | **s** (hambrienta o exhalada) |
+| **p, t, k** (Oclusivas sordas) | Fricativización por incapacidad de generar un cierre hermético. | **b, d, g** (suaves / sopladas) |
+| **s / z** | Alteración sibilante (siseo difuso, a menudo silbado o "sucio" por fugas de aire dental). | **s** (hambrienta o exhalada) |
 | **rr** (Vibrante múltiple) | Incapacidad motriz para sostener la vibración libre del ápice lingual. | **r** (vibrante simple arrastrada) o **j** (suave) |
 | **b, d, g** (Intervocálicas) | Caída matemática por puro agotamiento articulatorio. | **Ø** (mudas) |
 
-* **Consonantes mudas \ añadidas:** Incapacidad frecuente para sostener grupos consonánticos cultos (*cc, pt, ps*), que se simplifican de forma extrema o se auxilian mediante prótesis vocálicas lentas.
+* **Consonantes mudas / añadidas:** Incapacidad frecuente para sostener grupos consonánticos cultos (*cc, pt, ps*), que se simplifican de forma extrema o se auxilian mediante prótesis vocálicas lentas.
 
 ## 4. Reglas de Acentuación, Cadencia y Entonación
 
@@ -74,14 +74,14 @@ Esta sección define cómo aplicar el "filtro" del deterioro fonador y la bradil
 
 ### 7.2. Sustitución Consonántica y Fricación
 
-* **Siseo Protésico \ Silbido:** Emisión de un ligero silbido parasitario al pronunciar las 's', 'c' o 'z', provocado por la alteración de la cámara de resonancia bucal y la oclusión dental defectuosa.
+* **Siseo Protésico / Silbido:** Emisión de un ligero silbido parasitario al pronunciar las 's', 'c' o 'z', provocado por la alteración de la cámara de resonancia bucal y la oclusión dental defectuosa.
 * **Aflojamiento Oclusivo:** Emisión "blanda" de las consonantes de choque. Una 'k' suena rasposa y débil, una 'p' apenas roza los labios.
 
 ### 7.3. Alteración Rítmica
 
 * **Cadencia Entrecortada:** Inserción del guion separador (`-`) de forma caótica en medio de la frase o incluso en el interior de palabras largas (cesuras antinaturales) marcando los micro-momentos de recuperación de aire.
 
-### 7.4. Casos Prácticos de Aplicación (Lectura Dialectal\Fisiológica)
+### 7.4. Casos Prácticos de Aplicación (Lectura Dialectal/Fisiológica)
 
 * **Frase Estándar:** `Tengo mucho frío`
   * *Desglose de Interferencia:* Relajación de 't'. Reducción de 'ch' a 'sh' soplada por pérdida de fuerza oclusiva. Separación del clúster 'fr'. Alargamiento asténico de la 'i'.

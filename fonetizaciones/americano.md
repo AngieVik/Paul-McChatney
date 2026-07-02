@@ -15,13 +15,13 @@ El inglés americano es un idioma de ritmo elástico, basado en la isocronía ac
 
 El inglés americano posee alrededor de 14-16 sonidos vocálicos frente a los 5 del español. La clave radica en identificar el núcleo tónico y reducir el resto.
 
-| Patrón \ Grafía Original | Regla de Transformación | Equivalencia Fonética | Ejemplo Práctico |
+| Patrón / Grafía Original | Regla de Transformación | Equivalencia Fonética | Ejemplo Práctico |
 | :--- | :--- | :--- | :--- |
 | **ee, ea, e_e** | Vocal tensa prolongada | **i-** (con leve sonrisa) | *see* → **sí-** |
 | **a_e, ai, ay** | Diptongación frontal | **éi** | *make* → **méik** |
 | **o_e, oa, ow** | Diptongación posterior redondeada | **óu** | *go* → **góu** |
 | **oo** (larga) | Vocal posterior cerrada y tensa | **u-** | *moon* → **mún** |
-| **Vocal átona** (cualquiera) | Reducción extrema a sonido neutro o gutural (Schwa \ə\) | **e \ a** (oscura\sorda) | *about* → **e báut** |
+| **Vocal átona** (cualquiera) | Reducción extrema a sonido neutro o gutural (Schwa /ə/) | **e / a** (oscura/sorda) | *about* → **e báut** |
 
 * **Diptongos clave:** Las vocales tónicas suelen desplegarse en diptongos largos, mientras que las átonas colapsan instantáneamente. (ej. *i_e* → **ái**; *ou, ow* → **áu**).
 
@@ -31,13 +31,13 @@ La fonética americana introduce sibilantes sonoras, aspiraciones y una configur
 
 | Sonido de Origen (IPA) | Descripción Articulatoria | Fonetización en Español |
 | :--- | :--- | :--- |
-| **r** (\ɹ\) | Aproximante alveolar\retrofleja. La lengua se retrae, los lados tocan las muelas superiores, el ápice no toca nada. | **r** (suave, sin vibración) |
-| **t \ d** (intervocálica) | *Flap alveolar* (\ɾ\). Oclusión brevísima. Idéntica a la vibrante simple española. | **r** (de *cara* o *pero*) |
-| **v** (\v\) | Fricativa labiodental sonora. Labio inferior roza dientes superiores con vibración de cuerdas. | **v** (mordiendo labio) |
-| **z** (\z\) | Fricativa alveolar sonora. Como la 's' pero con zumbido de cuerdas vocales. | **s** (zumbadora \ vibrante) |
-| **h** (\h\) | Fricativa glotal sorda. Aire escapando libremente desde la garganta. | **j** (muy suave\exhalada) |
-| **th** (sorda \θ\) | Fricativa dental sorda. | **z** (española peninsular) |
-| **th** (sonora \ð\) | Fricativa dental sonora. | **d** (interdental vibrante) |
+| **r** (/ɹ/) | Aproximante alveolar/retrofleja. La lengua se retrae, los lados tocan las muelas superiores, el ápice no toca nada. | **r** (suave, sin vibración) |
+| **t / d** (intervocálica) | *Flap alveolar* (/ɾ/). Oclusión brevísima. Idéntica a la vibrante simple española. | **r** (de *cara* o *pero*) |
+| **v** (/v/) | Fricativa labiodental sonora. Labio inferior roza dientes superiores con vibración de cuerdas. | **v** (mordiendo labio) |
+| **z** (/z/) | Fricativa alveolar sonora. Como la 's' pero con zumbido de cuerdas vocales. | **s** (zumbadora / vibrante) |
+| **h** (/h/) | Fricativa glotal sorda. Aire escapando libremente desde la garganta. | **j** (muy suave/exhalada) |
+| **th** (sorda /θ/) | Fricativa dental sorda. | **z** (española peninsular) |
+| **th** (sonora /ð/) | Fricativa dental sonora. | **d** (interdental vibrante) |
 
 * **Consonantes mudas:** La letra **w** antes de 'r' es muda (*write* → **ráit**). La **k** antes de 'n' inicial es muda (*know* → **nóu**). La **b** tras 'm' al final de palabra es muda (*bomb* → **bám**).
 
@@ -50,8 +50,8 @@ La fonética americana introduce sibilantes sonoras, aspiraciones y una configur
 ## 5. Excepciones y "Falsos Amigos" Fonéticos
 
 * **La "E" Mágica (Magic E):** La letra 'e' al final de una palabra es invariablemente muda, pero su función es alterar la vocal anterior, convirtiéndola en su sonido "largo" o alfabético (ej. *hat* → **ját** vs. *hate* → **jéit**).
-* **El Falso Amigo "J":** Nunca suena como la fricativa velar \x\ del español (*José*). Es siempre una africada palatina sonora (\dʒ\), similar a una **y** fuerte o **dy**.
-* **El sufijo "-tion" \ "-sion":** Jamás se lee literal. Se colapsa estructuralmente en **shon** o **shen** (con schwa).
+* **El Falso Amigo "J":** Nunca suena como la fricativa velar /x/ del español (*José*). Es siempre una africada palatina sonora (/dʒ/), similar a una **y** fuerte o **dy**.
+* **El sufijo "-tion" / "-sion":** Jamás se lee literal. Se colapsa estructuralmente en **shon** o **shen** (con schwa).
 
 ## 6. Casos Prácticos de Aplicación (Lectura Directa)
 
@@ -80,9 +80,9 @@ La transferencia estructural del General American al español destruye el ritmo 
 
 ### 7.2. Sustitución Consonántica y Aspiración
 
-* **Incapacidad Vibrante (Sustitución Líquida):** Ausencia motriz para la vibrante múltiple ('rr') y confusión posicional con la simple ('r'). Ambas son sustituidas por la aproximante retrofleja inglesa \ɹ\ (una 'r' que no toca el paladar).
+* **Incapacidad Vibrante (Sustitución Líquida):** Ausencia motriz para la vibrante múltiple ('rr') y confusión posicional con la simple ('r'). Ambas son sustituidas por la aproximante retrofleja inglesa /ɹ/ (una 'r' que no toca el paladar).
 * **Aspiración Oclusiva:** Las consonantes 'p', 't', 'k' al inicio de sílaba tónica se expulsan con una fuerte ráfaga de aire (ej. *pato* suena a *p[h]ato*).
-* **Zumbido Intervocálico:** Tendencia a sonorizar la 's' entre vocales, convirtiéndola en un zumbido \z\ (ej. *casa* → **ká za**).
+* **Zumbido Intervocálico:** Tendencia a sonorizar la 's' entre vocales, convirtiéndola en un zumbido /z/ (ej. *casa* → **ká za**).
 
 ### 7.3. Alteración Rítmica
 
@@ -91,7 +91,7 @@ La transferencia estructural del General American al español destruye el ritmo 
 ### 7.4. Casos Prácticos de Aplicación (Lectura Extranjerizada)
 
 * **Palabra Española:** `Loco`
-  * *Desglose de Interferencia:* Aspiración fuerte de la consonante oclusiva sorda 'k\c' en inicio de sílaba. Fuerte diptongación de ambas 'o' debido a la incapacidad de dejarlas como vocales tensas puras y estáticas.
+  * *Desglose de Interferencia:* Aspiración fuerte de la consonante oclusiva sorda 'k/c' en inicio de sílaba. Fuerte diptongación de ambas 'o' debido a la incapacidad de dejarlas como vocales tensas puras y estáticas.
   * *Fonetización simulada:* **lóu kou** (con 'k' expulsando aire).
 
 * **Palabra Española:** `Perro`
