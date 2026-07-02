@@ -9,14 +9,14 @@ Modo alquimia: ante un mood o tema, propone **3–5 fusiones de géneros insóli
 
 ## Pasos
 
-1. Toma el mood/tema y consulta `conocimientos/alquimia.md` (fusión lingüístico-tonal, regional, contraste de frecuencias) y `chupilista/10_experimental_modes.md`.
+1. Toma el mood/tema y consulta `composicion/alquimia.md` (fusión lingüístico-tonal, regional, contraste de frecuencias) y `chupilista/10_experimental_modes.md`.
 2. Cruza un eje conocido con uno opuesto/lejano (idioma + género técnico, raíz cruda + prefijo geográfico contrario, limpio vs hiper-saturado).
 3. Entrega 3–5 candidatas. Cada una: **nombre de fusión** + 1 línea de por qué funciona + el «gancho» sonoro que detona en Suno.
 4. Marca tu favorita y propón pasarla a `style-box`.
 
 ## Reglas heredadas
 
-- No mezcles >2 géneros principales sin un tag de fusión explícito (`@.claude/MEMORY.md`).
+- No mezcles >2 géneros principales sin un tag de fusión explícito (`.claude/MEMORY.md`).
 - Inventa géneros cruzando conceptos (ej. `RUSSIAN SALSA`, `HARDTEK POCOYÓ`).
 
 ## Ejemplo

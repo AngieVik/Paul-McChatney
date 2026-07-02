@@ -12,10 +12,10 @@ Crea, lista y retoma proyectos, y cierra el bucle de retros.
 
 | Capa             | Dónde                            | Qué guarda                            |
 | ---------------- | -------------------------------- | ------------------------------------- |
-| Ideas / backlog  | `@_hojas_sucias/<slug>.md`       | conceptos sin producir, bocetos       |
+| Ideas / backlog  | `_hojas_sucias/<slug>.md`       | conceptos sin producir, bocetos       |
 | Obras terminadas | `proyectos/<slug>/<slug>.md`     | prompt final + retrospectiva          |
-| Catálogo         | `@PROYECTOS.md`                  | índice navegable por género           |
-| Memoria global   | `@.claude/MEMORY.md`             | aprendizajes que trascienden una obra |
+| Catálogo         | `PROYECTOS.md`                  | índice navegable por género           |
+| Memoria global   | `.claude/MEMORY.md`             | aprendizajes que trascienden una obra |
 | Plantilla        | `chuletas/plantilla_proyecto.md` | formato canónico                      |
 
 ## Acciones
@@ -23,7 +23,7 @@ Crea, lista y retoma proyectos, y cierra el bucle de retros.
 - **Crear idea:** copia la plantilla a `_hojas_sucias/<slug>.md` (slug en `snake_case` sin acentos) y rellena lo que haya.
 - **Listar:** muestra ideas abiertas en `_hojas_sucias/` y/o el catálogo de `PROYECTOS.md`.
 - **Retomar:** abre el `.md`, resume su estado y propón la siguiente fase.
-- **Cerrar (tras validar):** migra la idea a `proyectos/<slug>/`, añade fila en `PROYECTOS.md`, y lanza la **retrospectiva** (`conocimientos/retrospectiva.md`). Sube a `@.claude/MEMORY.md` solo lo reutilizable.
+- **Cerrar (tras validar):** migra la idea a `proyectos/<slug>/`, añade fila en `PROYECTOS.md`, y lanza la **retrospectiva** (`conocimientos/retrospectiva.md`). Sube a `.claude/MEMORY.md` solo lo reutilizable.
 
 ## Regla de oro de la memoria
 

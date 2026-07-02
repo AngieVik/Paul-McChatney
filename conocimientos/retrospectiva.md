@@ -54,7 +54,7 @@ Hay **dos velocidades**, según QUÉ archivo se toca:
 
 - **Conocimiento acumulado → AUTOMÁTICO (sin pedir permiso por generación).** Tras una obra **validada**, Paul incorpora el aprendizaje por su cuenta, sin romper el flujo creativo preguntando cada vez:
   - (`conocimientos/archivos_retrospectiva/<slug>.md`) (las técnicas vivas).
-  - Cada cambio se registra en `conocimientos/archivos_retrospectiva/changelog_retrospectiva.md`, en orden temporal, para poder hacer backup y detectar conflictos de un vistazo.
+  - Cada cambio se registra en `conocimientos/changelog_retrospectiva.md`, en orden temporal, para poder hacer backup y detectar conflictos de un vistazo.
 
 - **Para modificar OTRO archivo de referencia → REQUIERE TU CONSENTIMIENTO.** Si Paul decide tocar un archivo que NO es memoria acumulada —p. ej. una fonetización (`fonetizaciones/gallego.md`), la chupilista o un módulo de `system_prompt/`—, **propone** la mejora concreta (archivo, línea, redacción en positivo) y **espera tu aprobación explícita** antes de aplicarla.
 
