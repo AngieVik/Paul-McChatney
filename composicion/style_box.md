@@ -37,22 +37,28 @@
     - **Dynamics and Intensity:** `chupilista/08_dynamics_and_intensity.md` Dinámica o intensidad.
     - **Experimental Modes:** `chupilista/10_experimental_modes.md` Fusiones inusuales.
     - **Vocal Delivery and Expressivity:** `chupilista/12_vocal_delivery_and_expressivity.md` Descriptor base de voz.
+- **Menos es más:** 12–20 tags bien elegidos rinden más que 40; el exceso confunde a Suno.
+- **Estilo, no artista:** describe el sonido; nunca nombres propios de artistas reales.
+- **`[Epic]` siempre con apoyo** (ej. `[Orchestral]` + `[Cinematic]`); solo, queda vacío.
+- **Ghost tag:** un tag muy específico al final del style_box (ej. `[Hurdy-gurdy]`) a veces cuela una textura única.
 
 ---
 
 ### 1.1 · Tag Anchoring 
-*Para fijar instrumentos base y/o protagonistas, añáde 2–4 instrumentos clave y deja que el modelo infiera el resto por el género, añadelos ademas en el lyrics_box.*
+*Para fijar instrumentos base y/o protagonistas, añade 2–4 instrumentos clave y deja que el modelo infiera el resto por el género, añádelos además en el lyrics_box.*
   * **Ejemplo:** 
     En lugar de `batería, bajo, guitarra, sintetizador, cuerdas y saxofón`, pide `[Pop Rock, Lead Tenor Sax]`.
 
 ### 1.2 · El anclaje temporal
-*Añadir una década o época al género ancla la precisión del modelo ,asocia cada época a técnicas de producción concretas, y ancla la producción y reduce alucinaciones sónicas.*
+*Añadir una década o época al género ancla la precisión del modelo, asocia cada época a técnicas de producción concretas, y ancla la producción y reduce alucinaciones sónicas.*
   * **Ejemplo:** 
     En vez de `[Synth Pop]`, usa `[80s Synth Pop]`, `[90s Grunge]`, `1980s`, `Vintage 90s`, `Modern Pop Polish`.
 
 ---
 
 ## 2 · Fusión y frecuencias
+
+- **Máximo 2 géneros principales;** para más, añade un tag de fusión explícito.
 
 ### 2.1 · Fusión lingüístico-tonal
 - *Cruza un idioma asiático o árabe con géneros técnicos: el modelo introduce escalas microtonales y ritmos asimétricos sin pedir "microtonal" explícito.*
@@ -72,12 +78,12 @@
 ### 2.4 · Expansión estéreo
 - *Combina subgéneros oscuros de internet con coros eclesiásticos o acústicos puros: texturas estéreo amplísimas y contrastes dinámicos pesados.*
     * **Ejemplo:** 
-      `Drift Phonk | Gregorian Chant`
+      `Drift Phonk, Gregorian Chant`
 
 ### 2.5 · Fusión semántica extrema 
 - *Inventa géneros principales cruzando conceptos. Añade subgéneros de apoyo en minúsculas.*
     * **Ejemplo:**
-      `[Russian Salsa, Havana Mix]`, `[Symphonical Hardtek, Operistic Raggatek]`.
+      `Russian Salsa, Havana Mix`, `Symphonical Hardtek, Operistic Raggatek`.
 
 ---
 
@@ -120,4 +126,4 @@
 ### 4.3 · Hack de timbre (choque cognitivo)
 - *Cruza etiquetas físicas extremas de voz con géneros que no les corresponden: distorsiona la voz central manteniendo la percusión limpia.*
     * **Ejemplo:**
-      `[Death Metal Growl]` o `[Vocal Fry]` sobre instrumental de `[Smooth Jazz]` o `[Bossa Nova]`.
+      `Death Metal Growl` o `Vocal Fry` sobre instrumental de `Smooth Jazz` o `Bossa Nova`.

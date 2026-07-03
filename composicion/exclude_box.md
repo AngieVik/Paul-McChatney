@@ -10,7 +10,7 @@
 `2 · Mitigación de Saturación y Clipping`
 `3 · Supresión de Artefactos Digitales y v5.5 Hiss`
 `4 · Control de Sibilancia y Espectro Vocal`
-`5 · Claridad y Separación Frecuencial**`
+`5 · Claridad y Separación Frecuencial`
 
 ---
 
@@ -25,7 +25,6 @@
     - `overcompressed`: Previene el efecto de "bombeo" (pumping) y preserva el rango dinámico natural.
     - `brickwall limiter`: Evita la limitación agresiva que aplasta los transitorios de la percusión.
     - `distorted master`: Filtra la saturación no deseada en la mezcla global del motor.
-    - `glossy production`, `clean separation between instruments`: Evita el acabado artificialmente pulido o la excesiva esterilidad de las mezclas digitales modernas.
 
 ---
 
@@ -50,7 +49,7 @@
 
 ---
 
-## 5 · Claridad y Separación Frecuencial**
+## 5 · Claridad y Separación Frecuencial
 - *Prevención del "ensuciamiento" (mud) cuando convergen múltiples capas instrumentales densas.*
     - `muddy mix`: Evita la acumulación excesiva de energía en la región crítica de los 200Hz - 500Hz.
     - `instrumental bleed`: Previene que el timbre de un instrumento contamine o se fusione erróneamente con el espectro de otro.

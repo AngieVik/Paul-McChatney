@@ -71,7 +71,7 @@ Usa **rutas relativas a la raíz del proyecto**. No uses rutas absolutas del sis
 | --- | --- |
 | Un módulo de la CHUPILISTA | `chupilista\01_core_genres_and_subgenres.md` |
 | Una fonetización | `fonetizaciones\andaluz.md` |
-| Un conocimiento técnico | `composicion\alquimia.md` |
+| Un conocimiento técnico | `composicion\tecnicas_vocales.md` |
 | Una jerga | `jerga\argot_canario.md` |
 | Un proyecto | `proyectos\60_granos\60_granos.md` |
 | ⚠️ Carpeta entera con `@` (`@chupilista\`) | **EVITAR:** cargaría ~13.000 líneas en cada sesión |

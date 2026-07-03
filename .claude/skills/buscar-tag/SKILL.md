@@ -19,7 +19,7 @@ Necesitas tags canónicos para el `style_box` o el `lyrics_box`; la orquestan `s
    Los núcleos son listas planas alfabéticas de tags, así que la forma correcta de consultarlos es buscar (grep) la raíz del término —y sus variantes/sinónimos— y traer solo las líneas que casan (+ contexto mínimo). Repite en un 2.º núcleo solo si el concepto es transversal.
 3. **Suma tu instinto:**
    Combina los tags canónicos hallados con tu criterio de productor; propón variantes o fusiones propias cuando el canon se quede corto, marcándolas como invención.
-4. Devuelve 3–8 tags candidatos: tag exacto · núcleo de origen · cuándo usarlo. Señala si va en `style_box` o en `lyrics_box` (`composicion/tags.md`).
+4. Devuelve 3–8 tags candidatos: tag exacto · núcleo de origen · cuándo usarlo. Señala si va en `style_box` o en `lyrics_box` (`composicion/style_box.md` o `composicion/lyrics_box.md`).
 
 ## Entra → Sale
 
@@ -37,4 +37,4 @@ Necesitas tags canónicos para el `style_box` o el `lyrics_box`; la orquestan `s
 > - `[Palmas]` (03) · lyrics_box, coros/puente
 > - `[Cajón]` (03) · style_box como Tag Anchoring
 > - `[Handclaps]` (03) · refuerzo rítmico
->   Combo validado en `.claude/MEMORY.md`.
+>   Combo validado por experiencia.

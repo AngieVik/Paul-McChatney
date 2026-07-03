@@ -15,8 +15,7 @@
 | Necesito… | Índice (ya en contexto) | Abro bajo demanda (sin `@`) |
 | --- | --- | --- |
 | Tags / `style_box` | `.claude/rules/chupilista.md` | `chupilista/NN_*.md` — solo el/los módulos del género |
-| Instrucción de oficio (narrativa, lírica, etiquetas, formato…) | `.claude/rules/composicion.md` | `composicion/<archivo>.md` — solo el necesario |
-| Técnica vocal · efectos · fusión · alquimia | `.claude/rules/tecnicas_vocales_y_efectos.md` · `.claude/rules/alquimia.md` | `composicion/<archivo>.md` — solo el necesario |
+| Producción por fases (style_box · letra · lyrics_box · técnica vocal · efectos · exclude_box · formato) | `.claude/rules/composicion.md` | `composicion/<archivo>.md` — solo el de la fase |
 | Acento o idioma cantado | `.claude/rules/fonetizaciones.md` | `fonetizaciones/<acento>.md` — solo uno, cuando se especifique |
 | Retrospectiva / cierre de ciclo | — | `conocimientos/retrospectiva.md` |
 | Obra terminada de referencia (lectura solamente bajo demanda) | `PROYECTOS.md` | `proyectos/<slug>/<slug>.md` |

@@ -4,13 +4,13 @@
 
 ---
 
-# Indice
+## Indice
 
 `1 · Efectos de audio y post-producción`
 `1.1 · Control de silencios y pausas`
 `1.2 · Modulación, distorsión y espacio espacial`
 `1.3 · Efectos vocales específicos`
-`1.4 Glitch forzado y stutter vocal`
+`1.4 · Glitch forzado y stutter vocal`
 `1.5 · Acústica física y microfonía`
 `1.6 · Parámetros de Inpainting y estilo general`
 `1.7 · Texturas sonoras y compresión`
@@ -47,7 +47,7 @@
     - `[Heavy AutoTune] [No Pitch Correction]`: Fuerza artefactos de corrección tonal rígida extrema (T-Pain effect) o exige afinación humana orgánica.
     - `[Telephone Effect], [Megaphone]`: Efecto paso-banda (Bandpass filter); recorta frecuencias por debajo de 300Hz y por encima de 3kHz.
 
-### 1.4 Glitch forzado y stutter vocal
+### 1.4 · Glitch forzado y stutter vocal
 - *Escríbelo en la letra con guiones que rompan las sílabas, combinado con metaetiquetas.*
     * **Ejemplo:**
         `[Glitch effect on vocal]`

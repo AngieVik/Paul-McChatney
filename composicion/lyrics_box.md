@@ -1,5 +1,5 @@
-# tags
-*Control semántico, mapeo operativo lyrics_box, y gramática técnica, dirección de banda y lógica de exclusión.*
+# lyrics_box
+*Control semántico, mapeo operativo del lyrics_box, gramática técnica y dirección de banda.*
 *Recordatorio: consulta por búsqueda (grep) o salto por sección.*
 
 ---
@@ -51,10 +51,10 @@
         `[Chorus: full band, belting vocals, high energy]`
 
 ### 1.3 · Comandos de Actuación - La "banda imperfecta"
-*Escribe los comandos como si te dirigieras a músicos reales en vivo en vez de usar etiquetas genéricas: el lenguaje de dirección de interpretación rompe la perfección estéril e introduce errores humanos y groove orgánico.*
-- **Ejemplo:** `[Band: slightly behind the beat, never tight]`, `[Verse: restrained, talk-sung]`, `[Chorus: louder, sloppier, controlled unraveling]`.
-- **Ejemplo: Voz (Delivery):** Usa descripciones físicas como `talk-sung`, `conversational`, `restrained`, `borderline shouted` o `breathy`.
-- **Ejemplo (Ensemble):** Añade imperfección humana al groove con `loose`, `ragged`, `slightly behind the beat` o `never tight`.
+- *Escribe los comandos como si te dirigieras a músicos reales en vivo en vez de usar etiquetas genéricas: el lenguaje de dirección de interpretación rompe la perfección estéril e introduce errores humanos y groove orgánico.*
+    * **Ejemplo:** `[Band: slightly behind the beat, never tight]`, `[Verse: restrained, talk-sung]`, `[Chorus: louder, sloppier, controlled unraveling]`.
+    * **Voz (entrega por línea):** vive en `tecnicas_vocales.md` §2.4–§2.5 (susurros, gritos, timbre, técnica). Aquí solo diriges a la **banda/conjunto**.
+    * **Ejemplo (Ensemble):** Añade imperfección humana al groove con `loose`, `ragged`, `slightly behind the beat` o `never tight`.
 - **Usa corchetes y aisla conceptos diferentes colocandolos en columna:** *Dirigir a la banda separando las capas conceptualmente en lugar de mezclar todo en una sola línea.*
     * **Ejemplo:**
         `[comandos de actuacion]`
@@ -74,7 +74,7 @@
         `[Add tension -> reduce drums -> expose vocals]`
 
 ### 1.6 · Top-Loading
-*Mantén la base contenida e inserta un comando de energía extrema en las letras justo antes de la sección que debe explotar → contraste real.*
+- *Mantén la base contenida e inserta un comando de energía extrema en las letras justo antes de la sección que debe explotar → contraste real.*
     * **Lyrics Box:** antes del estribillo:
         `[Energy: High, Explosive, layered power-harmonies]`.
 
@@ -90,6 +90,9 @@
 * **Límite de longitud:** Mantén todas las metaetiquetas cortas y contundentes.
 * **Libertad semántica:** Usa descripciones libres, sonidos fonéticos, notas de director o emojis (ej. `[🌌]`, `[🔥, 🎸]`) para transmitir atmósferas y emociones. No te limites a diccionarios musicales cerrados.
 * **Orden de prioridad interna:** Coloca siempre los metatags más importantes al principio del corchete. El motor pondera por orden de lectura (izquierda a derecha) y prioriza: primero género musical, luego género/tono vocal, por último significado de la letra.
+* **Secciones cortas:** Suno mantiene mejor la coherencia melódica en bloques de 4–8 líneas; las secciones muy largas pierden el hilo.
+* **Repeticiones controladas:** evita `[Repeat x3]` en secciones largas; Suno degrada en repeticiones mecánicas.
+* **`[Instrumental Break - 8 bars]`:** indica la duración aproximada del break para dar a Suno referencia temporal y mejor proporción.
 
 ### 1.9 · Beat Switch
 - *Cambia radicalmente el género a mitad de canción (mejor en el bridge o tras un drop).*
@@ -133,7 +136,7 @@
 
 ---
 
-### 2 · Hacks lyrics_box
+## 2 · Hacks lyrics_box
 
 - *La trampa del solo:* 
     * **Ejemplo:** 
@@ -143,8 +146,6 @@
         `[Extended Guitar Solo -> Dramatic Stop-Time]`. **(Instrucción en pruebas, omitir contradicción y usar cuando se precise un solo muy largo, pendiente de valoración.)**
 - *Para que el estribillo suene con la misma melodía en cada aparición, escribe el bloque de texto completo en todos los lugares donde deba sonar (no dejes `[Chorus]` vacío esperando que lo repita).*
 
-- *Combina BPMs absurdos `Breakcore`, `Footwork`, con anclajes atmosféricos `Slushwave`, `Monastic Choir`, el choque limpia las frecuencias medias para que entren las voces → máster más agresivo y definido.*
+- *Comportamiento percusivo (Slow Groove, Fast Energy): la cuadrícula base se fija en el `style_box`; el detalle percusivo hiperactivo se inyecta aquí, en el `lyrics_box`, para que la percusión respire por debajo del groove.*
     * **Ejemplo:** 
-        `[Drums: frantic 32nd note hi-hats, explosive energy]`.
-
----
+        `[Drums: frantic 32nd note hi-hats, explosive

@@ -15,7 +15,6 @@ description: Escritura técnica y tipografía como partitura física: narrativa,
   `2.2 · Control fonético`
   `2.3 · Fuerza emocional y acentuación (MAYÚSCULAS)`
   `2.4 · La puntuación dicta el fraseo físico`
-  `2.5 · Regla de la fluidez`
 `3 · Narrativa_lirica_metrica`
   `3.1 · Conteo de sílabas: regla del acento final`
   `3.2 · Licencias métricas`

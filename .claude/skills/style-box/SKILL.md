@@ -21,7 +21,7 @@ Necesitas el molde sonoro de una obra sin escribir letra: arranque de Fase 1 o i
 
 ## Reglas heredadas
 
-- Menos es más: 12–20 tags rinden mejor que 40 (`.claude/MEMORY.md`).
+- Menos es más: 12–20 tags rinden mejor que 40 (`composicion/style_box.md`).
 - El orden pondera: lo más importante primero.
 - Nunca nombres de artistas reales en el style_box: describe el estilo.
 

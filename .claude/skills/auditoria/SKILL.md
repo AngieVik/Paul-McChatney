@@ -1,11 +1,11 @@
 ---
 name: auditoria
-description: audita un prompt de Suno ya escrito: detecta conflictos de etiquetas, errores de formato y mejoras de impacto (Fase 4 aislada).
+description: audita agresivamente un prompt de Suno ya escrito — caza conflictos de etiquetas, vicios de escritura, clichés y errores de formato, y propone cómo elevar el impacto (Fase 4 aislada).
 ---
 
 # auditoria
 
-Audita un prompt de Suno ya escrito (Fase 4 aislada): detecta conflictos de etiquetas, errores fatales de formato y oportunidades de subir el impacto, **sin reescribir la obra entera** salvo que se pida.
+Audita **a fondo y sin piedad** un prompt ya escrito (Fase 4 aislada): caza conflictos de etiquetas, vicios de escritura, clichés y errores de formato, y detecta dónde subir el impacto. **Agresivo detectando, quirúrgico corrigiendo:** señala todo lo que huela mal, pero **no reescribas la obra entera** salvo que se pida.
 
 ## Cuándo se activa
 
@@ -14,30 +14,53 @@ El usuario pide revisar/auditar un prompt, o se cierra la Fase 4 de `produccion`
 ## Pasos
 
 1. Pide el prompt (título, style_box, exclude_box, lyrics_box). Si no hay, usa la última versión en caché.
-2. Consulta el marco de auditoría: solo el archivo de `composicion/` que aplique y los anti-patrones de `.claude/MEMORY.md`.
-3. Revisa por capas:
-   - **Formato:** los 4 bloques (`composicion/formato.md`), `[MOOD]`/`[PRODUCTION]` arriba, líneas en blanco entre secciones, cada bloque de letra etiquetado.
-   - **Conflictos:** géneros que se pelean sin tag de fusión, `[Solo]` mal usado, `[Epic]` sin apoyo instrumental, exceso de tags (>20), nombres de artistas reales.
-   - **Idioma:** anclaje idiomático correcto, anglicismos fonetizados.
-   - **Impacto:** dónde inyectar dinámica, contraste o nudging para elevar la obra.
-4. Entrega un informe: ✅ correcto · ⚠️ a corregir · 💡 mejoras opcionales. Arregla solo lo crítico salvo que se pida una pasada completa.
+2. Consulta la regla canónica solo cuando la necesites: los anti-patrones y su arreglo viven repartidos en `composicion/` (`style_box.md`, `lyrics_box.md`, `letra.md`, `tecnicas_vocales.md`, `formato.md`).
+3. Pasa la **batería de detectores**. Sé desconfiado: busca el fallo activamente, marca cada acierto con el detector que salta y su dirección de arreglo.
+
+   **Escritura (letra):**
+   - **Ha-bla-co-mo-ro-bot** — abuso de guiones `-` partiendo sílabas → cadencia robótica; solo con moderación (`letra §2.2`).
+   - **LLAMA A LA MAMA** — abuso de MAYÚSCULAS: diluyen el énfasis en vez de marcarlo; resérvalas para el acento tónico puntual (`letra §2.3`).
+   - **MC Cohibido** — puntuación sin intención sonora, puesta por inercia de escritura; cada coma/punto/puntos suspensivos debe dictar una pausa real (`letra §2.4`).
+   - **Seek and destroy** — clichés de letra y de IA: perspectivas genéricas, rimas fáciles, frases hechas (`letra §1.4`).
+   - **Falta chicha** — letra o desarrollo demasiado corto/pobre; secciones que no respiran (`letra §1`).
+
+   **Etiquetas (lyrics_box):**
+   - **Global Style** — metatags sin parametrizar: `[Verse]` pelado en vez de `[Verse: ...]` (`lyrics_box §1.2`).
+   - **Fantasma en la mezcla** — `[Solo]` mal usado vacía la sección; usa jerarquía tipo `[Lead]` (`lyrics_box §2`).
+   - **Sección huérfana** — bloque de letra sin su metatag de estructura.
+   - **Loro mecánico** — `[Repeat x3]` o repetición mecánica en secciones largas (`lyrics_box §1.8`).
+   - **Persona fugada** — identidad vocal sin anclar en la línea cero → riesgo de mutación tímbrica (`tecnicas_vocales §2.2`).
+
+   **Estilo (style_box) e idioma:**
+   - **Torre de Babel** — >2 géneros principales sin tag de fusión (`style_box §2`).
+   - **Caja saturada** — exceso de tags (>20): menos es más (`style_box §1`).
+   - **Nombre propio** — artistas reales; describe el estilo, no la persona.
+   - **Mudez épica** — `[Epic]` u otro tag grande sin apoyo instrumental → queda vacío.
+   - **Idioma a la deriva** — anclaje idiomático incorrecto; anglicismos sin fonetizar (`system_prompt` idioma / skill `fonetizar`).
+
+   **Estructura y formato:**
+   - **Falta Sal** — estructura demasiado simple o común: sin colisión, contraste ni giro. Propón dónde inyectar dinámica, nudging o un beat-switch (`style_box`, `lyrics_box`).
+   - **Formato roto** — los 4 bloques mal montados: falta un bloque, `[MOOD]`/`[PRODUCTION]` no van arriba, o secciones sin línea en blanco (`formato.md`).
+
+4. Entrega el informe por severidad: ✅ correcto · ⚠️ a corregir (crítico) · 💡 mejora opcional. Nombra el detector que salta y da la dirección de arreglo. Corrige solo lo crítico salvo que se pida una pasada completa.
 
 ## Reglas heredadas
 
-- No fuerces cambios superfluos: si no hay error crítico, no lo inventes.
+- **Agresivo detectando, no inventando:** busca el fallo activamente, pero no marques como error una decisión estética válida.
+- No fuerces cambios superfluos: si no hay error crítico, no lo fabriques.
 - Personalidad macarra solo en la conversación; las metaetiquetas, asépticas y en inglés.
 
 ## Entra → Sale
 
 - **Entra:** un prompt de Suno ya escrito (los 4 bloques) o la última versión en caché.
-- **Sale:** informe ✅/⚠️/💡 + correcciones críticas aplicadas (obra entera solo si se pide).
+- **Sale:** informe ✅/⚠️/💡 con el detector que salta y su arreglo; correcciones críticas aplicadas (obra entera solo si se pide).
 
 ## Relación
 
 - Cierra la **Fase 4** de `produccion`; también funciona suelta sobre cualquier prompt.
-- Se apoya en `composicion/formato.md` y en los anti-patrones de `.claude/MEMORY.md`.
+- La regla canónica de cada detector vive en su archivo de `composicion/`; aquí solo se cazan.
 
 ## Ejemplo
 
-> Detecta `[Solo Guitar]` → ⚠️ vaciará la sección. Propone
-> `[Instrumental Drop, electric guitar takes the lead melody]`.
+> **Fantasma en la mezcla:** `[Solo Guitar]` → ⚠️ vaciará la sección. Propone `[Instrumental Drop, electric guitar takes the lead melody]`.
+> **LLAMA A LA MAMA:** seis versos seguidos en MAYÚSCULAS → 💡 resérvalas para el golpe tónico puntual, no como norma.
