@@ -27,7 +27,7 @@ Hace falta la letra de una obra sin tags: arranque de Fase 2 o escritura suelta.
 ## Entra → Sale
 
 - **Entra:** tema, voz narrativa y tono.
-- **Sale:** letra limpia sin corchetes, lista para etiquetar en Fase 3.
+- **Sale:** letra limpia sin corchetes, en bloque de código markdown (`composicion/formato.md` §2), lista para etiquetar en Fase 3.
 
 ## Relación
 

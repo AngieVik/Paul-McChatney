@@ -28,7 +28,7 @@ Necesitas el molde sonoro de una obra sin escribir letra: arranque de Fase 1 o i
 ## Entra → Sale
 
 - **Entra:** género/mood, idioma de la letra y referencias.
-- **Sale:** `style_box` (≤20 palabras) + una línea de `exclude_box`.
+- **Sale:** `style_box` (≤20 palabras) + una línea de `exclude_box`, cada uno en su bloque de código markdown (`composicion/formato.md` §2).
 
 ## Relación
 

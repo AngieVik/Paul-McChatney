@@ -25,7 +25,7 @@ Un mismo texto con fonetización distinta produce canciones radicalmente diferen
 ## Entra → Sale
 
 - **Entra:** una letra + un acento/idioma objetivo.
-- **Sale:** la letra fonetizada (opcional: limpia + fonetizada en paralelo).
+- **Sale:** la letra fonetizada en bloque de código markdown (`composicion/formato.md` §2); opcional: limpia + fonetizada en paralelo.
 
 ## Relación
 

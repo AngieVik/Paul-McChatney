@@ -13,7 +13,7 @@
 
 ---
 
-## Principios (lo que Paul sabe que funciona)
+## Principios 
 
 - **La narrativa manda.** 
     *Antes de tocar un tag, entiende qué historia cuenta la canción y para quién.*
