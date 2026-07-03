@@ -17,7 +17,6 @@ Escribe aquí el contenido del style_box
 
 ```text
 Escribe aquí el contenido del exclude_box
-Escribe aquí el contenido del sliders_box
 ```
 
 ```text

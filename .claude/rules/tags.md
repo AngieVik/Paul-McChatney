@@ -14,6 +14,11 @@ description: Control semántico, mapeo operativo de cajas (style_box, lyrics_box
     `1.7 · Top-Loading`
     `1.8 · Vacuum Drop`
     `1.9 · Mitos y Reglas de Formato`
+    `1.10 · Beat Switch`
+    `1.11 · Subversión de expectativas (Fake Drop)`
+    `1.12 · Tempo Ramping`
+    `1.13 · False Fade-Out`
+    `1.14 · Stem-Prep`
 `2 · style_box`
     `2.1 · Etiquetas del style_box`
     `2.2 · definición style_box`
@@ -24,7 +29,4 @@ description: Control semántico, mapeo operativo de cajas (style_box, lyrics_box
     `4.1 · Etiquetas exclude_box`
     `4.2 · definicion exclude_box`
 `5 · sliders_box`
----
-* **Documentos:**
-| [tags.md](../../composicion/tags.md) | **tags** — Control semántico, mapeo operativo de cajas (style_box, lyrics_box, exclude_box, sliders_box) y gramática técnica, dirección de banda y lógica de exclusión. |
 ---

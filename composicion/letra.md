@@ -14,7 +14,6 @@
   `2.2 · Control fonético`
   `2.3 · Fuerza emocional y acentuación (MAYÚSCULAS)`
   `2.4 · La puntuación dicta el fraseo físico`
-  `2.5 · Regla de la fluidez`
 `3 · Narrativa_lirica_metrica`
   `3.1 · Conteo de sílabas: regla del acento final`
   `3.2 · Licencias métricas`
@@ -33,7 +32,7 @@
 *Autonomía total sobre longitud de verso, ritmo silábico e historia. Escribe desde la inspiración pura.*
 
 ### 1.2 · Rigidez estructural (solo Fases 3 y 4)
-*En Fase 2 el lirismo va 100% libre de etiquetas. En Fases 3 y 4 es obligatorio ceñirse a la arquitectura de Suno.*
+*En Fase 2 el lirismo va 100% libre de etiquetas. En Fases 3 y 4 es obligatorio ceñirse a la arquitectura.*
 
 ### 1.3 · Textura y equilibrio narrativo
 *Alterna detalle sensorial (mostrar) y lenguaje directo (contar), según lo que mejor potencie la actitud de la obra.*
@@ -42,7 +41,7 @@
 *Huye de la poesía de IA: inyecta perspectivas únicas, modismos locales y verbos de acción contundentes.*
 
 ### 1.5 · Anclaje regional mediante jerga
-*Para forzar acentos concretos (andaluz, argentino, mexicano), inyecta modismos y jerga local en la propia letra; Suno los usa como ancla de pronunciación de esa estrofa.*
+*Para forzar acentos concretos (andaluz, argentino, mexicano), inyecta modismos y jerga local en la propia letra.*
 
 ---
 
@@ -50,25 +49,28 @@
 *Tipografía como partitura física: la escritura de la letra esculpe la interpretación de Suno.*
 
 ### 2.1 · Cadencia y sustain
-- **Repite vocales** Para alargar el sonido y dar énfasis sostenido, permitiendo modulaciones y vibrato natural (**Ejemplo:** fiiiiiire, loooove).
+- *Repite vocales para alargar el sonido y dar énfasis sostenido, permitiendo modulaciones y vibrato natural.*
+    * **Ejemplo:** 
+        `fiiiiiire`, `loooove`.
 - **Anclaje de cadencia:** mantén un recuento de sílabas consistente en las líneas del estribillo para que la melodía se repita estable.
-- **Regla de la redundancia:** para que el estribillo suene con la misma melodía en cada aparición, escribe el bloque de texto completo en todos los lugares donde deba sonar (no dejes `[Chorus]` vacío esperando que lo repita).
 
 ### 2.2 · Control fonético
-- **Usa guiones para romper el flujo de la respiración** (**Ejemplo:** Ta-ta-ta...taca-ta). Usalo con moderación, para evitar cadencias robóticas.
+- *Usa guiones para romper el flujo de la respiración, usalo con moderación, para evitar cadencias robóticas.* 
+    * **Ejemplo:**
+        `Ta-ta-ta...taca-ta`
 
 ### 2.3 · Fuerza emocional y acentuación (MAYÚSCULAS)
-- **Palabras o frases completas:** indica a Suno gritar, proyectar y dar máxima intensidad emocional.
-- **Letras o sílabas sueltas:** fuerza el acento prosódico exacto, marca el golpe de una rima o corrige pronunciaciones de la IA (ej. *coraZÓN*, *enFÁtico*, *reCUERda*).
-- **Sacrifica la ortografía:** por la entrega métrica usando mayúsculas para los acentos tónicos
+- *Palabras o frases completas, indican gritar, proyectar y dar máxima intensidad emocional.*
+- *Letras o sílabas sueltas fuerzan el acento prosódico exacto, marca el golpe de una rima o corrige pronunciaciones.*
+    * **Ejemplo:**
+        `coraZÓN`, `enFÁtico`, `reCUERda`.
+- *Sacrifica la ortografía por la entrega métrica usando mayúsculas para los acentos tónicos.*
 
 ### 2.4 · La puntuación dicta el fraseo físico
-- **Comas:** pausas cortas y naturales.
-- **Puntos:** pausas totales o respiraciones; marcan el espacio en las rimas.
-- **Puntos suspensivos:** silencios dramáticos o transiciones lentas.
-
-### 2.5 · Regla de la fluidez
-*Para encadenar varias líneas en una sola respiración, deja el final de verso libre de puntuación: la ausencia de signos mantiene la inercia rítmica.*
+- *Las comas generan pausas cortas y naturales.*
+- *Los puntos generan pausas totales o respiraciones, marcan el espacio en las rimas.*
+- *Los puntos suspensivos generan silencios dramáticos o transiciones lentas, a la vez que encadenan con el siguiente texto cantado*
+- *Para encadenar varias líneas en una sola respiración, deja el final de verso libre de puntuación: la ausencia de signos mantiene la inercia rítmica.*
 
 ---
 
@@ -76,33 +78,24 @@
 *Métrica y ritmo de la poesía española: conteo silábico, licencias, tipos de verso y rima. Fase 3.*
 
 ### 3.1 · Conteo de sílabas: regla del acento final
-*Para contar las sílabas de un verso, analiza la acentuación de la última palabra y aplica esta aritmética*
-
-- **Aguda o monosílaba (+1):** suma una sílaba.
-> Escribo mis versos sin querer. — "querer" es aguda → +1 (decasílabo).
-- **Grave (=):** no suma ni resta.
-> Procuro decir lo siento. — "siento" es grave → = (octosílabo).
-- **Esdrújula (−1):** resta una sílaba.
-> Un camino por los árboles. — "árboles" es esdrújula → −1 (octosílabo).
+- *Para contar las sílabas de un verso, analiza la acentuación de la última palabra y aplica esta aritmética*
+  * **Aguda o monosílaba (+1):** suma una sílaba.
+    `Escribo mis versos sin querer.` — "querer" es aguda → +1 (decasílabo).
+  * **Grave (=):** no suma ni resta.
+    `Procuro decir lo siento.` — "siento" es grave → = (octosílabo).
+  * **Esdrújula (−1):** resta una sílaba.
+    `Un camino por los árboles.` — "árboles" es esdrújula → −1 (octosílabo).
 
 ### 3.2 · Licencias métricas
-*Recursos para modificar el número de sílabas fonéticas y ajustar el metro.*
-
-#### Sinalefa (natural)
-*Une en una sílaba la vocal final de una palabra y la inicial de la siguiente. Es la forma natural de pronunciar en español.*
-> Y otra vez con el ala a sus cristales. (Dos sinalefas = 11 sílabas).
-
-#### Dialefa o hiato (forzada)
-*Lo contrario de la sinalefa: deja final e inicio vocálicos en sílabas distintas. No ocurre naturalmente; se fuerza para cuadrar la métrica.*
-> La noche alegre. (Dialefa forzada → 6 sílabas).
-
-#### Sinéresis (interna)
-*Une dos vocales en hiato dentro de una palabra, contándolas como una sola sílaba.*
-> La poesía es mi vida. ("po-e-sí-a" se contrae → 8 sílabas).
-
-#### Diéresis (interna)
-*Desarma un diptongo dentro de una palabra para pronunciarlo en sílabas separadas. En textos clásicos se marca con crema.*
-> Es suficïente dinero. (El diptongo "ie" se separa → 9 sílabas).
+- *Recursos para modificar el número de sílabas fonéticas y ajustar el metro.*
+  * **Sinalefa (natural)** Une en una sílaba la vocal final de una palabra y la inicial de la siguiente. Es la forma natural de pronunciar en español.
+    `Y otra vez con el ala a sus cristales.` (Dos sinalefas = 11 sílabas).
+  * **Dialefa o hiato (forzada)** Lo contrario de la sinalefa: deja final e inicio vocálicos en sílabas distintas. No ocurre naturalmente; se fuerza para cuadrar la métrica.
+    `La noche alegre.` (Dialefa forzada → 6 sílabas).
+  * **Sinéresis (interna)** Une dos vocales en hiato dentro de una palabra, contándolas como una sola sílaba.
+    `La poesía es mi vida.` ("po-e-sí-a" se contrae → 8 sílabas).
+  * **Diéresis (interna)** Desarma un diptongo dentro de una palabra para pronunciarlo en sílabas separadas. En textos clásicos se marca con crema.
+    `Es suficïente dinero.` (El diptongo "ie" se separa → 9 sílabas).
 
 ### 3.3 · Análisis práctico: Mario Benedetti
 *Fragmento de *"Contraofensiva"* (Cotidianas, 1979). Aplicación de sumas y restas según la regla del acento final.*
@@ -147,17 +140,17 @@
 *El ritmo es el rasgo acústico dominante del verso: lo establecen el número de sílabas, los acentos, las pausas y la repetición sistemática de sonidos. Se distinguen dos tipos estrictos de rima.*
 
 #### Rima consonante
-*Repetición exacta de todos los sonidos (vocales y consonantes) desde la última vocal acentuada.*
-> Ya estoy tranquilo. Ya no espero n**ada**.
-> Ya sobre mi vacío coraz**ón**.
-> desciende la inconsciencia agraci**ada**.
-> de no querer una ilusi**ón**.
+- *Repetición exacta de todos los sonidos (vocales y consonantes) desde la última vocal acentuada.*
+  Ya estoy tranquilo. Ya no espero n**ada**.
+  Ya sobre mi vacío coraz**ón**.
+  desciende la inconsciencia agraci**ada**.
+  de no querer una ilusi**ón**.
 
 #### Rima asonante
-*Repetición **solo de las vocales** desde la última vocal acentuada (las consonantes varían).*
-> Casi anónima sonrí**e**s
-> y el sol te dora el cab**e**ll**o**.
-> ¿Por qué para ser fel**i**z
-> hace falta no sab**e**rl**o**?
+- *Repetición **solo de las vocales** desde la última vocal acentuada (las consonantes varían).*
+  Casi anónima sonrí**e**s
+  y el sol te dora el cab**e**ll**o**.
+  ¿Por qué para ser fel**i**z
+  hace falta no sab**e**rl**o**?
 
 ---
