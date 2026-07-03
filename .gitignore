@@ -29,13 +29,10 @@ proyectos/*
 _produccion/plugins_angie/
 # --- Carpetas ignoradas por completo ---
 _docs/
-_temp/
-_produccion/
-proyectos/
-_proyectos/
-chuletas/
 _hojas_sucias/
+_produccion/
 _prompts_antiguos/
+_temp/
 
 # --- temporales / sistema ---
 .DS_Store

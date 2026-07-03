@@ -4,13 +4,20 @@ Sistema de composición musical asistida por IA para crear canciones, prompts, s
 
 ## Estructura
 
-- `system_prompt/`: identidad y comportamiento principal.
+- `_docs/`: documentos de referencia. (ignorada)
+- `_hojas_sucias/`: ideas o trabajos en curso, carpeta para el desorden mental. (ignorada)
+- `_produccion/`: archivos de referencia/ayuda para la masterizacion de las obras. (ignorada)
+- `_prompts_antiguos/`: antiguos prompts en desuso. (ignorada)
+- `_temp/`: archivos temporales para extraer data o de utilización temporal. (ignorada)
 - `.claude/`: memoria y reglas de carga.
+- `chuletas/`: plantillas base.
 - `chupilista/`: biblioteca de tags para Suno.
 - `composicion/`: reglas de escritura, estructura y producción.
 - `conocimientos/`: documentos técnicos y retrospectivas.
+- `fonetizaciones/`: guias para la fonetización en español de diferentes idiomas.
+- `jerga/`: guias para la inyección de jerga de diferentes dialectos.
 - `proyectos/`: canciones terminadas.
-- `_hojas_sucias/`: ideas o trabajos en curso.
+- `system_prompt/`: identidad y comportamiento principal.
 
 ## Regla principal
 

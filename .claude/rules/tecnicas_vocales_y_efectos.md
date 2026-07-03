@@ -1,4 +1,4 @@
-title: tecnicas vocales y efectos
+title: tecnicas_vocales_y_efectos
 description: Arquitecturas de identidad (Persona Stacking), dirección interpretativa y procesamiento de señales (DSP): física de la voz y espacialidad estéreo.
 ---
 * **Consulta por búsqueda (grep) o salto por Índice.**
@@ -23,4 +23,7 @@ description: Arquitecturas de identidad (Persona Stacking), dirección interpret
     `3.5 · Parámetros de Inpainting y estilo general`
     `3.6 · Texturas sonoras y compresión`
     `3.7 · Transiciones, tensión armónica y SFX`
+---
+* **Documentos:**
+| [tecnicas_vocales_y_efectos.md](../../composicion/tecnicas_vocales_y_efectos.md) | **tecnicas vocales y efectos** — Arquitecturas de identidad, dirección interpretativa y procesamiento de señales (DSP): física de la voz y espacialidad estéreo. |
 ---

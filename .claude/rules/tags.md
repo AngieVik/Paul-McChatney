@@ -25,3 +25,6 @@ description: Control semántico, mapeo operativo de cajas (style_box, lyrics_box
     `4.2 · definicion exclude_box`
 `5 · sliders_box`
 ---
+* **Documentos:**
+| [tags.md](../../composicion/tags.md) | **tags** — Control semántico, mapeo operativo de cajas (style_box, lyrics_box, exclude_box, sliders_box) y gramática técnica, dirección de banda y lógica de exclusión. |
+---

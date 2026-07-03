@@ -3,19 +3,17 @@
 ```plaintext
 Paul McChatney
 ├── _docs/
-│   └── _auditoria_estructura_2026-06-27.md [8.53 KB]
 ├── _hojas_sucias/
 │   ├── IDEAS.md [1.68 KB]
 │   ├── clasic_hardcore.md [15.06 KB]
-│   ├── clasificacion_proyectos.md [1.98 KB]
+│   ├── desarollo_fonetismos_jergas.md [2.01 KB]
 │   ├── deudas.md [43 bytes]
 │   ├── etiquetas_hardcore.md [28.36 KB]
-│   ├── meta-etiquetas_nuevas.md [3.04 KB]
+│   ├── meta-etiquetas_nuevas.md [3.03 KB]
 │   ├── mezclas_locas.md [4.46 KB]
-│   ├── skills_pablito.md [61 bytes]
 │   ├── sliders.md [408 bytes]
-│   ├── taxonomia_integral_de_la_musica_rave_2025.md [8.04 KB]
-│   └── tuneos_pichi.md [61 bytes]
+│   ├── taxonomia_integral_de_la_musica_rave_2025.md [8.22 KB]
+│   └── tuneos_pichi.md [97 bytes]
 ├── _produccion/
 │   ├── plugins_angie/
 │   │   ├── audacity/
@@ -114,8 +112,9 @@ Paul McChatney
 │   │   └── 骨でダンス__(Hone_de_Dansu___Dance_with_Bones)v2-6ae606e9.txt [8.57 KB]
 │   └── nueva_skill.md [5.54 KB]
 ├── chuletas/
-│   ├── plantilla_fonetizaciones.md [3.89 KB]
-│   └── plantilla_proyecto.md [3.65 KB]
+│   ├── plantilla_fonetizaciones.md [3.92 KB]
+│   ├── plantilla_jerga.md [0 bytes]
+│   └── plantilla_proyecto.md [3.64 KB]
 ├── chupilista/
 │   ├── 01_core_genres_and_subgenres.md [24.84 KB]
 │   ├── 02_atmosphere_and_mood.md [29.79 KB]
@@ -133,40 +132,59 @@ Paul McChatney
 │   ├── 14_nudging_and_callbacks.md [33.14 KB]
 │   └── 15_negative_prompts_and_exclude_styles.md [15.25 KB]
 ├── composicion/
-│   ├── alquimia.md [8.37 KB]
+│   ├── alquimia.md [6.95 KB]
 │   ├── formato.md [755 bytes]
-│   ├── letra.md [7.66 KB]
-│   ├── tags.md [13.76 KB]
-│   └── tecnicas_vocales_y_efectos.md [12.42 KB]
+│   ├── letra.md [8.26 KB]
+│   ├── tags.md [13.97 KB]
+│   └── tecnicas_vocales_y_efectos.md [12.48 KB]
 ├── conocimientos/
 │   ├── archivos_retrospectiva/
-│   │   └── changelog_retrospectiva.md [1004 bytes]
-│   └── retrospectiva.md [3.01 KB]
+│   ├── changelog_retrospectiva.md [1004 bytes]
+│   └── retrospectiva.md [2.99 KB]
 ├── fonetizaciones/
-│   ├── aleman.md [8.02 KB]
-│   ├── americano.md [7.82 KB]
-│   ├── andaluz.md [8.12 KB]
-│   ├── arabe.md [7.56 KB]
-│   ├── calo.md [7.50 KB]
-│   ├── chino.md [7.55 KB]
-│   ├── ebrio.md [6.28 KB]
-│   ├── edad_avanzada.md [7.32 KB]
+│   ├── argentino_rioplatense.md [6.58 KB]
+│   ├── boricua_puertorico.md [5.94 KB]
+│   ├── canario.md [6.08 KB]
+│   ├── chileno.md [6.03 KB]
+│   ├── colombiano_andino.md [6.22 KB]
+│   ├── es_aleman.md [8.02 KB]
+│   ├── es_americano.md [7.82 KB]
+│   ├── es_andaluz.md [8.12 KB]
+│   ├── es_arabe.md [7.56 KB]
+│   ├── es_calo.md [7.50 KB]
+│   ├── es_chino.md [7.55 KB]
+│   ├── es_ebrio.md [6.28 KB]
+│   ├── es_edad_avanzada.md [7.32 KB]
+│   ├── es_frances.md [8.31 KB]
+│   ├── es_hombre_gay.md [5.86 KB]
+│   ├── es_infancia_temprana.md [6.06 KB]
+│   ├── es_italiano.md [7.65 KB]
+│   ├── es_portugues.md [8.19 KB]
+│   ├── es_pueblo_peninsular.md [7.49 KB]
+│   ├── es_rural_profundo.md [7.13 KB]
+│   ├── es_ruso.md [8.29 KB]
+│   ├── es_senegales.md [7.56 KB]
 │   ├── euskera.md [6.78 KB]
-│   ├── frances.md [8.31 KB]
 │   ├── gallego.md [7.58 KB]
-│   ├── hombre_gay.md [5.86 KB]
-│   ├── infancia_temprana.md [6.06 KB]
-│   ├── italiano.md [7.65 KB]
-│   ├── portugues.md [8.19 KB]
-│   ├── pueblo_peninsular.md [7.49 KB]
-│   ├── rural_profundo.md [7.13 KB]
-│   ├── ruso.md [8.29 KB]
-│   └── senegales.md [7.56 KB]
+│   └── mexicano_centro.md [5.97 KB]
+├── jerga/
+│   ├── andaluz_almeriense.md [5.99 KB]
+│   ├── argot_canario.md [6.06 KB]
+│   ├── argot_informatico.md [8.77 KB]
+│   ├── argot_prehospitalario.md [7.65 KB]
+│   ├── boricua_puertorico.md [6.64 KB]
+│   ├── cheli_madrid.md [5.83 KB]
+│   ├── chilango_mexico.md [6.45 KB]
+│   ├── coa_chile.md [6.58 KB]
+│   ├── jerga_produccion.md [8.08 KB]
+│   ├── lunfardo_rioplatense.md [6.50 KB]
+│   └── parlache_medellin.md [6.39 KB]
 ├── proyectos/
 ├── system_prompt/
-│   └── system_prompt.md [5.41 KB]
-├── PROYECTOS.md [10.74 KB]
-└── folder-structure.md [12.50 KB]
+│   └── system_prompt.md [5.38 KB]
+├── PROYECTOS.md [10.73 KB]
+├── README.md [1.16 KB]
+└── folder-structure.md [13.11 KB]
 ```
 
 
@@ -174,18 +192,18 @@ Paul McChatney
 
 ```plaintext
 Root Folder: Paul McChatney
-Total Folders: 22
-Total Files: 143
+Total Folders: 23
+Total Files: 160
 File Types:
-  - .md Files: 63
+  - .md Files: 80
   - .zip Files: 6
   - .ini Files: 1
   - .wav Files: 2
   - .jpg Files: 1
   - .txt Files: 70
 Largest File: 0 Lead Vocal.wav [46.12 MB]
-Smallest File: deudas.md [43 bytes]
-Total Project Size: 186.68 MB
+Smallest File: plantilla_jerga.md [0 bytes]
+Total Project Size: 186.79 MB
 Ignored Files and Folders:
   - proyectos/60_granos
   - proyectos/aqui_se_vota_y_no_cambia_nada

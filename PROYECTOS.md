@@ -3,8 +3,6 @@
 > Catálogo de canciones producidas.
 > Cada entrada enlaza al archivo con el prompt completo.
 
-
-
 ## cuentos_metalicos
 | Título | Género | Estilo |
 |--------|-----------------|
@@ -37,7 +35,7 @@
 |--------|-----------------|
 | [爆発アイスクリーム (Bakuhatsu Ice Cream)](proyectos/exploding_ice_cream/xploding_ice_cream.md) | Analog Punk Rock · Crunchy Mix · Japonés |
 | [洞窟の神 (Dōkutsu no Kami / God of the Cave)](proyectos/god_of_the_cave/god_of_the_cave.md) | Psychedelic Punk · Overdriven Bass · Japonés |
-| [骨でダンス (Hone de Dansu / Dance with Bones) v2](proyectos/dance_with_bones/dance_with_bones.md) | Tribal Punk · Raw Analog · Japonés |
+| [骨でダンス (Hone de Dansu / Dance with Bones)](proyectos/dance_with_bones/dance_with_bones.md) | Tribal Punk · Raw Analog · Japonés |
 | [かんちがいエンジェル (Kanchigai Angel / Misunderstood Angel)](proyectos/misunderstood_angel/misunderstood_angel.md) | Live Punk · Distorted Bass · Japonés |
 | [KIKE](proyectos/kike/kike.md) | Punk · Clean Studio Mix · Forward Slap Bass |
 | [クラビクラ! (Kurabikura!)](proyectos/kurabikura/kurabikura.md) | Punk Rock · Bones & Pain · Japonés |
