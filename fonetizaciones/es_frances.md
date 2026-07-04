@@ -1,9 +1,7 @@
 # Guía de Fonetización en Español: Francés (Estándar / Metropolitano)
 
 **Notas de Configuración Fonética:** Sistema ortográficamente denso y de alta opacidad histórica, plagado de letras mudas y combinaciones vocálicas complejas. Sin embargo, a diferencia del inglés, el francés es estrictamente predecible: una vez memorizadas las reglas de asimilación y silenciamiento, la lectura es matemática y libre de ambigüedades.
-
 ---
-
 ## 1. Perfil Fonético General
 
 El francés exige una reconfiguración muscular hacia la parte frontal de la boca, con una tensión labial constante (redondeamiento de labios o labialización) y un flujo de aire continuo y suave, sin explosiones consonánticas bruscas.
@@ -67,9 +65,7 @@ El consonantismo francés es suave. Carece de fricativas velares fuertes (no hay
 * **Palabra:** `Les États-Unis` (Los Estados Unidos)
   * *Desglose:* Aplicación pura de la *Liaison* (enlace). La 's' final muda de *Les* resucita al chocar con la 'É', convirtiéndose en un zumbido 'z'. Lo mismo ocurre con la 's' de *États* uniéndose a *Unis*. La 's' final de *Unis* es muda.
   * *Fonetización final:* **le ze ta ziu ní**
-
 ---
-
 ## 7. Interferencia Fonética (Simulación de Acento Francés en Español)
 
 Al leer español, el francófono aplica su isosilabismo ligado, neutraliza el acento léxico nativo desplazándolo al final y carece de las fricativas velares e interdentales ibéricas.

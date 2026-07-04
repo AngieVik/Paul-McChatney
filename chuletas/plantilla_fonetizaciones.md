@@ -3,9 +3,7 @@ Genera la guia para fonetización en español de [], sigue la plantilla y genera
 # Guía de Fonetización en Español: [Nombre del Idioma\Dialecto]
 
 **Notas de Configuración Fonética:** [Breve descripción general del sistema fonológico. Ej. "Sistema opaco, requiere memorización de patrones ortográficos".]
-
 ---
-
 ## Perfil Fonético General
 
 Una introducción al "carácter" del idioma para establecer la postura articulatoria del lector.
@@ -57,9 +55,7 @@ Disección de palabras clave aplicando las reglas anteriores.
 * **Palabra:** `[Original]` ([Traducción])
   * *Desglose:* [Explicación de los fenómenos fonéticos que ocurren].
   * *Fonetización final:* **[Sílaba] [tó]nica**
-
 ---
-
 ## Interferencia Fonética (Simulación de Acento)
 
 Definición de cómo los hablantes nativos de este idioma distorsionan los fonemas del español (Lectura inversa).

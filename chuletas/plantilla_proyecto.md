@@ -1,9 +1,7 @@
 # plantilla_proyecto
 
 > **Plantilla canónica de proyecto.** Cópiala para abrir una canción nueva en `proyectos\<slug>\<slug>.md`. Respeta el orden de secciones y el estilo de relleno; así los agentes futuros mantienen la coherencia del catálogo.
-
 ---
-
 ## Convenciones de nombre y ubicación
 
 - **Nombre de archivo = slug** en `snake_case`, sin acentos ni eñes, sin espacios. Ej.: `La Virgen Tapiada` → `la_virgen_tapiada.md`.
@@ -15,9 +13,7 @@
 - **Masterizado:** opcional. Solo cuando tengas la pista masterizada, marca el checkbox `**Masterizado**`
 - **Un proyecto evoluciona sin ritmo fijo:** no hay datos mínimos obligatorios.
 - **Ideas sueltas y bocetos** viven en `_hojas_sucias\` (espacio libre, sin formato fijo).
-- **Cada proyecto** vive en `proyectos\<slug>\<slug>.md` (carpeta propia) y se registra como fila en `PROYECTOS.md`, dentro de su LP o categoria.
----
-
+- **Cada proyecto** vive en `proyectos\<slug>\<slug>.md` (carpeta propia) y se registra como fila en `PROYECTOS.md`, dentro de su LP o categoria.---
 ## Esqueleto a copiar
 
 # <slug>
@@ -51,15 +47,7 @@ Influencia estilo <NN>%
 ## Lyrics Box
 
 <Todo el lyrics_box exacto usado en la generación final>
-
 ---
-
-## Reglas de relleno
-
-
-
----
-
 ## Cómo referenciar archivos del proyecto
 
 Usa **rutas relativas a la raíz del proyecto**. No uses rutas absolutas del sistema ni `C:\...`. Distingue las dos semánticas de carga:

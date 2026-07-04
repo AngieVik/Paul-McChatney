@@ -1,9 +1,7 @@
 # Guía de Fonetización en Español: Gallego (Estándar Normativo / ILG-RAG)
 
 **Notas de Configuración Fonética:** Sistema ortográficamente muy transparente para el hispanohablante, derivado del tronco galaicoportugués. Comparte gran parte del inventario consonántico con el castellano, pero se diferencia estructuralmente por poseer un sistema de siete vocales (frente a las cinco del español), una rica variedad de diptongos y una curva entonativa inconfundible.
-
 ---
-
 ## 1. Perfil Fonético General
 
 El gallego se articula con una fluidez melódica continua, sin la tensión percusiva del español ni la relajación extrema del portugués contemporáneo.
@@ -65,9 +63,7 @@ La prosodia es el elemento que más delata a un hablante de gallego.
 * **Palabra:** `Muller` (Mujer)
   * *Desglose:* Conservación de la 'll' palatal. La 'e' es tónica abierta.
   * *Fonetización final:* **mu llér**
-
 ---
-
 ## 7. Interferencia Fonética (Simulación de Acento Gallego en Español)
 
 El contacto bilingüe en Galicia produce un sustrato fonético inconfundible al hablar español, caracterizado por el calco entonativo, el cerramiento vocálico átono y la transferencia de fonemas dialectales.

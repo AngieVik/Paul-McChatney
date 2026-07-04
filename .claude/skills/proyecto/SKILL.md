@@ -1,8 +1,6 @@
 ---
 name: proyecto
-description: gestiona el ciclo de vida de una obra (crear, listar, retomar, cerrar) y la memoria de proyectos.
----
-
+description: gestiona el ciclo de vida de una obra (crear, listar, retomar, cerrar) y la memoria de proyectos.---
 # proyecto
 
 Orquesta la **memoria de proyectos**: el ciclo de vida de una obra desde idea hasta aprendizaje acumulado. Crea, lista y retoma proyectos, y cierra el bucle de retros.
@@ -39,7 +37,7 @@ Un prompt no validado en producción es hipótesis, no conocimiento: no escala a
 
 ## Relación
 
-- La invoca `produccion` al **validar**; cierra el ciclo lanzando la `retrospectiva`.
+- La invoca el usuario al pedir "crear"; cierra el ciclo lanzando la `retrospectiva`.
 
 ## Ejemplo
 

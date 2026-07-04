@@ -1,9 +1,7 @@
 # Guía de Fonetización en Español: Italiano (Estándar / Normativo)
 
 **Notas de Configuración Fonética:** Sistema ortográficamente transparente pero que requiere un dominio estricto de dígrafos/trígrafos posicionales. La inteligibilidad y el acento natural dependen fundamentalmente del respeto absoluto por la cantidad consonántica (consonantes geminadas o dobles frente a simples) y la pureza vocálica.
-
 ---
-
 ## 1. Perfil Fonético General
 
 El italiano se articula con gran energía en la zona frontal de la cavidad bucal, requiriendo un movimiento labial amplio y preciso.
@@ -66,9 +64,7 @@ La ortografía utiliza la 'h' y la 'i' como marcadores diacríticos posicionales
 * **Palabra:** `Ghiaccio` (Hielo)
   * *Desglose:* 'gh' es oclusiva velar 'g'. La 'ia' forma diptongo. Doble 'c' exige oclusión previa antes de la explosión 'ch'. La 'i' final es diacrítico mudo.
   * *Fonetización final:* **giá tcho**
-
 ---
-
 ## 7. Interferencia Fonética (Simulación de Acento Italiano en Español)
 
 El italiano calca su marco rítmico oscilante sobre el español, sobrearticulando las vocales, fricativizando oclusivas y generando geminaciones parásitas involuntarias.

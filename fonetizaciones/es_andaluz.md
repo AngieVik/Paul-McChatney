@@ -1,9 +1,7 @@
 # Guía de Fonetización en Español: Andaluz (Macrodialecto Meridional General)
 
 **Notas de Configuración Fonética:** Sistema diatópicamente heterogéneo pero unificado por una profunda "economía articulatoria" (debilitamiento de consonantes en posición de coda). Representa la vanguardia fonética de la evolución del castellano, exigiendo la aplicación de leyes de asimilación, elisión y compensación vocálica [Alvar, M. (1996). *Manual de dialectología hispánica*].
-
 ---
-
 ## 1. Perfil Fonético General
 
 El andaluz presenta una postura articulatoria relajada en la zona posterior de la cavidad bucal, con una transferencia de la carga de información desde las consonantes hacia las vocales.
@@ -65,9 +63,7 @@ El inventario consonántico sufre un proceso de fricativización generalizada y 
 * **Palabra:** `Los amigos`
   * *Desglose:* La 's' final de *Los* ante la vocal 'a' se transforma en una suave aspiración sonora ('j' suave). La 's' final cae.
   * *Fonetización final:* **lo ja mí go-**
-
 ---
-
 ## 7. Interferencia Fonética (Simulación de Acento Andaluz)
 
 Más que una interferencia sobre otro idioma, esta sección define cómo el locutor andaluz procesa fonológicamente la ortografía académica del castellano durante la lectura fluida o el habla coloquial.

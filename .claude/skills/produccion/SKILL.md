@@ -1,11 +1,9 @@
 ---
 name: produccion
-description: lanza el flujo completo de 5 fases (el core).
----
-
+description: lanza el flujo completo de 5 fases (el core).---
 # produccion
 
-Activa el **Modo Producción** de Paul McChatney: el flujo de 5 fases interactivas para crear una obra completa lista para Suno. Es la skill central; el resto son fases o utilidades aisladas de esta.
+Activa el **Modo Producción** de Paul McChatney: el flujo de 5 fases interactivas para crear una obra completa. Es la skill central; el resto son fases o utilidades aisladas de esta.
 
 ## Antes de empezar
 
@@ -20,7 +18,7 @@ Lo producido en las Fases 0–3 (concepto, `style_box` y **también la letra**) 
 
 1. **Fase 0 — Concepto.** 
     Si la idea es abstracta, propón opciones. 
-    Investiga en web: *acentos*, *modismos*, *jerga*, *fonetización*, *géneros y géneros subyacentes*, *tendencias sonoras* y *referencias de grupos*. 
+    Investiga en web: *acentos*, *modismos*, *jerga*, *géneros*, *géneros subyacentes*, *tendencias sonoras* y *referencias de grupos*. 
     Muestra un pequeño informe; aclara contexto emocional + género. 
     Para el molde de fusión (qué colisionar: lingüístico-tonal, rítmica, tímbrica), busca por concepto —grep, solo coincidencias— en `composicion/style_box.md`. 
         **PARA.**
@@ -32,7 +30,7 @@ Lo producido en las Fases 0–3 (concepto, `style_box` y **también la letra**) 
     Redacta la letra sin etiquetas, foco poético/narrativo; queda abierta a refinarse en fases posteriores. Apóyate en `composicion/letra.md` y `lirica`.
     Solo si se pide **explícitamente** una fonetización o jerga concreta, aplícala sobre la letra cantable con `fonetizar` o `jerga` (nunca en el `style_box`).
     Salvo los dialectos de España (andaluz, gallego, euskera…), las guías simulan un acento extranjero cantando en español (un inglés o un francés cantando en español), no una voz nativa.
-    Si la obra debe cantarse en un idioma específico, no fonetices, ancla el idioma en el `style_box` y el motor lo cantará nativo.
+    Si la obra debe cantarse en un idioma específico, no fonetices, ancla el idioma en el `style_box`.
         **PARA.**
 4. **Fase 3 — Etiquetado (lyrics_box).**
     Inyecta las metaetiquetas de estructura y dirección de banda de manera magistral en el `lyrics_box` (grep en `composicion/lyrics_box.md` y `composicion/tecnicas_vocales.md`). 
@@ -57,7 +55,7 @@ Finaliza la `produccion` cuando se te indique explícitamente:
 
 **validar / aprobar** (guardar en `proyectos`)
 - Guarda la obra en `proyectos/<slug>/<slug>.md` con la plantilla (`chuletas/plantilla_proyecto.md`) y regístrala en `PROYECTOS.md`.
-- Lanza la **retrospectiva** (`conocimientos/retrospectiva.md`) y propón crear un archivo en `conocimientos/archivos_retrospectiva/<slug>.md`. Usa la skill `proyecto` para orquestar esto.
+- Lanza la **retrospectiva** (`conocimientos/retrospectiva.md`): si hay un aprendizaje real, **propón** archivarlo (añadir/modificar/eliminar) en `.claude/MEMORY.md` o en `composicion/` y **espera validación**. Usa la skill `proyecto` para orquestar esto.
 
 **guardar** (guardar en `_hojas_sucias/`).
 

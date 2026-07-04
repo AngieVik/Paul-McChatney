@@ -1,9 +1,7 @@
 # Guía de Jerga y Modismos: Cheli (Madrid, España)
 
 **Contexto Sociolingüístico:** Jerga urbana madrileña popularizada durante los años 70 y 80 en el contexto de la "Movida Madrileña". Originada en los barrios periféricos y de clase trabajadora, cuenta con una fortísima influencia del *caló* (romaní ibérico) y el argot marginal. Actualmente, gran parte de su léxico está asimilado en la cultura pop y el habla coloquial de toda España.
-
 ---
-
 ## Perfil Lexical General
 
 Una introducción al "carácter" del vocabulario para entender la mentalidad y el entorno del hablante.

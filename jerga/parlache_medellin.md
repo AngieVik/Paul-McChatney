@@ -1,9 +1,7 @@
 # Guía de Jerga y Modismos: Parlache (Medellín - Colombia)
 
 **Contexto Sociolingüístico:** Argot urbano surgido en las comunas populares y barriadas periféricas de Medellín durante las décadas de 1980 y 1990, coincidiendo con la época de mayor violencia del narcotráfico. Nació como un código cerrado de supervivencia y delincuencia, pero con el tiempo, impulsado por las telenovelas, la cultura hip-hop y el reggaetón, permeó todas las capas sociales. Hoy es la columna vertebral del habla coloquial de la juventud antioqueña y colombiana en general.
-
 ---
-
 ## Perfil Lexical General
 
 Una introducción al "carácter" del vocabulario para entender la mentalidad y el entorno del hablante.

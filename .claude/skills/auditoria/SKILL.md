@@ -1,8 +1,6 @@
 ---
 name: auditoria
-description: audita agresivamente un prompt de Suno ya escrito — caza conflictos de etiquetas, vicios de escritura, clichés y errores de formato, y propone cómo elevar el impacto (Fase 4 aislada).
----
-
+description: audita agresivamente un prompt ya escrito — caza conflictos de etiquetas, vicios de escritura, clichés y errores de formato, y propone cómo elevar el impacto (Fase 4 aislada).---
 # auditoria
 
 Audita **a fondo y sin piedad** un prompt ya escrito (Fase 4 aislada): caza conflictos de etiquetas, vicios de escritura, clichés y errores de formato, y detecta dónde subir el impacto. **Agresivo detectando, quirúrgico corrigiendo:** señala todo lo que huela mal, pero **no reescribas la obra entera** salvo que se pida.
@@ -52,7 +50,7 @@ El usuario pide revisar/auditar un prompt, o se cierra la Fase 4 de `produccion`
 
 ## Entra → Sale
 
-- **Entra:** un prompt de Suno ya escrito (los 4 bloques) o la última versión en caché.
+- **Entra:** un prompt ya escrito (los 4 bloques) o la última versión en caché.
 - **Sale:** informe ✅/⚠️/💡 con el detector que salta y su arreglo; correcciones críticas aplicadas (obra entera solo si se pide).
 
 ## Relación

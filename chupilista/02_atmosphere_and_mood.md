@@ -1,9 +1,7 @@
 # atmosphere_and_mood
 
 *Colección de atmósferas, texturas y estados emocionales para diseño sonoro y composición musical.*
-*Recordatorio: se consulta por búsqueda (grep) o saltando a una sección*
----
-
+*Recordatorio: se consulta por búsqueda (grep) o saltando a una sección*---
 ## Índice
 
 `1 · Ingeniería Sonora y Texturas`
@@ -15,9 +13,7 @@
 `7 · Intimidad, Romance y Euforia`
 `8 · Furia, Acción y Caos Adrenalínico`
 `9 · Misticismo, Sueños y Surrealismo`
-
 ---
-
 ### 1 · Ingeniería Sonora y Texturas
 
 *Tags enfocados en la manipulación de frecuencias, degradación de señal, LFOs, síntesis granular y diseño de sonido puro.*
@@ -154,9 +150,7 @@
 [White Noise Suffocation Core]
 [Xenochronic Audio Splicing Mirage]
 [Xenochronic Audio Splicing]
-
 ---
-
 ### 2 · Sci-Fi, Ciberespacio y Vacío Cósmico
 
 *Entornos digitales, inteligencias artificiales, cyberpunk, anomalías cuánticas y el aislamiento del espacio exterior.*
@@ -283,9 +277,7 @@
 [Wandering Stars Symphony]
 [Wormhole Collapse Panic]
 [Zero Gravity Drift]
-
 ---
-
 ### 3 · Tensión, Paranoia y Terror Psicológico
 
 *Ansiedad, espacios liminales, persecuciones, latidos acelerados y locura.*
@@ -460,9 +452,7 @@
 [Whispering Tension]
 [Wire Tapped Paranoia]
 [Witching Hour Panic]
-
 ---
-
 ### 4 · Melancolía, Luto y Desolación
 
 *Tristeza profunda, recuerdos que se desvanecen, soledad, luto y despedidas.*
@@ -577,9 +567,7 @@
 [Winter Solitude]
 [Withered Rose Petal Grief]
 [废墟 Ruin Exploration Nostalgia]
-
 ---
-
 ### 5 · Naturaleza Extrema y Elementos
 
 *Biomas implacables, profundidades abisales, hielo, fuego, tormentas y presión extrema.*
@@ -685,9 +673,7 @@
 [Volcanic Eruption]
 [Wildfire Smoke Horizon]
 [Wreckage Underwater Silence]
-
 ---
-
 ### 6 · Ruina Industrial y Decadencia Urbana (Industrial, Urban Decay & Ruins)
 
 *Fábricas abandonadas, polución, concreto oscuro, catacumbas y colapsos arquitectónicos.*
@@ -762,9 +748,7 @@
 [Terminal Terminal static]
 [Toxic Wasteland Euphoria]
 [Underground Outpost Confinement]
-
 ---
-
 ### 7 · Intimidad, Romance y Euforia
 
 *ASMR, cercanía física, victorias absolutas, revelaciones y calor humano.*
@@ -844,9 +828,7 @@
 [Whispered ASMR Intimate Softness]
 [Whispered Secrets]
 [Wild Burning Desire]
-
 ---
-
 ### 8 · Furia, Acción y Caos Adrenalínico
 
 *Combate, adrenalina, bestialidad, revueltas sociales y percusión agresiva.*
@@ -931,9 +913,7 @@
 [Villain Origin Story]
 [Violent Inner Storm]
 [War Drum Barbarism]
-
 ---
-
 ### 9 · Misticismo, Sueños y Surrealismo
 
 *Rituales, viajes astrales, coros celestiales, hipnosis y texturas esotéricas.*
@@ -1065,5 +1045,4 @@
 [Whispering Cold Streets]
 [Whispers Of Another Life]
 [Zen Monastery Stillness]
-
 ---

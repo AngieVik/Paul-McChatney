@@ -1,9 +1,7 @@
 # Guía de Fonetización en Español: Dialecto Rioplatense (Argentina)
 
 **Notas de Configuración Fonética:** Sistema fonológico altamente distintivo, caracterizado por el yeísmo rehilado y la aspiración o elisión de consonantes en posición implosiva. Requiere la adaptación de patrones rítmicos particulares y la correcta colocación de la tilde obligatoria para reflejar la acentuación rioplatense (especialmente en el voseo).
-
 ---
-
 ## Perfil Fonético General
 
 Una introducción al "carácter" del idioma para establecer la postura articulatoria del lector.
@@ -59,9 +57,7 @@ Disección de palabras clave aplicando las reglas anteriores.
 * **Palabra:** `¿Vos qué decís?` (¿Tú qué dices?)
   * *Desglose:* Aplicación del pronombre de la segunda persona con aspiración interna de la 's'. El verbo pierde el diptongo del estándar peninsular y traslada el acento al extremo final con una curva de entonación ascendente.
   * *Fonetización final:* **vóh ké de sís**
-
 ---
-
 ## Interferencia Fonética (Simulación de Acento)
 
 Definición de cómo los hablantes nativos de este idioma distorsionan los fonemas del español estándar o de otros idiomas (Lectura inversa).

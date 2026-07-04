@@ -1,6 +1,6 @@
 # Paul McChatney
 
-Sistema de composición musical asistida por IA para crear canciones, prompts, style_box, lyrics_box, exclude_box y documentación de proyectos musicales.
+Sistema de composición musical para crear canciones, prompts, style_box, lyrics_box, exclude_box y documentación de proyectos musicales.
 
 ## Estructura
 
@@ -11,7 +11,7 @@ Sistema de composición musical asistida por IA para crear canciones, prompts, s
 - `_temp/`: archivos temporales para extraer data o de utilización temporal. (ignorada)
 - `.claude/`: memoria y reglas de carga.
 - `chuletas/`: plantillas base.
-- `chupilista/`: biblioteca de tags para Suno.
+- `chupilista/`: biblioteca de tags.
 - `composicion/`: reglas de escritura, estructura y producción.
 - `conocimientos/`: documentos técnicos y retrospectivas.
 - `fonetizaciones/`: guias para la fonetización en español de diferentes idiomas.

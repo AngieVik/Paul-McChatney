@@ -1,9 +1,7 @@
 # Guía de Fonetización en Español: Edad Avanzada (Presbifonía / Sociodialecto Generacional)
 
 **Notas de Configuración Fonética:** Este perfil no responde a una delimitación geográfica, sino fisiológica y generacional. Se fundamenta en la *presbifonía* (envejecimiento del aparato fonador humano) que conlleva pérdida de masa muscular en las cuerdas vocales, menor capacidad pulmonar y posibles alteraciones articulatorias por falta de piezas dentales o fatiga neuromuscular.
-
 ---
-
 ## 1. Perfil Fonético General
 
 La emisión de voz en la senectud requiere un esfuerzo físico evidente. La articulación pierde nitidez y el flujo respiratorio fragmenta la continuidad de la cadena hablada.
@@ -60,9 +58,7 @@ La pérdida de tensión muscular (hipotonía) y los problemas de oclusión denta
 * **Palabra:** `Reumatismo`
   * *Desglose:* Reducción de la 'rr' múltiple a simple. Alargamiento del diptongo. Debilitamiento masivo de la 't'.
   * *Fonetización final:* **reu- ma tí-j mo**
-
 ---
-
 ## 7. Interferencia Fonética (Simulación de Acento Senil en Español)
 
 Esta sección define cómo aplicar el "filtro" del deterioro fonador y la bradilalia a cualquier oración en español para simular la cadencia de una persona de edad muy avanzada.

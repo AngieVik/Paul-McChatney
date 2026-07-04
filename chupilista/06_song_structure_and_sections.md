@@ -2,9 +2,7 @@
 
 *Colección exhaustiva de etiquetas sobre la estructura musical, secciones de canciones, transiciones y motivos narrativos.*
 *Recordatorio: se consulta por búsqueda (grep) o saltando a una sección.*
-
 ---
-
 ## Índice
 
 `1 · Introducciones y Preámbulos`
@@ -15,9 +13,7 @@
 `6 · Interludios, Drops y Transiciones`
 `7 · Outros, Codas y Finales`
 `8 · Narrativa, Motivos y Elementos Conceptuales`
-
 ---
-
 ### 1 · Introducciones y Preámbulos
 
 *Secciones iniciales que establecen el tono, la atmósfera y el contexto temático antes del desarrollo de la estructura principal.*
@@ -135,9 +131,7 @@
 [Wicked Witch Piercing Cackle Intro Laugh]
 [Wide Double-Tracked Guitar Intro Split]
 [Wide Double-Tracked Guitar Intro]
-
 ---
-
 ### 2 · Versos y Estrofas
 
 *Bloques narrativos y rítmicos principales que desarrollan la lírica o el motivo central de la obra, a menudo con variaciones métricas o instrumentales.*
@@ -280,9 +274,7 @@
 [Yodeling Alpine Mountain Verse Singer Group]
 [Zen Monk Deep Meditative Verse Intonation]
 [Zouk Concrete Caribbean Syncopated Verse Bounce]
-
 ---
-
 ### 3 · Pre-Estribillos y Construcciones de Tensión
 
 *Transiciones ascendentes diseñadas para generar expectativa, aumentar la dinámica y preparar la llegada del clímax o estribillo.*
@@ -325,9 +317,7 @@
 [Tension Build Pre-Chorus]
 [Thick Synth Pluck Short Decay Pre-Chorus]
 [White Noise Pumping Filter-Modulated Pre-Chorus Swell]
-
 ---
-
 ### 4 · Estribillos y Ganchos (Hooks)
 
 *El núcleo emocional y pegadizo de la pista, caracterizado por su alta energía, memorabilidad y repetición dinámica.*
@@ -458,9 +448,7 @@
 [Wood Block High Pitch Percussion Chorus Click]
 [Youthful Energetic J-Pop Female Chorus Lead]
 [Zurna Turkish Piercing Double Reed Chorus Blast]
-
 ---
-
 ### 5 · Puentes y Breakdowns
 
 *Secciones de contraste estructural que rompen la monotonía mediante cambios armónicos, rítmicos o instrumentales.*
@@ -571,9 +559,7 @@
 [Vocoder Robot Choir Polyphonic Bridge Grid]
 [Washboard Thimble-Scrape Fast Bridge Rhythm Trick]
 [Zither European Table Lap Bridge Pluck Ring]
-
 ---
-
 ### 6 · Interludios, Drops y Transiciones
 
 *Segmentos instrumentales, cortes abruptos o efectos de diseño sonoro que conectan partes mayores o impactan mediante contrastes dinámicos.*
@@ -741,9 +727,7 @@
 [Wet Reverb Drenched Interlude]
 [White Noise Wash Interlude Sweep]
 [White Noise Wash Interlude]
-
 ---
-
 ### 7 · Outros, Codas y Finales
 
 *Secciones de cierre que resuelven la pista, ya sea mediante un clímax final, un desvanecimiento paulatino o cortes abruptos de sonido.*
@@ -947,9 +931,7 @@
 [Whispered Callback Intro Coda]
 [Whispered Outro]
 [Wreckage Underwater Silence Ambient Postlude Outro]
-
 ---
-
 ### 8 · Narrativa, Motivos y Elementos Conceptuales
 
 *Etiquetas abstractas que describen arcos narrativos, desarrollo de personajes, conflictos emocionales o la repetición y reaparición de motivos estructurales a lo largo de la pista.*
@@ -1052,5 +1034,4 @@
 [The Wound That Sings]
 [Unexpected Betrayal]
 [Whispers Of A Broken Empire]
-
 ---

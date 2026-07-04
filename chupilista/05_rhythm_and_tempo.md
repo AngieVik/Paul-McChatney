@@ -1,10 +1,8 @@
 # rhythm_and_tempo
 
-*Núcleo de control temporal, métrica matemática, cuantización y estructuración de la cuadrícula rítmica. Utilizar para definir la velocidad (BPM), el esqueleto percusivo y la fluidez temporal en el motor de generación.*
+*Núcleo de control temporal, métrica matemática, cuantización y estructuración de la cuadrícula rítmica. Utilizar para definir la velocidad (BPM), el esqueleto percusivo y la fluidez temporal.*
 *Recordatorio: se consulta por búsqueda (grep) o saltando a una sección.*
-
 ---
-
 ## Índice
 
 `1 · Tempo, Velocidad y Multiplicadores`
@@ -13,9 +11,7 @@
 `4 · Patrones de Género y Estilos Específicos`
 `5 · Glitch, Stutter y Fracturas IDM`
 `6 · Dinámica, Acústica Espacial y Estructura Rítmica`
-
 ---
-
 ### 1 · Tempo, Velocidad y Multiplicadores
 
 *Etiquetas para el control absoluto de los BPM, alteraciones de velocidad, transiciones de tiempo medio (half-time) o doble (double-time), acelerandos y ritardandos.*
@@ -124,9 +120,7 @@
 [Sudden Half-Time Trap Drop Transition Shock]
 [Ultra-Fast Speedcore Overclocked Kick Matrix 300 BPM]
 [Up-Tempo Bluegrass Train-Beat Acoustic Guitars]
-
 ---
-
 ### 2 · Compases, Polirritmias y Rejillas Matemáticas
 
 *Estructuras de compás estándar y amalgamas, divisiones complejas, polirritmias, algoritmos matemáticos aplicados al tiempo y variaciones de firmas métricas.*
@@ -243,9 +237,7 @@
 [Straight 8ths]
 [Triple-Time Subdivision Fast Chopper Flow Grid]
 [Waltz Time 3/4]
-
 ---
-
 ### 3 · Groove, Cuantización y Micro-Timing
 
 *Parámetros para ajustar el "feel" humano vs mecánico, desplazamientos de micro-tiempo, swing, síncopas, rubato y rigidez robótica de la secuencia.*
@@ -336,9 +328,7 @@
 [Unquantized Human Feel Slop Engine Matrix]
 [Unquantized Neo-Soul J Dilla Swing Groove Slop]
 [Vintage LinnDrum Mechanical 80s Quantization Grid]
-
 ---
-
 ### 4 · Patrones de Género y Estilos Específicos
 
 *Bases rítmicas intrínsecas a géneros musicales definidos (EDM, Latino, Rock, Metal, Jazz, World Music) y sus patrones de batería o percusión característicos.*
@@ -477,9 +467,7 @@
 [Upbeat Funk Rhythm]
 [Washboard Thimble-Scrape Fast Bluegrass Rhythm Trick]
 [Zouk Concrete Caribbean Syncopated Slow Wine Bounce]
-
 ---
-
 ### 5 · Glitch, Stutter y Fracturas IDM
 
 *Efectos de manipulación de la rejilla temporal, cortes de audio a nivel muestral, síntesis granular y fallos digitales inducidos para música experimental y electrónica avanzada.*
@@ -604,9 +592,7 @@
 [Vocoder Robot Choir Polyphonic Grid Pulse]
 [Xenochronic Audio Splicing]
 [Xenochronic Audio Splicing Rhythms]
-
 ---
-
 ### 6 · Dinámica, Acústica Espacial y Estructura Rítmica
 
 *Procesamiento en la etapa de mezcla enfocado al ritmo: compresión sidechain, envolventes de transitorios, paneo espacial, cortes abruptos (drops/mutes) y el impacto acústico de la percusión.*
@@ -837,5 +823,4 @@
 [White Noise Static Wash Sweep]
 [Wide Double-Tracked Hard Panned Percs]
 [Wide Double-Tracked Panned Percs]
-
 ---

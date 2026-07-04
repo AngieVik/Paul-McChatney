@@ -1,9 +1,7 @@
 # Guía de Fonetización en Español: Dialecto Boricua (Puerto Rico)
 
 **Notas de Configuración Fonética:** Sistema fonológico de base caribeña, caracterizado por una alteración profunda de las consonantes en posición de cierre silábico y una marcada nasalidad vocálica. Requiere agilidad articulatoria y una reconfiguración de los fonemas róticos ('r', 'rr').
-
 ---
-
 ## Perfil Fonético General
 
 Una introducción al "carácter" del idioma para establecer la postura articulatoria del lector.
@@ -60,9 +58,7 @@ Disección de palabras clave aplicando las reglas anteriores.
 * **Palabra:** `Carro` (Carro)
   * *Desglose:* La doble vibrante sufre velarización, convirtiéndose en un sonido fricativo posterior.
   * *Fonetización final:* **ká jo**
-
 ---
-
 ## Interferencia Fonética (Simulación de Acento)
 
 Definición de cómo los hablantes nativos de este idioma distorsionan los fonemas del español estándar (Lectura inversa).

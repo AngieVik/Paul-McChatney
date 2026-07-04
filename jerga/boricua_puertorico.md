@@ -1,9 +1,7 @@
 # Guía de Jerga y Modismos: Jerga Boricua (Puerto Rico)
 
 **Contexto Sociolingüístico:** Argot caribeño moldeado por una historia colonial compleja, caracterizado por su base antillana, un fuerte sustrato africano (yoruba, kikongo) e indígena (taíno), y una masiva, constante e inevitable asimilación del inglés debido a su relación política con Estados Unidos. Al ser el epicentro mundial de la música urbana (Reggaetón, Trap latino), esta jerga se ha convertido en el principal exportador de modismos al resto de la juventud hispanohablante.
-
 ---
-
 ## Perfil Lexical General
 
 Una introducción al "carácter" del vocabulario para entender la mentalidad y el entorno del hablante.

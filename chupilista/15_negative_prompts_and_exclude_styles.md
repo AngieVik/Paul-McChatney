@@ -2,9 +2,7 @@
 
 *Colección exhaustiva de etiquetas negativas para evitar estilos musicales, instrumentos, efectos, artefactos de mezcla y texturas no deseadas en la generación y producción de audio.*
 *Recordatorio: se consulta por búsqueda (grep) o saltando a una sección*
-
 ---
-
 ## Índice
 
 `1 · Géneros, Estilos y Estructuras Musicales`
@@ -15,9 +13,7 @@
 `6 · Distorsión, Saturación y Estética Lo-Fi`
 `7 · Dinámica, Ecualización y Mezcla Espacial`
 `8 · Artefactos, Ruidos y Edición`
-
 ---
-
 ### 1 · Géneros, Estilos y Estructuras Musicales
 
 *Géneros musicales comerciales, convencionales o de nicho específicos, así como estructuras rítmicas particulares que se desean excluir.*
@@ -106,9 +102,7 @@
 [Vaporwave Slowdown]
 [Vaporwave Slowed]
 [Walking Basslines]
-
 ---
-
 ### 2 · Instrumentos, Arreglos y Composición
 
 *Instrumentación específica, tanto acústica como sintética, y técnicas de arreglo musical u orquestación.*
@@ -184,9 +178,7 @@
 [Zampona Flute]
 [Zephyr Synth Pads]
 [Zither]
-
 ---
-
 ### 3 · Voces y Tratamiento Vocal
 
 *Técnicas vocales, estilos de canto, agrupaciones corales y efectos aplicados directamente a la voz humana.*
@@ -251,9 +243,7 @@
 [Vocoder]
 [Whispering Vocals]
 [Yodeling]
-
 ---
-
 ### 4 · Efectos Espaciales (Reverb y Delay)
 
 *Efectos basados en el tiempo, reflexión acústica, ecos y simulación de espacios.*
@@ -339,9 +329,7 @@
 [Swell Reverb]
 [Wet Reverb Paths]
 [Wet Reverb]
-
 ---
-
 ### 5 · Efectos de Modulación y Afinación
 
 *Procesamiento que altera la fase, afinación o modulación cíclica de la señal de audio.*
@@ -413,9 +401,7 @@
 [Vibrato Pitch Flutter]
 [Vibrato Pitch]
 [Wah-Wah Modulations]
-
 ---
-
 ### 6 · Distorsión, Saturación y Estética Lo-Fi
 
 *Efectos que degradan la señal introduciendo armónicos, saturación de cinta/válvulas, reducción de bits o ruido analógico.*
@@ -503,9 +489,7 @@
 [Warm Analog Processing]
 [Warm Analog]
 [Warm Tape]
-
 ---
-
 ### 7 · Dinámica, Ecualización y Mezcla Espacial
 
 *Procesos que afectan el volumen, el espectro de frecuencias, la compresión, el panorama estéreo y el balance general.*
@@ -638,9 +622,7 @@
 [Wide Double Guitars]
 [Wide Stereo Enhancer]
 [Wide Stereo Images]
-
 ---
-
 ### 8 · Artefactos, Ruidos y Edición
 
 *Elementos de edición indeseados, fallos digitales, ruido de fondo ambiental y texturas disruptivas de postproducción.*
@@ -706,5 +688,4 @@
 [White Noise Washes]
 [White Noise Wash]
 [White Noise Sweeps]
-
 ---

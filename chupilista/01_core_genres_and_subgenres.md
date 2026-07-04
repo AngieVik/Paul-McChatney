@@ -1,9 +1,7 @@
 # core_genres_and_subgenres
 
 *Vocabulario de géneros y subgéneros para el style_box. Consulta por búsqueda (grep del género/raíz) o salta a la familia que toque vía el Índice.*
-
 ---
-
 ## Índice
 
 `1 · Música Electrónica, Dance y Derivados Sintéticos`
@@ -18,9 +16,7 @@
 `10 · Música Clásica, Coral y Tradición Europea`
 `11 · Ambient, Experimental, Vanguardia y Paisajes Sonoros`
 `12 · Cibernética, Chiptune y Cultura de Videojuegos`
-
 ---
-
 ### 1 · Música Electrónica, Dance y Derivados Sintéticos
 
 *House, techno, trance, drum & bass, dubstep, breakbeat, EDM, gabber, hardcore/hardstyle, synthwave y todo lo bailable de raíz electrónica o sintetizada.*
@@ -190,9 +186,7 @@
 [UK Bass]
 [Witch House]
 [Wonky]
-
 ---
-
 ### 2 · Rock, Metal, Punk y Vertientes Alternativas
 
 *Rock clásico y moderno, metal y sus ramas extremas, punk, hardcore, grunge, indie rock y alternativo con guitarra.*
@@ -313,9 +307,7 @@
 [Velvet Indie Rock]
 [Yacht Rock]
 [Zeuhl]
-
 ---
-
 ### 3 · Hip-Hop, Rap, Trap y R&B Contemporáneo
 
 *Rap, trap, boom bap, drill, grime y R&B contemporáneo; cultura urbana y beats.*
@@ -427,9 +419,7 @@
 [Twilight Trap Wave]
 [Uk Drill]
 [Urban Delta Blues]
-
 ---
-
 ### 4 · Pop, Indie y Synthpop
 
 *Pop mainstream y alternativo, indie pop, synthpop, electropop y baladas comerciales.*
@@ -509,9 +499,7 @@
 [Synthwave-pop]
 [Twee Pop]
 [V-pop]
-
 ---
-
 ### 5 · Jazz, Blues, Funk y Soul
 
 *Jazz y sus ramas, blues, funk, soul, Motown y groove orgánico afroamericano.*
@@ -593,9 +581,7 @@
 [Swamp Blues R&B]
 [Swamp Blues]
 [Third Stream Jazz]
-
 ---
-
 ### 6 · Folk, Country, Americana y Raíces Tradicionales
 
 *Folk, country, americana, bluegrass y músicas de raíz tradicional acústica.*
@@ -642,9 +628,7 @@
 [Rockabilly]
 [Sonido De Nashville]
 [Viking Folk]
-
 ---
-
 ### 7 · Música Latina, Caribeña y Reggae
 
 *Reggaetón, salsa, cumbia, bachata, flamenco, reggae, dancehall y ritmos latinos y caribeños.*
@@ -745,9 +729,7 @@
 [Tropicália]
 [Turreo]
 [Zouk]
-
 ---
-
 ### 8 · Música Africana y Afro-Fusión
 
 *Afrobeat, afro-pop, highlife, amapiano y fusiones de raíz africana.*
@@ -822,9 +804,7 @@
 [Tuareg]
 [West African Kora Flow]
 [Zulu War Drums]
-
 ---
-
 ### 9 · Música Asiática, Medio Oriente y Global
 
 *Músicas de Asia, Oriente Medio y world music; escalas, instrumentos y fusiones globales.*
@@ -989,9 +969,7 @@
 [Urdu Electropop]
 [Urdu House]
 [Urdu Shoegaze]
-
 ---
-
 ### 10 · Música Clásica, Coral y Tradición Europea
 
 *Orquestal, sinfónico, ópera, coral, cámara y música clásica europea.*
@@ -1106,9 +1084,7 @@
 [Symphonic Opera]
 [Synth Gospel Explosion]
 [Venetian Carnival Choir]
-
 ---
-
 ### 11 · Ambient, Experimental, Vanguardia y Paisajes Sonoros
 
 *Ambient, drone, experimental, vanguardia, glitch, noise y paisajes sonoros.*
@@ -1223,9 +1199,7 @@
 [Trailer Music]
 [Tribal African Drums]
 [Vogue Beats]
-
 ---
-
 ### 12 · Cibernética, Chiptune y Cultura de Videojuegos
 
 *Chiptune, 8-bit / 16-bit, música de videojuegos y estética digital retro.*
@@ -1284,5 +1258,4 @@
 [New Orleans Carnatic]
 [New Orleans House]
 [New Orleans Sam]
-
 ---

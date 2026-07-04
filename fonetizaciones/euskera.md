@@ -1,9 +1,7 @@
 # Guía de Fonetización en Español: Euskera (Euskara Batua)
 
 **Notas de Configuración Fonética:** Sistema ortográficamente transparente de correspondencia casi biunívoca. Presenta una alta complejidad articulatoria estructural debido a su triple oposición de fonemas sibilantes y africados, lo que exige una discriminación táctil y un posicionamiento milimétrico de la lengua (apical vs. laminal).
-
 ---
-
 ## 1. Perfil Fonético General
 
 El euskera exige una tensión muscular ininterrumpida en el tracto vocal, careciendo de procesos de reducción o relajación en las sílabas átonas.
@@ -66,9 +64,7 @@ El euskera occidental posee un sistema acentual de intensidad subyacente paramet
 * **Palabra:** `Eskerrik asko` (Muchas gracias)
   * *Desglose:* Sibilante apicoalveolar clara, vibrante múltiple sin *liaison* (enlace) con la vocal inicial de la palabra consecutiva, aplicando un corte micropausado.
   * *Fonetización final:* **es ké rrik - ás ko**
-
 ---
-
 ## 7. Interferencia Fonética (Simulación de Acento)
 
 El contacto sociolingüístico genera un sustrato fonético identificable cuando los vascófonos nativos articulan el español, aplicando la rigidez de su matriz fonológica original.

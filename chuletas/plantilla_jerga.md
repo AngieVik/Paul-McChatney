@@ -3,9 +3,7 @@ Genera el manual de jerga de [], sigue la plantilla y genera el resultado en un 
 # Guía de Jerga y Modismos: [Nombre de la Región, País o Grupo Social]
 
 **Contexto Sociolingüístico:** [Breve descripción general del origen y uso de la jerga. Ej. "Jerga urbana de clase trabajadora, fuertemente influenciada por la inmigración y el argot carcelario, actualmente asimilada en la cultura pop".]
-
 ---
-
 ## Perfil Lexical General
 
 Una introducción al "carácter" del vocabulario para entender la mentalidad y el entorno del hablante.

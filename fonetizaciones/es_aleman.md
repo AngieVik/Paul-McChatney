@@ -1,9 +1,7 @@
 # Guía de Fonetización en Español: Alemán (Hochdeutsch / Alemán Estándar)
 
 **Notas de Configuración Fonética:** Sistema ortográficamente transparente pero fonológicamente denso. Se rige por una correspondencia grafema-fonema estricta, dominada por agrupaciones consonánticas complejas (clusters), el ensordecimiento de oclusivas finales y una dicotomía rígida entre vocales cortas y largas.
-
 ---
-
 ## 1. Perfil Fonético General
 
 El alemán exige una articulación enérgica y proyectada desde la laringe, con alta tensión en los labios y en el velo del paladar. Su prosodia es tajante y marcial comparada con la fluidez romance.
@@ -68,9 +66,7 @@ El consonantismo alemán es agresivo, con múltiples puntos de fricación y un s
 * **Palabra:** `Sprechen` (Hablar)
   * *Desglose:* 'sp' inicial desencadena 'shp'. Rótica gutural. 'ch' tras la 'e' desencadena el *Ich-Laut* (sh palatal suave).
   * *Fonetización final:* **shpré shen**
-
 ---
-
 ## 7. Interferencia Fonética (Simulación de Acento Alemán en Español)
 
 La superposición de la fonotáctica germánica sobre el español produce una lectura marcial, saturada de aspiraciones, con ruptura de sinalefas y ensordecimiento sistemático de codas silábicas.

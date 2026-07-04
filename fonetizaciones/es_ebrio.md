@@ -1,9 +1,7 @@
 # Guía de Fonetización en Español: Estado de Embriaguez (Disartria Etílica)
 
 **Notas de Configuración Fonética:** La embriaguez produce una *disartria alcohólica*: una alteración motora del habla causada por el efecto depresor del alcohol sobre el sistema nervioso central, afectando la coordinación de los músculos fonadores, la lengua y los labios.
-
 ---
-
 ## 1. Perfil Fonético General
 
 El habla bajo los efectos del alcohol pierde su precisión geométrica. La lengua se vuelve pesada y el control de los labios se relaja, perdiendo la capacidad de realizar oclusiones limpias.
@@ -34,7 +32,7 @@ La pérdida de tono muscular destruye la distinción entre consonantes oclusivas
 | **r / rr** (Vibrantes) | La lengua no alcanza el alvéolo. Se vuelve una aproximante. | **l** (velarizada) o **w** |
 | **n / m** (Nasales) | Incapacidad de cerrar totalmente el velo. | **ng** (nasalidad exagerada) |
 
-* **Consonantes mudas / añadidas:** La principal alteración es la **epéntesis** por error motor: el hablante intenta articular un grupo consonántico pero se le escapa una vocal intermedia involuntaria (ej. *plato* → **pe lá to**).
+* **Consonantes mudas / añadidas:** La principal alteración es la **Epéntesis**: el hablante intenta articular un grupo consonántico pero se le escapa una vocal intermedia involuntaria (ej. *plato* → **pe lá to**).
 
 ## 4. Reglas de Acentuación, Cadencia y Entonación
 
@@ -45,7 +43,7 @@ La pérdida de tono muscular destruye la distinción entre consonantes oclusivas
 ## 5. Excepciones y "Falsos Amigos" Fonéticos
 
 * **El Falso Amigo "La Letra Perdida":** La consonante no es que sea muda, es que el hablante *olvida* que debe realizar el movimiento articulatorio antes de pasar a la siguiente letra. (ej. *verdad* → **be dá**).
-* **La Repetición (Tartamudeo alcohólico):** Debido a un "bloqueo" en el programa motor del lenguaje, la sílaba inicial de una palabra puede repetirse rítmicamente antes de que el hablante logre completar la palabra (ej. *ma-ma-ma-manzana*).
+* **La Repetición (Tartamudeo alcohólico):** Debido a un "bloqueo", la sílaba inicial de una palabra puede repetirse rítmicamente antes de que el hablante logre completar la palabra (ej. *ma-ma-ma-manzana*).
 
 ## 6. Casos Prácticos de Aplicación (Lectura Directa)
 
@@ -60,9 +58,7 @@ La pérdida de tono muscular destruye la distinción entre consonantes oclusivas
 * **Palabra:** `Habitación`
   * *Desglose:* 'H' muda. 'b' se fricativiza. 't' se vuelve 'd' suave. La 'c' (dental) se vuelve 's'. La 'n' final nasaliza la 'o'.
   * *Fonetización final:* **a bi dá shióng**
-
 ---
-
 ## 7. Interferencia Fonética (Simulación de Acento Ebrio en Español)
 
 La simulación del acento ebrio implica la *desarticulación* consciente de las reglas del español estándar.

@@ -1,21 +1,15 @@
 ---
 name: cover-art
-description: genera 3 prompts 1:1 para Gemini a partir del sentimiento (no el argumento) de una obra.
----
-
+description: genera 3 prompts 1:1 para Gemini a partir del sentimiento (no el argumento) de una obra.---
 # Cover Art — Prompts para Gemini
 
 Convierte una obra de Paul McChatney en **3 prompts perfectos** para que Gemini genere portadas (cover art) en formato **1:1 (cuadrado)**.
 No se trata de ilustrar la letra de forma literal, sino de **pescar el sentimiento**: los conceptos semánticos y las cualidades ocultas que laten dentro de la canción.
-
 ---
-
 ## Cuándo se activa
 
 El usuario pide una portada, un cover, un cover art, una carátula o "imágenes para la canción". Si hay varias obras en juego, preguntar **de cuál**.
-
 ---
-
 ## Paso 1 — Examinar la obra
 
 Antes de escribir nada, leer y entender la pieza completa:
@@ -27,9 +21,7 @@ Antes de escribir nada, leer y entender la pieza completa:
    ¿de qué color huele? La meta es **hallar el sentimiento**, no el argumento.
 
 Resumir en 1–2 frases internas el "núcleo emocional" antes de continuar.
-
 ---
-
 ## Paso 2 — Extraer las 3 mejores escenas fotográficas
 
 Sacar de la obra **las 3 mejores escenas fotográficas**, sin cuotas ni reparto obligatorio por tipo.
@@ -48,9 +40,7 @@ Reglas para las escenas:
 - Pueden ser **ciencia ficción o cosas inventadas** — libertad total.
 - Deben nacer del **sentimiento** hallado en el Paso 1, no de la trama literal.
 - Que sean **distintas entre sí** (no tres variaciones de lo mismo).
-
 ---
-
 ## Paso 3 — Escribir los 3 prompts para Gemini
 
 Cada escena se traduce a **un prompt en lenguaje natural**, pensado para que Gemini lo entienda, lo ejecute y lo realice **sin fricción**:
@@ -58,16 +48,14 @@ Cada escena se traduce a **un prompt en lenguaje natural**, pensado para que Gem
 - **Fácil de comprender**: frases claras, una idea por bloque.
 - **Concreto**: sujeto, acción, entorno, luz, atmósfera y estilo.
 - **Cuadrado**: indicar siempre **aspect ratio 1:1 / square composition**.
-- Sin jerga técnica de Suno ni metatags — esto es para un generador de imágenes.
+- Sin jerga técnica ni metatags — esto es para un generador de imágenes.
 - Sin texto ni tipografía dentro de la imagen (salvo que el usuario lo pida).
 
 Estructura sugerida de cada prompt:
 
 > [Sujeto principal] + [acción/postura] + [entorno y época] + [luz y color] +
 > [atmósfera/emoción] + [estilo fotográfico] + **square 1:1 composition, high detail**.
-
 ---
-
 ## Formato de salida
 
 Una primera línea con el **núcleo emocional** detectado (para que el usuario vea de dónde sale cada escena), seguida de tres bloques de código Markdown independientes, listos para copiar y pegar en Gemini (coherente con `composicion/formato.md` §2):

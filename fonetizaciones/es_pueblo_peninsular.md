@@ -1,9 +1,7 @@
 # Guía de Fonetización en Español: Habitante de Pueblo (Sociodialecto Rural Genérico Peninsular)
 
 **Notas de Configuración Fonética:** No se trata de un idioma ni de un dialecto geográfico estricto, sino de un sociodialecto (o registro de instrucción popular) extendido por las áreas rurales de la mitad norte y centro de la Península Ibérica (Castilla, León, Aragón, etc.). Se caracteriza por la conservación de arcaísmos, la simplificación de grupos consonánticos cultos y la alteración silábica mediante vulgarismos estructurales (metátesis y epéntesis).
-
 ---
-
 ## 1. Perfil Fonético General
 
 El registro rural peninsular exige una articulación recia, con gran tensión en la cavidad bucal posterior (fricativas velares fuertes) y un marcado uso de los labios para resolver hiatos.
@@ -64,9 +62,7 @@ El inventario es puramente castellano, pero redistribuido mediante fenómenos de
 * **Palabra:** `Dotor` (Doctor)
   * *Desglose:* Simplificación del clúster consonántico culto 'ct'. La 'c' (oclusiva velar) desaparece en favor de la 't' (oclusiva dental).
   * *Fonetización final:* **do tór**
-
 ---
-
 ## 7. Interferencia Fonética (Simulación de Acento Rural en Español)
 
 Esta sección detalla cómo el hablante rural filtra e interpreta la norma culta del español al leer o hablar, aplicando su matriz de vulgarismos, arcaísmos y economía articulatoria.

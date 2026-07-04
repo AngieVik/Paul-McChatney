@@ -1,9 +1,7 @@
 # Guía de Fonetización en Español: Portugués (Europeo / Continental)
 
 **Notas de Configuración Fonética:** Sistema ortográficamente engañoso para el hispanohablante. Aunque comparte la misma raíz y gran parte del léxico con el español y el gallego, su fonología es radicalmente distinta. Se caracteriza por un colapso masivo de las vocales átonas y un denso agrupamiento consonántico, lo que a menudo provoca que auditivamente se confunda con idiomas eslavos como el ruso.
-
 ---
-
 ## 1. Perfil Fonético General
 
 El portugués europeo requiere mantener la boca mucho más cerrada que en español, centralizando y oscureciendo las vocales que no llevan el acento principal, y adelantando la fricación a los dientes y labios.
@@ -68,9 +66,7 @@ El portugués posee fricativas sonoras y sordas ausentes en el español peninsul
 * **Palabra:** `Português` (Portugués)
   * *Desglose:* 'O' inicial se cierra a 'u'. 'r' final de sílaba. 'g' fuerte. 'ê' cerrada tónica. 's' final se vuelve 'sh'.
   * *Fonetización final:* **pur tu gé-sh**
-
 ---
-
 ## 7. Interferencia Fonética (Simulación de Acento Portugués en Español)
 
 La aplicación de la fonología lusitana sobre el castellano destruye la claridad vocálica de este último, saturando las oraciones de silbidos, zumbidos y sílabas aparentemente desaparecidas.

@@ -2,9 +2,7 @@
 
 *Una colección exhaustiva de instrucciones (tags) diseñadas para invocar motivos pasados, reestructurar arreglos, manipular la dinámica rítmica y aplicar texturas de mezcla en la generación de audio musical.*
 *Recordatorio: se consulta por búsqueda (grep) o saltando a una sección.*
-
 ---
-
 ## Índice
 
 `1 · Callbacks y Retornos Estructurales`
@@ -13,9 +11,7 @@
 `4 · Efectos de Audio, Espacio y Texturas`
 `5 · Tratamiento Vocal y Coros`
 `6 · Instrumentación, Género y Motivos`
-
 ---
-
 ### 1 · Callbacks y Retornos Estructurales
 
 *Instrucciones enfocadas en la repetición y reintroducción de secciones clave, melodías principales y anclajes estructurales de la canción.*
@@ -326,9 +322,7 @@
 [Theme B Reprise Symmetrical Structural Grid]
 [Theme B Reprise Symmetrical Structural]
 [Theme B Reprise]
-
 ---
-
 ### 2 · Gestión de Pistas y Arreglos
 
 *Etiquetas destinadas a mutear, aislar, añadir o suprimir elementos específicos de la mezcla de forma abrupta o progresiva.*
@@ -381,9 +375,7 @@
 [Sparse Minimalist Arrangement Void]
 [Strip down to acoustic guitar]
 [Strip down to electric piano]
-
 ---
-
 ### 3 · Dinámica, Tempo y Modulación Rítmica
 
 *Control directo sobre la velocidad, el groove, interrupciones rítmicas, paradas dramáticas y modulaciones polirrítmicas.*
@@ -455,9 +447,7 @@
 [Transition: Seamless flow to Verse 2]
 [Transition: Sudden stop into Bridge]
 [Transition: Sudden stop into Verse 3]
-
 ---
-
 ### 4 · Efectos de Audio, Espacio y Texturas
 
 *Procesamiento de señal, texturas ambientales, alteraciones estéreo, saturación y ecualización paramétrica.*
@@ -670,9 +660,7 @@
 [White Noise Wash Interlude Return]
 [Wide Double-Tracked Guitar Intro Callback]
 [Wide Double-Tracked Guitar Intro Return]
-
 ---
-
 ### 5 · Tratamiento Vocal y Coros
 
 *Gestión integral de acapellas, secciones corales, susurros, armonizaciones y reverberación sobre la pista vocal.*
@@ -780,9 +768,7 @@
 [Whispered Callback Intro Coda Ghost Voice]
 [Whispered Callback Of Intro Theme]
 [Whispered Callback Of Intro]
-
 ---
-
 ### 6 · Instrumentación, Género y Motivos
 
 *Regreso e integración de instrumentos o líneas melódicas específicas como bajos 808, sintetizadores, vientos, guitarras y orquestaciones.*
@@ -972,5 +958,4 @@
 [Synth Motif Return]
 [Vamp on Main Chord Progression]
 [Vamp]
-
 ---

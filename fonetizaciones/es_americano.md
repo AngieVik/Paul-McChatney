@@ -1,9 +1,7 @@
 # Guía de Fonetización en Español: Inglés Americano (General American)
 
 **Notas de Configuración Fonética:** Sistema ortográficamente opaco y de alta profundidad (no fonémico). Requiere desvincular por completo la escritura de la pronunciación, obligando a memorizar patrones históricos y depender fundamentalmente de la reducción vocálica (Schwa) y el ritmo de intensidad.
-
 ---
-
 ## 1. Perfil Fonético General
 
 El inglés americano es un idioma de ritmo elástico, basado en la isocronía acentual (stress-timed). Alterna sílabas largas, tensas y de tono alto con sílabas comprimidas, oscuras y ultracortas.
@@ -66,9 +64,7 @@ La fonética americana introduce sibilantes sonoras, aspiraciones y una configur
 * **Palabra:** `Information` (Información)
   * *Desglose:* Acento primario en 'ma' ('ei'). 'o' inicial se reduce a schwa. 'tion' es sufijo predecible.
   * *Fonetización final:* **in for méi shen**
-
 ---
-
 ## 7. Interferencia Fonética (Simulación de Acento Gringo en Español)
 
 La transferencia estructural del General American al español destruye el ritmo isosilábico puro y contamina las vocales puras con diptongos sistemáticos y aspiraciones percusivas.

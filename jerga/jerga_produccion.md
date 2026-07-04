@@ -1,9 +1,7 @@
 # Guía de Jerga y Modismos: Jerga de Producción de Audio y Mastering
 
 **Contexto Sociolingüístico:** Argot técnico y profesional utilizado en estudios de grabación, *home studios* y foros de ingeniería de sonido. Es un lenguaje universal entre productores y técnicos, nacido de la necesidad de describir verbalmente fenómenos puramente psicoacústicos, físicos o electrónicos. Combina la teoría acústica con una fuerte carga de anglicismos castellanizados.
-
 ---
-
 ## Perfil Lexical General
 
 Una introducción al "carácter" del vocabulario para entender la mentalidad y el entorno del hablante.

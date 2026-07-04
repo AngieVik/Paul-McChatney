@@ -1,11 +1,9 @@
 ---
 name: fonetizar
-description: reescribe la letra cantable, para que el motor la cante con un acento o idioma concreto (nunca en el style_box).
----
-
+description: reescribe la letra cantable, para que se cante con un acento o idioma concreto (nunca en el style_box).---
 # fonetizar
 
-Reescribe la letra cantable, para que el motor la cante con un acento o idioma concreto. La fonetización va **en la letra cantable, nunca en el style_box**.
+Reescribe la letra cantable, para que se cante con un acento o idioma concreto. La fonetización va **en la letra cantable, nunca en el style_box**.
 
 ## Cuándo se activa
 

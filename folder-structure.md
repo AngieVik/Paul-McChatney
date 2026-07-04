@@ -112,82 +112,80 @@ Paul McChatney
 │   │   └── 骨でダンス__(Hone_de_Dansu___Dance_with_Bones)v2-6ae606e9.txt [8.57 KB]
 │   └── nueva_skill.md [5.54 KB]
 ├── chuletas/
-│   ├── plantilla_fonetizaciones.md [3.97 KB]
-│   ├── plantilla_jerga.md [3.94 KB]
-│   └── plantilla_proyecto.md [3.13 KB]
+│   ├── plantilla_fonetizaciones.md [3.88 KB]
+│   ├── plantilla_jerga.md [3.88 KB]
+│   └── plantilla_proyecto.md [3.10 KB]
 ├── chupilista/
 │   ├── 01_core_genres_and_subgenres.md [24.84 KB]
-│   ├── 02_atmosphere_and_mood.md [29.79 KB]
-│   ├── 03_instrumentation_and_stems.md [27.31 KB]
-│   ├── 04_vocal_persona_and_timbre.md [23.42 KB]
-│   ├── 05_rhythm_and_tempo.md [29.53 KB]
-│   ├── 06_song_structure_and_sections.md [35.22 KB]
+│   ├── 02_atmosphere_and_mood.md [28.75 KB]
+│   ├── 03_instrumentation_and_stems.md [26.48 KB]
+│   ├── 04_vocal_persona_and_timbre.md [22.62 KB]
+│   ├── 05_rhythm_and_tempo.md [28.69 KB]
+│   ├── 06_song_structure_and_sections.md [34.19 KB]
 │   ├── 07_music_theory_harmony_and_scales.md [27.80 KB]
-│   ├── 08_dynamics_and_intensity.md [33.77 KB]
-│   ├── 09_foley_and_sound_design_fx.md [22.83 KB]
-│   ├── 10_experimental_modes.md [33.34 KB]
-│   ├── 11_production_and_effect.md [29.10 KB]
-│   ├── 12_vocal_delivery_and_expressivity.md [30.52 KB]
-│   ├── 13_advanced_modifiers_allowed.md [33.07 KB]
-│   ├── 14_nudging_and_callbacks.md [33.14 KB]
-│   └── 15_negative_prompts_and_exclude_styles.md [15.25 KB]
+│   ├── 08_dynamics_and_intensity.md [32.87 KB]
+│   ├── 09_foley_and_sound_design_fx.md [22.02 KB]
+│   ├── 10_experimental_modes.md [32.48 KB]
+│   ├── 11_production_and_effect.md [28.26 KB]
+│   ├── 12_vocal_delivery_and_expressivity.md [29.73 KB]
+│   ├── 13_advanced_modifiers_allowed.md [32.24 KB]
+│   ├── 14_nudging_and_callbacks.md [32.18 KB]
+│   └── 15_negative_prompts_and_exclude_styles.md [14.56 KB]
 ├── composicion/
-│   ├── efectos.md [7.27 KB]
-│   ├── exclude_box.md [3.78 KB]
-│   ├── formato.md [712 bytes]
-│   ├── letra.md [8.06 KB]
-│   ├── lyrics_box.md [10.03 KB]
-│   ├── style_box.md [6.55 KB]
-│   └── tecnicas_vocales.md [14.21 KB]
+│   ├── efectos.md [7.24 KB]
+│   ├── exclude_box.md [3.74 KB]
+│   ├── formato.md [1.34 KB]
+│   ├── letra.md [8.05 KB]
+│   ├── lyrics_box.md [9.80 KB]
+│   ├── style_box.md [6.47 KB]
+│   └── tecnicas_vocales.md [7.79 KB]
 ├── conocimientos/
-│   ├── archivos_retrospectiva/
-│   ├── changelog_retrospectiva.md [1004 bytes]
-│   └── retrospectiva.md [2.99 KB]
+│   └── retrospectiva.md [2.46 KB]
 ├── fonetizaciones/
-│   ├── argentino_rioplatense.md [6.58 KB]
-│   ├── boricua_puertorico.md [5.94 KB]
-│   ├── canario.md [6.08 KB]
-│   ├── chileno.md [6.03 KB]
-│   ├── colombiano_andino.md [6.22 KB]
-│   ├── es_aleman.md [8.02 KB]
-│   ├── es_americano.md [7.82 KB]
-│   ├── es_andaluz.md [8.12 KB]
-│   ├── es_arabe.md [7.56 KB]
-│   ├── es_calo.md [7.50 KB]
-│   ├── es_chino.md [7.55 KB]
-│   ├── es_ebrio.md [6.28 KB]
-│   ├── es_edad_avanzada.md [7.32 KB]
-│   ├── es_frances.md [8.31 KB]
-│   ├── es_hombre_gay.md [5.86 KB]
-│   ├── es_infancia_temprana.md [6.06 KB]
-│   ├── es_italiano.md [7.65 KB]
-│   ├── es_portugues.md [8.19 KB]
-│   ├── es_pueblo_peninsular.md [7.49 KB]
-│   ├── es_rural_profundo.md [7.13 KB]
-│   ├── es_ruso.md [8.29 KB]
-│   ├── es_senegales.md [7.56 KB]
-│   ├── euskera.md [6.78 KB]
-│   ├── gallego.md [7.58 KB]
-│   └── mexicano_centro.md [5.97 KB]
+│   ├── argentino_rioplatense.md [6.49 KB]
+│   ├── boricua_puertorico.md [5.85 KB]
+│   ├── canario.md [5.99 KB]
+│   ├── chileno.md [5.94 KB]
+│   ├── colombiano_andino.md [6.13 KB]
+│   ├── es_aleman.md [7.91 KB]
+│   ├── es_americano.md [7.71 KB]
+│   ├── es_andaluz.md [8.02 KB]
+│   ├── es_arabe.md [7.47 KB]
+│   ├── es_calo.md [7.41 KB]
+│   ├── es_chino.md [7.45 KB]
+│   ├── es_ebrio.md [6.13 KB]
+│   ├── es_edad_avanzada.md [7.23 KB]
+│   ├── es_frances.md [8.20 KB]
+│   ├── es_hombre_gay.md [5.75 KB]
+│   ├── es_infancia_temprana.md [5.96 KB]
+│   ├── es_italiano.md [7.55 KB]
+│   ├── es_portugues.md [8.09 KB]
+│   ├── es_pueblo_peninsular.md [7.39 KB]
+│   ├── es_rural_profundo.md [7.04 KB]
+│   ├── es_ruso.md [8.19 KB]
+│   ├── es_senegales.md [7.46 KB]
+│   ├── euskera.md [6.69 KB]
+│   ├── gallego.md [7.48 KB]
+│   └── mexicano_centro.md [5.89 KB]
 ├── jerga/
-│   ├── andaluz_almeriense.md [5.99 KB]
-│   ├── argot_canario.md [6.06 KB]
-│   ├── argot_informatico.md [8.77 KB]
-│   ├── argot_prehospitalario.md [7.65 KB]
-│   ├── boricua_puertorico.md [6.64 KB]
-│   ├── calo.md [8.39 KB]
-│   ├── cheli_madrid.md [5.83 KB]
-│   ├── chilango_mexico.md [6.45 KB]
-│   ├── coa_chile.md [6.58 KB]
-│   ├── jerga_produccion.md [8.08 KB]
-│   ├── lunfardo_rioplatense.md [6.50 KB]
-│   └── parlache_medellin.md [6.39 KB]
+│   ├── andaluz_almeriense.md [5.91 KB]
+│   ├── argot_canario.md [5.98 KB]
+│   ├── argot_informatico.md [8.69 KB]
+│   ├── argot_prehospitalario.md [7.57 KB]
+│   ├── boricua_puertorico.md [6.56 KB]
+│   ├── calo.md [8.30 KB]
+│   ├── cheli_madrid.md [5.75 KB]
+│   ├── chilango_mexico.md [6.37 KB]
+│   ├── coa_chile.md [6.50 KB]
+│   ├── jerga_produccion.md [8.01 KB]
+│   ├── lunfardo_rioplatense.md [6.42 KB]
+│   └── parlache_medellin.md [6.31 KB]
 ├── proyectos/
 ├── system_prompt/
-│   └── system_prompt.md [5.59 KB]
+│   └── system_prompt.md [5.83 KB]
 ├── PROYECTOS.md [10.73 KB]
-├── README.md [1.17 KB]
-└── folder-structure.md [13.11 KB]
+├── README.md [1.12 KB]
+└── folder-structure.md [13.21 KB]
 ```
 
 
@@ -195,10 +193,10 @@ Paul McChatney
 
 ```plaintext
 Root Folder: Paul McChatney
-Total Folders: 23
-Total Files: 163
+Total Folders: 22
+Total Files: 162
 File Types:
-  - .md Files: 83
+  - .md Files: 82
   - .zip Files: 6
   - .ini Files: 1
   - .wav Files: 2
@@ -206,7 +204,7 @@ File Types:
   - .txt Files: 70
 Largest File: 0 Lead Vocal.wav [46.12 MB]
 Smallest File: deudas.md [43 bytes]
-Total Project Size: 186.81 MB
+Total Project Size: 186.78 MB
 Ignored Files and Folders:
   - proyectos/60_granos
   - proyectos/aqui_se_vota_y_no_cambia_nada

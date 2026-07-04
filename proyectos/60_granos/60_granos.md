@@ -91,24 +91,21 @@ Porque en este maldito escenario... el amo del ruido... soy yo
 
 [Fade Out, single high piano note, heavy sustain]
 [End]
-
 ---
-
 ## Retrospectiva
 
 **Fecha de producción:** 2026-06-20
-**Versiones generadas en Suno:** —
 **Mejor versión:** —
 
 ### Qué funcionó
 
-- `[Instrumental Drop]` + descripción explícita del instrumento líder en lugar de `[Solo]` → evita que Suno interprete "solo" como soledad y vacíe la sección
-- `[Sudden Silence]` como punto de tensión máxima antes del Drop — contraste muy efectivo
-- Persona del barítono operístico de 45 años con arco emocional definido (íntimo → agresivo) da coherencia vocal
+- `[Instrumental Drop]` + descripción explícita del instrumento líder en lugar de `[Solo]` → evita que se interprete "solo" como soledad y vacíe la sección.
+- `[Sudden Silence]` como punto de tensión máxima antes del Drop — contraste muy efectivo.
+- Persona del barítono operístico de 45 años con arco emocional definido (íntimo → agresivo) da coherencia vocal.
 
 ### Qué ajustar la próxima vez (en positivo)
 
-- Pendiente de probar en Suno
+- Pendiente de probar.
 
 ### Tags destacados de esta producción
 

@@ -22,5 +22,4 @@ description: Metaetiquetas del lyrics_box (Fase 3): control por corchetes, direc
 `2 · Hacks lyrics_box`
 ---
 * **Documentos:**
-| [lyrics_box.md](../../composicion/lyrics_box.md) | **lyrics_box (Fase 3)** — Metaetiquetas de estructura y dirección de banda. |
----
+| [lyrics_box.md](../../composicion/lyrics_box.md) | **lyrics_box (Fase 3)** — Metaetiquetas de estructura y dirección de banda. |---

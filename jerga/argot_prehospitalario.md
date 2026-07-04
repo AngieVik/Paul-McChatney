@@ -1,9 +1,7 @@
 # Guía de Jerga y Modismos: Argot Táctico Prehospitalario (Servicios de Emergencia - España)
 
 **Contexto Sociolingüístico:** Lenguaje técnico y "de trinchera" utilizado por los Técnicos en Emergencias Sanitarias (TES), enfermería y personal médico que opera en ambulancias de Soporte Vital Básico (SVB), Soporte Vital Avanzado (SVA) y urgencias hospitalarias. Nace de la necesidad absoluta de precisión, velocidad en las comunicaciones por radio y de un marcado humor negro utilizado como mecanismo psicológico de defensa ante situaciones traumáticas.
-
 ---
-
 ## Perfil Lexical General
 
 Una introducción al "carácter" del vocabulario para entender la mentalidad y el entorno del hablante.

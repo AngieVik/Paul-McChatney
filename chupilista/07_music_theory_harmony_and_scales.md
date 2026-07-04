@@ -2,9 +2,7 @@
 
 *Una base de datos exhaustiva sobre teoría musical, abarcando desde fundamentos de acordes hasta sistemas de afinación y escalas del mundo.*
 *Recordatorio: se consulta por búsqueda (grep) o saltando a una sección.*
-
 ---
-
 ## Índice
 
 `1 · Afinación, Frecuencias y Sistemas Microtonales`
@@ -13,9 +11,7 @@
 `4 · Escalas occidentales, Modos y Conceptos Teóricos`
 `5 · Escalas Exóticas y Sistemas del Mundo`
 `6 · Taxonomía Aplicada por Tonalidad Fundamental`
-
 ---
-
 ### 1 · Afinación, Frecuencias y Sistemas Microtonales
 
 *Sistemas de afinación, temperamentos históricos, proporciones fraccionarias y frecuencias específicas.*
@@ -75,9 +71,7 @@
 [Quarter-Tone Harmony Shift]
 [Solfeggio Frequencies]
 [Well-Temperament Historical Grid]
-
 ---
-
 ### 2 · Acordes, Voicings y Estructuras Armónicas
 
 *Construcción de acordes, inversiones, técnicas de voicing y estructuras armónicas verticales.*
@@ -202,9 +196,7 @@
 [Third Inversion]
 [Thirteenth Chords]
 [Upper Structure Dominant]
-
 ---
-
 ### 3 · Progresiones, Cadencias y Movimientos
 
 *Secuencias de acordes, resoluciones, análisis mediante números romanos y movimientos armónicos funcionales.*
@@ -333,9 +325,7 @@
 [vi-ii-V-I Cycle Progression]
 [vi-IV-I-V Epic Anthem]
 [vi-IV-I-V]
-
 ---
-
 ### 4 · Escalas occidentales, Modos y Conceptos Teóricos
 
 *Escalas contemporáneas, modos diatónicos, atonalidad, polítonalidad y conceptos analíticos avanzados.*
@@ -451,9 +441,7 @@
 [Whole Tone Scale]
 [Whole-Half Diminished Scale]
 [Wolf Interval Acoustic Tension]
-
 ---
-
 ### 5 · Escalas Exóticas y Sistemas del Mundo
 
 *Escalas tradicionales, microtonales étnicas y sistemas modales de diferentes culturas globales.*
@@ -525,9 +513,7 @@
 [Yo Scale]
 [Yu Chinese Pentatonic]
 [Zhi Chinese Pentatonic]
-
 ---
-
 ### 6 · Taxonomía Aplicada por Tonalidad Fundamental
 
 *Aplicaciones armónicas, secuencias y escalas específicas para cada nota raíz del sistema occidental.*
@@ -1032,5 +1018,4 @@
 [Gb Persian Microtonal Balance]
 [Gb Phrygian Flamenco Cadence]
 [Gb Spanish Gypsy Phrygian]
-
 ---

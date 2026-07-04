@@ -1,9 +1,7 @@
 # Guía de Fonetización en Español: Dialecto Chileno
 
 **Notas de Configuración Fonética:** Sistema fonológico caracterizado por su extrema velocidad de articulación, elisión frecuente de consonantes oclusivas, aspiración sistemática de la 's' implosiva y una curva entonativa ascendente altamente distintiva. Es un dialecto de alta contracción fonética.
-
 ---
-
 ## Perfil Fonético General
 
 Una introducción al "carácter" del idioma para establecer la postura articulatoria del lector.
@@ -60,9 +58,7 @@ Disección de palabras clave aplicando las reglas anteriores.
 * **Palabra:** `Cuidado` (Cuidado)
   * *Desglose:* La 'd' intervocálica se omite por completo. Las vocales 'a' y 'o' se fusionan en un solo bloque rítmico final.
   * *Fonetización final:* **kwi dá o**
-
 ---
-
 ## Interferencia Fonética (Simulación de Acento)
 
 Definición de cómo los hablantes nativos de este idioma distorsionan los fonemas del español estándar (Lectura inversa).

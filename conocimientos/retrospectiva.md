@@ -1,67 +1,37 @@
 # retrospectiva
-
-*Cierra el ciclo de aprendizaje: tras validar la Fase 4 en Suno, Paul evalúa qué elevó la obra y qué afinará la próxima vez, y lo deja escrito.*
-*Memoria acumulativa real del proyecto: cada canción enseña a la siguiente.*
-*Consulta por búsqueda (grep) o salto por sección.*
+*Cierra el ciclo de aprendizaje: tras validar una obra, evalúa si hay un aprendizaje REAL y, con tu aprobación, lo archiva donde se consume.*
+*Recordatorio: consulta por búsqueda (grep) o salto por sección.*
 
 ---
 
-## Regla del prompting positivo
+## Índice
+`1 · Cuándo se ejecuta`
+`2 · Gatillo → evaluar → proponer → validar`
+`3 · Regla del prompting positivo`
+`4 · Principio de fondo`
 
-Todo aprendizaje se redacta como **directiva accionable en positivo** — qué *hacer*, no solo qué evitar. Si algo falló, se convierte en la acción correcta.
+---
+
+## 1 · Cuándo se ejecuta
+Solo tras **validar** una obra, (elegiste la mejor versión / diste el visto bueno) y me cuentas qué funcionó o falló al generar. Sin validación no hay retro: un prompt no probado es hipótesis, no conocimiento.
+
+## 2 · Gatillo → evaluar → proponer → validar
+1. **Evalúa si hay aprendizaje de verdad.** No es obligatorio anotar nada: si no hay una lección **real, de calidad y funcional**, no se hace nada. Nunca fuerces una entrada.
+2. **Si lo hay, decide acción y destino.** La acción puede ser **añadir, modificar o eliminar** (a veces se afina o se borra una instrucción que ya no rinde, no solo se añade). El destino es donde se **consumirá**:
+   - **Principio transversal de composición** → `.claude/MEMORY.md`.
+   - **Técnica o tag concreto** → su archivo de `composicion/` (donde la próxima obra lo leerá de verdad).
+   Siempre en **positivo/accionable** (ver §3).
+3. **Propón antes de tocar nada.** Cuando detectes un cambio que encaje, **propónmelo** —archivo, sección, redacción exacta y por qué eleva la obra— y **espera mi validación explícita** antes de aplicarlo. Nunca escribas memoria en automático.
+4. **Deja rastro obra→aprendizaje.** Al aplicar el cambio (ya validado), añade una referencia a la instrucción tocada en el bloque de esa obra en `PROYECTOS.md` (una línea, formato tipo detector). No vuelques el prompt entero: solo el vínculo obra ↔ instrucción creada/modificada/eliminada.
+
+## 3 · Regla del prompting positivo
+Todo aprendizaje se redacta como **directiva accionable en positivo** — qué hacer, no solo qué evitar. Si algo falló, tradúcelo a la acción correcta.
 
 | En vez de (negativo) | Escribe (positivo) |
 | --- | --- |
 | «`[Solo]` vació la sección» | «Usa `[Lead]` / `[Instrumental Drop, X takes the lead melody]` para solos con banda» |
-| «el style_box tenía demasiados tags» | «Quédate en 12–20 tags ponderados; corta el resto» |
+| «demasiados tags» | «Quédate en 12–20 tags ponderados; corta el resto» |
 | «el acento se perdió» | «Ancla el acento con jerga local en la propia letra» |
 
-Los anti-patrones siguen viviendo en `.claude/MEMORY.md`, pero aquí entran ya traducidos a su versión-acción.
-
----
-
-## Cuándo se ejecuta
-
-- Se entrega la Fase 4, creamos generaciones en Suno y modificamos el prompt si es necesario hasta lograr el objetivo y el usuario **valida**.
-- El usuario **valida** (elige la mejor versión / da el visto bueno).
-- **Solo entonces** Paul propone la retrospectiva. Sin validación no hay retro: un prompt no probado no es conocimiento, es hipótesis.
-
----
-
-## Qué se rellena y dónde
-
-- **Crea un archivo nuevo:** (`conocimientos/archivos_retrospectiva/<slug>.md`)
-
----
-
-## Retrospectiva
-- Resumen de los cambios realizados al prompt después de la Fase 4 hasta la validación.
-
-### Qué funcionó
-- En operatividad, no por composición de la canción (ej. modificamos la letra porque no nos gusta, o añadimos o quitamos secciones: eso es composición).
-
-### Elementos destacados de esta producción
-- Elementos a recordar de la producción de esta obra.
-
-### Notas para futuras canciones
-- Anotaciones sobre técnicas, escritura, composición, etc.
-
----
-
-## Protocolo de archivos vivos
-
-Hay **dos velocidades**, según QUÉ archivo se toca:
-
-- **Conocimiento acumulado → AUTOMÁTICO (sin pedir permiso por generación).** Tras una obra **validada**, Paul incorpora el aprendizaje por su cuenta, sin romper el flujo creativo preguntando cada vez:
-  - (`conocimientos/archivos_retrospectiva/<slug>.md`) (las técnicas vivas).
-  - Cada cambio se registra en `conocimientos/changelog_retrospectiva.md`, en orden temporal, para poder hacer backup y detectar conflictos de un vistazo.
-
-- **Para modificar OTRO archivo de referencia → REQUIERE TU CONSENTIMIENTO.** Si Paul decide tocar un archivo que NO es memoria acumulada —p. ej. una fonetización (`fonetizaciones/gallego.md`), la chupilista o un módulo de `system_prompt/`—, **propone** la mejora concreta (archivo, línea, redacción en positivo) y **espera tu aprobación explícita** antes de aplicarla.
-
-Regla de fondo: la validación en producción es el único pasaporte a un aprendizaje; lo no probado queda como hipótesis y no se escribe.
-
----
-
-## Ejemplo de uso
-
-- deuda
+## 4 · Principio de fondo
+La validación en producción es el único pasaporte a un aprendizaje; lo no probado queda como hipótesis y no se escribe. Cada obra validada debe mejorar la siguiente **de verdad**: por eso el aprendizaje vive donde se consume (`MEMORY` o `composicion/`), no en un archivo aparte que nadie relee. El historial lo guarda git; no hace falta un changelog manual.

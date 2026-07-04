@@ -1,9 +1,7 @@
 # instrumentation_and_stems
 
 *Colección exhaustiva de metadatos, stems y marcadores de instrumentación para el control semántico en la generación y estructuración de diseño sonoro.*
-*Recordatorio: se consulta por búsqueda (grep) o saltando a una sección*
----
-
+*Recordatorio: se consulta por búsqueda (grep) o saltando a una sección*---
 ## Índice
 
 `1 · Percusión y Baterías`
@@ -16,9 +14,7 @@
 `8 · Voces y Texturas Corales`
 `9 · Diseño Sonoro, Texturas y Foley`
 `10 · Marcadores Estructurales`
-
 ---
-
 ### 1 · Percusión y Baterías
 
 *Elementos rítmicos, transitorios de ataque rápido y kits acústicos o electrónicos para establecer el groove y la métrica.*
@@ -149,9 +145,7 @@
 [Warm Tape Saturation Studio Drummer]
 [Washboard Thimble Scrape Rhythm Percussion]
 [Wood Block High Pitch Percussion Click]
-
 ---
-
 ### 2 · Frecuencias Graves
 
 *Cimientos tonales de baja frecuencia, incluyendo subgraves electrónicos, osciladores profundos y bajos acústicos para el control del low-end.*
@@ -243,9 +237,7 @@
 [Walking Bass Line Flatwound String Pluck]
 [Warm Analog Compressed Double Bass]
 [Washburn Acoustic Bass Deep Acoustic Chamber]
-
 ---
-
 ### 3 · Guitarras y Cuerdas Pulsadas
 
 *Instrumentos de cuerda excitados por pulsación o púa, abarcando desde texturas acústicas orgánicas hasta distorsiones de alta ganancia e impedancia.*
@@ -405,9 +397,7 @@
 [Wall of Sound]
 [Wide Double-Tracked Pan Hard Guitars]
 [Zither European Table Lap Pluck Ring]
-
 ---
-
 ### 4 · Instrumentos de Teclado
 
 *Teclas acústicas, electromecánicas y órganos con sistemas de modulación rotatoria o gabinetes, abarcando registros tonales completos.*
@@ -468,9 +458,7 @@
 [Soft Tube Saturation Rhodes]
 [Tube Saturation Glow Fender Rhodes]
 [Warm Organ Chords]
-
 ---
-
 ### 5 · Sintetizadores y Electrónica
 
 *Generadores de onda, modulación de frecuencia y diseño de sonido sintético mediante osciladores analógicos o digitales, LFOs y filtros.*
@@ -575,9 +563,7 @@
 [Wet Reverb Drenched Ethereal Pad]
 [Whispering Pads]
 [Whistle Lead]
-
 ---
-
 ### 6 · Sección Orquestal y Cuerdas Frotadas
 
 *Agrupaciones orquestales, texturas de cámara y cuerdas articuladas mediante arco con variaciones ricas en dinámica, vibrato y legato.*
@@ -622,9 +608,7 @@
 [Violin Solo]
 [Violoncello Dark Melancholic Legato Sustain]
 [Wide Stereo Enhancer Studio Strings]
-
 ---
-
 ### 7 · Vientos y Metales
 
 *Instrumentos aerófonos de madera y metal, abarcando desde texturas solistas dependientes de la embocadura hasta secciones de viento expresivas.*
@@ -692,9 +676,7 @@
 [Tuba Sub Bass Brass Staccato Oompah]
 [Uilleann Pipes Drone Regulator Chime]
 [Zurna Turkish Piercing Double Reed Horn]
-
 ---
-
 ### 8 · Voces y Texturas Corales
 
 *Líneas vocales acústicas, conjuntos corales y texturas antropomórficas procesadas o resintetizadas con alteración de formantes.*
@@ -724,9 +706,7 @@
 [Vocoder Robot Voice Carrier Synth Mod]
 [Vocoder Synthetic Robot Carrier Synth]
 [Whispered Gospel Hook]
-
 ---
-
 ### 9 · Diseño Sonoro, Texturas y Foley
 
 *Capas ambientales, efectos de sonido integrados, ruido de fondo y grabaciones de campo aplicadas para texturizar el espacio acústico global.*
@@ -800,9 +780,7 @@
 [Wind Chimes Glass Shimmer Airy Breeze]
 [Xylophone Hard Mallet Wooden Bar Snap]
 [Xylophone Wooden Mallet Hits]
-
 ---
-
 ### 10 · Marcadores Estructurales
 
 *Etiquetas de metadatos instruccionales para forzar cambios en la dinámica, crear puentes y alterar la evolución macro-estructural de la composición.*
@@ -848,5 +826,4 @@
 [Synthesizer Bridge]
 [Synthwave Interlude]
 [Upbeat Music]
-
 ---

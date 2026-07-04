@@ -1,9 +1,7 @@
 # Guía de Fonetización en Español: Chino Mandarín (Sistema Pinyin)
 
 **Notas de Configuración Fonética:** Sistema de codificación altamente opaco para el lector hispanohablante. El Pinyin no es una transcripción literal española, sino un sistema basado en el alfabeto latino para representar fonemas sinotibetanos. La discriminación acústica principal no se basa en la sonoridad (vibración de cuerdas vocales), sino en la **aspiración** (expulsión o retención de aire).
-
 ---
-
 ## 1. Perfil Fonético General
 
 El chino mandarín requiere una reconfiguración total del aparato fonador, desplazando la articulación hacia la zona palato-alveolar y velar, y exigiendo un control melódico estricto.
@@ -68,9 +66,7 @@ El chino carece del acento de intensidad léxica del español; el significado de
 * **Palabra:** `Tingbudong` (No entiendo - audición)
   * *Desglose:* 't' es fuerte y aspirada. 'ng' nasaliza la vocal previa. 'b' suena como una 'p' suave o 'b' española sin sonreír.
   * *Fonetización final:* **tíng pu tong**
-
 ---
-
 ## 7. Interferencia Fonética (Simulación de Acento)
 
 Al carecer de ciertas estructuras silábicas y consonánticas, los hablantes nativos de mandarín reestructuran los fonemas del español para encajarlos en sus paradigmas fonotácticos.

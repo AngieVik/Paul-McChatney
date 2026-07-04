@@ -1,9 +1,7 @@
 # Guía de Fonetización en Español: Dialecto Mexicano (Centro)
 
 **Notas de Configuración Fonética:** Sistema fonológico caracterizado por el seseo, el yeísmo (sin rehilamiento) y un notable conservadurismo en las consonantes finales. Destaca el debilitamiento extremo o elisión de las vocales átonas, especialmente en contacto con la letra 's'.
-
 ---
-
 ## Perfil Fonético General
 
 Una introducción al "carácter" del idioma para establecer la postura articulatoria del lector.
@@ -60,9 +58,7 @@ Disección de palabras clave aplicando las reglas anteriores.
 * **Palabra:** `Trigo` (Trigo)
   * *Desglose:* El clúster 'tr' presenta la característica asibilación, produciendo un sonido arrastrado.
   * *Fonetización final:* **tr-rí go**
-
 ---
-
 ## Interferencia Fonética (Simulación de Acento)
 
 Definición de cómo los hablantes nativos de este idioma distorsionan los fonemas del español estándar (Lectura inversa).

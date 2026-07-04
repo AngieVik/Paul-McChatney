@@ -1,9 +1,7 @@
 # Guía de Jerga y Modismos: Caló (Romaní Ibérico y Argot Popular Español)
 
 **Contexto Sociolingüístico:** El caló (también denominado *zincaló* o romaní ibérico) constituye una variante lingüística mixta empleada históricamente por el pueblo rom (gitano) en la península ibérica. Desde una perspectiva filológica, se clasifica como una lengua pararromaní: conserva el sustrato léxico fundamental derivado del sánscrito y otras lenguas indoarias, pero utiliza íntegramente la morfología, fonética y sintaxis del idioma castellano. Originalmente operaba como un criptolecto hermético estructurado para salvaguardar la comunicación interna frente a la marginación y persecución sociopolítica. A lo largo de los siglos XIX y XX, parte de su vocabulario penetró en la *germanía* (argot carcelario) y posteriormente en el español coloquial, aunque su núcleo duro mantiene un alto grado de opacidad.
-
 ---
-
 ## Perfil Lexical General
 
 Un análisis del comportamiento léxico de esta variante revela mecanismos avanzados de codificación y una profunda interconexión con dinámicas de supervivencia, economía y cohesión grupal.

@@ -1,9 +1,7 @@
 # Guía de Fonetización en Español: Dialecto Canario
 
 **Notas de Configuración Fonética:** Sistema fonológico caracterizado por una articulación relajada, el seseo absoluto, la aspiración de la 's' en final de sílaba y una notable suavidad en las consonantes fricativas. Requiere una lectura ligada donde las palabras se fusionan melodiosamente.
-
 ---
-
 ## Perfil Fonético General
 
 Una introducción al "carácter" del idioma para establecer la postura articulatoria del lector.
@@ -60,9 +58,7 @@ Disección de palabras clave aplicando las reglas anteriores.
 * **Palabra:** `Cerveza` (Cerveza)
   * *Desglose:* Seseo absoluto tanto en la 'c' inicial como en la 'z'. La sílaba tónica recibe todo el peso del arrastre rítmico canario.
   * *Fonetización final:* **ser bé sa**
-
 ---
-
 ## Interferencia Fonética (Simulación de Acento)
 
 Definición de cómo los hablantes nativos de este dialecto distorsionan los fonemas del español estándar al leer o simular un texto (Lectura inversa).

@@ -21,7 +21,6 @@ description: Escritura técnica y tipografía como partitura física: narrativa,
   `3.3 · Análisis práctico: Mario Benedetti`
   `3.4 · Tipos de versos según longitud`
   `3.5 · El ritmo y la rima`
----
-* **Documentos:**
-| [letra.md](../../composicion/letra.md) | **Letra** — Escritura técnica y tipografía como partitura física: narrativa, control fonético y aritmética métrica. |
----
+  ---
+  * **Documentos:**
+| [letra.md](../../composicion/letra.md) | **Letra** — Escritura técnica y tipografía como partitura física: narrativa, control fonético y aritmética métrica. |---

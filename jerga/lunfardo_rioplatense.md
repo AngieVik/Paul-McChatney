@@ -1,9 +1,7 @@
 # Guía de Jerga y Modismos: Lunfardo (Rioplatense - Argentina / Uruguay)
 
 **Contexto Sociolingüístico:** Argot nacido a finales del siglo XIX y principios del XX en los "conventillos" (inquilinatos) de Buenos Aires y Montevideo, producto de la convivencia y el hacinamiento de la masiva inmigración europea y la población local. Originalmente asociado a la marginalidad y la delincuencia, fue inmortalizado y popularizado internacionalmente por las letras de tango. Hoy en día, desprovisto de su estigma criminal, constituye el núcleo léxico del habla coloquial de todas las clases sociales en la región del Río de la Plata.
-
 ---
-
 ## Perfil Lexical General
 
 Una introducción al "carácter" del vocabulario para entender la mentalidad y el entorno del hablante.

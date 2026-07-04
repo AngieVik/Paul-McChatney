@@ -1,9 +1,7 @@
 # Guía de Fonetización en Español: Señor del Campo (Rural Profundo / Cerrado Multisílabo)
 
 **Notas de Configuración Fonética:** Más que un dialecto, representa un registro de hiper-relajación y opacidad articulatoria extrema. Se caracteriza por una brutal economía de movimientos (hablar "entre dientes"), una apertura mandibular casi nula y la elisión (borrado) no solo de letras, sino de sílabas átonas completas, generando macromoléculas de palabras fusionadas.
-
 ---
-
 ## 1. Perfil Fonético General
 
 El registro rural profundo y cerrado exige una articulación mascullada y gutural, donde el esfuerzo fonador se concentra exclusivamente en las sílabas que portan la carga semántica de la oración.
@@ -64,9 +62,7 @@ El principio de "mínimo esfuerzo" erradica cualquier consonante que requiera fr
 * **Palabra/Frase:** `Me ha dicho que`
   * *Desglose:* La 'e' de *me* es devorada por la 'a' de *ha*. La 'd' se mantiene por ir tras vocal inicial. La 'e' final de *que* se vuelve casi muda (schwa).
   * *Fonetización final:* **m'á dí cho k(e)**
-
 ---
-
 ## 7. Interferencia Fonética (Simulación de Acento Cerrado en Español)
 
 Al simular este perfil sobre frases del español estándar normativo, se aplica una compresión destructiva: se eliminan las átonas, se borran las fronteras de palabra y se masculla el resultado.

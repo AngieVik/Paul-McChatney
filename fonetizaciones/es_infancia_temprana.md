@@ -1,9 +1,7 @@
 # Guía de Fonetización en Español: Infancia Temprana (Fonología Evolutiva)
 
 **Notas de Configuración Fonética:** Este registro no es un dialecto, sino un estado de desarrollo fonológico. Se caracteriza por procesos de simplificación fonológica universales: los niños sustituyen los fonemas complejos (que exigen gran coordinación neuromuscular) por otros más simples de adquirir, omitiendo sílabas o simplificando grupos consonánticos difíciles.
-
 ---
-
 ## 1. Perfil Fonético General
 
 El aparato fonador del niño pequeño es más pequeño y menos flexible; sus rutas neuronales motoras para la articulación fina aún están en maduración.
@@ -60,9 +58,7 @@ El niño sustituye fonemas complejos (líquidas, sibilantes, vibrantes) por otro
 * **Palabra:** `Azúcar`
   * *Desglose:* La 'z' (interdental) se sustituye por una dental más simple ('t'). La 'r' final se elide.
   * *Fonetización final:* **a tú ka**
-
 ---
-
 ## 7. Interferencia Fonética (Simulación de Acento Infantil en Español)
 
 Esta simulación aplica procesos de simplificación a cualquier oración adulta para replicar la adquisición del lenguaje.

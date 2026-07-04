@@ -1,9 +1,7 @@
 # Guía de Fonetización en Español: Dialecto Colombiano (Interior/Andino)
 
 **Notas de Configuración Fonética:** Sistema fonológico caracterizado por su alto conservadurismo consonántico, la articulación precisa de las sílabas y una musicalidad marcada por la cortesía. Es un dialecto transparente donde rara vez se omiten o debilitan los sonidos, a diferencia de las variantes costeras o caribeñas.
-
 ---
-
 ## Perfil Fonético General
 
 Una introducción al "carácter" del idioma para establecer la postura articulatoria del lector.
@@ -60,9 +58,7 @@ Disección de palabras clave aplicando las reglas anteriores.
 * **Palabra:** `Trabajador` (Trabajador)
   * *Desglose:* La 'j' se suaviza a una fricativa glotal sorda. La 'r' final se articula completamente y la 'd' final no se omite.
   * *Fonetización final:* **tra ba ha dór**
-
 ---
-
 ## Interferencia Fonética (Simulación de Acento)
 
 Definición de cómo los hablantes nativos de este idioma distorsionan los fonemas del español estándar o de otros idiomas (Lectura inversa).

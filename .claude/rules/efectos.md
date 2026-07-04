@@ -5,15 +5,14 @@ description: Post-producción (Fase 4): espacio estéreo, DSP, texturas, transic
 ---
 * **Índice:**
 `1 · Efectos de audio y post-producción`
-  `1.1 · Control de silencios y pausas`
-  `1.2 · Modulación, distorsión y espacio espacial`
-  `1.3 · Efectos vocales específicos`
-  `1.4 · Glitch forzado y stutter vocal`
-  `1.5 · Acústica física y microfonía`
-  `1.6 · Parámetros de Inpainting y estilo general`
-  `1.7 · Texturas sonoras y compresión`
-  `1.8 · Transiciones, tensión armónica y SFX`
----
-* **Documentos:**
-| [efectos.md](../../composicion/efectos.md) | **efectos (Fase 4)** — DSP, espacio estéreo, texturas y SFX. |
----
+`1.1 · Control de silencios y pausas`
+`1.2 · Modulación, distorsión y espacio espacial`
+`1.3 · Efectos vocales específicos`
+`1.4 · Glitch forzado y stutter vocal`
+`1.5 · Acústica física y microfonía`
+`1.6 · Parámetros de Inpainting y estilo general`
+`1.7 · Texturas sonoras y compresión`
+`1.8 · Transiciones, tensión armónica y SFX`
+
+- **Documentos:**
+  | [efectos.md](../../composicion/efectos.md) | **efectos (Fase 4)** — DSP, espacio estéreo, texturas y SFX. |

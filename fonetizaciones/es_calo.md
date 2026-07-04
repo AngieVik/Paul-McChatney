@@ -1,9 +1,7 @@
 # Guía de Fonetización en Español: Caló (Romaní Ibérico / Calé)
 
 **Notas de Configuración Fonética:** Sistema lingüístico parasitario (lengua mixta). El caló contemporáneo carece de una fonología o gramática independiente; incrusta léxico de origen romaní directamente sobre la matriz fonotáctica y morfológica del castellano, aplicando de forma estricta las reglas del macrodialecto andaluz o meridional.
-
 ---
-
 ## 1. Perfil Fonético General
 
 El caló se articula utilizando exclusivamente el aparato fonador y los hábitos motores del español meridional. Se caracteriza por una economía articulatoria extrema y una alta expresividad prosódica.
@@ -62,9 +60,7 @@ El caló perdió todos los fonemas exclusivos del romaní clásico (como las con
 * **Palabra:** `Najis` o `Nais` (Gracias)
   * *Desglose:* Diptongo 'ai' / 'aj'. La 's' final en coda se aspira profundamente transformándose en un soplido ('j' suave) o se elide.
   * *Fonetización final:* **náij** (o **nái-**)
-
 ---
-
 ## 7. Interferencia Fonética (Simulación de Acento Caló/Gitano en Español)
 
 Dado que los hablantes de caló son nativos de español, esta interferencia describe el "acento gitano" al hablar castellano general: una intensificación de los rasgos andaluces con una prosodia altamente musical y rotunda.

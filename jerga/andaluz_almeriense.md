@@ -1,9 +1,7 @@
 # Guía de Jerga y Modismos: Andaluz Coloquial (Variante Oriental / Almeriense)
 
 **Contexto Sociolingüístico:** Jerga enclavada en el sureste peninsular, caracterizada por su aislamiento histórico que le ha permitido conservar arcaísmos, adoptar fuertes influencias del panocho (murciano) y mantener un sustrato mozárabe. Es un habla tremendamente expresiva, económica en su articulación fonética y muy arraigada a las costumbres locales, la agricultura y el mar.
-
 ---
-
 ## Perfil Lexical General
 
 Una introducción al "carácter" del vocabulario para entender la mentalidad y el entorno del hablante.

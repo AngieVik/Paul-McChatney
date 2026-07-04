@@ -20,9 +20,7 @@
   `3.3 · Análisis práctico: Mario Benedetti`
   `3.4 · Tipos de versos según longitud`
   `3.5 · El ritmo y la rima`
-
 ---
-
 ## 1 · Narrativa
 *Esculpe identidad, historia y tono de la obra. Fase 2 (boceto de letra).*
 
@@ -42,11 +40,9 @@
 
 ### 1.5 · Anclaje regional mediante jerga
 *Para forzar acentos concretos (andaluz, argentino, mexicano), inyecta modismos y jerga local en la propia letra.*
-
 ---
-
 ## 2 · Lirica
-*Tipografía como partitura física: la escritura de la letra esculpe la interpretación de Suno.*
+*Tipografía como partitura física: la escritura de la letra esculpe la interpretación.*
 
 ### 2.1 · Cadencia y sustain
 - *Repite vocales para alargar el sonido y dar énfasis sostenido, permitiendo modulaciones y vibrato natural.*
@@ -71,9 +67,7 @@
 - *Los puntos generan pausas totales o respiraciones, marcan el espacio en las rimas.*
 - *Los puntos suspensivos generan silencios dramáticos o transiciones lentas, a la vez que encadenan con el siguiente texto cantado*
 - *Para encadenar varias líneas en una sola respiración, deja el final de verso libre de puntuación: la ausencia de signos mantiene la inercia rítmica.*
-
 ---
-
 ## 3 · Narrativa_lirica_metrica
 *Métrica y ritmo de la poesía española: conteo silábico, licencias, tipos de verso y rima. Fase 3.*
 
@@ -152,5 +146,4 @@
   y el sol te dora el cab**e**ll**o**.
   ¿Por qué para ser fel**i**z
   hace falta no sab**e**rl**o**?
-
 ---

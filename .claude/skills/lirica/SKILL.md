@@ -1,8 +1,6 @@
 ---
 name: lirica
-description: redacta la letra limpia sin etiquetas (Fase 2 aislada): narrativa, cadencia y anclaje regional.
----
-
+description: redacta la letra limpia sin etiquetas (Fase 2 aislada): narrativa, cadencia y anclaje regional.---
 # lirica
 
 Escribe **solo la letra limpia** (Fase 2): calidad poética y narrativa, sin corchetes ni metaetiquetas. El esqueleto cantable que luego se etiqueta en Fase 3.
@@ -15,14 +13,14 @@ Hace falta la letra de una obra sin tags: arranque de Fase 2 o escritura suelta.
 
 1. Fija la voz narrativa, la historia y el tono (`composicion/letra.md`).
 2. Escribe con métrica libre pero cadencia consistente en estribillos. Para conteo silábico y formas clásicas (soleá, seguiriya, romance…) consulta `composicion/letra.md`.
-3. Inyecta anclaje regional con jerga/modismos locales (fuerzan acento en Suno).
+3. Inyecta anclaje regional con jerga/modismos locales (fuerzan acento).
 4. Huye del cliché de IA: perspectivas únicas, verbos contundentes, frescura.
 
 ## Reglas heredadas
 
 - Sin etiquetas en Fase 2: 100% lírica libre (`composicion/letra.md`).
 - Desarrollo ambicioso: deja que la narrativa respire, evita lo mínimo exigible.
-- Si el cierre de verso va sin puntuación, Suno encadena en una misma respiración.
+- Si el cierre de verso va sin puntuación, se encadena en una misma respiración.
 
 ## Entra → Sale
 

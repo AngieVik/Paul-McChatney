@@ -2,9 +2,7 @@
 
 *Directorio maestro de modificadores avanzados para generación, modulación y manipulación de audio sintético.*
 *Recordatorio: se consulta por búsqueda (grep) o saltando a una sección.*
-
 ---
-
 ## Índice
 
 `1 · Procesamiento Vocal y Formantes`
@@ -16,9 +14,7 @@
 `7 · Tiempo, Ritmo y Estructura`
 `8 · Síntesis, Instrumentación y Tonalidad`
 `9 · Matrices Cuánticas y Experimentales`
-
 ---
-
 ### 1 · Procesamiento Vocal y Formantes
 
 *Procesamiento avanzado de espectro vocal, alteración de formantes, aislamiento fonético y síntesis de voz.*
@@ -121,9 +117,7 @@
 [Vocoder Synthetic Robot Voice]
 [Weathered Folk Storyteller]
 [Zero-Attack Pitch Correction]
-
 ---
-
 ### 2 · Dinámica, Compresión y Sidechain
 
 *Control de rango dinámico, limitación brickwall, manipulación de transitorios y bombeo por sidechain.*
@@ -175,9 +169,7 @@
 [Volume Ducking Sidechain Matrix]
 [Warm Analog Compression Glue Master Limiter Peak]
 [Warm Analog Compression Glue]
-
 ---
-
 ### 3 · Ecualización, Filtros y Frecuencias
 
 *Aislamiento y supresión de bandas de frecuencia, barridos de filtro y ecualización sustractiva.*
@@ -240,9 +232,7 @@
 [Telephone Vocal Filter Mode]
 [Underwater Lowpass Muffled Effect Muffled Lowpass Mute]
 [Underwater Lowpass Muffled Effect]
-
 ---
-
 ### 4 · Espacialidad y Reverberación
 
 *Modelado acústico espacial, decaimiento de colas de reverberación y respuestas a impulsos ambientales.*
@@ -292,9 +282,7 @@
 [Wet Reverb Drenched Space Cavernous Echo Bloom]
 [Wet Reverb Drenched Space]
 [Wet Reverb Wash]
-
 ---
-
 ### 5 · Modulación, Retardo y Campo Estéreo
 
 *Manipulación del campo estéreo, ecos, modulaciones de fase e interpolación de retardo.*
@@ -366,9 +354,7 @@
 [Wide Stereo Enhancer Shift Dual-Mono Width Blast]
 [Wide Stereo Enhancer Shift]
 [Widened Stereo Field]
-
 ---
-
 ### 6 · Saturación, Distorsión y Degradación Lo-Fi
 
 *Inyección de armónicos, saturación de cinta, reducción de frecuencia de muestreo y artefactos analógicos.*
@@ -452,9 +438,7 @@
 [Vaporwave Slowed Pitch-Shifted Degradation Active]
 [Vinyl Dust Crackle Bed Nostalgic Static Layer]
 [Vinyl Dust Crackle Bed]
-
 ---
-
 ### 7 · Tiempo, Ritmo y Estructura
 
 *Alteraciones de pulso, métricas complejas, cortes estructurales y manipulaciones de tempo.*
@@ -588,9 +572,7 @@
 [Velocity Shift]
 [Volume Swell Fade-In Rise Gradual Swell Peak]
 [Volume Swell Fade-In Rise]
-
 ---
-
 ### 8 · Síntesis, Instrumentación y Tonalidad
 
 *Generadores de onda, modulación en anillo, manipulación de subgraves y aislamiento de capas instrumentales.*
@@ -704,9 +686,7 @@
 [Vibrato Pitch Flutter Mod]
 [Wall Of Sound Layering Blast Chorus Wall Of Sound]
 [Wall Of Sound Layering Blast]
-
 ---
-
 ### 9 · Matrices Cuánticas y Experimentales
 
 *Algoritmos estocásticos, modulación caótica, inversiones de fase y transformaciones matemáticas complejas.*
@@ -841,5 +821,4 @@
 [White Noise Wash Sweep]
 [Wide Double-Tracked Guitars Split Hard Pan Field]
 [Wide Double-Tracked Guitars Split]
-
 ---

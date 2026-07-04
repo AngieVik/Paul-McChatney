@@ -1,8 +1,6 @@
 ---
 name: style-box
-description: construye solo el style_box (+ exclude_box) de una obra consultando CHUPILISTA (Fase 1 aislada).
----
-
+description: construye solo el style_box (+ exclude_box) de una obra consultando CHUPILISTA (Fase 1 aislada).---
 # style-box
 
 Construye **solo** el `style_box` (+ `exclude_box`) de una obra, sin escribir letra. Es la Fase 1 aislada — ideal para iterar rápido sobre el molde sonoro.

@@ -1,9 +1,7 @@
 # Guía de Jerga y Modismos: Chilango / Barrio (Ciudad de México)
 
 **Contexto Sociolingüístico:** Jerga urbana originaria de la Ciudad de México y su área metropolitana. Forjada en el asfalto, los mercados populares y el transporte público, es una de las jergas más vivas, creativas y dinámicas del mundo hispanohablante. Funciona no solo como herramienta de comunicación, sino como un mecanismo de defensa, identidad de barrio y exhibición de agilidad mental.
-
 ---
-
 ## Perfil Lexical General
 
 Una introducción al "carácter" del vocabulario para entender la mentalidad y el entorno del hablante.

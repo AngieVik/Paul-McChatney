@@ -1,9 +1,7 @@
 # Guía de Fonetización en Español: Wolof (Lengua Vehicular de Senegal)
 
 **Notas de Configuración Fonética:** Sistema ortográficamente transparente pero rítmicamente exigente. Su inteligibilidad no depende de la opacidad vocálica, sino del respeto absoluto a la longitud (cantidad métrica) tanto de las vocales (cortas vs. largas) como de las consonantes (simples vs. geminadas), además del uso de oclusivas prenasalizadas.
-
 ---
-
 ## 1. Perfil Fonético General
 
 El wolof se articula con un flujo de aire percusivo y claro. Es un idioma de resonancia oral ancha, sin los colapsos masivos de átonas que sufren las lenguas europeas.
@@ -64,9 +62,7 @@ El inventario consonántico contiene fricativas, palatales y prenasalizadas que 
 * **Palabra:** `Waaw` (Sí)
   * *Desglose:* Semivocal 'w' inicial (gu/u). Doble 'a' exige elongación física de la vocal. 'w' final cierra el sonido.
   * *Fonetización final:* **guá-u** (o **wá-w**)
-
 ---
-
 ## 7. Interferencia Fonética (Simulación de Acento Senegalés en Español)
 
 El wolof carece de varios grupos consonánticos europeos (clústeres) y de fricativas interdentales. Al hablar español, los senegaleses aplican reglas de epéntesis (inserción de vocales) para facilitar la pronunciación.

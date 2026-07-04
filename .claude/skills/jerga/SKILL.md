@@ -1,11 +1,9 @@
 ---
 name: jerga
-description: inyecta en la letra cantable jerga especifica para que el motor la cante (nunca en el style_box).
----
-
+description: inyecta en la letra cantable jerga especifica para que se cante (nunca en el style_box).---
 # fonetizar
 
-Inyecta en la letra cantable jerga especifica para que el motor la cante. La jerga va **en la letra cantable, nunca en el style_box**.
+Inyecta en la letra cantable jerga especifica para que se cante. La jerga va **en la letra cantable, nunca en el style_box**.
 
 ## Cuándo se activa
 
@@ -19,7 +17,7 @@ Se pide **explícitamente** una jerga en concreto. Se aplica en la Fase 2 (sobre
 
 ## Principio clave
 
-Un mismo texto con jerga distinta produce canciones radicalmente diferentes en acento y actitud. Refuerza el efecto anclando en la letra. Al inyectar jerga local mejora el anclaje idiomatico del motor.
+Un mismo texto con jerga distinta produce canciones radicalmente diferentes en acento y actitud. Refuerza el efecto anclando en la letra. Al inyectar jerga local mejora el anclaje idiomatico.
 ## Entra → Sale
 
 - **Entra:** una letra + una jerga objetivo.

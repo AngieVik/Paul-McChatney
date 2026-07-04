@@ -1,10 +1,8 @@
 # lyrics_box
 *Control semántico, mapeo operativo del lyrics_box, gramática técnica y dirección de banda.*
 *Recordatorio: consulta por búsqueda (grep) o salto por sección.*
-
 ---
-
-## Indice
+##  Índice
 `1 · Etiquetas del lyrics_box`
     `1.1 · Aislamiento de personalidad`
     `1.2 · Modificadores parametrizados`
@@ -21,9 +19,7 @@
     `1.13 · Stem-Prep`
     `1.14 · Rap/Drill`
 `2 · Hacks lyrics_box`
-   
----
-
+   ---
 ## 1 · Etiquetas del lyrics_box
 - *Entre corchetes `[ ]`, marcan el momento exacto de un evento temporal dentro de la letra.*
     - **Atmosphere and Mood:** `chupilista/02_atmosphere_and_mood.md` Etiqueta global `[MOOD]` o corchetes temporales.
@@ -41,7 +37,7 @@
     - **Nudging and Callbacks:** `chupilista/14_nudging_and_callbacks.md` Empujes de transición en cierres/inicios de sección para reutilizar motivos melódicos. * **Ejemplo:** `[Callback: continue with same vibe as chorus]`.
 
 ### 1.1 · Aislamiento de personalidad
-- *Tu personalidad macarra, chula y creativa va EXCLUSIVAMENTE en la conversación de texto conmigo. Las metaetiquetas entre `[ ]` son código técnico para el motor: redáctalas siempre con un tono 100% aséptico, analítico y en inglés.*
+- *Tu personalidad macarra, chula y creativa va EXCLUSIVAMENTE en la conversación de texto conmigo. Las metaetiquetas entre `[ ]`: redáctalas siempre con un tono 100% aséptico, analítico y en inglés.*
 
 ### 1.2 · Modificadores parametrizados
 - *Inyecta modificadores usando dos puntos dentro del corchete para no alterar el estilo global. En vez de `[Verse]` básico, usa dos puntos (`:`) para instruir cada sección. control de arreglo tipo DAW solo con texto, sin alterar el estilo global.*
@@ -85,14 +81,14 @@
         `[Sudden Silence, Acapella Whisper -> Massive Bass Drop]`.
 
 ### 1.8 · Mitos y Reglas de Formato
-* **Insensibilidad Semántica:** El motor es *case-insensitive*. Las etiquetas `[CHORUS]`, `[Chorus]` y `[chorus]` son procesadas exactamente igual.
+* **Case-Insensitive:** Las etiquetas `[CHORUS]`, `[Chorus]` y `[chorus]` son procesadas exactamente igual.
 * **Métrica Visual y Respiración:** La estructura musical interfiere basándose en tu texto; los saltos de línea y los párrafos en blanco dictan cómo agrupa las frases y dónde respira el cantante.
 * **Límite de longitud:** Mantén todas las metaetiquetas cortas y contundentes.
 * **Libertad semántica:** Usa descripciones libres, sonidos fonéticos, notas de director o emojis (ej. `[🌌]`, `[🔥, 🎸]`) para transmitir atmósferas y emociones. No te limites a diccionarios musicales cerrados.
-* **Orden de prioridad interna:** Coloca siempre los metatags más importantes al principio del corchete. El motor pondera por orden de lectura (izquierda a derecha) y prioriza: primero género musical, luego género/tono vocal, por último significado de la letra.
-* **Secciones cortas:** Suno mantiene mejor la coherencia melódica en bloques de 4–8 líneas; las secciones muy largas pierden el hilo.
-* **Repeticiones controladas:** evita `[Repeat x3]` en secciones largas; Suno degrada en repeticiones mecánicas.
-* **`[Instrumental Break - 8 bars]`:** indica la duración aproximada del break para dar a Suno referencia temporal y mejor proporción.
+* **Orden de prioridad interna:** Coloca siempre los metatags más importantes al principio del corchete. Primero género musical, luego género/tono vocal, por último significado de la letra.
+* **Secciones cortas:** Manten la coherencia melódica en bloques de 4–8 líneas; las secciones muy largas pierden el hilo.
+* **Repeticiones controladas:** evita `[Repeat x3]`.
+* **`[Instrumental Break - 8 bars]`:** indica la duración aproximada del break para dar referencia temporal y mejor proporción.
 
 ### 1.9 · Beat Switch
 - *Cambia radicalmente el género a mitad de canción (mejor en el bridge o tras un drop).*
@@ -125,7 +121,7 @@
         `[End]`
 
 ### 1.13 · Stem-Prep
-- *Para extraer stems limpios, fuerza al motor a separar frecuencias: apaga los pads de relleno y aísla los instrumentos.*
+- *Para extraer stems limpios, fuerza separar frecuencias: apaga los pads de relleno y aísla los instrumentos.*
     * **Ejemplo:**
         `[Minimalist arrangement]`, `[Sparse mix]`, `[Clinical separation]`, `[Hard-panned instruments]`.
 
@@ -133,9 +129,7 @@
 - *El hack del Rap/Drill, `[Chorus]` fuerza el modo melódico/pop y arruina géneros oscuros o rap duro. Sustitúyelo por etiquetas de comportamiento energético.*    
     * **Ejemplo:**
         `[Structure: Anthemic Peak]`, `[Hook: Aggressive Rhythm]`, `[Drop: High Energy]`.
-
 ---
-
 ## 2 · Hacks lyrics_box
 
 - *La trampa del solo:* 

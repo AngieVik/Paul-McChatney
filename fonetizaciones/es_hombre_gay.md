@@ -1,9 +1,7 @@
 # Guía de Fonetización en Español: Sociolecto Queer Contemporáneo (Voz Masculina / Diva Energy)
 
 **Notas de Configuración Fonética:** Sistema altamente prosódico y elástico. No se basa en cambiar fonemas radicales, sino en la alteración dramática del tono (pitch), el alargamiento vocálico exagerado y la hiper-articulación o relajación estratégica de ciertas consonantes para denotar actitud, confianza y teatralidad.
-
 ---
-
 ## 1. Perfil Fonético General
 
 Una introducción al "carácter" del idioma para establecer la postura articulatoria del lector.
@@ -25,7 +23,7 @@ Adaptación del sistema vocálico para simular la elasticidad y el dramatismo de
 
 ## 3. Mapeo de Consonantes y Sonidos Inexistentes
 
-Cómo representar fonemas para forzar la actitud en el motor TTS.
+Cómo representar fonemas para forzar la actitud.
 
 | Sonido de Origen (IPA) | Descripción Articulatoria | Fonetización en Español |
 | :--- | :--- | :--- |
@@ -65,9 +63,7 @@ Disección de palabras clave aplicando las reglas anteriores.
 * **Palabra:** `Fuerte`
   * *Desglose:* Labiodental agresiva al inicio, diptongo masticado.
   * *Fonetización final:* **fué-er te**
-
 ---
-
 ## 7. Interferencia Fonética (Simulación de Acento)
 
 Definición de cómo este sociolecto distorsiona los fonemas del español estándar para inyectar actitud.

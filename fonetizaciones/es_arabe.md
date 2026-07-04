@@ -1,9 +1,7 @@
 # Guía de Fonetización en Español: Árabe (Estándar Moderno / Fusha)
 
 **Notas de Configuración Fonética:** Sistema consonántico de extrema profundidad gutural y opacidad vocálica. Se basa en una morfología de raíces triconsonánticas y exige el uso activo de la faringe y la laringe, zonas articulatorias prácticamente inactivas en la fonética romance.
-
 ---
-
 ## 1. Perfil Fonético General
 
 El árabe demanda una tensión muscular concentrada en la parte posterior del tracto vocal (velo del paladar, úvula, faringe y glotis).
@@ -65,9 +63,7 @@ El árabe contiene una extensa serie de fricativas y oclusivas post-velares. Su 
 * **Palabra:** `Habibi` (Mi querido)
   * *Desglose:* 'H' es faríngea sorda (Haa), se traduce como una exhalación limpia. 'i' larga intermedia.
   * *Fonetización final:* **ja bí- bi**
-
 ---
-
 ## 7. Interferencia Fonética (Simulación de Acento Árabe en Español)
 
 Al aplicar la matriz fonotáctica del árabe sobre el español, se produce una contracción masiva del espectro vocálico y la inserción sistemática de vocales de apoyo para evitar estructuras silábicas incompatibles.

@@ -1,9 +1,7 @@
 # Guía de Fonetización en Español: Ruso (Estándar / Moscovita)
 
 **Notas de Configuración Fonética:** Sistema basado en el alfabeto cirílico. Su fonología es ortográficamente engañosa para el ojo occidental y se rige por dos leyes inflexibles: la extrema reducción de las vocales que no llevan acento y la dicotomía entre consonantes "duras" (velarizadas) y "blandas" (palatalizadas).
-
 ---
-
 ## 1. Perfil Fonético General
 
 El ruso es un idioma de contrastes violentos. Exige una articulación robusta en el fondo de la garganta y los labios, intercalada con suavizaciones palatales repentinas.
@@ -69,9 +67,7 @@ El ruso comparte la vibrante múltiple ('rr') con el español, pero añade un va
 * **Palabra:** `Мальчик` (Niño) -> *Mal'chik*
   * *Desglose:* La 'l' seguida de signo blando (Ь) se palataliza, sonando casi idéntica a una 'll' española pura.
   * *Fonetización final:* **mál chik**
-
 ---
-
 ## 7. Interferencia Fonética (Simulación de Acento Ruso en Español)
 
 Al aplicar la fonotáctica eslava sobre el español, el hablante impone la reducción vocálica, ensordece los finales, asimila las oclusivas y aplica un isocronismo rítmico marcial.
