@@ -1,6 +1,7 @@
 ---
 name: fusionar
 description: modo "fusión": propone 3–5 fusiones de géneros insólitas pero viables para un mood dado.---
+---
 # fusionar
 
 Modo fusión: ante un mood o tema, propone **3–5 fusiones de géneros insólitas** pero viables , con su porqué. Alimenta la Fase 1 / la skill `style-box`.
@@ -32,8 +33,6 @@ Buscas un molde sonoro original para un mood/tema, o el `style_box` estándar se
 
 ## Ejemplo
 
-> Mood: nostalgia agresiva.
->
 > - `Andalusian Drumstep` — la queja flamenca sobre breaks rotos da tensión melancólica.
 > - `Choral Ambient Noise Wall` — voces nítidas flotando sobre saturación = contraste.
 > - `Tokyo Bulería` — compás de 12 con timbres city-pop, escalas que chocan bonito.

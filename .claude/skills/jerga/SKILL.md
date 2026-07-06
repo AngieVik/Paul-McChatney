@@ -1,8 +1,8 @@
 ---
 name: jerga
 description: inyecta en la letra cantable jerga especifica para que se cante (nunca en el style_box).---
+---
 # fonetizar
-
 Inyecta en la letra cantable jerga especifica para que se cante. La jerga va **en la letra cantable, nunca en el style_box**.
 
 ## Cuándo se activa

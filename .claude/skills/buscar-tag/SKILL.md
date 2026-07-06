@@ -1,6 +1,7 @@
 ---
 name: buscar-tag
 description: busca en CHUPILISTA por concepto y devuelve 3–8 etiquetas relevantes con su núcleo y caja destino.---
+---
 # buscar-tag
 
 Buscador de la CHUPILISTA: dado un concepto (instrumento, emoción, efecto, ritmo…), devuelve las etiquetas más relevantes y dónde viven. Utilidad de referencia rápida.

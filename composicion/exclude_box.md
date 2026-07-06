@@ -9,10 +9,12 @@
 `3 · Supresión de Artefactos Digitales`
 `4 · Control de Sibilancia y Espectro Vocal`
 `5 · Claridad y Separación Frecuencial`
+`6 · Control de registro y carácter vocal`
+
 ---
 ## 1 · Instrucciones exclude_box
 - *Genera una línea de estilos, separados por comas para bloquear características. Puedes apoyarte en `chupilista/15_negative_prompts_and_exclude_styles.md` van exclusivamente en `exclude_box`.*
-    * **Ejemplo:** 
+    * **Ejemplo:**
       cuban, reggaeton, piano, grand piano, soft ambient intro, mellow, slow tempo, quiet silence, crooner, romantic ballad, latin pop, generic edm, lo-fi, standard reggaeton
 
 ## 2 · Mitigación de Saturación y Clipping
@@ -21,6 +23,7 @@
     - `overcompressed`: Previene el efecto de "bombeo" (pumping) y preserva el rango dinámico natural.
     - `brickwall limiter`: Evita la limitación agresiva que aplasta los transitorios de la percusión.
     - `distorted master`: Filtra la saturación no deseada en la mezcla global.
+
 ---
 ## 3 · Supresión de Artefactos Digitales
 - *Contramedidas para errores de codificación y limpieza del extremo superior del espectro (High-end).*
@@ -30,6 +33,7 @@
     - `mp3 artifacts`, `low bitrate`: Obliga al modelo a priorizar clústeres de entrenamiento de alta resolución para evitar el sonido "acuoso".
     - `robotic voice`, `synthetic artifacts`: Suprime los fallos algorítmicos en el sintetizador vocal para forzar un timbre más orgánico.
     - `scraping sounds`, `clanking artifacts`: Elimina ruidos de fricción mecánica o artefactos metálicos no deseados.
+
 ---
 ## 4 · Control de Sibilancia y Espectro Vocal
 - *Corrección de resonancias punzantes provocadas por una síntesis defectuosa de las consonantes.*
@@ -38,6 +42,7 @@
     - `plosives`: Previene golpes de graves descontrolados producidos por consonantes explosivas ('P', 'B').
     - `vocal crackle`: Elimina chasquidos o crepitaciones digitales en la pista de voz (común en procesamientos de inpainting).
     - `modern vocal polish`: Evita el procesamiento vocal excesivo para mantener una toma más cruda, natural y humana.
+
 ---
 ## 5 · Claridad y Separación Frecuencial
 - *Prevención del "ensuciamiento" (mud) cuando convergen múltiples capas instrumentales densas.*
@@ -45,4 +50,8 @@
     - `instrumental bleed`: Previene que el timbre de un instrumento contamine o se fusione erróneamente con el espectro de otro.
     - `cluttered`: Instruye al modelo a mantener una disposición espacial clara y evitar la saturación de eventos simultáneos.
     - `poor separation`: Exige una imagen estéreo definida y un espacio frecuencial dedicado para cada elemento del arreglo.
----
+
+## 6 · Control de registro y carácter vocal
+- *Excluye las tesituras y estilos vocales opuestos para "encerrar" al cantante en el registro deseado (complementa `tecnicas_vocales §2.9`).*
+    - **Fijar voz grave masculina:** excluir `soprano`, `mezzo`, `alto`.
+    - **Fijar voz femenina íntima (no diva):** excluir `belting`, `melismas`, `soprano`, `alto`.

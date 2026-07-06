@@ -7,9 +7,7 @@ description: Escritura técnica y tipografía como partitura física: narrativa,
 `1 · Narrativa`
   `1.1 · Métrica y lirismo libre`
   `1.2 · Rigidez estructural (solo Fases 3 y 4)`
-  `1.3 · Textura y equilibrio narrativo`
-  `1.4 · Autenticidad y frescura (anti-cliché)`
-  `1.5 · Anclaje regional mediante jerga`
+  `1.3 · Anclaje regional mediante jerga`
 `2 · Lirica`
   `2.1 · Cadencia y sustain`
   `2.2 · Control fonético`
@@ -23,4 +21,4 @@ description: Escritura técnica y tipografía como partitura física: narrativa,
   `3.5 · El ritmo y la rima`
   ---
   * **Documentos:**
-| [letra.md](../../composicion/letra.md) | **Letra** — Escritura técnica y tipografía como partitura física: narrativa, control fonético y aritmética métrica. |---
+| [letra.md](../../composicion/letra.md) | **Letra** — Escritura técnica y tipografía como partitura física: narrativa, control fonético y aritmética métrica. |-

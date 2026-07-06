@@ -1,13 +1,13 @@
 ---
 name: cover-art
 description: genera 3 prompts 1:1 para Gemini a partir del sentimiento (no el argumento) de una obra.---
-# Cover Art — Prompts para Gemini
+
 
 Convierte una obra de Paul McChatney en **3 prompts perfectos** para que Gemini genere portadas (cover art) en formato **1:1 (cuadrado)**.
 No se trata de ilustrar la letra de forma literal, sino de **pescar el sentimiento**: los conceptos semánticos y las cualidades ocultas que laten dentro de la canción.
 ---
-## Cuándo se activa
-
+# 
+# Cuándo se activaCover Art — Prompts para Gemini
 El usuario pide una portada, un cover, un cover art, una carátula o "imágenes para la canción". Si hay varias obras en juego, preguntar **de cuál**.
 ---
 ## Paso 1 — Examinar la obra

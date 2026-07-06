@@ -6,9 +6,7 @@
 `1 · Narrativa`
   `1.1 · Métrica y lirismo libre`
   `1.2 · Rigidez estructural (solo Fases 3 y 4)`
-  `1.3 · Textura y equilibrio narrativo`
-  `1.4 · Autenticidad y frescura (anti-cliché)`
-  `1.5 · Anclaje regional mediante jerga`
+  `1.3 · Anclaje regional mediante jerga`
 `2 · Lirica`
   `2.1 · Cadencia y sustain`
   `2.2 · Control fonético`
@@ -24,21 +22,13 @@
 ## 1 · Narrativa
 *Esculpe identidad, historia y tono de la obra. Fase 2 (boceto de letra).*
 
-- **Desarrollo ambicioso:** aspira a profundidad y a un arco de energía completo; deja respirar las atmósferas, asienta los temas y construye transiciones inmersivas. Ve la estructura como un todo (Modo Dios) y huye de versiones comprimidas o apresuradas.
-
 ### 1.1 · Métrica y lirismo libre
 *Autonomía total sobre longitud de verso, ritmo silábico e historia. Escribe desde la inspiración pura.*
 
 ### 1.2 · Rigidez estructural (solo Fases 3 y 4)
 *En Fase 2 el lirismo va 100% libre de etiquetas. En Fases 3 y 4 es obligatorio ceñirse a la arquitectura.*
 
-### 1.3 · Textura y equilibrio narrativo
-*Alterna detalle sensorial (mostrar) y lenguaje directo (contar), según lo que mejor potencie la actitud de la obra.*
-
-### 1.4 · Autenticidad y frescura (anti-cliché)
-*Huye de la poesía de IA: inyecta perspectivas únicas, modismos locales y verbos de acción contundentes.*
-
-### 1.5 · Anclaje regional mediante jerga
+### 1.3 · Anclaje regional mediante jerga
 *Para forzar acentos concretos (andaluz, argentino, mexicano), inyecta modismos y jerga local en la propia letra.*
 ---
 ## 2 · Lirica
@@ -110,6 +100,7 @@
 
 | Verso | Sílabas | Ejemplo | División |
 | :--- | :---: | :--- | :--- |
+preparate para fin de fase
 | **Bisílabo** | 2 | Noche. | (No-che) |
 | **Trisílabo** | 3 | La noche. | (La-no-che) |
 | **Tetrasílabo** | 4 | Bella noche. | (Be-lla no-che) |
@@ -135,15 +126,14 @@
 
 #### Rima consonante
 - *Repetición exacta de todos los sonidos (vocales y consonantes) desde la última vocal acentuada.*
-  Ya estoy tranquilo. Ya no espero n**ada**.
-  Ya sobre mi vacío coraz**ón**.
-  desciende la inconsciencia agraci**ada**.
-  de no querer una ilusi**ón**.
+> Ya estoy tranquilo. Ya no espero n**ada**.
+> Ya sobre mi vacío coraz**ón**.
+> desciende la inconsciencia agraci**ada**.
+> de no querer una ilusi**ón**.
 
 #### Rima asonante
 - *Repetición **solo de las vocales** desde la última vocal acentuada (las consonantes varían).*
-  Casi anónima sonrí**e**s
-  y el sol te dora el cab**e**ll**o**.
-  ¿Por qué para ser fel**i**z
-  hace falta no sab**e**rl**o**?
----
+> Casi anónima sonrí**e**s
+> y el sol te dora el cab**e**ll**o**.
+> ¿Por qué para ser fel**i**z
+> hace falta no sab**e**r

@@ -17,6 +17,7 @@ description: Puntuación en la letra y dirección vocal (Fase 3): Persona Stacki
   `2.6 · Aislamiento vocal temporal`
   `2.7 · Roles y duetos`
   `2.8 · Armonías y coros multicapa`
+  `2.9 · Rango y tesitura vocal`
   ---
   * **Documentos:**
-| [tecnicas_vocales.md](../../composicion/tecnicas_vocales.md) | **tecnicas_vocales (Fase 3)** — Puntuación y dirección vocal. |---
+| [tecnicas_vocales.md](../../composicion/tecnicas_vocales.md) | **tecnicas_vocales (Fase 3)** — Puntuación y dirección vocal. |-

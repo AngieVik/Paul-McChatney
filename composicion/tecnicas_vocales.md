@@ -16,6 +16,7 @@
     `2.6 · Aislamiento vocal temporal`
     `2.7 · Roles y duetos`
     `2.8 · Armonías y coros multicapa`
+    `2.9 · Rango y tesitura vocal`
 ---
 ## 1 · Puntuación en la letra
 *Signos tipográficos para manipular la métrica, la textura y el ritmo del modelo de generación.*
@@ -99,6 +100,11 @@
     - `[Legato Vocals]`: Canto suave y conectado, transición fluida entre frecuencias.
     - `[Performance: conversational]`: Voz "habla-canto" (*Sprechgesang*), íntima y natural.
     - `[Vocal: breathy]`: Añade ruido blanco orgánico forzando respiraciones o suspiros audibles.
+    - `[Sotto voce]`: Canto en voz muy baja, casi susurrada, sin proyección.
+    - `[No vibrato]`: Voz plana y directa, sin oscilación de tono al final de las frases.
+    - `[No ad libs]`: Sin improvisaciones ni florituras vocales extra.
+    - `[Detached delivery], [Internalized delivery]`: Interpretación fría, contenida o introspectiva (emoción desapegada).
+    - `[Dynamics: p / mf / f]`: Intensidad de la interpretación — *piano* (íntimo, contenido, sin clímax), *mezzoforte* (medio) o *forte* (fuerte, con proyección).
 - *Texturas de tono:*
     - `[Warm Voice]` Ecualización con realce en medios-bajos.
     - `[Bright Voice]` Realce en frecuencias altas.
@@ -139,4 +145,10 @@
 - *Directrices algorítmicas de polifonía.*
     - `[overlapping]`: Fuerza a dos entidades vocales a superponerse temporalmente.
     - `[multiple voice chorus satb]`: Invoca una estructura coral profesional a cuatro voces (Soprano, Alto, Tenor, Bajo).
+
+### 2.9 · Rango y tesitura vocal
+- *Fija el registro exacto del cantante para anclar el timbre y evitar que el modelo derive a una tesitura ajena.*
+  - **Voces masculinas graves:** `[Bass vocal range: E2–E4]` (muy profundo), `[Baritone vocal range: G2–G4]` (con cuerpo y fuerza), `[Tenor vocal range: C3–C5]` (limpio, melódico, más agudo).
+  - **Voz femenina íntima ("no diva"):** registro bajo y susurrado, tesitura contenida — `[Female low register]`, `[Intimate breathy delivery]`.
+  - **Límite de rango:** fuerza un techo con `[vocal range E3–A3, do not exceed]` para impedir que suba a agudos indeseados. Refuérzalo excluyendo las tesituras opuestas en el `exclude_box` (ver `exclude_box §6`).
 ---

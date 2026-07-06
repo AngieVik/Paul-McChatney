@@ -4,16 +4,12 @@
 Paul McChatney
 ├── _docs/
 ├── _hojas_sucias/
-│   ├── IDEAS.md [1.68 KB]
-│   ├── clasic_hardcore.md [15.06 KB]
-│   ├── desarollo_fonetismos_jergas.md [2.01 KB]
-│   ├── deudas.md [43 bytes]
+│   ├── apuntes.md [2.64 KB]
+│   ├── clasic_hardcore.md [15.43 KB]
 │   ├── etiquetas_hardcore.md [28.36 KB]
 │   ├── meta-etiquetas_nuevas.md [3.03 KB]
 │   ├── mezclas_locas.md [4.46 KB]
-│   ├── sliders.md [774 bytes]
-│   ├── taxonomia_integral_de_la_musica_rave_2025.md [8.22 KB]
-│   └── tuneos_pichi.md [467 bytes]
+│   └── taxonomia_integral_de_la_musica_rave_2025.md [8.22 KB]
 ├── _produccion/
 │   ├── plugins_angie/
 │   │   ├── audacity/
@@ -113,60 +109,61 @@ Paul McChatney
 │   └── nueva_skill.md [5.54 KB]
 ├── chuletas/
 │   ├── plantilla_fonetizaciones.md [3.88 KB]
-│   ├── plantilla_jerga.md [3.88 KB]
+│   ├── plantilla_hoja_sucia.md [2.20 KB]
+│   ├── plantilla_jerga.md [3.87 KB]
 │   └── plantilla_proyecto.md [3.10 KB]
 ├── chupilista/
-│   ├── 01_core_genres_and_subgenres.md [24.84 KB]
-│   ├── 02_atmosphere_and_mood.md [28.75 KB]
-│   ├── 03_instrumentation_and_stems.md [26.48 KB]
-│   ├── 04_vocal_persona_and_timbre.md [22.62 KB]
-│   ├── 05_rhythm_and_tempo.md [28.69 KB]
-│   ├── 06_song_structure_and_sections.md [34.19 KB]
-│   ├── 07_music_theory_harmony_and_scales.md [27.80 KB]
-│   ├── 08_dynamics_and_intensity.md [32.87 KB]
-│   ├── 09_foley_and_sound_design_fx.md [22.02 KB]
-│   ├── 10_experimental_modes.md [32.48 KB]
-│   ├── 11_production_and_effect.md [28.26 KB]
-│   ├── 12_vocal_delivery_and_expressivity.md [29.73 KB]
-│   ├── 13_advanced_modifiers_allowed.md [32.24 KB]
-│   ├── 14_nudging_and_callbacks.md [32.18 KB]
-│   └── 15_negative_prompts_and_exclude_styles.md [14.56 KB]
+│   ├── 01_core_genres_and_subgenres.md [24.81 KB]
+│   ├── 02_atmosphere_and_mood.md [28.73 KB]
+│   ├── 03_instrumentation_and_stems.md [26.45 KB]
+│   ├── 04_vocal_persona_and_timbre.md [22.60 KB]
+│   ├── 05_rhythm_and_tempo.md [28.67 KB]
+│   ├── 06_song_structure_and_sections.md [34.17 KB]
+│   ├── 07_music_theory_harmony_and_scales.md [27.78 KB]
+│   ├── 08_dynamics_and_intensity.md [32.85 KB]
+│   ├── 09_foley_and_sound_design_fx.md [22.00 KB]
+│   ├── 10_experimental_modes.md [32.46 KB]
+│   ├── 11_production_and_effect.md [28.23 KB]
+│   ├── 12_vocal_delivery_and_expressivity.md [29.71 KB]
+│   ├── 13_advanced_modifiers_allowed.md [32.22 KB]
+│   ├── 14_nudging_and_callbacks.md [32.17 KB]
+│   └── 15_negative_prompts_and_exclude_styles.md [14.54 KB]
 ├── composicion/
-│   ├── efectos.md [7.24 KB]
-│   ├── exclude_box.md [3.74 KB]
-│   ├── formato.md [1.34 KB]
-│   ├── letra.md [8.05 KB]
-│   ├── lyrics_box.md [9.80 KB]
-│   ├── style_box.md [6.47 KB]
+│   ├── efectos.md [7.34 KB]
+│   ├── exclude_box.md [3.73 KB]
+│   ├── formato.md [1.30 KB]
+│   ├── letra.md [7.40 KB]
+│   ├── lyrics_box.md [9.75 KB]
+│   ├── style_box.md [6.82 KB]
 │   └── tecnicas_vocales.md [7.79 KB]
 ├── conocimientos/
-│   └── retrospectiva.md [2.46 KB]
+│   └── retrospectiva.md [2.75 KB]
 ├── fonetizaciones/
 │   ├── argentino_rioplatense.md [6.49 KB]
 │   ├── boricua_puertorico.md [5.85 KB]
 │   ├── canario.md [5.99 KB]
-│   ├── chileno.md [5.94 KB]
+│   ├── chileno.md [5.93 KB]
 │   ├── colombiano_andino.md [6.13 KB]
 │   ├── es_aleman.md [7.91 KB]
 │   ├── es_americano.md [7.71 KB]
-│   ├── es_andaluz.md [8.02 KB]
-│   ├── es_arabe.md [7.47 KB]
-│   ├── es_calo.md [7.41 KB]
+│   ├── es_andaluz.md [8.01 KB]
+│   ├── es_arabe.md [7.46 KB]
+│   ├── es_calo.md [7.40 KB]
 │   ├── es_chino.md [7.45 KB]
 │   ├── es_ebrio.md [6.13 KB]
-│   ├── es_edad_avanzada.md [7.23 KB]
+│   ├── es_edad_avanzada.md [7.22 KB]
 │   ├── es_frances.md [8.20 KB]
-│   ├── es_hombre_gay.md [5.75 KB]
+│   ├── es_hombre_gay.md [5.74 KB]
 │   ├── es_infancia_temprana.md [5.96 KB]
 │   ├── es_italiano.md [7.55 KB]
-│   ├── es_portugues.md [8.09 KB]
+│   ├── es_portugues.md [8.08 KB]
 │   ├── es_pueblo_peninsular.md [7.39 KB]
-│   ├── es_rural_profundo.md [7.04 KB]
-│   ├── es_ruso.md [8.19 KB]
+│   ├── es_rural_profundo.md [7.03 KB]
+│   ├── es_ruso.md [8.18 KB]
 │   ├── es_senegales.md [7.46 KB]
-│   ├── euskera.md [6.69 KB]
+│   ├── euskera.md [6.68 KB]
 │   ├── gallego.md [7.48 KB]
-│   └── mexicano_centro.md [5.89 KB]
+│   └── mexicano_centro.md [5.88 KB]
 ├── jerga/
 │   ├── andaluz_almeriense.md [5.91 KB]
 │   ├── argot_canario.md [5.98 KB]
@@ -177,15 +174,15 @@ Paul McChatney
 │   ├── cheli_madrid.md [5.75 KB]
 │   ├── chilango_mexico.md [6.37 KB]
 │   ├── coa_chile.md [6.50 KB]
-│   ├── jerga_produccion.md [8.01 KB]
+│   ├── jerga_produccion.md [8.00 KB]
 │   ├── lunfardo_rioplatense.md [6.42 KB]
 │   └── parlache_medellin.md [6.31 KB]
 ├── proyectos/
 ├── system_prompt/
-│   └── system_prompt.md [5.83 KB]
-├── PROYECTOS.md [10.73 KB]
+│   └── system_prompt.md [5.46 KB]
+├── PROYECTOS.md [16.93 KB]
 ├── README.md [1.12 KB]
-└── folder-structure.md [13.21 KB]
+└── folder-structure.md [13.13 KB]
 ```
 
 
@@ -194,18 +191,19 @@ Paul McChatney
 ```plaintext
 Root Folder: Paul McChatney
 Total Folders: 22
-Total Files: 162
+Total Files: 159
 File Types:
-  - .md Files: 82
+  - .md Files: 79
   - .zip Files: 6
   - .ini Files: 1
   - .wav Files: 2
   - .jpg Files: 1
   - .txt Files: 70
 Largest File: 0 Lead Vocal.wav [46.12 MB]
-Smallest File: deudas.md [43 bytes]
-Total Project Size: 186.78 MB
+Smallest File: desktop.ini [114 bytes]
+Total Project Size: 186.79 MB
 Ignored Files and Folders:
+  - tablas.md
   - proyectos/60_granos
   - proyectos/aqui_se_vota_y_no_cambia_nada
   - proyectos/a_traves_del_rugido
@@ -233,7 +231,7 @@ Ignored Files and Folders:
   - proyectos/el_rio_de_los_dioses
   - proyectos/el_tambor_de_hierro
   - proyectos/el_ultimo_asado
-  - proyectos/energia_infinita_con_un_ambientador_del_mercadona_y_una_papa
+  - proyectos/energia_infinita
   - proyectos/exploding_ice_cream
   - proyectos/frutilla_lunar
   - proyectos/geim_over
