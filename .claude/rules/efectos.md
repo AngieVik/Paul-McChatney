@@ -1,13 +1,14 @@
-title: efectos
-description: Post-producción (Fase 4): espacio estéreo, DSP, texturas, transiciones y SFX.
+---
+name: efectos
+description: Post-producción (Fase 4), espacio estéreo, DSP, texturas, transiciones y SFX.
+---
+
+- *No se carga con `@`, este índice es el mapa concepto→archivo, abre cada `composicion/<archivo>.md` bajo demanda con la herramienta de lectura, solo el/los que necesites.*
+- **Consulta por búsqueda (grep) o salto por Índice.**
 
 ---
 
-* **Consulta por búsqueda (grep) o salto por Índice.**
-
----
-
-* **Índice:**
+- **Índice:**
 `1 · Efectos de audio y post-producción`
 `1.1 · Control de silencios y pausas`
 `1.2 · Modulación, distorsión y espacio espacial`
@@ -19,4 +20,6 @@ description: Post-producción (Fase 4): espacio estéreo, DSP, texturas, transic
 `1.8 · Transiciones, tensión armónica y SFX`
 
 - **Documentos:**
-  | [efectos.md](../../composicion/efectos.md) | **efectos (Fase 4)** — DSP, espacio estéreo, texturas y SFX. |
+| Fase | Archivo                                    | Contenido                                                    |
+| ---- | ------------------------------------------ | ------------------------------------------------------------ |
+| 4    | [efectos.md](../../composicion/efectos.md) | **efectos (Fase 4)** — DSP, espacio estéreo, texturas y SFX. |

@@ -1,33 +1,85 @@
 ---
 name: lirica
-description: redacta la letra limpia sin etiquetas (Fase 2 aislada): narrativa, cadencia y anclaje regional.---
+description: redacta la letra limpia sin etiquetas (Fase 2 aislada): narrativa, cadencia y anclaje regional.
 ---
-# liric
----
+
+# lirica
+
 - Escribe **solo la letra limpia** (Fase 2): calidad poética y narrativa, sin corchetes ni metaetiquetas. El esqueleto cantable que luego se etiqueta en Fase 3.
 
 ## Cuándo se activa
-Hace falta la letra de una obra sin tags: arranque de Fase 2 o escritura suelta.
+
+- Se solicita **explícitamente** una letra en concreto sobre un mood u obra.
+- Hace falta la letra de una obra sin tags.
+- Arranque de Fase 2 o escritura suelta.
 
 ## Pasos
+
 1. Fija la voz narrativa, la historia y el tono (`composicion/letra.md`).
 2. Escribe con métrica libre pero cadencia consistente en estribillos. Para conteo silábico y formas clásicas (soleá, seguiriya, romance…) consulta `composicion/letra.md`.
 3. Inyecta anclaje regional con jerga/modismos locales (fuerzan acento).
 4. Huye del cliché de IA: perspectivas únicas, verbos contundentes, frescura.
 
 ## Reglas heredadas
+
 - Sin etiquetas en Fase 2: 100% lírica libre (`composicion/letra.md`).
 - Desarrollo ambicioso: deja que la narrativa respire, evita lo mínimo exigible.
 - Si el cierre de verso va sin puntuación, se encadena en una misma respiración.
 
 ## Entra → Sale
+
 - **Entra:** tema, voz narrativa y tono.
-- **Sale:** letra limpia sin corchetes, en bloque de código markdown (`composicion/formato.md` §2), lista para etiquetar en Fase 3.
+- **Sale:** letra limpia sin corchetes, (`composicion/formato.md §2`), lista para etiquetar en Fase 3.
 
 ## Relación
-- ¿Necesitas acento concreto? → `fonetizar` (se aplica sobre la letra, no en el style_box).
+
+- ¿Necesitas acento concreto? → `fonetizar`.
+- ¿Necesitas jerga concreta? → `jerga`.
 - ¿Lista para etiquetar? → vuelve a `produccion` Fase 3.
 
 ## Ejemplo
-> Tema: cartero rural que nunca llega. Tono melancólico, jota aragonesa.
-> → 3 estrofas + estribillo, octosílabos, sin un solo corchete.
+
+**Entrada:**
+
+- Cartero rural que nunca llega, Tono melancólico, jota aragonesa.
+
+**Salida:**
+
+- Letra generada:
+
+    ```text
+    El cartero que no llega
+    miro la pared rascá
+    y el cartero que no llega
+    soy la última que aguanta
+    en este pueblo de piedra en este pueblo de piedra
+    miro la pared rascá
+
+    ¡Ay! que la grieta se abre
+    ¡Ay! que el silencio me traga
+    Golpea el viento en la chapa
+    y en la calle no hay un alma...
+
+    No hay críos por la placeta
+    ya no humean los tejaos
+    ni hay críos por la placeta
+    solo el cierzo que me habla
+    por la puerta entreabierta por la puerta entreabierta
+    ya no humean los tejaos
+
+    ¡Ay! que la grieta se abre
+    ¡Ay! que el silencio me traga
+    Golpea el viento en la chapa
+    y en la calle no hay un alma...
+
+    Pero miro a la cancela
+    no espero ninguna carta
+    pero miro a la cancela
+    que hasta el polvo del camino
+    se olvidó de quién me espera se olvidó de quién me espera
+    no espero ninguna carta
+
+    No
+    Espero
+    Ninguna carta
+    ```

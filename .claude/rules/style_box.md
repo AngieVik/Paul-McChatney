@@ -1,8 +1,12 @@
-title: style_box
+---
+name: style_box
 description: Construcción del style_box (Fase 1): Tag Anchoring, anclaje temporal y colisión de opuestos (fusión lingüístico-tonal, rítmica y tímbrica).
 ---
-* **Consulta por búsqueda (grep) o salto por Índice.**
----* **Índice:**
+
+- *No se carga con `@`, este índice es el mapa concepto→archivo, abre cada `composicion/<archivo>.md` bajo demanda con la herramienta de lectura, solo el/los que necesites.*
+- **Consulta por búsqueda (grep) o salto por Índice.**
+
+- **Índice:**
 `1 · Etiquetas style_box`
   `1.1 · Tag Anchoring`
   `1.2 · El anclaje temporal`
@@ -21,6 +25,10 @@ description: Construcción del style_box (Fase 1): Tag Anchoring, anclaje tempor
   `4.1 · Textural Bleed`
   `4.2 · Instrumental Hijacking`
   `4.3 · Hack de timbre (choque cognitivo)`
-  ---
-  * **Documentos:**
-| [style_box.md](../../composicion/style_box.md) | **style_box (Fase 1)** — Construcción del molde sónico y colisión de opuestos. |---
+
+---
+
+- **Documentos:**
+| Fase | Archivo                                        | Contenido                                                                      |
+| ---- | ---------------------------------------------- | ------------------------------------------------------------------------------ |
+| 1    | [style_box.md](../../composicion/style_box.md) | **style_box (Fase 1)** — Construcción del molde sónico y colisión de opuestos. |

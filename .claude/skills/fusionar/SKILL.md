@@ -1,15 +1,19 @@
 ---
 name: fusionar
-description: modo "fusión": propone 3–5 fusiones de géneros insólitas pero viables para un mood dado.---
+description: propone 3–5 fusiones de géneros insólitas pero viables.
 ---
+
 # fusionar
 
-Modo fusión: ante un mood o tema, propone **3–5 fusiones de géneros insólitas** pero viables , con su porqué. Alimenta la Fase 1 / la skill `style-box`.
+- Ante un mood o tema, propone **3–5 fusiones de géneros insólitas** pero viables, con su porqué. 
+- Alimenta Fase 1 / skill `style-box`.
 
 ## Cuándo se activa
 
-Buscas un molde sonoro original para un mood/tema, o el `style_box` estándar se queda plano.
-
+- Se solicita explicitamente una fusión sobre un mood u obra.
+- Buscas un molde sonoro original para un mood/obra.
+- El `style_box` estándar se queda plano.
+  
 ## Pasos
 
 1. Toma el mood/tema y consulta `composicion/style_box.md` (fusión lingüístico-tonal, regional, contraste de frecuencias) y `chupilista/10_experimental_modes.md`.
@@ -19,8 +23,8 @@ Buscas un molde sonoro original para un mood/tema, o el `style_box` estándar se
 
 ## Reglas heredadas
 
-- No mezcles >2 géneros principales sin un tag de fusión explícito (`composicion/style_box.md`).
-- Inventa géneros cruzando conceptos (ej. `RUSSIAN SALSA`, `HARDTEK POCOYÓ`).
+- No mezcles más de 2 géneros principales sin un tag de fusión explícito (`composicion/style_box.md`).
+- Inventa géneros cruzando conceptos (ej. `[Russian Salsa]`, `[Hardtek Pocoyó]`).
 
 ## Entra → Sale
 
@@ -33,6 +37,12 @@ Buscas un molde sonoro original para un mood/tema, o el `style_box` estándar se
 
 ## Ejemplo
 
-> - `Andalusian Drumstep` — la queja flamenca sobre breaks rotos da tensión melancólica.
-> - `Choral Ambient Noise Wall` — voces nítidas flotando sobre saturación = contraste.
-> - `Tokyo Bulería` — compás de 12 con timbres city-pop, escalas que chocan bonito.
+**Entrada:** 
+
+Flamenco
+
+**Salida:**
+
+- `[Andalusian Drumstep]` — la queja flamenca sobre breaks rotos da tensión melancólica.
+- `[Choral Ambient Noise Wall]` — voces nítidas flotando sobre saturación = contraste.
+- `[Tokyo Bulería]` — compás de 12 con timbres city-pop, escalas que chocan bonito.

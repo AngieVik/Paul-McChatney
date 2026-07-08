@@ -1,10 +1,15 @@
-title: Composición
+---
+name: Composición
 description: Índice maestro de los archivos de conocimiento de composición, saber de oficio y técnica de Paul.
 ---
-* *No se carga con `@`, este índice es el mapa concepto→archivo, abre cada `composicion/<archivo>.md` bajo demanda con la herramienta de lectura, solo el/los que necesites.*
-* **Consulta por búsqueda (grep) o salto por Índice.**
+
+- *No se carga con `@`, este índice es el mapa concepto→archivo, abre cada `composicion/<archivo>.md` bajo demanda con la herramienta de lectura, solo el/los que necesites.*
+- **Consulta por búsqueda (grep) o salto por Índice.**
+
 ---
-* **Documentos:**
+
+- **Documentos:**
+
 | Fase | Archivo                                                      | Contenido                                                                                                                          |
 | ---- | ------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------- |
 | 1    | [style_box.md](../../composicion/style_box.md)               | Construcción del style_box: Tag Anchoring, anclaje temporal y colisión de opuestos (fusión lingüístico-tonal, rítmica y tímbrica). |

@@ -1,9 +1,14 @@
-title: tecnicas_vocales
+---
+name: tecnicas_vocales
 description: Puntuación en la letra y dirección vocal (Fase 3): Persona Stacking, roles, duetos y armonías multicapa.
 ---
-* **Consulta por búsqueda (grep) o salto por Índice.**
+
+- *No se carga con `@`, este índice es el mapa concepto→archivo, abre cada `composicion/<archivo>.md` bajo demanda con la herramienta de lectura, solo el/los que necesites.*
+- **Consulta por búsqueda (grep) o salto por Índice.**
+
 ---
-* **Índice:**
+
+- **Índice:**
 `1 · Puntuación en la letra`
   `1.1 · Paréntesis — Voces secundarias`
   `1.2 · Comillas — Énfasis especial`
@@ -18,6 +23,10 @@ description: Puntuación en la letra y dirección vocal (Fase 3): Persona Stacki
   `2.7 · Roles y duetos`
   `2.8 · Armonías y coros multicapa`
   `2.9 · Rango y tesitura vocal`
+ 
   ---
-  * **Documentos:**
-| [tecnicas_vocales.md](../../composicion/tecnicas_vocales.md) | **tecnicas_vocales (Fase 3)** — Puntuación y dirección vocal. |-
+
+- **Documentos:**
+| Fase | Archivo                                                      | Contenido                                                     |
+| ---- | ------------------------------------------------------------ | ------------------------------------------------------------- |
+| 3    | [tecnicas_vocales.md](../../composicion/tecnicas_vocales.md) | **tecnicas_vocales (Fase 3)** — Puntuación y dirección vocal. |

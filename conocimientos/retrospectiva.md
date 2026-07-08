@@ -48,3 +48,8 @@ Todo aprendizaje se redacta como **directiva accionable en positivo** — qué h
 ## 4 · Principio de fondo
 
 La validación en producción es el único pasaporte a un aprendizaje; lo no probado queda como hipótesis y no se escribe. Cada obra validada debe mejorar la siguiente **de verdad**: por eso el aprendizaje vive donde se consume `MEMORY` o `composicion/`, no en un archivo aparte que nadie relee. El historial lo guarda git; no hace falta un changelog manual.
+
+## Regla de oro de la memoria
+
+- Un prompt no validado en producción es hipótesis, no conocimiento: no escala a `MEMORY.md` ni a los archivos vivos hasta que el usuario valida la obra. 
+- Todo aprendizaje se redacta en **positivo** (qué hacer).

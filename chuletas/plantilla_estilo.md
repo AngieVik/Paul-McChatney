@@ -1,8 +1,8 @@
 # plantilla_estilo
 
-> Guía de estilo Markdown para escribir archivos del proyecto sin pelear con el linter ni con el formateo al guardar.
-> Refleja la configuración real de VS Code (markdownlint de David Anson + Markdown All in One, LF, Prettier excluido de `.md`) y el estilo de la casa de Paul McChatney.
-> Objetivo: que un archivo nuevo pase `source.fixAll` al guardar sin que se reordene ni salten avisos amarillos.
+- Guía de estilo Markdown para escribir archivos del proyecto sin pelear con el linter ni con el formateo al guardar.
+- Refleja la configuración real de VS Code (markdownlint de David Anson + Markdown All in One, LF, Prettier excluido de `.md`) y el estilo de la casa de Paul McChatney.
+- Objetivo: que un archivo nuevo pase `source.fixAll` al guardar sin que se reordene ni salten avisos amarillos.
 
 ---
 
@@ -39,16 +39,16 @@
 | `MD031` | Bloques de código aislados por líneas en blanco.    | Hueco antes y después de la valla.    |
 | `MD040` | Todo bloque de código lleva lenguaje.               | `text`, `markdown`, `jsonc`.          |
 | `MD046` | Código en bloques cercados (fenced).                | Nunca código por indentación.         |
-| `MD038` | Sin espacios sobrantes dentro de `` `código` ``.    | `` `[Tag]` ``, no con espacios.       |
+| `MD038` | Sin espacios sobrantes dentro de `código`.          | `[Tag]`, no con espacios.             |
 | `MD032` | Listas rodeadas de línea en blanco.                 | Aísla cada bloque de lista.           |
 
 - *Apagadas a tu favor* (puedes usarlas sin miedo):
-  - `MD013`: sin límite de longitud de línea (escribe párrafos largos).
-  - `MD009`: se permiten espacios finales (los dos espacios para salto de línea real sobreviven).
-  - `MD012`: se permiten varias líneas en blanco seguidas.
-  - `MD033`: se permite HTML crudo.
-  - `MD034`: se permiten URLs sin `<>`.
-  - `MD024`: títulos iguales permitidos si no son hermanos directos.
+    - `MD013`: sin límite de longitud de línea (escribe párrafos largos).
+    - `MD009`: se permiten espacios finales (los dos espacios para salto de línea real sobreviven).
+    - `MD012`: se permiten varias líneas en blanco seguidas.
+    - `MD033`: se permite HTML crudo.
+    - `MD034`: se permiten URLs sin `<>`.
+    - `MD024`: títulos iguales permitidos si no son hermanos directos.
 
 ---
 
@@ -79,7 +79,7 @@ Contenido de la sección.
 
 `1 · Primera sección`
 `2 · Segunda sección`
-  `2.1 · Subapartado`
+    `2.1 · Subapartado`
 ```
 
 - *Las subsecciones se indentan 2 espacios* bajo su sección padre, igual que una sublista.
@@ -92,10 +92,10 @@ Contenido de la sección.
 - *Viñeta (`-`):* para enumerar cosas sin orden ni jerarquía: opciones, características, ejemplos sueltos. Es la lista por defecto del proyecto.
 - *Numerada (`1.` `2.` `3.`):* solo cuando el orden importa: pasos de un proceso, fases, prioridad, o una secuencia que se sigue de arriba abajo.
 - *Reglas de forma:*
-  - Guion `-` para toda viñeta (`MD004`).
-  - Sangría de sublista: exactamente 2 espacios por nivel (`MD007`).
-  - Numeración correlativa real `1. 2. 3.` (`MD029`), no repetir `1.`.
-  - Línea en blanco antes y después del bloque de lista (`MD032`).
+    - Guion `-` para toda viñeta (`MD004`).
+    - Sangría de sublista: exactamente 4 espacios por nivel (`MD007`).
+    - Numeración correlativa real `1. 2. 3.` (`MD029`), no repetir `1.`.
+    - Línea en blanco antes y después del bloque de lista (`MD032`).
 
 ```markdown
 Pasos del flujo:
@@ -178,21 +178,21 @@ Elementos sueltos:
 ## 10 · Estilo de la casa
 
 - *Convenciones propias del proyecto, además de las reglas del linter:*
-  - *H1* = nombre del archivo o slug (`# letra`, `# escuela_de_calor`).
-  - *Línea de intención** bajo el título o el encabezado, en cursiva: `- *Para qué sirve esto.*`
-  - *Recordatorio de consulta** en las hojas de conocimiento: `*Recordatorio: consulta por búsqueda (grep) o salto por sección.*`
-  - *Secciones* `## N · Título`, *subsecciones* `### N.N · Título`, con `·` de separación.
-  - *Etiquetas de campo* en negrita con dos puntos: `**Ejemplo:**`, `**Regla:**`, `**Sintaxis:**`.
-  - *Tags de Suno* siempre entre `backticks`.
-  - *Separadores `---`* entre cabecera, índice y cuerpo.
-  - [Corchete]: "Esto es una etiqueta". Le dice a la máquina que lo que hay dentro es una categoría o un ajuste, no texto normal.
-  - **Negrita**: "¡Orden absoluta!". Indica que esa instrucción es crítica, de prioridad máxima e innegociable.
-  - *Cursiva*: "Fíjate un poco aquí". Un subrayado ligero para darle un poco más de peso a esa palabra.
-  - "Comillas": "Literalmente esto". Obliga a usar exactamente lo escrito, letra por letra, sin interpretaciones.
-  - `Backtick`: "No lo toques, es código". Avisa de que la palabra es técnica y no debe analizarse como lenguaje natural.
-  - <Nombre>: "Hueco a rellenar" o "Caja de texto". Marca dónde irá un dato futuro o envuelve un bloque de reglas.
-  - {Nombre}: "Paquete de datos". Agrupa información emparejada (como una ficha) para no mezclarla.
-  - ^Nombre^: "Posición exacta". Fija el inicio de un texto al milímetro o marca un superíndice matemático.
+    - *H1* = nombre del archivo o slug (`# letra`, `# escuela_de_calor`).
+    - *Línea de intención** bajo el título o el encabezado, en cursiva: `- *Para qué sirve esto.*`
+    - *Recordatorio de consulta** en las hojas de conocimiento: `*Recordatorio: consulta por búsqueda (grep) o salto por sección.*`
+    - *Secciones* `## N · Título`, *subsecciones* `### N.N · Título`, con `·` de separación.
+    - *Etiquetas de campo* en negrita con dos puntos: `**Ejemplo:**`, `**Regla:**`, `**Sintaxis:**`.
+    - *Tags de Suno* siempre entre `backticks`.
+    - *Separadores `---`* entre cabecera, índice y cuerpo.
+    - [Corchete]: "Esto es una etiqueta". Le dice a la máquina que lo que hay dentro es una categoría o un ajuste, no texto normal.
+    - **Negrita**: "¡Orden absoluta!". Indica que esa instrucción es crítica, de prioridad máxima e innegociable.
+    - *Cursiva*: "Fíjate un poco aquí". Un subrayado ligero para darle un poco más de peso a esa palabra.
+    - "Comillas": "Literalmente esto". Obliga a usar exactamente lo escrito, letra por letra, sin interpretaciones.
+    - `Backtick`: "No lo toques, es código". Avisa de que la palabra es técnica y no debe analizarse como lenguaje natural.
+    - <Nombre>: "Hueco a rellenar" o "Caja de texto". Marca dónde irá un dato futuro o envuelve un bloque de reglas.
+    - {Nombre}: "Paquete de datos". Agrupa información emparejada (como una ficha) para no mezclarla.
+    - ^Nombre^: "Posición exacta". Fija el inicio de un texto al milímetro o marca un superíndice matemático.
 
 ---
 

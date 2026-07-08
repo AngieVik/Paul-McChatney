@@ -1,15 +1,21 @@
-title: fonetizaciones
+---
+name: fonetizaciones
 description: Guías de fonetización para idiomas y dialectos. Permiten simular acentos específicos en la letra.
---- 
-**Principio clave:** Un mismo texto cantado con fonetización diferente produce canciones radicalmente distintas en timbre y emoción.
+
 ---
-* **Cada archivo describe cómo adaptar la letra escrita para interpretar un acento o idioma concreto.**
-* **Las fonetizaciones van en la letra cantable, no en el style_box.**
+
+- **Principio clave:** Un mismo texto cantado con fonetización diferente produce canciones radicalmente distintas en timbre y emoción.
+- **Cada archivo describe cómo adaptar la letra escrita para interpretar un acento o idioma concreto.**
+- **Las fonetizaciones van en la letra cantable, no en el style_box.**
+
 ---
-* *No se carga con `@`, este índice es el mapa concepto→archivo, abre cada `fonetizaciones/<archivo>.md` bajo demanda con la herramienta de lectura, solo el/los que necesites.*
-* **Consulta por búsqueda (grep) o salto por Índice.**
+
+- *No se carga con `@`, este índice es el mapa concepto→archivo, abre cada `fonetizaciones/<archivo>.md` bajo demanda con la herramienta de lectura, solo el/los que necesites.*
+- **Consulta por búsqueda (grep) o salto por Índice.**
+
 ---
-**Guías disponibles:**
+
+- **Guías disponibles:**
 | Archivo                                                                   | Idioma / Acento         | Notas                                                                      |
 | ------------------------------------------------------------------------- | ----------------------- | -------------------------------------------------------------------------- |
 | [argentino_rioplatense.md](../../fonetizaciones/argentino_rioplatense.md) | Argentino / Rioplatense | Sistema fonológico altamente distintivo.                                   |

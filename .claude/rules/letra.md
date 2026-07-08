@@ -1,9 +1,14 @@
-title: letra
+---
+name: letra
 description: Escritura técnica y tipografía como partitura física: narrativa, control fonético y aritmética métrica.
 ---
-* **Consulta por búsqueda (grep) o salto por Índice.**
+
+- *No se carga con `@`, este índice es el mapa concepto→archivo, abre cada `composicion/<archivo>.md` bajo demanda con la herramienta de lectura, solo el/los que necesites.*
+- **Consulta por búsqueda (grep) o salto por Índice.**
+
 ---
-* **Índice:**
+
+- **Índice:**
 `1 · Narrativa`
   `1.1 · Métrica y lirismo libre`
   `1.2 · Rigidez estructural (solo Fases 3 y 4)`
@@ -19,6 +24,10 @@ description: Escritura técnica y tipografía como partitura física: narrativa,
   `3.3 · Análisis práctico: Mario Benedetti`
   `3.4 · Tipos de versos según longitud`
   `3.5 · El ritmo y la rima`
-  ---
-  * **Documentos:**
-| [letra.md](../../composicion/letra.md) | **Letra** — Escritura técnica y tipografía como partitura física: narrativa, control fonético y aritmética métrica. |-
+ 
+---
+
+- **Documentos:**
+| Fase | Archivo                                | Contenido                                                                                                           |
+| ---- | -------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
+| 2    | [letra.md](../../composicion/letra.md) | **Letra** — Escritura técnica y tipografía como partitura física: narrativa, control fonético y aritmética métrica. |

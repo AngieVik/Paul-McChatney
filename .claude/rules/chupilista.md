@@ -1,10 +1,14 @@
-title: chupilista
+---
+name: chupilista
 description: Vocabulario exhaustivo de tags y modificadores, la chupilista es la referencia principal para crear musica organizada en 15 módulos especializados.
 ---
+
 - *No se carga con `@`, este índice es el mapa concepto→archivo, abre cada `chupilista/<archivo>.md` bajo demanda con la herramienta de lectura, solo el/los que necesites.*
 - **Consulta por búsqueda (grep) o salto por Índice.**
+
 ---
-* **Módulos:**
+
+- **Módulos:**
 | Nº  | Archivo                                                                                                 | Contenido                                                                        |
 | --- | ------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
 | 01  | [01_core_genres_and_subgenres.md](../../chupilista/01_core_genres_and_subgenres.md)                     | Géneros y subgéneros: el vocabulario base para definir el estilo principal.      |
