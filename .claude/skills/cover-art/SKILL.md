@@ -60,20 +60,20 @@ Estructura sugerida de cada prompt:
 
 Una primera línea con el **núcleo emocional** detectado (para que el usuario vea de dónde sale cada escena), seguida de tres bloques de código Markdown independientes, listos para copiar y pegar en Gemini (coherente con `composicion/formato.md` §2):
 
-/`/`/`
+```text
 COVER 1
 <prompt en lenguaje natural, 1:1>
-/`/`/`
+```
 
-/`/`/`
+```text
 COVER 2
 <prompt en lenguaje natural, 1:1>
-/`/`/`
+```
 
-/`/`/`
+```text
 COVER 3
 <prompt en lenguaje natural, 1:1>
-/`/`/`
+```
 
 ## Entra → Sale
 

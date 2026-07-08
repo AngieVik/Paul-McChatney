@@ -2,7 +2,9 @@
 
 *Repositorio integral de arquitecturas de diseño sonoro de vanguardia, manipulación de señal extrema y topologías de deconstrucción acústica.*
 *Recordatorio: se consulta por búsqueda (grep) o saltando a una sección.*
+
 ---
+
 ## Índice
 
 `1 · Procesamiento Algorítmico, Generativo y Estocástico`
@@ -13,7 +15,9 @@
 `6 · Síntesis, Filtrado y Procesamiento Espectral Granular`
 `7 · Saturación, Ruido de Fondo y Entornos Industriales`
 `8 · Manipulación de Arreglos, Narrativa y Formantes Vocales`
+
 ---
+
 ### 1 · Procesamiento Algorítmico, Generativo y Estocástico
 
 *Sistemas de control basados en IA, autómatas celulares, secuencias matemáticas de probabilidad y motores de modulación procedural para la evolución autónoma del audio.*
@@ -77,7 +81,9 @@
 [Stochastic Resonance Noise Modulation System]
 [Stochastic Resynthesis Frequency Cloud Matrix System]
 [Stochastic Resynthesis Frequency Cloud System]
+
 ---
+
 ### 2 · Manipulación Temporal, Métrica y Rítmica
 
 *Sistemas de deformación de la línea de tiempo matemática, polirritmia superpuesta, dilatación temporal y métricas asimétricas que fracturan la rejilla de cuantización convencional.*
@@ -186,7 +192,9 @@
 [Unquantized Human Feel Slop Engine]
 [Unquantized Human Feel Slop Matrix]
 [Unquantized Human Feel Slop Modulator Matrix]
+
 ---
+
 ### 3 · Alteración de Fase, Psicoacústica y Espacialización
 
 *Tratamiento de la tridimensionalidad acústica, engaños psicoacústicos, manipulación polar de fase, cross-talk binaural y diseño de campos de reverberación profundos.*
@@ -276,7 +284,9 @@
 [Virtual Purgatory Freeze Frame Matrix]
 [Virtual Purgatory Freeze Frame Mode]
 [Virtual Purgatory Freeze Frame Synthesis Engine]
+
 ---
+
 ### 4 · Microtonalidad, Disonancia y Deriva Estructural
 
 *Estructuras matemáticas atónicas, síntesis y desintegración de frecuencias en escalas no convencionales, serialismo de doce tonos y clústeres disonantes.*
@@ -383,7 +393,9 @@
 [Tuning Fork Resonance]
 [Vibrato Pitch Micro-Flutter Rhythm]
 [Vibrato Pitch Micro-Flutter]
+
 ---
+
 ### 5 · Corrupción Digital, Glitch y Degradación de Datos
 
 *Simulación exhaustiva de fracaso sistémico, aliasing, downsampling, tartamudeo en la transmisión de datos (stutter/glitch) y volatilización de componentes digitales de audio.*
@@ -455,7 +467,9 @@
 [Vaporwave Slowed Pitch-Shifted Degradation Mode]
 [Xenochronic Audio Splicing Layer]
 [Xenochronic Audio Splicing]
+
 ---
+
 ### 6 · Síntesis, Filtrado y Procesamiento Espectral Granular
 
 *Intervención a nivel de dominio frecuencial empleando Transformadas Rápida de Fourier (FFT), síntesis FM granular extrema y manipulación profunda de espectros y formantes.*
@@ -599,7 +613,9 @@
 [Textural Granular Micro-Clouds Grain]
 [Textural Granular Micro-Clouds]
 [Tremolo Chopper]
+
 ---
+
 ### 7 · Saturación, Ruido de Fondo y Entornos Industriales
 
 *Explotación de umbrales analógicos y de ruido blanco, cacofonía mecánica controlada, sobremarcha de cinta, y texturas hiperrealistas basadas en física e impacto industrial.*
@@ -758,7 +774,9 @@
 [White Noise Static Wash Sweep]
 [White Noise Static Wash]
 [Zero-Crossing Click]
+
 ---
+
 ### 8 · Manipulación de Arreglos, Narrativa y Formantes Vocales
 
 *Alteraciones disruptivas sobre la macrosíntesis del track, inyecciones de silencios súbitos, transiciones fluidas estilo concept album, y mutación de inteligencia artificial en voces procesadas o cantadas.*
@@ -852,4 +870,5 @@
 [Vocoder Robot Choir Polyphonic Grid Synthesis Matrix]
 [Vocoder Robot Choir Polyphonic Grid System]
 [Wordless Outro]
+
 ---

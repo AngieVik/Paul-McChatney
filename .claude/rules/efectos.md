@@ -1,8 +1,12 @@
 title: efectos
 description: Post-producción (Fase 4): espacio estéreo, DSP, texturas, transiciones y SFX.
+
 ---
+
 * **Consulta por búsqueda (grep) o salto por Índice.**
+
 ---
+
 * **Índice:**
 `1 · Efectos de audio y post-producción`
 `1.1 · Control de silencios y pausas`

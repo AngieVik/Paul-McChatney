@@ -2,7 +2,9 @@
 
 *Categorización exhaustiva de técnicas, efectos y procesos de producción de audio, organizada mediante dominios de procesamiento de señal.*
 *Recordatorio: se consulta por búsqueda (grep) o saltando a una sección.*
+
 ---
+
 ## Índice
 
 `1 · Dinámica y Volumen`
@@ -15,7 +17,9 @@
 `8 · Imagen Estéreo y Espacialidad`
 `9 · Glitch, Stutter y Efectos Experimentales`
 `10 · Mezcla Base y Utilidades Generales`
+
 ---
+
 ### 1 · Dinámica y Volumen
 
 *Gestión de amplitud, envolventes y control de transitorios. Compresores, limitadores, puertas de ruido y sidechaining paramétrico.*
@@ -99,7 +103,9 @@
 [Volume Swell Fade-In]
 [Warm Analog Compression Master Limiter Peak]
 [Warm Analog Compression]
+
 ---
+
 ### 2 · Ecualización y Filtros
 
 *Modelado del espectro frecuencial, atenuación y resonancia selectiva mediante pasos altos, bajos, bandas y filtros modulados.*
@@ -176,7 +182,9 @@
 [Vintage 1920s Megaphone Filter]
 [Wah-Wah Pedal Modulated Sweep]
 [White Noise Pumping Filter-Modulated]
+
 ---
+
 ### 3 · Saturación, Distorsión y Lo-Fi
 
 *Alteración armónica, clipping analógico/digital y degradación de señal intencionada (cinta, vinilo, reducción de bits).*
@@ -331,7 +339,9 @@
 [Warm Tube Saturation Soft Preamp Drive]
 [Warm Tube Saturation]
 [Worn Out Tape Sound]
+
 ---
+
 ### 4 · Reverberación y Espacios
 
 *Simulación acústica de entornos físicos, generación de ecos de cámara y convoluciones espaciales de diversas escalas.*
@@ -433,7 +443,9 @@
 [Wet Reverb Drenched Cavernous Echo Bloom]
 [Wet Reverb Drenched]
 [Whispered Reverb Layer]
+
 ---
+
 ### 5 · Delay y Ecos
 
 *Líneas de retardo, repeticiones basadas en tiempo, simulaciones de cinta magnética, ping-pong estéreo y efectos de retroalimentación.*
@@ -499,7 +511,9 @@
 [Twilight Tape Echo]
 [Unquantized Human Feel Slop Modulation Delay]
 [Whispering Ghost Delay]
+
 ---
+
 ### 6 · Modulación
 
 *Procesos basados en osciladores de baja frecuencia (LFO) para alterar tiempo, fase o tono de la señal (chorus, phaser, flanger, ring modulation).*
@@ -569,7 +583,9 @@
 [Vibrato Pitch Flutter]
 [Vintage Analog String Chorus]
 [Wall Of Sound Chorus Wall Of Sound]
+
 ---
+
 ### 7 · Tono, Voces y Formantes
 
 *Manipulación del pitch, afinación, vocoders, generación de armonías, manipulación de formantes y síntesis sub-armónica.*
@@ -674,7 +690,9 @@
 [Vocoder Robot Voice Carrier]
 [Vocoder Synthetic Robot Cybernetic Carrier]
 [Vocoder Synthetic Robot]
+
 ---
+
 ### 8 · Imagen Estéreo y Espacialidad
 
 *Posicionamiento en el campo estéreo, ensanchamiento, rotación tridimensional y técnicas binaurales o de fase inversa.*
@@ -726,7 +744,9 @@
 [Wide Stereo Enhancer Dual-Mono Width Blast]
 [Wide Stereo Enhancer]
 [Wide Stereo Spread]
+
 ---
+
 ### 9 · Glitch, Stutter y Efectos Experimentales
 
 *Destrucción algorítmica, síntesis granular, fallos de reloj inducidos, time-stretching extremo y ruido experimental.*
@@ -809,7 +829,9 @@
 [Velvet Static Noise]
 [Vocal Stutter Glitch Choppy Glitched Stutter]
 [Vocal Stutter Glitch]
+
 ---
+
 ### 10 · Mezcla Base y Utilidades Generales
 
 *Elementos de aislamiento, acabado de mezcla, refuerzo cinemático y ruidos puramente estructurales (blanco).*
@@ -835,4 +857,5 @@
 [Wall Of Sound Layering]
 [White Noise Wash Cymbal Sweep Accent]
 [White Noise Wash]
+
 ---

@@ -2,7 +2,9 @@
 
 *Colección de etiquetas que definen la evolución de la energía, las transiciones de volumen, los impactos dramáticos y el uso del espacio dinámico en la producción musical.*
 *Recordatorio: se consulta por búsqueda (grep) o saltando a una sección.*
+
 ---
+
 ## Índice
 
 `1 · Impactos, Golpes y Explosiones`
@@ -13,7 +15,9 @@
 `6 · Acentuaciones y Dinámicas Rítmicas`
 `7 · Compresión, Limitación y Procesamiento Dinámico`
 `8 · Dinámicas Vocales, Ambientales e Instrumentales Específicas`
+
 ---
+
 ### 1 · Impactos, Golpes y Explosiones
 
 *Golpes súbitos, picos de máxima velocidad y explosiones sonoras que marcan un cambio abrupto o un impacto violento.*
@@ -72,7 +76,9 @@
 [Sudden Silence Interruption Hit]
 [Thunderous Fortissimo Drop Slam]
 [Thunderous Fortissimo Drop]
+
 ---
+
 ### 2 · Caídas, Silencios y Cortes
 
 *Descensos abruptos o graduales hacia la nada, interrupciones de señal, apagones dinámicos y vacíos sonoros.*
@@ -140,7 +146,9 @@
 [Sudden Stop Mute All Instruments Cut Cut]
 [Underwater Lowpass Muffled Drop Mute]
 [Underwater Lowpass Muffled Drop]
+
 ---
+
 ### 3 · Subidas, Crescendos y Transiciones
 
 *Aumentos de tensión, aceleraciones, oleajes sonoros y construcciones dinámicas que preparan el terreno para un clímax.*
@@ -250,7 +258,9 @@
 [Volume Swell Fade-In Rise]
 [Wavetable Sweeping Harmonic Lead Chorus Synth Rise]
 [Wounded Sky Rise]
+
 ---
+
 ### 4 · Clímax, Máxima Intensidad y Muros de Sonido
 
 *El punto álgido de la energía, paredes densas de sonido, clímax absolutos, asaltos sonoros y momentos de máxima agresividad.*
@@ -361,7 +371,9 @@
 [White Noise Blast Wash Sweep]
 [White Noise Blast Wash]
 [White Noise Suffocation Core Heavy Sonic Weight]
+
 ---
+
 ### 5 · Tensión, Dinámicas Bajas y Sutileza
 
 *Pasajes íntimos, susurros, atmósferas ahogadas, dinámicas de pianissimo y momentos de contención o espera tensa.*
@@ -413,7 +425,9 @@
 [Whispering ASMR Soft Spoken Intimate Intro Drop]
 [Whispering Wind Near-Silence Ghost]
 [Whispering Wind Near-Silence]
+
 ---
+
 ### 6 · Acentuaciones y Dinámicas Rítmicas
 
 *Empujes, fluctuaciones rítmicas, dinámicas de groove, acentuaciones métricas y movimientos sincopados del volumen.*
@@ -535,7 +549,9 @@
 [Wood Block High Pitch Percussion Chorus Click Accent]
 [Xylophone Hard Mallet Wooden Bar Verse Snap Accent]
 [Zouk Concrete Caribbean Syncopated Verse Bounce Drop]
+
 ---
+
 ### 7 · Compresión, Limitación y Procesamiento Dinámico
 
 *Técnicas de mezcla aplicadas como efecto dinámico: bombeos de compresión (sidechain), limitadores al extremo, barridos de filtros, saturación y uso extremo del panorama/estéreo.*
@@ -653,7 +669,9 @@
 [Warm Analog Compression Glue Peak Master]
 [Warm Analog Compression Glue Peak]
 [White Noise Pumping Filter-Modulated Pre-Chorus Swell Accent]
+
 ---
+
 ### 8 · Dinámicas Vocales, Ambientales e Instrumentales Específicas
 
 *Comportamientos dinámicos vinculados a instrumentos solistas concretos, interpretaciones vocales hiper-específicas o descripciones de escenarios cinemáticos abstractos.*
@@ -901,4 +919,5 @@
 [Zen Monk Deep Meditative Verse Intonation Drop]
 [Zither European Table Lap Bridge Pluck Ring Drop]
 [Zurna Turkish Piercing Double Reed Chorus Blast Accent]
+
 ---

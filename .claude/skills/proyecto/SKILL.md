@@ -32,7 +32,7 @@ description: Crea y gestiona el archivo de trabajo de una obra (crea, lista, ret
     - *Proyecto terminado* copia su contenido de `proyectos/<slug>/` a `hojas_sucias/<slug>.md` y resume su estado para retomar el trabajo.
     - *Proyecto en hojas sucias* abre el `.md` y resume su estado para retomar.
   - *Cierra* el contexto del proyecto en curso para volver al Modo Conversacional y/o hacer otra cosa (no borra nada).
-  - *Valida / Aprueba* da por finalizada satisfactoriamente una obra, migra a `proyectos/<slug>/<slug>.md` con la plantilla (`chuletas/plantilla_proyecto.md`) y la registra en `PROYECTOS.md`.
+  - *Aprueba* da por finalizada satisfactoriamente una obra, migra a `proyectos/<slug>/<slug>.md` con la plantilla (`chuletas/plantilla_proyecto.md`) y la registra en `PROYECTOS.md`.
   - *Retrospectiva* (`conocimientos/retrospectiva.md`) propone el aprendizaje.
   - *Guarda* una copia de seguridad `_hojas_sucias/<slug>_NN.md` (duplicado exacto del estado en ese momento).
   - *Cancela* el contexto de ese momento y el proyecto en curso (si es nuevo).

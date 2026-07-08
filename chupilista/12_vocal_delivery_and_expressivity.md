@@ -2,7 +2,9 @@
 
 *Técnicas vocales, expresiones emocionales, estilos de interpretación y manipulaciones tímbricas para la dirección de voces en inteligencia artificial.*
 *Recordatorio: se consulta por búsqueda (grep) o saltando a una sección.*
+
 ---
+
 ## Índice
 
 `1 · Estilos Agresivos, Metal y Distorsión Extrema`
@@ -15,7 +17,9 @@
 `8 · Voz Hablada, Monólogos y Actuación Teatral`
 `9 · Efectos de Estudio, Capas y Modulación de Tono`
 `10 · Soul, R&B, Blues y Melodías Expresivas`
+
 ---
+
 ### 1 · Estilos Agresivos, Metal y Distorsión Extrema
 
 *Voces llevadas al límite de la distorsión anatómica o de preamplificación, características de géneros extremos, punk y hardcore.*
@@ -114,7 +118,9 @@
 [Unpolished Raw Garage Rock Shouter Delivery]
 [Velvet Scream]
 [Wild Cry Vocal]
+
 ---
+
 ### 2 · Técnicas Íntimas, Susurros y ASMR
 
 *Interpretaciones donde prevalece la cercanía al micrófono, el aire en la voz, los susurros y las técnicas suaves y confidenciales.*
@@ -183,7 +189,9 @@
 [Whispered Voice]
 [Whispering ASMR Soft Spoken Intimacy Delivery]
 [Whispering Voice]
+
 ---
+
 ### 3 · Canto Clásico, Coral y Operístico
 
 *Interpretaciones de corte académico, clásico, sacro o monumental, destacando el control del vibrato, la proyección y la armonía coral masiva.*
@@ -241,7 +249,9 @@
 [Tragic Opera Heroine Dying Aria Delivery]
 [Unison Choir Stacking Unison Choir Stacking Force]
 [Unison Choir Stacking]
+
 ---
+
 ### 4 · Emociones Extremas, Desesperación y Llanto
 
 *Voces que actúan emociones desbordadas como el llanto, el terror, la asfixia, ataques de pánico o la locura extrema.*
@@ -316,7 +326,9 @@
 [Wailing Funeral Mourner High Grief Cry]
 [Weeping Melancholic Delivery Melancholic Weeping Solitude]
 [Weeping Melancholic Delivery]
+
 ---
+
 ### 5 · Procesamiento Digital, Glitch y Voces Robóticas
 
 *Estilos generados o fuertemente manipulados por herramientas digitales, como el autotune extremo, el vocoder, inteligencias artificiales o efectos de corte (stutter).*
@@ -389,7 +401,9 @@
 [Vocoder Synthetic Robot Robotic Vocoder Carrier]
 [Vocoder Synthetic Robot]
 [Vocoder]
+
 ---
+
 ### 6 · Rap, Spoken Word y Rítmica Acelerada
 
 *Cadencias y fraseos rápidos, rítmicos y articulados. Cubre desde estilos veloces de rap hasta recitados rítmicos y acentuaciones staccato.*
@@ -432,7 +446,9 @@
 [Supa Fast Chopper Rap Flow Velocity]
 [UK Drill Sliding Off Beat Syncopated Flow]
 [Upfront Dry Close Mic Rap Delivery]
+
 ---
+
 ### 7 · Canto Étnico, Tradicional y Canto Gutural
 
 *Técnicas vocales del folklore mundial, cantos difónicos (overtone), tradicionales, cánticos ceremoniales e interpretaciones vernáculas.*
@@ -472,7 +488,9 @@
 [Yodeled Vocal Delivery]
 [Yodeling Alpine Mountain Melismatic Execution]
 [Zen Monk Deep Meditative Intonation Delivery]
+
 ---
+
 ### 8 · Voz Hablada, Monólogos y Actuación Teatral
 
 *Uso de la voz para diálogos, monólogos, sarcasmo, discursos, estado de embriaguez o interpretaciones de personaje (sin estar cantado estructuralmente).*
@@ -553,7 +571,9 @@
 [Unaffected Conversational Indie Pop Delivery]
 [Vampiric Aristocrat Cold Seductive Monologue]
 [Wicked Witch Piercing Cackle Laugh Delivery]
+
 ---
+
 ### 9 · Efectos de Estudio, Capas y Modulación de Tono
 
 *Simulaciones de hardware analógico, entornos físicos, filtros telefónicos, megáfonos, coros estratificados, delays y manipulación de pitch/formante.*
@@ -715,7 +735,9 @@
 [White Noise Sibilance Blast White Noise Sibilance Blast]
 [White Noise Sibilance Blast]
 [White Noise Smothered Industrial Scream Delivery]
+
 ---
+
 ### 10 · Soul, R&B, Blues y Melodías Expresivas
 
 *Abarca el virtuosismo melódico, melismas, voces ásperas con groove, belting emocional, crooning y ejecuciones características del soul, R&B, pop y gospel.*
@@ -784,4 +806,5 @@
 [Warm Analog Satin Soul Balladeer Delivery]
 [Whimsical]
 [Youthful Energetic J Pop Delivery Style]
+
 ---

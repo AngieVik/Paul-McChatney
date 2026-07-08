@@ -1,15 +1,23 @@
-### Project Structure
+# folder-structure
+
+*Mapa visual del proyecto y resumen de contenidos.*
+
+---
+
+## 1 · Project Structure
 
 ```plaintext
 Paul McChatney
 ├── _docs/
 ├── _hojas_sucias/
-│   ├── apuntes.md [2.64 KB]
-│   ├── clasic_hardcore.md [15.43 KB]
-│   ├── etiquetas_hardcore.md [28.36 KB]
-│   ├── meta-etiquetas_nuevas.md [3.03 KB]
-│   ├── mezclas_locas.md [4.46 KB]
-│   └── taxonomia_integral_de_la_musica_rave_2025.md [8.22 KB]
+│   ├── archivos_hardcore/
+│   │   ├── clasic_hardcore.md [15.36 KB]
+│   │   ├── etiquetas_hardcore.md [28.36 KB]
+│   │   └── taxonomia_integral_de_la_musica_rave_2025.md [8.23 KB]
+│   ├── apuntes.md [2.72 KB]
+│   ├── fusion_genero_narrativa.md [13.53 KB]
+│   ├── fusiones_genero.md [10.05 KB]
+│   └── fusiones_narrativa.md [6.84 KB]
 ├── _produccion/
 │   ├── plugins_angie/
 │   │   ├── audacity/
@@ -108,13 +116,14 @@ Paul McChatney
 │   │   └── 骨でダンス__(Hone_de_Dansu___Dance_with_Bones)v2-6ae606e9.txt [8.57 KB]
 │   └── nueva_skill.md [5.54 KB]
 ├── chuletas/
-│   ├── plantilla_fonetizaciones.md [3.88 KB]
-│   ├── plantilla_hoja_sucia.md [2.20 KB]
+│   ├── plantilla_estilo.md [8.44 KB]
+│   ├── plantilla_fonetizaciones.md [4.15 KB]
+│   ├── plantilla_hoja_sucia.md [2.19 KB]
 │   ├── plantilla_jerga.md [3.87 KB]
 │   └── plantilla_proyecto.md [3.10 KB]
 ├── chupilista/
-│   ├── 01_core_genres_and_subgenres.md [24.81 KB]
-│   ├── 02_atmosphere_and_mood.md [28.73 KB]
+│   ├── 01_core_genres_and_subgenres.md [24.73 KB]
+│   ├── 02_atmosphere_and_mood.md [28.75 KB]
 │   ├── 03_instrumentation_and_stems.md [26.45 KB]
 │   ├── 04_vocal_persona_and_timbre.md [22.60 KB]
 │   ├── 05_rhythm_and_tempo.md [28.67 KB]
@@ -130,12 +139,12 @@ Paul McChatney
 │   └── 15_negative_prompts_and_exclude_styles.md [14.54 KB]
 ├── composicion/
 │   ├── efectos.md [7.34 KB]
-│   ├── exclude_box.md [3.73 KB]
+│   ├── exclude_box.md [4.10 KB]
 │   ├── formato.md [1.30 KB]
-│   ├── letra.md [7.40 KB]
+│   ├── letra.md [7.95 KB]
 │   ├── lyrics_box.md [9.75 KB]
 │   ├── style_box.md [6.82 KB]
-│   └── tecnicas_vocales.md [7.79 KB]
+│   └── tecnicas_vocales.md [9.05 KB]
 ├── conocimientos/
 │   └── retrospectiva.md [2.75 KB]
 ├── fonetizaciones/
@@ -179,21 +188,22 @@ Paul McChatney
 │   └── parlache_medellin.md [6.31 KB]
 ├── proyectos/
 ├── system_prompt/
-│   └── system_prompt.md [5.46 KB]
+│   └── system_prompt.md [5.66 KB]
 ├── PROYECTOS.md [16.93 KB]
 ├── README.md [1.12 KB]
-└── folder-structure.md [13.13 KB]
+└── folder-structure.md [12.96 KB]
 ```
 
+---
 
-### Summary
+## 2 · Summary
 
 ```plaintext
 Root Folder: Paul McChatney
-Total Folders: 22
-Total Files: 159
+Total Folders: 23
+Total Files: 161
 File Types:
-  - .md Files: 79
+  - .md Files: 81
   - .zip Files: 6
   - .ini Files: 1
   - .wav Files: 2
@@ -201,9 +211,8 @@ File Types:
   - .txt Files: 70
 Largest File: 0 Lead Vocal.wav [46.12 MB]
 Smallest File: desktop.ini [114 bytes]
-Total Project Size: 186.79 MB
+Total Project Size: 186.82 MB
 Ignored Files and Folders:
-  - tablas.md
   - proyectos/60_granos
   - proyectos/aqui_se_vota_y_no_cambia_nada
   - proyectos/a_traves_del_rugido

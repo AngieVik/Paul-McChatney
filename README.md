@@ -1,8 +1,10 @@
-# Paul McChatney
+# README
 
-Sistema de composición musical para crear canciones, prompts, style_box, lyrics_box, exclude_box y documentación de proyectos musicales.
+*Sistema de composición musical para crear canciones, prompts, style_box, lyrics_box, exclude_box y documentación de proyectos musicales.*
 
-## Estructura
+---
+
+## 1 · Estructura
 
 - `_docs/`: documentos de referencia. (ignorada)
 - `_hojas_sucias/`: ideas o trabajos en curso, carpeta para el desorden mental. (ignorada)
@@ -19,6 +21,8 @@ Sistema de composición musical para crear canciones, prompts, style_box, lyrics
 - `proyectos/`: canciones terminadas.
 - `system_prompt/`: identidad y comportamiento principal.
 
-## Regla principal
+---
+
+## 2 · Regla principal
 
 No cargar carpetas enteras. Usar los índices y abrir solo el archivo necesario.

@@ -12,7 +12,9 @@
 `6 · Coros, Agrupaciones y Armonías`
 `7 · Personajes, Arquetipos y Locuciones`
 `8 · Efectos, Procesamiento y Entorno Acústico`
+
 ---
+
 ### 1 · Clasificación Vocal Clásica y Tonalidad
 
 *Clasificaciones de registro vocal, desde los bajos más profundos hasta las sopranos más agudas, incluyendo perfiles operísticos.*
@@ -55,7 +57,9 @@
 [Soprano]
 [Tenor]
 [Velvet Baritone]
+
 ---
+
 ### 2 · Identidad, Edad y Género
 
 *Etiquetas que definen la voz por su rango de edad, identidad de género o características demográficas básicas.*
@@ -86,7 +90,9 @@
 [Woman]
 [Young Boy]
 [Young Girl]
+
 ---
+
 ### 3 · Emociones, Estado y Condición Física
 
 *Voces que transmiten un estado anímico o físico específico, desde el llanto y la ansiedad hasta la fatiga o la embriaguez.*
@@ -151,7 +157,9 @@
 [Weeping Melancholic Soul]
 [Weeping Vocal]
 [Wistful Sighing]
+
 ---
+
 ### 4 · Géneros Musicales y Estilos
 
 *Voces adaptadas a géneros musicales específicos como rap, metal, jazz, blues, country, pop o música folk.*
@@ -295,7 +303,9 @@
 [Wailing Bluesy Belter]
 [Youthful Boy Band Lead]
 [Youthful Energetic J-Pop Female Lead]
+
 ---
+
 ### 5 · Técnicas Vocales, Textura y Expresión
 
 *Cualidades tímbricas, texturas y técnicas de emisión vocal como susurros, gritos, falsetes, vibratos o spoken word.*
@@ -469,7 +479,9 @@
 [Yodeling]
 [Yodesled Vocal Persona]
 [Zen Monk Deep Meditative Intonation]
+
 ---
+
 ### 6 · Coros, Agrupaciones y Armonías
 
 *Múltiples voces cantando al unísono o en armonía, desde coros de estadio y multitudes hasta cuartetos acapella y cantos gregorianos.*
@@ -531,7 +543,9 @@
 [Wall Of Sound Choir]
 [Whispering Wind Chorus]
 [Yodeling Alpine Mountain Singer Group]
+
 ---
+
 ### 7 · Personajes, Arquetipos y Locuciones
 
 *Voces que interpretan roles específicos o personajes, como narradores, robots, monstruos, demonios, alienígenas, locutores y villanos.*
@@ -680,7 +694,9 @@
 [Wicked Step-mother Voice]
 [Wicked Witch Piercing Cackle Laugh]
 [Wise Old Man]
+
 ---
+
 ### 8 · Efectos, Procesamiento y Entorno Acústico
 
 *Alteraciones en la voz creadas mediante efectos de estudio, manipulación de tono, emulaciones de tecnología antigua o entornos espaciales.*
@@ -803,4 +819,5 @@
 [Warm Analog Tape Saturation]
 [White Noise Sibilance Blast]
 [White-Noise Smothered Industrial Scream]
+
 ---

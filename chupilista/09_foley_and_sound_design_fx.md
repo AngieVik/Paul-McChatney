@@ -2,7 +2,9 @@
 
 *Colección exhaustiva de efectos de sonido, foley, atmósferas y diseño sonoro para postproducción audiovisual.*
 *Recordatorio: se consulta por búsqueda (grep) o saltando a una sección.*
+
 ---
+
 ## Índice
 
 `1 · Ambiente y Naturaleza`
@@ -12,7 +14,9 @@
 `5 · Foley Doméstico y Cotidiano`
 `6 · Tecnología, Máquinas y Vehículos`
 `7 · Efectos, Transiciones y Texturas Acústicas`
+
 ---
+
 ### 1 · Ambiente y Naturaleza
 
 *Efectos climáticos, biomas naturales, atmósferas espaciales y comportamientos del ecosistema.*
@@ -85,7 +89,9 @@
 [Whispering Wind]
 [Wind Howling Castle Tower]
 [Wind Howling]
+
 ---
+
 ### 2 · Animales y Criaturas
 
 *Vocalizaciones, movimientos biológicos de fauna real y criaturas de ciencia ficción/fantasía.*
@@ -155,7 +161,9 @@
 [Wolf Howl Echo]
 [Wolf Howl Mountain Ridge]
 [Yeti Growl Snow Storm]
+
 ---
+
 ### 3 · Humanos y Voces
 
 *Expresiones vocales, respiración, multitudes, pasos y acciones foley ligadas directamente a la anatomía humana.*
@@ -231,7 +239,9 @@
 [Whispers]
 [Whistling]
 [Yawning Man Tired Voice]
+
 ---
+
 ### 4 · Impactos, Armas y Destrucción
 
 *Golpes, roturas, disparos, explosiones y acciones bélicas o de combate cuerpo a cuerpo.*
@@ -299,7 +309,9 @@
 [Trigger Pull Gun Empty]
 [Whip Crack Sharp Leather]
 [Wood Splitting Log Wedge]
+
 ---
+
 ### 5 · Foley Doméstico y Cotidiano
 
 *Manipulación de objetos cotidianos, utensilios de cocina, papelería, mobiliario y herramientas ligeras.*
@@ -520,7 +532,9 @@
 [Wooden Door Knock]
 [Writing Chalk Blackboard Crisp]
 [Zipper Pull Metal Teeth]
+
 ---
+
 ### 6 · Tecnología, Máquinas y Vehículos
 
 *Mecánica industrial, medios de transporte, dispositivos electrónicos, comunicaciones y elementos de ciencia ficción.*
@@ -743,7 +757,9 @@
 [Windscreen Wipers Rubber Scrape]
 [Wrench Slipping Bolt Clank]
 [X-Ray Machine Charge Beep]
+
 ---
+
 ### 7 · Efectos, Transiciones y Texturas Acústicas
 
 *Tensiones, zumbidos, texturas de ruido blanco, graves profundos, roces abstractos y transiciones sonoras.*
@@ -811,4 +827,5 @@
 [Wind Chimes]
 [Wire Brush Snare Scratch]
 [Wooden Floor Creak Step]
+
 ---
