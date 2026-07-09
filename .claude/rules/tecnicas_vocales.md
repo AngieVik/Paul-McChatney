@@ -9,6 +9,8 @@ description: Puntuación en la letra y dirección vocal: Persona Stacking, roles
 
 ---
 
+# tecnicas_vocales
+
 - **Índice:**
 `1 · Puntuación en la letra`
     `1.1 · Paréntesis — Voces secundarias`

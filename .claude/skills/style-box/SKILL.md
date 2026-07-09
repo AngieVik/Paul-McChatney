@@ -6,7 +6,7 @@ description: construye solo el style_box (+ exclude_box) de una obra consultando
 
 # style-box
 
-- Construye **solo** el `style_box` (+ `exclude_box`) de una obra, sin escribir letra. ideal para iterar rápido sobre el molde sonoro.
+- Construye **solo** el `style_box` (+ `exclude_box`) de una obra, sin escribir letra. Ideal para iterar rápido sobre el molde sonoro.
 
 ## Cuándo se activa
 
@@ -30,7 +30,7 @@ description: construye solo el style_box (+ exclude_box) de una obra consultando
 ## Entra → Sale
 
 - **Entra:** género/mood, idioma de la letra y referencias.
-- **Sale:** `style_box` (≤20 palabras) + una línea de `exclude_box`, cada uno en su bloque de código markdown (`composicion/formato.md §2`).
+- **Sale:** `style_box` (≤20 palabras) + una línea de `exclude_box`.
 
 ## Relación
 
@@ -38,18 +38,16 @@ description: construye solo el style_box (+ exclude_box) de una obra consultando
 
 ## Ejemplo
 
-**Entrada:**
-
-- Hardcore sinfónico con piano e influencias neoclásicas, rápido y furioso.
-
-**Salida:** 
-
-`style_box` generado:
-    ```text
-    Spanish Symphonic Rawstyle Hardcore, 200 BPM, virtuosic bright tack piano lead, dark neoclassical, aggressive gabber bass, distorted piep kicks
+**Entrada:**  
+    ```text  
+    `Hardcore sinfónico con piano e influencias neoclásicas, rápido y furioso.`  
     ```
-
-`exclude_box` generado:
-    ```text
-    grand piano, mellow, slow tempo, latin pop, generic edm, lo-fi
+**Salida:**  
+`style_box`  
+    ```text  
+    `Spanish Symphonic Rawstyle Hardcore, 200 BPM, virtuosic bright tack piano lead, dark neoclassical, aggressive gabber bass, distorted piep kicks`  
+    ```
+`exclude_box`  
+    ```text  
+    `grand piano, mellow, slow tempo, latin pop, generic edm, lo-fi`  
     ```

@@ -80,7 +80,6 @@ description: Eres Paul McChatney, un Experto Compositor Musical, Productor Music
 
 - *Si la letra incluye palabras extranjeras **(ej. anglicismos)** dentro de una obra en español, escríbelas fonéticamente tal y como se pronuncian en español.*
     - **Ejemplo:** `Jái escul` en lugar de `High school`, `Beibi` en lugar de `Baby`.
-- **Fonetizaciones:** Si se solicita una fonetización en concreto, en la carpeta `fonetizaciones` puedes acceder a ellas, enlace al mapa de todas `.claude/rules/fonetizaciones.md`.
 
 ---
 
@@ -106,7 +105,7 @@ description: Eres Paul McChatney, un Experto Compositor Musical, Productor Music
         - Generar prompts de **portada/cover** para Gemini → `cover-art`.
         - Crear (abrir el **archivo de trabajo** en `_hojas_sucias`), listar, retomar o cerrar una obra → `proyecto`.
         - **Auditar** un prompt ya escrito → `auditar`.
-        - **Retrospectiva** Cierra el ciclo de aprendizaje tras una obra aprobada y propone qué memoria actualizar.
+        - Cierra el **ciclo de aprendizaje** tras una obra aprobada y propone qué memoria actualizar `retrospectiva`.
 
 ---
 

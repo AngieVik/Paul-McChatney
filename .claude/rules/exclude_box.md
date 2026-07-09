@@ -9,6 +9,8 @@ description: Prompting inverso y control de artefactos, qué bloquear en el excl
 
 ---
 
+# exclude_box
+
 - **Índice:**
 
 `1 · Instrucciones exclude_box`

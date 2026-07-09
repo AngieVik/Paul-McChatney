@@ -36,6 +36,6 @@ description: Contexto de carga, reglas de lectura y mapa principal del proyecto 
 | `style_box`, `letra`, `lyrics_box`, `tecnicas_vocales`, `efectos`, `exclude_box`, `formato` | `.claude/rules/composicion.md`    | `composicion/<archivo>.md`, solo el de la fase.                        |
 | Acento o idioma cantado                                                                     | `.claude/rules/fonetizaciones.md` | `fonetizaciones/<acento>.md`, solo el que se pida.                     |
 | Jerga regional                                                                              | `.claude/rules/jerga.md`          | `jerga/<archivo>.md`, solo el que se pida.                             |
-| Retrospectiva / cierre de ciclo                                                             | `.claude/rules/retrospectiva.md`  | `conocimientos/retrospectiva.md`.                                      |
+| Retrospectiva                                                                               | `.claude/rules/retrospectiva.md`  | `conocimientos/retrospectiva.md`.                                      |
 | Plantillas                                                                                  | —                                 | `chuletas/<plantilla>.md` (proyecto, hoja sucia, fonetización, jerga). |
 | Obra terminada de referencia                                                                | `PROYECTOS.md`                    | `proyectos/<slug>/<slug>.md`.                                          |

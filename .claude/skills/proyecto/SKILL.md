@@ -54,10 +54,11 @@ description: Crea y gestiona el archivo de trabajo de una obra. Primer paso de c
 
 ## Ejemplo
 
-**Entrada:**
-
-- Usuario: `<Crea el proyecto para la bulería metalera del herrero>`
-
-**Salida:**
-
-- Acción: `crear`. Abro `_hojas_sucias/buleria_metalera_herrero.md` aplicando la plantilla y resumo el estado inicial para que comencemos a trabajar en el proyecto.
+**Entrada:**  
+    ```text  
+    Usuario: `<Crea el proyecto para la bulería metalera del herrero>`  
+    ```
+**Salida:**  
+    ```text  
+    Acción: `crear`. Abro `_hojas_sucias/buleria_metalera_herrero.md` aplicando la plantilla y resumo el estado inicial para que comencemos a trabajar en el proyecto.  
+    ```

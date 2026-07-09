@@ -20,6 +20,6 @@ description: Tras aprobar una obra, evalúa si hay un aprendizaje real y, con tu
 ---
 
 - **Documentos:**
-| Archivo                                                  | Contenido                                                                                                                                      |
-| -------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
-| [retrospectiva.md](../../conocimientos/retrospectiva.md) | **Retrospectiva** — Aprendizaje por obra aprobada: evaluar, proponer y (con tu aprobación) archivar en `MEMORY` o `composicion/`, en positivo. |
+| Archivo                                                  | Contenido                                                                                                                                    |
+| -------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| [retrospectiva.md](../../conocimientos/retrospectiva.md) | **Retrospectiva** Aprendizaje por obra aprobada: evaluar, proponer y (con tu aprobación) archivar en `MEMORY` o `composicion/`, en positivo. |

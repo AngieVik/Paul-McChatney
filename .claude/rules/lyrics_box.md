@@ -9,6 +9,8 @@ description: Tags del lyrics_box: control por corchetes, dirección de banda, es
 
 ---
 
+# lyrics_box
+
 - **Índice:**
 `1 · Tags del lyrics_box`
     `1.1 · Modificadores parametrizados`

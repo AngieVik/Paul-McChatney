@@ -9,6 +9,8 @@ description: Vocabulario exhaustivo de tags y modificadores, la chupilista es la
 
 ---
 
+# chupilista
+
 - **Módulos:**
 | Nº  | Archivo                                                                                                 | Contenido                                                                        |
 | --- | ------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |

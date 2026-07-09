@@ -1,21 +1,21 @@
 ---
 name: auditar
 type: skill
-description: audita agresivamente un prompt ya escrito, caza conflictos de tags, vicios de escritura, clichés y errores de formato, y propone cómo elevar el impacto (Fase 4 aislada).
+description: audita agresivamente un prompt ya escrito, caza conflictos de tags, vicios de escritura, clichés y errores de formato, y propone cómo elevar el impacto.
 ---
 
 # auditar
 
-- Audita **a fondo y sin piedad** un prompt ya escrito (Fase 4 aislada): caza conflictos de tags, vicios de escritura, clichés y errores de formato, y detecta dónde subir el impacto. **Agresivo detectando, quirúrgico corrigiendo:** señala todo lo que huela mal, pero **no reescribas la obra entera** salvo que se pida.
+- Audita **a fondo y sin piedad** un prompt ya escrito caza conflictos de tags, vicios de escritura, clichés y errores de formato, y detecta dónde subir el impacto. **Agresivo detectando, quirúrgico corrigiendo:** señala todo lo que huela mal, pero **no reescribas la obra entera** salvo que se pida.
 
 ## Cuándo se activa
 
-- **Se solicita explícitamente** revisar/auditar sobre un mood u obra. 
+- **Se solicita explícitamente** revisar/auditar sobre un mood u obra.
 - **Fase 4** de `produccion`.
 
 ## Pasos
 
-1. Pide el prompt (título, style_box, exclude_box, lyrics_box). Si no hay, usa la última versión en caché.
+1. Pide el prompt `título`, `style_box`, `exclude_box`, `lyrics_box`. Si no hay, usa la última versión en caché.
 2. Consulta la regla canónica solo cuando la necesites: los anti-patrones y su arreglo viven repartidos en `composicion/` (`style_box.md`, `lyrics_box.md`, `letra.md`, `tecnicas_vocales.md`, `formato.md`).
 3. Pasa la **batería de detectores**. Sé desconfiado: busca el fallo activamente, marca cada acierto con el detector que salta y su dirección de arreglo.
 
@@ -50,7 +50,7 @@ description: audita agresivamente un prompt ya escrito, caza conflictos de tags,
 
 - **Agresivo detectando, no inventando:** busca el fallo activamente, pero no marques como error una decisión estética válida.
 - No fuerces cambios superfluos: si no hay error crítico, no lo fabriques.
-- Personalidad macarra solo en la conversación; las Tags, asépticas y en inglés.
+- Personalidad macarra solo en la conversación; tags asépticas y en inglés.
 
 ## Entra → Sale
 
@@ -59,21 +59,21 @@ description: audita agresivamente un prompt ya escrito, caza conflictos de tags,
 
 ## Relación
 
-- Cierra la **Fase 4** de `produccion` 
+- Cierra la **Fase 4** de `produccion`.
 - Funciona sola sobre cualquier prompt.
 - La regla canónica de cada detector vive en su archivo de `composicion/`; aquí solo se cazan.
 
 ## Ejemplo
 
-**Entrada:**
-
-- Fragmento a auditar:
+**Entrada:**  
+    ```text  
     `[Solo Guitar]`  
     `ESTE ES UN VERSO EN MAYÚSCULAS`  
     `Y ESTE ES OTRO VERSO IGUAL`  
     `Y ESTE ES OTRO VERSO IGUAL`  
-
-**Salida:**
-
-- **Fantasma en la mezcla:** `[Solo Guitar]` → ⚠️ vaciará la sección. Propone `[Instrumental Drop, electric guitar takes the lead melody]`.
-- **LLAMA A LA MAMA:** tres versos seguidos en MAYÚSCULAS → 💡 resérvalas para el golpe tónico puntual, no como norma.
+    ```
+**Salida:**  
+    ```text  
+    **Fantasma en la mezcla:** `[Solo Guitar]` → ⚠️ vaciará la sección. Propone `[Instrumental Drop, electric guitar takes the lead melody]`.  
+    **LLAMA A LA MAMA:** tres versos seguidos en MAYÚSCULAS → 💡 resérvalas para el golpe tónico puntual, no como norma.  
+    ```

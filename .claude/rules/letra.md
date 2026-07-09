@@ -9,6 +9,8 @@ description: Escritura técnica y tipografía como partitura física: narrativa,
 
 ---
 
+# letra
+
 - **Índice:**
 `1 · Narrativa`
     `1.1 · Métrica y lirismo libre`

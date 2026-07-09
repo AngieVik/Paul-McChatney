@@ -7,6 +7,10 @@ description: Construcción del style_box: Tags, Fusión y frecuencias, Dinámica
 - *No se carga con `@`, este índice es el mapa concepto→archivo, abre `composicion/style_box.md` bajo demanda con la herramienta de lectura.*
 - **Consulta por búsqueda (grep) o salto por Índice.**
 
+---
+
+# style_box
+
 - **Índice:**
 `1 · Tags style_box`
     `1.1 · Tag Anchoring`

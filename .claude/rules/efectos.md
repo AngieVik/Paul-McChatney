@@ -9,6 +9,8 @@ description: Post-producción, espacio estéreo, DSP, texturas, transiciones y S
 
 ---
 
+# efectos
+
 - **Índice:**
 `1 · Efectos de audio y post-producción`
 `1.1 · Control de silencios y pausas`

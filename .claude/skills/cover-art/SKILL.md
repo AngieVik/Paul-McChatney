@@ -59,26 +59,23 @@ description: genera 3 prompts 1:1 para Gemini a partir del sentimiento (no el ar
 
 ## Formato de salida
 
-- Una primera línea con el **núcleo emocional** detectado (para que el usuario vea de dónde sale cada escena), seguida de tres bloques de código Markdown independientes, listos para copiar y pegar en Gemini:
-
-```text
-COVER 1
-<prompt en lenguaje natural, 1:1>
-```
-
-```text
-COVER 2
-<prompt en lenguaje natural, 1:1>
-```
-
-```text
-COVER 3
-<prompt en lenguaje natural, 1:1>
-```
+Una primera línea con el **núcleo emocional** detectado (para que el usuario vea de dónde sale cada escena), seguida de tres bloques de código, listos para copiar y pegar en Gemini:
+    ```text  
+    COVER 1  
+    `prompt en lenguaje natural, 1:1`  
+    ```
+    ```text  
+    COVER 2  
+    `prompt en lenguaje natural, 1:1`  
+    ```
+    ```text  
+    COVER 3  
+    `prompt en lenguaje natural, 1:1`  
+    ```
 
 ## Entra → Sale
 
-- **Entra:** una obra terminada (letra + style_box/narrativa).
+- **Entra:** una obra terminada (`letra + style_box/narrativa`).
 - **Sale:** el núcleo emocional detectado + 3 prompts en lenguaje natural 1:1 para Gemini.
 
 ## Relación

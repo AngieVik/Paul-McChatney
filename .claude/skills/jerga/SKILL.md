@@ -35,10 +35,11 @@ description: inyecta en la letra cantable jerga específica para que se cante, n
 
 ## Ejemplo
 
-**Entrada:**
-
-- `Deja de decir tonterías y vayamos ya un momento a la playa, ¡por supuesto que sí!` + jerga Almeriense.
-
-**Salida:**
-
-- Almeriense: `Déjate de chuminás y vámonos ya un ratico a la playa, ¡no ni ná!`.
+**Entrada:**  
+    ```text  
+    `Deja de decir tonterías y vayamos ya un momento a la playa, ¡por supuesto que sí!` + jerga Almeriense.  
+    ```
+**Salida:**  
+    ```text  
+    Almeriense: `Déjate de chuminás y vámonos ya un ratico a la playa, ¡no ni ná!`.  
+    ```

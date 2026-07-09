@@ -9,6 +9,8 @@ description: Guías de fonetización para idiomas y dialectos. Permiten simular 
 
 ---
 
+# fonetizaciones
+
 - **Guías disponibles:**
 | Archivo                                                                   | Idioma / Acento         | Notas                                                                      |
 | ------------------------------------------------------------------------- | ----------------------- | -------------------------------------------------------------------------- |

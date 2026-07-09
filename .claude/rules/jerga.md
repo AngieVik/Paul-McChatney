@@ -9,6 +9,8 @@ description: Guías de jerga para idiomas y dialectos. Permiten inyectar jerga e
 
 ---
 
+# jerga
+
 - **Guías disponibles:**
 | Archivo                                                          | Idioma / Acento       | Notas                                                                                                          |
 | ---------------------------------------------------------------- | --------------------- | -------------------------------------------------------------------------------------------------------------- |

@@ -11,7 +11,7 @@ description: busca en CHUPILISTA por concepto y devuelve 3–8 tags relevantes c
 ## Cuándo se activa
 
 - **Se solicita explícitamente** buscar tags sobre un mood u obra.
-- **Fase 1** de `produccion`, Combina con `fusionar` para géneros insólitos.
+- **Fase 1** de `produccion`, combina con `fusionar` para géneros insólitos.
 - **Fase 3** de `produccion`.
 
 ## Pasos
@@ -36,13 +36,13 @@ description: busca en CHUPILISTA por concepto y devuelve 3–8 tags relevantes c
 
 ## Ejemplo
 
-**Entrada:**
-
-- percusión flamenca orgánica
-
-**Salida:**
-
-- Bloque de Salida:
+**Entrada:**  
+    ```text  
+    percusión flamenca orgánica  
+    ```
+**Salida:**  
+    ```text  
     `[Palmas]` (03) · `lyrics_box` como tag de acción aislada o mutada (`[Palmas Flamencas]`).  
     `[Cajón]` (03) · `style_box`. Usar como anclaje y concatenar en bloque (ej. `[Flamenco Rumba, Cajón Explosivo, Guitarra Española]`).  
     `[Handclaps]` (03) · refuerzo rítmico transversal, ideal para mutar a `[Handclaps asincopadas]`.  
+    ```
