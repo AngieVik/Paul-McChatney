@@ -1,52 +1,31 @@
 ---
 name: style-box
 type: skill
-description: construye solo el style_box (+ exclude_box) de una obra consultando CHUPILISTA (Fase 1 aislada).
+description: Ensamblador y compilador sintáctico para estructurar las etiquetas recuperadas en los bloques definitivos de Style Box y Exclude Box.
 ---
 
 # style-box
 
-- Construye **solo** el `style_box` (+ `exclude_box`) de una obra, sin escribir letra. Ideal para iterar rápido sobre el molde sonoro.
+## 1 · Propósito
 
-## Cuándo se activa
+Actúa como el motor de compilación y empaquetado técnico del sistema. Tu función es tomar el diseño acústico teórico dictaminado por la skill `fusionar`, orquestar la extracción de datos literales mediante `buscar-tag`, y estructurar la información en bloques de código con formato estricto, listos para la generación musical.
 
-- **Se solicita explícitamente** el molde sonoro sobre un mood u obra o escritura suelta.
-- **Fase 1** de `produccion`.
+## 2 · Parámetros de Entrada
 
-## Pasos
+Reconoce e ingiere los insumos provenientes de las etapas previas del flujo:
 
-1. Pide o deduce: género/mood objetivo, idioma de la letra y referencias.
-2. Busca por concepto (grep, solo coincidencias) dentro del núcleo de `chupilista/`. La skill `buscar-tag` automatiza esta búsqueda.
-3. Redacta el `style_box`:
-4. Genera una línea de `exclude_box` separados por comas, bloqueando clichés e instrumentos no deseados.
+- **Dictamen de Fusión:** El mapa acústico y teórico generado por la skill `fusionar` (géneros, tempos, espectro de frecuencias).
+- **Etiquetas Crudas:** Las cadenas de texto literales (tags) recuperadas y validadas por la skill `buscar-tag` desde los directorios canónicos.
 
-## Reglas heredadas
+## 3 · Flujo de Ejecución
 
-- Menos es más: 12–20 tags rinden mejor que 40 (`composicion/style_box.md`).
-- El orden pondera: lo más importante primero.
-- Nunca nombres de artistas reales en el `style_box`, describe el estilo.
+1. **Recepción y Orquestación:** Ingiere la fórmula conceptual de `fusionar` y parametriza llamadas precisas a `buscar-tag` para obtener los corchetes exactos necesarios para representar dicha fórmula.
+2. **Ensamblaje Jerárquico (Style Box):** Ordena las etiquetas recuperadas respetando la jerarquía algorítmica de la composición (Género Base, Atmósfera, Instrumentación, Perfil Vocal, Ritmo/Estructura, Efectos de Producción).
+3. **Generación Inversa (Exclude Box):** Deduce, a partir del diseño sonoro, los elementos acústicos, frecuencias, subgéneros o timbres vocales que chocarían o ensuciarían la mezcla. Formula un bloque de exclusión (*negative prompt*) parametrizando nuevamente a `buscar-tag` en los módulos de exclusión.
+4. **Compilación Final:** Presenta el resultado como bloques de texto preformateado (código Markdown), asegurando que la sintaxis sea impecable y esté lista para el motor de audio.
 
-## Entra → Sale
+## 4 · Lista de Control y Reglas de Integridad
 
-- **Entra:** género/mood, idioma de la letra y referencias.
-- **Sale:** `style_box` (≤20 palabras) + una línea de `exclude_box`.
-
-## Relación
-
-- La llama `buscar-tag` y `fusionar` en **Fase 1** de `produccion`.
-
-## Ejemplo
-
-**Entrada:**  
-    ```text  
-    `Hardcore sinfónico con piano e influencias neoclásicas, rápido y furioso.`  
-    ```
-**Salida:**  
-`style_box`  
-    ```text  
-    `Spanish Symphonic Rawstyle Hardcore, 200 BPM, virtuosic bright tack piano lead, dark neoclassical, aggressive gabber bass, distorted piep kicks`  
-    ```
-`exclude_box`  
-    ```text  
-    `grand piano, mellow, slow tempo, latin pop, generic edm, lo-fi`  
-    ```
+- **Linter de Compilación:** Asegura que todas las etiquetas integradas en los bloques finales cuenten con su apertura y cierre de corchetes intactos. Separa los tags mediante comas y espacios uniformes.
+- **Cero Improvisación:** Construye el bloque final utilizando estrictamente las etiquetas suministradas por `buscar-tag`. Omite la creación, alteración o inyección de tags no verificados en la base de datos canónica.
+- **Precisión Negativa:** Garantiza que el Exclude Box contenga directrices técnicas precisas y enfocadas en la limpieza de la mezcla frecuencial (ej. bloqueando bombos saturados si la fusión requiere precisión sinfónica).

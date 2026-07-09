@@ -1,48 +1,31 @@
 ---
 name: buscar-tag
 type: skill
-description: busca en CHUPILISTA por concepto y devuelve 3–8 tags relevantes con su núcleo y caja destino.
+description: Microservicio agnóstico de extracción RAG para localizar y validar etiquetas sintácticas exactas en la base de datos canónica
 ---
 
 # buscar-tag
 
-- Buscador de la CHUPILISTA: dado un concepto (instrumento, emoción, efecto, ritmo…), devuelve las tags más relevantes y dónde viven. Utilidad de referencia rápida.
+## 1 · Propósito
 
-## Cuándo se activa
+Actúa como un microservicio de extracción de datos (RAG). Tu función es localizar, extraer y validar etiquetas sintácticas exactas (`[Tag]`) desde los módulos de conocimiento estáticos en el directorio `chupilista/`[cite: 2], para entregarlas a la skill consumidora manteniendo una postura analítica y neutral.
 
-- **Se solicita explícitamente** buscar tags sobre un mood u obra.
-- **Fase 1** de `produccion`, combina con `fusionar` para géneros insólitos.
-- **Fase 3** de `produccion`.
+## 2 · Parámetros de Entrada
 
-## Pasos
+Reconoce e ingiere los siguientes parámetros enviados por la skill consumidora:
 
-1. **Mapea el concepto al núcleo probable de `chupilista/`** (uno; usa el índice `.claude/rules/chupilista.md`):
-    01 género · 02 atmósfera · 03 instrumentación · 04 voz/timbre · 05 ritmo/tempo · 06 estructura · 07 armonía · 08 dinámica · 09 foley · 10 experimental · 11 producción · 12 delivery vocal · 13 modificadores · 14 nudging · 15 negativos.
-2. **Busca el concepto DENTRO de ese núcleo; no lo leas entero.**
-    Los núcleos son listas planas alfabéticas de tags, así que la forma correcta de consultarlos es buscar (grep) la raíz del término —y sus variantes/sinónimos— y traer solo las líneas que casan (+ contexto mínimo). Repite en un 2.º núcleo solo si el concepto es transversal.
-3. **Suma tu instinto:**
-    Combina los tags canónicos hallados con tu criterio de productor; propón variantes o fusiones propias cuando el canon se quede corto, marcándolas como invención.
-4. **Devuelve 3–8 tags candidatos:**
-    Tag exacto · núcleo de origen · cuándo usarlo. Señala si va en `style_box` o en `lyrics_box` (`composicion/style_box.md` o `composicion/lyrics_box.md`).
+- **Concepto Objetivo:** El requerimiento acústico, rítmico, temporal o conceptual buscado (ej. "Percusión distorsionada", "Coro barroco").
+- **Rutas Objetivo (Opcional):** Los archivos `.md` específicos dentro de `chupilista/`[cite: 2] donde se focaliza la búsqueda.
 
-## Entra → Sale
+## 3 · Flujo de Ejecución
 
-- **Entra:** un concepto (instrumento, emoción, efecto, ritmo…).
-- **Sale:** 3–8 tags candidatos con núcleo de origen y caja destino (`style_box` / `lyrics_box`).
+1. **Resolución de Índice:** Si la skill consumidora omite las *Rutas Objetivo*, mapea el archivo correcto inspeccionando exclusivamente el índice `.claude/rules/chupilista.md`[cite: 2]. Si se proporcionan las rutas, procede de inmediato al paso dos.
+2. **Extracción Literal:** Lee los archivos destino estipulados y recolecta las etiquetas que representen semánticamente el *Concepto Objetivo*.
+3. **Validación de Sintaxis:** Asegura que cada etiqueta extraída mantenga su formato de origen intacto, verificando la presencia del corchete de apertura `[` y el corchete de cierre `]`.
+4. **Entrega Transaccional:** Transfiere a la skill consumidora una lista en texto plano que contenga exclusivamente los tags exactos y validados, finalizando tu ejecución.
 
-## Relación
+## 4 · Lista de Control y Reglas de Integridad
 
-- Sub-utilidad de `style-box` Fase 1 y `lyrics_box` Fase 3 en `produccion`.
-
-## Ejemplo
-
-**Entrada:**  
-    ```text  
-    percusión flamenca orgánica  
-    ```
-**Salida:**  
-    ```text  
-    `[Palmas]` (03) · `lyrics_box` como tag de acción aislada o mutada (`[Palmas Flamencas]`).  
-    `[Cajón]` (03) · `style_box`. Usar como anclaje y concatenar en bloque (ej. `[Flamenco Rumba, Cajón Explosivo, Guitarra Española]`).  
-    `[Handclaps]` (03) · refuerzo rítmico transversal, ideal para mutar a `[Handclaps asincopadas]`.  
-    ```
+- **Fidelidad Léxica:** Extrae única y exclusivamente las etiquetas que existan de forma literal en los archivos inspeccionados. Si un concepto solicitado carece de representación en la ruta, repórtalo explícitamente a la skill consumidora mediante el mensaje: "Concepto no localizado en la base de datos canónica".
+- **Aislamiento Operativo:** Mantén la salida de datos restringida a los tags puros. Omite explicaciones adicionales, sugerencias de mezcla o análisis teóricos sobre las etiquetas entregadas.
+- **Integridad Estructural:** Entrega las etiquetas siempre con su sintaxis completa y bien formada, garantizando el aislamiento de caracteres (ejemplo de formato de salida correcto: `[Hardtek]`).
