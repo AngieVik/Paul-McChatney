@@ -34,6 +34,6 @@ description: Construcción del style_box: Tags, Fusión y frecuencias, Dinámica
 ---
 
 - **Documentos:**
-| Archivo                                        | Contenido                                                                                                                                        |
-| ---------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [style_box.md](../../composicion/style_box.md) | **style_box** Construcción del style_box: Tag Anchoring, anclaje temporal y colisión de opuestos (fusión lingüístico-tonal, rítmica y tímbrica). |
+| Archivo                                                     | Contenido                                                                                                                                        |
+| ----------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| <a href="../../composicion/style_box.md">`style_box.md`</a> | **style_box** Construcción del style_box: Tag Anchoring, anclaje temporal y colisión de opuestos (fusión lingüístico-tonal, rítmica y tímbrica). |

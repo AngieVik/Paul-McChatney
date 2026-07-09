@@ -6,7 +6,7 @@ description: genera 3 prompts 1:1 para Gemini a partir del sentimiento (no el ar
 
 # cover-art
 
-- Convierte una obra de Paul McChatney en **3 prompts perfectos** para que Gemini genere portadas (cover art) en formato **1:1 (cuadrado)**.
+- Convierte una obra de Paul McChatney en **3 prompts perfectos** para generar portadas (cover art) en formato **1:1**.
 - No se trata de ilustrar la letra de forma literal, sino de **pescar el sentimiento**: los conceptos semánticos y las cualidades ocultas que laten dentro de la canción.
 
 ## Cuándo se activa
@@ -42,9 +42,9 @@ description: genera 3 prompts 1:1 para Gemini a partir del sentimiento (no el ar
     - Deben nacer del **sentimiento** hallado en el Paso 1, no de la trama literal.
     - Que sean **distintas entre sí** (no tres variaciones de lo mismo).
 
-## Paso 3 — Escribir los 3 prompts para Gemini
+## Paso 3 — Escribir los 3 prompts
 
-- Cada escena se traduce a **un prompt en lenguaje natural**, pensado para que Gemini lo entienda, lo ejecute y lo realice **sin fricción**:
+- Cada escena se traduce a **un prompt en lenguaje natural**, pensado para que se entienda, se ejecute y se realice **sin fricción**:
     - **Fácil de comprender**: frases claras, una idea por bloque.
     - **Concreto**: sujeto, acción, entorno, luz, atmósfera y estilo.
     - **Cuadrado**: indicar siempre **aspect ratio 1:1 / square composition**.
@@ -76,7 +76,7 @@ Una primera línea con el **núcleo emocional** detectado (para que el usuario v
 ## Entra → Sale
 
 - **Entra:** una obra terminada (`letra + style_box/narrativa`).
-- **Sale:** el núcleo emocional detectado + 3 prompts en lenguaje natural 1:1 para Gemini.
+- **Sale:** el núcleo emocional detectado + 3 prompts en lenguaje natural 1:1.
 
 ## Relación
 

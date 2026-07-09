@@ -10,12 +10,12 @@ description: inyecta en la letra cantable jerga específica para que se cante, n
 
 ## Cuándo se activa
 
-- **Se solicita explícitamente** una jerga en concreto sobre un mood u obra.
-- **Fase 2** de `produccion` si se solicita previamente.
+- **Se solicita explícitamente** una jerga en concreto sobre un mood u obra. 
+- La llama `lirica` en Fase 2 de `produccion` si se solicita previamente.
 
 ## Pasos
 
-1. Identifica la jerga objetivo y abre **solo** su guía en `jerga/` con la herramienta de lectura, un archivo. Si no existe, créala desde `chuletas/plantilla_jerga.md` (con aprobación).
+1. Identifica la jerga objetivo y abre **solo** su guía en `jerga/` con la herramienta de lectura, un archivo.
 2. Aplica las transformaciones de esa guía a la letra.
 3. Devuelve la letra con la jerga inyectada.
 
@@ -27,11 +27,11 @@ description: inyecta en la letra cantable jerga específica para que se cante, n
 ## Entra → Sale
 
 - **Entra:** una letra + una jerga objetivo.
-- **Sale:** la letra modificada.
+- **Sale:** la letra modificada (`composicion/formato.md §2`).
 
 ## Relación
 
-- La llama `lirica` en `produccion` en Fase 2 si se solicita previamente.
+- La llama `lirica` en Fase 2 de `produccion` si se solicita previamente.
 
 ## Ejemplo
 

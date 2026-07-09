@@ -31,6 +31,6 @@ description: Escritura técnica y tipografía como partitura física: narrativa,
 ---
 
 - **Documentos:**
-| Archivo                                | Contenido                                                                                                         |
-| -------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
-| [letra.md](../../composicion/letra.md) | **letra** Escritura técnica y tipografía como partitura física: narrativa, control fonético y aritmética métrica. |
+| Archivo                                             | Contenido                                                                                                         |
+| --------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| <a href="../../composicion/letra.md">`letra.md`</a> | **letra** Escritura técnica y tipografía como partitura física: narrativa, control fonético y aritmética métrica. |

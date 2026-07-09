@@ -12,31 +12,31 @@ description: Guías de fonetización para idiomas y dialectos. Permiten simular 
 # fonetizaciones
 
 - **Guías disponibles:**
-| Archivo                                                                   | Idioma / Acento         | Notas                                                                      |
-| ------------------------------------------------------------------------- | ----------------------- | -------------------------------------------------------------------------- |
-| [argentino_rioplatense.md](../../fonetizaciones/argentino_rioplatense.md) | Argentino / Rioplatense | Sistema fonológico altamente distintivo.                                   |
-| [boricua_puertorico.md](../../fonetizaciones/boricua_puertorico.md)       | Boricua Puerto Rico     | Sistema fonológico de base caribeña.                                       |
-| [canario.md](../../fonetizaciones/canario.md)                             | Canario                 | Sistema fonológico caracterizado por una articulación relajada.            |
-| [chileno.md](../../fonetizaciones/chileno.md)                             | Chileno                 | Sistema fonológico caracterizado por su extrema velocidad de articulación. |
-| [colombiano_andino.md](../../fonetizaciones/colombiano_andino.md)         | Colombiano Andino       | Sistema fonológico caracterizado por su alto conservadurismo consonántico. |
-| [es_aleman.md](../../fonetizaciones/es_aleman.md)                         | Alemán                  | Pronunciación germánica de vocales y consonantes.                          |
-| [es_americano.md](../../fonetizaciones/es_americano.md)                   | Inglés Americano        | Acento anglosajón neutro para letras en inglés o mezclas.                  |
-| [es_andaluz.md](../../fonetizaciones/es_andaluz.md)                       | Español Andaluz         | Aspiración de s, ceceo/seseo, elisiones vocálicas.                         |
-| [es_arabe.md](../../fonetizaciones/es_arabe.md)                           | Árabe                   | Énfasis en guturales, enfáticas y alargamientos vocálicos.                 |
-| [es_calo.md](../../fonetizaciones/es_calo.md)                             | Caló                    | Léxico y fonética del habla caló gitano-andaluza.                          |
-| [es_chino.md](../../fonetizaciones/es_chino.md)                           | Chino Mandarín          | Tonos, consonantes aspiradas y finales silábicos cerrados.                 |
-| [es_ebrio.md](../../fonetizaciones/es_ebrio.md)                           | Ebrio                   | Arrastre, elisiones y vacilación propia del habla embriagada.              |
-| [es_edad_avanzada.md](../../fonetizaciones/es_edad_avanzada.md)           | Edad avanzada           | Temblor, aire y articulación lenta de voz mayor.                           |
-| [es_frances.md](../../fonetizaciones/es_frances.md)                       | Francés                 | Nasales, liaison, vocal final muda y ritmo silábico.                       |
-| [es_hombre_gay.md](../../fonetizaciones/es_hombre_gay.md)                 | Amaneramiento           | Prosodia expresiva, sibilantes marcadas y melodía ascendente.              |
-| [es_infancia_temprana.md](../../fonetizaciones/es_infancia_temprana.md)   | Infancia temprana       | Rotacismo, ceceo y vocales abiertas de voz infantil.                       |
-| [es_italiano.md](../../fonetizaciones/es_italiano.md)                     | Italiano                | Dobles consonantes, apertura vocálica, ritmo bel canto.                    |
-| [es_portugues.md](../../fonetizaciones/es_portugues.md)                   | Portugués               | Reducción vocálica, nasales, sibilantes y ritmo acentual.                  |
-| [es_pueblo_peninsular.md](../../fonetizaciones/es_pueblo_peninsular.md)   | Pueblo peninsular       | Dejes y modismos del habla rural peninsular.                               |
-| [es_rural_profundo.md](../../fonetizaciones/es_rural_profundo.md)         | Rural profundo          | Arcaísmos, aspiración y entonación lenta.                                  |
-| [es_ruso.md](../../fonetizaciones/es_ruso.md)                             | Ruso                    | Palatalización, reducción vocálica en sílabas átonas.                      |
-| [es_senegales.md](../../fonetizaciones/es_senegales.md)                   | Senegalés / Wolof       | Consonantes implosivas, ritmo y cadencia west-africana.                    |
-| [euskera.md](../../fonetizaciones/euskera.md)                             | Euskera / Vasco         | Consonantes apicoalveolares y vocales puras.                               |
-| [gallego.md](../../fonetizaciones/gallego.md)                             | Gallego                 | Sistema vocálico propio, gheada, seseo gallego.                            |
-| [mexicano_centro.md](../../fonetizaciones/mexicano_centro.md)             | Mexicano centro         | Aspiración de 's', seseo, diptongación y ritmo acentual.                   |
-| [plantilla.md](../../chuletas/plantilla_fonetizaciones.md)                | Plantilla base          | Estructura vacía para crear guías de nuevos idiomas.                       |
+| Archivo                                                                                | Idioma / Acento         | Notas                                                                      |
+| -------------------------------------------------------------------------------------- | ----------------------- | -------------------------------------------------------------------------- |
+| <a href="../../fonetizaciones/argentino_rioplatense.md">`argentino_rioplatense.md`</a> | Argentino / Rioplatense | Sistema fonológico altamente distintivo.                                   |
+| <a href="../../fonetizaciones/boricua_puertorico.md">`boricua_puertorico.md`</a>       | Boricua Puerto Rico     | Sistema fonológico de base caribeña.                                       |
+| <a href="../../fonetizaciones/canario.md">`canario.md`</a>                             | Canario                 | Sistema fonológico caracterizado por una articulación relajada.            |
+| <a href="../../fonetizaciones/chileno.md">`chileno.md`</a>                             | Chileno                 | Sistema fonológico caracterizado por su extrema velocidad de articulación. |
+| <a href="../../fonetizaciones/colombiano_andino.md">`colombiano_andino.md`</a>         | Colombiano Andino       | Sistema fonológico caracterizado por su alto conservadurismo consonántico. |
+| <a href="../../fonetizaciones/es_aleman.md">`es_aleman.md`</a>                         | Alemán                  | Pronunciación germánica de vocales y consonantes.                          |
+| <a href="../../fonetizaciones/es_americano.md">`es_americano.md`</a>                   | Inglés Americano        | Acento anglosajón neutro para letras en inglés o mezclas.                  |
+| <a href="../../fonetizaciones/es_andaluz.md">`es_andaluz.md`</a>                       | Español Andaluz         | Aspiración de s, ceceo/seseo, elisiones vocálicas.                         |
+| <a href="../../fonetizaciones/es_arabe.md">`es_arabe.md`</a>                           | Árabe                   | Énfasis en guturales, enfáticas y alargamientos vocálicos.                 |
+| <a href="../../fonetizaciones/es_calo.md">`es_calo.md`</a>                             | Caló                    | Léxico y fonética del habla caló gitano-andaluza.                          |
+| <a href="../../fonetizaciones/es_chino.md">`es_chino.md`</a>                           | Chino Mandarín          | Tonos, consonantes aspiradas y finales silábicos cerrados.                 |
+| <a href="../../fonetizaciones/es_ebrio.md">`es_ebrio.md`</a>                           | Ebrio                   | Arrastre, elisiones y vacilación propia del habla embriagada.              |
+| <a href="../../fonetizaciones/es_edad_avanzada.md">`es_edad_avanzada.md`</a>           | Edad avanzada           | Temblor, aire y articulación lenta de voz mayor.                           |
+| <a href="../../fonetizaciones/es_frances.md">`es_frances.md`</a>                       | Francés                 | Nasales, liaison, vocal final muda y ritmo silábico.                       |
+| <a href="../../fonetizaciones/es_hombre_gay.md">`es_hombre_gay.md`</a>                 | Amaneramiento           | Prosodia expresiva, sibilantes marcadas y melodía ascendente.              |
+| <a href="../../fonetizaciones/es_infancia_temprana.md">`es_infancia_temprana.md`</a>   | Infancia temprana       | Rotacismo, ceceo y vocales abiertas de voz infantil.                       |
+| <a href="../../fonetizaciones/es_italiano.md">`es_italiano.md`</a>                     | Italiano                | Dobles consonantes, apertura vocálica, ritmo bel canto.                    |
+| <a href="../../fonetizaciones/es_portugues.md">`es_portugues.md`</a>                   | Portugués               | Reducción vocálica, nasales, sibilantes y ritmo acentual.                  |
+| <a href="../../fonetizaciones/es_pueblo_peninsular.md">`es_pueblo_peninsular.md`</a>   | Pueblo peninsular       | Dejes y modismos del habla rural peninsular.                               |
+| <a href="../../fonetizaciones/es_rural_profundo.md">`es_rural_profundo.md`</a>         | Rural profundo          | Arcaísmos, aspiración y entonación lenta.                                  |
+| <a href="../../fonetizaciones/es_ruso.md">`es_ruso.md`</a>                             | Ruso                    | Palatalización, reducción vocálica en sílabas átonas.                      |
+| <a href="../../fonetizaciones/es_senegales.md">`es_senegales.md`</a>                   | Senegalés / Wolof       | Consonantes implosivas, ritmo y cadencia west-africana.                    |
+| <a href="../../fonetizaciones/euskera.md">`euskera.md`</a>                             | Euskera / Vasco         | Consonantes apicoalveolares y vocales puras.                               |
+| <a href="../../fonetizaciones/gallego.md">`gallego.md`</a>                             | Gallego                 | Sistema vocálico propio, gheada, seseo gallego.                            |
+| <a href="../../fonetizaciones/mexicano_centro.md">`mexicano_centro.md`</a>             | Mexicano centro         | Aspiración de 's', seseo, diptongación y ritmo acentual.                   |
+| <a href="../../chuletas/plantilla_fonetizaciones.md">`plantilla.md`</a>                | Plantilla base          | Estructura vacía para crear guías de nuevos idiomas.                       |

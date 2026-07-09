@@ -6,7 +6,7 @@ description: redacta la letra limpia sin tags: narrativa, cadencia y anclaje reg
 
 # lirica
 
-- Escribe **solo la letra limpia** (Fase 2): calidad poética y narrativa, sin corchetes ni tags. El esqueleto cantable.
+- Escribe **solo la letra limpia** calidad poética y narrativa, sin corchetes ni tags. El esqueleto cantable.
 
 ## Cuándo se activa
 
@@ -35,7 +35,7 @@ description: redacta la letra limpia sin tags: narrativa, cadencia y anclaje reg
 ## Relación
 
 - Produce la letra limpia de Fase 2, que después servirá como base del `lyrics_box` en Fase 3 de `produccion`.
-- Si se solicita previamente, llama a `fonetizar` y `jerga`.
+- Si se solicita previamente `fonetizar` o `jerga`. añade ademas a la letra fonetismos o jerga especifica.
 
 ## Ejemplo
 

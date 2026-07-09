@@ -1,113 +1,55 @@
 ---
 name: produccion
 type: skill
-description: Orquesta el flujo completo de creación musical en 5 fases, delegando cada parte en las skills y archivos de referencia adecuados.
+description: Orquestador central del flujo de creación musical. Dirige las 5 fases delegando las tareas de extracción, fusión y formato a las skills correspondientes.
 ---
 
 # produccion
 
-- Activa el **Modo Producción** de Paul McChatney: un flujo guiado, interactivo y por fases para convertir una idea musical en una obra completa, copiable y lista para generar.
-- Es la skill central del sistema. No sustituye a las demás skills: las coordina en el momento exacto.
+## 1 · Propósito
 
----
+Ejerce como el Director de Orquesta (Orquestador Central) del Modo Producción. Tu única función es guiar al usuario a través de un ciclo interactivo de 5 fases para convertir una idea abstracta en una obra musical canónica. No ejecutas las tareas complejas directamente; coordinas y delegas el trabajo a las skills modulares en el momento exacto.
 
-## Cuándo se activa
+## 2 · Principios de Ejecución (Pipeline Estricto)
 
-- El usuario pide explícitamente `iniciar una producción`, o `activar el modo producción`.
-- El usuario trae una idea musical y quiere desarrollarla paso a paso hasta obra final.
-- El usuario quiere trabajar sobre una obra viva usando el ciclo de proyecto.
+- **Flujo Secuencial:** Avanza fase por fase. No fusiones pasos ni saltes al formato final sin autorización.
+- **Delegación Absoluta:** Usa los microservicios. Si necesitas extraer tags, llama a `buscar-tag`; si necesitas infraestructura, llama a `proyecto`.
+- **Punto de Control (STOP):** Al finalizar los entregables de cada fase, detén la generación por completo. Espera explícitamente la revisión, el ajuste o la orden del usuario para avanzar a la siguiente etapa.
+- **Mutabilidad:** Todo artefacto generado antes de la orden `aprobar` es un borrador vivo que reside y se sobrescribe en `_hojas_sucias/<slug>.md`.
 
----
+## 3 · Las 5 Fases de Producción
 
-## Antes de empezar
+### Fase 0: Concepto e Inicialización
 
-- *Repasa el rol y las reglas* (ya en contexto por `@import`), `system_prompt/system_prompt.md`.
-- *Repasa los aprendizajes acumulados*: `.claude/MEMORY.md`.
+- **Acción:** Analiza la idea del usuario. Investiga géneros subyacentes o referencias cruzadas en la web si es necesario. Define una hipótesis narrativa y emocional.
+- **Delegación:** Invoca la skill `proyecto` (comando `crear`) para abrir el archivo de trabajo.
+- **Entregable y STOP:** Presenta el `<slug>` creado, el contexto emocional y la dirección sonora propuesta. Solicita confirmación.
 
-## Principios de oro
+### Fase 1: Arquitectura Sonora (Style & Exclude Box)
 
-- Una producción no es una respuesta larga: es un **proceso controlado**, cada fase debe dejar una versión más clara, más útil y más generable que la anterior.
-- Todo lo producido antes de aprobar es **borrador vivo, conceptual y maleable** .
-- La última versión real vive en `_hojas_sucias/<slug>.md`, gestionada por `proyecto`, si el usuario pega una versión consolidada, esa versión pasa a ser la base actual.
-- Trabaja sobre una sola obra a la vez, salvo que el usuario pida explícitamente comparar.
-- No saltes fases salvo petición explícita.
-- Al terminar cada fase, **para** y espera aprobación, ajuste o instrucción del usuario: Avanzar una fase, Mantener la fase, o retroceder hasta la fase solicitada.
-- Usa tu instinto de productor para inyectar tags o instrucciones que disparen la calidad del resultado.
+- **Acción:** Define los ingredientes musicales empíricos de la obra. 
+- **Delegación:** Invoca a `fusionar` para trazar la viabilidad acústica. Acto seguido, invoca a `style-box` para que extraiga los datos mediante `buscar-tag` y ensamble los borradores.
+- **Entregable y STOP:** Presenta el borrador del `[Style Box]` y las exclusiones iniciales del `[Exclude Box]`. Solicita confirmación.
 
+### Fase 2: Alma Lírica (Letra Cruda)
 
-## Pasos
+- **Acción:** Redacta la estructura poética y narrativa apoyándote en `composicion/letra.md`. Mantén el texto libre de etiquetas (tags).
+- **Delegación:** Invoca la skill `lirica`. Si el usuario requiere un acento o argot específico, encadena llamadas a `fonetizar` o `jerga`.
+- **Entregable y STOP:** Presenta el texto limpio, define el perfil vocal (quién canta) y el conflicto narrativo (desde qué herida canta). Solicita confirmación.
 
-### 0 · Fase 0 Concepto
+### Fase 3: Estructura y Dirección (Lyrics Box)
 
-- Si la idea es vaga, propón 2–3 direcciones fuertes.
-- Investiga en web: géneros similares y/o opuestos, géneros subyacentes, tendencias sonoras y referencias de grupos.
-- Muestra un pequeño informe; aclara contexto emocional + género.
-- Define una hipótesis de producción.
-- Crea el **archivo de trabajo** con la skill `proyecto`.
+- **Acción:** Inyecta las directrices de actuación, estructura de banda y modulaciones sobre la letra previamente aprobada. Define la línea cero de identidad vocal, el `[MOOD]` y la `[PRODUCTION]`.
+- **Delegación:** Parametriza a `buscar-tag` para extraer la sintaxis exacta desde los índices estipulados en `composicion/lyrics_box.md` y `composicion/tecnicas_vocales.md`.
+- **Entregable y STOP:** Presenta el borrador completo del `[Lyrics Box]` integrado. Solicita confirmación.
 
-- **PARA.** y entrega: `Borrador título de trabajo o slug provisional creado`, `Borrador concepto emocional`, `Borrador dirección sonora inicial`, `Borrador próxima fase propuesta`.
+### Fase 4: Masterización y Formato Final
 
----
+- **Acción:** Pule el espectro de frecuencias cerrando el `[Exclude Box]` y ajusta los efectos finales del máster.
+- **Delegación:** Lee `composicion/formato.md` para empaquetar la obra.
+- **Entregable y STOP:** Entrega la obra terminada distribuyendo los componentes exactamente en los 4 bloques de código Markdown exigidos por el estándar.
 
-### 1 · Fase 1 Borradores de style_box y exclude_box
+## 4 · Cierre y Ciclo de Vida
 
-- Busca por concepto (grep, solo coincidencias) en el núcleo de `chupilista/` que toque, índice en `.claude/rules/chupilista.md`:
-    - Género base.
-    - Instrumentos protagonistas.
-    - Voz o timbre.
-    - Ritmo, BPM o groove.
-    - Textura diferencial.
-    - Ghost tag si aporta identidad.
-- Construye el borrador del `style_box`, combinando canon + instinto + `.claude/rules/style_box.md` (máx ~20 palabras). (Apóyate en las skills `style-box`, `buscar-tag` y `fusionar`).
-- Anota exclusiones candidatas, pero no cierres todavía el `exclude_box` final si la obra aún puede cambiar.
-- Evita los tags decorativos sin función.
-
-- **PARA.** y entrega: `Borrador del style_box`, `Borrador del exclude_box`
-
----
-
-### 2 · Fase 2 Borrador de la letra
-
-- Redacta la letra sin tags, foco poético/narrativo; queda abierta a refinarse en fases posteriores. Usa `.claude/rules/letra.md` y la skill `lirica`.
-- Solo si se pide **explícitamente** una fonetización o jerga concreta, aplícala con `fonetizar` o `jerga`.
-- **PARA.** y entrega: Voz narrativa: `Borrador de la letra limpia`, `Borrador de Quien canta` `Borrador de a quien o a que canta` y `Borrador desde que herida, deseo burla o conflicto canta`.
-
----
-
-### 3 · Fase 3 Borrador del lyrics_box
-
-- Apóyate en la skill `buscar-tag` y busca las tags concretas por concepto (grep, solo coincidencias) en el núcleo de `chupilista/` que necesites, índice `.claude/rules/chupilista.md`, combinando canon + instinto.  
-    **Inyecta las tags de estructura y dirección de banda** de manera magistral en el `lyrics_box`, busca por concepto (grep, solo coincidencias) en `.claude/rules/lyrics_box.md` y `.claude/rules/tecnicas_vocales.md`.  
-    **Crea `[MOOD]` y `[PRODUCTION]`.**  
-    **Crea la linea cero de identidad vocal** si la obra tiene cantante definido.  
-    **Reajusta o modifica la letra** si un tag o un fraseo mejora el resultado.
-
-- **PARA.** y entrega: `Borrador línea cero de identidad vocal (si la obra tiene cantante definido)`, `Borrador [MOOD] y [PRODUCTION]`, `Borrador del lyrics_box`.
-
----
-
-### 4 · Fase 4 Masterización
-
-- Abre `<razonamiento>`, eleva el impacto y controla el post-procesamiento con `.claude/rules/efectos.md`, apoyate en `buscar-tag`.
-- Perfecciona el `exclude_box` con `.claude/rules/exclude_box.md`, apoyate en `buscar-tag`.
-- Aplica tecnicas vocales en `lyrics_box` con `.claude/rules/tecnicas_vocales.md`, apoyate en `buscar-tag`.
-- Detecta y soluciona errores críticos.
-- Instinto de Productor Musical de Élite, no fuerces cambios innecesarios ni añadas efectos superfluos..
-- **PARA.** y entrega la obra terminada con todos los borradores con el formato expuesto en `composicion/formato.md`.
-
-## Finalizar
-
-- El cierre y la gestión del ciclo se hacen con los **comandos de `proyecto`** (`crear`, `listar`, `retomar`, `cerrar`, `aprobar`, `guardar`, `cancelar`, `eliminar`).
-- Al **aprobar** una obra, si contiene hallazgos técnicos o creativos de valor, **sugiere** al usuario iniciar **`retrospectiva`** (`conocimientos/retrospectiva.md`).
-- Si hay un **aprendizaje real**, propón archivarlo en `.claude/MEMORY.md` o `composicion/` y espera aprobación.
-
-## Ejemplo
-
-**Entrada:**  
-    ```text  
-    Usuario: `<inicia la producción, quiero una bulería metalera sobre un herrero gitano>`  
-    ```  
-    **Salida:**  
-    ```text  
-    Fase 0: confirmo mood (orgullo/fuego) y fusión (bulería + metal), investigo caló y palmería; pregunto y **paro**.  
-    ```
+- La gestión de estados (guardar copias, pausar o cerrar la sesión) se delega exclusivamente a los comandos de la skill `proyecto`.
+- Cuando el usuario emita la orden de `aprobar`, transfiere el control a `proyecto` para la migración del archivo. Permitirás pasivamente que dicha skill detecte si es necesario sugerir el uso de `retrospectiva`.

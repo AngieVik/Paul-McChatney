@@ -12,17 +12,17 @@ description: Guías de jerga para idiomas y dialectos. Permiten inyectar jerga e
 # jerga
 
 - **Guías disponibles:**
-| Archivo                                                          | Idioma / Acento       | Notas                                                                                                          |
-| ---------------------------------------------------------------- | --------------------- | -------------------------------------------------------------------------------------------------------------- |
-| [andaluz_almeriense.md](../../jerga/andaluz_almeriense.md)       | Andaluz Almeriense    | Habla tremendamente expresiva, económica en su articulación fonética.                                          |
-| [argot_canario.md](../../jerga/argot_canario.md)                 | Argot Canario         | Lenguaje puente por excelencia, moldeado por la posición geográfica estratégica de las islas.                  |
-| [argot_informatico.md](../../jerga/argot_informatico.md)         | Argot Informatico     | Argot técnico transversal informatico.                                                                         |
-| [argot_prehospitalario.md](../../jerga/argot_prehospitalario.md) | Argot Prehospitalario | Lenguaje técnico y "de trinchera" utilizado por los Técnicos en Emergencias Sanitarias (TES)                   |
-| [boricua_puertorico.md](../../jerga/boricua_puertorico.md)       | Boricua Puertorico    | El principal exportador de modismos al resto de la juventud hispanohablante.                                   |
-| [cheli_madrid.md](../../jerga/cheli_madrid.md)                   | Cheli Madrid          | Su léxico está asimilado en la cultura pop y el habla coloquial de toda España.                                |
-| [chilango_mexico.md](../../jerga/chilango_mexico.md)             | Chilango Mexico       | Jerga urbana originaria de la Ciudad de México y su área metropolitana.                                        |
-| [coa_chile.md](../../jerga/coa_chile.md)                         | Coa Chile             | Argot de origen estrictamente carcelario y delincuencial surgido en los penales de Chile.                      |
-| [jerga_produccion.md](../../jerga/jerga_produccion.md)           | Jerga Produccion      | Combina la teoría acústica con una fuerte carga de anglicismos castellanizados.                                |
-| [lunfardo_rioplatense.md](../../jerga/lunfardo_rioplatense.md)   | Lunfardo Rioplatense  | Constituye el núcleo léxico del habla coloquial de todas las clases sociales en la región del Río de la Plata. |
-| [parlache_medellin.md](../../jerga/parlache_medellin.md)         | Parlache Medellin     | La columna vertebral del habla coloquial de la juventud antioqueña y colombiana en general.                    |
-| [plantilla_jerga.md](../../chuletas/plantilla_jerga.md)          | Plantilla Jerga       | Estructura vacía para crear guías de nuevas jergas.                                                            |
+| Archivo                                                                       | Idioma / Acento       | Notas                                                                                                          |
+| ----------------------------------------------------------------------------- | --------------------- | -------------------------------------------------------------------------------------------------------------- |
+| <a href="../../jerga/andaluz_almeriense.md">`andaluz_almeriense.md`</a>       | Andaluz Almeriense    | Habla tremendamente expresiva, económica en su articulación fonética.                                          |
+| <a href="../../jerga/argot_canario.md">`argot_canario.md`</a>                 | Argot Canario         | Lenguaje puente por excelencia, moldeado por la posición geográfica estratégica de las islas.                  |
+| <a href="../../jerga/argot_informatico.md">`argot_informatico.md`</a>         | Argot Informatico     | Argot técnico transversal informatico.                                                                         |
+| <a href="../../jerga/argot_prehospitalario.md">`argot_prehospitalario.md`</a> | Argot Prehospitalario | Lenguaje técnico y "de trinchera" utilizado por los Técnicos en Emergencias Sanitarias (TES)                   |
+| <a href="../../jerga/boricua_puertorico.md">`boricua_puertorico.md`</a>       | Boricua Puertorico    | El principal exportador de modismos al resto de la juventud hispanohablante.                                   |
+| <a href="../../jerga/cheli_madrid.md">`cheli_madrid.md`</a>                   | Cheli Madrid          | Su léxico está asimilado en la cultura pop y el habla coloquial de toda España.                                |
+| <a href="../../jerga/chilango_mexico.md">`chilango_mexico.md`</a>             | Chilango Mexico       | Jerga urbana originaria de la Ciudad de México y su área metropolitana.                                        |
+| <a href="../../jerga/coa_chile.md">`coa_chile.md`</a>                         | Coa Chile             | Argot de origen estrictamente carcelario y delincuencial surgido en los penales de Chile.                      |
+| <a href="../../jerga/jerga_produccion.md">`jerga_produccion.md`</a>           | Jerga Produccion      | Combina la teoría acústica con una fuerte carga de anglicismos castellanizados.                                |
+| <a href="../../jerga/lunfardo_rioplatense.md">`lunfardo_rioplatense.md`</a>   | Lunfardo Rioplatense  | Constituye el núcleo léxico del habla coloquial de todas las clases sociales en la región del Río de la Plata. |
+| <a href="../../jerga/parlache_medellin.md">`parlache_medellin.md`</a>         | Parlache Medellin     | La columna vertebral del habla coloquial de la juventud antioqueña y colombiana en general.                    |
+| <a href="../../chuletas/plantilla_jerga.md">`plantilla_jerga.md`</a>          | Plantilla Jerga       | Estructura vacía para crear guías de nuevas jergas.                                                            |

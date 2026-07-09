@@ -11,20 +11,18 @@ description: reescribe la letra cantable, para que se cante con un acento o idio
 ## Cuándo se activa
 
 - **Se solicita explícitamente** un acento o idioma concreto sobre un mood u obra.
-- **Fase 2** de `produccion` si se solicita previamente.
+- La llama `lirica` en Fase 2 de `produccion` si se solicita previamente.
 
 ## Pasos
 
-1. Identifica el acento/idioma objetivo y abre **solo** su guía en `fonetizaciones/` (andaluz, americano, gallego, italiano, ruso, caló, ebrio, edad_avanzada…) con la herramienta de lectura — un archivo, no la carpeta. Si no existe, créala desde `chuletas/plantilla_fonetizaciones.md` (con aprobación).
-2. Aplica las transformaciones de esa guía a la letra (aspiraciones, elisiones, nasales, dobles consonantes, etc.), respetando la métrica.
-3. Para anglicismos dentro de un texto en español, usa el **Hack de Ortografía Fonética** (`system_prompt/system_prompt.md`): escríbelos como suenan **Ejemplo:** Beibi.
-4. Devuelve la letra fonetizada.
+1. Identifica el acento/idioma objetivo y abre **solo** su guía en `fonetizaciones/` con la herramienta de lectura, un archivo.
+2. Aplica las transformaciones de esa guía a la letra.
+3. Devuelve la letra fonetizada.
 
 ## Principios clave
 
 - Un mismo texto con fonetización distinta produce canciones radicalmente diferentes en timbre y emoción.
 - Refuerza el efecto anclando también con jerga local en la letra.
-- Salvo los dialectos de España (andaluz, gallego, euskera…), las guías simulan un acento extranjero cantando en español; si la obra debe cantarse en ese idioma, no fonetices y ancla el idioma en el `style_box`.
 
 ## Entra → Sale
 

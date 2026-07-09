@@ -31,6 +31,6 @@ description: Tags del lyrics_box: control por corchetes, dirección de banda, es
 ---
 
 - **Documentos:**
-| Archivo                                          | Contenido                                                                                                     |
-| ------------------------------------------------ | ------------------------------------------------------------------------------------------------------------- |
-| [lyrics_box.md](../../composicion/lyrics_box.md) | **lyrics_box** Tags del lyrics_box: control por corchetes, dirección de banda, estructura y hacks temporales. |
+| Archivo                                                       | Contenido                                                                                                     |
+| ------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
+| <a href="../../composicion/lyrics_box.md">`lyrics_box.md`</a> | **lyrics_box** Tags del lyrics_box: control por corchetes, dirección de banda, estructura y hacks temporales. |

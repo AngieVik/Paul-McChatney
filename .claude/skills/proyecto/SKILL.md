@@ -1,64 +1,49 @@
 ---
 name: proyecto
 type: skill
-description: Crea y gestiona el archivo de trabajo de una obra. Primer paso de cualquier creación.
+description: Orquestador del ciclo de vida creativo de la obra y gestor de operaciones mecánicas de almacenamiento.
 ---
 
 # proyecto
 
-- Orquesta los **archivos del proyecto**.
-- Al arrancar cualquier creación, `crear` el `.md` en `_hojas_sucias/`.
-- La última versión real del proyecto, donde se vuelca y **se sobrescribe** lo que se va creando.
+## 1 · Propósito
 
-## Cuándo se activa
+Gestiona la infraestructura de archivos del sistema. Opera en dos niveles estrictos: 
 
-- **Al solicitar explícitamente** `crear` un mood u obra.
-- **Al solicitar explícitamente** `listar` moods u obras aprobadas o en proceso.
-- **Al solicitar explícitamente** `retomar` un proyecto aprobado o en proceso.
-- La invoca **Fase 0** en `produccion`, para `crear` el archivo, al `aprobar` migrar a terminados.
+1. **Ciclo de vida:** Orquesta el nacimiento, desarrollo y finalización canónica de una obra musical.
+2. **Operaciones mecánicas:** Ejecuta comandos transaccionales de lectura, escritura, copia y eliminación sobre el sistema de archivos.
 
-## Relación
+## 2 · Nivel A: Ciclo de Vida del Proyecto
 
-- **Primer paso de cualquier creación** para `crear` el `archivo de trabajo` con `chuletas/plantilla_hoja_sucia.md`.
-- Al `aprobar` la obra terminada, genera la plantilla final `chuletas/plantilla_proyecto.md`.
-- Al **aprobar**, si la obra contiene hallazgos técnicos o creativos de valor, **sugiere** al usuario iniciar **`retrospectiva`** (`conocimientos/retrospectiva.md`).
+Comandos que alteran el estado creativo y la ubicación canónica de la obra.
 
-## Comandos
+- `crear`: Inicializa el proyecto. Genera el archivo `_hojas_sucias/<slug>.md` (utilizando *snake_case* estricto). Aplica el contenido de `chuletas/plantilla_hoja_sucia.md` como guía estructural flexible. Inicia la recopilación de datos interactuando con el usuario.
+- `retomar`: Restaura el contexto de un proyecto existente. 
+    - Desde `_hojas_sucias/`: Lee el borrador actual y expone un resumen de estado para continuar la iteración.
+    - Desde `proyectos/<slug>/`: Clona el contenido del proyecto terminado hacia `_hojas_sucias/<slug>.md` y prepara el entorno para su modificación.
+- `aprobar`: Finaliza la obra satisfactoriamente. Transfiere el contenido depurado a `proyectos/<slug>/<slug>.md` aplicando rigurosamente `chuletas/plantilla_proyecto.md`. Registra la nueva entrada en el catálogo `PROYECTOS.md`. Acto seguido, evalúa la obra e invoca la skill `retrospectiva` si detecta hallazgos técnicos de alto valor.
 
-- `crear`: genera `_hojas_sucias/<slug>.md` (slug en `snake_case`, sin acentos ni eñes) con un borrador dinámico del proyecto nuevo solicitado, usando `chuletas/plantilla_hoja_sucia.md` como guía conceptual (no estricta); haz preguntas.
-    - Es el `archivo de trabajo` libre que se *sobrescribe* según avanza; si el usuario pega una versión consolidada, esa pasa a ser la actual.
-- `listar`: muestra lo que se te solicite, obras vivas en `_hojas_sucias/`, el catálogo de `PROYECTOS.md`, etc.
-- `retomar`:
-    - Desde *proyecto terminado*: copia su contenido de `proyectos/<slug>/` a `_hojas_sucias/<slug>.md` y resume su estado para retomar el trabajo.
-    - Desde *proyecto en hojas sucias*: abre el `.md` y resume su estado para retomar.
-- `cerrar`: sale del contexto del proyecto en curso para volver al Modo Conversacional y/o hacer otra cosa (no borra nada).
-- `aprobar`: da por finalizada satisfactoriamente una obra, migra a `proyectos/<slug>/<slug>.md` con la plantilla (`chuletas/plantilla_proyecto.md`) y la registra en `PROYECTOS.md`.
-- `guardar`: crea una copia de seguridad `_hojas_sucias/<slug>_NN.md` (duplicado exacto del estado en ese momento).
-- `cancelar`: aborta el contexto de ese momento sin cerrar el proyecto en curso.
-- `eliminar`: borra por completo todo rastro del proyecto y el contexto de ese momento.
+## 3 · Nivel B: Operaciones Mecánicas
 
-## Mapa del almacenamiento
+Comandos transaccionales que no alteran la narrativa creativa de la obra.
 
-| Capa                     | Dónde                              | Qué guarda                                                                    |
-| ------------------------ | ---------------------------------- | ----------------------------------------------------------------------------- |
-| Trabajo en curso         | `_hojas_sucias/<slug>.md`          | El proyecto en proceso, se sobrescribe según avanza (libre, sin formato fijo) |
-| Obras aprobadas          | `proyectos/<slug>/<slug>.md`       | Archivo final de la obra aprobado                                             |
-| Catálogo Obras aprobadas | `PROYECTOS.md`                     | Catálogo de todas las obras aprobadas                                         |
-| Plantilla trabajo        | `chuletas/plantilla_hoja_sucia.md` | guía conceptual del archivo en curso (no estricta)                            |
-| Plantilla final          | `chuletas/plantilla_proyecto.md`   | formato canónico del archivo terminado                                        |
+- `guardar`: Ejecuta un volcado de seguridad. Genera un clon exacto del estado actual bajo la nomenclatura `_hojas_sucias/<slug>_NN.md`.
+- `listar`: Ejecuta una lectura de directorio. Devuelve el índice de archivos activos en `_hojas_sucias/` o el registro histórico de `PROYECTOS.md` según el parámetro solicitado.
+- `cerrar`: Libera la memoria de trabajo del proyecto en curso y retorna el sistema al Modo Conversacional, manteniendo los archivos intactos.
+- `cancelar`: Detiene la ejecución del proceso interactivo actual, manteniendo el proyecto abierto en la ventana de contexto.
+- `eliminar`: Ejecuta el borrado total. Suprime el archivo de trabajo, las copias de seguridad asociadas y purga el contexto activo del modelo.
 
-## Entra → Sale
+## 4 · Mapa del Almacenamiento
 
-- **Entra:** un comando del ciclo (`crear`/`listar`/`retomar`/`cerrar`/`aprobar`/`guardar`/`cancelar`/`eliminar`) + slug.
-- **Sale:** el archivo de trabajo abierto en `_hojas_sucias/` (o la acción de gestión ejecutada).
+| Capa Lógica                 | Ruta Física                        | Función Estructural                                  |
+| --------------------------- | ---------------------------------- | ---------------------------------------------------- |
+| Trabajo en curso            | `_hojas_sucias/<slug>.md`          | Borrador dinámico de sobrescritura continua.         |
+| Obras aprobadas             | `proyectos/<slug>/<slug>.md`       | Archivo final y canónico de la obra terminada.       |
+| Catálogo Global             | `PROYECTOS.md`                     | Índice relacional de todas las obras aprobadas.      |
+| Plantilla de inicialización | `chuletas/plantilla_hoja_sucia.md` | Esquema conceptual para la fase de ideación.         |
+| Plantilla de consolidación  | `chuletas/plantilla_proyecto.md`   | Esquema canónico para el formateo del archivo final. |
 
-## Ejemplo
+## 5 · Entradas y Salidas
 
-**Entrada:**  
-    ```text  
-    Usuario: `<Crea el proyecto para la bulería metalera del herrero>`  
-    ```
-**Salida:**  
-    ```text  
-    Acción: `crear`. Abro `_hojas_sucias/buleria_metalera_herrero.md` aplicando la plantilla y resumo el estado inicial para que comencemos a trabajar en el proyecto.  
-    ```
+- **Entrada Estándar:** Un comando de ejecución explícito (`crear`, `aprobar`, `guardar`, etc.) seguido del `<slug>` objetivo.
+- **Salida Estándar:** Confirmación de la operación sobre el sistema de archivos y exposición del estado resultante para continuar la interacción.

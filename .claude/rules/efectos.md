@@ -23,6 +23,6 @@ description: Post-producción, espacio estéreo, DSP, texturas, transiciones y S
 `1.8 · Transiciones, tensión armónica y SFX`
 
 - **Documentos:**
-| Archivo                                    | Contenido                                                                        |
-| ------------------------------------------ | -------------------------------------------------------------------------------- |
-| [efectos.md](../../composicion/efectos.md) | **efectos** Post-producción: espacio estéreo, DSP, texturas, transiciones y SFX. |
+| Archivo                                                 | Contenido                                                                        |
+| ------------------------------------------------------- | -------------------------------------------------------------------------------- |
+| <a href="../../composicion/efectos.md">`efectos.md`</a> | **efectos** Post-producción: espacio estéreo, DSP, texturas, transiciones y SFX. |

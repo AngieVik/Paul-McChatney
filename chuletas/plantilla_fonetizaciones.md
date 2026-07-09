@@ -43,7 +43,7 @@ Cómo representar fonemas que no existen en el español usando nuestras grafías
 
 - **Consonantes mudas:** [Reglas estrictas sobre qué letras ignorar. Ej. "La 'k' ante 'n' inicial es muda"].
 
-## 4 · Reglas de Acentuación, Cadencia y Entonación
+## Reglas de Acentuación, Cadencia y Entonación
 
 Instrucciones sobre la aplicación de la fuerza de voz y la curva melódica.
 
