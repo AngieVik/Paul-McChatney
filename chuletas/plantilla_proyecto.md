@@ -23,7 +23,8 @@ description: Plantilla canónica de proyecto. Cópiala para abrir una canción n
 
 ## Esqueleto a copiar
 
-## <slug>
+```text
+# <slug>
 
 ## Titulo Original
 
@@ -54,6 +55,7 @@ El exclude_box exacto usado en la generación final
 ## Lyrics Box
 
 Todo el lyrics_box exacto usado en la generación final
+```
 
 ---
 

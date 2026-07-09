@@ -1,31 +1,92 @@
 ---
 name: buscar-tag
 type: skill
-description: Microservicio agnóstico de extracción RAG para localizar y validar etiquetas sintácticas exactas en la base de datos canónica
+description: Extractor canónico de etiquetas CHUPILISTA. Localiza, valida y entrega tags existentes como referencia fiable para otras skills.
 ---
 
 # buscar-tag
 
 ## 1 · Propósito
 
-Actúa como un microservicio de extracción de datos (RAG). Tu función es localizar, extraer y validar etiquetas sintácticas exactas (`[Tag]`) desde los módulos de conocimiento estáticos en el directorio `chupilista/`[cite: 2], para entregarlas a la skill consumidora manteniendo una postura analítica y neutral.
+Actúa como un extractor canónico de etiquetas.
+
+Tu función es localizar, extraer y validar etiquetas sintácticas exactas [Tag] desde los módulos de conocimiento estáticos del directorio chupilista/, para entregarlas a la skill consumidora como material fiable de referencia.
+
+Tu autoridad se centra en responder:
+
+- qué existe literalmente en la CHUPILISTA;
+- dónde vive;
+- si está sintácticamente bien formado;
+- si existe una coincidencia canónica localizada.
+
+La decisión creativa final pertenece a la skill consumidora.
+
+buscar-tag aporta canon.  
+fusionar aporta diseño conceptual.  
+style-box compila el molde sonoro.  
+lyrics-box dirige estructura, interpretación y comandos musicales.
 
 ## 2 · Parámetros de Entrada
 
 Reconoce e ingiere los siguientes parámetros enviados por la skill consumidora:
 
-- **Concepto Objetivo:** El requerimiento acústico, rítmico, temporal o conceptual buscado (ej. "Percusión distorsionada", "Coro barroco").
-- **Rutas Objetivo (Opcional):** Los archivos `.md` específicos dentro de `chupilista/`[cite: 2] donde se focaliza la búsqueda.
+- **Concepto Objetivo:** requerimiento acústico, rítmico, vocal, temporal, estructural o conceptual buscado.
+    - **Ejemplo:** percusión distorsionada, coro barroco, voz rasgada, drop silencioso.
+- **Rutas Objetivo Opcionales:** archivos .md específicos dentro de chupilista/ donde se focaliza la búsqueda.
+- **Caja Destino Opcional:** contexto de uso esperado: style_box, lyrics_box, exclude_box, mood, production u otro bloque definido por la skill consumidora.
 
 ## 3 · Flujo de Ejecución
 
-1. **Resolución de Índice:** Si la skill consumidora omite las *Rutas Objetivo*, mapea el archivo correcto inspeccionando exclusivamente el índice `.claude/rules/chupilista.md`[cite: 2]. Si se proporcionan las rutas, procede de inmediato al paso dos.
-2. **Extracción Literal:** Lee los archivos destino estipulados y recolecta las etiquetas que representen semánticamente el *Concepto Objetivo*.
-3. **Validación de Sintaxis:** Asegura que cada etiqueta extraída mantenga su formato de origen intacto, verificando la presencia del corchete de apertura `[` y el corchete de cierre `]`.
-4. **Entrega Transaccional:** Transfiere a la skill consumidora una lista en texto plano que contenga exclusivamente los tags exactos y validados, finalizando tu ejecución.
+- **Resolución de Índice:** si la skill consumidora omite las rutas objetivo, consulta .claude/rules/chupilista.md para mapear el concepto al módulo probable de chupilista/.
+    - Carga solo los módulos necesarios.
+    - Abre únicamente los archivos relevantes para la búsqueda.
+    - Trabaja con contexto mínimo y preciso.
 
-## 4 · Lista de Control y Reglas de Integridad
+- **Búsqueda Selectiva:** busca el concepto dentro del módulo elegido mediante raíz, variantes y sinónimos razonables.
+    - **Ejemplo:** para voz rasgada, busca también raspy, gritty, hoarse, distorted vocal, vocal fry, si el módulo lo justifica.
 
-- **Fidelidad Léxica:** Extrae única y exclusivamente las etiquetas que existan de forma literal en los archivos inspeccionados. Si un concepto solicitado carece de representación en la ruta, repórtalo explícitamente a la skill consumidora mediante el mensaje: "Concepto no localizado en la base de datos canónica".
-- **Aislamiento Operativo:** Mantén la salida de datos restringida a los tags puros. Omite explicaciones adicionales, sugerencias de mezcla o análisis teóricos sobre las etiquetas entregadas.
-- **Integridad Estructural:** Entrega las etiquetas siempre con su sintaxis completa y bien formada, garantizando el aislamiento de caracteres (ejemplo de formato de salida correcto: `[Hardtek]`).
+- **Extracción Literal:** extrae únicamente etiquetas que existan literalmente en los archivos inspeccionados.
+    - Mantén la grafía original de cada tag.
+    - Conserva el idioma original.
+    - Entrega las etiquetas tal como aparecen en la fuente.
+
+- **Validación Sintáctica:** verifica que cada etiqueta extraída conserve corchete de apertura, contenido no vacío y corchete de cierre.
+    - Si una línea contiene una etiqueta útil pero mal formada, repórtala como incidencia para revisión.
+
+- **Entrega a la Skill Consumidora:** devuelve las coincidencias útiles en formato compacto.
+    - tag exacta;
+    - archivo de origen;
+    - caja recomendada, si puede inferirse;
+    - nota mínima de uso, solo si ayuda a distinguir entre opciones.
+
+## 4 · Reglas de Integridad
+
+- **Canon, no veto:** si una etiqueta no existe en CHUPILISTA, informa de que no hay coincidencia canónica localizada. La skill consumidora conserva libertad para crear una tag controlada si la intención artística lo justifica.
+- **Autoridad delimitada:** evalúa existencia, origen y sintaxis. La viabilidad artística queda en manos de fusionar, style-box, lyrics-box o la skill consumidora correspondiente.
+- **Extracción pura:** entrega tags existentes. La creación de tags corresponde a las skills creativas.
+- **Fidelidad léxica:** conserva las tags exactamente como aparecen en origen.
+- **Contexto mínimo:** entrega solo lo necesario para que la skill consumidora pueda decidir.
+- **Búsqueda ampliable:** si no hay resultado directo, realiza una segunda búsqueda con sinónimos antes de declarar ausencia canónica.
+
+## 5 · Salida Estándar
+
+- **Cuando haya coincidencias:**
+    [Tag Exacta] · chupilista/NN_archivo.md · caja recomendada · nota mínima de uso
+
+- **Cuando no haya coincidencia:**
+    Concepto no localizado en la base de datos canónica.
+    La skill consumidora puede crear una tag controlada si la intención artística lo justifica.
+
+- **Cuando haya una etiqueta útil pero mal formada:**
+    Incidencia sintáctica localizada: <línea o fragmento>
+    Revisar corchetes antes de entregar como tag validada.
+
+## 6 · Relación con Otras Skills
+
+- fusionar puede proponer conceptos, fusiones o tags creadas.
+- style-box puede combinar tags canónicas extraídas por buscar-tag con tags creadas por fusionar.
+- lyrics-box puede usar tags canónicas, comandos libres, instrucciones de dirección musical y formulaciones no presentes en CHUPILISTA.
+- exclude_box puede normalizar tags canónicas quitando corchetes si el formato final lo requiere.
+
+buscar-tag entrega materia prima canónica fiable.  
+La skill consumidora decide cómo integrarla en la obra.

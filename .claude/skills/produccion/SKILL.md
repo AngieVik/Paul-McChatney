@@ -39,9 +39,9 @@ Ejerce como el Director de Orquesta (Orquestador Central) del Modo Producción. 
 
 ### Fase 3: Estructura y Dirección (Lyrics Box)
 
-- **Acción:** Inyecta las directrices de actuación, estructura de banda y modulaciones sobre la letra previamente aprobada. Define la línea cero de identidad vocal, el `[MOOD]` y la `[PRODUCTION]`.
-- **Delegación:** Parametriza a `buscar-tag` para extraer la sintaxis exacta desde los índices estipulados en `composicion/lyrics_box.md` y `composicion/tecnicas_vocales.md`.
-- **Entregable y STOP:** Presenta el borrador completo del `[Lyrics Box]` integrado. Solicita confirmación.
+- **Acción:** Convierte la letra limpia aprobada en un `lyrics_box` completo. Lee `composicion/lyrics_box.md` para estructura, comandos de banda, hacks temporales, secciones, `[MOOD]` y `[PRODUCTION]`. Lee `composicion/tecnicas_vocales.md` si necesitas fijar identidad vocal, timbre, coros, duetos, armonías, tesitura o dirección interpretativa.
+- **Delegación:** Usa `buscar-tag` solo como extractor canónico cuando necesites tags exactas de CHUPILISTA. No delegues toda la Fase 3 en `buscar-tag`: el `lyrics_box` también admite comandos libres, dirección musical, estructura narrativa y formulaciones no presentes en CHUPILISTA.
+- **Entregable y STOP:** Presenta el borrador completo del `[Lyrics Box]` integrado. Solicita confirmación antes de avanzar.
 
 ### Fase 4: Masterización y Formato Final
 
