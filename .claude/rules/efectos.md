@@ -4,7 +4,7 @@ type: map
 description: Post-producción, espacio estéreo, DSP, texturas, transiciones y SFX.
 ---
 
-- *No se carga con `@`, este índice es el mapa concepto→archivo, abre cada `composicion/<archivo>.md` bajo demanda con la herramienta de lectura, solo el/los que necesites.*
+- *No se carga con `@`, este índice es el mapa concepto→archivo, abre `composicion/efectos.md` bajo demanda con la herramienta de lectura.*
 - **Consulta por búsqueda (grep) o salto por Índice.**
 
 ---
@@ -21,6 +21,6 @@ description: Post-producción, espacio estéreo, DSP, texturas, transiciones y S
 `1.8 · Transiciones, tensión armónica y SFX`
 
 - **Documentos:**
-| Fase | Archivo                                    | Contenido                                           |
-| ---- | ------------------------------------------ | --------------------------------------------------- |
-| 4    | [efectos.md](../../composicion/efectos.md) | **efectos** — DSP, espacio estéreo, texturas y SFX. |
+| Archivo                                    | Contenido                                                                        |
+| ------------------------------------------ | -------------------------------------------------------------------------------- |
+| [efectos.md](../../composicion/efectos.md) | **efectos** Post-producción: espacio estéreo, DSP, texturas, transiciones y SFX. |

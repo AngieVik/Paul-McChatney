@@ -91,32 +91,3 @@ Porque en este maldito escenario... el amo del ruido... soy yo
 
 [Fade Out, single high piano note, heavy sustain]
 [End]
-
----
-
-## Retrospectiva
-
-**Fecha de producción:** 2026-06-20
-**Mejor versión:** —
-
-### Qué funcionó
-
-- `[Instrumental Drop]` + descripción explícita del instrumento líder en lugar de `[Solo]` → evita que se interprete "solo" como soledad y vacíe la sección.
-- `[Sudden Silence]` como punto de tensión máxima antes del Drop — contraste muy efectivo.
-- Persona del barítono operístico de 45 años con arco emocional definido (íntimo → agresivo) da coherencia vocal.
-
-### Qué ajustar la próxima vez (en positivo)
-
-- Pendiente de probar.
-
-### Tags destacados de esta producción
-
-- `SPANISH SYMPHONIC RAWSTYLE HARDCORE` — género de fusión original
-- `virtuosic bright tack piano lead` — descripción de timbre específico en style_box
-- `[Instrumental Drop, ... tack piano takes the lead melody]` — solución al problema del [Solo]
-- `[Dueling keyboards battle]` — sección de cierre con tensión instrumental
-
-### Nota para futuras canciones similares
-
-- En géneros hardcore\rawstyle, describir el kick explícitamente ("distorted piep kicks") marca diferencia de timbre
-- El personaje-villano (arrogante, teatral) aguanta bien un arco largo de 8 secciones sin perder coherencia

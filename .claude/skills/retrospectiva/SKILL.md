@@ -1,12 +1,12 @@
 ---
 name: retrospectiva
 type: skill
-description: Cierra el ciclo de aprendizaje tras una obra validada y propone qué memoria actualizar
+description: Cierra el ciclo de aprendizaje tras una obra aprobada y propone qué memoria actualizar
 ---
 
 # retrospectiva
 
-- Aplica el protocolo de `conocimientos/retrospectiva.md` solo después de que el usuario valide una obra.
+- Aplica el protocolo de `conocimientos/retrospectiva.md` solo después de que el usuario apruebe una obra.
 
 ## Cuándo se activa
 

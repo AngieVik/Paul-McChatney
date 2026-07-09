@@ -14,14 +14,14 @@ description: Genera la guia para fonetización en español de [], sigue la plant
 
 ---
 
-## 1 · Perfil Fonético General
+## Perfil Fonético General
 
 Una introducción al "carácter" del idioma para establecer la postura articulatoria del lector.
 
 - **Descripción:** [Ritmo, tono base y posición de la lengua\boca].
 - **Rasgo Distintivo:** [Ej. "Lenguaje no rótico, las 'r' finales se vocalizan"].
 
-## 2 · Mapeo de Vocales (Reducción al Español)
+## Mapeo de Vocales (Reducción al Español)
 
 Adaptación del sistema vocálico complejo del idioma origen a las 5 vocales puras del español.
 
@@ -32,7 +32,7 @@ Adaptación del sistema vocálico complejo del idioma origen a las 5 vocales pur
 
 - **Diptongos clave:** [Explicación de las uniones vocálicas más comunes, ej. "ay" → 'éi'].
 
-## 3 · Mapeo de Consonantes y Sonidos Inexistentes
+## Mapeo de Consonantes y Sonidos Inexistentes
 
 Cómo representar fonemas que no existen en el español usando nuestras grafías.
 
@@ -51,14 +51,14 @@ Instrucciones sobre la aplicación de la fuerza de voz y la curva melódica.
 - **Curva de Entonación:** [Ej. "Al final de oraciones afirmativas, el tono desciende bruscamente"].
 - **Uso de la tilde obligatoria:** Toda palabra fonetizada de más de una sílaba debe llevar explícitamente escrita la tilde en la sílaba tónica.
 
-## 5 · Excepciones y "Falsos Amigos" Fonéticos
+## Excepciones y "Falsos Amigos" Fonéticos
 
 Advertencias sobre combinaciones de letras que inducen al error por lectura literal.
 
 - **[Falso Amigo 1]:** [Ej. "La letra 'h' suele ser aspirada, no muda"].
 - **[Falso Amigo 2]:** [Ej. "La terminación '-tion' nunca se lee literal, se convierte en '-shon'"].
 
-## 6 · Casos Prácticos de Aplicación (Lectura Directa)
+## Casos Prácticos de Aplicación (Lectura Directa)
 
 Disección de palabras clave aplicando las reglas anteriores.
 
@@ -68,25 +68,25 @@ Disección de palabras clave aplicando las reglas anteriores.
 
 ---
 
-## 7 · Interferencia Fonética (Simulación de Acento)
+## Interferencia Fonética (Simulación de Acento)
 
 Definición de cómo los hablantes nativos de este idioma distorsionan los fonemas del español (Lectura inversa).
 
-### 7.1 · Distorsión Vocálica (Diptongación Forzada)
+### Distorsión Vocálica (Diptongación Forzada)
 
 - **Patrón de transformación:** [Ej. "Las vocales 'e' y 'o' finales se diptongan en 'éi' y 'óu'"].
 - **Reducción a Schwa:** [Ej. "Las vocales átonas se relajan hasta casi desaparecer"].
 
-### 7.2 · Sustitución Consonántica y Aspiración
+### Sustitución Consonántica y Aspiración
 
 - **[Fenómeno 1]:** [Ej. "Incapacidad de vibración múltiple en la 'rr', sustituida por aproximante alveolar"].
 - **[Fenómeno 2]:** [Ej. "Aspiración fuerte (exhalación) en las sílabas iniciadas por 'p', 't', 'k'"].
 
-### 7.3 · Alteración Rítmica
+### Alteración Rítmica
 
 - **Cadencia:** [Ej. "Transformación del ritmo silábico plano del español a un ritmo acentual rebotado"].
 
-### 7.4 · Casos Prácticos de Aplicación (Lectura Extranjerizada)
+### Casos Prácticos de Aplicación (Lectura Extranjerizada)
 
 - **Palabra Española:** `[Original]`
     - *Desglose de Interferencia:* [Explicación de las distorsiones aplicadas].

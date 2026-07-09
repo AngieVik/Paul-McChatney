@@ -4,7 +4,7 @@ type: map
 description: Construcción del style_box: Tags, Fusión y frecuencias, Dinámicas rítmicas y estructurales, Colisión tímbrica.
 ---
 
-- *No se carga con `@`, este índice es el mapa concepto→archivo, abre cada `composicion/<archivo>.md` bajo demanda con la herramienta de lectura, solo el/los que necesites.*
+- *No se carga con `@`, este índice es el mapa concepto→archivo, abre `composicion/style_box.md` bajo demanda con la herramienta de lectura.*
 - **Consulta por búsqueda (grep) o salto por Índice.**
 
 - **Índice:**
@@ -30,6 +30,6 @@ description: Construcción del style_box: Tags, Fusión y frecuencias, Dinámica
 ---
 
 - **Documentos:**
-| Archivo                                        | Contenido                                                             |
-| ---------------------------------------------- | --------------------------------------------------------------------- |
-| [style_box.md](../../composicion/style_box.md) | **style_box** — Construcción del molde sónico y colisión de opuestos. |
+| Archivo                                        | Contenido                                                                                                                                        |
+| ---------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [style_box.md](../../composicion/style_box.md) | **style_box** Construcción del style_box: Tag Anchoring, anclaje temporal y colisión de opuestos (fusión lingüístico-tonal, rítmica y tímbrica). |

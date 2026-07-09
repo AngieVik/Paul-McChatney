@@ -1,10 +1,10 @@
 ---
 name: lyrics_box
 type: map
-description: Tags del lyrics_box (Fase 3): control por corchetes, dirección de banda, estructura y hacks temporales.
+description: Tags del lyrics_box: control por corchetes, dirección de banda, estructura y hacks temporales.
 ---
 
-- *No se carga con `@`, este índice es el mapa concepto→archivo, abre cada `composicion/<archivo>.md` bajo demanda con la herramienta de lectura, solo el/los que necesites.*
+- *No se carga con `@`, este índice es el mapa concepto→archivo, abre `composicion/lyrics_box.md` bajo demanda con la herramienta de lectura.*
 - **Consulta por búsqueda (grep) o salto por Índice.**
 
 ---
@@ -29,6 +29,6 @@ description: Tags del lyrics_box (Fase 3): control por corchetes, dirección de 
 ---
 
 - **Documentos:**
-| Archivo                                          | Contenido                                                          |
-| ------------------------------------------------ | ------------------------------------------------------------------ |
-| [lyrics_box.md](../../composicion/lyrics_box.md) | **lyrics_box (Fase 3)** — Tags de estructura y dirección de banda. |
+| Archivo                                          | Contenido                                                                                                     |
+| ------------------------------------------------ | ------------------------------------------------------------------------------------------------------------- |
+| [lyrics_box.md](../../composicion/lyrics_box.md) | **lyrics_box** Tags del lyrics_box: control por corchetes, dirección de banda, estructura y hacks temporales. |

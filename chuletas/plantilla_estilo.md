@@ -25,7 +25,7 @@ description: Guía de estilo Markdown para escribir archivos del proyecto sin pe
 
 ---
 
-## 1 · Reglas duras (el linter las exige)
+## Reglas duras (el linter las exige)
 
 - *Estas son las reglas activas de tu `markdownlint.config`. Romperlas = subrayado amarillo o autocorrección al guardar.*
 
@@ -47,7 +47,7 @@ description: Guía de estilo Markdown para escribir archivos del proyecto sin pe
 
 - *Apagadas a tu favor* (puedes usarlas sin miedo):
     - `MD013`: sin límite de longitud de línea (escribe párrafos largos).
-    - `MD009`: se permiten espacios finales (los dos espacios para salto de línea real sobreviven).
+    - `MD009`: se permiten espacios finales si son dos espacios para salto de línea real.
     - `MD012`: se permiten varias líneas en blanco seguidas.
     - `MD033`: se permite HTML crudo.
     - `MD034`: se permiten URLs sin `<>`.
@@ -55,7 +55,7 @@ description: Guía de estilo Markdown para escribir archivos del proyecto sin pe
 
 ---
 
-## 2 · Encabezados
+## Encabezados
 
 - *Un solo `# H1` por archivo* (el título = el nombre del archivo o el slug).
 - *Baja de nivel sin saltos:* `#` a `##` a `###`. Nunca de `#` a `###`.
@@ -64,7 +64,7 @@ description: Guía de estilo Markdown para escribir archivos del proyecto sin pe
 ```markdown
 párrafo anterior.
 
-## 2 · Título de sección
+## Título de sección
 
 Contenido de la sección.
 ```
@@ -73,7 +73,7 @@ Contenido de la sección.
 
 ---
 
-## 3 · Índices de sección
+## Índices de sección
 
 - *Convención de la casa:* el índice va como líneas sueltas envueltas en comillas invertidas, con `·` (punto medio) separando número y título.
 
@@ -85,12 +85,12 @@ Contenido de la sección.
     `2.1 · Subapartado`
 ```
 
-- *Las subsecciones se indentan 2 espacios* bajo su sección padre, igual que una sublista.
+- *Las subsecciones se indentan 4 espacios* bajo su sección padre, igual que una sublista.
 - *El índice debe reflejar exactamente los encabezados* `## N · …` y `### N.N · …` del cuerpo. Si renombras una sección, actualiza el índice.
 
 ---
 
-## 4 · Listas (cuándo numerada, cuándo viñeta)
+## Listas (cuándo numerada, cuándo viñeta)
 
 - *Viñeta (`-`):* para enumerar cosas sin orden ni jerarquía: opciones, características, ejemplos sueltos. Es la lista por defecto del proyecto.
 - *Numerada (`1.` `2.` `3.`):* solo cuando el orden importa: pasos de un proceso, fases, prioridad, o una secuencia que se sigue de arriba abajo.
@@ -120,15 +120,14 @@ Elementos sueltos:
 
 - **Negrita `**...**`:** para tags de campo (`**Ejemplo:**`, `**Regla:**`), términos clave la primera vez que aparecen y avisos críticos. Es señalización, no decoración.
 - *Cursiva `*...*`:* para líneas descriptivas o meta (glosas, notas de una sección, aclaraciones) y énfasis suave. En la casa, la línea de intención bajo un encabezado va en cursiva: `- *De qué va esta sección.*`
-- *Indicador de cursiva:* asterisco simple `*` (tu config lo fuerza), nunca guion bajo.
-- *Sin espacios dentro de los marcadores:* `**negrita**`, no con espacios interiores.
+- *Indicador de cursiva:* asterisco simple `*`.
 - *Contención:* no acumules negritas ni subrayes medio párrafo. Si todo destaca, nada destaca.
 
 ---
 
 ## 6 · Código, tags y ejemplos
 
-- *Tags y nombres de archivo en línea con comillas invertidas, sin espacios interiores:* `` `[Chorus]` ``, `` `style_box` ``, `` `composicion/letra.md` ``.
+- *Tags y nombres de archivo en línea con comillas invertidas:* `` `[Chorus]` ``, `` `style_box` ``, `` `composicion/letra.md` ``.
 - *Bloques de código siempre cercados y con lenguaje* (`MD040` + `MD046`):
 
 ```text
@@ -144,18 +143,18 @@ Elementos sueltos:
 
 ## 7 · Saltos de línea y espaciado
 
-- *Fin de línea LF.* Tu config lo estandariza; no metas CRLF.
-- *Separación de párrafos:* una línea en blanco entre bloques. Es la forma preferida.
-- *Salto de línea real dentro de un párrafo:* dos espacios al final de la línea (permitido porque `MD009` y `trimTrailingWhitespace` están desactivados en markdown). Úsalo solo cuando lo necesites de verdad.
-- *Sin tabuladores:* solo espacios (indentación de 2).
-- *Fin de archivo:* una única línea en blanco final (tu `insertFinalNewline` + `trimFinalNewlines` lo garantizan). No dejes varias líneas vacías al cierre.
+- *Fin de línea LF.*
+- *Separación de párrafos:* una línea en blanco entre bloques.
+- *Salto de línea real dentro de un párrafo:* dos espacios al final de la línea.
+- *Sin tabuladores:* solo espacios (indentación de 4).
+- *Fin de archivo:* una única línea en blanco final (tu `insertFinalNewline` + `trimFinalNewlines` lo garantizan).
 - *Separadores `---`:* úsalos para partir grandes bloques (cabecera, índice, cuerpo), rodeados de línea en blanco.
 
 ---
 
 ## 8 · Tablas
 
-- *Markdown All in One realinea las tablas al guardar:* escribe la estructura correcta y deja que el formateador cuadre el ancho; no alinees a mano.
+- *Markdown All in One realinea las tablas al guardar:* escribe la estructura correcta y deja que el formateador cuadre el ancho.
 - *Toda tabla necesita fila de cabecera y fila separadora* `| --- | --- |`.
 
 ```markdown
@@ -174,7 +173,7 @@ Elementos sueltos:
 - *Enlaces relativos entre archivos del proyecto:* `[letra.md](../composicion/letra.md)`.
 - *URLs sueltas permitidas* (`MD034` off), pero para texto limpio prefiere `[texto](url)`.
 - *HTML permitido* (`MD033` off) solo si Markdown no llega; por defecto, evítalo.
-- *Al mover un archivo, VS Code corrige los enlaces internos* (`updateLinksOnFileMove`), pero revisa que no quede ninguno roto.
+- *Al mover un archivo, VS Code corrige los enlaces internos* (`updateLinksOnFileMove`), revisa que no quede ninguno roto.
 
 ---
 
@@ -186,16 +185,16 @@ Elementos sueltos:
     - *Recordatorio de consulta** en las hojas de conocimiento: `*Recordatorio: consulta por búsqueda (grep) o salto por sección.*`
     - *Secciones* `## N · Título`, *subsecciones* `### N.N · Título`, con `·` de separación.
     - *Tags de campo* en negrita con dos puntos: `**Ejemplo:**`, `**Regla:**`, `**Sintaxis:**`.
-    - *Tags de Suno* siempre entre `backticks`.
+    - *Tags* siempre entre backticks y corchetes `[ejemplo]`.
     - *Separadores `---`* entre cabecera, índice y cuerpo.
     - [Corchete]: "Esto es una tag". Le dice a la máquina que lo que hay dentro es una categoría o un ajuste, no texto normal.
-    - **Negrita**: "¡Orden absoluta!". Indica que esa instrucción es crítica, de prioridad máxima e innegociable.
-    - *Cursiva*: "Fíjate un poco aquí". Un subrayado ligero para darle un poco más de peso a esa palabra.
-    - "Comillas": "Literalmente esto". Obliga a usar exactamente lo escrito, letra por letra, sin interpretaciones.
-    - `Backtick`: "No lo toques, es código". Avisa de que la palabra es técnica y no debe analizarse como lenguaje natural.
-    - <Nombre>: "Hueco a rellenar" o "Caja de texto". Marca dónde irá un dato futuro o envuelve un bloque de reglas.
-    - {Nombre}: "Paquete de datos". Agrupa información emparejada (como una ficha) para no mezclarla.
-    - ^Nombre^: "Posición exacta". Fija el inicio de un texto al milímetro o marca un superíndice matemático.
+    - **Negrita**: Indica que esa instrucción es crítica, de prioridad máxima e innegociable.
+    - *Cursiva*: Un subrayado ligero para darle un poco más de peso a esa palabra.
+    - "Comillas": Obliga a usar exactamente lo escrito, letra por letra, sin interpretaciones.
+    - `Backtick`: Avisa de que la palabra es técnica y no debe analizarse como lenguaje natural.
+    - <Nombre>: Marca dónde irá un dato futuro o envuelve un bloque de reglas.
+    - {Nombre}: Agrupa información emparejada (como una ficha) para no mezclarla.
+    - ^Nombre^: Fija el inicio de un texto al milímetro o marca un superíndice matemático.
 
 ---
 
@@ -203,9 +202,9 @@ Elementos sueltos:
 
 1. Un solo `# H1`; jerarquía sin saltos (`#` a `##` a `###`).
 2. Línea en blanco antes y después de cada encabezado, lista y bloque de código.
-3. Viñetas con `-`; sublistas a 2 espacios; numeradas correlativas.
-4. Negrita `**...**`, cursiva `*...*`; sin espacios dentro de los marcadores.
+3. Viñetas con `-`; sublistas a 4 espacios; numeradas correlativas.
+4. Negrita `**...**`, cursiva `*...*`.
 5. Bloques de código cercados y con lenguaje.
 6. Índice alineado con los encabezados reales.
-7. Tablas con cabecera y separadora (deja que el formateador las cuadre).
-8. LF, indentación de 2 espacios, una única línea en blanco al final.
+7. Tablas con cabecera y separador.
+8. LF, indentación de 4 espacios, una única línea en blanco al final.

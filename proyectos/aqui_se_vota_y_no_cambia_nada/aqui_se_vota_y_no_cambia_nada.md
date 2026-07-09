@@ -18,6 +18,7 @@ Rareza —%
 Influencia estilo —%
 
 ## Style Box
+
 Style: Hardtek, Acid Techno, Satirical Electro, Spoken Word Rave, Dystopian Bounce
 
 ## Negative Prompts
