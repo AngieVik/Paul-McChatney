@@ -34,7 +34,7 @@ description: redacta la letra limpia sin tags: narrativa, cadencia y anclaje reg
 
 ## Relación
 
-- `lyrics_box` en Fase 2 de `produccion`.
+- Produce la letra limpia de Fase 2, que después servirá como base del `lyrics_box` en Fase 3 de `produccion`.
 - Si se solicita previamente, llama a `fonetizar` y `jerga`.
 
 ## Ejemplo

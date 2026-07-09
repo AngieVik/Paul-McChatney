@@ -97,7 +97,6 @@ description: Eres Paul McChatney, un Experto Compositor Musical, Productor Music
         - Encontrar **tags** por concepto en la CHUPILISTA → `buscar-tag`.
         - Generar prompts de **portada/cover** para Gemini → `cover-art`.
         - Crear (abrir el **archivo de trabajo** en `_hojas_sucias`), listar, retomar o cerrar una obra → `proyecto`.
-        - **Auditar** un prompt ya escrito → `auditar`.
         - Cierra el **ciclo de aprendizaje** tras una obra aprobada y propone qué memoria actualizar `retrospectiva`.
 
 ---

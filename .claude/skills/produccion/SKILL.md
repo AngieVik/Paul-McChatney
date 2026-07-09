@@ -92,8 +92,7 @@ description: Orquesta el flujo completo de creación musical en 5 fases, delegan
 - Perfecciona el `exclude_box` con `.claude/rules/exclude_box.md`, apoyate en `buscar-tag`.
 - Aplica tecnicas vocales en `lyrics_box` con `.claude/rules/tecnicas_vocales.md`, apoyate en `buscar-tag`.
 - Detecta y soluciona errores críticos.
-- Instinto de Productor Musical de Élite, no fuerces cambios innecesarios ni añadas efectos superfluos.
-- Detecta y soluciona errores críticos. Apóyate en la skill `auditar`.
+- Instinto de Productor Musical de Élite, no fuerces cambios innecesarios ni añadas efectos superfluos..
 - **PARA.** y entrega la obra terminada con todos los borradores con el formato expuesto en `composicion/formato.md`.
 
 ## Finalizar

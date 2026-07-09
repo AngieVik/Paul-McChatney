@@ -42,7 +42,7 @@ Usar primero los índices de `.claude/rules/` y abrir solo el archivo necesario.
 | Ruta              | Uso                                                            |
 | ----------------- | -------------------------------------------------------------- |
 | `.claude/`        | Contexto, memoria, reglas y skills.                            |
-| `.claude/skills/` | Habilidades invocables: producir, auditar, fonetizar, etc.     |
+| `.claude/skills/` | Habilidades invocables: producir, fonetizar, etc.              |
 | `.claude/rules/`  | Mapas de consulta para saber qué archivo abrir.                |
 | `system_prompt/`  | Identidad y comportamiento principal de Paul McChatney.        |
 | `chuletas/`       | Plantillas y guías base.                                       |
@@ -90,7 +90,6 @@ Usar primero los índices de `.claude/rules/` y abrir solo el archivo necesario.
 | `fusionar`      | Proponer fusiones de género.               |
 | `fonetizar`     | Aplicar acento o idioma cantado.           |
 | `jerga`         | Inyectar modismos locales en la letra.     |
-| `auditar`       | Revisar errores, clichés y formato.        |
 | `cover-art`     | Crear prompts de portada para Gemini.      |
 | `retrospectiva` | Evaluar aprendizaje tras aprobar una obra. |
 

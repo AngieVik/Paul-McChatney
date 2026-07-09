@@ -28,7 +28,7 @@ description: Contexto de carga, reglas de lectura y mapa principal del proyecto 
 - *Bajo demanda, abrir con la herramienta de lectura, NUNCA con `@`.*
     - **Regla de carga:** `@ruta` = se importa SIEMPRE al contexto `carga ansiosa`. Se reserva arriba para el núcleo de comportamiento `system_prompt` + `MEMORY`, que es pequeño.
     - **Material pesado/opcional:** Todo lo de abajo va **sin `@`**: se abre con la herramienta de lectura, un archivo cada vez y solo el que pida la obra. Importarlo todo saturará el contexto.
-    - **Los índices:** Los índices de `.claude/rules/` deben consultarse primero, una vez cargados, son el `mapa concepto→archivo`. Consúltalos primero para saber QUÉ abrir, luego abre solo ese archivo.
+    - **Los índices:** Consulta primero los índices de `.claude/rules/` como `mapa concepto→archivo`. Usa el índice adecuado para saber QUÉ abrir y después abre solo ese archivo concreto.
 
 | Necesito…                                                                                   | Índice                              | Abro bajo demanda                                                      |
 | ------------------------------------------------------------------------------------------- | ----------------------------------- | ---------------------------------------------------------------------- |
