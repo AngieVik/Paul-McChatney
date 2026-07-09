@@ -60,7 +60,7 @@ description: Control semántico, mapeo operativo del lyrics_box, gramática téc
     - **Ejemplo:** `[Band: slightly behind the beat, never tight]`, `[Verse: restrained, talk-sung]`, `[Chorus: louder, sloppier, controlled unraveling]`.
     - **Voz (entrega por línea):** vive en `tecnicas_vocales.md §2.4–§2.5` (susurros, gritos, timbre, técnica). Aquí solo diriges a la **banda/conjunto**.
     - **Ejemplo (Ensemble):** Añade imperfección humana al groove con tags tipo: `[loose]`, `[ragged]`, `[slightly behind the beat]` o `[never tight]`.
-- **Usa corchetes y aisla conceptos diferentes colocandolos en columna, dirigie a la banda separando las capas conceptualmente en lugar de mezclar todo en una sola línea.*
+- **Usa corchetes y aisla conceptos** diferentes colocandolos en columna, dirigie a la banda separando las capas conceptualmente en lugar de mezclar todo en una sola línea.
     - **Ejemplo:**
     `[comandos de actuacion]`
     `[comandos de actuacion]`

@@ -24,7 +24,7 @@ description: Cierra el ciclo de aprendizaje tras una obra aprobada y propone qu�
 
 ## Entra → Sale
 
-- **Entra:*  
+- **Entra:**  
     Obra aprobada.
 - **Sale:**  
     Principio transversal de composición → `.claude/MEMORY.md` y/o Técnica o tag concreto** → su archivo de `composicion/`. Siempre en positivo/accionable.  

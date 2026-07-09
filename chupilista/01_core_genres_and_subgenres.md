@@ -1080,8 +1080,8 @@
 [Romantic]
 [Russian Afrikaner Folk]
 [Russian Ambient Techno]
-[Russian Appalachian Folk
-[Russian Balalaika Strike
+[Russian Appalachian Folk]
+[Russian Balalaika Strike]
 [Russian Celtic]
 [Russian Cumbia]
 [Russian Dubstep]

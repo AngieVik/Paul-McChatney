@@ -28,14 +28,20 @@ description: Contexto de carga, reglas de lectura y mapa principal del proyecto 
 - *Bajo demanda, abrir con la herramienta de lectura, NUNCA con `@`.*
     - **Regla de carga:** `@ruta` = se importa SIEMPRE al contexto `carga ansiosa`. Se reserva arriba para el núcleo de comportamiento `system_prompt` + `MEMORY`, que es pequeño.
     - **Material pesado/opcional:** Todo lo de abajo va **sin `@`**: se abre con la herramienta de lectura, un archivo cada vez y solo el que pida la obra. Importarlo todo saturará el contexto.
-    - **Los índices:** `.claude/rules/` ya están cargados, son el `mapa concepto→archivo`. Consúltalos primero para saber QUÉ abrir, luego abre solo ese archivo.
+    - **Los índices:** Los índices de `.claude/rules/` deben consultarse primero, una vez cargados, son el `mapa concepto→archivo`. Consúltalos primero para saber QUÉ abrir, luego abre solo ese archivo.
 
-| Necesito…                                                                                   | Índice                            | Abro bajo demanda                                                      |
-| ------------------------------------------------------------------------------------------- | --------------------------------- | ---------------------------------------------------------------------- |
-| Tags                                                                                        | `.claude/rules/chupilista.md`     | `chupilista/NN_*.md`, solo el/los módulos necesarios.                  |
-| `style_box`, `letra`, `lyrics_box`, `tecnicas_vocales`, `efectos`, `exclude_box`, `formato` | `.claude/rules/composicion.md`    | `composicion/<archivo>.md`, solo el de la fase.                        |
-| Acento o idioma cantado                                                                     | `.claude/rules/fonetizaciones.md` | `fonetizaciones/<acento>.md`, solo el que se pida.                     |
-| Jerga regional                                                                              | `.claude/rules/jerga.md`          | `jerga/<archivo>.md`, solo el que se pida.                             |
-| Retrospectiva                                                                               | `.claude/rules/retrospectiva.md`  | `conocimientos/retrospectiva.md`.                                      |
-| Plantillas                                                                                  | —                                 | `chuletas/<plantilla>.md` (proyecto, hoja sucia, fonetización, jerga). |
-| Obra terminada de referencia                                                                | `PROYECTOS.md`                    | `proyectos/<slug>/<slug>.md`.                                          |
+| Necesito…                                                                                   | Índice                              | Abro bajo demanda                                                      |
+| ------------------------------------------------------------------------------------------- | ----------------------------------- | ---------------------------------------------------------------------- |
+| Tags                                                                                        | `.claude/rules/chupilista.md`       | `chupilista/NN_*.md`, solo el/los módulos necesarios.                  |
+| `style_box`, `letra`, `lyrics_box`, `tecnicas_vocales`, `efectos`, `exclude_box`, `formato` | `.claude/rules/composicion.md`      | `composicion/<archivo>.md`, solo el de la fase.                        |
+|                                                                                             | .claude/rules/efectos.md            |                                                                        |
+|                                                                                             | .claude/rules/exclude_box.md        |                                                                        |
+| Acento o idioma cantado                                                                     | `.claude/rules/fonetizaciones.md`   | `fonetizaciones/<acento>.md`, solo el que se pida.                     |
+|                                                                                             | .claude/rules/jerga.md              |                                                                        |
+|                                                                                             | .claude/rules/letra.md              |                                                                        |
+| Jerga regional                                                                              | `.claude/rules/lyrics_box.md`       | `jerga/<archivo>.md`, solo el que se pida.                             |
+|                                                                                             | `.claude/rules/retrospectiva.md`    |                                                                        |
+|                                                                                             | `.claude/rules/style_box.md`        |                                                                        |
+|                                                                                             | `.claude/rules/tecnicas_vocales.md` |                                                                        |
+| Plantillas                                                                                  | —                                   | `chuletas/<plantilla>.md` (proyecto, hoja sucia, fonetización, jerga). |
+| Obra terminada de referencia                                                                | `PROYECTOS.md`                      | `proyectos/<slug>/<slug>.md`.                                          |

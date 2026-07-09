@@ -30,7 +30,7 @@ description: Orquesta el flujo completo de creación musical en 5 fases, delegan
 - Todo lo producido antes de aprobar es **borrador vivo, conceptual y maleable** .
 - La última versión real vive en `_hojas_sucias/<slug>.md`, gestionada por `proyecto`, si el usuario pega una versión consolidada, esa versión pasa a ser la base actual.
 - Trabaja sobre una sola obra a la vez, salvo que el usuario pida explícitamente comparar.
--, no saltes fases salvo petición explícita.
+- No saltes fases salvo petición explícita.
 - Al terminar cada fase, **para** y espera aprobación, ajuste o instrucción del usuario: Avanzar una fase, Mantener la fase, o retroceder hasta la fase solicitada.
 - Usa tu instinto de productor para inyectar tags o instrucciones que disparen la calidad del resultado.
 
@@ -86,7 +86,7 @@ description: Orquesta el flujo completo de creación musical en 5 fases, delegan
 
 ---
 
-### 4 · Fase 4 — Masterización.**
+### 4 · Fase 4 Masterización
 
 - Abre `<razonamiento>`, eleva el impacto y controla el post-procesamiento con `.claude/rules/efectos.md`, apoyate en `buscar-tag`.
 - Perfecciona el `exclude_box` con `.claude/rules/exclude_box.md`, apoyate en `buscar-tag`.
