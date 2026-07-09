@@ -17,7 +17,7 @@ ENERGÍA INFINITA CON UN AMBIENTADOR DEL MERCADONA Y UNA PAPA
 Rareza —%
 Influencia estilo —%
 
-## Style Box
+## style_box
 Acid Techno, Lo-Fi Powercore, Experimental Rave, Electro Absurdism, Spoken DIY Tech
 
 ## Negative Prompts

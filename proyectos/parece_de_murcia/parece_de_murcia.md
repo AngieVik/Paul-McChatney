@@ -17,7 +17,7 @@ Parece de Murcia
 Rareza —%
 Influencia estilo —%
 
-## Style Box
+## style_box
 Spanish alt rock song, female vocals, distorted guitars, gritty bass, urban vibe, intense rhythm,  outro is a poetic spoken-word rap
 
 ## Negative Prompts

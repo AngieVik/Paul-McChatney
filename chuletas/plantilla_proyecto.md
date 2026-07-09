@@ -11,7 +11,7 @@ description: Plantilla canónica de proyecto. Cópiala para abrir una canción n
 - **Nombre de archivo = slug** en `snake_case`, sin acentos ni eñes, sin espacios. Ej.: `La Virgen Tapiada` → `la_virgen_tapiada.md`.
 - **El `# H1` del archivo = el slug** (no el título bonito; ese va en *Titulo Original*).
 - **Titulo Original:** texto humano, libre de slug. Si es cover o reinterpreta una obra conocida, indícalo: `<Título nuevo> (<obra original>)` o `(Cover)`.
-- **Style Box:** se pega **exactamente** como se aprueba.
+- **style_box:** se pega **exactamente** como se aprueba.
 - **Lyrics Box:** copia íntegra y lista para producción.
 - **Negative Prompts:** una sola línea, separado por comas, sin corchetes.
 - **Masterizado:** opcional. Solo cuando tengas la pista masterizada, marca el checkbox `**Masterizado**`
@@ -39,7 +39,7 @@ La fecha de la generación de la obra final
 [ ] No Masterizado
 [X] Masterizado
 
-## Style Box
+## style_box
 
 El style_box exacto usado en la generación final
 
@@ -64,17 +64,17 @@ Todo el lyrics_box exacto usado en la generación final
 Usa **rutas relativas a la raíz del proyecto**. No uses rutas absolutas del sistema ni `C:/...`. Distingue las dos semánticas de carga:
 
 - **`@ruta` = se carga SIEMPRE en contexto** (carga ansiosa). Resérvalo en `CLAUDE.md` para el núcleo de comportamiento (`system_prompt/` + `MEMORY.md`), que es pequeño.
-- **Ruta sin `@` = se abre bajo demanda** con la herramienta de lectura, solo cuando la obra lo pide. Es lo correcto para CHUPILISTA, fonetizaciones, conocimientos y proyectos.
+- **Ruta sin `@` = se abre bajo demanda** con la herramienta de lectura, solo cuando la obra lo pide. Es lo correcto para CHUPILISTA, fonetizar, conocimientos y proyectos.
 
 | Quiero referenciar…                       | Escribo (bajo demanda, sin `@`)                    |
 | ----------------------------------------- | -------------------------------------------------- |
 | Un módulo de la CHUPILISTA                | `chupilista/01_core_genres_and_subgenres.md`       |
-| Una fonetización                          | `fonetizaciones/es_andaluz.md`                     |
+| Una fonetización                          | `fonetizar/es_andaluz.md`                          |
 | Un conocimiento técnico                   | `composicion/tecnicas_vocales.md`                  |
 | Una jerga                                 | `jerga/argot_canario.md`                           |
 | Un proyecto                               | `proyectos/60_granos/60_granos.md`                 |
 | ⚠️ Carpeta entera con `@` (`@chupilista/`) | **EVITAR:** cargaría ~13.000 líneas en cada sesión |
 
-- En **texto/markdown de lectura** (tablas, notas) usa enlaces relativos normales: `[andaluz](../fonetizaciones/andaluz.md)`.
+- En **texto/markdown de lectura** (tablas, notas) usa enlaces relativos normales: `[andaluz](../fonetizar/andaluz.md)`.
 - En **CLAUDE.md** reserva `@` solo para el núcleo; todo lo bajo demanda, ruta plana y lectura selectiva.
 - Enlaza memorias y aprendizajes cruzados apuntando a `@.claude/MEMORY.md` y a la retrospectiva del proyecto concreto.

@@ -17,7 +17,7 @@ Megane Punk
 Rareza —%
 Influencia estilo —%
 
-## Style Box
+## style_box
 [Style: Hardcore punk metal, funky distorted bass, chaotic screaming, cartoonish clean breaks, riot pogo energy, dirty street humor]
 
 ## Negative Prompts

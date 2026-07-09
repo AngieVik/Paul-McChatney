@@ -17,7 +17,7 @@
 Rareza —%
 Influencia estilo —%
 
-## Style Box
+## style_box
 
 Style: Hardtek, Acid Techno, Satirical Electro, Spoken Word Rave, Dystopian Bounce
 
@@ -25,6 +25,7 @@ Style: Hardtek, Acid Techno, Satirical Electro, Spoken Word Rave, Dystopian Boun
 
 ## Lyrics Box
 
+```text
 [Production: Industrial Tekno, Acid Synths, Distorted Bass, Loop Glitch FX, Satirical Drops]
 [Essence: Sarcastic, Hyperreal, Frustrated, Party-Coated, Angry-Underneath]
 
@@ -78,3 +79,4 @@ País de memes y misterio
 El futuro con luces de feria
 ¡No es ironía, bro!
 Nos gobierna la miseria
+```

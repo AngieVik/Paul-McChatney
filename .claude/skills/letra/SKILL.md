@@ -1,10 +1,10 @@
 ---
-name: lirica
+name: letra
 type: skill
 description: redacta la letra limpia sin tags: narrativa, cadencia y anclaje regional.
 ---
 
-# lirica
+# letra
 
 - Escribe **solo la letra limpia** calidad poética y narrativa, sin corchetes ni tags. El esqueleto cantable.
 

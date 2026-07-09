@@ -17,7 +17,7 @@
 Rareza —%
 Influencia estilo —%
 
-## Style Box
+## style_box
 Hardtek, Acid Techno, Hustlecore, Barrio Banger, Satirical Rave Trap
 
 ## Negative Prompts

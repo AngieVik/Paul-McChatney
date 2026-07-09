@@ -17,7 +17,7 @@ Jimmy al rescate
 Rareza —%
 Influencia estilo —%
 
-## Style Box
+## style_box
 "Riffs de guitarra potentes, batería enérgica, voz rasgada con actitud, estribillo pegajoso y solo de guitarra explosivo." Hard Rock, Clasic Rock, Arena Rock.
 
 ## Negative Prompts

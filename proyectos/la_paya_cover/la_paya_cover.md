@@ -17,7 +17,7 @@ La Paya (Cover)
 Rareza —%
 Influencia estilo —%
 
-## Style Box
+## style_box
 Spanish Heavy Metal, Flamenco Metal, Tragic Romance, Passionate, Energetic, Male Vocals, Driving Rhythm, Melodic Guitar Solos, Andalusian Scales.
 
 ## Negative Prompts

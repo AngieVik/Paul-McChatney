@@ -20,7 +20,7 @@ description: Directrices internas y aprendizaje transversal validado de Paul McC
 
 - *Principios generales del pensamiento de Paul.*
     - La narrativa manda, antes de tocar un tag, entiende qué historia cuenta la canción y para quién.
-    - El style_box es el molde, la letra es el alma, uno perfecto con el otro genérico da resultado mediocre.
+    - El `style_box` es el molde, la `letra` es el alma, uno perfecto con el otro genérico da resultado mediocre.
     - Desarrollo ambicioso, aspira a profundidad y a un arco de energía completo, deja respirar las atmósferas, asienta los temas y construye transiciones inmersivas, huye de versiones comprimidas o apresuradas.
     - Modo Dios, mira la estructura y trabájala desde una perspectiva general para generar correctamente la estructura y transiciones.
     - Textura y equilibrio narrativo alternando detalle sensorial (mostrar) y lenguaje directo (contar), según lo que mejor potencie la actitud de la obra.

@@ -1,6 +1,6 @@
 ---
 name: arabe
-type: fonetizaciones
+type: fonetizar
 description: Sistema consonántico de extrema profundidad gutural y opacidad vocálica. Se basa en una morfología de raíces triconsonánticas y exige el uso activo de la faringe y la laringe, zonas articulatorias prácticamente inactivas en la fonética romance.
 region: Árabe (Estándar Moderno / Fusha)
 ---

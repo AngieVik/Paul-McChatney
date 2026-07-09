@@ -17,7 +17,7 @@ Niña sonrisa
 Rareza —%
 Influencia estilo —%
 
-## Style Box
+## style_box
 Spanish Urban Pop, Reguetón Urban Cumbia, Latin Pop, Catchy Hook, Syncopated Rhythm, Beat Switch, Rap Verse, Summer Vibe
 
 ## Negative Prompts

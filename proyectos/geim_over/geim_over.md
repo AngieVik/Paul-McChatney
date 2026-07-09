@@ -17,7 +17,7 @@ GEIM ÓVER
 Rareza —%
 Influencia estilo —%
 
-## Style Box
+## style_box
 SPANISH 8-BIT CHIPTUNE FRENCHCORE, 200 BPM, retro arcade synths, gameboy arpeggios, distorted 909 kicks, aggressive male vocal, frantic delivery, glitch effects
 
 ## Negative Prompts

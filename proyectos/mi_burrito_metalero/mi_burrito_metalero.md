@@ -17,7 +17,7 @@ Mi burrito metalero (Villancico)
 Rareza —%
 Influencia estilo —%
 
-## Style Box
+## style_box
 Spanish Folk Metal, Male Vocals (Lyrical Tenor with gritty rock tone), Symphonic Folk Style, High Energy.
 
 ## Negative Prompts

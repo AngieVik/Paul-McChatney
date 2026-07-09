@@ -1,6 +1,6 @@
 ---
 name: es_portugues
-type: fonetizaciones
+type: fonetizar
 description: Sistema ortográficamente engañoso para el hispanohablante. Aunque comparte la misma raíz y gran parte del léxico con el español y el gallego, su fonología es radicalmente distinta. Se caracteriza por un colapso masivo de las vocales átonas y un denso agrupamiento consonántico, lo que a menudo provoca que auditivamente se confunda con idiomas eslavos como el ruso.
 region: Portugués (Europeo / Continental)
 ---

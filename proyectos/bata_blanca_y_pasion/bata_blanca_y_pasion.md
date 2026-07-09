@@ -17,7 +17,7 @@ Bata blanca y pasión
 Rareza —%
 Influencia estilo —%
 
-## Style Box
+## style_box
 (Genero: Hard Rock, indie)(Voz: Soprano, Femenina, gran fuerza emocional)(Percusión orquestal, Guitarra electrica, Sonidos evocadores)(Sentimiento: Epico, Empoderador)
 
 ## Negative Prompts

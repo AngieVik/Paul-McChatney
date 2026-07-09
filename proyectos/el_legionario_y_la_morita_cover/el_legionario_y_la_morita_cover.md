@@ -17,7 +17,7 @@ El Legionario y La Morita (Cover)
 Rareza —%
 Influencia estilo —%
 
-## Style Box
+## style_box
 Spanish Heavy Metal, Military Metal, Storytelling, Tragic Ballad, Aggressive, Emotional, Male Vocals, Driving Rhythm, Dark, Intense.
 
 ## Negative Prompts

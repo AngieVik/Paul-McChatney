@@ -1,6 +1,6 @@
 ---
 name: es_pueblo_peninsular
-type: fonetizaciones
+type: fonetizar
 description: No se trata de un idioma ni de un dialecto geográfico estricto, sino de un sociodialecto (o registro de instrucción popular) extendido por las áreas rurales de la mitad norte y centro de la Península Ibérica (Castilla, León, Aragón, etc.). Se caracteriza por la conservación de arcaísmos, la simplificación de grupos consonánticos cultos y la alteración silábica mediante vulgarismos estructurales (metátesis y epéntesis).
 region: Habitante de Pueblo (Sociodialecto Rural Genérico Peninsular)
 ---

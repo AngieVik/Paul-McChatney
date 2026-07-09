@@ -17,7 +17,7 @@ Hola Mi Amor (Cover)
 Rareza —%
 Influencia estilo —%
 
-## Style Box
+## style_box
 Spanish Heavy Metal, Power Ballad, Emotional, Passionate, Male Vocals, Driving Rhythm, Anthemic Chorus, Andalusian Scales.
 
 ## Negative Prompts

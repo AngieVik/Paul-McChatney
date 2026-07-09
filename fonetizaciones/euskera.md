@@ -1,6 +1,6 @@
 ---
 name: euskera
-type: fonetizaciones
+type: fonetizar
 description: Sistema ortográficamente transparente de correspondencia casi biunívoca. Presenta una alta complejidad articulatoria estructural debido a su triple oposición de fonemas sibilantes y africados, lo que exige una discriminación táctil y un posicionamiento milimétrico de la lengua (apical vs. laminal).
 region: Euskera (Euskara Batua)
 ---

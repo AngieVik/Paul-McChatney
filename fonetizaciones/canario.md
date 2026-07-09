@@ -1,6 +1,6 @@
 ---
 name: canario
-type: fonetizaciones
+type: fonetizar
 description: Sistema fonológico caracterizado por una articulación relajada, el seseo absoluto, la aspiración de la 's' en final de sílaba y una notable suavidad en las consonantes fricativas. Requiere una lectura ligada donde las palabras se fusionan melodiosamente.
 region: Dialecto Canario
 ---

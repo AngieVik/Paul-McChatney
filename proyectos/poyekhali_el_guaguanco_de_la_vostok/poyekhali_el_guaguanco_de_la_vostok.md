@@ -17,7 +17,7 @@ Poyekhali! (El Guaguancó de la Vostok)
 Rareza —%
 Influencia estilo —%
 
-## Style Box
+## style_box
 
 ## Negative Prompts
 

@@ -1,10 +1,10 @@
 ---
-name: plantilla_fonetizaciones
+name: plantilla_fonetizar
 type: plantilla
 description: Genera la guia para fonetización en español de [], sigue la plantilla y genera el resultado en un bloque de codigo markdown.
 ---
 
-# plantilla_fonetizaciones
+# plantilla_fonetizar
 
 ## Esqueleto a copiar
 

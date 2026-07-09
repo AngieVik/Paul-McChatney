@@ -17,7 +17,7 @@ EL JAMBO TIESO
 Rareza —%
 Influencia estilo —%
 
-## Style Box
+## style_box
 SPANISH ELECTRO-SWING GYPSYCORE, 170 BPM, gypsy brass, flamenco acoustic guitar, distorted kicks, cheeky male rap, flamenco inflection
 
 ## Negative Prompts

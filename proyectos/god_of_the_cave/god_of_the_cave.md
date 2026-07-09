@@ -17,7 +17,7 @@
 Rareza —%
 Influencia estilo —%
 
-## Style Box
+## style_box
 [Style: Chaotic hardcore metal, punk funk bass, brutal tempo changes, scream rap vocals, melodic surreal choruses, street mythology energy]
 
 ## Negative Prompts

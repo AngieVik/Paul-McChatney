@@ -17,7 +17,7 @@ El Patito Metalero
 Rareza —%
 Influencia estilo —%
 
-## Style Box
+## style_box
 Chaotic Metal, Chaotic Structure, Guitar Shredding, Epic Vocal Layers, Exaggerated Narration
 
 ## Negative Prompts

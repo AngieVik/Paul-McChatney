@@ -17,7 +17,7 @@ El Coplista de la Luna Llena
 Rareza —%
 Influencia estilo —%
 
-## Style Box
+## style_box
 
 SPANISH NEUROFUNK BAROQUE, CLASSICAL FUGUE, 175 BPM, aggressive drill rap, gritty mutant reese bass, massive gothic church organ, virtuosic modern piano, heavy electric guitar riffs, whammy pedal distortion
 

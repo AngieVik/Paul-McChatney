@@ -65,7 +65,7 @@ description: Manipulación del espacio estéreo, procesamiento de señales (DSP)
 
 ### 1.5 · Acústica física y microfonía
 
-- *Parámetros de ingeniería de sonido. Orientados al `Style Box` para dictar el comportamiento del renderizado acústico.*
+- *Parámetros de ingeniería de sonido. Orientados al `style_box` para dictar el comportamiento del renderizado acústico.*
     - **style_box:** `[Close-mic]`, `[slight overload]`, [`Room bleed present]`, `[worn tube amps]`, `[imperfect drums]`.
     - **exclude_box (si aplica):** `[glossy production]`, `[modern vocal polish]`, `[bright digital shimmer]`.
     - **3D Room Dynamics:** ⚗️ Asigna acústicas opuestas a elementos distintos del mismo prompt para forzar profundidad de campo estéreo.

@@ -17,7 +17,7 @@ Ducha fria
 Rareza —%
 Influencia estilo —%
 
-## Style Box
+## style_box
 SPANISH FRENCHCORE OPERA, Orchestral Hybrid, Solo Violin, 200 BPM, distorted bounce kicks, aggressive synth, soaring coloratura soprano lead
 
 ## Negative Prompts

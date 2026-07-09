@@ -17,7 +17,7 @@ Paul McChatney
 Rareza —%
 Influencia estilo —%
 
-## Style Box
+## style_box
 [Style: Chaotic hardcore metal, punk funk infusion, heavy tempo switches, aggressive screaming vocals, cartoonish clean sections, absurd humor energy]
 
 ## Negative Prompts

@@ -17,7 +17,7 @@
 Rareza —%
 Influencia estilo —%
 
-## Style Box
+## style_box
 
 SPANISH SYMPHONIC RAWSTYLE HARDCORE, 200 BPM, virtuosic bright tack piano lead, high-register staccato keys, dark neoclassical, aggressive gabber bass, distorted piep kicks, dueling keyboards
 Style Influence 80%

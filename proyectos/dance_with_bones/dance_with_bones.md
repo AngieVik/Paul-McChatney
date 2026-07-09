@@ -17,7 +17,7 @@
 Rareza —%
 Influencia estilo —%
 
-## Style Box
+## style_box
 [Style: Punk metal ritual, tribal rhythm punkcore, distorted bass funk, ghostly melodic layers, scream and chant blend, emotional bone energy]
 
 ## Negative Prompts

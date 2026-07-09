@@ -17,7 +17,7 @@ EL PACTO DEL PANTANO
 Rareza —%
 Influencia estilo —%
 
-## Style Box
+## style_box
 SPANISH DELTA BLUES ACID TECNO, 130 BPM, dirty acoustic guitar, rusty harmonica, squelchy TB-303 bassline, distorted 909 kicks, gritty male vocal
 
 ## Negative Prompts

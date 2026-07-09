@@ -17,7 +17,7 @@ El camino del justo
 Rareza —%
 Influencia estilo —%
 
-## Style Box
+## style_box
 POST-ROCK APOCALYPTIC SOUL, male spoken-sung vocal, biblical noir atmosphere, heavy gospel drums, cinematic moral tension
 
 ## Negative Prompts

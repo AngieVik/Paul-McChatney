@@ -17,7 +17,7 @@ El cartero que no llega
 Rareza —%
 Influencia estilo —%
 
-## Style Box
+## style_box
 JOTA ARAGONESA HARDTEK, 190 BPM, aged female voice, melancholic traditional folk singing, castanetsacoustic bandurria, distorted hardtek kick, industrial noise, extreme dynamic contrast, rural desolation
 
 ## Negative Prompts

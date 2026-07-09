@@ -17,7 +17,7 @@ Sebas el grande
 Rareza —%
 Influencia estilo —%
 
-## Style Box
+## style_box
 "Cumbia villera explosiva, acordeón al frente, bajo pesado, congas marcando fuerte, güiro constante. Voz intensa con actitud callejera, sonido crudo y callejero. Ritmo pegajoso que obliga a bailar."
 
 ## Negative Prompts

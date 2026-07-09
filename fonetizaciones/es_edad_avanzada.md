@@ -1,6 +1,6 @@
 ---
 name: es_edad_avanzada
-type: fonetizaciones
+type: fonetizar
 description: Este perfil no responde a una delimitación geográfica, sino fisiológica y generacional. Se fundamenta en la *presbifonía* (envejecimiento del aparato fonador humano) que conlleva pérdida de masa muscular en las cuerdas vocales, menor capacidad pulmonar y posibles alteraciones articulatorias por falta de piezas dentales o fatiga neuromuscular.
 region: Edad Avanzada (Presbifonía / Sociodialecto Generacional)
 ---

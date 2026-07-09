@@ -17,7 +17,7 @@ Cómo entablar una conversación con ella
 Rareza —%
 Influencia estilo —%
 
-## Style Box
+## style_box
 Hardtek, Coachcore, Social Anxiety Hardcore, Tapeo Step, Conquista Rítmica
 
 ## Negative Prompts

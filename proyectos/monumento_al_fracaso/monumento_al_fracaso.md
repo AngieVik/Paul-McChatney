@@ -17,7 +17,7 @@ MONUMENTO AL FRACASO
 Rareza —%
 Influencia estilo —%
 
-## Style Box
+## style_box
 SPANISH TECHNO BIG BAND, 160BPM Hyper-Drive Beats, Adrenaline Overdose Velocity, Alto Saxophone Breath Snarl, Acoustic Bass Drum Thud, Anxious Tremolo Delivery
 
 ## Negative Prompts

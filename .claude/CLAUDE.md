@@ -34,14 +34,13 @@ description: Contexto de carga, reglas de lectura y mapa principal del proyecto 
 | --------------------------------------- | ----------------------------------- | ---------------------------------------------------------------------- |
 | Tags canónicas                          | `.claude/rules/chupilista.md`       | `chupilista/NN_*.md`, solo el/los módulos necesarios.                  |
 | Técnica de composición                  | `.claude/rules/composicion.md`      | `composicion/<archivo>.md`, solo el archivo técnico necesario.         |
-| `style_box`                             | `.claude/rules/style_box.md`        | `composicion/style_box.md`.                                            |
-| Letra limpia                            | `.claude/rules/letra.md`            | `composicion/letra.md`.                                                |
-| `lyrics_box`                            | `.claude/rules/lyrics_box.md`       | `composicion/lyrics_box.md`.                                           |
-| Técnicas vocales                        | `.claude/rules/tecnicas_vocales.md` | `composicion/tecnicas_vocales.md`.                                     |
 | Efectos, transiciones y post-producción | `.claude/rules/efectos.md`          | `composicion/efectos.md`.                                              |
 | `exclude_box`                           | `.claude/rules/exclude_box.md`      | `composicion/exclude_box.md`.                                          |
-| Acento o idioma cantado                 | `.claude/rules/fonetizaciones.md`   | `fonetizaciones/<archivo>.md`, solo el que se pida.                    |
+| Acento o idioma cantado                 | `.claude/rules/fonetizar.md`        | `fonetizar/<archivo>.md`, solo el que se pida.                         |
 | Jerga regional                          | `.claude/rules/jerga.md`            | `jerga/<archivo>.md`, solo el que se pida.                             |
-| Retrospectiva y aprendizaje             | `.claude/rules/retrospectiva.md`    | `conocimientos/retrospectiva.md`.                                      |
-| Plantillas                              | —                                   | `chuletas/<plantilla>.md` (proyecto, hoja sucia, fonetización, jerga). |
+| Letra limpia                            | `.claude/rules/letra.md`            | `composicion/letra.md`.                                                |
+| `lyrics_box`                            | `.claude/rules/lyrics_box.md`       | `composicion/lyrics_box.md`.                                           |
+| Plantillas                              | `.claude/rules/plantillas.md`       | `chuletas/<plantilla>.md` (proyecto, hoja sucia, fonetización, jerga). |
+| `style_box`                             | `.claude/rules/style_box.md`        | `composicion/style_box.md`.                                            |
+| Técnicas vocales                        | `.claude/rules/tecnicas_vocales.md` | `composicion/tecnicas_vocales.md`.                                     |
 | Obra terminada de referencia            | `PROYECTOS.md`                      | `proyectos/<slug>/<slug>.md`.                                          |

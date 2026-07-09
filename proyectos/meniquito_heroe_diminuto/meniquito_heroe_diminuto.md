@@ -17,7 +17,7 @@ Meñiquito, heroe diminuto
 Rareza —%
 Influencia estilo —%
 
-## Style Box
+## style_box
 acoustic-hard-rock operetta, rapid tempo shifts, spoken-word improv bits, power-duo energy, riff-driven hooks, comedic vocal theatrics, dramatic stop-starts,
 
 ## Negative Prompts

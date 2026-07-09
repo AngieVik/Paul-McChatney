@@ -17,7 +17,7 @@ El Guitarrista de Hamelín
 Rareza —%
 Influencia estilo —%
 
-## Style Box
+## style_box
 Style: Rock comedy fusion, Dramatic vocals, Falsetto tension, Power-chord choruses
 
 ## Negative Prompts

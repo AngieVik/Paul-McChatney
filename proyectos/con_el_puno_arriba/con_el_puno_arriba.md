@@ -17,7 +17,7 @@ Con El Puño Arriba (Juan sin miedo)
 Rareza —%
 Influencia estilo —%
 
-## Style Box
+## style_box
 Style: Hard Rock, Heavy Metal, Rock Opera, Absurdist Blues, Epic Theatrical, Dark Comedy
 
 ## Negative Prompts

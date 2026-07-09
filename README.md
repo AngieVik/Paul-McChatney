@@ -49,7 +49,7 @@ Usar primero los índices de `.claude/rules/` y abrir solo el archivo necesario.
 | `chupilista/`     | Biblioteca de tags, géneros, efectos, estructuras y negativos. |
 | `composicion/`    | Reglas técnicas de escritura, estructura, efectos y formato.   |
 | `conocimientos/`  | Documentos de conocimiento transversal.                        |
-| `fonetizaciones/` | Guías para simular acentos o idiomas cantados en español.      |
+| `fonetizar/`      | Guías para simular acentos o idiomas cantados en español.      |
 | `jerga/`          | Guías para inyectar modismos locales en la letra cantable.     |
 | `proyectos/`      | Canciones terminadas, una carpeta por obra.                    |
 | `PROYECTOS.md`    | Catálogo general de obras aprobadas.                           |
@@ -84,13 +84,13 @@ Usar primero los índices de `.claude/rules/` y abrir solo el archivo necesario.
 | --------------- | ------------------------------------------ |
 | `produccion`    | Flujo completo de creación en fases.       |
 | `proyecto`      | Crear, retomar, guardar, aprobar o cerrar. |
-| `lirica`        | Escribir o pulir letra limpia.             |
-| `style-box`     | Crear o iterar el molde sonoro.            |
-| `buscar-tag`    | Buscar tags concretos en CHUPILISTA.       |
+| `letra`         | Escribir o pulir letra limpia.             |
+| `style_box`     | Crear o iterar el molde sonoro.            |
+| `buscar_tag`    | Buscar tags concretos en CHUPILISTA.       |
 | `fusionar`      | Proponer fusiones de género.               |
 | `fonetizar`     | Aplicar acento o idioma cantado.           |
 | `jerga`         | Inyectar modismos locales en la letra.     |
-| `cover-art`     | Crear prompts de portada para Gemini.      |
+| `cover_art`     | Crear prompts de portada para Gemini.      |
 | `retrospectiva` | Evaluar aprendizaje tras aprobar una obra. |
 
 ## 7 · Formato de obra terminada
@@ -106,7 +106,7 @@ Estructura habitual:
     ## Titulo Original
     ## Generated
     ## Master
-    ## Style Box
+    ## style_box
     ## Sliders
     ## Negative Prompts
     ## Lyrics Box

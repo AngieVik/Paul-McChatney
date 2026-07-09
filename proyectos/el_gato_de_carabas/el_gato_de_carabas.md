@@ -17,7 +17,7 @@ El Gato de Carabás
 Rareza —%
 Influencia estilo —%
 
-## Style Box
+## style_box
 Style: Classic heavy metal with gallop riffs, shouted and clean vocals, virtuosic solos
 
 ## Negative Prompts

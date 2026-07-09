@@ -17,13 +17,15 @@ Cómo defenderte contra un cuchillo (si no te queda otra opción)
 Rareza —%
 Influencia estilo —%
 
-## Style Box
+## style_box
+
 Hardcore Tutorialcore, Coachcore, Tactical Rave, Spoken Panicstep, YouTube Self-Defense Bass
 
 ## Negative Prompts
 
 ## Lyrics Box
 
+```json
 [Production: Hardtek, Urban Survival Bass, Knife FX, Glitch Sirens, Fast Panic Kickrolls]
 
 [Intro][Spanish Male Voice][Knife Slide FX, Siren Delay, 200bpm Kick Pulse]
@@ -58,3 +60,4 @@ Esto no te salva.
 Pero da estilo.
 Y si no sales ileso…
 sal sampleado.
+```

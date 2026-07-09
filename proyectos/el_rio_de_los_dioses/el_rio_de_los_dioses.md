@@ -17,7 +17,7 @@ El Río De Los Dioses (Villancico)
 Rareza —%
 Influencia estilo —%
 
-## Style Box
+## style_box
 Spanish Folk Metal, Male Vocals (Rough & Festive), Tavern Folk Style, High Energy,
 
 ## Negative Prompts

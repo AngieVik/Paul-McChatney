@@ -17,7 +17,7 @@ Bienvenido al lado oscuro.
 Rareza —%
 Influencia estilo —%
 
-## Style Box
+## style_box
 Hardtek, Acid Techno, Coachcore, Paranoid Groove, Dark Humor Hardcore
 
 ## Negative Prompts

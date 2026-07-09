@@ -17,7 +17,7 @@ Tranqui mi niño
 Rareza —%
 Influencia estilo —%
 
-## Style Box
+## style_box
 Style: Funk-rap fusion, old school groove with modern flow, conversational lyricism, barrio charisma, [Spanish Voice][Smooth Accent][Urban Pulse][Breath Control][Tempo Modifiers]
 
 ## Negative Prompts

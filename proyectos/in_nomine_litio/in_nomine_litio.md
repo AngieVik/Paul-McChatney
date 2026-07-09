@@ -17,7 +17,7 @@ IN NOMINE LITIO
 Rareza —%
 Influencia estilo —%
 
-## Style Box
+## style_box
 LATIN GREGORIAN FRENCHCORE, ORCHESTRAL HARDTEK, 200 BPM, apocalyptic energy, distorted 909 kicks, thunderous brass, church organ
 
 ## Negative Prompts

@@ -17,7 +17,7 @@ Pablik
 Rareza —%
 Influencia estilo —%
 
-## Style Box
+## style_box
 song style: A hard-hitting dembow rhythm ,with aggressive synth stabs, a catchy ascending melody. Expect heavy bass , punchy drums , and a raw urban vibe.
 
 ## Negative Prompts

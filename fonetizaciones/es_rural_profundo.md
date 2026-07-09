@@ -1,6 +1,6 @@
 ---
 name: es_rural_profundo
-type: fonetizaciones
+type: fonetizar
 description: Más que un dialecto, representa un registro de hiper-relajación y opacidad articulatoria extrema. Se caracteriza por una brutal economía de movimientos (hablar "entre dientes"), una apertura mandibular casi nula y la elisión (borrado) no solo de letras, sino de sílabas átonas completas, generando macromoléculas de palabras fusionadas.
 region: Señor del Campo (Rural Profundo / Cerrado Multisílabo)
 ---

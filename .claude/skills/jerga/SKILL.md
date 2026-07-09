@@ -11,7 +11,7 @@ description: inyecta en la letra cantable jerga específica para que se cante, n
 ## Cuándo se activa
 
 - **Se solicita explícitamente** una jerga en concreto sobre un mood u obra. 
-- La llama `lirica` en Fase 2 de `produccion` si se solicita previamente.
+- La llama `letra` en Fase 2 de `produccion` si se solicita previamente.
 
 ## Pasos
 
@@ -31,7 +31,7 @@ description: inyecta en la letra cantable jerga específica para que se cante, n
 
 ## Relación
 
-- La llama `lirica` en Fase 2 de `produccion` si se solicita previamente.
+- La llama `letra` en Fase 2 de `produccion` si se solicita previamente.
 
 ## Ejemplo
 

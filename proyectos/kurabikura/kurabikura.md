@@ -17,7 +17,7 @@
 Rareza —%
 Influencia estilo —%
 
-## Style Box
+## style_box
 Style: Maximum The Hormone-inspired, chaotic genre-bending hardcore metal, funky punk basslines, sudden pop melodies, dual-language lyrical attacks, unpredictable tempo shifts
 
 ## Negative Prompts

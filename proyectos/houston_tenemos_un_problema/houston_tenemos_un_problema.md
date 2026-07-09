@@ -17,7 +17,7 @@ Houston, tenemos un problema...
 Rareza —%
 Influencia estilo —%
 
-## Style Box
+## style_box
 Acid Techno, Spacecore, Conspiracy Groove, Coachcore, Satirical Paranormal Techno
 
 ## Negative Prompts

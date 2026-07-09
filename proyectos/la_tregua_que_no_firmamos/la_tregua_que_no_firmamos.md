@@ -17,7 +17,7 @@ La Tregua que no Firmamos
 Rareza —%
 Influencia estilo —%
 
-## Style Box
+## style_box
 
 ## Negative Prompts
 

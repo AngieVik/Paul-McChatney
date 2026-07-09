@@ -17,7 +17,7 @@ La dama de la niebla
 Rareza —%
 Influencia estilo —%
 
-## Style Box
+## style_box
 SYMPHONIC DARK METAL, male dual vocals, cinematic gothic tension, medieval fantasy setting, Spanish metal vibe [Singing man 1:Geralt , Singing man 2:Jaskier]
 
 ## Negative Prompts

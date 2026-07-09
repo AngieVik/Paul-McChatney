@@ -17,7 +17,7 @@ Papas en Ajopollo: lo que los nutricionistas no quieren que sepas
 Rareza —%
 Influencia estilo —%
 
-## Style Box
+## style_box
 Hardtek, Hardcore Cocinado, Coachcore Gastronómico, Low Budget Foodstep
 
 ## Negative Prompts

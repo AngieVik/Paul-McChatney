@@ -93,7 +93,7 @@ Reglas:
 Ejemplos:
 
 ```markdown
-# lirica
+# letra
 
 ## Cuándo se activa
 
@@ -225,7 +225,7 @@ El YAML sirve para que el archivo sea identificable por herramientas y agentes.
 - Plantillas.
 - Conocimientos.
 - Jergas.
-- Fonetizaciones.
+- fonetizar.
 - Proyectos terminados si se quiere indexación futura.
 
 Forma mínima:

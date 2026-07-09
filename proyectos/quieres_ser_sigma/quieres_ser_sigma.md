@@ -17,7 +17,7 @@
 Rareza —%
 Influencia estilo —%
 
-## Style Box
+## style_box
 Style: Hardtek, Acid Techno, Satirical Spoken Hardcore, Coachcore, Motivational Meltdown
 
 ## Negative Prompts

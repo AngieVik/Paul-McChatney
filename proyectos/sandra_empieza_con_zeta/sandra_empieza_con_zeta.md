@@ -17,7 +17,7 @@ Sandra empieza con zeta
 Rareza —%
 Influencia estilo —%
 
-## Style Box
+## style_box
 Psychedelic folk, hardcore tribal percussion, female mystical vocals, shamanic vibes, lyrics about a wild nomadic woman guided by the wind,
 
 ## Negative Prompts

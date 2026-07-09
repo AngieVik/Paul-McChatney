@@ -17,7 +17,7 @@ Jindama_de_Plomo
 Rareza —%
 Influencia estilo —%
 
-## Style Box
+## style_box
 
 ## Negative Prompts
 

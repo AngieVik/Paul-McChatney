@@ -17,7 +17,7 @@ SANGRE DE LITIO
 Rareza —%
 Influencia estilo —%
 
-## Style Box
+## style_box
 SPANISH FLAMENCO HARDTEK, FRENCHCORE, 200 BPM, Spanish acoustic guitar, palmas, distorted 909 kicks, passionate raspy vocal
 
 ## Negative Prompts

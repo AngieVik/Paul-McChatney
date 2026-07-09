@@ -17,7 +17,7 @@ Oscar lo arregla
 Rareza —%
 Influencia estilo —%
 
-## Style Box
+## style_box
 Raw blues rock with soulful electric guitar riffs, steady groove drums, warm basslines, and a gritty male voice telling a story with heart and swagger. Old-school vibe, smoky and bold.
 
 ## Negative Prompts

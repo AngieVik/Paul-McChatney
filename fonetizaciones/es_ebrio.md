@@ -1,6 +1,6 @@
 ---
 name: es_ebrio
-type: fonetizaciones
+type: fonetizar
 description: La embriaguez produce una disartria alcohólica: una alteración motora del habla causada por el efecto depresor del alcohol sobre el sistema nervioso central, afectando la coordinación de los músculos fonadores, la lengua y los labios.
 
 region: Estado de Embriaguez (Disartria Etílica)

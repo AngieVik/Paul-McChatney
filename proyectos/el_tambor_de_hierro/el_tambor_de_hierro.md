@@ -17,7 +17,7 @@ El Tambor De Hierro (Villancico)
 Rareza —%
 Influencia estilo —%
 
-## Style Box
+## style_box
 Spanish Epic Folk Metal, Spanish Tribal Metal, Heavy Tribal March, Drum Focused Arrangement, Aggressive Percussion, Double Kick Drum, Blast Beats, Guttural Growls, Bagpipes Background.
 
 ## Negative Prompts

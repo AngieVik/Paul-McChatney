@@ -17,7 +17,7 @@ Frutilla Lunar
 Rareza —%
 Influencia estilo —%
 
-## Style Box
+## style_box
 HARDCORE GABBER MERENGUE, 190 BPM, distorted 909 kick, hyper-fast tambora, acid 303 bassline, industrial rave, sensual female ASMR whispering, explicit romantic poetry, breathy delivery
 
 ## Negative Prompts

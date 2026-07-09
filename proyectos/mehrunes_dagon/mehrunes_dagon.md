@@ -17,7 +17,7 @@
 Rareza —%
 Influencia estilo —%
 
-## Style Box
+## style_box
 heavy metal storm, medieval dark fantasy, powerful growl, heroic melodic choruses
 
 ## Negative Prompts

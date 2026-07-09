@@ -17,7 +17,7 @@ CanonTek en Menor
 Rareza —%
 Influencia estilo —%
 
-## Style Box
+## style_box
 
 SYMPHONIC HARDTEK CANON, RAGGATEK OPERA, Mozar style, fortepiano, frantic violin, punchy sub-bass, MC vocal
 Weirdness 40%

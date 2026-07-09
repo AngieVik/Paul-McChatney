@@ -17,7 +17,7 @@ La Marcha De Los Rebeldes (Villancico)
 Rareza —%
 Influencia estilo —%
 
-## Style Box
+## style_box
 Spanish Folk Metal, Male Vocals (Melodic Power & Gritty), Fast & Festive.
 
 ## Negative Prompts

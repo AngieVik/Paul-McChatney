@@ -17,7 +17,7 @@ La virgen tapiada
 Rareza —%
 Influencia estilo —%
 
-## Style Box
+## style_box
 MEXICAN MARIACHI SCHRANZ, Hard Techno, ranchera clásica, 150 BPM, distorted kick, brass section, violins, guitarrón bassline, dark festive, operatic mexican male vocals
 
 ## Negative Prompts

@@ -17,7 +17,7 @@ Banana Chainsaw Massacre
 Rareza —%
 Influencia estilo —%
 
-## Style Box
+## style_box
 [Style: Thrash hardcore metal, funky breakbeat bursts, absurd horror humor, chaotic tempo crashes, brutal screaming mixed with silly pop voices, grindcore pogo energy]
 
 ## Negative Prompts

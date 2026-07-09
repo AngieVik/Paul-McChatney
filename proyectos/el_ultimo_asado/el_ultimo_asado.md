@@ -17,7 +17,7 @@ El Ultimo Asado (Los tres cerditos)
 Rareza —%
 Influencia estilo —%
 
-## Style Box
+## style_box
 Style: Hard Rock, Heavy Metal, Rock Opera, Blues Fusion, Power Ballad, Absurdist Comedy, Epic Theatrical, Blues Rock, Cinematic Metal, Satirical Rock, Progressive Rock
 
 ## Negative Prompts

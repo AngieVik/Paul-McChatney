@@ -1,6 +1,6 @@
 ---
 name: es_hombre_gay
-type: fonetizaciones
+type: fonetizar
 description: Sistema altamente prosódico y elástico. No se basa en cambiar fonemas radicales, sino en la alteración dramática del tono (pitch), el alargamiento vocálico exagerado y la hiper-articulación o relajación estratégica de ciertas consonantes para denotar actitud, confianza y teatralidad.
 region: Sociolecto Queer Contemporáneo (Voz Masculina / Diva Energy)
 ---

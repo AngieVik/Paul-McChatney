@@ -17,7 +17,7 @@ El Mal del Carpintero
 Rareza —%
 Influencia estilo —%
 
-## Style Box
+## style_box
 BULERIA INDUSTRIAL ACID HARDTEK, 160 BPM, acoustic fingerstyle guitar, TB-303 synth squelch, distorted warehouse kick, clear powerful male cantaor, aggressive
 
 ## Negative Prompts

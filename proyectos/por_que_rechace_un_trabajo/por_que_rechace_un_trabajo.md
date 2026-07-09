@@ -17,7 +17,7 @@ Por qué rechacé un trabajo
 Rareza —%
 Influencia estilo —%
 
-## Style Box
+## style_box
 Hardtek, Coachcore, Corporate Ragecore, Industrial Resistencia, Techno Sindical
 
 ## Negative Prompts

@@ -17,7 +17,7 @@ La Princesa De Ceilan (Cover)
 Rareza —%
 Influencia estilo —%
 
-## Style Box
+## style_box
 Spanish Heavy Metal, Power Metal, Melodic Speed Metal, Operatic Male Vocals, Driving Rhythm, Emotional, Anthemic, Fast Paced, Neo-Classical Influences.
 
 ## Negative Prompts

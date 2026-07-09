@@ -17,7 +17,7 @@ Has estado haciendo burpees mal
 Rareza —%
 Influencia estilo —%
 
-## Style Box
+## style_box
 Hardtek, Gymcore, Coachcore, Satirical Fitness Hardcore, Motivational BPM Abuse
 
 ## Negative Prompts

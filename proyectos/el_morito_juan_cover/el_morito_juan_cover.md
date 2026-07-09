@@ -17,7 +17,7 @@ El Morito Juan (Cover)
 Rareza —%
 Influencia estilo —%
 
-## Style Box
+## style_box
 Spanish Heavy Metal, Folk Metal Fusion, Hard Rock Undertones, Arabic Male Vocal, Driving Rhythm, Satirical Tone, Energetic, Melodic Guitar Solos, Arabic Oud Echo, Spanish Flamenco Fury.
 
 ## Negative Prompts

@@ -17,7 +17,7 @@ La IA canta pero yo disparo
 Rareza —%
 Influencia estilo —%
 
-## Style Box
+## style_box
 Post-rap experimental, glitch-hop, spoken word digital soul][Deep male voice, broken delivery, whispered growls][Industrial drums, analog synths, broken piano, AI voice samples, lo-fi choirs, vinyl texture
 
 ## Negative Prompts

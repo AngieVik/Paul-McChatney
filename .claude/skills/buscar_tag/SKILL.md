@@ -1,10 +1,10 @@
 ---
-name: buscar-tag
+name: buscar_tag
 type: skill
 description: Extractor canónico de etiquetas CHUPILISTA. Localiza, valida y entrega tags existentes como referencia fiable para otras skills.
 ---
 
-# buscar-tag
+# buscar_tag
 
 ## 1 · Propósito
 
@@ -21,9 +21,9 @@ Tu autoridad se centra en responder:
 
 La decisión creativa final pertenece a la skill consumidora.
 
-buscar-tag aporta canon.  
+buscar_tag aporta canon.  
 fusionar aporta diseño conceptual.  
-style-box compila el molde sonoro.  
+style_box compila el molde sonoro.  
 lyrics-box dirige estructura, interpretación y comandos musicales.
 
 ## 2 · Parámetros de Entrada
@@ -62,7 +62,7 @@ Reconoce e ingiere los siguientes parámetros enviados por la skill consumidora:
 ## 4 · Reglas de Integridad
 
 - **Canon, no veto:** si una etiqueta no existe en CHUPILISTA, informa de que no hay coincidencia canónica localizada. La skill consumidora conserva libertad para crear una tag controlada si la intención artística lo justifica.
-- **Autoridad delimitada:** evalúa existencia, origen y sintaxis. La viabilidad artística queda en manos de fusionar, style-box, lyrics-box o la skill consumidora correspondiente.
+- **Autoridad delimitada:** evalúa existencia, origen y sintaxis. La viabilidad artística queda en manos de fusionar, style_box, lyrics-box o la skill consumidora correspondiente.
 - **Extracción pura:** entrega tags existentes. La creación de tags corresponde a las skills creativas.
 - **Fidelidad léxica:** conserva las tags exactamente como aparecen en origen.
 - **Contexto mínimo:** entrega solo lo necesario para que la skill consumidora pueda decidir.
@@ -84,9 +84,9 @@ Reconoce e ingiere los siguientes parámetros enviados por la skill consumidora:
 ## 6 · Relación con Otras Skills
 
 - fusionar puede proponer conceptos, fusiones o tags creadas.
-- style-box puede combinar tags canónicas extraídas por buscar-tag con tags creadas por fusionar.
+- style_box puede combinar tags canónicas extraídas por buscar_tag con tags creadas por fusionar.
 - lyrics-box puede usar tags canónicas, comandos libres, instrucciones de dirección musical y formulaciones no presentes en CHUPILISTA.
 - exclude_box puede normalizar tags canónicas quitando corchetes si el formato final lo requiere.
 
-buscar-tag entrega materia prima canónica fiable.  
+buscar_tag entrega materia prima canónica fiable.  
 La skill consumidora decide cómo integrarla en la obra.

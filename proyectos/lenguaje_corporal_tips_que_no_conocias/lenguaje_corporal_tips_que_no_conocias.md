@@ -17,7 +17,7 @@ Lenguaje corporal, tips que no conocías
 Rareza —%
 Influencia estilo —%
 
-## Style Box
+## style_box
 Hardtek, Acid Techno, Psychological Hardcore, Body Reading Groove, Coachcore
 
 ## Negative Prompts

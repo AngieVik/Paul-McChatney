@@ -1,6 +1,6 @@
 ---
 name: chileno
-type: fonetizaciones
+type: fonetizar
 description: Sistema fonológico caracterizado por su extrema velocidad de articulación, elisión frecuente de consonantes oclusivas, aspiración sistemática de la 's' implosiva y una curva entonativa ascendente altamente distintiva. Es un dialecto de alta contracción fonética.
 region: Dialecto Chileno
 ---

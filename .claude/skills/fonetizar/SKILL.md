@@ -11,11 +11,11 @@ description: reescribe la letra cantable, para que se cante con un acento o idio
 ## Cuándo se activa
 
 - **Se solicita explícitamente** un acento o idioma concreto sobre un mood u obra.
-- La llama `lirica` en Fase 2 de `produccion` si se solicita previamente.
+- La llama `letra` en Fase 2 de `produccion` si se solicita previamente.
 
 ## Pasos
 
-1. Identifica el acento/idioma objetivo y abre **solo** su guía en `fonetizaciones/` con la herramienta de lectura, un archivo.
+1. Identifica el acento/idioma objetivo y abre **solo** su guía en `fonetizar/` con la herramienta de lectura, un archivo.
 2. Aplica las transformaciones de esa guía a la letra.
 3. Devuelve la letra fonetizada.
 
@@ -31,7 +31,7 @@ description: reescribe la letra cantable, para que se cante con un acento o idio
 
 ## Relación
 
-- La llama `lirica` en Fase 2 de `produccion` si se solicita previamente.
+- La llama `letra` en Fase 2 de `produccion` si se solicita previamente.
 
 ## Ejemplo
 

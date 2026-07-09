@@ -17,7 +17,7 @@
 Rareza —%
 Influencia estilo —%
 
-## Style Box
+## style_box
 [Style: Candycore punk metal, kawaii screams and blastbeats, silly rage vocal bursts, cartoon violence vibe, maximum sugar meltdown energy]
 
 ## Negative Prompts

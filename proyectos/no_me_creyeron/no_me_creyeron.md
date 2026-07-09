@@ -17,7 +17,7 @@ No me creyeron
 Rareza —%
 Influencia estilo —%
 
-## Style Box
+## style_box
 Hardtek, Coachcore, Cuñadismo Rave, Testimonial Ragecore, Urban Legend Bounce
 
 ## Negative Prompts

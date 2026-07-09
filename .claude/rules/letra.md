@@ -16,12 +16,12 @@ description: Escritura técnica y tipografía como partitura física: narrativa,
     `1.1 · Métrica y lirismo libre`
     `1.2 · Rigidez estructural (solo Fases 3 y 4)`
     `1.3 · Anclaje regional mediante jerga`
-`2 · Lirica`
+`2 · letra`
     `2.1 · Cadencia y sustain`
     `2.2 · Control fonético`
     `2.3 · Fuerza emocional y acentuación (MAYÚSCULAS)`
     `2.4 · La puntuación dicta el fraseo físico`
-`3 · Narrativa_lirica_metrica`
+`3 · Narrativa_letra_metrica`
     `3.1 · Conteo de sílabas: regla del acento final`
     `3.2 · Licencias métricas`
     `3.3 · Análisis práctico: Mario Benedetti`

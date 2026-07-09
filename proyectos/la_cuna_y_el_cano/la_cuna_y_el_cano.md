@@ -17,7 +17,7 @@ La Cuna y el Caño
 Rareza —%
 Influencia estilo —%
 
-## Style Box
+## style_box
 GABBER CUMBIA VILLERA, hardcore tecno, turreo, 180 BPM, extreme distorted gabber kick, Korg M1 synth lead, metallic guiro, rave stabs, aggressive street party, arrabalero male vocals
 
 ## Negative Prompts

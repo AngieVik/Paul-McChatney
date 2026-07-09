@@ -1,6 +1,6 @@
 ---
 name: mexicano_centro
-type: fonetizaciones
+type: fonetizar
 description: Sistema fonológico caracterizado por el seseo, el yeísmo (sin rehilamiento) y un notable conservadurismo en las consonantes finales. Destaca el debilitamiento extremo o elisión de las vocales átonas, especialmente en contacto con la letra 's'.
 region: Dialecto Mexicano (Centro)
 ---
