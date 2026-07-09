@@ -1,210 +1,293 @@
 ---
 name: plantilla_estilo
 type: plantilla
-description: Guía de estilo Markdown para escribir archivos del proyecto sin pelear con el linter ni con el formateo al guardar.
+description: Guía de estilo Markdown del proyecto Paul McChatney: estructura, formato, linting y convenciones de escritura.
 ---
 
 # plantilla_estilo
 
-- Refleja la configuración real de VS Code (markdownlint de David Anson + Markdown All in One, LF, Prettier excluido de `.md`) y el estilo de la casa de Paul McChatney.
-- Objetivo: que un archivo nuevo pase `source.fixAll` al guardar sin que se reordene ni salten avisos amarillos.
+- *Guía compacta para escribir archivos Markdown limpios, legibles y compatibles con la configuración del proyecto.*
+
+---
 
 ## Índice
 
-`1 · Reglas duras (el linter las exige)`
-`2 · Encabezados`
-`3 · Índices de sección`
-`4 · Listas (cuándo numerada, cuándo viñeta)`
-`5 · Negrita y cursiva`
-`6 · Código, tags y ejemplos`
-`7 · Saltos de línea y espaciado`
-`8 · Tablas`
-`9 · Enlaces`
-`10 · Estilo de la casa`
-`11 · Checklist antes de guardar`
+`1 · Principio general`
+`2 · Estructura base`
+`3 · Encabezados`
+`4 · Listas`
+`5 · Código y tags`
+`6 · Tablas`
+`7 · Enlaces y rutas`
+`8 · YAML`
+`9 · Convenciones de casa`
+`10 · Checklist final`
 
 ---
 
-## Reglas duras (el linter las exige)
+## 1 · Principio general
 
-- *Estas son las reglas activas de tu `markdownlint.config`. Romperlas = subrayado amarillo o autocorrección al guardar.*
+El Markdown del proyecto debe ser:
 
-| Regla   | Qué obliga                                          | En corto                              |
-| ------- | --------------------------------------------------- | ------------------------------------- |
-| `MD003` | Encabezados estilo ATX (`#`, `##`, `###`).          | Nunca subrayados con `===`.           |
-| `MD001` | No saltar jerarquía.                                | De `#` a `##`, nunca directo a `###`. |
-| `MD022` | Línea en blanco antes y después de cada encabezado. | Un hueco arriba, un hueco abajo.      |
-| `MD004` | Viñetas siempre con guion `-`.                      | Nada de `*` ni `+` en listas.         |
-| `MD007` | Sublistas indentadas con 2 espacios.                | Cada nivel suma 2 espacios exactos.   |
-| `MD005` | Misma indentación entre ítems del mismo nivel.      | No descuadrar sangrías.               |
-| `MD029` | Listas numeradas en orden lógico.                   | `1.` `2.` `3.`, nunca todo `1.`.      |
-| `MD050` | Negrita con dobles asteriscos.                      | `**negrita**`.                        |
-| `MD031` | Bloques de código aislados por líneas en blanco.    | Hueco antes y después de la valla.    |
-| `MD040` | Todo bloque de código lleva lenguaje.               | `text`, `markdown`, `jsonc`.          |
-| `MD046` | Código en bloques cercados (fenced).                | Nunca código por indentación.         |
-| `MD038` | Sin espacios sobrantes dentro de `código`.          | `[Tag]`, no con espacios.             |
-| `MD032` | Listas rodeadas de línea en blanco.                 | Aísla cada bloque de lista.           |
+- **Humano:** fácil de leer sin herramientas.
+- **Técnico:** fácil de consultar por un agente.
+- **Predecible:** misma estructura en archivos parecidos.
+- **Ligero:** sin repetir reglas innecesarias dentro del contenido.
 
-- *Apagadas a tu favor* (puedes usarlas sin miedo):
-    - `MD013`: sin límite de longitud de línea (escribe párrafos largos).
-    - `MD009`: se permiten espacios finales si son dos espacios para salto de línea real.
-    - `MD012`: se permiten varias líneas en blanco seguidas.
-    - `MD033`: se permite HTML crudo.
-    - `MD034`: se permiten URLs sin `<>`.
-    - `MD024`: títulos iguales permitidos si no son hermanos directos.
+El archivo manda por claridad, no por decoración.
 
 ---
 
-## Encabezados
+## 2 · Estructura base
 
-- *Un solo `# H1` por archivo* (el título = el nombre del archivo o el slug).
-- *Baja de nivel sin saltos:* `#` a `##` a `###`. Nunca de `#` a `###`.
-- *Espacio tras la almohadilla y línea en blanco arriba y abajo:*
+Usa esta forma cuando el archivo sea canónico, es decir: skill, regla, plantilla, conocimiento, jerga, fonetización o proyecto.
 
 ```markdown
-párrafo anterior.
+---
+name: nombre_del_archivo
+type: tipo
+description: Descripción corta y útil.
+---
 
-## Título de sección
+# nombre_del_archivo
 
-Contenido de la sección.
-```
-
-- *No termines un título con signo de puntuación* (`.`, `:`, `;`). Un `)` de cierre sí vale.
+- *Línea breve de intención.*
 
 ---
 
-## Índices de sección
-
-- *Convención de la casa:* el índice va como líneas sueltas envueltas en comillas invertidas, con `·` (punto medio) separando número y título.
-
-```markdown
 ## Índice
 
-`1 · Primera sección`
-`2 · Segunda sección`
-    `2.1 · Subapartado`
-```
-
-- *Las subsecciones se indentan 4 espacios* bajo su sección padre, igual que una sublista.
-- *El índice debe reflejar exactamente los encabezados* `## N · …` y `### N.N · …` del cuerpo. Si renombras una sección, actualiza el índice.
+`1 · Sección`
 
 ---
 
-## Listas (cuándo numerada, cuándo viñeta)
+## 1 · Sección
 
-- *Viñeta (`-`):* para enumerar cosas sin orden ni jerarquía: opciones, características, ejemplos sueltos. Es la lista por defecto del proyecto.
-- *Numerada (`1.` `2.` `3.`):* solo cuando el orden importa: pasos de un proceso, fases, prioridad, o una secuencia que se sigue de arriba abajo.
-- *Reglas de forma:*
-    - Guion `-` para toda viñeta (`MD004`).
-    - Sangría de sublista: exactamente 4 espacios por nivel (`MD007`).
-    - Numeración correlativa real `1. 2. 3.` (`MD029`), no repetir `1.`.
-    - Línea en blanco antes y después del bloque de lista (`MD032`).
+Contenido.
+```
+
+Los archivos rápidos o borradores pueden ser más libres, sobre todo dentro de `_hojas_sucias/`.
+
+---
+
+## 3 · Encabezados
+
+Usa encabezados ATX:
 
 ```markdown
-Pasos del flujo:
+# H1
 
-1. Abrir la hoja de trabajo.
-2. Construir el `style_box`.
-3. Escribir la letra.
+## H2
 
-Elementos sueltos:
+### H3
+```
 
-- Reverb.
-- Delay.
-- Saturación.
+Reglas:
+
+- Un solo `# H1` por archivo.
+- No saltes niveles: `#` → `##` → `###`.
+- Deja una línea en blanco antes y después de cada encabezado.
+- No cierres títulos con `:`, `.`, `;`.
+- El H1 debe coincidir con el slug, nombre de skill o nombre conceptual del archivo.
+
+Ejemplos:
+
+```markdown
+# lirica
+
+## Cuándo se activa
+
+## Pasos
 ```
 
 ---
 
-## 5 · Negrita y cursiva
+## 4 · Listas
 
-- **Negrita `**...**`:** para tags de campo (`**Ejemplo:**`, `**Regla:**`), términos clave la primera vez que aparecen y avisos críticos. Es señalización, no decoración.
-- *Cursiva `*...*`:* para líneas descriptivas o meta (glosas, notas de una sección, aclaraciones) y énfasis suave. En la casa, la línea de intención bajo un encabezado va en cursiva: `- *De qué va esta sección.*`
-- *Indicador de cursiva:* asterisco simple `*`.
-- *Contención:* no acumules negritas ni subrayes medio párrafo. Si todo destaca, nada destaca.
+Usa guion para listas normales:
+
+```markdown
+- Elemento.
+- Elemento.
+    - Subitem.
+```
+
+Usa listas numeradas solo cuando el orden importe:
+
+```markdown
+1. Crear el archivo.
+2. Escribir el `style_box`.
+3. Aprobar la obra.
+```
+
+Reglas:
+
+- Viñetas siempre con `-`.
+- Sublistas con 4 espacios.
+- Numeración real: `1.`, `2.`, `3.`.
+- Línea en blanco antes y después de cada bloque de lista.
 
 ---
 
-## 6 · Código, tags y ejemplos
+## 5 · Código y tags
 
-- *Tags y nombres de archivo en línea con comillas invertidas:* `` `[Chorus]` ``, `` `style_box` ``, `` `composicion/letra.md` ``.
-- *Bloques de código siempre cercados y con lenguaje* (`MD040` + `MD046`):
+Usa backticks para nombres técnicos:
+
+```markdown
+`style_box`
+`lyrics_box`
+`composicion/letra.md`
+`[Chorus]`
+```
+
+Todo bloque de código debe ir cercado y con lenguaje:
 
 ```text
-[Intro: fast frantic piano solo]
-[Verse: chaotic piano]
+[Verse: tense, low vocal delivery]
+La noche se abre despacio
 ```
 
-- *Lenguajes útiles aquí:* `text` (letra, prompts, cajas), `markdown` (mostrar sintaxis md), `jsonc` (config comentada), `json`, `bash`.
-- *Aísla el bloque con una línea en blanco antes y después* (`MD031`).
-- *Ejemplos dentro de una lista:* introdúcelos con un `**Ejemplo:**` en negrita y, debajo, el bloque cercado o líneas en `` `backticks` ``.
+Lenguajes habituales:
+
+| Uso                 | Lenguaje   |
+| ------------------- | ---------- |
+| Letras y prompts    | `text`     |
+| Markdown de ejemplo | `markdown` |
+| Configuración VS    | `json`     |
+| Comandos            | `bash`     |
+
+No uses bloques indentados como código. Usa siempre vallas de tres backticks.
 
 ---
 
-## 7 · Saltos de línea y espaciado
+## 6 · Tablas
 
-- *Fin de línea LF.*
-- *Separación de párrafos:* una línea en blanco entre bloques.
-- *Salto de línea real dentro de un párrafo:* dos espacios al final de la línea.
-- *Sin tabuladores:* solo espacios (indentación de 4).
-- *Fin de archivo:* una única línea en blanco final (tu `insertFinalNewline` + `trimFinalNewlines` lo garantizan).
-- *Separadores `---`:* úsalos para partir grandes bloques (cabecera, índice, cuerpo), rodeados de línea en blanco.
-
----
-
-## 8 · Tablas
-
-- *Markdown All in One realinea las tablas al guardar:* escribe la estructura correcta y deja que el formateador cuadre el ancho.
-- *Toda tabla necesita fila de cabecera y fila separadora* `| --- | --- |`.
+Toda tabla debe tener cabecera y separador.
 
 ```markdown
-| Campo     | Descripción         |
-| --------- | ------------------- |
-| style_box | El molde sónico.    |
-| letra     | El alma de la obra. |
+| Campo     | Uso             |
+| --------- | --------------- |
+| style_box | Molde sonoro    |
+| letra     | Texto cantable  |
+| tags      | Control técnico |
 ```
 
-- *No indentes las tablas* dentro de listas si puedes evitarlo (descuadra el normalizador).
+Reglas:
+
+- No indentes tablas dentro de listas si puedes evitarlo.
+- Deja que Markdown All in One las alinee.
+- No uses tablas para contenido largo; mejor secciones.
 
 ---
 
-## 9 · Enlaces
+## 7 · Enlaces y rutas
 
-- *Enlaces relativos entre archivos del proyecto:* `[letra.md](../composicion/letra.md)`.
-- *URLs sueltas permitidas* (`MD034` off), pero para texto limpio prefiere `[texto](url)`.
-- *HTML permitido* (`MD033` off) solo si Markdown no llega; por defecto, evítalo.
-- *Al mover un archivo, VS Code corrige los enlaces internos* (`updateLinksOnFileMove`), revisa que no quede ninguno roto.
+Usa rutas relativas con `/`, aunque trabajes en Windows.
+
+Correcto:
+
+```markdown
+[letra](../composicion/letra.md)
+`proyectos/60_granos/60_granos.md`
+```
+
+Evita:
+
+```markdown
+C:\Users\Angel\...
+proyectos\60_granos\60_granos.md
+```
+
+Semántica de carga:
+
+| Forma       | Uso                                     |
+| ----------- | --------------------------------------- |
+| `@ruta`     | Carga ansiosa, solo núcleo pequeño.     |
+| `ruta`      | Lectura bajo demanda.                   |
+| `[texto]()` | Enlace Markdown para navegación humana. |
+
+Regla de oro:
+
+```text
+No cargar carpetas enteras. Abrir solo el archivo necesario.
+```
 
 ---
 
-## 10 · Estilo de la casa
+## 8 · YAML
 
-- *Convenciones propias del proyecto, además de las reglas del linter:*
-    - *H1* = nombre del archivo o slug (`# letra`, `# escuela_de_calor`).
-    - *Línea de intención** bajo el título o el encabezado, en cursiva: `- *Para qué sirve esto.*`
-    - *Recordatorio de consulta** en las hojas de conocimiento: `*Recordatorio: consulta por búsqueda (grep) o salto por sección.*`
-    - *Secciones* `## N · Título`, *subsecciones* `### N.N · Título`, con `·` de separación.
-    - *Tags de campo* en negrita con dos puntos: `**Ejemplo:**`, `**Regla:**`, `**Sintaxis:**`.
-    - *Tags* siempre entre backticks y corchetes `[ejemplo]`.
-    - *Separadores `---`* entre cabecera, índice y cuerpo.
-    - [Corchete]: "Esto es una tag". Le dice a la máquina que lo que hay dentro es una categoría o un ajuste, no texto normal.
-    - **Negrita**: Indica que esa instrucción es crítica, de prioridad máxima e innegociable.
-    - *Cursiva*: Un subrayado ligero para darle un poco más de peso a esa palabra.
-    - "Comillas": Obliga a usar exactamente lo escrito, letra por letra, sin interpretaciones.
-    - `Backtick`: Avisa de que la palabra es técnica y no debe analizarse como lenguaje natural.
-    - <Nombre>: Marca dónde irá un dato futuro o envuelve un bloque de reglas.
-    - {Nombre}: Agrupa información emparejada (como una ficha) para no mezclarla.
-    - ^Nombre^: Fija el inicio de un texto al milímetro o marca un superíndice matemático.
+El YAML sirve para que el archivo sea identificable por herramientas y agentes.
+
+Úsalo en:
+
+- Skills.
+- Rules.
+- Plantillas.
+- Conocimientos.
+- Jergas.
+- Fonetizaciones.
+- Proyectos terminados si se quiere indexación futura.
+
+Forma mínima:
+
+```yaml
+---
+name: nombre
+type: tipo
+description: Descripción corta.
+---
+```
+
+Tipos recomendados:
+
+| Tipo            | Uso                         |
+| --------------- | --------------------------- |
+| `skill`         | Skills de `.claude/skills/` |
+| `map`           | Índices de `.claude/rules/` |
+| `plantilla`     | Archivos de `chuletas/`     |
+| `conocimientos` | Documentos técnicos         |
+| `jerga`         | Guías de jerga              |
+| `fonetizacion`  | Guías de fonetización       |
+| `proyecto`      | Obras cerradas              |
+| `core`          | Contexto raíz               |
+| `memory`        | Memoria transversal         |
+
+No metas contenido largo en YAML. El YAML identifica; el cuerpo explica.
 
 ---
 
-## 11 · Checklist antes de guardar
+## 9 · Convenciones de casa
 
-1. Un solo `# H1`; jerarquía sin saltos (`#` a `##` a `###`).
-2. Línea en blanco antes y después de cada encabezado, lista y bloque de código.
-3. Viñetas con `-`; sublistas a 4 espacios; numeradas correlativas.
-4. Negrita `**...**`, cursiva `*...*`.
-5. Bloques de código cercados y con lenguaje.
-6. Índice alineado con los encabezados reales.
-7. Tablas con cabecera y separador.
-8. LF, indentación de 4 espacios, una única línea en blanco al final.
+| Elemento       | Convención                               |
+| -------------- | ---------------------------------------- |
+| H1             | Slug o nombre real del archivo           |
+| Índice         | Líneas con backticks y punto medio `·`   |
+| Separador      | `---` entre bloques grandes              |
+| Cursiva        | Línea de intención o nota suave          |
+| Negrita        | Campo, aviso o concepto clave            |
+| Backticks      | Tags, rutas, comandos y nombres técnicos |
+| Tags musicales | En inglés si son técnicas o generadas    |
+| Letra          | Español salvo indicación contraria       |
+| Rutas          | Relativas y con `/`                      |
+
+Ejemplo de línea de intención:
+
+```markdown
+- *Guía para construir el `style_box` sin cargar toda la CHUPILISTA.*
+```
+
+---
+
+## 10 · Checklist final
+
+Antes de guardar:
+
+1. Hay un solo `# H1`.
+2. El YAML está cerrado con `---`.
+3. Los encabezados no saltan niveles.
+4. Las listas usan `-` y sublistas de 4 espacios.
+5. Los bloques de código tienen lenguaje.
+6. Las rutas son relativas y usan `/`.
+7. Las tablas tienen cabecera y separador.
+8. No hay carpetas completas cargadas con `@`.
+9. El archivo acaba con una única línea final.
