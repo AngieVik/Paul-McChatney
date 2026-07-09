@@ -1,8 +1,11 @@
-# Guía de Fonetización en Español: Dialecto Mexicano (Centro)
-
-**Notas de Configuración Fonética:** Sistema fonológico caracterizado por el seseo, el yeísmo (sin rehilamiento) y un notable conservadurismo en las consonantes finales. Destaca el debilitamiento extremo o elisión de las vocales átonas, especialmente en contacto con la letra 's'.
-
 ---
+name: mexicano_centro
+type: fonetizaciones
+description: Sistema fonológico caracterizado por el seseo, el yeísmo (sin rehilamiento) y un notable conservadurismo en las consonantes finales. Destaca el debilitamiento extremo o elisión de las vocales átonas, especialmente en contacto con la letra 's'.
+region: Dialecto Mexicano (Centro)
+---
+
+# mexicano_centro 
 
 ## Perfil Fonético General
 
@@ -15,10 +18,10 @@ Una introducción al "carácter" del idioma para establecer la postura articulat
 
 Adaptación del sistema vocálico complejo del idioma origen a las 5 vocales puras del español.
 
-| Patrón \ Grafía Original | Regla de Transformación | Equivalencia Fonética | Ejemplo Práctico |
-| :--- | :--- | :--- | :--- |
-| Vocal tónica de énfasis | Se alarga notablemente en la penúltima sílaba para concluir un enunciado | **a-a \ e-e \ i-i \ o-o \ u-u** | *¡Órale!* → **ó-ó ra le** |
-| Vocal átona (especialmente junto a 's') | Se reduce al punto del ensordecimiento o supresión completa | Desaparece o suena como un soplido leve | *Pesos* → **pé s-s** |
+| Patrón \ Grafía Original                | Regla de Transformación                                                  | Equivalencia Fonética                   | Ejemplo Práctico          |
+| --------------------------------------- | ------------------------------------------------------------------------ | --------------------------------------- | ------------------------- |
+| Vocal tónica de énfasis                 | Se alarga notablemente en la penúltima sílaba para concluir un enunciado | **a-a \ e-e \ i-i \ o-o \ u-u**         | *¡Órale!* → **ó-ó ra le** |
+| Vocal átona (especialmente junto a 's') | Se reduce al punto del ensordecimiento o supresión completa              | Desaparece o suena como un soplido leve | *Pesos* → **pé s-s**      |
 
 - **Diptongos clave:** Fuerte tendencia a mantener los diptongos y a convertir los hiatos en diptongos forzados mediante sinalefa. Ej. "toalla" se reduce: *toalla* → **t-wá sha** (o **t-wá ya**).
 
@@ -26,11 +29,11 @@ Adaptación del sistema vocálico complejo del idioma origen a las 5 vocales pur
 
 Cómo representar fonemas que no existen en el español usando nuestras grafías.
 
-| Sonido de Origen (IPA) | Descripción Articulatoria | Fonetización en Español |
-| :--- | :--- | :--- |
-| \s\ (coronal-dental) | Fricativa alveolar sorda plana (Seseo) | **s** (sustituye siempre a 'z' y 'c' ante e/i) |
-| \r̝\ | Fricativa vibrante asibilada (con ligero zumbido) | **r-r** (mezcla de 'r' suave con una 'sh') |
-| \x\ | Fricativa velar sorda (suave) | **j** (menos áspera que la jota peninsular) |
+| Sonido de Origen (IPA) | Descripción Articulatoria                         | Fonetización en Español                        |
+| ---------------------- | ------------------------------------------------- | ---------------------------------------------- |
+| \s\ (coronal-dental)   | Fricativa alveolar sorda plana (Seseo)            | **s** (sustituye siempre a 'z' y 'c' ante e/i) |
+| \r̝\                    | Fricativa vibrante asibilada (con ligero zumbido) | **r-r** (mezcla de 'r' suave con una 'sh')     |
+| \x\                    | Fricativa velar sorda (suave)                     | **j** (menos áspera que la jota peninsular)    |
 
 - **Consonantes mudas:** La 'p' en el grupo 'ps' inicial suele pronunciarse completa y tensa a diferencia de otros dialectos (ej. psicología → **psi ko lo jí a**).
 
@@ -54,12 +57,12 @@ Advertencias sobre combinaciones de letras que inducen al error por lectura lite
 Disección de palabras clave aplicando las reglas anteriores.
 
 - **Palabra:** `Entonces` (Entonces)
-  - *Desglose:* Seseo completo. Frecuente ensordecimiento extremo de la 'e' final quedando absorbida por la 's'.
-  - *Fonetización final:* **en tón s-s**
+    - *Desglose:* Seseo completo. Frecuente ensordecimiento extremo de la 'e' final quedando absorbida por la 's'.
+    - *Fonetización final:* **en tón s-s**
 
 - **Palabra:** `Trigo` (Trigo)
-  - *Desglose:* El clúster 'tr' presenta la característica asibilación, produciendo un sonido arrastrado.
-  - *Fonetización final:* **tr-rí go**
+    - *Desglose:* El clúster 'tr' presenta la característica asibilación, produciendo un sonido arrastrado.
+    - *Fonetización final:* **tr-rí go**
 
 ---
 
@@ -84,9 +87,9 @@ Definición de cómo los hablantes nativos de este idioma distorsionan los fonem
 ### Casos Prácticos de Aplicación (Lectura Extranjerizada)
 
 - **Palabra Española:** `Zapatos`
-  - *Desglose de Interferencia:* Seseo en posición inicial. La vocal 'o' de la última sílaba experimenta ensordecimiento total.
-  - *Fonetización simulada:* **sa pá t-s**
+    - *Desglose de Interferencia:* Seseo en posición inicial. La vocal 'o' de la última sílaba experimenta ensordecimiento total.
+    - *Fonetización simulada:* **sa pá t-s**
 
 - **Palabra Española:** `Verdad`
-  - *Desglose de Interferencia:* Asibilación de la 'r' en posición de cierre silábico. Conservación tensa de la 'd' final a diferencia del debilitamiento ibérico.
-  - *Fonetización simulada:* **ber-r dád**
+    - *Desglose de Interferencia:* Asibilación de la 'r' en posición de cierre silábico. Conservación tensa de la 'd' final a diferencia del debilitamiento ibérico.
+    - *Fonetización simulada:* **ber-r dád**

@@ -1,15 +1,17 @@
 ---
 name: style-box
+type: skill
 description: construye solo el style_box (+ exclude_box) de una obra consultando CHUPILISTA (Fase 1 aislada).
 ---
 
 # style-box
 
-- Construye **solo** el `style_box` (+ `exclude_box`) de una obra, sin escribir letra. Es la Fase 1 aislada — ideal para iterar rápido sobre el molde sonoro.
+- Construye **solo** el `style_box` (+ `exclude_box`) de una obra, sin escribir letra. ideal para iterar rápido sobre el molde sonoro.
 
 ## Cuándo se activa
 
-- Necesitas el molde sonoro de una obra sin escribir letra: arranque de Fase 1 o iteración rápida.
+- **Se solicita explícitamente** el molde sonoro sobre un mood u obra o escritura suelta.
+- **Fase 1** de `produccion`.
 
 ## Pasos
 
@@ -28,11 +30,11 @@ description: construye solo el style_box (+ exclude_box) de una obra consultando
 ## Entra → Sale
 
 - **Entra:** género/mood, idioma de la letra y referencias.
-- **Sale:** `style_box` (≤20 palabras) + una línea de `exclude_box`, cada uno en su bloque de código markdown (`composicion/formato.md` §2).
+- **Sale:** `style_box` (≤20 palabras) + una línea de `exclude_box`, cada uno en su bloque de código markdown (`composicion/formato.md §2`).
 
 ## Relación
 
-- Es la **Fase 1** de `produccion`. Se apoya en `buscar-tag` y `fusionar`.
+- La llama `buscar-tag` y `fusionar` en **Fase 1** de `produccion`.
 
 ## Ejemplo
 

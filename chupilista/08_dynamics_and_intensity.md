@@ -1,6 +1,6 @@
 # dynamics_and_intensity
 
-*Colección de etiquetas que definen la evolución de la energía, las transiciones de volumen, los impactos dramáticos y el uso del espacio dinámico en la producción musical.*
+*Colección de Tags que definen la evolución de la energía, las transiciones de volumen, los impactos dramáticos y el uso del espacio dinámico en la producción musical.*
 *Recordatorio: se consulta por búsqueda (grep) o saltando a una sección.*
 
 ---

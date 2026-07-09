@@ -1,5 +1,6 @@
 ---
 name: proyecto
+type: skill
 description: Crea y gestiona el archivo de trabajo de una obra. Primer paso de cualquier creación.
 ---
 
@@ -11,10 +12,10 @@ description: Crea y gestiona el archivo de trabajo de una obra. Primer paso de c
 
 ## Cuándo se activa
 
-- Al solicitar explícitamente `crear` un mood u obra.
-- Al solicitar explícitamente `listar` moods u obras aprobadas o en proceso.
-- Al solicitar explícitamente `retomar` un proyecto aprobado o en proceso.
-- La invoca `produccion` en la Fase 0 (`crear` el archivo) y al `aprobar` (migrar a terminados).
+- **Al solicitar explícitamente** `crear` un mood u obra.
+- **Al solicitar explícitamente** `listar` moods u obras aprobadas o en proceso.
+- **Al solicitar explícitamente** `retomar` un proyecto aprobado o en proceso.
+- *La invoca **Fase 0** en `produccion`, para `crear` el archivo, al `aprobar` migrar a terminados.
 
 ## Relación
 

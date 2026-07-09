@@ -1,8 +1,11 @@
-# Guía de Jerga y Modismos: Parlache (Medellín - Colombia)
-
-**Contexto Sociolingüístico:** Argot urbano surgido en las comunas populares y barriadas periféricas de Medellín durante las décadas de 1980 y 1990, coincidiendo con la época de mayor violencia del narcotráfico. Nació como un código cerrado de supervivencia y delincuencia, pero con el tiempo, impulsado por las telenovelas, la cultura hip-hop y el reggaetón, permeó todas las capas sociales. Hoy es la columna vertebral del habla coloquial de la juventud antioqueña y colombiana en general.
-
 ---
+name: parlache_medellin
+type: jerga
+description: Argot urbano surgido en las comunas populares y barriadas periféricas de Medellín durante las décadas de 1980 y 1990, coincidiendo con la época de mayor violencia del narcotráfico. Nació como un código cerrado de supervivencia y delincuencia, pero con el tiempo, impulsado por las telenovelas, la cultura hip-hop y el reggaetón, permeó todas las capas sociales. Hoy es la columna vertebral del habla coloquial de la juventud antioqueña y colombiana en general.
+region: Parlache (Medellín - Colombia)
+---
+
+# parlache_medellin
 
 ## Perfil Lexical General
 
@@ -16,14 +19,14 @@ Una introducción al "carácter" del vocabulario para entender la mentalidad y e
 
 Mapeo de las palabras clave esenciales para la supervivencia conversacional en este entorno.
 
-| Término / Expresión | Significado Estándar | Registro / Tono | Ejemplo Práctico (En Contexto) |
-| :--- | :--- | :--- | :--- |
-| **Parce / Parcero** | Amigo, compañero inseparable | Universal / Amistoso | *Quiubo, parce.* → "Hola, amigo." |
-| **Camello** | Trabajo, empleo arduo | Cotidiano / Neutro | *Mañana madrugo pal camello.* → "Mañana me levanto temprano para ir al trabajo." |
-| **Lucas** | Dinero (específicamente billetes de mil pesos) | Coloquial / Neutro | *Présteme diez lucas.* → "Présteme diez mil pesos." |
-| **Paila / Pailas** | Estar mal, arruinado o sin opciones ("Game over") | Coloquial / Resignación | *Uy parce, ya paila.* → "Uy amigo, ya no hay nada que hacer / es demasiado tarde." |
-| **Farra** | Fiesta, rumba | Juvenil / Festivo | *Hoy hay farra en el barrio.* → "Hoy hay fiesta en el barrio." |
-| **Visaje** | Llamar la atención de forma innecesaria o peligrosa | Marginal / Advertencia | *No dé visaje por aquí.* → "No llame la atención por esta zona." |
+| Término / Expresión | Significado Estándar                                | Registro / Tono         | Ejemplo Práctico (En Contexto)                                                     |
+| ------------------- | --------------------------------------------------- | ----------------------- | ---------------------------------------------------------------------------------- |
+| **Parce / Parcero** | Amigo, compañero inseparable                        | Universal / Amistoso    | *Quiubo, parce.* → "Hola, amigo."                                                  |
+| **Camello**         | Trabajo, empleo arduo                               | Cotidiano / Neutro      | *Mañana madrugo pal camello.* → "Mañana me levanto temprano para ir al trabajo."   |
+| **Lucas**           | Dinero (específicamente billetes de mil pesos)      | Coloquial / Neutro      | *Présteme diez lucas.* → "Présteme diez mil pesos."                                |
+| **Paila / Pailas**  | Estar mal, arruinado o sin opciones ("Game over")   | Coloquial / Resignación | *Uy parce, ya paila.* → "Uy amigo, ya no hay nada que hacer / es demasiado tarde." |
+| **Farra**           | Fiesta, rumba                                       | Juvenil / Festivo       | *Hoy hay farra en el barrio.* → "Hoy hay fiesta en el barrio."                     |
+| **Visaje**          | Llamar la atención de forma innecesaria o peligrosa | Marginal / Advertencia  | *No dé visaje por aquí.* → "No llame la atención por esta zona."                   |
 
 - **Nota de intensidad:** Muchas veces se usa el verbo "dar" asociado a sustantivos para describir acciones continuadas (ej. "dar lora" es hablar demasiado; "dar visaje" es hacerse notar).
 
@@ -31,11 +34,11 @@ Mapeo de las palabras clave esenciales para la supervivencia conversacional en e
 
 Las palabras vacías o de apoyo que dan fluidez y naturalidad al discurso, aunque carezcan de significado literal.
 
-| Marcador | Función Discursiva | Equivalencia Estándar |
-| :--- | :--- | :--- |
-| **Pues** | Acelerador del discurso. Cierra órdenes, sugerencias o despedidas. | "Entonces", "Vamos" |
-| **Hágale** | Otorga permiso, confirma una acción o anima a hacer algo. | "Adelante", "De acuerdo" |
-| **Nea / Ñero** | Vocativo que originalmente refería a un delincuente de barrio, hoy asimilado como un "tío" o "colega" callejero. | "Tío", "Colega" |
+| Marcador       | Función Discursiva                                                                                               | Equivalencia Estándar    |
+| -------------- | ---------------------------------------------------------------------------------------------------------------- | ------------------------ |
+| **Pues**       | Acelerador del discurso. Cierra órdenes, sugerencias o despedidas.                                               | "Entonces", "Vamos"      |
+| **Hágale**     | Otorga permiso, confirma una acción o anima a hacer algo.                                                        | "Adelante", "De acuerdo" |
+| **Nea / Ñero** | Vocativo que originalmente refería a un delincuente de barrio, hoy asimilado como un "tío" o "colega" callejero. | "Tío", "Colega"          |
 
 - **Regla de oro de la muletilla:** El "pues" antioqueño rara vez va al principio de la oración; su lugar natural es el final, a menudo fusionado con el verbo ("Hágale pues", "Venga pues").
 
@@ -52,28 +55,30 @@ Cómo la jerga altera la estructura de las palabras regulares del idioma.
 Advertencias críticas sobre términos del español estándar que en esta jerga tienen un significado completamente distinto (y potencialmente problemático).
 
 - **Chimba:** 
-  - *Significado normal:* Vulgarismo para los genitales femeninos en varios países.
-  - *Significado en la jerga:* Si es "Una chimba", significa excelente, bellísimo o genial ("Qué chimba de moto"). Si es "Ni chimba", significa "absolutamente nada".
-  - *Nivel de peligro:* Alto (Requiere dominio absoluto del tono y contexto para no sonar vulgar, aunque en Colombia está muy normalizado).
+    - *Significado normal:* Vulgarismo para los genitales femeninos en varios países.
+    - *Significado en la jerga:* Si es "Una chimba", significa excelente, bellísimo o genial ("Qué chimba de moto"). Si es "Ni chimba", significa "absolutamente nada".
+    - *Nivel de peligro:* Alto (Requiere dominio absoluto del tono y contexto para no sonar vulgar, aunque en Colombia está muy normalizado).
 - **Gonorrea:**
-  - *Significado normal:* Enfermedad de transmisión sexual.
-  - *Significado en la jerga:* Expresión polivalente de intensidad máxima. Puede ser el peor de los insultos, una exclamación de asombro ("¡Qué gonorrea!") o, extrañamente, un saludo entre amigos muy íntimos ("¿Qué más, gonorrea?").
-  - *Nivel de peligro:* Crítico (Fuera del círculo de máxima confianza, es una agresión verbal severa).
+    - *Significado normal:* Enfermedad de transmisión sexual.
+    - *Significado en la jerga:* Expresión polivalente de intensidad máxima. Puede ser el peor de los insultos, una exclamación de asombro ("¡Qué gonorrea!") o, extrañamente, un saludo entre amigos muy íntimos ("¿Qué más, gonorrea?").
+    - *Nivel de peligro:* Crítico (Fuera del círculo de máxima confianza, es una agresión verbal severa).
 - **Sapo:**
-  - *Significado normal:* Anfibio.
-  - *Significado en la jerga:* Delator, chivato, entrometido.
-  - *Nivel de peligro:* Alto (En contextos de calle, que te llamen "sapo" es una amenaza a la integridad física).
+    - *Significado normal:* Anfibio.
+    - *Significado en la jerga:* Delator, chivato, entrometido.
+    - *Nivel de peligro:* Alto (En contextos de calle, que te llamen "sapo" es una amenaza a la integridad física).
 
 ## Casos Prácticos de Aplicación (Diálogo Decodificado)
 
 Disección de frases completas aplicando el vocabulario y las reglas anteriores.
 
 ### Frase de Ejemplo 1: Planificando la salida
+
 - **Original en Jerga:** `Quiubo parce, hágale pues, póngase bonito que la farra de esta noche va a estar una chimba.`
-  - *Desglose Lexical:* "Quiubo" (Qué hubo) es el saludo estándar. "Parce" es el amigo. "Hágale pues" apresura la acción. "Farra" es la fiesta. "Una chimba" califica el evento como excelente o espectacular.
-  - *Traducción Estándar:* **"Hola amigo, anímate y arréglate, porque la fiesta de esta noche va a ser excelente."**
+    - *Desglose Lexical:* "Quiubo" (Qué hubo) es el saludo estándar. "Parce" es el amigo. "Hágale pues" apresura la acción. "Farra" es la fiesta. "Una chimba" califica el evento como excelente o espectacular.
+    - *Traducción Estándar:* **"Hola amigo, anímate y arréglate, porque la fiesta de esta noche va a ser excelente."**
 
 ### Frase de Ejemplo 2: Situación de tensión en la calle
+
 - **Original en Jerga:** `Uy nea, paila. Me quedé sin lucas, ese man me está dando mucho visaje y no quiero que traiga a los tombos.`
-  - *Desglose Lexical:* "Uy nea" denota preocupación con un colega. "Paila" indica que la situación es mala. "Sin lucas" es no tener dinero. "Ese man" es ese sujeto. "Dando visaje" es llamar la atención negativamente o mirar de forma sospechosa. "Tombos" es la policía.
-  - *Traducción Estándar:* **"Uy amigo, qué mal. Me he quedado sin dinero, ese sujeto me está mirando de forma muy sospechosa y no quiero que llame a la policía."**
+    - *Desglose Lexical:* "Uy nea" denota preocupación con un colega. "Paila" indica que la situación es mala. "Sin lucas" es no tener dinero. "Ese man" es ese sujeto. "Dando visaje" es llamar la atención negativamente o mirar de forma sospechosa. "Tombos" es la policía.
+    - *Traducción Estándar:* **"Uy amigo, qué mal. Me he quedado sin dinero, ese sujeto me está mirando de forma muy sospechosa y no quiero que llame a la policía."**

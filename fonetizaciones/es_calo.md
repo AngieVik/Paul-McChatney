@@ -1,8 +1,11 @@
-# Guía de Fonetización en Español: Caló (Romaní Ibérico / Calé)
-
-**Notas de Configuración Fonética:** Sistema lingüístico parasitario (lengua mixta). El caló contemporáneo carece de una fonología o gramática independiente; incrusta léxico de origen romaní directamente sobre la matriz fonotáctica y morfológica del castellano, aplicando de forma estricta las reglas del macrodialecto andaluz o meridional.
-
 ---
+name:es_calo
+type: fonetizaciones
+description: Sistema lingüístico parasitario (lengua mixta). El caló contemporáneo carece de una fonología o gramática independiente; incrusta léxico de origen romaní directamente sobre la matriz fonotáctica y morfológica del castellano, aplicando de forma estricta las reglas del macrodialecto andaluz o meridional.
+region: Caló (Romaní Ibérico / Calé)
+---
+
+# es_calo
 
 ## 1 · Perfil Fonético General
 
@@ -15,11 +18,11 @@ El caló se articula utilizando exclusivamente el aparato fonador y los hábitos
 
 El sistema vocálico es el pentavocálico estándar del castellano (/a, e, i, o, u/), pero sometido a las leyes de alargamiento compensatorio por la pérdida de consonantes implosivas.
 
-| Patrón / Grafía Original | Regla de Transformación | Equivalencia Fonética | Ejemplo Práctico |
-| :--- | :--- | :--- | :--- |
-| **a, e, i, o, u** | Lectura pura en sílabas libres | **a, e, i, o, u** | *gachó* → **ga chó** |
-| **Vocal + s/r** (final) | Elisión de la consonante y alargamiento de la vocal | **V-** (elongada) | *camelar* → **ka me lá-** |
-| **e, o** (átonas finales) | Tendencia al cerramiento relajado (zonas rurales) | **i, u** (débiles) | *pure* → **pú ri** |
+| Patrón / Grafía Original  | Regla de Transformación                             | Equivalencia Fonética | Ejemplo Práctico          |
+| ------------------------- | --------------------------------------------------- | --------------------- | ------------------------- |
+| **a, e, i, o, u**         | Lectura pura en sílabas libres                      | **a, e, i, o, u**     | *gachó* → **ga chó**      |
+| **Vocal + s/r** (final)   | Elisión de la consonante y alargamiento de la vocal | **V-** (elongada)     | *camelar* → **ka me lá-** |
+| **e, o** (átonas finales) | Tendencia al cerramiento relajado (zonas rurales)   | **i, u** (débiles)    | *pure* → **pú ri**        |
 
 - **Diptongos clave:** Suelen conservarse los diptongos originarios del romaní adaptados a la fonética española (ej. *najis* / *nais* → **náij**). Las coalescencias por pérdida de '-d-' intervocálica son obligatorias.
 
@@ -27,14 +30,14 @@ El sistema vocálico es el pentavocálico estándar del castellano (/a, e, i, o,
 
 El caló perdió todos los fonemas exclusivos del romaní clásico (como las consonantes aspiradas puras /pʰ, tʰ, kʰ/ o las retroflejas). Su inventario es un calco del andaluz.
 
-| Sonido de Origen (IPA) | Descripción Articulatoria | Fonetización en Español |
-| :--- | :--- | :--- |
-| **s / z** (coda final) | Aspiración glotal sorda o elisión. | **j** (suave/exhalada) o **Ø** |
-| **s / c / z** (inicio) | Seseo coronal o Ceceo interdental (según zona). | **s** (plana) o **z** |
-| **ch** (/tʃ/) | Africada postalveolar sorda (muy frecuente en léxico romaní). | **ch** |
-| **j / g** (+e, i) | Fricativa glotal aspirada (nunca velar estridente). | **j** (susurrada, tipo 'h' inglesa) |
-| **d** (intervocálica/final) | Elisión matemática absoluta. | **Ø** (muda) |
-| **r** (final) | Elisión absoluta o asimilación a la consonante siguiente. | **Ø** |
+| Sonido de Origen (IPA)      | Descripción Articulatoria                                     | Fonetización en Español             |
+| --------------------------- | ------------------------------------------------------------- | ----------------------------------- |
+| **s / z** (coda final)      | Aspiración glotal sorda o elisión.                            | **j** (suave/exhalada) o **Ø**      |
+| **s / c / z** (inicio)      | Seseo coronal o Ceceo interdental (según zona).               | **s** (plana) o **z**               |
+| **ch** (/tʃ/)               | Africada postalveolar sorda (muy frecuente en léxico romaní). | **ch**                              |
+| **j / g** (+e, i)           | Fricativa glotal aspirada (nunca velar estridente).           | **j** (susurrada, tipo 'h' inglesa) |
+| **d** (intervocálica/final) | Elisión matemática absoluta.                                  | **Ø** (muda)                        |
+| **r** (final)               | Elisión absoluta o asimilación a la consonante siguiente.     | **Ø**                               |
 
 - **Consonantes mudas:** La ortografía del caló no está estandarizada. En textos académicos modernos pueden aparecer grafías como 'k' o 'w', pero se leen a la española ('k' = **k**, 'w' = **gu** o **b**). La 'h' es invariablemente muda salvo que represente una antigua aspiración arcaica (leída hoy como **j** suave).
 
@@ -52,16 +55,16 @@ El caló perdió todos los fonemas exclusivos del romaní clásico (como las con
 ## 6 · Casos Prácticos de Aplicación (Lectura Directa)
 
 - **Palabra:** `Chaborró` (Niño / Muchacho gitano)
-  - *Desglose:* La 'ch' se mantiene. La 'b' es bilabial fricativa suave. La vibrante múltiple 'rr' es clara. Acento agudo.
-  - *Fonetización final:* **cha bo rró**
+    - *Desglose:* La 'ch' se mantiene. La 'b' es bilabial fricativa suave. La vibrante múltiple 'rr' es clara. Acento agudo.
+    - *Fonetización final:* **cha bo rró**
 
 - **Palabra:** `Camelar` (Querer / Seducir)
-  - *Desglose:* Verbo romaní adaptado con el sufijo español '-ar'. La 'c' es 'k'. La vibrante simple final ('r') se elide por fonética andaluza, elongando la 'a'.
-  - *Fonetización final:* **ka me lá-**
+    - *Desglose:* Verbo romaní adaptado con el sufijo español '-ar'. La 'c' es 'k'. La vibrante simple final ('r') se elide por fonética andaluza, elongando la 'a'.
+    - *Fonetización final:* **ka me lá-**
 
 - **Palabra:** `Najis` o `Nais` (Gracias)
-  - *Desglose:* Diptongo 'ai' / 'aj'. La 's' final en coda se aspira profundamente transformándose en un soplido ('j' suave) o se elide.
-  - *Fonetización final:* **náij** (o **nái-**)
+    - *Desglose:* Diptongo 'ai' / 'aj'. La 's' final en coda se aspira profundamente transformándose en un soplido ('j' suave) o se elide.
+    - *Fonetización final:* **náij** (o **nái-**)
 
 ---
 
@@ -87,13 +90,13 @@ Dado que los hablantes de caló son nativos de español, esta interferencia desc
 ### 7.4 · Casos Prácticos de Aplicación (Lectura Dialectal Extranjerizada)
 
 - **Palabra Española:** `Verdad`
-  - *Desglose de Interferencia:* Fricativización de la 'v' inicial hacia la 'b'. Elisión de la vibrante en coda ('r') asimilándola o alargando la 'e'. Caída fulminante de la 'd' final.
-  - *Fonetización simulada:* **ber dá-**
+    - *Desglose de Interferencia:* Fricativización de la 'v' inicial hacia la 'b'. Elisión de la vibrante en coda ('r') asimilándola o alargando la 'e'. Caída fulminante de la 'd' final.
+    - *Fonetización simulada:* **ber dá-**
 
 - **Palabra Española:** `Nosotros`
-  - *Desglose de Interferencia:* Aspiración o caída de la 's' intervocálica y final. Reducción ocasional del grupo consonántico 'tr'.
-  - *Fonetización simulada:* **no jó tro-** (o **no ó tro-**)
+    - *Desglose de Interferencia:* Aspiración o caída de la 's' intervocálica y final. Reducción ocasional del grupo consonántico 'tr'.
+    - *Fonetización simulada:* **no jó tro-** (o **no ó tro-**)
 
 - **Palabra Española:** `Cuidado`
-  - *Desglose de Interferencia:* Caída de la 'd' intervocálica. Fusión del diptongo restante.
-  - *Fonetización simulada:* **kui dá o**
+    - *Desglose de Interferencia:* Caída de la 'd' intervocálica. Fusión del diptongo restante.
+    - *Fonetización simulada:* **kui dá o**

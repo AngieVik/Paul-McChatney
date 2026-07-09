@@ -18,7 +18,7 @@
 
 ### 1 · Tempo, Velocidad y Multiplicadores
 
-*Etiquetas para el control absoluto de los BPM, alteraciones de velocidad, transiciones de tiempo medio (half-time) o doble (double-time), acelerandos y ritardandos.*
+*Tags para el control absoluto de los BPM, alteraciones de velocidad, transiciones de tiempo medio (half-time) o doble (double-time), acelerandos y ritardandos.*
 *Palabras clave: BPM, speed, fast, slow, tempo, accelerando, decelerando, drag, rush, time.*
 
 [0.5x Half-Time Drag]

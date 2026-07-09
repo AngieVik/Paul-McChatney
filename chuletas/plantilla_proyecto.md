@@ -1,8 +1,10 @@
-# plantilla_proyecto
-
-**Plantilla canónica de proyecto.** Cópiala para abrir una canción nueva en `proyectos\<slug>\<slug>.md`. Respeta el orden de secciones y el estilo de relleno; así los agentes futuros mantienen la coherencia del catálogo.
-
 ---
+name: plantilla_proyecto
+type: plantilla
+description: Plantilla canónica de proyecto. Cópiala para abrir una canción nueva en `proyectos\<slug>\<slug>.md`. Respeta el orden de secciones y el estilo de relleno; así los agentes futuros mantienen la coherencia del catálogo.
+---
+
+# plantilla_proyecto
 
 ## 1 · Convenciones de nombre y ubicación
 

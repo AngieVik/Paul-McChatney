@@ -1,9 +1,12 @@
+---
+name: exclude_box
+type: composicion
+description: Prompting inverso y control de artefactos, para bloquear características, instrumentos, clichés no deseados, degradación de la señal, solapamiento de frecuencias y saturación del espacio latente en la generación.
+---
+
 # exclude_box
 
-*Prompting inverso y control de artefactos, para bloquear características, instrumentos, clichés no deseados, degradación de la señal, solapamiento de frecuencias y saturación del espacio latente en la generación.*
 *Recordatorio: consulta por búsqueda (grep) o salto por sección.*
-
----
 
 ## Índice
 
@@ -18,7 +21,7 @@
 
 ## 1 · Instrucciones exclude_box
 
-- *Genera una línea de etiquetas, separadas por comas, para bloquear características. Puedes apoyarte en `chupilista/15_negative_prompts_and_exclude_styles.md` van exclusivamente en `exclude_box`.*
+- *Genera una línea de tags, separadas por comas, para bloquear características. Puedes apoyarte en `chupilista/15_negative_prompts_and_exclude_styles.md` van exclusivamente en `exclude_box`.*
     - **Ejemplo:**
       `cuban, reggaeton, piano, grand piano, soft ambient intro, mellow, slow tempo, quiet silence, crooner, romantic ballad, latin pop, generic edm, lo-fi, standard reggaeton`
 

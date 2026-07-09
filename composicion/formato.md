@@ -1,9 +1,12 @@
+---
+name: formato
+type: composicion
+description: Estructura de salida: todo lo copiable va SIEMPRE en bloque de código markdown (triple acento grave).
+---
+
 # formato
 
-*Estructura de salida: todo lo copiable va SIEMPRE en bloque de código markdown (triple acento grave).*
 *Recordatorio: consulta por búsqueda (grep) o salto por sección.*
-
----
 
 ## Índice
 
@@ -29,7 +32,7 @@ Escribe aquí el contenido del exclude_box
 ```
 
 ```text
-[MOOD: 1 etiqueta de humor + 1 de energía + instrumentos clave].
+[MOOD: 1 tag de humor + 1 de energía + instrumentos clave].
 [PRODUCTION: Aplica comandos de producción]
 
 Escribe aquí el contenido del lyrics_box
@@ -44,5 +47,3 @@ Fuera de la obra completa, entrega **cada pieza pedida en su propio bloque de c�
 - **Una sola pieza** (p. ej. solo `style_box`, solo la letra, un set de tags, un prompt de portada) → un único bloque con esa pieza.
 - **Varias piezas** → un bloque independiente por pieza, en orden lógico.
 - La conversación, la explicación y el razonamiento van SIEMPRE **fuera** de los bloques; dentro, solo el contenido copiable.
-
----

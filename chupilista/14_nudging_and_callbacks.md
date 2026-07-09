@@ -331,7 +331,7 @@
 
 ### 2 · Gestión de Pistas y Arreglos
 
-*Etiquetas destinadas a mutear, aislar, añadir o suprimir elementos específicos de la mezcla de forma abrupta o progresiva.*
+*Tags destinadas a mutear, aislar, añadir o suprimir elementos específicos de la mezcla de forma abrupta o progresiva.*
 *Palabras clave: cut, isolate, remove, mute, fade, add, bring in, strip down, banish.*
 
 [Add tension → filters drop → drums enter]

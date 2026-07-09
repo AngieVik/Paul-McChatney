@@ -1,11 +1,14 @@
+---
+name: plantilla_hoja_sucia
+type: plantilla
+description: Guía conceptual (no estricta) del archivo de trabajo. Cópiala para abrir una obra en `_hojas_sucias/slug.md` (comando `crear`).
+---
+
 # plantilla_hoja_sucia
 
-- Guía conceptual (no estricta) del archivo de trabajo. Cópiala para abrir una obra en `_hojas_sucias/slug.md` (comando `crear`).
 - No hay campos obligatorios: rellena solo lo que aplique, en el orden que surja, y **sobrescribe** según avanza la obra. Es el cuaderno vivo de la canción — captura ideas, inspiraciones y decisiones, no solo el prompt final.
 - Sirve para retomar: al volver (incluso en otra conversación), leer este archivo debe bastar para saber exactamente dónde estabas y por qué.
 - Slug en `snake_case`, sin acentos ni eñes. El `# H1` = el <slug>.
-
----
 
 ## <slug>
 
@@ -31,7 +34,7 @@ Se rellenan según avanzan las fases; sobrescribe el borrador anterior. Rellena 
 
 - **style_box:** molde sónico
 - **letra:** letra limpia o en curso
-- **lyrics_box:** letra etiquetada + [MOOD] / [PRODUCTION]
+- **lyrics_box:** letra + tags + [MOOD] / [PRODUCTION]
 - **exclude_box:** lo que bloquear
 
 ## Decisiones y porqués

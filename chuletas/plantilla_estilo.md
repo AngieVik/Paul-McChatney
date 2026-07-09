@@ -1,10 +1,13 @@
+---
+name: plantilla_estilo
+type: plantilla
+description: Guía de estilo Markdown para escribir archivos del proyecto sin pelear con el linter ni con el formateo al guardar.
+---
+
 # plantilla_estilo
 
-- Guía de estilo Markdown para escribir archivos del proyecto sin pelear con el linter ni con el formateo al guardar.
 - Refleja la configuración real de VS Code (markdownlint de David Anson + Markdown All in One, LF, Prettier excluido de `.md`) y el estilo de la casa de Paul McChatney.
 - Objetivo: que un archivo nuevo pase `source.fixAll` al guardar sin que se reordene ni salten avisos amarillos.
-
----
 
 ## Índice
 
@@ -115,7 +118,7 @@ Elementos sueltos:
 
 ## 5 · Negrita y cursiva
 
-- **Negrita `**...**`:** para etiquetas de campo (`**Ejemplo:**`, `**Regla:**`), términos clave la primera vez que aparecen y avisos críticos. Es señalización, no decoración.
+- **Negrita `**...**`:** para tags de campo (`**Ejemplo:**`, `**Regla:**`), términos clave la primera vez que aparecen y avisos críticos. Es señalización, no decoración.
 - *Cursiva `*...*`:* para líneas descriptivas o meta (glosas, notas de una sección, aclaraciones) y énfasis suave. En la casa, la línea de intención bajo un encabezado va en cursiva: `- *De qué va esta sección.*`
 - *Indicador de cursiva:* asterisco simple `*` (tu config lo fuerza), nunca guion bajo.
 - *Sin espacios dentro de los marcadores:* `**negrita**`, no con espacios interiores.
@@ -182,10 +185,10 @@ Elementos sueltos:
     - *Línea de intención** bajo el título o el encabezado, en cursiva: `- *Para qué sirve esto.*`
     - *Recordatorio de consulta** en las hojas de conocimiento: `*Recordatorio: consulta por búsqueda (grep) o salto por sección.*`
     - *Secciones* `## N · Título`, *subsecciones* `### N.N · Título`, con `·` de separación.
-    - *Etiquetas de campo* en negrita con dos puntos: `**Ejemplo:**`, `**Regla:**`, `**Sintaxis:**`.
+    - *Tags de campo* en negrita con dos puntos: `**Ejemplo:**`, `**Regla:**`, `**Sintaxis:**`.
     - *Tags de Suno* siempre entre `backticks`.
     - *Separadores `---`* entre cabecera, índice y cuerpo.
-    - [Corchete]: "Esto es una etiqueta". Le dice a la máquina que lo que hay dentro es una categoría o un ajuste, no texto normal.
+    - [Corchete]: "Esto es una tag". Le dice a la máquina que lo que hay dentro es una categoría o un ajuste, no texto normal.
     - **Negrita**: "¡Orden absoluta!". Indica que esa instrucción es crítica, de prioridad máxima e innegociable.
     - *Cursiva*: "Fíjate un poco aquí". Un subrayado ligero para darle un poco más de peso a esa palabra.
     - "Comillas": "Literalmente esto". Obliga a usar exactamente lo escrito, letra por letra, sin interpretaciones.

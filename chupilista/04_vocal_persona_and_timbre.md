@@ -1,7 +1,10 @@
 # vocal_persona_and_timbre
 
 *Clasificación de estilos vocales, timbres, emociones y efectos de procesamiento sonoro.*
-*Recordatorio: se consulta por búsqueda (grep) o saltando a una sección*---
+*Recordatorio: se consulta por búsqueda (grep) o saltando a una sección*
+
+---
+
 ## Índice
 
 `1 · Clasificación Vocal Clásica y Tonalidad`
@@ -62,7 +65,7 @@
 
 ### 2 · Identidad, Edad y Género
 
-*Etiquetas que definen la voz por su rango de edad, identidad de género o características demográficas básicas.*
+*Tags que definen la voz por su rango de edad, identidad de género o características demográficas básicas.*
 *Palabras clave: hombre, mujer, niño, anciano, joven, andrógino, edad, género, male, female, kid, old, young, age, gender, identity.*
 
 [Aged Voice]

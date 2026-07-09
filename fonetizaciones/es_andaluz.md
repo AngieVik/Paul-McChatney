@@ -1,8 +1,11 @@
-# Guía de Fonetización en Español: Andaluz (Macrodialecto Meridional General)
-
-**Notas de Configuración Fonética:** Sistema diatópicamente heterogéneo pero unificado por una profunda "economía articulatoria" (debilitamiento de consonantes en posición de coda). Representa la vanguardia fonética de la evolución del castellano, exigiendo la aplicación de leyes de asimilación, elisión y compensación vocálica [Alvar, M. (1996). *Manual de dialectología hispánica*].
-
 ---
+name: es_andaluz
+type: fonetizaciones
+description: Sistema diatópicamente heterogéneo pero unificado por una profunda "economía articulatoria" (debilitamiento de consonantes en posición de coda). Representa la vanguardia fonética de la evolución del castellano, exigiendo la aplicación de leyes de asimilación, elisión y compensación vocálica [Alvar, M. (1996). *Manual de dialectología hispánica*].
+region: Andaluz (Macrodialecto Meridional General)
+---
+
+# es_andaluz
 
 ## 1 · Perfil Fonético General
 
@@ -15,12 +18,12 @@ El andaluz presenta una postura articulatoria relajada en la zona posterior de l
 
 Aunque el andaluz parte del sistema pentavocálico estándar (/a, e, i, o, u/), la pérdida sistemática de la '-s' final desencadena fenómenos compensatorios críticos, especialmente en el subdialecto oriental (donde genera un sistema de hasta 10 vocales fonológicas por grado de apertura). En una fonetización general, se traduce en elongación y exhalación.
 
-| Patrón / Grafía Original | Regla de Transformación | Equivalencia Fonética | Ejemplo Práctico |
-| :--- | :--- | :--- | :--- |
-| **a, e, i, o, u** (libres) | Lectura directa idéntica al estándar | **a, e, i, o, u** | *lobo* → **ló bo** |
-| **as, es, os** (finales) | Caída de 's' + apertura/elongación vocálica | **a-, e-, o-** | *niños* → **ní ño-** |
-| **is, us** (finales) | Caída de 's' + relajación de la vocal | **i-, u-** | *lunes* → **lú ne-** |
-| **Vocal + s/z + consonante** | Asimilación a la consonante siguiente o aspiración | **Vj** (suave) | *casco* → **káj ko** |
+| Patrón / Grafía Original     | Regla de Transformación                            | Equivalencia Fonética | Ejemplo Práctico     |
+| ---------------------------- | -------------------------------------------------- | --------------------- | -------------------- |
+| **a, e, i, o, u** (libres)   | Lectura directa idéntica al estándar               | **a, e, i, o, u**     | *lobo* → **ló bo**   |
+| **as, es, os** (finales)     | Caída de 's' + apertura/elongación vocálica        | **a-, e-, o-**        | *niños* → **ní ño-** |
+| **is, us** (finales)         | Caída de 's' + relajación de la vocal              | **i-, u-**            | *lunes* → **lú ne-** |
+| **Vocal + s/z + consonante** | Asimilación a la consonante siguiente o aspiración | **Vj** (suave)        | *casco* → **káj ko** |
 
 - **Diptongos clave:** Las coalescencias son extremas. Los diptongos estándar se mantienen, pero la caída de consonantes intervocálicas crea nuevos falsos diptongos (ej. *nada* → **ná a** → **ná-**).
 
@@ -28,15 +31,15 @@ Aunque el andaluz parte del sistema pentavocálico estándar (/a, e, i, o, u/), 
 
 El inventario consonántico sufre un proceso de fricativización generalizada y debilitamiento oclusivo.
 
-| Sonido de Origen (IPA) | Descripción Articulatoria | Fonetización en Español |
-| :--- | :--- | :--- |
-| **s / z** (coda silábica) | Fricativa glotal sorda (/h/). Exhalación de aire pura. | **j** (muy suave/exhalada) o **Ø** |
-| **d** (intervocálica) | Elisión total o aproximante ultrarrelajada. | **Ø** (muda) |
-| **j / g** (+ e, i) | Fricativa glotal sorda (/h/). Se pierde la velar castellana (/x/). | **j** (susurrada, tipo 'h' inglesa) |
-| **c / z** (Seseo) | Fricativa coronal plana. | **s** (plana) |
-| **s** (Ceceo) | Fricativa interdental sorda plana. | **z** (interdental suave) |
-| **ch** (/tʃ/) | (Variante) Desafricación a fricativa postalveolar /ʃ/. | **sh** (en zonas específicas) |
-| **r / l** (coda final) | Neutralización, asimilación o caída. | **Ø** o **r/l** (débil) |
+| Sonido de Origen (IPA)    | Descripción Articulatoria                                          | Fonetización en Español             |
+| ------------------------- | ------------------------------------------------------------------ | ----------------------------------- |
+| **s / z** (coda silábica) | Fricativa glotal sorda (/h/). Exhalación de aire pura.             | **j** (muy suave/exhalada) o **Ø**  |
+| **d** (intervocálica)     | Elisión total o aproximante ultrarrelajada.                        | **Ø** (muda)                        |
+| **j / g** (+ e, i)        | Fricativa glotal sorda (/h/). Se pierde la velar castellana (/x/). | **j** (susurrada, tipo 'h' inglesa) |
+| **c / z** (Seseo)         | Fricativa coronal plana.                                           | **s** (plana)                       |
+| **s** (Ceceo)             | Fricativa interdental sorda plana.                                 | **z** (interdental suave)           |
+| **ch** (/tʃ/)             | (Variante) Desafricación a fricativa postalveolar /ʃ/.             | **sh** (en zonas específicas)       |
+| **r / l** (coda final)    | Neutralización, asimilación o caída.                               | **Ø** o **r/l** (débil)             |
 
 - **Consonantes mudas:** La **-d-** en las terminaciones *-ado, -ada, -ido, -ida* es matemática e invariablemente muda en el registro espontáneo. La **-s**, **-r** y **-d** a final absoluto de palabra desaparecen, provocando un alargamiento compensatorio en la vocal previa.
 
@@ -55,16 +58,16 @@ El inventario consonántico sufre un proceso de fricativización generalizada y 
 ## 6 · Casos Prácticos de Aplicación (Lectura Directa)
 
 - **Palabra:** `Pescado` (Pez comestible)
-  - *Desglose:* La 's' en coda se vuelve aspiración glotal ('j' exhalada). La 'd' intervocálica se elide completamente, dejando las dos vocales en hiato liso.
-  - *Fonetización final:* **pej ká o**
+    - *Desglose:* La 's' en coda se vuelve aspiración glotal ('j' exhalada). La 'd' intervocálica se elide completamente, dejando las dos vocales en hiato liso.
+    - *Fonetización final:* **pej ká o**
 
 - **Palabra:** `Más o menos`
-  - *Desglose:* La 's' de *más* se enlaza con la 'o', perdiendo su fricación alveolar y volviéndose una exhalación suave o desapareciendo. La 's' final de *menos* cae, abriendo la 'o'.
-  - *Fonetización final:* **má - o mé no-**
+    - *Desglose:* La 's' de *más* se enlaza con la 'o', perdiendo su fricación alveolar y volviéndose una exhalación suave o desapareciendo. La 's' final de *menos* cae, abriendo la 'o'.
+    - *Fonetización final:* **má - o mé no-**
 
 - **Palabra:** `Los amigos`
-  - *Desglose:* La 's' final de *Los* ante la vocal 'a' se transforma en una suave aspiración sonora ('j' suave). La 's' final cae.
-  - *Fonetización final:* **lo ja mí go-**
+    - *Desglose:* La 's' final de *Los* ante la vocal 'a' se transforma en una suave aspiración sonora ('j' suave). La 's' final cae.
+    - *Fonetización final:* **lo ja mí go-**
 
 ---
 
@@ -89,13 +92,13 @@ Más que una interferencia sobre otro idioma, esta sección define cómo el locu
 ### 7.4 · Casos Prácticos de Aplicación (Lectura Dialectal)
 
 - **Palabra Escritural:** `Cansado`
-  - *Desglose de Interferencia:* Elisión de la 'd' intervocálica en participio. La nasal 'n' relaja su punto de articulación.
-  - *Fonetización simulada:* **kan sá o**
+    - *Desglose de Interferencia:* Elisión de la 'd' intervocálica en participio. La nasal 'n' relaja su punto de articulación.
+    - *Fonetización simulada:* **kan sá o**
 
 - **Palabra Escritural:** `Cádiz`
-  - *Desglose de Interferencia:* Caída fulminante de la fricativa interdental final ('z'). Alargamiento de la 'i' remanente. Seseo o Ceceo aplicado a la 'c' inicial según el hablante (simularemos seseo generalizado).
-  - *Fonetización simulada:* **ká di-**
+    - *Desglose de Interferencia:* Caída fulminante de la fricativa interdental final ('z'). Alargamiento de la 'i' remanente. Seseo o Ceceo aplicado a la 'c' inicial según el hablante (simularemos seseo generalizado).
+    - *Fonetización simulada:* **ká di-**
 
 - **Palabra Escritural:** `Ascensor`
-  - *Desglose de Interferencia:* Aspiración de la 's' trabada inicial convirtiéndola en 'j' suave. Elisión de la vibrante simple final 'r', elongando la 'o'.
-  - *Fonetización simulada:* **aj sen só-**
+    - *Desglose de Interferencia:* Aspiración de la 's' trabada inicial convirtiéndola en 'j' suave. Elisión de la vibrante simple final 'r', elongando la 'o'.
+    - *Fonetización simulada:* **aj sen só-**

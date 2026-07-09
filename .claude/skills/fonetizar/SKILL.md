@@ -1,5 +1,6 @@
 ---
 name: fonetizar
+type: skill
 description: reescribe la letra cantable, para que se cante con un acento o idioma concreto, nunca en el `style_box`.
 ---
 
@@ -9,8 +10,9 @@ description: reescribe la letra cantable, para que se cante con un acento o idio
 
 ## Cuándo se activa
 
-- Se solicita explícitamente un acento o idioma concreto sobre un mood u obra. 
-- Se aplica en la Fase 2 (sobre la letra), no antes.
+-**Se solicita explícitamente** un acento o idioma concreto sobre un mood u obra.
+
+- **Fase 2** de `produccion` si se solicita previamente.
 
 ## Pasos
 
@@ -28,11 +30,11 @@ description: reescribe la letra cantable, para que se cante con un acento o idio
 ## Entra → Sale
 
 - **Entra:** Letra + Acento/idioma objetivo.
-- **Sale:** la letra fonetizada (`composicion/formato.md §2`); opcional: limpia + fonetizada en paralelo.
+- **Sale:** la letra fonetizada (`composicion/formato.md §2`).
 
 ## Relación
 
-- La llaman `lirica` y `produccion` (Fase 2). Actúa sobre la letra; nunca toca el `style_box`.
+- La llama `lirica` en Fase 2 de `produccion` si se solicita previamente.
 
 ## Ejemplo
 

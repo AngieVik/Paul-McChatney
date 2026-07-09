@@ -1,8 +1,11 @@
-# Guía de Fonetización en Español: Dialecto Rioplatense (Argentina)
-
-**Notas de Configuración Fonética:** Sistema fonológico altamente distintivo, caracterizado por el yeísmo rehilado y la aspiración o elisión de consonantes en posición implosiva. Requiere la adaptación de patrones rítmicos particulares y la correcta colocación de la tilde obligatoria para reflejar la acentuación rioplatense (especialmente en el voseo).
-
 ---
+name: argentino_rioplatense
+type: fonetizaciones
+description: Sistema fonológico altamente distintivo, caracterizado por el yeísmo rehilado y la aspiración o elisión de consonantes en posición implosiva. Requiere la adaptación de patrones rítmicos particulares y la correcta colocación de la tilde obligatoria para reflejar la acentuación rioplatense (especialmente en el voseo).
+region: Dialecto Rioplatense (Argentina)
+---
+
+# argentino_rioplatense
 
 ## Perfil Fonético General
 
@@ -15,10 +18,10 @@ Una introducción al "carácter" del idioma para establecer la postura articulat
 
 Adaptación del sistema vocálico complejo del idioma origen a las 5 vocales puras del español.
 
-| Patrón \ Grafía Original | Regla de Transformación | Equivalencia Fonética | Ejemplo Práctico |
-| :--- | :--- | :--- | :--- |
-| Alargamiento tónico | La vocal de la sílaba tónica se prolonga ligeramente en contextos de énfasis o exclamación | **a-a \ e-e \ i-i \ o-o \ u-u** | *¡Pará!* → **pa rá-á** |
-| Vocal átona final | Se mantiene pura pero experimenta una caída melódica abrupta en enunciados declarativos | **a \ e \ o** | *Casa* → **ká sa** |
+| Patrón \ Grafía Original | Regla de Transformación                                                                    | Equivalencia Fonética           | Ejemplo Práctico       |
+| ------------------------ | ------------------------------------------------------------------------------------------ | ------------------------------- | ---------------------- |
+| Alargamiento tónico      | La vocal de la sílaba tónica se prolonga ligeramente en contextos de énfasis o exclamación | **a-a \ e-e \ i-i \ o-o \ u-u** | *¡Pará!* → **pa rá-á** |
+| Vocal átona final        | Se mantiene pura pero experimenta una caída melódica abrupta en enunciados declarativos    | **a \ e \ o**                   | *Casa* → **ká sa**     |
 
 - **Diptongos clave:** Las uniones de vocales mantienen su pureza, pero en formas verbales del voseo monoptongan sistemáticamente en relación con el estándar: "tu tienes" se transforma en una estructura con acento agudo eliminando el diptongo: *tenés* → **te nés**.
 
@@ -26,10 +29,10 @@ Adaptación del sistema vocálico complejo del idioma origen a las 5 vocales pur
 
 Cómo representar fonemas que no existen en el español usando nuestras grafías.
 
-| Sonido de Origen (IPA) | Descripción Articulatoria | Fonetización en Español |
-| :--- | :--- | :--- |
-| \ʒ\ o \ʃ\ | Fricativa postalveolar sonora o sorda (representa 'y' y 'll') | **sh** (o jota francesa/sh inglesa sorda según la región y edad) |
-| \h\ | Fricativa glotal sorda (sustituye a la 's' antes de consonante o final) | **h** (aspiración suave, como la h inglesa o la jota andaluza) |
+| Sonido de Origen (IPA) | Descripción Articulatoria                                               | Fonetización en Español                                          |
+| ---------------------- | ----------------------------------------------------------------------- | ---------------------------------------------------------------- |
+| \ʒ\ o \ʃ\              | Fricativa postalveolar sonora o sorda (representa 'y' y 'll')           | **sh** (o jota francesa/sh inglesa sorda según la región y edad) |
+| \h\                    | Fricativa glotal sorda (sustituye a la 's' antes de consonante o final) | **h** (aspiración suave, como la h inglesa o la jota andaluza)   |
 
 - **Consonantes mudas:** La 'd' al final de palabra se debilita hasta desaparecer por completo o se transforma en una sorda mínima (*usted* → **uj té** o **uj téh**). La 's' final ante pausa absoluta suele aspirarse de forma casi imperceptible.
 
@@ -53,12 +56,12 @@ Advertencias sobre combinaciones de letras que inducen al error por lectura lite
 Disección de palabras clave aplicando las reglas anteriores.
 
 - **Palabra:** `Playa` (Playa)
-  - *Desglose:* La 'll' y la 'y' se unifican bajo el fonema fricativo postalveolar sorda. La primera sílaba recibe la intensidad y se alarga ligeramente antes de la transición.
-  - *Fonetización final:* **plá sha**
+    - *Desglose:* La 'll' y la 'y' se unifican bajo el fonema fricativo postalveolar sorda. La primera sílaba recibe la intensidad y se alarga ligeramente antes de la transición.
+    - *Fonetización final:* **plá sha**
 
 - **Palabra:** `¿Vos qué decís?` (¿Tú qué dices?)
-  - *Desglose:* Aplicación del pronombre de la segunda persona con aspiración interna de la 's'. El verbo pierde el diptongo del estándar peninsular y traslada el acento al extremo final con una curva de entonación ascendente.
-  - *Fonetización final:* **vóh ké de sís**
+    - *Desglose:* Aplicación del pronombre de la segunda persona con aspiración interna de la 's'. El verbo pierde el diptongo del estándar peninsular y traslada el acento al extremo final con una curva de entonación ascendente.
+    - *Fonetización final:* **vóh ké de sís**
 
 ---
 
@@ -74,7 +77,7 @@ Definición de cómo los hablantes nativos de este idioma distorsionan los fonem
 ### Sustitución Consonántica y Aspiración
 
 - **Sustitución de la sibilante:** Toda 's' colocada antes de una consonante sorda o sonora se convierte de manera automática en una exhalación glotal.
-  - *Ejemplo:* `Estamos` → **eh tá moh**
+    - *Ejemplo:* `Estamos` → **eh tá moh**
 - **Rehilamiento automático:** Incapacidad de pronunciar la 'y' intervocálica de forma suave; se impone siempre la fricción postalveolar estridente.
 
 ### Alteración Rítmica
@@ -84,5 +87,5 @@ Definición de cómo los hablantes nativos de este idioma distorsionan los fonem
 ### Casos Prácticos de Aplicación (Lectura Extranjerizada)
 
 - **Palabra Española:** `Castellano`
-  - *Desglose de Interferencia:* La 's' implosiva se debilita en una aspiración sorda controlada. La doble 'l' asume el valor fonético de la fricativa postalveolar de forma dominante, y la penúltima sílaba concentra la oscilación tonal.
-  - *Fonetización simulada:* **kah te shá no**
+    - *Desglose de Interferencia:* La 's' implosiva se debilita en una aspiración sorda controlada. La doble 'l' asume el valor fonético de la fricativa postalveolar de forma dominante, y la penúltima sílaba concentra la oscilación tonal.
+    - *Fonetización simulada:* **kah te shá no**

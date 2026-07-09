@@ -1,5 +1,6 @@
 ---
 name: jerga
+type: skill
 description: inyecta en la letra cantable jerga específica para que se cante, nunca en el `style_box`.
 ---
 
@@ -9,8 +10,8 @@ description: inyecta en la letra cantable jerga específica para que se cante, n
 
 ## Cuándo se activa
 
-- Se solicita **explícitamente** una jerga en concreto sobre un mood u obra.
-- Se aplica en la Fase 2 (para crear la letra), no antes.
+- **Se solicita explícitamente** una jerga en concreto sobre un mood u obra.
+- **Fase 2** de `produccion` si se solicita previamente.
 
 ## Pasos
 
@@ -30,7 +31,7 @@ description: inyecta en la letra cantable jerga específica para que se cante, n
 
 ## Relación
 
-- La llaman `lirica` y `produccion` (Fase 2). Actúa sobre la letra; nunca toca el `style_box`.
+- La llama `lirica` en `produccion` en Fase 2 si se solicita previamente.
 
 ## Ejemplo
 

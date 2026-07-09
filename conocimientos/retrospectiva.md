@@ -1,9 +1,12 @@
+---
+name: retrospectiva
+type: conocimientos
+description: Cierra el ciclo de aprendizaje: tras validar una obra, evalúa si hay un aprendizaje REAL y, con tu aprobación, lo archiva donde se consume.
+---
+
 # retrospectiva
 
-*Cierra el ciclo de aprendizaje: tras validar una obra, evalúa si hay un aprendizaje REAL y, con tu aprobación, lo archiva donde se consume.*
 *Recordatorio: consulta por búsqueda (grep) o salto por sección.*
-
----
 
 ## Índice
 

@@ -1,6 +1,6 @@
 # negative_prompts_and_exclude_styles
 
-*Colección exhaustiva de etiquetas negativas para evitar estilos musicales, instrumentos, efectos, artefactos de mezcla y texturas no deseadas en la generación y producción de audio.*
+*Colección exhaustiva de tags negativas para evitar estilos musicales, instrumentos, efectos, artefactos de mezcla y texturas no deseadas en la generación y producción de audio.*
 *Recordatorio: se consulta por búsqueda (grep) o saltando a una sección*
 
 ---

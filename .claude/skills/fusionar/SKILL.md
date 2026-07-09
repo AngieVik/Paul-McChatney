@@ -1,18 +1,18 @@
 ---
 name: fusionar
+type: skill
 description: propone 3–5 fusiones de géneros insólitas pero viables.
 ---
 
 # fusionar
 
 - Ante un mood o tema, propone **3–5 fusiones de géneros insólitas** pero viables, con su porqué. 
-- Alimenta Fase 1 / skill `style-box`.
+- Alimenta Fase 1 y skill `style-box` en `Produccion`.
 
 ## Cuándo se activa
 
-- Se solicita explicitamente una fusión sobre un mood u obra.
-- Buscas un molde sonoro original para un mood/obra.
-- El `style_box` estándar se queda plano.
+- **Se solicita explicitamente** una fusión sobre un mood u obra.
+- **Fase 1** de `produccion`, para `style_box`, se apoya en `composicion/style_box.md`.
   
 ## Pasos
 
@@ -33,7 +33,7 @@ description: propone 3–5 fusiones de géneros insólitas pero viables.
 
 ## Relación
 
-- Alimenta `style-box` / `produccion` Fase 1. Se apoya en `composicion/style_box.md`.
+- Alimenta `style-box` en Fase 1 de `produccion`. Se apoya en `composicion/style_box.md`.
 
 ## Ejemplo
 

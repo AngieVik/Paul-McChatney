@@ -1,9 +1,12 @@
+---
+name: style_box
+type: composicion
+description: Construye el style_box de una obra, define el núcleo estilístico optimizando el espacio en 20 palabras. Fuerza resultados emergentes y no deterministas por colisión de opuestos (lingüístico-tonal, rítmica y tímbrica)
+---
+
 # style_box
 
-*Construye solo el style_box de una obra, define el núcleo estilístico optimizando el espacio en 20 palabras. Fuerza resultados emergentes y no deterministas por colisión de opuestos (lingüístico-tonal, rítmica y tímbrica)*
 *Recordatorio: consulta por búsqueda (grep) o salto por sección.*
-
----
 
 ## Índice
 
@@ -64,9 +67,9 @@
 
 - *Aplica la siguiente regla para asegurar la pronunciación.*
     - Si el género es originario de la cultura del idioma objetivo.
-        - **Ejemplo:** `[Flamenco]`, `[Reggaetón]`: Omite la etiqueta de idioma.
+        - **Ejemplo:** `[Flamenco]`, `[Reggaetón]`: Omite el tag de idioma.
     - Si el género es global o no está ligado al idioma objetivo.
-        - **Ejemplo:** `[Heavy Metal]`, `[Pop]`: Antepón obligatoriamente la etiqueta de idioma al género: `[Spanish heavy metal]`.
+        - **Ejemplo:** `[Heavy Metal]`, `[Pop]`: Antepón obligatoriamente el tag de idioma al género: `[Spanish heavy metal]`.
 
 ---
 
@@ -139,5 +142,5 @@
 
 ### 4.3 · Hack de timbre (choque cognitivo)
 
-- *Cruza etiquetas físicas extremas de voz con géneros que no les corresponden: distorsiona la voz central manteniendo la percusión limpia.*
+- *Cruza tags físicas extremas de voz con géneros que no les corresponden: distorsiona la voz central manteniendo la percusión limpia.*
     - **Ejemplo:** `[Death Metal Growl]` o `[Vocal Fry]` sobre instrumental de `[Smooth Jazz]` o `[Bossa Nova]`.

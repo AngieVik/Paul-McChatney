@@ -1,9 +1,12 @@
+---
+name: tecnicas_vocales
+type: composicion
+description: Puntuación en la letra, etiquetas de dirección vocal, arquitecturas de identidad, dirección interpretativa,técnicas de interpretación vocal, aislamiento vocal temporal, roles y duetos, armonías y coros multicapa, rango y tesitura vocal.
+---
+
 # tecnicas_vocales
 
-*Arquitecturas de identidad (Persona Stacking), dirección interpretativa.*
 *Recordatorio: consulta por búsqueda (grep) o salto por sección.*
-
----
 
 ## Índice
 
@@ -64,7 +67,7 @@
 
 ### 2.1 · Persona Stacking
 
-- *Técnica de apilamiento para construir un personaje vocal inquebrantable. Se define mediante 4 capas estructuradas en una sola etiqueta al inicio del `lyrics_box`.*
+- *Técnica de apilamiento para construir un personaje vocal inquebrantable. Se define mediante 4 capas estructuradas en un sol tag al inicio del `lyrics_box`.*
   1. **Demografía:** edad, género, tipo de voz.
   2. **Entrega técnica:** susurrado, potente, claro.
   3. **Contexto emocional:** melancólico, agresivo, confiado.
@@ -78,7 +81,7 @@
 ### 2.2 · El Anclaje de Identidad Vocal
 
 - *La identidad y el "ADN" de la voz se determinan en el **segundo cero** de la generación. Para evitar mutaciones tímbricas o cambios de género inesperados, es vital fijar la voz antes de que comience la interpretación.*
-    - **Técnica de la "Línea Cero":** Coloca una etiqueta de **Persona Stacking** en la primera línea del `lyrics_box`, separada por un salto de línea del resto de la letra.
+    - **Técnica de la "Línea Cero":** Coloca un tag de **Persona Stacking** en la primera línea del `lyrics_box`, separada por un salto de línea del resto de la letra.
         - **Ejemplo:**
       `[Vocal Identity: Close-mic breathy alto, intimate]`
       `[Verse 1]`
@@ -86,7 +89,7 @@
 
 ### 2.3 · Prevención de mutación del cantante
 
-- *Forzado del anclaje del ADN vocal. Se requiere inyectar la etiqueta descriptiva original inmediatamente después de un pasaje instrumental largo.*
+- *Forzado del anclaje del ADN vocal. Se requiere inyectar el tag descriptiva original inmediatamente después de un pasaje instrumental largo.*
     - **Ejemplo:**
     `[Instrumental Ends]`
     `[Vocal Return: Same Male raspy baritone]`
@@ -94,10 +97,10 @@
 
 ### 2.4 · Dirección de Interpretación Dinámica
 
-- *A diferencia de las etiquetas de estilo globales, comandos de actuación inyectados directamente entre las líneas de la letra responden con alta precisión.*
+- *A diferencia de las tags de estilo globales, comandos de actuación inyectados directamente entre las líneas de la letra responden con alta precisión.*
     - **Uso de descriptores locales:** Inserta términos entre paréntesis `( )` para dictar cambios emocionales o físicos en la entrega sin alterar el estilo general de la banda.
     - **Comandos validados:** `(whispered)`, `(shouted)`, `(conversational)`, `(borderline shouted)`, `(breathy)`.
-    - **Eficacia:** Esta técnica es superior para crear **contrastes dinámicos** que las etiquetas de estilo estáticas, permitiendo que la interpretación "respire" con la narrativa.
+    - **Eficacia:** Esta técnica es superior para crear **contrastes dinámicos** que las tags de estilo estáticas, permitiendo que la interpretación "respire" con la narrativa.
 
 ### 2.5 · Técnicas de interpretación vocal
 
@@ -131,12 +134,12 @@
 
 ### 2.7 · Roles y duetos
 
-- *Utiliza etiquetas de identidad vocal al inicio de cada línea para minimizar el intercambio accidental de voces y fijar el carácter.*
+- *Utiliza tags de identidad vocal al inicio de cada línea para minimizar el intercambio accidental de voces y fijar el carácter.*
     - **Ejemplo:**
     `[Verse: Male and Female conversation]`
     `[Male Vocal: warm, intimate]` Dime por qué te vas sin decir adiós.
     `[Female Vocal: breathy, emotional]` Porque el silencio duele menos que tu voz.
-- *Unísono y armonías, para partes conjuntas, la etiqueta Both o Unison es más efectiva que repetir ambos géneros.*
+- *Unísono y armonías, para partes conjuntas, el tag Both o Unison es más efectiva que repetir ambos géneros.*
     - **Ejemplo:**
     `[Chorus: High Energy, Power Harmonies`
     `[Both: unison, powerful vocals]` Nue]stro tiempo se terminó,

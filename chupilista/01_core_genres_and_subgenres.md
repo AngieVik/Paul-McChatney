@@ -1,6 +1,7 @@
 # core_genres_and_subgenres
 
-*Vocabulario de géneros y subgéneros para el style_box. Consulta por búsqueda (grep del género/raíz) o salta a la familia que toque vía el Índice.*
+*Vocabulario de géneros y subgéneros para el style_box.*
+*Recordatorio: se consulta por búsqueda (grep) o saltando a una sección*
 
 ---
 

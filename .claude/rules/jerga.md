@@ -1,12 +1,7 @@
 ---
 name: jerga
+type: map
 description: Guías de jerga para idiomas y dialectos. Permiten inyectar jerga específica en la letra.
----
-
-- **Principio clave:** Un mismo texto cantado con jerga diferente produce canciones radicalmente distintas.
-- **Cada archivo describe cómo adaptar la letra escrita para inyectar una jerga concreta.**
-- **La jerga va en la letra cantable, no en el style_box.**
-
 ---
 
 - *No se carga con `@`, este índice es el mapa concepto→archivo, abre cada `jerga/<archivo>.md` bajo demanda con la herramienta de lectura, solo el/los que necesites.*

@@ -1,5 +1,6 @@
 ---
 name: retrospectiva
+type: map
 description: Tras validar una obra, evalúa si hay un aprendizaje real y, con tu aprobación, lo archiva donde se consume (MEMORY o composicion), en positivo
 ---
 

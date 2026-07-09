@@ -1,9 +1,12 @@
+---
+name: lyrics_box
+type: composicion
+description: Control semántico, mapeo operativo del lyrics_box, gramática técnica y dirección de banda.
+---
+
 # lyrics_box
 
-*Control semántico, mapeo operativo del lyrics_box, gramática técnica y dirección de banda.*
 *Recordatorio: consulta por búsqueda (grep) o salto por sección.*
-
----
 
 ## Índice
 
@@ -53,10 +56,10 @@
 
 ### 1.2 · Comandos de Actuación - La "banda imperfecta"
 
-- *Escribe los comandos como si te dirigieras a músicos reales en vivo en vez de usar etiquetas genéricas, el lenguaje de dirección de interpretación rompe la perfección estéril e introduce errores humanos y groove orgánico.*
+- *Escribe los comandos como si te dirigieras a músicos reales en vivo en vez de usar tags genéricas, el lenguaje de dirección de interpretación rompe la perfección estéril e introduce errores humanos y groove orgánico.*
     - **Ejemplo:** `[Band: slightly behind the beat, never tight]`, `[Verse: restrained, talk-sung]`, `[Chorus: louder, sloppier, controlled unraveling]`.
     - **Voz (entrega por línea):** vive en `tecnicas_vocales.md §2.4–§2.5` (susurros, gritos, timbre, técnica). Aquí solo diriges a la **banda/conjunto**.
-    - **Ejemplo (Ensemble):** Añade imperfección humana al groove con etiquetas tipo: `[loose]`, `[ragged]`, `[slightly behind the beat]` o `[never tight]`.
+    - **Ejemplo (Ensemble):** Añade imperfección humana al groove con tags tipo: `[loose]`, `[ragged]`, `[slightly behind the beat]` o `[never tight]`.
 - **Usa corchetes y aisla conceptos diferentes colocandolos en columna, dirigie a la banda separando las capas conceptualmente en lugar de mezclar todo en una sola línea.*
     - **Ejemplo:**
     `[comandos de actuacion]`
@@ -92,11 +95,11 @@
 
 ### 1.7 · Mitos y Reglas de Formato
 
-- **Case-Insensitive:** Las etiquetas `[CHORUS]`, `[Chorus]` y `[chorus]` son procesadas exactamente igual, usa sentence case para todas las etiquetas.
+- **Case-Insensitive:** Las tags `[CHORUS]`, `[Chorus]` y `[chorus]` son procesadas exactamente igual, usa sentence case para todas las tags.
 - **Métrica Visual y Respiración:** La estructura musical interfiere basándose en tu texto; los saltos de línea y los párrafos en blanco dictan cómo agrupa las frases y dónde respira el cantante.
-- **Límite de longitud:** Mantén todas las metaetiquetas cortas y contundentes.
+- **Límite de longitud:** Mantén todas las tags cortas y contundentes.
 - **Libertad semántica:** Usa descripciones libres, sonidos fonéticos, notas de director o emojis (ej. `[🌌]`, `[🔥, 🎸]`) para transmitir atmósferas y emociones. No te limites a diccionarios musicales cerrados.
-- **Orden de prioridad interna:** Coloca siempre los metatags más importantes al principio del corchete. Primero género musical, luego género/tono vocal, por último significado de la letra.
+- **Orden de prioridad interna:** Coloca siempre los tags más importantes al principio del corchete. Primero género musical, luego género/tono vocal, por último significado de la letra.
 - **Repeticiones controladas:** evita `[Repeat x3]`.
 - **`[Instrumental Break - 8 bars]`:** indica la duración aproximada del break para dar referencia temporal y mejor proporción.
 
@@ -142,7 +145,7 @@
 
 ### 1.13 · Rap/Drill
 
-- *El hack del Rap/Drill, `[Chorus]` fuerza el modo melódico/pop y arruina géneros oscuros o rap duro. Sustitúyelo por etiquetas de comportamiento energético.*
+- *El hack del Rap/Drill, `[Chorus]` fuerza el modo melódico/pop y arruina géneros oscuros o rap duro. Sustitúyelo por tags de comportamiento energético.*
     - **Ejemplo:**
     `[Structure: Anthemic Peak]`, `[Hook: Aggressive Rhythm]`, `[Drop: High Energy]`.
 
@@ -150,7 +153,7 @@
 
 ## 2 · Hacks lyrics_box
 
-- *La trampa del solo:* `[Solo <Instrumento>]` desacopla el <instrumento> de la mezcla y deja el solo aislado y vacío. Para un solo manteniendo la inercia de la banda, usa obligatoriamente etiquetas de jerarquía.
+- *La trampa del solo:* `[Solo <Instrumento>]` desacopla el <instrumento> de la mezcla y deja el solo aislado y vacío. Para un solo manteniendo la inercia de la banda, usa obligatoriamente tags de jerarquía.
     - **Ejemplo:** `[Lead]`, `[Taking The Melody]`.
 
 - *Expansión de solos:* Instrucción en pruebas, omitir contradicción y usar cuando se precise un solo muy largo, pendiente de valoración.

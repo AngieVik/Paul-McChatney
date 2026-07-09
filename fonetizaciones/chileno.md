@@ -1,8 +1,11 @@
-# Guía de Fonetización en Español: Dialecto Chileno
-
-**Notas de Configuración Fonética:** Sistema fonológico caracterizado por su extrema velocidad de articulación, elisión frecuente de consonantes oclusivas, aspiración sistemática de la 's' implosiva y una curva entonativa ascendente altamente distintiva. Es un dialecto de alta contracción fonética.
-
 ---
+name: chileno
+type: fonetizaciones
+description: Sistema fonológico caracterizado por su extrema velocidad de articulación, elisión frecuente de consonantes oclusivas, aspiración sistemática de la 's' implosiva y una curva entonativa ascendente altamente distintiva. Es un dialecto de alta contracción fonética.
+region: Dialecto Chileno
+---
+
+# chileno
 
 ## Perfil Fonético General
 
@@ -15,10 +18,10 @@ Una introducción al "carácter" del idioma para establecer la postura articulat
 
 Adaptación del sistema vocálico complejo del idioma origen a las 5 vocales puras del español.
 
-| Patrón \ Grafía Original | Regla de Transformación | Equivalencia Fonética | Ejemplo Práctico |
-| :--- | :--- | :--- | :--- |
-| Vocal final en interrogativas o de énfasis | Se alarga notablemente y sube en tono (frecuencia aguda) | **a-a \ e-e \ i-i \ o-o \ u-u** | *¿Sí?* → **sí-í** |
-| Terminaciones del voseo (-ái, -í) | Se mantienen como diptongos fuertes o vocales agudas | **ái \ í** | *Cacháis* → **ka chái** |
+| Patrón \ Grafía Original                   | Regla de Transformación                                  | Equivalencia Fonética           | Ejemplo Práctico        |
+| ------------------------------------------ | -------------------------------------------------------- | ------------------------------- | ----------------------- |
+| Vocal final en interrogativas o de énfasis | Se alarga notablemente y sube en tono (frecuencia aguda) | **a-a \ e-e \ i-i \ o-o \ u-u** | *¿Sí?* → **sí-í**       |
+| Terminaciones del voseo (-ái, -í)          | Se mantienen como diptongos fuertes o vocales agudas     | **ái \ í**                      | *Cacháis* → **ka chái** |
 
 - **Diptongos clave:** El voseo chileno genera diptongos decrecientes característicos al final de los verbos ("-ái" para la primera conjugación, mientras que la segunda y tercera reducen el diptongo a una "-í" pura: *tenéis* -> *tení* -> **te ní**).
 
@@ -26,11 +29,11 @@ Adaptación del sistema vocálico complejo del idioma origen a las 5 vocales pur
 
 Cómo representar fonemas que no existen en el español estándar usando nuestras grafías.
 
-| Sonido de Origen (IPA) | Descripción Articulatoria | Fonetización en Español |
-| :--- | :--- | :--- |
-| \t͡ɹ̝̊\ | Fricativa alveolar sorda retrofleja (Sustituye a 'tr') | **chr** (mezcla entre 't' y una 'sh' suave) |
-| \h\ | Fricativa glotal sorda (Sustituye a la 's' final o implosiva) | **h** (aspiración suave) |
-| \c\ o \ç\ | Oclusiva/Fricativa palatal (Sustituye 'k/j' ante e/i) | **ky** / **hy** (palatalización) |
+| Sonido de Origen (IPA) | Descripción Articulatoria                                     | Fonetización en Español                     |
+| ---------------------- | ------------------------------------------------------------- | ------------------------------------------- |
+| \t͡ɹ̝̊\                   | Fricativa alveolar sorda retrofleja (Sustituye a 'tr')        | **chr** (mezcla entre 't' y una 'sh' suave) |
+| \h\                    | Fricativa glotal sorda (Sustituye a la 's' final o implosiva) | **h** (aspiración suave)                    |
+| \c\ o \ç\              | Oclusiva/Fricativa palatal (Sustituye 'k/j' ante e/i)         | **ky** / **hy** (palatalización)            |
 
 - **Consonantes mudas:** La 'd' en posición intervocálica (especialmente en terminaciones "-ado", "-ada") y a final de palabra desaparece casi por completo en el habla cotidiana.
 
@@ -54,12 +57,12 @@ Advertencias sobre combinaciones de letras que inducen al error por lectura lite
 Disección de palabras clave aplicando las reglas anteriores.
 
 - **Palabra:** `¿Cachái?` (¿Entiendes?)
-  - *Desglose:* La 'ch' se mantiene o se fricativiza levemente. El diptongo final concentra toda la intensidad y experimenta la subida de tono característica.
-  - *Fonetización final:* **ka chái**
+    - *Desglose:* La 'ch' se mantiene o se fricativiza levemente. El diptongo final concentra toda la intensidad y experimenta la subida de tono característica.
+    - *Fonetización final:* **ka chái**
 
 - **Palabra:** `Cuidado` (Cuidado)
-  - *Desglose:* La 'd' intervocálica se omite por completo. Las vocales 'a' y 'o' se fusionan en un solo bloque rítmico final.
-  - *Fonetización final:* **kwi dá o**
+    - *Desglose:* La 'd' intervocálica se omite por completo. Las vocales 'a' y 'o' se fusionan en un solo bloque rítmico final.
+    - *Fonetización final:* **kwi dá o**
 
 ---
 
@@ -85,9 +88,9 @@ Definición de cómo los hablantes nativos de este idioma distorsionan los fonem
 ### Casos Prácticos de Aplicación (Lectura Extranjerizada)
 
 - **Palabra Española:** `Nosotros`
-  - *Desglose de Interferencia:* La 's' media se aspira débilmente. El grupo 'tr' sufre asibilación. La 's' final se aspira o desaparece por completo en la caída de la palabra.
-  - *Fonetización simulada:* **no só chr-roh**
+    - *Desglose de Interferencia:* La 's' media se aspira débilmente. El grupo 'tr' sufre asibilación. La 's' final se aspira o desaparece por completo en la caída de la palabra.
+    - *Fonetización simulada:* **no só chr-roh**
 
 - **Palabra Española:** `Complicado`
-  - *Desglose de Interferencia:* La 'k' (c) antes de 'a' no se palataliza, pero la 'd' final cae drásticamente. Al leer en voz alta, el hablante unirá la 'a' y la 'o'.
-  - *Fonetización simulada:* **kom pli ká o**
+    - *Desglose de Interferencia:* La 'k' (c) antes de 'a' no se palataliza, pero la 'd' final cae drásticamente. Al leer en voz alta, el hablante unirá la 'a' y la 'o'.
+    - *Fonetización simulada:* **kom pli ká o**

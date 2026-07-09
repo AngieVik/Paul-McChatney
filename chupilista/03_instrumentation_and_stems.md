@@ -1,7 +1,10 @@
 # instrumentation_and_stems
 
 *Colección exhaustiva de metadatos, stems y marcadores de instrumentación para el control semántico en la generación y estructuración de diseño sonoro.*
-*Recordatorio: se consulta por búsqueda (grep) o saltando a una sección*---
+*Recordatorio: se consulta por búsqueda (grep) o saltando a una sección*
+
+---
+
 ## Índice
 
 `1 · Percusión y Baterías`
@@ -803,7 +806,7 @@
 
 ### 10 · Marcadores Estructurales
 
-*Etiquetas de metadatos instruccionales para forzar cambios en la dinámica, crear puentes y alterar la evolución macro-estructural de la composición.*
+*Tags de metadatos instruccionales para forzar cambios en la dinámica, crear puentes y alterar la evolución macro-estructural de la composición.*
 *Palabras clave: estructura, drops, intros, outros, builds, transiciones, dinámicas, arreglos, silencios, clímax, puentes, interludios.*
 
 [Ambient Instrumental]

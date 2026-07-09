@@ -1,5 +1,6 @@
 ---
 name: cover-art
+type: skill
 description: genera 3 prompts 1:1 para Gemini a partir del sentimiento (no el argumento) de una obra.
 
 ---
@@ -11,7 +12,7 @@ description: genera 3 prompts 1:1 para Gemini a partir del sentimiento (no el ar
 
 ## Cuándo se activa
 
-- El usuario pide una portada, un cover, un cover art, una carátula o imágenes para la canción. 
+- **El usuario pide una portada, un cover, un cover art, una carátula o imágenes para una obra.**
 - Si hay varias obras en juego, preguntar **de cuál**.
 
 ## Paso 1 — Examinar la obra
@@ -48,7 +49,7 @@ description: genera 3 prompts 1:1 para Gemini a partir del sentimiento (no el ar
     - **Fácil de comprender**: frases claras, una idea por bloque.
     - **Concreto**: sujeto, acción, entorno, luz, atmósfera y estilo.
     - **Cuadrado**: indicar siempre **aspect ratio 1:1 / square composition**.
-    - Sin jerga técnica ni metatags: esto es para un generador de imágenes.
+    - Sin jerga técnica ni tags: esto es para un generador de imágenes.
     - Sin texto ni tipografía dentro de la imagen,salvo que el usuario lo pida.
 
 - Estructura sugerida de cada prompt:

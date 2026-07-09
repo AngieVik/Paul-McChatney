@@ -1,8 +1,10 @@
-# plantilla_fonetizaciones
-
-> Genera la guia para fonetización en español de [], sigue la plantilla y genera el resultado en un bloque de codigo markdown.
-
 ---
+name: plantilla_fonetizaciones
+type: plantilla
+description: Genera la guia para fonetización en español de [], sigue la plantilla y genera el resultado en un bloque de codigo markdown.
+---
+
+# plantilla_fonetizaciones
 
 ## Esqueleto a copiar
 
@@ -24,7 +26,7 @@ Una introducción al "carácter" del idioma para establecer la postura articulat
 Adaptación del sistema vocálico complejo del idioma origen a las 5 vocales puras del español.
 
 | Patrón \ Grafía Original | Regla de Transformación            | Equivalencia Fonética | Ejemplo Práctico     |
-| :----------------------- | :--------------------------------- | :-------------------- | :------------------- |
+| ------------------------ | ---------------------------------- | --------------------- | -------------------- |
 | [Ej. 'ee' \ 'ea']        | Se pronuncia como una 'i' alargada | **i**                 | *see* → **sí**       |
 | [Ej. Vocal átona]        | Se reduce a sonido neutro (Schwa)  | **a \ e \ o** débil   | *about* → **a**-báut |
 
@@ -35,7 +37,7 @@ Adaptación del sistema vocálico complejo del idioma origen a las 5 vocales pur
 Cómo representar fonemas que no existen en el español usando nuestras grafías.
 
 | Sonido de Origen (IPA) | Descripción Articulatoria    | Fonetización en Español              |
-| :--------------------- | :--------------------------- | :----------------------------------- |
+| ---------------------- | ---------------------------- | ------------------------------------ |
 | [Ej. \v\]              | Fricativa labiodental sonora | **v** (forzando vibración de labios) |
 | [Ej. \ʃ\]              | Fricativa postalveolar sorda | **sh**                               |
 
@@ -61,8 +63,8 @@ Advertencias sobre combinaciones de letras que inducen al error por lectura lite
 Disección de palabras clave aplicando las reglas anteriores.
 
 - *Palabra:* `[Original]` ([Traducción])
-  - *Desglose:* [Explicación de los fenómenos fonéticos que ocurren].
-  - *Fonetización final:* **[Sílaba] [tó]nica**
+    - *Desglose:* [Explicación de los fenómenos fonéticos que ocurren].
+    - *Fonetización final:* **[Sílaba] [tó]nica**
 
 ---
 
@@ -87,7 +89,7 @@ Definición de cómo los hablantes nativos de este idioma distorsionan los fonem
 ### 7.4 · Casos Prácticos de Aplicación (Lectura Extranjerizada)
 
 - **Palabra Española:** `[Original]`
-  - *Desglose de Interferencia:* [Explicación de las distorsiones aplicadas].
-  - *Fonetización simulada:* **[fó]netisashon**
+    - *Desglose de Interferencia:* [Explicación de las distorsiones aplicadas].
+    - *Fonetización simulada:* **[fó]netisashon**
 
 Para separar las silabas, usa ' ' en lugar de '-'. Usa '-' cuando haya un alargamiento vocal o un espacio (tipo breve respiración)

@@ -1,10 +1,14 @@
+---
+name: efectos
+type: composicion
+description: Manipulación del espacio estéreo, procesamiento de señales (DSP) y comportamiento del master final.
+---
+
 # efectos
 
-*Manipulación del espacio estéreo, procesamiento de señales (DSP) y comportamiento del master final.*
-*⚗️ = corazonada por validar: técnica plausible aún no confirmada; en la retrospectiva se asciende (se quita la marca) o se degrada/elimina.*
 *Recordatorio: consulta por búsqueda (grep) o salto por sección.*
 
----
+*⚗️ = corazonada por validar: técnica plausible aún no confirmada; en la retrospectiva se asciende (se quita la marca) o se degrada/elimina.*
 
 ## Índice
 
@@ -53,7 +57,7 @@
 
 ### 1.4 · Glitch forzado y stutter vocal
 
-- *Escríbelo en la letra con guiones que rompan las sílabas, combinado con metaetiquetas.*
+- *Escríbelo en la letra con guiones que rompan las sílabas, combinado con tags.*
     - **Ejemplo:**
     `[Glitch effect on vocal]`
     D-d-d-dímelo en la c-c-cara
@@ -94,5 +98,3 @@
     - **Ambientación Foley:** Capas de audio estéreo de fondo para inmersión espacial, como `[Rain]` (espectro de ruido blanco/rosa), `[Thunder]` (bajas frecuencias esporádicas), o `[Crowd Murmur]` (murmullo humano).
     - **Live Bootleg:** ⚗️ trata al público como un instrumento para simular grabación en vivo. style_box: `[Live Arena Soundboard Recording]`, `[Stadium Acoustics]`, `[Bootleg Tape]`; lyrics_box: `[Crowd Swell]`, `Audience Singalong`, `Muffled Crowd Cheers`.
     - **Buffer glitch:** ⚗️ bucle/cuelgue de sistema antes del estribillo (`[Hyperpop]`, `[Cyberpunk]`); repite la última vocal como disco rayado antes del drop: `[Buffer Underrun Glitch]`, `[Fake Buffering Loop]`.
-
----

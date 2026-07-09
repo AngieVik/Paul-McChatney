@@ -1,6 +1,7 @@
 ---
 name: exclude_box
-description: Prompting inverso y control de artefactos (Fase 4): qué bloquear en el exclude_box.
+type: map
+description: Prompting inverso y control de artefactos, qué bloquear en el exclude_box.
 ---
 
 - *No se carga con `@`, este índice es el mapa concepto→archivo, abre cada `composicion/<archivo>.md` bajo demanda con la herramienta de lectura, solo el/los que necesites.*
@@ -20,6 +21,6 @@ description: Prompting inverso y control de artefactos (Fase 4): qué bloquear e
 ---
 
 - **Documentos:**
-| Fase | Archivo                                            | Contenido                                                              |
-| ---- | -------------------------------------------------- | ---------------------------------------------------------------------- |
-| 4    | [exclude_box.md](../../composicion/exclude_box.md) | **exclude_box (Fase 4)**, Lógica de exclusión y control de artefactos. |
+| Fase | Archivo                                            | Contenido                                                     |
+| ---- | -------------------------------------------------- | ------------------------------------------------------------- |
+| 4    | [exclude_box.md](../../composicion/exclude_box.md) | **exclude_box**, Lógica de exclusión y control de artefactos. |

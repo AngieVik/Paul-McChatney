@@ -1,12 +1,12 @@
 # song_structure_and_sections
 
-*Colección exhaustiva de etiquetas sobre la estructura musical, secciones de canciones, transiciones y motivos narrativos.*
+*Colección exhaustiva de tags sobre la estructura musical, secciones de canciones, transiciones y motivos narrativos.*
 *Recordatorio: se consulta por búsqueda (grep) o saltando a una sección.*
 
 ---
 
 ## Índice
-
+ 
 `1 · Introducciones y Preámbulos`
 `2 · Versos y Estrofas`
 `3 · Pre-Estribillos y Construcciones de Tensión`
@@ -42,8 +42,8 @@
 [Dry Dry Studio Acoustic Intro]
 [Fade In Intro Rise Curve]
 [Fade In Intro Rise]
-[Fade In] [Distortion]
 [Fade In]
+[Distortion]
 [False Intro Deceptive Chord Start]
 [Flamenco Rasgueado Intro Guitar Strum]
 [Gothic Mausoleum Silence Preamble Section]
@@ -952,7 +952,7 @@
 
 ### 8 · Narrativa, Motivos y Elementos Conceptuales
 
-*Etiquetas abstractas que describen arcos narrativos, desarrollo de personajes, conflictos emocionales o la repetición y reaparición de motivos estructurales a lo largo de la pista.*
+*Tags abstractas que describen arcos narrativos, desarrollo de personajes, conflictos emocionales o la repetición y reaparición de motivos estructurales a lo largo de la pista.*
 *narrative, concept, motif, emotion, story, theme, motivo, narrativa, abstracto, recall, callback.*
 
 [Ascent Of The Soul]

@@ -1,8 +1,11 @@
-# Guía de Fonetización en Español: Dialecto Boricua (Puerto Rico)
-
-**Notas de Configuración Fonética:** Sistema fonológico de base caribeña, caracterizado por una alteración profunda de las consonantes en posición de cierre silábico y una marcada nasalidad vocálica. Requiere agilidad articulatoria y una reconfiguración de los fonemas róticos ('r', 'rr').
-
 ---
+name: boricua_puertorico
+type: fonetizaciones
+description: Sistema fonológico de base caribeña, caracterizado por una alteración profunda de las consonantes en posición de cierre silábico y una marcada nasalidad vocálica. Requiere agilidad articulatoria y una reconfiguración de los fonemas róticos ('r', 'rr').
+region: Dialecto Boricua (Puerto Rico)
+---
+
+# boricua_puertorico
 
 ## Perfil Fonético General
 
@@ -15,10 +18,10 @@ Una introducción al "carácter" del idioma para establecer la postura articulat
 
 Adaptación del sistema vocálico complejo del idioma origen a las 5 vocales puras del español.
 
-| Patrón \ Grafía Original | Regla de Transformación | Equivalencia Fonética | Ejemplo Práctico |
-| :--- | :--- | :--- | :--- |
+| Patrón \ Grafía Original               | Regla de Transformación                                      | Equivalencia Fonética           | Ejemplo Práctico                       |
+| -------------------------------------- | ------------------------------------------------------------ | ------------------------------- | -------------------------------------- |
 | Vocal ante consonante nasal ('n', 'm') | Se nasaliza intensamente, absorbiendo parte de la consonante | **a \ e \ i \ o \ u** (nasales) | *Pan* → **pán** (con resonancia nasal) |
-| Vocal átona final de frase | Se acorta de forma abrupta, sin elisión | **a \ e \ o** breve | *Casa* → **ká sa** |
+| Vocal átona final de frase             | Se acorta de forma abrupta, sin elisión                      | **a \ e \ o** breve             | *Casa* → **ká sa**                     |
 
 - **Diptongos clave:** Estabilidad en los diptongos estándar, pero con un fuerte grado de sinalefa fonética entre palabras, fusionando vocales finales e iniciales en un solo bloque rítmico.
 
@@ -26,11 +29,11 @@ Adaptación del sistema vocálico complejo del idioma origen a las 5 vocales pur
 
 Cómo representar fonemas que no existen en el español peninsular estándar usando nuestras grafías.
 
-| Sonido de Origen (IPA) | Descripción Articulatoria | Fonetización en Español |
-| :--- | :--- | :--- |
-| \l\ (Sustituyendo a \ɾ\) | Aproximante lateral alveolar (Lambdacismo) | **l** |
+| Sonido de Origen (IPA)         | Descripción Articulatoria                                  | Fonetización en Español            |
+| ------------------------------ | ---------------------------------------------------------- | ---------------------------------- |
+| \l\ (Sustituyendo a \ɾ\)       | Aproximante lateral alveolar (Lambdacismo)                 | **l**                              |
 | \x\ o \h\ (Sustituyendo a \r\) | Fricativa velar o glotal sorda (Guturalización de la 'rr') | **j** o **h** (aspiración rasgada) |
-| \h\ (Sustituyendo a \s\) | Fricativa glotal sorda (Aspiración de la 's') | **h** |
+| \h\ (Sustituyendo a \s\)       | Fricativa glotal sorda (Aspiración de la 's')              | **h**                              |
 
 - **Consonantes mudas:** La 'd' en posición intervocálica se omite casi en su totalidad (ej. terminaciones "-ado", "-ida"). La 's' final ante pausa absoluta suele suprimirse por completo.
 
@@ -54,12 +57,12 @@ Advertencias sobre combinaciones de letras que inducen al error por lectura lite
 Disección de palabras clave aplicando las reglas anteriores.
 
 - **Palabra:** `Verdad` (Verdad)
-  - *Desglose:* Lambdacismo en la primera sílaba (r -> l). Elisión de la 'd' final característica del habla relajada.
-  - *Fonetización final:* **bel dá**
+    - *Desglose:* Lambdacismo en la primera sílaba (r -> l). Elisión de la 'd' final característica del habla relajada.
+    - *Fonetización final:* **bel dá**
 
 - **Palabra:** `Carro` (Carro)
-  - *Desglose:* La doble vibrante sufre velarización, convirtiéndose en un sonido fricativo posterior.
-  - *Fonetización final:* **ká jo**
+    - *Desglose:* La doble vibrante sufre velarización, convirtiéndose en un sonido fricativo posterior.
+    - *Fonetización final:* **ká jo**
 
 ---
 
@@ -84,9 +87,9 @@ Definición de cómo los hablantes nativos de este idioma distorsionan los fonem
 ### Casos Prácticos de Aplicación (Lectura Extranjerizada)
 
 - **Palabra Española:** `Puerto Rico`
-  - *Desglose de Interferencia:* Lambdacismo evidente en la 'r' de la primera sílaba. Velarización gutural de la 'R' inicial de la segunda palabra, articulándose como una fricativa. Sinalefa o fusión rítmica con breve pausa.
-  - *Fonetización simulada:* **pwél to - jí ko**
+    - *Desglose de Interferencia:* Lambdacismo evidente en la 'r' de la primera sílaba. Velarización gutural de la 'R' inicial de la segunda palabra, articulándose como una fricativa. Sinalefa o fusión rítmica con breve pausa.
+    - *Fonetización simulada:* **pwél to - jí ko**
 
 - **Palabra Española:** `Buscando`
-  - *Desglose de Interferencia:* La 's' de la primera sílaba se aspira. La 'a' de la sílaba tónica se nasaliza fuertemente por la 'n' contigua. La 'd' intervocálica se debilita.
-  - *Fonetización simulada:* **buh kán do**
+    - *Desglose de Interferencia:* La 's' de la primera sílaba se aspira. La 'a' de la sílaba tónica se nasaliza fuertemente por la 'n' contigua. La 'd' intervocálica se debilita.
+    - *Fonetización simulada:* **buh kán do**

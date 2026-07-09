@@ -1,17 +1,18 @@
 ---
 name: lirica
-description: redacta la letra limpia sin etiquetas (Fase 2 aislada): narrativa, cadencia y anclaje regional.
+type: skill
+description: redacta la letra limpia sin tags: narrativa, cadencia y anclaje regional.
 ---
 
 # lirica
 
-- Escribe **solo la letra limpia** (Fase 2): calidad poética y narrativa, sin corchetes ni metaetiquetas. El esqueleto cantable que luego se etiqueta en Fase 3.
+- Escribe **solo la letra limpia** (Fase 2): calidad poética y narrativa, sin corchetes ni tags. El esqueleto cantable.
 
 ## Cuándo se activa
 
-- Se solicita **explícitamente** una letra en concreto sobre un mood u obra.
-- Hace falta la letra de una obra sin tags.
-- Arranque de Fase 2 o escritura suelta.
+- **Se solicita explícitamente** una letra en concreto sobre un mood u obra o escritura suelta.
+- **Se solicita explícitamente** crear o modificar la letra de una obra.
+- **Fase 2** de `produccion`.
 
 ## Pasos
 
@@ -22,20 +23,19 @@ description: redacta la letra limpia sin etiquetas (Fase 2 aislada): narrativa, 
 
 ## Reglas heredadas
 
-- Sin etiquetas en Fase 2: 100% lírica libre (`composicion/letra.md`).
+- Sin tags, 100% lírica libre (`composicion/letra.md`).
 - Desarrollo ambicioso: deja que la narrativa respire, evita lo mínimo exigible.
 - Si el cierre de verso va sin puntuación, se encadena en una misma respiración.
 
 ## Entra → Sale
 
 - **Entra:** tema, voz narrativa y tono.
-- **Sale:** letra limpia sin corchetes, (`composicion/formato.md §2`), lista para etiquetar en Fase 3.
+- **Sale:** letra limpia sin corchetes, (`composicion/formato.md §2`),
 
 ## Relación
 
-- ¿Necesitas acento concreto? → `fonetizar`.
-- ¿Necesitas jerga concreta? → `jerga`.
-- ¿Lista para etiquetar? → vuelve a `produccion` Fase 3.
+- Arranque en `lyrics_box` en Fase 2 de `produccion`.
+- Si se solicita previamente, llama a `fonetizar` y `jerga`.
 
 ## Ejemplo
 

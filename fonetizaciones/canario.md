@@ -1,8 +1,11 @@
-# Guía de Fonetización en Español: Dialecto Canario
-
-**Notas de Configuración Fonética:** Sistema fonológico caracterizado por una articulación relajada, el seseo absoluto, la aspiración de la 's' en final de sílaba y una notable suavidad en las consonantes fricativas. Requiere una lectura ligada donde las palabras se fusionan melodiosamente.
-
 ---
+name: canario
+type: fonetizaciones
+description: Sistema fonológico caracterizado por una articulación relajada, el seseo absoluto, la aspiración de la 's' en final de sílaba y una notable suavidad en las consonantes fricativas. Requiere una lectura ligada donde las palabras se fusionan melodiosamente.
+region: Dialecto Canario
+---
+
+# canario 
 
 ## Perfil Fonético General
 
@@ -15,10 +18,10 @@ Una introducción al "carácter" del idioma para establecer la postura articulat
 
 Adaptación del sistema vocálico complejo del idioma origen a las 5 vocales puras del español.
 
-| Patrón \ Grafía Original | Regla de Transformación | Equivalencia Fonética | Ejemplo Práctico |
-| :--- | :--- | :--- | :--- |
-| Vocal ante 's' aspirada | Experimenta una ligera apertura y alargamiento compensatorio | **a-a \ e-e \ i-i \ o-o \ u-u** | *las* → **lá-ah** |
-| Vocal átona final | Se mantiene pura, pero se entrelaza suavemente con la siguiente vocal (sinalefa) | **a \ e \ o** | *la ola* → **lá ó la** |
+| Patrón \ Grafía Original | Regla de Transformación                                                          | Equivalencia Fonética           | Ejemplo Práctico       |
+| ------------------------ | -------------------------------------------------------------------------------- | ------------------------------- | ---------------------- |
+| Vocal ante 's' aspirada  | Experimenta una ligera apertura y alargamiento compensatorio                     | **a-a \ e-e \ i-i \ o-o \ u-u** | *las* → **lá-ah**      |
+| Vocal átona final        | Se mantiene pura, pero se entrelaza suavemente con la siguiente vocal (sinalefa) | **a \ e \ o**                   | *la ola* → **lá ó la** |
 
 - **Diptongos clave:** Tendencia a respetar la pureza de los diptongos, pero con una articulación más lenta que genera un ligero arrastre musical, evitando cortes abruptos.
 
@@ -26,11 +29,11 @@ Adaptación del sistema vocálico complejo del idioma origen a las 5 vocales pur
 
 Cómo representar fonemas que no existen en el español peninsular estándar usando nuestras grafías.
 
-| Sonido de Origen (IPA) | Descripción Articulatoria | Fonetización en Español |
-| :--- | :--- | :--- |
-| \s\ | Fricativa alveolar sorda (Seseo) | **s** (sustituye de forma obligatoria a la 'z' y la 'c') |
-| \h\ | Fricativa glotal sorda | **h** (exhalación suave equivalente a la jota o la 's' final) |
-| \t͡ʃ\ adherida | Africada postalveolar sorda (pronunciación local de la 'ch') | **ch** (con la lengua más plana, acercándose a una 'y' tensa) |
+| Sonido de Origen (IPA) | Descripción Articulatoria                                    | Fonetización en Español                                       |
+| ---------------------- | ------------------------------------------------------------ | ------------------------------------------------------------- |
+| \s\                    | Fricativa alveolar sorda (Seseo)                             | **s** (sustituye de forma obligatoria a la 'z' y la 'c')      |
+| \h\                    | Fricativa glotal sorda                                       | **h** (exhalación suave equivalente a la jota o la 's' final) |
+| \t͡ʃ\ adherida          | Africada postalveolar sorda (pronunciación local de la 'ch') | **ch** (con la lengua más plana, acercándose a una 'y' tensa) |
 
 - **Consonantes mudas:** La 'd' intervocálica, especialmente en los participios terminados en "-ado", desaparece por completo en la fonética fluida.
 
@@ -54,12 +57,12 @@ Advertencias sobre combinaciones de letras que inducen al error por lectura lite
 Disección de palabras clave aplicando las reglas anteriores.
 
 - **Palabra:** `Pescado` (Pescado)
-  - *Desglose:* La 's' implosiva se aspira transformándose en aire. La 'd' intervocálica desaparece completamente, generando un encuentro directo entre las vocales 'a' y 'o'.
-  - *Fonetización final:* **peh ká o**
+    - *Desglose:* La 's' implosiva se aspira transformándose en aire. La 'd' intervocálica desaparece completamente, generando un encuentro directo entre las vocales 'a' y 'o'.
+    - *Fonetización final:* **peh ká o**
 
 - **Palabra:** `Cerveza` (Cerveza)
-  - *Desglose:* Seseo absoluto tanto en la 'c' inicial como en la 'z'. La sílaba tónica recibe todo el peso del arrastre rítmico canario.
-  - *Fonetización final:* **ser bé sa**
+    - *Desglose:* Seseo absoluto tanto en la 'c' inicial como en la 'z'. La sílaba tónica recibe todo el peso del arrastre rítmico canario.
+    - *Fonetización final:* **ser bé sa**
 
 ---
 
@@ -84,9 +87,9 @@ Definición de cómo los hablantes nativos de este dialecto distorsionan los fon
 ### Casos Prácticos de Aplicación (Lectura Extranjerizada)
 
 - **Palabra Española:** `Zapatillas`
-  - *Desglose de Interferencia:* La 'z' inicial se pronuncia como 's'. Yeísmo en la doble 'l'. La 's' final se relaja convirtiéndose en una suave aspiración que alarga mínimamente la 'a'.
-  - *Fonetización simulada:* **sa pa tí yah**
+    - *Desglose de Interferencia:* La 'z' inicial se pronuncia como 's'. Yeísmo en la doble 'l'. La 's' final se relaja convirtiéndose en una suave aspiración que alarga mínimamente la 'a'.
+    - *Fonetización simulada:* **sa pa tí yah**
 
 - **Palabra Española:** `Juzgado`
-  - *Desglose de Interferencia:* La 'j' se articula como una suave aspiración. La 'z' implosiva se sesea y, simultáneamente, se aspira por estar al final de sílaba. La 'd' se pierde.
-  - *Fonetización simulada:* **huh há o**
+    - *Desglose de Interferencia:* La 'j' se articula como una suave aspiración. La 'z' implosiva se sesea y, simultáneamente, se aspira por estar al final de sílaba. La 'd' se pierde.
+    - *Fonetización simulada:* **huh há o**

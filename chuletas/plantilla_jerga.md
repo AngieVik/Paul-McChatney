@@ -1,8 +1,11 @@
-# plantilla_jerga
-
-> Genera el manual de jerga de [], sigue la plantilla y genera el resultado en un bloque de codigo markdown.
+---
+name: plantilla_jerga
+type: plantilla
+description: Genera el manual de jerga de [], sigue la plantilla y genera el resultado en un bloque de codigo markdown.
 
 ---
+
+# plantilla_jerga
 
 ## Esqueleto a copiar
 
@@ -55,12 +58,12 @@ Cómo la jerga altera la estructura de las palabras regulares del idioma.
 Advertencias críticas sobre términos del español estándar que en esta jerga tienen un significado completamente distinto (y potencialmente problemático).
 
 - **[Palabra Estándar]:**
-  - *Significado normal:* [Ej. Recoger o tomar algo].
-  - *Significado en la jerga:* [Ej. Connotación sexual explícita].
-  - *Nivel de peligro:* [Alto/Medio/Bajo].
+    - *Significado normal:* [Ej. Recoger o tomar algo].
+    - *Significado en la jerga:* [Ej. Connotación sexual explícita].
+    - *Nivel de peligro:* [Alto/Medio/Bajo].
 - **[Palabra Estándar]:**
-  - *Significado normal:* [Ej. Fruta tropical].
-  - *Significado en la jerga:* [Ej. Persona de poca inteligencia].
+    - *Significado normal:* [Ej. Fruta tropical].
+    - *Significado en la jerga:* [Ej. Persona de poca inteligencia].
 
 ## 6 · Casos Prácticos de Aplicación (Diálogo Decodificado)
 
@@ -69,11 +72,11 @@ Disección de frases completas aplicando el vocabulario y las reglas anteriores.
 ### 6.1 · Frase de Ejemplo 1: Saludo en la calle
 
 - **Original en Jerga:** `[Frase coloquial completa e incomprensible para un extranjero]`
-  - *Desglose Lexical:* [Explicación paso a paso: Término A significa X, Muletilla B sirve para Y].
-  - *Traducción Estándar:* **"[La frase en español neutro, plano y formal]"**
+    - *Desglose Lexical:* [Explicación paso a paso: Término A significa X, Muletilla B sirve para Y].
+    - *Traducción Estándar:* **"[La frase en español neutro, plano y formal]"**
 
 ### 6.2 · Frase de Ejemplo 2: Expresión de enojo
 
 - **Original en Jerga:** `[Frase agresiva o de queja usando modismos]`
-  - *Desglose Lexical:* [Explicación de la metáfora o el insulto utilizado].
-  - *Traducción Estándar:* **"[La frase en español neutro, plano y formal]"**
+    - *Desglose Lexical:* [Explicación de la metáfora o el insulto utilizado].
+    - *Traducción Estándar:* **"[La frase en español neutro, plano y formal]"**

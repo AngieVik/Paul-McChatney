@@ -1,16 +1,18 @@
 ---
 name: buscar-tag
-description: busca en CHUPILISTA por concepto y devuelve 3–8 etiquetas relevantes con su núcleo y caja destino.
+type: skill
+description: busca en CHUPILISTA por concepto y devuelve 3–8 tags relevantes con su núcleo y caja destino.
 ---
 
 # buscar-tag
 
-- Buscador de la CHUPILISTA: dado un concepto (instrumento, emoción, efecto, ritmo…), devuelve las etiquetas más relevantes y dónde viven. Utilidad de referencia rápida.
+- Buscador de la CHUPILISTA: dado un concepto (instrumento, emoción, efecto, ritmo…), devuelve las tags más relevantes y dónde viven. Utilidad de referencia rápida.
 
 ## Cuándo se activa
 
-- Se solicita explicitamente buscar tags sobre un mood u obra.
-- Necesitas tags canónicos para el `style_box` o el `lyrics_box`; la orquestan `style-box` y `produccion` (Fases 1 y 3).
+- **Se solicita explicitamente** buscar tags sobre un mood u obra.
+- **Fase 1** de `produccion`, Combina con `fusionar` para géneros insólitos.
+- **Fase 3** de `produccion`.
 
 ## Pasos
 
@@ -30,7 +32,7 @@ description: busca en CHUPILISTA por concepto y devuelve 3–8 etiquetas relevan
 
 ## Relación
 
-- Sub-utilidad de `style-box` y de `produccion` (Fases 1 y 3). Combina con `fusionar` para géneros insólitos.
+- Sub-utilidad de `style-box` Fase 1 y `lyrics_box` Fase 3 en `produccion`.
 
 ## Ejemplo
 

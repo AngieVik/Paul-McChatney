@@ -1,8 +1,11 @@
-# Guía de Fonetización en Español: Dialecto Colombiano (Interior/Andino)
-
-**Notas de Configuración Fonética:** Sistema fonológico caracterizado por su alto conservadurismo consonántico, la articulación precisa de las sílabas y una musicalidad marcada por la cortesía. Es un dialecto transparente donde rara vez se omiten o debilitan los sonidos, a diferencia de las variantes costeras o caribeñas.
-
 ---
+name: colombiano_andino
+type: fonetizaciones
+description: Sistema fonológico caracterizado por su alto conservadurismo consonántico, la articulación precisa de las sílabas y una musicalidad marcada por la cortesía. Es un dialecto transparente donde rara vez se omiten o debilitan los sonidos, a diferencia de las variantes costeras o caribeñas.
+region:  Dialecto Colombiano (Interior/Andino)
+---
+
+# colombiano_andino
 
 ## Perfil Fonético General
 
@@ -15,10 +18,10 @@ Una introducción al "carácter" del idioma para establecer la postura articulat
 
 Adaptación del sistema vocálico complejo del idioma origen a las 5 vocales puras del español.
 
-| Patrón \ Grafía Original | Regla de Transformación | Equivalencia Fonética | Ejemplo Práctico |
-| :--- | :--- | :--- | :--- |
-| Vocal tónica de énfasis o cortesía | Se alarga al final de la frase o en la sílaba tónica para denotar amabilidad | **a-a \ e-e \ i-i \ o-o \ u-u** | *¿Bueno?* → **bwé-é no** |
-| Vocales átonas | Se mantienen puras, nítidas y estables sin importar la velocidad del habla | **a \ e \ i \ o \ u** | *Elegante* → **e le gán te** |
+| Patrón \ Grafía Original           | Regla de Transformación                                                      | Equivalencia Fonética           | Ejemplo Práctico             |
+| ---------------------------------- | ---------------------------------------------------------------------------- | ------------------------------- | ---------------------------- |
+| Vocal tónica de énfasis o cortesía | Se alarga al final de la frase o en la sílaba tónica para denotar amabilidad | **a-a \ e-e \ i-i \ o-o \ u-u** | *¿Bueno?* → **bwé-é no**     |
+| Vocales átonas                     | Se mantienen puras, nítidas y estables sin importar la velocidad del habla   | **a \ e \ i \ o \ u**           | *Elegante* → **e le gán te** |
 
 - **Diptongos clave:** Estabilidad total en los diptongos y tendencia a respetar los hiatos normativos sin forzar sinalefas extremas como ocurre en otras regiones.
 
@@ -26,11 +29,11 @@ Adaptación del sistema vocálico complejo del idioma origen a las 5 vocales pur
 
 Cómo representar fonemas que no existen en el español usando nuestras grafías.
 
-| Sonido de Origen (IPA) | Descripción Articulatoria | Fonetización en Español |
-| :--- | :--- | :--- |
-| \h\ | Fricativa glotal sorda (Aspiración suave) | **h** (reemplaza siempre el sonido fuerte de la 'j' o 'g') |
-| \ʝ\ o \d͡ʒ\ | Fricativa palatal sonora o africada (Yeísmo suave) | **y** o **ll** (sin estridencia, y a veces ligeramente oclusiva al inicio de palabra) |
-| \s\ | Fricativa alveolar sorda | **s** (clara, aguda y prolongada; jamás se aspira) |
+| Sonido de Origen (IPA) | Descripción Articulatoria                          | Fonetización en Español                                                               |
+| ---------------------- | -------------------------------------------------- | ------------------------------------------------------------------------------------- |
+| \h\                    | Fricativa glotal sorda (Aspiración suave)          | **h** (reemplaza siempre el sonido fuerte de la 'j' o 'g')                            |
+| \ʝ\ o \d͡ʒ\             | Fricativa palatal sonora o africada (Yeísmo suave) | **y** o **ll** (sin estridencia, y a veces ligeramente oclusiva al inicio de palabra) |
+| \s\                    | Fricativa alveolar sorda                           | **s** (clara, aguda y prolongada; jamás se aspira)                                    |
 
 - **Consonantes mudas:** No existen mudas sistemáticas en este dialecto; la tendencia es a la hipercorrección (pronunciar todas las letras de la palabra, incluyendo la 'd' final).
 
@@ -54,12 +57,12 @@ Advertencias sobre combinaciones de letras que inducen al error por lectura lite
 Disección de palabras clave aplicando las reglas anteriores.
 
 - **Palabra:** `Bogotá` (Bogotá)
-  - *Desglose:* La 'b' y la 'g' intervocálicas se pronuncian de forma oclusiva suave, sin llegar a la fricción total. Las vocales mantienen una claridad prístina.
-  - *Fonetización final:* **bo go tá**
+    - *Desglose:* La 'b' y la 'g' intervocálicas se pronuncian de forma oclusiva suave, sin llegar a la fricción total. Las vocales mantienen una claridad prístina.
+    - *Fonetización final:* **bo go tá**
 
 - **Palabra:** `Trabajador` (Trabajador)
-  - *Desglose:* La 'j' se suaviza a una fricativa glotal sorda. La 'r' final se articula completamente y la 'd' final no se omite.
-  - *Fonetización final:* **tra ba ha dór**
+    - *Desglose:* La 'j' se suaviza a una fricativa glotal sorda. La 'r' final se articula completamente y la 'd' final no se omite.
+    - *Fonetización final:* **tra ba ha dór**
 
 ---
 
@@ -84,9 +87,9 @@ Definición de cómo los hablantes nativos de este idioma distorsionan los fonem
 ### Casos Prácticos de Aplicación (Lectura Extranjerizada)
 
 - **Palabra Española:** `Jubilación`
-  - *Desglose de Interferencia:* Seseo en la sílaba final. Suavización extrema de la 'j' inicial convirtiéndola en un soplo de aire. Articulación inquebrantable de cada sílaba.
-  - *Fonetización simulada:* **hu bi la sión**
+    - *Desglose de Interferencia:* Seseo en la sílaba final. Suavización extrema de la 'j' inicial convirtiéndola en un soplo de aire. Articulación inquebrantable de cada sílaba.
+    - *Fonetización simulada:* **hu bi la sión**
 
 - **Palabra Española:** `Ustedes`
-  - *Desglose de Interferencia:* La 's' intervocálica y final se articulan con fricción sorda perfecta, sin un ápice de aspiración. La 'd' se mantiene nítida.
-  - *Fonetización simulada:* **us té des**
+    - *Desglose de Interferencia:* La 's' intervocálica y final se articulan con fricción sorda perfecta, sin un ápice de aspiración. La 'd' se mantiene nítida.
+    - *Fonetización simulada:* **us té des**

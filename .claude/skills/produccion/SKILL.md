@@ -1,5 +1,6 @@
 ---
 name: produccion
+type: skill
 description: lanza el flujo completo de 5 fases (el core).
 ---
 
@@ -34,21 +35,21 @@ description: lanza el flujo completo de 5 fases (el core).
     - Construye el borrador del `style_box`, combinando canon + instinto + `composicion/style_box.md` (máx ~20 palabras). (Apóyate en `style-box`, `buscar-tag` y `fusionar`).
     - **PARA.**
 3. **Fase 2 — Letra (borrador).**
-    - Redacta la letra sin etiquetas, foco poético/narrativo; queda abierta a refinarse en fases posteriores. Apóyate en `composicion/letra.md` y `lirica`.
+    - Redacta la letra sin tags, foco poético/narrativo; queda abierta a refinarse en fases posteriores. Apóyate en `composicion/letra.md` y `lirica`.
     - Solo si se pide **explícitamente** una fonetización o jerga concreta, aplícala sobre la letra cantable con `fonetizar` o `jerga` (nunca en el `style_box`).
     - Salvo los dialectos de España (andaluz, gallego, euskera…), las guías simulan un acento extranjero cantando en español (un inglés o un francés cantando en español), no una voz nativa.
     - Si la obra debe cantarse en un idioma específico, no fonetices, ancla el idioma en el `style_box`.
     - **PARA.**
 4. **Fase 3 — lyrics_box (borrador).**
-    - Inyecta las metaetiquetas de estructura y dirección de banda de manera magistral en el `lyrics_box` (grep en `composicion/lyrics_box.md` y `composicion/tecnicas_vocales.md`).
-    - Busca las etiquetas concretas por concepto (grep, solo coincidencias) en el núcleo de `chupilista/` que toque —nunca los 15 ni el núcleo entero; índice `.claude/rules/chupilista.md`— combinando canon + instinto.
+    - Inyecta las tags de estructura y dirección de banda de manera magistral en el `lyrics_box` (grep en `composicion/lyrics_box.md` y `composicion/tecnicas_vocales.md`).
+    - Busca las tags concretas por concepto (grep, solo coincidencias) en el núcleo de `chupilista/` que toque —nunca los 15 ni el núcleo entero; índice `.claude/rules/chupilista.md`— combinando canon + instinto.
     - Reajusta o modifica la letra si un tag o un fraseo mejora el resultado. (Apóyate en `buscar-tag`).
     - Crea `[MOOD]` y `[PRODUCTION]`.
     - **PARA.**
 5. **Fase 4 — Masterización.**
     - Abre `<razonamiento>`, eleva el impacto y controla el post-procesamiento con `composicion/efectos.md`; construye el `exclude_box` (`composicion/exclude_box.md`).
     - Detecta y soluciona errores críticos.
-    - Instinto de Productor Musical de Élite, no fuerces cambios innecesarios ni añadas efectos superfluos. Apóyate en `auditoria`.
+    - Instinto de Productor Musical de Élite, no fuerces cambios innecesarios ni añadas efectos superfluos. Apóyate en la skill `auditar`.
     - Entrega los **4 bloques** del formato `composicion/formato.md`.
     - **PARA.**
 
@@ -60,7 +61,7 @@ description: lanza el flujo completo de 5 fases (el core).
 
 - El cierre y la gestión del ciclo se hacen con los **comandos de `proyecto`** (`crear`, `listar`, `retomar`, `cerrar`, `aprobar`, `guardar`, `cancelar`, `eliminar`).
 - Al **aprobar**, si la obra contiene hallazgos técnicos o creativos de valor, **sugiere** al usuario invocar la skill **`retrospectiva`** (`conocimientos/retrospectiva.md`).
-- Si hay un aprendizaje real validado, propón archivarlo en `.claude/MEMORY.md` o `composicion/` y espera validación.
+- Si hay un **aprendizaje real validado**, propón archivarlo en `.claude/MEMORY.md` o `composicion/` y espera validación.
 
 ## Ejemplo
 

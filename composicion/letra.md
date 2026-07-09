@@ -1,6 +1,11 @@
+---
+name: letra
+type: composicion
+description: Escritura técnica y tipografía como partitura física: narrativa, control fonético y aritmética métrica.
+---
+
 # Letra
 
-*Escritura técnica y tipografía como partitura física: narrativa, control fonético y aritmética métrica.*
 *Recordatorio: consulta por búsqueda (grep) o salto por sección.*
 
 ## Índice
@@ -33,7 +38,7 @@
 
 ### 1.2 · Rigidez estructural (solo Fases 3 y 4)
 
-  *En Fase 2 el lirismo va 100% libre de etiquetas. En Fases 3 y 4 es obligatorio ceñirse a la arquitectura.*
+  *En Fase 2 el lirismo va 100% libre de tags. En Fases 3 y 4 es obligatorio ceñirse a la arquitectura.*
 
 ### 1.3 · Anclaje regional mediante jerga
 
