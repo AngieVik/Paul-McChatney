@@ -16,10 +16,9 @@ description: construye solo el style_box (+ exclude_box) de una obra consultando
 ## Pasos
 
 1. Pide o deduce: género/mood objetivo, idioma de la letra y referencias.
-2. Busca por concepto (grep, solo coincidencias) dentro del núcleo de `chupilista/` (sobre todo 01 género, 03 instrumentación, 04/12 voz, 05 ritmo, 08 dinámica, 10 experimental). La skill `buscar-tag` automatiza esta búsqueda.
-3. Redacta el `style_box`: **género de fusión primero**, subgéneros de apoyo en minúsculas, instrumentos base con **Tag Anchoring**. Máx ~20 palabras.
-4. Aplica el **Anclaje Idiomático** (`system_prompt/system_prompt.md`): antepón el idioma solo si el género es global (ej. `spanish_heavy_metal`); omítelo si el género ya es propio de esa cultura (flamenco, reggaetón…).
-5. Genera una línea de `exclude_box` separados por comas, bloqueando clichés e instrumentos no deseados.
+2. Busca por concepto (grep, solo coincidencias) dentro del núcleo de `chupilista/`. La skill `buscar-tag` automatiza esta búsqueda.
+3. Redacta el `style_box`:
+4. Genera una línea de `exclude_box` separados por comas, bloqueando clichés e instrumentos no deseados.
 
 ## Reglas heredadas
 

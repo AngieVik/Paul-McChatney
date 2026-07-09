@@ -19,14 +19,14 @@ description: Crea y gestiona el archivo de trabajo de una obra. Primer paso de c
 
 ## Relación
 
-- **Primer paso de cualquier creación** para `crear` el archivo de trabajo con `chuletas/plantilla_hoja_sucia.md`.
+- **Primer paso de cualquier creación** para `crear` el `archivo de trabajo` con `chuletas/plantilla_hoja_sucia.md`.
 - Al `aprobar` la obra terminada, genera la plantilla final `chuletas/plantilla_proyecto.md`.
 - Al **aprobar**, si la obra contiene hallazgos técnicos o creativos de valor, **sugiere** al usuario iniciar **`retrospectiva`** (`conocimientos/retrospectiva.md`).
 
 ## Comandos
 
 - `crear`: genera `_hojas_sucias/<slug>.md` (slug en `snake_case`, sin acentos ni eñes) con un borrador dinámico del proyecto nuevo solicitado, usando `chuletas/plantilla_hoja_sucia.md` como guía conceptual (no estricta); haz preguntas.
-    - Es el archivo de trabajo libre que se *sobrescribe* según avanza; si el usuario pega una versión consolidada, esa pasa a ser la actual.
+    - Es el `archivo de trabajo` libre que se *sobrescribe* según avanza; si el usuario pega una versión consolidada, esa pasa a ser la actual.
 - `listar`: muestra lo que se te solicite, obras vivas en `_hojas_sucias/`, el catálogo de `PROYECTOS.md`, etc.
 - `retomar`:
     - Desde *proyecto terminado*: copia su contenido de `proyectos/<slug>/` a `_hojas_sucias/<slug>.md` y resume su estado para retomar el trabajo.

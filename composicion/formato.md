@@ -10,7 +10,7 @@ description: Estructura de salida: todo lo copiable va SIEMPRE en bloque de cód
 
 ## Índice
 
-`1 · Obra completa (Fase 4)`
+`1 · Obra completa (producción)`
 `2 · Entrega flexible (modo conversacional y skills sueltas)`
 
 ---
@@ -34,6 +34,8 @@ Escribe aquí el contenido del exclude_box
 ```text
 [MOOD: 1 tag de humor + 1 de energía + instrumentos clave].
 [PRODUCTION: Aplica comandos de producción]
+
+[línea cero de identidad vocal si la obra tiene cantante definido]
 
 Escribe aquí el contenido del lyrics_box
 ```
