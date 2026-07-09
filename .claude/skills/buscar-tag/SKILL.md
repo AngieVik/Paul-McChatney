@@ -10,7 +10,7 @@ description: busca en CHUPILISTA por concepto y devuelve 3–8 tags relevantes c
 
 ## Cuándo se activa
 
-- **Se solicita explicitamente** buscar tags sobre un mood u obra.
+- **Se solicita explícitamente** buscar tags sobre un mood u obra.
 - **Fase 1** de `produccion`, Combina con `fusionar` para géneros insólitos.
 - **Fase 3** de `produccion`.
 

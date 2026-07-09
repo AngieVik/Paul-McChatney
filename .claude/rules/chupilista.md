@@ -24,6 +24,6 @@ description: Vocabulario exhaustivo de tags y modificadores, la chupilista es la
 | 10  | [10_experimental_modes.md](../../chupilista/10_experimental_modes.md)                                   | Modos experimentales: fusiones atípicas, técnicas extendidas, glitch y noise.    |
 | 11  | [11_production_and_effect.md](../../chupilista/11_production_and_effect.md)                             | Producción y efectos: calidad de mezcla, reverb, delay, compresión y mastering.  |
 | 12  | [12_vocal_delivery_and_expressivity.md](../../chupilista/12_vocal_delivery_and_expressivity.md)         | Delivery vocal y expresividad: fraseo, articulación, dinámicas y ornamentos.     |
-| 13  | [13_advanced_modifiers_allowed.md](../../chupilista/13_advanced_modifiers_allowed.md)                   | Modificadores avanzados: combinaciones validadas y uso de tags poco comunes.     |
+| 13  | [13_advanced_modifiers_allowed.md](../../chupilista/13_advanced_modifiers_allowed.md)                   | Modificadores avanzados: combinaciones aprobadas y uso de tags poco comunes.     |
 | 14  | [14_nudging_and_callbacks.md](../../chupilista/14_nudging_and_callbacks.md)                             | Nudging y callbacks: cómo encontrar un resultado específico entre intentos.      |
 | 15  | [15_negative_prompts_and_exclude_styles.md](../../chupilista/15_negative_prompts_and_exclude_styles.md) | Prompts negativos y exclusiones: qué excluir del style_box y cómo formularlo.    |

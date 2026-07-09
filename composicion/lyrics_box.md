@@ -42,7 +42,7 @@ description: Control semántico, mapeo operativo del lyrics_box, gramática téc
     - **Experimental Modes:** `chupilista/10_experimental_modes.md` Fusiones inusuales.
     - **Production and Effect:** `chupilista/11_production_and_effect.md` Etiqueta global PRODUCTION o corchetes temporales para procesamiento de mezcla/máster: reverb, delay, compresión, saturación y amplitud estéreo.
     - **Vocal Delivery and Expressivity:** `chupilista/12_vocal_delivery_and_expressivity.md` Fraseo, articulación, dinámica y ornamentos puntuales intercalados en la letra (susurros, gritos, segundas voces, duetos, coros) para modular la interpretación en momentos concretos.
-    - **Advanced Modifiers:** `chupilista/13_advanced_modifiers_allowed.md` Combinaciones poco comunes pero validadas y tags experimentales para efectos puntuales que el vocabulario estándar no cubre; úsalos con criterio, no por defecto.
+    - **Advanced Modifiers:** `chupilista/13_advanced_modifiers_allowed.md` Combinaciones poco comunes pero aprobadas y tags experimentales para efectos puntuales que el vocabulario estándar no cubre; úsalos con criterio, no por defecto.
     - **Nudging and Callbacks:** `chupilista/14_nudging_and_callbacks.md` Empujes de transición en cierres/inicios de sección para reutilizar motivos melódicos. **Ejemplo:** `[Callback: continue with same vibe as chorus]`.
 
 ### 1.1 · Modificadores parametrizados

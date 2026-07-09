@@ -21,7 +21,7 @@ description: Crea y gestiona el archivo de trabajo de una obra. Primer paso de c
 
 - **Primer paso de cualquier creación** para `crear` el archivo de trabajo con `chuletas/plantilla_hoja_sucia.md`.
 - Al `aprobar` la obra terminada, genera la plantilla final `chuletas/plantilla_proyecto.md`.
-- Al **aprobar**, si la obra contiene hallazgos técnicos o creativos de valor, **sugiere** al usuario invocar la skill **`retrospectiva`** (`conocimientos/retrospectiva.md`).
+- Al **aprobar**, si la obra contiene hallazgos técnicos o creativos de valor, **sugiere** al usuario iniciar **`retrospectiva`** (`conocimientos/retrospectiva.md`).
 
 ## Comandos
 

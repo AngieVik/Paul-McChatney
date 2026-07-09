@@ -11,7 +11,7 @@ description: propone 3–5 fusiones de géneros insólitas pero viables.
 
 ## Cuándo se activa
 
-- **Se solicita explicitamente** una fusión sobre un mood u obra.
+- **Se solicita explícitamente** una fusión sobre un mood u obra.
 - **Fase 1** de `produccion`, para `style_box`, se apoya en `composicion/style_box.md`.
   
 ## Pasos

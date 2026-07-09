@@ -37,5 +37,3 @@ _temp/
 # --- temporales / sistema ---
 .DS_Store
 Thumbs.db
-.prettierignore
-tablas.md

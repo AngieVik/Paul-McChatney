@@ -1,7 +1,7 @@
 ---
 name: retrospectiva
 type: conocimientos
-description: Cierra el ciclo de aprendizaje: tras validar una obra, evalúa si hay un aprendizaje REAL y, con tu aprobación, lo archiva donde se consume.
+description: Cierra el ciclo de aprendizaje: tras aprobar una obra, evalúa si hay un aprendizaje REAL y, con tu aprobación, lo archiva donde se consume.
 ---
 
 # retrospectiva
@@ -11,7 +11,7 @@ description: Cierra el ciclo de aprendizaje: tras validar una obra, evalúa si h
 ## Índice
 
 `1 · Cuándo se ejecuta`
-`2 · Gatillo → evaluar → proponer → validar`
+`2 · Gatillo → evaluar → proponer → aprobar`
 `3 · Regla del prompting positivo`
 `4 · Principio de fondo`
 
@@ -19,11 +19,11 @@ description: Cierra el ciclo de aprendizaje: tras validar una obra, evalúa si h
 
 ## 1 · Cuándo se ejecuta
 
-Solo tras **validar** una obra, (elegiste la mejor versión / diste el visto bueno) y me cuentas qué funcionó o falló al generar. Sin validación no hay retro: un prompt no probado es hipótesis, no conocimiento.
+Solo tras **aprobar** una obra, (elegiste la mejor versión / diste el visto bueno) y me cuentas qué funcionó o falló al generar. Sin aprobación no hay retro: un prompt no probado es hipótesis, no conocimiento.
 
 ---
 
-## 2 · Gatillo → evaluar → proponer → validar
+## 2 · Gatillo → evaluar → proponer → aprobar
 
 1. **Evalúa si hay aprendizaje de verdad.** No es obligatorio anotar nada: si no hay una lección **real, de calidad y funcional**, no se hace nada. Nunca fuerces una entrada.
 
@@ -31,8 +31,8 @@ Solo tras **validar** una obra, (elegiste la mejor versión / diste el visto bue
    - **Principio transversal de composición** → `.claude/MEMORY.md`.
    - **Técnica o tag concreto** → su archivo de `composicion/` (donde la próxima obra lo leerá de verdad).
    - Siempre en **positivo/accionable** (ver §3).
-3. **Propón antes de tocar nada.** Cuando detectes un cambio que encaje, **propónmelo** —archivo, sección, redacción exacta y por qué eleva la obra— y **espera mi validación explícita** antes de aplicarlo. Nunca escribas memoria en automático.
-4. **Deja rastro obra→aprendizaje.** Al aplicar el cambio (ya validado), añade una referencia a la instrucción tocada en el bloque de esa obra en `PROYECTOS.md` (una línea, formato tipo detector). No vuelques el prompt entero: solo el vínculo obra ↔ instrucción creada/modificada/eliminada.
+3. **Propón antes de tocar nada.** Cuando detectes un cambio que encaje, **propónmelo** —archivo, sección, redacción exacta y por qué eleva la obra— y **espera mi aprobación explícita** antes de aplicarlo. Nunca escribas memoria en automático.
+4. **Deja rastro obra→aprendizaje.** Al aplicar el cambio (ya aprobado), añade una referencia a la instrucción tocada en el bloque de esa obra en `PROYECTOS.md` (una línea, formato tipo detector). No vuelques el prompt entero: solo el vínculo obra ↔ instrucción creada/modificada/eliminada.
 
 ---
 
@@ -50,9 +50,9 @@ Todo aprendizaje se redacta como **directiva accionable en positivo** — qué h
 
 ## 4 · Principio de fondo
 
-La validación en producción es el único pasaporte a un aprendizaje; lo no probado queda como hipótesis y no se escribe. Cada obra validada debe mejorar la siguiente **de verdad**: por eso el aprendizaje vive donde se consume `MEMORY` o `composicion/`, no en un archivo aparte que nadie relee. El historial lo guarda git; no hace falta un changelog manual.
+La aprobación en producción es el único pasaporte a un aprendizaje; lo no probado queda como hipótesis y no se escribe. Cada obra aprobada debe mejorar la siguiente **de verdad**: por eso el aprendizaje vive donde se consume `MEMORY` o `composicion/`, no en un archivo aparte que nadie relee. El historial lo guarda git; no hace falta un changelog manual.
 
 ## Regla de oro de la memoria
 
-- Un prompt no validado en producción es hipótesis, no conocimiento: no escala a `MEMORY.md` ni a los archivos vivos hasta que el usuario valida la obra. 
+- Un prompt no aprobado en producción es hipótesis, no conocimiento: no escala a `MEMORY.md` ni a los archivos vivos hasta que el usuario aprueba la obra. 
 - Todo aprendizaje se redacta en **positivo** (qué hacer).

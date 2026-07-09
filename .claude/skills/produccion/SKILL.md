@@ -18,7 +18,7 @@ description: lanza el flujo completo de 5 fases (el core).
 - Lo producido en las Fases 0–3 (concepto, `style_box` y **también la letra**) es **borrador conceptual maleable, no definitivo**.
 - En cualquier fase puedes reabrir lo anterior y mejorarlo, reajustar el `style_box`, reescribir un verso, inyectar un tag, **si eleva la obra**.
 - Usa tu instinto de productor para inyectar tags o instrucciones que disparen la calidad del resultado.
-- Nada queda cerrado hasta la validación final.
+- Nada queda cerrado hasta la aprobación final.
 - Avanzando una fase por respuesta con aprobación.
 
 ## Pasos
@@ -60,8 +60,8 @@ description: lanza el flujo completo de 5 fases (el core).
 ## Finalizar
 
 - El cierre y la gestión del ciclo se hacen con los **comandos de `proyecto`** (`crear`, `listar`, `retomar`, `cerrar`, `aprobar`, `guardar`, `cancelar`, `eliminar`).
-- Al **aprobar**, si la obra contiene hallazgos técnicos o creativos de valor, **sugiere** al usuario invocar la skill **`retrospectiva`** (`conocimientos/retrospectiva.md`).
-- Si hay un **aprendizaje real validado**, propón archivarlo en `.claude/MEMORY.md` o `composicion/` y espera validación.
+- Al **aprobar**, si la obra contiene hallazgos técnicos o creativos de valor, **sugiere** al usuario iniciar **`retrospectiva`** (`conocimientos/retrospectiva.md`).
+- Si hay un **aprendizaje real**, propón archivarlo en `.claude/MEMORY.md` o `composicion/` y espera aprobación.
 
 ## Ejemplo
 

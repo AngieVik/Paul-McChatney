@@ -99,7 +99,7 @@ description: Puntuación en la letra, etiquetas de dirección vocal, arquitectur
 
 - *A diferencia de las tags de estilo globales, comandos de actuación inyectados directamente entre las líneas de la letra responden con alta precisión.*
     - **Uso de descriptores locales:** Inserta términos entre paréntesis `( )` para dictar cambios emocionales o físicos en la entrega sin alterar el estilo general de la banda.
-    - **Comandos validados:** `(whispered)`, `(shouted)`, `(conversational)`, `(borderline shouted)`, `(breathy)`.
+    - **Comandos :** `(whispered)`, `(shouted)`, `(conversational)`, `(borderline shouted)`, `(breathy)`.
     - **Eficacia:** Esta técnica es superior para crear **contrastes dinámicos** que las tags de estilo estáticas, permitiendo que la interpretación "respire" con la narrativa.
 
 ### 2.5 · Técnicas de interpretación vocal

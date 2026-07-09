@@ -30,7 +30,7 @@ description: redacta la letra limpia sin tags: narrativa, cadencia y anclaje reg
 ## Entra → Sale
 
 - **Entra:** tema, voz narrativa y tono.
-- **Sale:** letra limpia sin corchetes, (`composicion/formato.md §2`),
+- **Sale:** letra limpia sin corchetes (`composicion/formato.md §2`),
 
 ## Relación
 

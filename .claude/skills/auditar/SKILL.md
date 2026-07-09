@@ -10,7 +10,7 @@ description: audita agresivamente un prompt ya escrito, caza conflictos de tags,
 
 ## Cuándo se activa
 
-- **Se solicita explicitamente** revisar/auditar sobre un mood u obra. 
+- **Se solicita explícitamente** revisar/auditar sobre un mood u obra. 
 - **Fase 4** de `produccion`.
 
 ## Pasos
@@ -29,7 +29,7 @@ description: audita agresivamente un prompt ya escrito, caza conflictos de tags,
     **Tags (lyrics_box):**
         - **Global Style** — tags sin parametrizar: `[Verse]` pelado en vez de `[Verse: ...]` (`lyrics_box §1.1`).
         - **Fantasma en la mezcla** — `[Solo]` mal usado vacía la sección; usa jerarquía tipo `[Lead]` (`lyrics_box §2`).
-        - **Sección huérfana** — bloque de letra sin su tagag de estructura.
+        - **Sección huérfana** — bloque de letra sin su tag de estructura.
         - **Loro mecánico** — `[Repeat x3]` o repetición mecánica en secciones largas (`lyrics_box §1.7`).
         - **Persona fugada** — identidad vocal sin anclar en la línea cero → riesgo de mutación tímbrica (`tecnicas_vocales §2.2`).
 

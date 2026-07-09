@@ -18,7 +18,8 @@ Rareza —%
 Influencia estilo —%
 
 ## Style Box
-Style: Power Metal épico, Viking storytelling, speed shred vocals, mythological narrative, [Spanish Voice][Extended Vocal Techniques][Dynamic Choir Sections][Effect: Stereo Panning][Rubato Attack]
+
+Style: Power Metal épico, Viking storytelling, speed shred vocals, mythological narrative, Spanish Voice, Extended Vocal Techniques, Dynamic Choir Section, Effect: Stereo Panning, Rubato Attack.
 
 ## Negative Prompts
 

@@ -10,8 +10,7 @@ description: reescribe la letra cantable, para que se cante con un acento o idio
 
 ## Cuándo se activa
 
--**Se solicita explícitamente** un acento o idioma concreto sobre un mood u obra.
-
+- **Se solicita explícitamente** un acento o idioma concreto sobre un mood u obra.
 - **Fase 2** de `produccion` si se solicita previamente.
 
 ## Pasos

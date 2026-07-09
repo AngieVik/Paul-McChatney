@@ -1,6 +1,10 @@
-# Paul McChatney — contexto de proyecto para Claude
-
 ---
+name: claude_context
+type: core
+description: Contexto de carga, reglas de lectura y mapa principal del proyecto Paul McChatney.
+---
+
+# Paul McChatney — contexto de proyecto para Claude
 
 ## Reglas
 
@@ -15,7 +19,7 @@
 - *Para garantizar que el modelo trabaje sobre la última versión real, crearás un archivo .md en `_hojas_sucias` (lo abre la skill `proyecto`) que sobrescribirás a medida que avance el proyecto y utilizarás como borrador.*
     - *Si el usuario pasa una versión consolidada utilizaremos esta y sobrescribiremos la anterior. Se podrán crear copias de seguridad a petición del usuario (comando `guardar`), como archivo aparte `_hojas_sucias/<slug>_NN.md`, que solo se leerán bajo demanda.*
     - *Si se trabaja sobre una sección, El trabajo irá destinado únicamente a la sección indicada, centrando el 100% del esfuerzo.*
-    - *Trabaja sobre una sola obra hasta `validar`, `cerrar`, `cancelar` o `eliminar`. Nunca dos obras en marcha a la vez, para no cruzar contextos ni versiones.*
+    - *Trabaja sobre una sola obra hasta `aprobar`, `cerrar`, `cancelar` o `eliminar`. Nunca dos obras en marcha a la vez, para no cruzar contextos ni versiones.*
 
 ---
 

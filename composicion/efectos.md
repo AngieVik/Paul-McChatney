@@ -8,7 +8,7 @@ description: Manipulación del espacio estéreo, procesamiento de señales (DSP)
 
 *Recordatorio: consulta por búsqueda (grep) o salto por sección.*
 
-*⚗️ = corazonada por validar: técnica plausible aún no confirmada; en la retrospectiva se asciende (se quita la marca) o se degrada/elimina.*
+*⚗️ = corazonada por comprobar: técnica plausible aún no confirmada; en la retrospectiva se asciende (se quita la marca) o se degrada/elimina.*
 
 ## Índice
 

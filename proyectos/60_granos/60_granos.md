@@ -91,7 +91,9 @@ Porque en este maldito escenario... el amo del ruido... soy yo
 
 [Fade Out, single high piano note, heavy sustain]
 [End]
+
 ---
+
 ## Retrospectiva
 
 **Fecha de producción:** 2026-06-20
