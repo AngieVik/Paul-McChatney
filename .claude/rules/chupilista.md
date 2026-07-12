@@ -6,6 +6,7 @@ description: Vocabulario exhaustivo de tags y modificadores, la chupilista es la
 
 - *No se carga con `@`, este índice es el mapa concepto→archivo, abre cada `chupilista/<archivo>.md` bajo demanda con la herramienta de lectura, solo el/los que necesites.*
 - **Consulta por búsqueda (grep) o salto por Índice.**
+- **Consumido por:** `buscar_tag` (extractor canónico); a través de él, `style_box`, `lyrics_box`, `exclude_box` y `produccion`.
 
 ---
 
@@ -21,7 +22,7 @@ description: Vocabulario exhaustivo de tags y modificadores, la chupilista es la
 | <a href="../../chupilista/05_rhythm_and_tempo.md">`05_rhythm_and_tempo.md`</a>                                       | Ritmo y tempo: BPM, subdivisiones, grooves, feels rítmicos.                      |
 | <a href="../../chupilista/06_song_structure_and_sections.md">`06_song_structure_and_sections.md`</a>                 | Estructura y secciones: tags de sección ([Verse], [Chorus], [Bridge], etc.).     |
 | <a href="../../chupilista/07_music_theory_harmony_and_scales.md">`07_music_theory_harmony_and_scales.md`</a>         | Armonía y escalas: modos, tensiones, progresiones y vocabulario tonal.           |
-| <a href="../../chupilista/08_dynamics_and_intensity.md">08_dynamics_and_intensity`.md`</a>                           | Dinámica e intensidad: crescendos, drops, silencio, saturación y arco dramático. |
+| <a href="../../chupilista/08_dynamics_and_intensity.md">`08_dynamics_and_intensity.md`</a>                           | Dinámica e intensidad: crescendos, drops, silencio, saturación y arco dramático. |
 | <a href="../../chupilista/09_foley_and_sound_design_fx.md">`09_foley_and_sound_design_fx.md`</a>                     | Foley y diseño de sonido: efectos ambientales, texturas y samples de entorno.    |
 | <a href="../../chupilista/10_experimental_modes.md">`10_experimental_modes.md`</a>                                   | Modos experimentales: fusiones atípicas, técnicas extendidas, glitch y noise.    |
 | <a href="../../chupilista/11_production_and_effect.md">`11_production_and_effect.md`</a>                             | Producción y efectos: calidad de mezcla, reverb, delay, compresión y mastering.  |

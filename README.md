@@ -6,141 +6,96 @@ description: Mapa general del proyecto Paul McChatney.
 
 # Paul McChatney
 
-- *Sistema de composición musical para crear canciones, prompts, `style_box`, `lyrics_box`, `exclude_box` y documentación de proyectos musicales.*
+- *Sistema documental/agéntico de composición musical con IA: canciones, `style_box`, `lyrics_box`, `exclude_box` y documentación de obras.*
 
 ---
 
-## 1 · Qué es
+## 1 · Regla principal
 
-- *Paul McChatney es un sistema documental/agéntico para componer obras musicales con IA.*
+- *No cargar carpetas enteras. Nunca.*
 
-El repo organiza:
-
-- Identidad y comportamiento del agente.
-- Skills de trabajo.
-- Mapas de consulta.
-- Bibliotecas de tags.
-- Guías de composición.
-- Jerga y fonetización.
-- Plantillas.
-- Catálogo de canciones terminadas.
-
----
-
-## 2 · Regla principal
-
-- *No cargar carpetas enteras.*
-
-Usar primero los índices de `.claude/rules/` y abrir solo el archivo necesario.
+Usa primero los índices de `.claude/rules/` para saber qué archivo abrir, y abre solo ese.
 
 ```text
 Índice → archivo concreto → respuesta
 ```
 
-## 3 · Estructura
+Si no sabes qué abrir, no abras más archivos: vuelve al índice.
 
-| Ruta              | Uso                                                            |
-| ----------------- | -------------------------------------------------------------- |
-| `.claude/`        | Contexto, memoria, reglas y skills.                            |
-| `.claude/skills/` | Habilidades invocables: producir, fonetizar, etc.              |
-| `.claude/rules/`  | Mapas de consulta para saber qué archivo abrir.                |
-| `system_prompt/`  | Identidad y comportamiento principal de Paul McChatney.        |
-| `chuletas/`       | Plantillas y guías base.                                       |
-| `chupilista/`     | Biblioteca de tags, géneros, efectos, estructuras y negativos. |
-| `composicion/`    | Reglas técnicas de escritura, estructura, efectos y formato.   |
-| `conocimientos/`  | Documentos de conocimiento transversal.                        |
-| `fonetizar/`      | Guías para simular acentos o idiomas cantados en español.      |
-| `jerga/`          | Guías para inyectar modismos locales en la letra cantable.     |
-| `proyectos/`      | Canciones terminadas, una carpeta por obra.                    |
-| `PROYECTOS.md`    | Catálogo general de obras aprobadas.                           |
+---
 
-## 4 · Carpetas Ignoradas
+## 2 · Estructura
 
-- *Estas carpetas existen para trabajo local, referencias o material pesado, pero no forman parte del núcleo versionado:*
+| Ruta              | Uso                                              |
+| ----------------- | ------------------------------------------------- |
+| `.claude/`        | Contexto, memoria, reglas y skills.               |
+| `.claude/rules/`  | Índices → qué archivo abrir.                      |
+| `.claude/skills/` | Habilidades invocables.                           |
+| `system_prompt/`  | Identidad y comportamiento de Paul.               |
+| `chuletas/`       | Plantillas y guías base.                          |
+| `chupilista/`     | Tags: géneros, efectos, estructuras, negativos.   |
+| `composicion/`    | Reglas técnicas de escritura, efectos y formato.  |
+| `fonetizar/`      | Acentos e idiomas cantados.                       |
+| `jerga/`          | Modismos locales para la letra.                   |
+| `proyectos/`      | Obras terminadas, una carpeta por obra.           |
+| `PROYECTOS.md`    | Catálogo de obras aprobadas.                      |
 
-| Ruta                 | Uso                                                 |
-| -------------------- | --------------------------------------------------- |
-| `_docs/`             | Documentos de referencia.                           |
-| `_hojas_sucias/`     | Borradores vivos, ideas y proyectos en curso.       |
-| `_produccion/`       | Audio, referencias, stems, plugins o masterización. |
-| `_prompts_antiguos/` | Prompts antiguos o descartados.                     |
-| `_temp/`             | Archivos temporales.                                |
+- *Carpetas con guion bajo (`_docs`, `_hojas_sucias`, `_produccion`, `_prompts_antiguos`, `_temp`) son locales y no se cargan por defecto — ver `.claude/CLAUDE.md`.*
 
-## 5 · Flujo básico
+---
 
-1. Leer `system_prompt/system_prompt.md`.
-2. Leer `.claude/MEMORY.md`.
-3. Consultar `.claude/CLAUDE.md`.
-4. Usar `.claude/rules/` como mapa.
-5. Abrir solo el archivo necesario.
-6. Trabajar por fases con produccion.
-7. Guardar obras aprobadas en `proyectos/<slug>/<slug>.md`.
-8. Registrar la obra en `PROYECTOS.md`.
-9. Ejecutar retrospectiva solo si la obra aprobada deja aprendizaje real.
+## 3 · Flujo básico
 
-## 6 · Skills principales
+1. Leer `system_prompt/system_prompt.md` y `.claude/MEMORY.md`.
+2. Consultar `.claude/CLAUDE.md` y el índice correspondiente en `.claude/rules/`.
+3. Abrir solo el archivo necesario y trabajar por fases con `produccion`.
+4. Guardar la obra aprobada en `proyectos/<slug>/<slug>.md` y registrarla en `PROYECTOS.md`.
+5. Ejecutar retrospectiva solo si deja aprendizaje real.
 
-| Skill           | Uso                                        |
-| --------------- | ------------------------------------------ |
-| `produccion`    | Flujo completo de creación en fases.       |
-| `proyecto`      | Crear, retomar, guardar, aprobar o cerrar. |
-| `letra`         | Escribir o pulir letra limpia.             |
-| `style_box`     | Crear o iterar el molde sonoro.            |
-| `buscar_tag`    | Buscar tags concretos en CHUPILISTA.       |
-| `fusionar`      | Proponer fusiones de género.               |
-| `fonetizar`     | Aplicar acento o idioma cantado.           |
-| `jerga`         | Inyectar modismos locales en la letra.     |
-| `cover_art`     | Crear prompts de portada para Gemini.      |
-| `retrospectiva` | Evaluar aprendizaje tras aprobar una obra. |
+---
 
-## 7 · Formato de obra terminada
+## 4 · Skills principales
 
-- Cada obra aprobada vive en:
-    `proyectos/<slug>/<slug>.md`
-- Y debe registrarse en:
-    `PROYECTOS.md`
+| Skill           | Uso                                         |
+| --------------- | -------------------------------------------- |
+| `produccion`    | Flujo completo de creación en fases.        |
+| `proyecto`      | Crear, retomar, guardar, aprobar o cerrar.  |
+| `letra`         | Escribir o pulir letra limpia.              |
+| `style_box`     | Crear o iterar el molde sonoro.             |
+| `buscar_tag`    | Buscar tags concretos en CHUPILISTA.        |
+| `fusionar`      | Proponer fusiones de género.                |
+| `fonetizar`     | Aplicar acento o idioma cantado.            |
+| `jerga`         | Inyectar modismos locales en la letra.      |
+| `cover_art`     | Crear prompts de portada para Gemini.       |
+| `retrospectiva` | Evaluar aprendizaje tras aprobar una obra.  |
 
-Estructura habitual:
-    ```text
-    # <slug>
-    ## Titulo Original
-    ## Generated
-    ## Master
-    ## style_box
-    ## Sliders
-    ## Negative Prompts
-    ## Lyrics Box
-    ```
+---
 
-## 8 · Estilo Markdown
+## 5 · Obra terminada
 
-- *La guía de estilo vive en:*
-    chuletas/plantilla_estilo.md
+Cada obra aprobada vive en `proyectos/<slug>/<slug>.md` y se registra en `PROYECTOS.md`:
 
-- Reglas base:
-    - YAML corto en archivos canónicos.
-    - Un solo H1 por archivo.
-    - Encabezados ATX.
-    - Listas con `-`.
-    - Sublistas de 4 espacios.
-    - Bloques de código con lenguaje.
-    - Rutas relativas con `/`.
-    - LF como salto de línea.
-    - Sin carpetas completas cargadas con `@`.
+```text
+# <slug>
+## Titulo Original
+## Generated
+## Master
+## style_box
+## Sliders
+## Negative Prompts
+## Lyrics Box
+```
 
-## 9 · Principio de memoria
+---
 
-Un prompt no aprobado es hipótesis, no conocimiento.
-Solo una obra aprobada puede generar aprendizaje estable.
-El aprendizaje se archiva donde se consume:
+## 6 · Estilo y memoria
 
-| Tipo de aprendizaje | Destino             |
-| ------------------- | ------------------- |
-| Principio general   | `.claude/MEMORY.md` |
-| Técnica concreta    | `composicion/`      |
-| Relación obra-regla | `PROYECTOS.md`      |
+- *Guía de estilo completa: `chuletas/plantilla_estilo.md`.*
 
-## 10 · Regla de cierre
+Un prompt no aprobado es hipótesis, no conocimiento. Solo una obra aprobada genera aprendizaje estable, y se archiva donde se consume:
 
-Si no sabes qué abrir, no abras más archivos.
-Consulta el mapa correspondiente en `.claude/rules/`, localiza el archivo exacto y trabaja solo con ese contexto.
+| Tipo de aprendizaje | Destino              |
+| --------------------- | ----------------------- |
+| Principio general     | `.claude/MEMORY.md`    |
+| Técnica concreta      | `composicion/`         |
+| Relación obra-regla   | `PROYECTOS.md`         |

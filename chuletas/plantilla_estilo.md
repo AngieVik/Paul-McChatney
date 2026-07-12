@@ -50,7 +50,7 @@ Mínimo y obligatorio en skills, rules, plantillas, conocimientos, jerga, foneti
 ---
 name: nombre
 type: tipo
-description: Descripción corta.
+description: Descripción.
 ---
 ```
 

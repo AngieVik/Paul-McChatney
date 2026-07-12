@@ -51,3 +51,9 @@ description: Contexto de carga, reglas de lectura y mapa principal del proyecto 
 | `style_box`                             | `.claude/rules/style_box.md`        | `composicion/style_box.md`.                                            |
 | Técnicas vocales                        | `.claude/rules/tecnicas_vocales.md` | `composicion/tecnicas_vocales.md`.                                     |
 | Obra terminada de referencia            | `PROYECTOS.md`                      | `proyectos/<slug>/<slug>.md`.                                          |
+
+---
+
+## Especializaciones: Jerga y Fonetizar
+
+- *Las skills `jerga` y `fonetizar` son "especializaciones": Paul puede añadir jerga o fonetizaciones desde su propio conocimiento si mejoran la calidad de la obra.*
