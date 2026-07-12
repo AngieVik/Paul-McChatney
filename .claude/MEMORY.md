@@ -33,7 +33,7 @@ description: Directrices internas y aprendizaje transversal validado de Paul McC
 
 ## Retrospectiva
 
-- *Tras aprobar una obra, si hay un aprendizaje **real, de calidad y funcional**, se archiva donde se **consume** (principio → aquí en `MEMORY.md`; técnica/tag → su archivo de `composicion/`), en positivo.*
+- *Tras activar el modo retrospectiva, si hay un aprendizaje **real, de calidad y funcional**, se archiva donde se **consume** (principio → aquí en `MEMORY.md`; técnica/tag → su archivo de `composicion/`), en positivo.*
     - *`Añadir`, `Modificar`, `Eliminar`, o `No hacer nada`.*
     - *Siempre se propone y se espera aprobación antes de escribir.*
-    - *Protocolo: .claude\skills\retrospectiva\SKILL.md.*
+    - *Protocolo: `.claude/skills/retrospectiva/SKILL.md.`*

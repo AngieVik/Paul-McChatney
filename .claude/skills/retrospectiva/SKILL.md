@@ -12,7 +12,7 @@ description: Cierra el ciclo de aprendizaje tras una obra: detecta hallazgos rea
 
 ## Activación
 
-- **Al aprobar una obra:** `proyecto` (comando `aprobar`) y `produccion` sugieren iniciar `retrospectiva`. Alcanzar la Fase 4 no la dispara: solo la aprobación cierra el ciclo.
+- **Al aprobar una obra:** `proyecto` y `produccion`, (comando `aprobar`) sugieren iniciar `retrospectiva`. La solicita el usuario.
 - **En modo conversacional:** el usuario pide revisar qué se ha aprendido en un proyecto en curso o en una obra ya aprobada.
 
 ---

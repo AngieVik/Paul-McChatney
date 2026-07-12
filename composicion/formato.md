@@ -7,7 +7,8 @@ description: Estructura de salida: todo lo copiable va SIEMPRE en bloque de cód
 # formato
 
 - *Archivo técnico de la entrega final: todo lo copiable va en bloque de código markdown. Cierra Fase 4.*
-
+- *formato.md es infraestructura transversal y se abre directamente porque no requiere resolución conceptual.*
+  
 ## Referencias
 
 - **Consumido por:** `produccion` (Fase 4, entrega final) y las skills en modo conversacional.

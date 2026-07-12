@@ -17,7 +17,7 @@ description: Plantilla canónica de proyecto. Cópiala para abrir una canción n
 - **Masterizado:** opcional. Solo cuando tengas la pista masterizada, marca el checkbox `**Masterizado**`
 - **Un proyecto evoluciona sin ritmo fijo:** no hay datos mínimos obligatorios.
 - **Ideas sueltas y bocetos** viven en `_hojas_sucias/` (espacio libre, sin formato fijo).
-- **Cada proyecto** vive en `proyectos/<slug>/<slug>.md` (carpeta propia) y se registra como fila en `PROYECTOS.md`, dentro de su LP o categoria.
+- **Cada proyecto** vive en `proyectos/<slug>/<slug>.md` (carpeta propia) y se registra como fila en `PROYECTOS.md`, dentro de su LP o categoría.
 
 ---
 

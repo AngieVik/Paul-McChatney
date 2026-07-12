@@ -1,7 +1,7 @@
 ---
 name: plantilla_jerga
 type: plantilla
-description: Genera el manual de jerga de [], sigue la plantilla y genera el resultado en un bloque de codigo markdown.
+description: Genera el manual de jerga de [], sigue la plantilla y genera el resultado en un bloque de código markdown.
 
 ---
 

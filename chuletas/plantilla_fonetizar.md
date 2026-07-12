@@ -1,7 +1,7 @@
 ---
 name: plantilla_fonetizar
 type: plantilla
-description: Genera la guia para fonetización en español de [], sigue la plantilla y genera el resultado en un bloque de codigo markdown.
+description: Genera la guía para fonetización en español de [], sigue la plantilla y genera el resultado en un bloque de código markdown.
 ---
 
 # plantilla_fonetizar
@@ -92,4 +92,4 @@ Definición de cómo los hablantes nativos de este idioma distorsionan los fonem
     - *Desglose de Interferencia:* [Explicación de las distorsiones aplicadas].
     - *Fonetización simulada:* **[fó]netisashon**
 
-Para separar las silabas, usa ' ' en lugar de '-'. Usa '-' cuando haya un alargamiento vocal o un espacio (tipo breve respiración)
+Para separar las sílabas, usa ' ' en lugar de '-'. Usa '-' cuando haya un alargamiento vocal o un espacio (tipo breve respiración)

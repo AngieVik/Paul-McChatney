@@ -90,14 +90,14 @@ Esta sección detalla cómo el hablante rural filtra e interpreta la norma culta
 
 ### Casos Prácticos de Aplicación (Lectura Extranjerizada/Dialectal)
 
-- **Palabra Española Estandar:** `Peinado`
+- **Palabra Española Estándar:** `Peinado`
     - *Desglose de Interferencia:* Aplicación de la síncopa en el sufijo participial. Caída de la 'd' intervocálica.
     - *Fonetización simulada:* **pei ná o**
 
-- **Palabra Española Estandar:** `Electricidad`
+- **Palabra Española Estándar:** `Electricidad`
     - *Desglose de Interferencia:* Simplificación del grupo culto 'ct'. Metátesis o cerramiento de la 'e' inicial. Elisión de la 'd' final.
     - *Fonetización simulada:* **e le tri si dá-** (o **i le tri si dá-**)
 
-- **Palabra Española Estandar:** `Indigestión`
+- **Palabra Española Estándar:** `Indigestión`
     - *Desglose de Interferencia:* Sustitución de la fricativa velar culta por un vulgarismo analógico. Alteración prefijal.
     - *Fonetización simulada:* **in di jes tión** (o frecuentemente transformado en **in di ges tión** con 'g' dura por hipercorrección).

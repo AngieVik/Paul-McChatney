@@ -71,7 +71,7 @@ description: Mapa general del proyecto Paul McChatney.
 
 ## 5 · Formato de salida y Obra terminada
 
-El formato de salida estandar para los proyectos en curso, vive en `composicion\formato.md`, formato de salida para `producción`:
+El formato de salida estándar para los proyectos en curso, vive en `composicion/formato.md`, el utilizado por la skill `producción` es el siguiente:
 
 ```text
 `título`

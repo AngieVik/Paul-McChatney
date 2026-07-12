@@ -43,7 +43,7 @@ description: Puntuación en la letra, etiquetas de dirección vocal, arquitectur
 ### 1.1 · Paréntesis — Voces secundarias
 
 - **Desambiguación (regla):**
-    Si el paréntesis contiene una *palabra, onomatopeya o vocalizacion*, es voz secundaria *cantada* y suma sílabas.
+    Si el paréntesis contiene una *palabra, onomatopeya o vocalización*, es voz secundaria *cantada* y suma sílabas.
     Si contiene un *término técnico de entrega* de la lista cerrada de `§2.4`, es *dirección de performance*: no se canta ni suma sílabas.
 
 - *Inyección de coros y contrapuntos. Advertencia empírica: el modelo procesa el texto en paréntesis como material cantable, sumando sílabas a la métrica general de la frase.*
