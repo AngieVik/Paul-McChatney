@@ -14,7 +14,7 @@ description: Control semántico, mapeo operativo del lyrics_box, gramática téc
 - **Mapa propio:** `.claude/rules/lyrics_box.md`
 - **Boceto de partida:** `letra` → `.claude/rules/letra.md` → `composicion/letra.md`
 - **Dirección vocal por línea:** `.claude/rules/tecnicas_vocales.md` → `composicion/tecnicas_vocales.md`
-- **Efectos y post-producción (Fase 4):** `.claude/rules/efectos.md` → `composicion/efectos.md`
+- **Efectos y post-producción (Fase 5):** `.claude/rules/efectos.md` → `composicion/efectos.md`
 - **Canon de tags:** `buscar_tag` → `.claude/rules/chupilista.md` → `chupilista/`
 
 *Recordatorio: consulta por búsqueda (grep) o salto por sección.*

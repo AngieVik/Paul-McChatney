@@ -6,12 +6,12 @@ description: Prompting inverso y control de artefactos, para bloquear caracterí
 
 # exclude_box
 
-- *Archivo técnico de prompting inverso: qué bloquear para proteger la mezcla. Se genera en Fase 4 y se entrega como línea sin corchetes.*
+- *Archivo técnico de prompting inverso: qué bloquear para proteger la mezcla. Se genera en Fase 5 y se entrega como línea sin corchetes.*
 
 ## Referencias
 
 - **Mapa propio:** `.claude/rules/exclude_box.md`
-- **Se genera en:** `produccion` (Fase 4); se entrega vía `composicion/formato.md`.
+- **Se genera en:** `produccion` (Fase 5); se entrega vía `composicion/formato.md`.
 - **Negativos canónicos:** `buscar_tag` → `.claude/rules/chupilista.md` (módulo 15) → `chupilista/`
 - **Refuerzo de registro vocal:** `.claude/rules/tecnicas_vocales.md` → `composicion/tecnicas_vocales.md` (§2.9)
 

@@ -1,7 +1,7 @@
 ---
 name: lyrics_box
 type: skill
-description: Orquestadora del lyrics_box. Toma el boceto de letra de Fase 2 y lo desarrolla en Fases 3 y 4 —estructura, dirección de banda, técnica vocal, métrica y efectos— preservando la lírica. Activable en producción o en modo conversacional.
+description: Orquestadora del lyrics_box. Toma el boceto de letra de Fase 3 y lo desarrolla en Fases 3 y 4 —estructura, dirección de banda, técnica vocal, métrica y efectos— preservando la lírica. Activable en producción o en modo conversacional.
 ---
 
 # lyrics_box
@@ -12,7 +12,7 @@ description: Orquestadora del lyrics_box. Toma el boceto de letra de Fase 2 y lo
 
 ## Activación
 
-- **En producción:** recibe el boceto de `letra` (Fase 2) y lo lleva por Fase 3 (estructura y dirección) y Fase 4 (efectos y producción) de `produccion`.
+- **En producción:** recibe el boceto de `letra` (Fase 3) y lo lleva por Fase 4 (estructura y dirección) y Fase 5 (efectos y producción) de `produccion`.
 - **En modo conversacional:** se activa de forma independiente cuando el usuario aporta una letra —completa o parcial— y pide estructurarla, dirigirla o convertirla en `lyrics_box`.
 
 ---
@@ -24,7 +24,7 @@ description: Orquestadora del lyrics_box. Toma el boceto de letra de Fase 2 y lo
     - **Archivo técnico:** `composicion/lyrics_box.md`
     - **Boceto de partida (lírica, narrativa, métrica, fonética, poética):** `.claude/rules/letra.md` → `composicion/letra.md`
     - **Dirección vocal por línea:** `.claude/rules/tecnicas_vocales.md` → `composicion/tecnicas_vocales.md`
-    - **Efectos y post-producción (Fase 4):** `.claude/rules/efectos.md` → `composicion/efectos.md`
+    - **Efectos y post-producción (Fase 5):** `.claude/rules/efectos.md` → `composicion/efectos.md`
 - *Para canon de secciones, moods, FX o dinámicas, invoca `buscar_tag`.*
     - Mapa canónico: `.claude/rules/chupilista.md`
 
@@ -32,8 +32,8 @@ description: Orquestadora del lyrics_box. Toma el boceto de letra de Fase 2 y lo
 
 ## Parámetros de Entrada
 
-- **Boceto de Letra:** la letra limpia de Fase 2 (sin tags), base intocable de la calidad lírica.
-- **Dictamen de Estilo:** el `style_box` compilado en Fase 1, para mantener coherencia sonora.
+- **Boceto de Letra:** la letra limpia de Fase 3 (sin tags), base intocable de la calidad lírica.
+- **Dictamen de Estilo:** el `style_box` compilado en Fase 2, para mantener coherencia sonora.
 - **Intención de Sección:** estructura, energía, giros o momentos concretos pedidos por el usuario.
 - **Material Existente:** `lyrics_box` ya iniciado para revisar, corregir o iterar.
 
@@ -41,9 +41,9 @@ description: Orquestadora del lyrics_box. Toma el boceto de letra de Fase 2 y lo
 
 ## Flujo de Ejecución
 
-- **Fase 3 · Estructurar:** inserta secciones y comandos temporales según `composicion/lyrics_box.md`; fija la identidad vocal (Persona Stacking) y la dirección de banda; endurece la métrica de la letra (rigidez estructural, `composicion/letra.md §1.2`).
-- **Fase 3 · Dirigir voz:** aplica la dirección vocal por línea desde `composicion/tecnicas_vocales.md` (susurros, gritos, duetos, coros, timbre).
-- **Fase 4 · Efectos:** inyecta silencios, SFX, glitches, transiciones y comandos de producción temporales desde `composicion/efectos.md`.
+- **Fase 4 · Estructurar:** inserta secciones y comandos temporales según `composicion/lyrics_box.md`; fija la identidad vocal (Persona Stacking) y la dirección de banda; endurece la métrica de la letra (rigidez estructural, `composicion/letra.md §1.2`).
+- **Fase 4 · Dirigir voz:** aplica la dirección vocal por línea desde `composicion/tecnicas_vocales.md` (susurros, gritos, duetos, coros, timbre).
+- **Fase 5 · Efectos:** inyecta silencios, SFX, glitches, transiciones y comandos de producción temporales desde `composicion/efectos.md`.
 - **Preservar la lírica:** en cada pase protege narrativa, fonética, métrica y poética; huye del cliché y de la escritura de IA. Si hace falta reanclar acento, apóyate en `fonetizar`/`jerga`.
 - **Entregar y parar:** presenta el `lyrics_box` con el formato de `composicion/lyrics_box.md` (corchetes, columnas), a la espera de revisión del usuario.
 
@@ -51,7 +51,7 @@ description: Orquestadora del lyrics_box. Toma el boceto de letra de Fase 2 y lo
 
 ## Reglas de Integridad
 
-- **La letra manda:** las tags dirigen, no reescriben la historia; el texto cantable conserva su calidad de Fase 2.
+- **La letra manda:** las tags dirigen, no reescriben la historia; el texto cantable conserva su calidad de Fase 3.
 - **Un evento, un corchete:** aísla conceptos en columna; tags cortas y contundentes.
 - **Canon con criterio:** usa `buscar_tag` para lo canónico; las creaciones se justifican por función.
 - **Separación de cajas:** las tags de estilo global viven en el `style_box`; aquí solo van eventos temporales dentro de la letra.
@@ -60,8 +60,8 @@ description: Orquestadora del lyrics_box. Toma el boceto de letra de Fase 2 y lo
 
 ## Relación con otras skills
 
-- `letra` entrega el boceto limpio de Fase 2; `lyrics_box` lo desarrolla, no lo sustituye.
+- `letra` entrega el boceto limpio de Fase 3; `lyrics_box` lo desarrolla, no lo sustituye.
 - `tecnicas_vocales` (archivo técnico) aporta la dirección vocal por línea.
-- `efectos` (archivo técnico) aporta la capa de post-producción de Fase 4.
+- `efectos` (archivo técnico) aporta la capa de post-producción de Fase 5.
 - `buscar_tag` extrae canon de secciones, moods, FX y dinámicas.
 - `fonetizar` y `jerga` reanclan el acento sobre la letra si se solicita.

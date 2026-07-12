@@ -39,7 +39,7 @@ description: Escritura técnica y tipografía como partitura física: narrativa,
 
 ## 1 · Narrativa
 
-  *Esculpe identidad, historia y tono de la obra. Fase 2 (boceto de letra).*
+  *Esculpe identidad, historia y tono de la obra. Fase 3 (boceto de letra).*
 
 ### 1.1 · Métrica y lirismo libre
 
@@ -47,7 +47,7 @@ description: Escritura técnica y tipografía como partitura física: narrativa,
 
 ### 1.2 · Rigidez estructural (solo Fases 3 y 4)
 
-  *En Fase 2 el lirismo va 100% libre de tags. En Fases 3 y 4 es obligatorio ceñirse a la arquitectura.*
+  *En Fase 3 el lirismo va 100% libre de tags. En Fases 3 y 4 es obligatorio ceñirse a la arquitectura.*
 
 ### 1.3 · Anclaje regional mediante jerga
 
@@ -91,7 +91,7 @@ description: Escritura técnica y tipografía como partitura física: narrativa,
 
 ## 3 · Narrativa_letra_metrica
 
-*Métrica y ritmo de la poesía española: conteo silábico, licencias, tipos de verso y rima. Fase 3.*
+*Métrica y ritmo de la poesía española: conteo silábico, licencias, tipos de verso y rima. Fase 4.*
 
 ### 3.1 · Conteo de sílabas: regla del acento final
 

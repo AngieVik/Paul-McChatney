@@ -1,7 +1,7 @@
 ---
 name: jerga
 type: skill
-description: Inyecta en el texto cantable jerga específica para que se cante. Nunca en el style_box. Activable en producción (Fase 2) o en modo conversacional sobre una obra, un párrafo o una frase.
+description: Inyecta en el texto cantable jerga específica para que se cante. Nunca en el style_box. Activable en producción (Fase 3) o en modo conversacional sobre una obra, un párrafo o una frase.
 ---
 
 # jerga
@@ -12,7 +12,7 @@ description: Inyecta en el texto cantable jerga específica para que se cante. N
 
 ## Activación
 
-- **En producción:** la invoca `letra` en Fase 2 de `produccion` cuando se solicita una jerga.
+- **En producción:** la invoca `letra` en Fase 3 de `produccion` cuando se solicita una jerga.
 - **En modo conversacional:** se activa de forma independiente sobre lo que indique el usuario —una obra completa, un párrafo o una sola frase, proporcionada o señalada por él— con una jerga objetivo.
 
 ---
@@ -49,7 +49,7 @@ description: Inyecta en el texto cantable jerga específica para que se cante. N
 
 ## Relación con otras skills
 
-- `letra` la invoca en Fase 2 cuando se pide jerga; también puede aplicarse después sobre la letra ya escrita.
+- `letra` la invoca en Fase 3 cuando se pide jerga; también puede aplicarse después sobre la letra ya escrita.
 - `fonetizar` es su gemela (acento/idioma); combinadas, potencian el anclaje regional.
 
 ---

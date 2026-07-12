@@ -1,7 +1,7 @@
 ---
 name: style_box
 type: skill
-description: Orquestadora del style_box. Coordina fusionar y buscar_tag para compilar el bloque de estilo de la obra. Activable en producción (Fase 1) o en modo conversacional en cualquier momento.
+description: Orquestadora del style_box. Coordina fusionar y buscar_tag para compilar el bloque de estilo de la obra. Activable en producción (Fase 2) o en modo conversacional en cualquier momento.
 ---
 
 # style_box
@@ -12,7 +12,7 @@ description: Orquestadora del style_box. Coordina fusionar y buscar_tag para com
 
 ## Activación
 
-- **En producción:** se activa en Fase 1 de `produccion`, después del dictamen de `fusionar`.
+- **En producción:** se activa en Fase 2 de `produccion`, después del dictamen de `fusionar`.
 - **En modo conversacional:** se activa de forma independiente y en cualquier momento cuando el usuario pide crear, revisar, corregir o iterar un `style_box`.
 
 ---
@@ -58,9 +58,9 @@ description: Orquestadora del style_box. Coordina fusionar y buscar_tag para com
 
 ## Relación con otras skills
 
-- `produccion` activa `style_box` en Fase 1.
+- `produccion` activa `style_box` en Fase 2.
 - `fusionar` diseña la arquitectura sonora y propone creaciones controladas; `style_box` la compila y ordena, no la rediseña.
 - `buscar_tag` extrae etiquetas canónicas existentes en `CHUPILISTA`.
-- El `exclude_box` no se compila aquí: se genera íntegro en Fase 4 desde `composicion/exclude_box.md`.
+- El `exclude_box` no se compila aquí: se genera íntegro en Fase 5 desde `composicion/exclude_box.md`.
 
 - *`style_box` no bloquea la creatividad: consulta, ordena, compila y entrega sintaxis útil.*

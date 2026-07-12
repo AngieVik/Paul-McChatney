@@ -1,7 +1,7 @@
 ---
 name: letra
 type: skill
-description: Redacta la letra limpia sin tags: narrativa, cadencia y anclaje regional. Activable en producción (Fase 2) o en modo conversacional.
+description: Redacta la letra limpia sin tags: narrativa, cadencia y anclaje regional. Activable en producción (Fase 3) o en modo conversacional.
 ---
 
 # letra
@@ -12,7 +12,7 @@ description: Redacta la letra limpia sin tags: narrativa, cadencia y anclaje reg
 
 ## Activación
 
-- **En producción:** Fase 2 de `produccion`; produce el boceto de letra que alimentará el `lyrics_box` en Fase 3.
+- **En producción:** Fase 3 de `produccion`; produce el boceto de letra que alimentará el `lyrics_box` en Fase 4.
 - **En modo conversacional:** se activa de forma independiente cuando el usuario pide crear o modificar una letra, sobre un mood, una obra o una escritura suelta.
 
 ---
@@ -57,7 +57,7 @@ description: Redacta la letra limpia sin tags: narrativa, cadencia y anclaje reg
 
 ## Relación con otras skills
 
-- `produccion` activa `letra` en Fase 2; su boceto es la base del `lyrics_box` en Fase 3.
+- `produccion` activa `letra` en Fase 3; su boceto es la base del `lyrics_box` en Fase 4.
 - `jerga` inyecta modismos locales para forzar el acento regional.
 - `fonetizar` ajusta la grafía para el acento cantado, antes o después de escribir la letra.
 

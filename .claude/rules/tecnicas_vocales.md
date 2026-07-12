@@ -6,7 +6,7 @@ description: Puntuación en la letra y dirección vocal: Persona Stacking, roles
 
 - *No se carga con `@`, este índice es el mapa concepto→archivo, abre `composicion/tecnicas_vocales.md` bajo demanda con la herramienta de lectura.*
 - **Consulta por búsqueda (grep) o salto por Índice.**
-- **Consumido por:** `lyrics_box` (skill), `produccion` (Fase 3).
+- **Consumido por:** `lyrics_box` (skill), `produccion` (Fase 4).
 
 ---
 

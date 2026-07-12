@@ -6,12 +6,12 @@ description: Estructura de salida: todo lo copiable va SIEMPRE en bloque de cód
 
 # formato
 
-- *Archivo técnico de la entrega final: todo lo copiable va en bloque de código markdown. Cierra Fase 4.*
+- *Archivo técnico de la entrega final: todo lo copiable va en bloque de código markdown. Cierra Fase 5.*
 - *formato.md es infraestructura transversal y se abre directamente porque no requiere resolución conceptual.*
   
 ## Referencias
 
-- **Consumido por:** `produccion` (Fase 4, entrega final) y las skills en modo conversacional.
+- **Consumido por:** `produccion` (Fase 5, entrega final) y las skills en modo conversacional.
 - **Archivado de la obra aprobada:** `proyecto` → `chuletas/plantilla_proyecto.md` → `proyectos/<slug>/<slug>.md`
 
 *Recordatorio: consulta por búsqueda (grep) o salto por sección.*
@@ -25,7 +25,7 @@ description: Estructura de salida: todo lo copiable va SIEMPRE en bloque de cód
 
 ## 1 · Obra completa 
 
-En la Fase 4, entrega la obra en EXACTAMENTE estos 4 bloques de texto plano, en este orden y estructura visual:
+En la Fase 5, entrega la obra en EXACTAMENTE estos 4 bloques de texto plano, en este orden y estructura visual:
 
 ```text
 Escribe aquí el Título de la obra

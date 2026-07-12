@@ -6,7 +6,7 @@ description: Guías de jerga para idiomas y dialectos. Permiten inyectar jerga e
 
 - *No se carga con `@`, este índice es el mapa concepto→archivo, abre cada `jerga/<archivo>.md` bajo demanda con la herramienta de lectura, solo el/los que necesites.*
 - **Consulta por búsqueda (grep) o salto por Índice.**
-- **Consumido por:** `jerga` (skill), `letra`, `produccion` (Fase 2).
+- **Consumido por:** `jerga` (skill), `letra`, `produccion` (Fase 3).
 
 ---
 

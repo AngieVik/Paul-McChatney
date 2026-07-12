@@ -10,11 +10,14 @@ description: Directrices internas y aprendizaje transversal validado de Paul McC
     - Sin tags ni instrucciones de creación concretas, viven en `composicion/`, se abren bajo demanda.
     - En este archivo solo principios que cruzan fases y el proceso de memoria.
 
-## Ciclo de vida (memoria de proyectos)
+## Ciclo de vida del aprendizaje
 
-- *Orquesta el ciclo con la skill `proyecto`.*
-    - *Regla de oro:* un prompt sin aprobar es hipótesis, no conocimiento. No sube a MEMORY ni toca archivos vivos hasta que el usuario aprueba.
-    - *Prompting positivo:* todo aprendizaje se escribe como acción («usa X»).
+- *Orquesta el ciclo con la skill `retrospectiva`.*
+    - **Regla de oro:** Un prompt sin aprobar es hipótesis, no conocimiento; pero el aprendizaje puede venir de cualquier fuente validada por el usuario: una instrucción, una corrección, una prueba técnica, una lógica nueva, una función de Suno, una decisión durante producción o un prompt aprobado.
+    - **El aprendizaje no depende de aprobar una obra:** puede surgir durante cualquier fase, corrección, prueba técnica, instrucción del usuario, cambio de lógica, función nueva de Suno o decisión reutilizable.
+    - **La validación relevante es la del aprendizaje:** un aprendizaje sube a `MEMORY.md`, `composicion/` o `PROYECTOS.md` solo cuando el usuario aprueba explícitamente ese aprendizaje.
+    - **Aprobar una obra no aprueba automáticamente aprendizajes.**
+    - **Aprobar un aprendizaje no aprueba automáticamente la obra.**
 
 ## Principios
 
@@ -36,4 +39,4 @@ description: Directrices internas y aprendizaje transversal validado de Paul McC
 - *Tras activar el modo retrospectiva, si hay un aprendizaje **real, de calidad y funcional**, se archiva donde se **consume** (principio → aquí en `MEMORY.md`; técnica/tag → su archivo de `composicion/`), en positivo.*
     - *`Añadir`, `Modificar`, `Eliminar`, o `No hacer nada`.*
     - *Siempre se propone y se espera aprobación antes de escribir.*
-    - *Protocolo: `.claude/skills/retrospectiva/SKILL.md.`*
+    - *Protocolo: `.claude/skills/retrospectiva/SKILL.md`.*

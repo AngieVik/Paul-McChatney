@@ -12,7 +12,7 @@ description: Extractor canónico de etiquetas CHUPILISTA. Localiza, valida y ent
 
 ## Activación
 
-- **En producción:** invocado por `style_box` (Fase 1), por `letra`/`lyrics_box` o por cualquier fase que necesite canon.
+- **En producción:** invocado por `style_box` (Fase 2), por `letra`/`lyrics_box` o por cualquier fase que necesite canon.
 - **En modo conversacional:** invocable en cualquier momento, por el usuario o por otra skill, siempre que se necesiten tags canónicas.
 
 ---
@@ -70,6 +70,6 @@ description: Extractor canónico de etiquetas CHUPILISTA. Localiza, valida y ent
 - `fusionar` propone conceptos, fusiones y creaciones controladas; `buscar_tag` confirma qué es canon.
 - `style_box` combina tags canónicas de `buscar_tag` con creaciones controladas de `fusionar`.
 - `lyrics_box` usa tags canónicas, comandos libres y dirección musical no presente en `CHUPILISTA`.
-- `exclude_box` (Fase 4) puede pedir tags canónicas y normalizarlas sin corchetes según su formato.
+- `exclude_box` (Fase 5) puede pedir tags canónicas y normalizarlas sin corchetes según su formato.
 
 - *`buscar_tag` entrega materia prima canónica fiable; la consumidora decide cómo integrarla.*

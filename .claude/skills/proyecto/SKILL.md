@@ -21,7 +21,7 @@ Comandos que alteran el estado creativo y la ubicación canónica de la obra.
 - `retomar`: Restaura el contexto de un proyecto existente. 
     - Desde `_hojas_sucias/`: Lee el borrador actual y expone un resumen de estado para continuar la iteración.
     - Desde `proyectos/<slug>/`: Clona el contenido del proyecto terminado hacia `_hojas_sucias/<slug>.md` y prepara el entorno para su modificación.
-- `aprobar`: Finaliza la obra satisfactoriamente. Transfiere el contenido depurado a `proyectos/<slug>/<slug>.md` aplicando rigurosamente `chuletas/plantilla_proyecto.md`. Registra la nueva entrada en el catálogo `PROYECTOS.md`. Acto seguido, evalúa la obra e invoca la skill `retrospectiva` si detecta hallazgos técnicos de alto valor.
+- `aprobar`: Finaliza la obra satisfactoriamente. Transfiere el contenido depurado a `proyectos/<slug>/<slug>.md` aplicando rigurosamente `chuletas/plantilla_proyecto.md`. Registra la nueva entrada en el catálogo `PROYECTOS.md`. Al terminar, solo sugiere al usuario si quiere hacer una retrospectiva de cierre; no analiza la obra ni propone aprendizajes automáticamente.
 
 ## 3 · Nivel B: Operaciones Mecánicas
 
@@ -35,13 +35,13 @@ Comandos transaccionales que no alteran la narrativa creativa de la obra.
 
 ## 4 · Mapa del Almacenamiento
 
-| Capa Lógica                 | Ruta Física                        | Función Estructural                                  |
-| --------------------------- | ---------------------------------- | ---------------------------------------------------- |
-| Trabajo en curso            | `_hojas_sucias/<slug>.md`          | Borrador dinámico de sobrescritura continua.         |
-| Obras aprobadas             | `proyectos/<slug>/<slug>.md`       | Archivo final y canónico de la obra terminada.       |
-| Catálogo Global             | `PROYECTOS.md`                     | Índice relacional de todas las obras aprobadas.      |
-| Plantilla de inicialización | `chuletas/plantilla_hoja_sucia.md` | Esquema conceptual para la fase de ideación.         |
-| Plantilla de consolidación  | `chuletas/plantilla_proyecto.md`   | Esquema canónico para el formateo del archivo final. |
+| Capa Lógica                | Ruta Física                        | Función Estructural                                  |
+| -------------------------- | ---------------------------------- | ---------------------------------------------------- |
+| Trabajo en curso           | `_hojas_sucias/<slug>.md`          | Borrador dinámico de sobrescritura continua.         |
+| Obras aprobadas            | `proyectos/<slug>/<slug>.md`       | Archivo final y canónico de la obra terminada.       |
+| Catálogo Global            | `PROYECTOS.md`                     | Índice relacional de todas las obras aprobadas.      |
+| Plantilla de Fase 1        | `chuletas/plantilla_hoja_sucia.md` | Esquema conceptual para la fase de ideación.         |
+| Plantilla de consolidación | `chuletas/plantilla_proyecto.md`   | Esquema canónico para el formateo del archivo final. |
 
 ## 5 · Entradas y Salidas
 
@@ -59,4 +59,6 @@ Comandos transaccionales que no alteran la narrativa creativa de la obra.
 
 - `produccion` desarrolla, a lo largo de sus fases, la obra abierta por `crear`/`retomar` sobre el borrador de `_hojas_sucias/<slug>.md`.
 - Las skills sueltas (`style_box`, `letra`, `lyrics_box`, `fonetizar`, `jerga`, `cover_art`) operan sobre ese mismo borrador activo.
-- `aprobar` consolida en `proyectos/<slug>/<slug>.md` (vía `chuletas/plantilla_proyecto.md`), registra en `PROYECTOS.md` e invoca `retrospectiva` si hay hallazgos de valor.
+- `retrospectiva` puede ejecutarse en cualquier momento del ciclo, incluso antes de `aprobar`, si el usuario detecta un aprendizaje o pide revisar una decisión.
+- `aprobar` no ejecuta retrospectiva automáticamente: solo sugiere al usuario hacer una retrospectiva de cierre.
+- Aprobar una obra, aprobar un prompt y aprobar un aprendizaje son acciones independientes.

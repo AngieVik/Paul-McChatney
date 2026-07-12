@@ -32,7 +32,7 @@ Cabecera + separador siempre. Solo para datos cortos y comparables; contenido la
 
 ## 6 · Rutas y carga
 
-Relativas con `/`, aunque el sistema sea Windows (`composicion/letra.md`, no `composicion/letra.md`).
+Relativas con `/`, aunque el sistema sea Windows (`composicion/letra.md`, no `composicion\letra.md`).
 
 | Forma                         | Uso                                  |
 | ----------------------------- | ------------------------------------ |

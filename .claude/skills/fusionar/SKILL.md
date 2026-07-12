@@ -1,7 +1,7 @@
 ---
 name: fusionar
 type: skill
-description: Motor conceptual de arquitectura sonora. Analiza el concepto creativo y diseña una mezcla armónica, rítmica y frecuencial viable para que style_box la compile. Activable en producción (Fase 1) o en modo conversacional.
+description: Motor conceptual de arquitectura sonora. Analiza el concepto creativo y diseña una mezcla armónica, rítmica y frecuencial viable para que style_box la compile. Activable en producción (Fase 2) o en modo conversacional.
 ---
 
 # fusionar
@@ -12,7 +12,7 @@ description: Motor conceptual de arquitectura sonora. Analiza el concepto creati
 
 ## Activación
 
-- **En producción:** primer paso de Fase 1 de `produccion`; su dictamen alimenta a `style_box`.
+- **En producción:** primer paso de Fase 2 de `produccion`; su dictamen alimenta a `style_box`.
 - **En modo conversacional:** se activa de forma independiente y en cualquier momento cuando el usuario pide diseñar, revisar o depurar una fusión o arquitectura sonora.
 
 ---
@@ -53,6 +53,6 @@ description: Motor conceptual de arquitectura sonora. Analiza el concepto creati
 
 ## Relación con otras skills
 
-- `produccion` activa `fusionar` al inicio de Fase 1.
+- `produccion` activa `fusionar` al inicio de Fase 2.
 - `buscar_tag` valida qué ingredientes del dictamen existen como canon en `CHUPILISTA`.
 - `style_box` compila el dictamen en el bloque final; `fusionar` no ensambla sintaxis.
