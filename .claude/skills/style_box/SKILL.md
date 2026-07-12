@@ -1,110 +1,93 @@
 ---
 name: style_box
 type: skill
-description: Ensamblador y compilador sintáctico para estructurar tags canónicas y creaciones controladas en los bloques definitivos de style_box y Exclude Box.
+description: Orquestador de style_box y exclude_box. Consulta sus mapas, lee sus archivos técnicos y coordina fusionar y buscar_tag para compilar bloques finales.
 ---
 
 # style_box
 
-## 1 · Propósito
+- *Orquesta la construcción del `style_box` y del `exclude_box` siguiendo las instrucciones técnicas que viven en `composicion/style_box.md`.*
 
-- *Actúa como el motor de compilación y empaquetado técnico del sistema.*
+---
 
-- Tu función es tomar el diseño acústico teórico dictaminado por la skill `fusionar`, orquestar la extracción de `tags` canónicas mediante `buscar_tag`, integrar las creaciones controladas necesarias y estructurar la información en bloques limpios, coherentes y listos para la generación musical.
+## 1 · Activación
 
-- `style_box` no es un juez creativo absoluto.  
-- `style_box` compila, ordena y limpia el molde sonoro.
+- **Modo producción:** se activa en Fase 1 de `produccion`, después del dictamen de `fusionar`.
+- **Modo independiente:** se activa cuando el usuario pide crear, revisar, corregir o iterar un `style_box`, un `exclude_box` o ambos.
 
-- **Su autoridad consiste en:**
-    - Ordenar el material musical.  
-    - Distinguir `tags` canónicas de `tags` creadas.  
-    - Mantener coherencia acústica y narrativa.  
-    - Construir el `style_box`.  
-    - Construir el `exclude_box`.  
-    - Entregar bloques finales claros y utilizables.
+---
 
-## 2 · Parámetros de Entrada
+## 2 · Fuentes de Consulta
 
-- *Reconoce e ingiere los insumos provenientes de las etapas previas del flujo:*
-    - **Dictamen de Fusión:** mapa acústico y teórico generado por `fusionar`. Incluye: géneros, tempos, espectro de frecuencias, instrumentación, textura vocal, atmósfera y dirección sonora.
-    - **Etiquetas Canónicas:** cadenas de texto literales recuperadas y validadas por `buscar_tag` desde `chupilista/`.
-    - **Creaciones Controladas:** `tags`, fusiones o formulaciones nuevas propuestas por `fusionar` cuando la `CHUPILISTA` no contiene `tags` exactas para representar la intención artística.
-    - **Intención de Obra:** emoción núcleo, idioma de la letra, tono narrativo, energía, época, región o cualquier restricción dada por el usuario.
+- *Antes de construir o revisar cualquier `style_box`, consulta el mapa y abre el archivo técnico correspondiente.*
+    - Mapa: `.claude/rules/style_box.md`
+    - Archivo técnico: `composicion/style_box.md`
 
-## 3 · Flujo de Ejecución
+- *Antes de construir o revisar cualquier `exclude_box`, consulta el mapa y abre el archivo técnico correspondiente.*
+    - Mapa: `.claude/rules/exclude_box.md`
+    - Archivo técnico: `composicion/exclude_box.md`
 
-- **Recepción del Dictamen:** ingiere la fórmula conceptual de fusionar.
-    - Identifica género base, fusión principal, energía, tempo o sensación rítmica, instrumentación protagonista, perfil vocal, atmósfera, riesgos de mezcla y elementos que deben excluirse.
+- *Cuando necesites canon de `CHUPILISTA`, invoca `buscar_tag`.*
+    - Mapa canónico: `.claude/rules/chupilista.md`
+    - Biblioteca: `chupilista/`
 
-- **Extracción Canónica:** parametriza llamadas precisas a `buscar_tag` para obtener etiquetas existentes en CHUPILISTA.
-    - Usa `buscar_tag` como fuente de canon, no como límite creativo absoluto.
-    - Si `buscar_tag` no localiza una etiqueta exacta, conserva el hueco conceptual para resolverlo mediante creación controlada si fusionar lo justifica.
+---
 
-- **Integración de Creaciones Controladas:** acepta tags creadas por fusionar cuando cumplan estas condiciones:
-    - representan una intención artística clara;
-    - no contradicen el dictamen acústico;
-    - no duplican una tag canónica suficiente;
-    - ayudan a fijar una fusión, textura o identidad sonora que CHUPILISTA no cubre literalmente;
-    - están redactadas en inglés técnico, compacto y musicalmente útil.
-    - **Ejemplo:** `Andalusian Drumstep`, `Symphonic Hardtek`, `Rustic Industrial Flamenco`, `Baroque Gabber Choir`, `Dusty Space Rumba`.
+## 3 · Parámetros de Entrada
 
-- **Ensamblaje Jerárquico del `style_box`:** ordena el `style_box` respetando esta jerarquía:
-    - género base o fusión principal;
-    - idioma o anclaje cultural si procede;
-    - atmósfera;
-    - instrumentación protagonista;
-    - perfil vocal;
-    - ritmo, tempo o groove;
-    - producción y textura;
-    - ghost tag o detalle diferencial.
-    - Prioriza claridad, intención y fuerza sonora.
-    - Usa 12-20 tags bien elegidas antes que listas largas y débiles.
+- **Dictamen de Fusión:** mapa acústico y teórico generado por `fusionar`: géneros, tempos, espectro de frecuencias, instrumentación, textura vocal, atmósfera y dirección sonora.
+- **Intención de Obra:** emoción núcleo, idioma de la letra, tono narrativo, energía, época, región o restricción dada por el usuario.
+- **Etiquetas Canónicas:** `tags` literales recuperadas y validadas por `buscar_tag`.
+- **Creaciones Controladas:** `tags`, fusiones o formulaciones nuevas propuestas por `fusionar` cuando `CHUPILISTA` no cubre literalmente la intención artística.
+- **Material Existente:** `style_box` o `exclude_box` ya escritos por el usuario para revisar, limpiar, completar o corregir.
 
-- **Generación Inversa del `exclude_box`:** deduce, a partir del diseño sonoro, los elementos que ensucian, contradicen o debilitan la mezcla.
-    - Puede apoyarse en `buscar_tag` y en `composicion/exclude_box.md`.
-    - El `exclude_box` debe bloquear géneros no deseados, clichés, timbres incompatibles, errores de mezcla, artefactos digitales, registros vocales opuestos, exceso de brillo, barro, clipping o compresión.
-    - Normaliza el formato final según el estándar del proyecto.
+---
 
-- **Compilación Final:** presenta el resultado en bloques limpios, listos para copiar.
-    - El `style_box` debe ser compacto, técnico y musical.
-    - El `exclude_box` debe ser una línea precisa de negativos separados por comas.
+## 4 · Flujo de Ejecución
 
-## 4 · Reglas de Integridad
+- **Resolver modo de trabajo:** si viene desde `produccion`, recibe el dictamen de `fusionar`; si se activa sola, analiza la petición del usuario y pide a `fusionar` un dictamen cuando falte arquitectura sonora.
+- **Abrir referencias:** consulta `.claude/rules/style_box.md` y `composicion/style_box.md`; consulta `.claude/rules/exclude_box.md` y `composicion/exclude_box.md` cuando haya que construir o revisar exclusiones.
+- **Extraer canon:** usa `buscar_tag` solo para localizar `tags` existentes en `CHUPILISTA`, manteniendo el canon como referencia y no como veto creativo.
+- **Compilar `style_box`:** aplica las reglas de `composicion/style_box.md`, integra canon y creaciones controladas, ordena el molde sonoro y elimina redundancias.
+- **Compilar `exclude_box`:** aplica las reglas de `composicion/exclude_box.md`, protege la mezcla y entrega la salida final sin corchetes, como términos separados por comas.
+- **Entregar y parar:** presenta los bloques limpios y espera revisión del usuario antes de avanzar.
 
-- **Reglas de Integridad.**
-    - **Canon como ancla:** usa `buscar_tag` para recuperar vocabulario existente y fiable.
-    - **Creación controlada permitida:** acepta `tags` creadas por `fusionar` cuando cubran una intención artística no representada literalmente en `CHUPILISTA`.
-    - **Sin invención decorativa:** todas las `tags` creadas deben tener función sonora, narrativa o técnica.
-    - **Diferenciación interna:** reconoce mentalmente qué `tags` vienen de `CHUPILISTA` y cuáles son creación controlada, aunque el bloque final pueda integrarlas de forma natural.
-    - **Estilo, no artista:** describe el sonido. No uses nombres propios de artistas reales dentro del `style_box`.
-    - **Orden ponderado:** coloca al principio lo que más debe dominar el resultado.
-    - **Menos y mejor:** elimina `tags` redundantes, flojas o decorativas.
-    - **Coherencia acústica:** evita mezclar elementos que saturen la misma zona frecuencial sin una razón clara.
-    - **Precisión negativa:** el `exclude_box` debe proteger la mezcla, no convertirse en una papelera genérica.
-    - **Prompteo positivo:** formula instrucciones como acciones útiles. Prioriza lo que la `obra` debe hacer, sonar y provocar.
+---
 
 ## 5 · Salida Estándar
 
 - **Cuando entregue solo `style_box`:**
-    Tag principal, `Tag secundaria`, `Instrumento clave`, `Perfil vocal`, `Ritmo`, `Textura`, `Producción`, `Ghost tag`
+    `Tag principal`, `Tag secundaria`, `Instrumento clave`, `Perfil vocal`, `Ritmo`, `Textura`, `Producción`, `Ghost tag`
 
+- **Cuando entregue solo `exclude_box`:**
+    `clipping, overcompressed, muddy mix, robotic voice`
+
+- **Cuando entregue ambos:**
+    `style_box`
+    `Tag principal`, `Tag secundaria`, `Instrumento clave`, `Perfil vocal`, `Ritmo`, `Textura`, `Producción`, `Ghost tag`
+
+    `exclude_box`
+    `clipping, overcompressed, muddy mix, robotic voice`
 
 - **Cuando use creaciones controladas:**
     `style_box`
     `Tag canónica`, `Creación Controlada`, `Tag canónica`, `Creación Controlada`, `Producción`, `Ghost tag`
-    Nota interna: las creaciones controladas proceden del dictamen de fusionar y se usan para cubrir huecos no localizados en `CHUPILISTA`.
+
+    Nota interna: las creaciones controladas proceden del dictamen de `fusionar` y cubren huecos no localizados en `CHUPILISTA`.
 
 - **Cuando no haya canon suficiente:**
     No hay canon suficiente para cubrir todo el concepto.
-    Se usan tags canónicas disponibles y creaciones controladas justificadas por fusionar.
+    Se usan `tags` canónicas disponibles y creaciones controladas justificadas por `fusionar`.
+
+---
 
 ## 6 · Relación con Otras Skills
 
-- `fusionar` diseña la arquitectura sonora y puede proponer creaciones controladas.
+- `produccion` activa `style_box` en Fase 1 para compilar `style_box` y `exclude_box`.
+- `fusionar` diseña la arquitectura sonora y propone creaciones controladas.
 - `buscar_tag` extrae etiquetas canónicas existentes en `CHUPILISTA`.
-- `style_box` compila canon y creación controlada en un molde sonoro coherente.
 - `lyrics_box` desarrolla estructura, dirección musical, comandos libres e interpretación.
-- `exclude_box` aporta reglas técnicas para limpiar y proteger la mezcla.
+- `exclude_box` vive como archivo técnico en `composicion/exclude_box.md`, no como skill independiente.
 
 `style_box` no bloquea la creatividad.  
-`style_box` la ordena, la comprime y la convierte en sintaxis útil.
+`style_box` consulta, ordena, compila y entrega sintaxis útil.

@@ -7,12 +7,12 @@ description: Directrices internas y aprendizaje transversal validado de Paul McC
 # MEMORY — Directrices internas de Paul McChatney
 
 - *Aprendizaje acumulativo transversal, se actualiza manualmente.*
-    - Sin tags ni instrucciones de creación concretas, viven en `composicion/`, se abren bajo demanda en su fase.
-    - Solo principios que cruzan fases y el proceso de memoria.
+    - Sin tags ni instrucciones de creación concretas, viven en `composicion/`, se abren bajo demanda.
+    - En este archivo solo principios que cruzan fases y el proceso de memoria.
 
 ## Ciclo de vida (memoria de proyectos)
 
-- *Orquesta el ciclo con la skill `proyecto`, ciérralo con la retrospectiva `conocimientos/retrospectiva.md`.*
+- *Orquesta el ciclo con la skill `proyecto`.*
     - *Regla de oro:* un prompt sin aprobar es hipótesis, no conocimiento. No sube a MEMORY ni toca archivos vivos hasta que el usuario aprueba.
     - *Prompting positivo:* todo aprendizaje se escribe como acción («usa X»).
 
@@ -36,7 +36,7 @@ description: Directrices internas y aprendizaje transversal validado de Paul McC
 - *Tras aprobar una obra, si hay un aprendizaje **real, de calidad y funcional**, se archiva donde se **consume** (principio → aquí en `MEMORY.md`; técnica/tag → su archivo de `composicion/`), en positivo.*
     - *`Añadir`, `Modificar`, `Eliminar`, o `No hacer nada`.*
     - *Siempre se propone y se espera aprobación antes de escribir.*
-    - *Protocolo: `conocimientos/retrospectiva.md`.*
+    - *Protocolo: .claude\skills\retrospectiva\SKILL.md.*
 
 ---
 
