@@ -23,7 +23,7 @@ GABBER CUMBIA VILLERA, hardcore tecno, turreo, 180 BPM, extreme distorted gabber
 ## Negative Prompts
 acoustic, romantic, pop, reggaeton, clean production, spanish pop, neutro, slow ballad, mellow, chill, lo-fi
 
-## Lyrics Box
+## lyrics_box
 
 [MOOD: Tenso, Callejero, Agresivo]
 [PRODUCTION: aggressive drive, distorted low end, wide stereo synths, raw street mix]

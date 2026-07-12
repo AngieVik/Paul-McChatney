@@ -23,7 +23,7 @@ JOTA ARAGONESA HARDTEK, 190 BPM, aged female voice, melancholic traditional folk
 ## Negative Prompts
 modern pop, clean electronic, happy, upbeat, autotune, smooth, polished, bright
 
-## Lyrics Box
+## lyrics_box
 
 ```yaml
 [MOOD: Melancólico, Desolado, Agresivo]

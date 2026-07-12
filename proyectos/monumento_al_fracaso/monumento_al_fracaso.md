@@ -23,7 +23,7 @@ SPANISH TECHNO BIG BAND, 160BPM Hyper-Drive Beats, Adrenaline Overdose Velocity,
 ## Negative Prompts
 soft, melodic, piano, calm, slow, clean, lo-fi, ambient, sweet, robotic
 
-## Lyrics Box
+## lyrics_box
 
 Caja de cartón, cien kilos de peso
 El manual a la basura, yo controlo el proceso

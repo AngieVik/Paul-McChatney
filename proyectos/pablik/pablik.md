@@ -22,7 +22,7 @@ song style: A hard-hitting dembow rhythm ,with aggressive synth stabs, a catchy 
 
 ## Negative Prompts
 
-## Lyrics Box
+## lyrics_box
 
 [Producción: Hipermoderna, Voces Claras, Sin Autotune, Mezcla Dolby Atmos, Audio de Alta Fidelidad, Audio de Alta Definición, Estéreo Amplio.]
 

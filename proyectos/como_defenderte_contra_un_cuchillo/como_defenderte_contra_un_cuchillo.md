@@ -23,7 +23,7 @@ Hardcore Tutorialcore, Coachcore, Tactical Rave, Spoken Panicstep, YouTube Self-
 
 ## Negative Prompts
 
-## Lyrics Box
+## lyrics_box
 
 ```json
 [Production: Hardtek, Urban Survival Bass, Knife FX, Glitch Sirens, Fast Panic Kickrolls]

@@ -21,7 +21,7 @@ Influencia estilo —%
 
 ## Negative Prompts
 
-## Lyrics Box
+## lyrics_box
 
 (Mmm)
 Fuma el miedo en la esquina

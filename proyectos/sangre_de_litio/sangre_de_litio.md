@@ -23,7 +23,7 @@ SPANISH FLAMENCO HARDTEK, FRENCHCORE, 200 BPM, Spanish acoustic guitar, palmas, 
 ## Negative Prompts
 soft, happy, lo-fi, piano, clean beats, reggaeton, sweet
 
-## Lyrics Box
+## lyrics_box
 
 [MOOD: Passionate, Toxic, Aggressive]
 [PRODUCTION: Distorted master, heavy sidechain, raw acoustic mix]

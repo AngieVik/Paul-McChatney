@@ -21,7 +21,7 @@ Influencia estilo —%
 
 ## Negative Prompts
 
-## Lyrics Box
+## lyrics_box
 
 [ESSENCE: Obsessive, Frustrated, Epic]
 [PRODUCTION: Huge Wall of Sound, Clinical Separation, Wide Stereo Guitars, Dynamic Range Compression]

@@ -22,7 +22,7 @@ Spanish Urban Pop, Reguetón Urban Cumbia, Latin Pop, Catchy Hook, Syncopated Rh
 
 ## Negative Prompts
 
-## Lyrics Box
+## lyrics_box
 
 Para la niña que con su sonrisa ilumina todo, Tú sabes quién eres ¡Dímelo! (¡filo!)
 

@@ -22,7 +22,7 @@ acoustic-hard-rock operetta, rapid tempo shifts, spoken-word improv bits, power-
 
 ## Negative Prompts
 
-## Lyrics Box
+## lyrics_box
 
 [Production: studio-pristine guitars, isolated amp cabs, dual acoustic-electric blend, crisp tube-amp overdrive, tight DI bass, precise cowbell, no crowd overdubs, controlled falsetto layers, zero autotune, close condenser mics, polished stereo mix, subtle room reverb]
 [Essence: humorous, adventurous, mock-epic]

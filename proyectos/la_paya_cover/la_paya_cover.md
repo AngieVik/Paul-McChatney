@@ -22,7 +22,7 @@ Spanish Heavy Metal, Flamenco Metal, Tragic Romance, Passionate, Energetic, Male
 
 ## Negative Prompts
 
-## Lyrics Box
+## lyrics_box
 
 [Essence: Forbidden Love, Cultural Clash, Heartbreak]
 [Production: Spanish Heavy Metal, Flamenco Rock Fusion, High Gain Distortion, Andalusian Guitar Layers, Aggressive Double Bass, Raw Emotional Vocals, Wall of Sound, Crisp Snare, Reverb Heavy]

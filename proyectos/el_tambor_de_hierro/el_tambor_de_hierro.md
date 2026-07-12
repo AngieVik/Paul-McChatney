@@ -22,7 +22,7 @@ Spanish Epic Folk Metal, Spanish Tribal Metal, Heavy Tribal March, Drum Focused 
 
 ## Negative Prompts
 
-## Lyrics Box
+## lyrics_box
 
 [Essence: Epic Devotion, Ancient Winter, Sonic Earthquake]
 

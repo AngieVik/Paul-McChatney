@@ -22,7 +22,7 @@ Hardtek, Coachcore, Corporate Ragecore, Industrial Resistencia, Techno Sindical
 
 ## Negative Prompts
 
-## Lyrics Box
+## lyrics_box
 
 [Production: Hardtek, Factory Kickrolls, Distorted Alarm FX, AI Error Glitch, Tesla Shutdown Bass]
 

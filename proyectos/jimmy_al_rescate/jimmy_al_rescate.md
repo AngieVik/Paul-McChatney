@@ -22,7 +22,7 @@ Influencia estilo —%
 
 ## Negative Prompts
 
-## Lyrics Box
+## lyrics_box
 
 [Intro]  
 (Versión con riff de guitarra y batería enérgica)  

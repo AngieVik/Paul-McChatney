@@ -22,7 +22,7 @@ Influencia estilo —%
 
 ## Negative Prompts
 
-## Lyrics Box
+## lyrics_box
 
 [Production: Raw live sound, analog distorted bass, punchy layered vocals, stereo chaos mix, no auto-tune, emotional peaks and collapses]
 [Essence: The unstoppable spirit of an angel misunderstood by the world, burning brighter through every fall and rising even stronger from every mistake.]

@@ -22,7 +22,7 @@ Influencia estilo —%
 
 ## Negative Prompts
 
-## Lyrics Box
+## lyrics_box
 
 [Production: Clean studio mix, forward slap bass, tight low-end response, crisp drums, wide stereo imaging]
 

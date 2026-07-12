@@ -23,7 +23,7 @@ ANDALUSIAN ACCENT,  SPANISH HIP HOP, FUNK RAP, BARITONE MALE VOCALS , ENERGETIC,
 ## Negative Prompts
 cuban, caribbean, reggaeton, latin urban, dembow, tropical
 
-## Lyrics Box
+## lyrics_box
 
 [MOOD: Chulo, Energetic, Desert-Survival]
 [PRODUCTION: STUDIO PRODUCTION, Sparse mix, Crisp Vocals, clear left-right imaging, Heavy Bass Bounce, Hard-panned instruments]

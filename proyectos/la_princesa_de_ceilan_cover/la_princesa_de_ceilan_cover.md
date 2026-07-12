@@ -22,7 +22,7 @@ Spanish Heavy Metal, Power Metal, Melodic Speed Metal, Operatic Male Vocals, Dri
 
 ## Negative Prompts
 
-## Lyrics Box
+## lyrics_box
 
 [Essence: Exotic Fantasy, Tragic Romance, Power Metal Epic]
 [Production: Spanish Heavy Metal, Symphonic Textures, High Gain Distortion, Thunderous Double Bass, Crystal Clear Vocals, Orchestral Layers, Wide Stereo Image, Epic Reverb, Precision Mixing]

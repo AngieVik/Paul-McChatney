@@ -1,7 +1,7 @@
 ---
 name: buscar_tag
 type: skill
-description: Extractor canónico de etiquetas CHUPILISTA. Localiza, valida y entrega tags existentes como referencia fiable para cualquier skill y en cualquier fase. Activable en producción o en modo conversacional.
+description: Extractor canónico de etiquetas chupilista. Localiza, valida y entrega tags existentes como referencia fiable para cualquier skill y en cualquier fase. Activable en `produccion` o en modo conversacional.
 ---
 
 # buscar_tag
@@ -12,7 +12,7 @@ description: Extractor canónico de etiquetas CHUPILISTA. Localiza, valida y ent
 
 ## Activación
 
-- **En producción:** invocado por `style_box` (Fase 2), por `letra`/`lyrics_box` o por cualquier fase que necesite canon.
+- **En `produccion`:** invocado por `style_box` (Fase 2), por `letra`/`lyrics_box` o por cualquier fase que necesite canon.
 - **En modo conversacional:** invocable en cualquier momento, por el usuario o por otra skill, siempre que se necesiten tags canónicas.
 
 ---
@@ -69,7 +69,7 @@ description: Extractor canónico de etiquetas CHUPILISTA. Localiza, valida y ent
 
 - `fusionar` propone conceptos, fusiones y creaciones controladas; `buscar_tag` confirma qué es canon.
 - `style_box` combina tags canónicas de `buscar_tag` con creaciones controladas de `fusionar`.
-- `lyrics_box` usa tags canónicas, comandos libres y dirección musical no presente en `CHUPILISTA`.
+- `lyrics_box` usa tags canónicas, comandos libres y dirección musical no presente en `chupilista`.
 - `exclude_box` (Fase 5) puede pedir tags canónicas y normalizarlas sin corchetes según su formato.
 
 - *`buscar_tag` entrega materia prima canónica fiable; la consumidora decide cómo integrarla.*

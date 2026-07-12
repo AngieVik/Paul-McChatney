@@ -18,12 +18,14 @@ Rareza —%
 Influencia estilo —%
 
 ## style_box
+
 Spanish Heavy Metal, Folk Metal Fusion, Hard Rock Undertones, Arabic Male Vocal, Driving Rhythm, Satirical Tone, Energetic, Melodic Guitar Solos, Arabic Oud Echo, Spanish Flamenco Fury.
 
 ## Negative Prompts
 
-## Lyrics Box
+## lyrics_box
 
+```markdown
 [Essence: Satirical Character Portrait, Energetic Folk Metal Storytelling]
 [Production: Spanish Heavy Metal, High Gain Distortion, Aggressive Double Bass, Andalusian Scales, Middle Eastern Texture, Raw Vocals, Wall of Sound, Stereo Wide Guitars, Crisp Mixing, Power Metal Influence]
 
@@ -93,3 +95,4 @@ Oh sí que por allá me llaman el Morito Juan (Juan!)
 [Big Finish][Feedback]
 (Juan!)
 [End]
+´´´

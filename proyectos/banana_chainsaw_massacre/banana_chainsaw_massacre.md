@@ -22,7 +22,7 @@ Influencia estilo —%
 
 ## Negative Prompts
 
-## Lyrics Box
+## lyrics_box
 
 [Production: Raw heavy distortion recording, saturated bass and guitars, chaotic multi-vocal layering, aggressive stereo dynamic, no auto-tune, extreme loudness bursts]
 

@@ -60,7 +60,7 @@ description: Mapa general del proyecto Paul McChatney.
 | `proyecto`      | Crear, retomar, guardar, aprobar o cerrar. |
 | `letra`         | Escribir o pulir letra limpia.             |
 | `style_box`     | Crear o iterar el molde sonoro.            |
-| `buscar_tag`    | Buscar tags concretos en CHUPILISTA.       |
+| `buscar_tag`    | Buscar tags concretos en chupilista.       |
 | `fusionar`      | Proponer fusiones de género.               |
 | `fonetizar`     | Aplicar acento o idioma cantado.           |
 | `jerga`         | Inyectar modismos locales en la letra.     |
@@ -71,7 +71,7 @@ description: Mapa general del proyecto Paul McChatney.
 
 ## 5 · Formato de salida y Obra terminada
 
-El formato de salida estándar para los proyectos en curso, vive en `composicion/formato.md`, el utilizado por la skill `producción` es el siguiente:
+El formato de salida estándar de los proyectos en curso vive en `composicion/formato.md`. La skill `produccion` entrega:
 
 ```text
 `título`
@@ -90,7 +90,7 @@ Cada obra aprobada vive en `proyectos/<slug>/<slug>.md` y se registra en `PROYEC
 ## style_box
 ## Sliders
 ## Negative Prompts
-## Lyrics Box
+## lyrics_box
 ```
 
 ---

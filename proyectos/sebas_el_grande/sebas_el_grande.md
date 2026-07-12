@@ -22,7 +22,7 @@ Influencia estilo —%
 
 ## Negative Prompts
 
-## Lyrics Box
+## lyrics_box
 
 (Intro - Instrumental con acordeón y trompeta)
 (¡Ahí viene el moreno! ¡Con su facha y sus gafas divinas!)

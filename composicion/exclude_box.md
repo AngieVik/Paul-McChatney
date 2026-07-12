@@ -30,9 +30,9 @@ description: Prompting inverso y control de artefactos, para bloquear caracterí
 
 ## 1 · Instrucciones exclude_box
 
-- *Las etiquetas pueden aparecer en origen de distintas formas, pero la salida final del `exclude_box` se entrega siempre sin corchetes, como términos separados por comas.*
+- Las etiquetas pueden aparecer en origen de distintas formas, pero la salida final del `exclude_box` se entrega siempre sin corchetes, como términos separados por comas.
+- El `exclude_box` se utilizará en el campo negativo; por ello, los términos se escriben como descriptores directos de las características que deben excluirse, sin añadir «no», «sin» ni formulaciones negativas.
 - El `exclude_box` final se entrega siempre como una línea de texto plano, separada por comas y sin corchetes, de 10-20 palabras. Para negativos canónicos apóyate en `buscar_tag` (mapa `.claude/rules/chupilista.md`, módulo 15 de negativos); esos términos van exclusivamente en el `exclude_box`.
-- El exclude_box se usará después en un campo negativo, por lo cual el positivo bloqueará características eficazmente.
     - **Ejemplo:**`cuban, reggaeton, piano, grand piano, mellow, slow tempo, crooner, romantic ballad, latin pop, generic edm, lo-fi, standard reggaeton`
     - **Ejemplo:** `clipping, overcompressed, muddy mix, robotic voice`
 

@@ -22,7 +22,7 @@ Spanish Folk Metal, Male Vocals (Lyrical Tenor with gritty rock tone), Symphonic
 
 ## Negative Prompts
 
-## Lyrics Box
+## lyrics_box
 
 [Essence: Epic Journey, Freedom, Celtic Fantasy, Hymn]
 [Production: Spanish Folk Metal, Symphonic Orchestra, Celtic Flute Lead, Violin Solo, Galloping Bass, Double Kick Drum]

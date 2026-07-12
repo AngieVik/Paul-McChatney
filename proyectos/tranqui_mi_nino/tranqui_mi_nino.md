@@ -23,7 +23,7 @@ Style: Funk-rap fusion, old school groove with modern flow, conversational lyric
 ## Negative Prompts
 Style: Funk-rap fusion, old school groove with modern flow, conversational lyricism, barrio charisma, [Spanish Voice][Smooth Accent][Urban Pulse][Breath Control][Tempo Modifiers]
 
-## Lyrics Box
+## lyrics_box
 
 tranqui mi niño
 no hay prisa pa’l oro

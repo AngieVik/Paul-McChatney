@@ -22,7 +22,7 @@ Influencia estilo —%
 
 ## Negative Prompts
 
-## Lyrics Box
+## lyrics_box
 
 [Production: Crunchy analog mix, slap bass like syrup, layered distorted vocals, stereo explosion FX, no auto-tune, glitchy candy textures]
 [Essence: A hyper-cute, hyper-violent ice cream disaster where sweetness becomes destruction and chaos tastes like strawberry.]

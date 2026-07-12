@@ -22,7 +22,7 @@ Hardtek, Coachcore, Social Anxiety Hardcore, Tapeo Step, Conquista Rítmica
 
 ## Negative Prompts
 
-## Lyrics Box
+## lyrics_box
 
 [Production: Hardtek, Bar Noise FX, Kickroll Tensión, Tapas Delay, Note Pad Reverb]
 

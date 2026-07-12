@@ -22,7 +22,7 @@ Influencia estilo —%
 
 ## Negative Prompts
 
-## Lyrics Box
+## lyrics_box
 
 [Essence: Deep Fatherly Devotion, Burning Redemption Hope, Andalusian Sun]
 [Production: Warm Tube Amp, Acoustic Resonance, Intimate Vocal Mic, Gentle Reverb, Wide Stereo Spread]

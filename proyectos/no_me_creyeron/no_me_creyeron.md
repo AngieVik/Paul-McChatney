@@ -22,7 +22,7 @@ Hardtek, Coachcore, Cuñadismo Rave, Testimonial Ragecore, Urban Legend Bounce
 
 ## Negative Prompts
 
-## Lyrics Box
+## lyrics_box
 
 [Production: Hardtek, Gas Station Bass, Rumor FX, Kickroll de Bar, Cuñao Delay]
 

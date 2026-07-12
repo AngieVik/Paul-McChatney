@@ -94,7 +94,7 @@ description: Control semántico, mapeo operativo del lyrics_box, gramática téc
 ### 1.5 · Top-Loading
 
 - *Mantén la base contenida e inserta un comando de energía extrema en las letras justo antes de la sección que debe explotar → contraste real.*
-    - **Lyrics Box:** antes del estribillo:
+    - **lyrics_box:** antes del estribillo:
     `[Energy: High, Explosive, layered power-harmonies]`.
 
 ### 1.6 · Vacuum Drop

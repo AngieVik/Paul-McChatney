@@ -22,7 +22,7 @@ Style: Hard Rock, Heavy Metal, Rock Opera, Blues Fusion, Power Ballad, Absurdist
 
 ## Negative Prompts
 
-## Lyrics Box
+## lyrics_box
 
 [Production: Over-the-top, Cinematic, Heavy Metal Comedy, Soundtrack Vibes]
 [Essence: Humorous, Epic, Absurd, Theatrical, Mythic, Darkly Comedic, Overwhelming, Intense, Playful, Dramatic, Grandiose, Chaotic, Ridiculous]

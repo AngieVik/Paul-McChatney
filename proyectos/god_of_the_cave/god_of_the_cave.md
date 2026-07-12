@@ -22,7 +22,7 @@ Influencia estilo —%
 
 ## Negative Prompts
 
-## Lyrics Box
+## lyrics_box
 
 ```yaml
 [Production: Raw analog studio recording, overdriven basslines, layered chaotic vocals, heavy drum saturation, stereo wide mix, no auto-tune, dynamic ruptures]

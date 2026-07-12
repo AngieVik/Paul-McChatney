@@ -23,7 +23,7 @@ SPANISH 8-BIT CHIPTUNE FRENCHCORE, 200 BPM, retro arcade synths, gameboy arpeggi
 ## Negative Prompts
 acoustic, soft, orchestral, jazz, slow, piano, clean beats, lo-fi
 
-## Lyrics Box
+## lyrics_box
 
 [MOOD: Frantic, Claustrophobic, Digital]
 [PRODUCTION: 8-bit master, heavy sidechain, wall of sound, distorted kicks]

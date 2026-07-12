@@ -21,7 +21,7 @@ Influencia estilo —%
 
 ## Negative Prompts
 
-## Lyrics Box
+## lyrics_box
 
 [ESSENCE: Extraterrestrial, Urban-Tropical, Comedic-Groove]
 [PRODUCTION: Heavy Synth Bass, Crisp Cowbell, Brass Stabs, Dry Vocal Mix, Clinical Separation]

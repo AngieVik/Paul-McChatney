@@ -22,7 +22,7 @@ Spanish Folk Metal, Male Vocals (Melodic Power & Gritty), Fast & Festive.
 
 ## Negative Prompts
 
-## Lyrics Box
+## lyrics_box
 
 [Essence: Rebellion, Epic Journey, Speed, Legend]
 [Production: Spanish Folk Metal, High Speed Tempo, Celtic Violin Lead, Orchestral Stabs, Double Bass Gallop]

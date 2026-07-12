@@ -22,7 +22,7 @@ Spanish Heavy Metal, Military Metal, Storytelling, Tragic Ballad, Aggressive, Em
 
 ## Negative Prompts
 
-## Lyrics Box
+## lyrics_box
 
 ```text
 [Essence: Tragic Military Crime of Passion, Dark Romance]

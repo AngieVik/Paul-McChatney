@@ -23,7 +23,7 @@ HARDCORE GABBER MERENGUE, 190 BPM, distorted 909 kick, hyper-fast tambora, acid 
 ## Negative Prompts
 Macedonia de Fuego
 
-## Lyrics Box
+## lyrics_box
 
 [ESSENCE: Romántico, Sensual, Surrealista]
 [PRODUCTION: Clinical separation, Hard-panned instruments, Distorted Gabber Mix, Ultra-close mic ASMR, Breathy vocals, 190 BPM]

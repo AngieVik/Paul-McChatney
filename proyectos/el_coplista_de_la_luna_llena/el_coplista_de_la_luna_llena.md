@@ -25,7 +25,7 @@ SPANISH NEUROFUNK BAROQUE, CLASSICAL FUGUE, 175 BPM, aggressive drill rap, gritt
 
 ‑bright, ‑cheerful, ‑pop, ‑melodic chorus, ‑acoustic guitar, ‑slow, ‑peaceful, ‑ambient pad, ‑violin, ‑strings, ‑cello, ‑harpsichord
 
-## Lyrics Box
+## lyrics_box
 
 ```yaml
 [MOOD: Psychotic, Cyberpunk, Menacing, Arrogant]

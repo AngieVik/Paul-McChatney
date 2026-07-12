@@ -22,7 +22,7 @@ heavy metal storm, medieval dark fantasy, powerful growl, heroic melodic choruse
 
 ## Negative Prompts
 
-## Lyrics Box
+## lyrics_box
 
 las puertas rojas se abren en el abismo
 llamas negras desgarran el destino

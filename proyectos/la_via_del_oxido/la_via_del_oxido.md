@@ -21,7 +21,7 @@ Influencia estilo —%
 
 ## Negative Prompts
 
-## Lyrics Box
+## lyrics_box
 
 [ESSENCE: Carretera y manta, huida hacia adelante, energía cruda]
 [PRODUCTION: Studio Production, Vintage analog warmth, punchy low end, stereo brass, crisp vocals]

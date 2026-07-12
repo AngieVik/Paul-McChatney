@@ -18,13 +18,14 @@ Rareza —%
 Influencia estilo —%
 
 ## style_box
+
 Style: Rock comedy fusion, Dramatic vocals, Falsetto tension, Power-chord choruses
 
 ## Negative Prompts
 
-## Lyrics Box
+## lyrics_box
 
-```yaml
+```markdown
 [Production: Clean production, High-definition sound, Acoustic-electric blend, Dynamic mixing, Spatial reverb, No autotune]
 [Essence: Empowered, humorous, mythic]
 
@@ -85,3 +86,4 @@ solo un héroe y su furioso final.
 — Y cuentan las gentes que en las aguas se hundieron las ratas…
 — Y al héroe no le pagaron…
 — Desde entonces, su lamento resuena cada luna llena.
+```

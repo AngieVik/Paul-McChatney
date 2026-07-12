@@ -22,7 +22,7 @@ Style: Hard Rock, Heavy Metal, Rock Opera, Absurdist Blues, Epic Theatrical, Dar
 
 ## Negative Prompts
 
-## Lyrics Box
+## lyrics_box
 
 [Production: Over-the-top, Cinematic, Epic Metal Comedy, Soundtrack Vibes]
 

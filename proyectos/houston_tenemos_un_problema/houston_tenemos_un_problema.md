@@ -22,7 +22,7 @@ Acid Techno, Spacecore, Conspiracy Groove, Coachcore, Satirical Paranormal Techn
 
 ## Negative Prompts
 
-## Lyrics Box
+## lyrics_box
 
 [Production: Dark Tekno, Cold Bassline, NASA Static FX, Alarm Pulses, Broken Radio Delay]
 

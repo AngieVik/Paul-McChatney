@@ -22,7 +22,7 @@ Hardtek, Acid Techno, Coachcore, Paranoid Groove, Dark Humor Hardcore
 
 ## Negative Prompts
 
-## Lyrics Box
+## lyrics_box
 
 [Production: Industr[Intro][Spanish Male Voice][Lo-Fi Delay, Tape Crackle, Reverse Hat FX]
 Bienvenido al lado oscuro.

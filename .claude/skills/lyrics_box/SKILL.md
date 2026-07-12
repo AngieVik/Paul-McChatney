@@ -1,7 +1,7 @@
 ---
 name: lyrics_box
 type: skill
-description: Orquestadora del lyrics_box. Toma el boceto de letra de Fase 3 y lo desarrolla en Fases 3 y 4 —estructura, dirección de banda, técnica vocal, métrica y efectos— preservando la lírica. Activable en producción o en modo conversacional.
+description: Orquestadora del lyrics_box. Toma el boceto de letra de Fase 3 y lo desarrolla en Fases 3 y 4 —estructura, dirección de banda, técnica vocal, métrica y efectos— preservando la lírica. Activable en `produccion` o en modo conversacional.
 ---
 
 # lyrics_box
@@ -12,7 +12,7 @@ description: Orquestadora del lyrics_box. Toma el boceto de letra de Fase 3 y lo
 
 ## Activación
 
-- **En producción:** recibe el boceto de `letra` (Fase 3) y lo lleva por Fase 4 (estructura y dirección) y Fase 5 (efectos y producción) de `produccion`.
+- **En `produccion`:** recibe el boceto de `letra` (Fase 3) y lo lleva por Fase 4 (estructura y dirección) y Fase 5 (efectos y producción) de `produccion`.
 - **En modo conversacional:** se activa de forma independiente cuando el usuario aporta una letra —completa o parcial— y pide estructurarla, dirigirla o convertirla en `lyrics_box`.
 
 ---
@@ -24,7 +24,7 @@ description: Orquestadora del lyrics_box. Toma el boceto de letra de Fase 3 y lo
     - **Archivo técnico:** `composicion/lyrics_box.md`
     - **Boceto de partida (lírica, narrativa, métrica, fonética, poética):** `.claude/rules/letra.md` → `composicion/letra.md`
     - **Dirección vocal por línea:** `.claude/rules/tecnicas_vocales.md` → `composicion/tecnicas_vocales.md`
-    - **Efectos y post-producción (Fase 5):** `.claude/rules/efectos.md` → `composicion/efectos.md`
+    - **Efectos y post-`produccion` (Fase 5):** `.claude/rules/efectos.md` → `composicion/efectos.md`
 - *Para canon de secciones, moods, FX o dinámicas, invoca `buscar_tag`.*
     - Mapa canónico: `.claude/rules/chupilista.md`
 

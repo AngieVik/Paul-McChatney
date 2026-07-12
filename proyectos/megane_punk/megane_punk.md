@@ -22,7 +22,7 @@ Influencia estilo —%
 
 ## Negative Prompts
 
-## Lyrics Box
+## lyrics_box
 
 [Production: Raw analog live sound, heavy bass saturation, chaotic layered vocals, dynamic brutal tempo changes, no auto-tune, stereo punch impact]
 [Essence: A glasses-wearing misfit who breaks faces, flips the world, and rules the chaos with pure dirty punk energy.]

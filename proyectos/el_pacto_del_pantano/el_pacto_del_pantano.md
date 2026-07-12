@@ -23,7 +23,7 @@ SPANISH DELTA BLUES ACID TECNO, 130 BPM, dirty acoustic guitar, rusty harmonica,
 ## Negative Prompts
 clean, happy, pop, soft, orchestral, lo-fi, jazz
 
-## Lyrics Box
+## lyrics_box
 
 [MOOD: Dark, Swampy, Occult]
 [PRODUCTION: Distorted master, heavy sidechain, raw acoustic mix]

@@ -22,7 +22,7 @@ POST-ROCK APOCALYPTIC SOUL, male spoken-sung vocal, biblical noir atmosphere, he
 
 ## Negative Prompts
 
-## Lyrics Box
+## lyrics_box
 
 ```yaml
 me creía el martillo del juicio final

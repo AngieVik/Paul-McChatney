@@ -86,7 +86,7 @@ description: Construye el style_box de una obra, define el núcleo estilístico 
 
 ### 1.4 · Canon y creación controlada
 
-- *El canon de `CHUPILISTA` se recupera mediante `buscar_tag`; sirve como ancla fiable, no como límite creativo absoluto.*
+- *El canon de `chupilista` se recupera mediante `buscar_tag`; sirve como ancla fiable, no como límite creativo absoluto.*
     - Si existe una tag canónica suficiente, úsala.
     - Si no existe una tag exacta, puede usarse una creación controlada.
     - Toda creación controlada debe tener función sonora, narrativa o técnica.

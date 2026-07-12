@@ -22,7 +22,7 @@ Style: Classic heavy metal with gallop riffs, shouted and clean vocals, virtuosi
 
 ## Negative Prompts
 
-## Lyrics Box
+## lyrics_box
 
 ```yaml
 [Production: High-gain guitars with palm-muting, triggered double-bass, thick bass, cavernous reverb mix, no autotune]

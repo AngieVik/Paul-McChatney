@@ -22,7 +22,7 @@ Acid Techno, Lo-Fi Powercore, Experimental Rave, Electro Absurdism, Spoken DIY T
 
 ## Negative Prompts
 
-## Lyrics Box
+## lyrics_box
 
 [Production: Acid Techno, Broken Synth Pulse, Circuit Noise FX, Electric Bass Drop, Lo-Fi Static]
 

@@ -22,7 +22,7 @@ Post-rap experimental, glitch-hop, spoken word digital soul][Deep male voice, br
 
 ## Negative Prompts
 
-## Lyrics Box
+## lyrics_box
 
 [Production: Raw studio session, glitch textures, analog distortion, stereo dirty compression, no autotune, human breath preserved]
 

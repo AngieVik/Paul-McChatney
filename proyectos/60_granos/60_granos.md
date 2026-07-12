@@ -27,7 +27,7 @@ Audio Influence 30%
 
 grand piano, soft ambient intro, mellow, slow tempo, quiet silence, crooner, romantic ballad, latin pop, generic edm, lo-fi, standard reggaeton
 
-## Lyrics Box
+## lyrics_box
 
 [MOOD: Dark, Arrogant, Theatrical]
 [PRODUCTION: Wall of sound, aggressive sidechain, very loud bright tack piano upfront, sharp transients]

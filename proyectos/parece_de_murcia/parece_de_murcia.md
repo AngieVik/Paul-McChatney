@@ -22,7 +22,7 @@ Spanish alt rock song, female vocals, distorted guitars, gritty bass, urban vibe
 
 ## Negative Prompts
 
-## Lyrics Box
+## lyrics_box
 
 Verso 1
 Es de Argentina pero no lo jura,

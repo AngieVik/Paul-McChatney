@@ -22,7 +22,7 @@ Style: Maximum The Hormone-inspired, chaotic genre-bending hardcore metal, funky
 
 ## Negative Prompts
 
-## Lyrics Box
+## lyrics_box
 
 Kurabikura...
 BREAK YOUR BONE!!

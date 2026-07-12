@@ -22,7 +22,7 @@ Psychedelic folk, hardcore tribal percussion, female mystical vocals, shamanic v
 
 ## Negative Prompts
 
-## Lyrics Box
+## lyrics_box
 
 su nombre empieza con Zeta aunque no lo diga el nombre
 camina con los pies descalzos sin mirar a dónde

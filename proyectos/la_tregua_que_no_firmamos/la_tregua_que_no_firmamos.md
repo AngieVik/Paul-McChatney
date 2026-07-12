@@ -21,7 +21,7 @@ Influencia estilo —%
 
 ## Negative Prompts
 
-## Lyrics Box
+## lyrics_box
 
 [ESSENCE: Visceral, Proud, Decadent]
 [PRODUCTION: Raw Analog Warmth, Wide Stereo Guitars, 90s Spanish Rock Mix, Dynamic Mastering]

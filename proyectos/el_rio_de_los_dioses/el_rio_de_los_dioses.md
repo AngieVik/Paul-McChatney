@@ -22,7 +22,7 @@ Spanish Folk Metal, Male Vocals (Rough & Festive), Tavern Folk Style, High Energ
 
 ## Negative Prompts
 
-## Lyrics Box
+## lyrics_box
 
 [Essence: Tavern Party, Mystic Ritual, Celebration, Speed]
 [Production: Spanish Folk Metal, Fast Waltz Rhythm (6\8), Celtic Fiddle Lead, Accordion Layer, Crowd Clapping, Double Kick Drum]

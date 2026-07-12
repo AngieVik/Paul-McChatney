@@ -22,7 +22,7 @@ Spanish Heavy Metal, Power Ballad, Emotional, Passionate, Male Vocals, Driving R
 
 ## Negative Prompts
 
-## Lyrics Box
+## lyrics_box
 
 [Essence: Desperate Ultimatum, Romantic Anguish, Heavy Power Ballad]
 [Production: Spanish Heavy Metal, High Gain Distortion, Melodic Shredding, Thunderous Drums, Raw Emotional Vocals, Wall of Sound, Power Metal Influence, Stadium Reverb, Crisp Mixing]

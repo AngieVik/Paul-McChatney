@@ -22,7 +22,7 @@ SYMPHONIC DARK METAL, male dual vocals, cinematic gothic tension, medieval fanta
 
 ## Negative Prompts
 
-## Lyrics Box
+## lyrics_box
 
 "no te fíes de las sonrisas en la oscuridad"
 

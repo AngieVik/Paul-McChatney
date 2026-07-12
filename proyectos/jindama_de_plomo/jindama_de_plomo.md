@@ -21,7 +21,7 @@ Influencia estilo —%
 
 ## Negative Prompts
 
-## Lyrics Box
+## lyrics_box
 
 [Short Instrumental Intro]
 [Andalusian Guitar Strumming | Flamenco Claps | Eerie Echos]

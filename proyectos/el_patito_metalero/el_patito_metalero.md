@@ -22,7 +22,7 @@ Chaotic Metal, Chaotic Structure, Guitar Shredding, Epic Vocal Layers, Exaggerat
 
 ## Negative Prompts
 
-## Lyrics Box
+## lyrics_box
 
 [Production: Studio production, raw analog sound, heavy metal, chaotic percussion, satirical rock, layered vocals, evil laughter]
 [Essence: Darkly Comedic, Vengeful, Empowering, Over-the-Top, Absurd]

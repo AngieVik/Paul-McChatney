@@ -1,7 +1,7 @@
 ---
 name: letra
 type: skill
-description: Redacta la letra limpia sin tags: narrativa, cadencia y anclaje regional. Activable en producción (Fase 3) o en modo conversacional.
+description: Redacta la letra limpia sin tags: narrativa, cadencia y anclaje regional. Activable en `produccion` (Fase 3) o en modo conversacional.
 ---
 
 # letra
@@ -12,7 +12,7 @@ description: Redacta la letra limpia sin tags: narrativa, cadencia y anclaje reg
 
 ## Activación
 
-- **En producción:** Fase 3 de `produccion`; produce el boceto de letra que alimentará el `lyrics_box` en Fase 4.
+- **En `produccion`:** Fase 3 de `produccion`; produce el boceto de letra que alimentará el `lyrics_box` en Fase 4.
 - **En modo conversacional:** se activa de forma independiente cuando el usuario pide crear o modificar una letra, sobre un mood, una obra o una escritura suelta.
 
 ---

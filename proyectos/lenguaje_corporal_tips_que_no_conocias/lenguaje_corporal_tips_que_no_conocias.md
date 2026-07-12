@@ -22,7 +22,7 @@ Hardtek, Acid Techno, Psychological Hardcore, Body Reading Groove, Coachcore
 
 ## Negative Prompts
 
-## Lyrics Box
+## lyrics_box
 
 [Production: Hardtek Beat, Distorted Vox, Forensic Bass, Glitch FX, Low Delay Slam]
 

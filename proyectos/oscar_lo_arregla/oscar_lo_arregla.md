@@ -22,7 +22,7 @@ Raw blues rock with soulful electric guitar riffs, steady groove drums, warm bas
 
 ## Negative Prompts
 
-## Lyrics Box
+## lyrics_box
 
 [producción: mezcla dolby atmos, audio de alta fidelidad, audio de alta definición y estéreo amplio]
 

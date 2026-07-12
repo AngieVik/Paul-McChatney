@@ -22,7 +22,7 @@ Hardtek, Acid Techno, Hustlecore, Barrio Banger, Satirical Rave Trap
 
 ## Negative Prompts
 
-## Lyrics Box
+## lyrics_box
 
 [Production: Dirty Tekno, Kickrolls Constant, Money FX, Cheap Synths, Shady Beatbox FX]
 

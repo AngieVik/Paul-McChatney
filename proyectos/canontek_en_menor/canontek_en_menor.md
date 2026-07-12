@@ -29,7 +29,7 @@ Cover of Wolfi - CanonTek en Menor
 
 happy, reggaeton, flamenco, acoustic guitar, autotune, pop vocals, mainstream edm, trance, lo-fi, muddy mix, excessive reverb
 
-## Lyrics Box
+## lyrics_box
 
 [MOOD: Theatrical, Aggressive, Intense, Maximalist]
 [PRODUCTION: Canon, Dynamic acoustic to Wide Stereo, Heavy sidechain, 48000Hz, Wall of Sound]

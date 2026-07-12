@@ -23,7 +23,7 @@ Style: Power Metal épico, Viking storytelling, speed shred vocals, mythological
 
 ## Negative Prompts
 
-## Lyrics Box
+## lyrics_box
 
 Tronan las nubes de hielo y granizo
 el martillo desciende buscando castigo

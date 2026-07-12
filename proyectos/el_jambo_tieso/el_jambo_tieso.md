@@ -23,7 +23,7 @@ SPANISH ELECTRO-SWING GYPSYCORE, 170 BPM, gypsy brass, flamenco acoustic guitar,
 ## Negative Prompts
 sad, slow, classical, lo-fi, ambient, clean beats, serious
 
-## Lyrics Box
+## lyrics_box
 
 ```yaml
 

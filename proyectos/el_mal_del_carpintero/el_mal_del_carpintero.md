@@ -23,7 +23,7 @@ BULERIA INDUSTRIAL ACID HARDTEK, 160 BPM, acoustic fingerstyle guitar, TB-303 sy
 ## Negative Prompts
 pop, soft, sweet, melodic, clean pop vocals, auto-tune, plastic synths, breakbeat, makina, dance-pop, predictable
 
-## Lyrics Box
+## lyrics_box
 
 [MOOD: Passionate, Furious, Hysterical, Dark]
 [PRODUCTION: Estudio audio clean, Acoustic Strip-down, Absolute Silence Drop, 00s Brickwall Limiter Master Pump on Techno]

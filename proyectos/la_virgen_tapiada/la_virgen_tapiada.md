@@ -23,7 +23,7 @@ MEXICAN MARIACHI SCHRANZ, Hard Techno, ranchera clásica, 150 BPM, distorted kic
 ## Negative Prompts
 mellow, acoustic only, slow, boring, lo-fi, pop, reggaeton, comical, spanish pop, neutro
 
-## Lyrics Box
+## lyrics_box
 
 [MOOD: Claustrofóbico, Desesperado, Violento]
 [PRODUCTION: immersive panning, heavy distortion on kick, wide stereo brass, bitcrushed master]

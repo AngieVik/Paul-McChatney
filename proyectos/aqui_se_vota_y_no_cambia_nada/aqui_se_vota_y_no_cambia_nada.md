@@ -23,7 +23,7 @@ Style: Hardtek, Acid Techno, Satirical Electro, Spoken Word Rave, Dystopian Boun
 
 ## Negative Prompts
 
-## Lyrics Box
+## lyrics_box
 
 ```text
 [Production: Industrial Tekno, Acid Synths, Distorted Bass, Loop Glitch FX, Satirical Drops]

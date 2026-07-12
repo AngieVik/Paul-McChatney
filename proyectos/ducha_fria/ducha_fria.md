@@ -23,7 +23,7 @@ SPANISH FRENCHCORE OPERA, Orchestral Hybrid, Solo Violin, 200 BPM, distorted bou
 ## Negative Prompts
 anti-pop, anti-chorus, no tempo acceleration
 
-## Lyrics Box
+## lyrics_box
 
 [MOOD: Abyssal Freeze, Manic, Theatrical Tension]
 [PRODUCTION: Clinical separation, Immersive Panning, 00s Brickwall Limiter Master Pump]

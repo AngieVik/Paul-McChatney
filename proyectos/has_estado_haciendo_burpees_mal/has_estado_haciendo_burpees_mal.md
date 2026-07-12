@@ -22,7 +22,7 @@ Hardtek, Gymcore, Coachcore, Satirical Fitness Hardcore, Motivational BPM Abuse
 
 ## Negative Prompts
 
-## Lyrics Box
+## lyrics_box
 
 [Production: Hardtek, Gym Alarm FX, Punchy Kickroll, Trainer Delay, Sweat Bounce]
 

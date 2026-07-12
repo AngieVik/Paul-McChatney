@@ -22,7 +22,7 @@ Hardtek, Hardcore Cocinado, Coachcore Gastronómico, Low Budget Foodstep
 
 ## Negative Prompts
 
-## Lyrics Box
+## lyrics_box
 
 [Production: Hardtek, Greasecore, Kitchen Bass FX, Acid Oil Drops, Broken Cutlery Perc]
 

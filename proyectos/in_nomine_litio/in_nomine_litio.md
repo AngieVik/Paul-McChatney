@@ -23,7 +23,7 @@ LATIN GREGORIAN FRENCHCORE, ORCHESTRAL HARDTEK, 200 BPM, apocalyptic energy, dis
 ## Negative Prompts
 acoustic, soft, reggaeton, happy, lo-fi, jazz, dry vocals
 
-## Lyrics Box
+## lyrics_box
 
 [MOOD: Apocalyptic, Hectic, Mystical]
 [PRODUCTION: Wall of sound, heavy sidechain, distorted master, wide stereo choir]

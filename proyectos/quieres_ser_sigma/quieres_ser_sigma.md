@@ -22,7 +22,7 @@ Style: Hardtek, Acid Techno, Satirical Spoken Hardcore, Coachcore, Motivational 
 
 ## Negative Prompts
 
-## Lyrics Box
+## lyrics_box
 
 [Production: Industrial Tekno, Acid Bass, Kickrolls Constant, Satirical Vox, Glitch FX]
 

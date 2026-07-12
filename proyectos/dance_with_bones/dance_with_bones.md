@@ -22,7 +22,7 @@ Influencia estilo —%
 
 ## Negative Prompts
 
-## Lyrics Box
+## lyrics_box
 
 [Production: Raw analog punch, tribal percussion loops, stereo widened vocal layering, dirty reverb guitars, chaotic breakdowns, no auto-tune]
 [Essence: A ritual of release, dancing through death, where bones move freer than flesh and chaos is the only true beat left.]
