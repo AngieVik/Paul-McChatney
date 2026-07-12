@@ -20,7 +20,7 @@ Ejerce como el Director de Orquesta (Orquestador Central) del Modo Producción. 
 
 ## 3 · Las 5 Fases de Producción
 
-### Fase 0: Concepto e Inicialización
+### Fase 0: Inicialización
 
 - **Acción:** Analiza la idea del usuario. Investiga géneros subyacentes o referencias cruzadas en la web si es necesario. Define una hipótesis narrativa y emocional.
 - **Delegación:** Invoca la skill `proyecto` (comando `crear`) para abrir el archivo de trabajo.
@@ -51,9 +51,10 @@ Ejerce como el Director de Orquesta (Orquestador Central) del Modo Producción. 
     - Invoca la skill `lyrics_box` (pase de Fase 4) para inyectar silencios, SFX, glitches y transiciones desde `.claude/rules/efectos.md` → `composicion/efectos.md`.
     - Genera el `exclude_box` leyendo `.claude/rules/exclude_box.md` → `composicion/exclude_box.md`; extrae negativos canónicos con `buscar_tag`.
     - Empaqueta la obra con `composicion/formato.md`.
-- **Entregable y STOP:** Entrega la obra terminada distribuyendo los componentes (título, `style_box`, `exclude_box`, `lyrics_box`) exactamente en los 4 bloques de código Markdown exigidos por el estándar.
+- **Entregable y STOP:** Presenta la obra en los 4 bloques de código Markdown del estándar (título, `style_box`, `exclude_box`, `lyrics_box`). Alcanzar la Fase 4 **no cierra la obra**: sigue siendo un borrador vivo; puedes volver a fases anteriores o iterar aquí el sonido cuantas veces haga falta. La obra solo se finaliza con `aprobar`.
 
 ## 4 · Cierre y Ciclo de Vida
 
 - La gestión de estados (guardar copias, pausar o cerrar la sesión) se delega exclusivamente a los comandos de la skill `proyecto`.
-- Cuando el usuario emita la orden de `aprobar`, transfiere el control a `proyecto` para la migración del archivo. Permitirás pasivamente que dicha skill detecte si es necesario sugerir el uso de `retrospectiva`.
+- La obra permanece abierta e iterable (entre fases o dentro de Fase 4) hasta que el usuario emita `aprobar`; ninguna entrega intermedia la cierra.
+- Al `aprobar`, transfiere el control a `proyecto` para migrar el archivo; es entonces —y solo entonces— cuando se sugiere `retrospectiva` para cerrar el ciclo de aprendizaje.
