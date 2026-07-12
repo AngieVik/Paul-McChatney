@@ -23,6 +23,13 @@ description: Contexto de carga, reglas de lectura y mapa principal del proyecto 
 
 ---
 
+## Evita carga ansiosa
+
+- No cargues inicialmente, lee unicamente bajo demanda cuando se te solicite: 
+- `_docs/`, `_hojas_sucias/`, `_produccion/`, `_prompts_antiguos/`, `_temp/`, `proyectos/`.
+
+---
+
 ## Referencias de Contexto
 
 - *Bajo demanda, abrir con la herramienta de lectura, usando rutas sin `@`.*
