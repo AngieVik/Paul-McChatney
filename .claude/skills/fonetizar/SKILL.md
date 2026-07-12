@@ -1,45 +1,66 @@
 ---
 name: fonetizar
 type: skill
-description: reescribe la letra cantable, para que se cante con un acento o idioma concreto, nunca en el `style_box`.
+description: Reescribe el texto cantable para que se cante con un acento o idioma concreto. Nunca en el style_box. Activable en producción (Fase 2) o en modo conversacional sobre una obra, un párrafo o una frase.
 ---
 
 # fonetizar
 
-- Reescribe la letra cantable, para que se cante con un acento o idioma concreto. La fonetización va **en la letra cantable, nunca en el `style_box`**.
+- *Reescribe texto cantable para que suene con un acento o idioma concreto. La fonetización va en la letra cantable, nunca en el `style_box`.*
 
-## Cuándo se activa
+---
 
-- **Se solicita explícitamente** un acento o idioma concreto sobre un mood u obra.
-- La llama `letra` en Fase 2 de `produccion` si se solicita previamente.
+## Activación
 
-## Pasos
+- **En producción:** la invoca `letra` en Fase 2 de `produccion` cuando se solicita un acento o idioma.
+- **En modo conversacional:** se activa de forma independiente sobre lo que indique el usuario —una obra completa, un párrafo o una sola frase, proporcionada o señalada por él— con un acento o idioma objetivo.
 
-1. Identifica el acento/idioma objetivo y abre **solo** su guía en `fonetizar/` con la herramienta de lectura, un archivo.
-2. Aplica las transformaciones de esa guía a la letra.
-3. Devuelve la letra fonetizada.
+---
+
+## Fuentes de Consulta
+
+- *No abras guías a ciegas: entra por el mapa, que decide qué archivo abrir.*
+    - **Mapa:** `.claude/rules/fonetizar.md`
+    - **Biblioteca:** `fonetizar/` (abre solo la guía del acento/idioma objetivo, un archivo).
+
+---
+
+## Parámetros de Entrada
+
+- **Texto objetivo:** obra completa, párrafo o frase suelta, proporcionada o indicada por el usuario.
+- **Acento / idioma objetivo:** el sistema fonológico a aplicar.
+
+---
+
+## Flujo de Ejecución
+
+- **Resolver guía:** identifica el acento/idioma y localiza su guía vía `.claude/rules/fonetizar.md`; abre solo ese archivo.
+- **Aplicar transformaciones:** aplica las reglas de esa guía al texto objetivo.
+- **Entregar:** devuelve el texto fonetizado (`composicion/formato.md §2`); nunca toca el `style_box`.
+
+---
 
 ## Principios clave
 
-- Un mismo texto con fonetización distinta produce canciones radicalmente diferentes en timbre y emoción.
-- Refuerza el efecto anclando también con jerga local en la letra.
+- Un mismo texto con fonetización distinta produce resultados radicalmente diferentes en timbre y emoción.
+- Refuerza el efecto anclando también con `jerga` local en la letra.
 
-## Entra → Sale
+---
 
-- **Entra:** Letra + Acento/idioma objetivo.
-- **Sale:** la letra fonetizada (`composicion/formato.md §2`).
+## Relación con otras skills
 
-## Relación
+- `letra` la invoca en Fase 2 cuando se pide acento/idioma; también puede aplicarse después sobre la letra ya escrita.
+- `jerga` es su gemela (modismos locales); combinadas, potencian el anclaje regional.
 
-- La llama `letra` en Fase 2 de `produccion` si se solicita previamente.
+---
 
 ## Ejemplo
 
-**Entrada:**  
-    ```text  
-    `los perros del puerto` + Acento Andaluz.  
+**Entrada:**
+    ```text
+    `los perros del puerto` + Acento Andaluz.
     ```
-**Salida:**  
-    ```text  
-    Letra fonetizada Andaluz: `loh perroh del puerto`.  
+**Salida:**
+    ```text
+    Letra fonetizada Andaluz: `loh perroh del puerto`.
     ```

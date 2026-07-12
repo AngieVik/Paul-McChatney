@@ -6,6 +6,17 @@ description: Control semántico, mapeo operativo del lyrics_box, gramática téc
 
 # lyrics_box
 
+- *Archivo técnico de referencia para construir, revisar y depurar el `lyrics_box`: control por corchetes, dirección de banda, estructura y hacks temporales.*
+
+## Referencias
+
+- **Skill consumidora:** `.claude/skills/lyrics_box/SKILL.md`
+- **Mapa propio:** `.claude/rules/lyrics_box.md`
+- **Boceto de partida:** `letra` → `.claude/rules/letra.md` → `composicion/letra.md`
+- **Dirección vocal por línea:** `.claude/rules/tecnicas_vocales.md` → `composicion/tecnicas_vocales.md`
+- **Efectos y post-producción (Fase 4):** `.claude/rules/efectos.md` → `composicion/efectos.md`
+- **Canon de tags:** `buscar_tag` → `.claude/rules/chupilista.md` → `chupilista/`
+
 *Recordatorio: consulta por búsqueda (grep) o salto por sección.*
 
 ## Índice
@@ -30,20 +41,20 @@ description: Control semántico, mapeo operativo del lyrics_box, gramática téc
 
 ## 1 · Etiquetas del lyrics_box
 
-- *Marcan el momento exacto de un evento temporal dentro de la letra.*
-    - **Atmosphere and Mood:** `chupilista/02_atmosphere_and_mood.md` Etiqueta global `[MOOD]` o corchetes temporales.
-    - **Instrumentation and Stems:** `chupilista/03_instrumentation_and_stems.md` Momentos donde un instrumento toma el protagonismo o entra en la mezcla; usa Tag Anchoring.
-    - **Vocal Persona and Timbre:** `chupilista/04_vocal_persona_and_timbre.md` Persona Stacking completo al inicio para fijar la identidad vocal (edad, tipo de voz, carácter, timbre, presencia).
-    - **Rhythm and Tempo:** `chupilista/05_rhythm_and_tempo.md` Reafirmar o cambiar BPM, groove, modulaciones, tempo o pausas.
-    - **Song Structure and Sections:** `chupilista/06_song_structure_and_sections.md` Elementos estructurales y secciones; dictan el flujo narrativo.
-    - **Music Theory Harmony and Scales:** `chupilista/07_music_theory_harmony_and_scales.md` Crea o modula entre tonalidades o progresiones.
-    - **Dynamics and Intensity:** `chupilista/08_dynamics_and_intensity.md` Cambio dramático o transición de energía.
-    - **Foley and Sound Design FX:** `chupilista/09_foley_and_sound_design_fx.md` Efectos de sonido ambiental o ruido no musical.
-    - **Experimental Modes:** `chupilista/10_experimental_modes.md` Fusiones inusuales.
-    - **Production and Effect:** `chupilista/11_production_and_effect.md` Etiqueta global PRODUCTION o corchetes temporales para procesamiento de mezcla/máster: reverb, delay, compresión, saturación y amplitud estéreo.
-    - **Vocal Delivery and Expressivity:** `chupilista/12_vocal_delivery_and_expressivity.md` Fraseo, articulación, dinámica y ornamentos puntuales intercalados en la letra (susurros, gritos, segundas voces, duetos, coros) para modular la interpretación en momentos concretos.
-    - **Advanced Modifiers:** `chupilista/13_advanced_modifiers_allowed.md` Combinaciones poco comunes pero aprobadas y tags experimentales para efectos puntuales que el vocabulario estándar no cubre; úsalos con criterio, no por defecto.
-    - **Nudging and Callbacks:** `chupilista/14_nudging_and_callbacks.md` Empujes de transición en cierres/inicios de sección para reutilizar motivos melódicos. **Ejemplo:** `[Callback: continue with same vibe as chorus]`.
+- *Marcan el momento exacto de un evento temporal dentro de la letra. El canon de cada categoría se recupera vía `buscar_tag` (mapa `.claude/rules/chupilista.md`); los módulos indican el origen canónico, no una lectura directa a `chupilista/`.*
+    - **Atmosphere and Mood** (`chupilista` · 02): Etiqueta global `[MOOD]` o corchetes temporales.
+    - **Instrumentation and Stems** (`chupilista` · 03): Momentos donde un instrumento toma el protagonismo o entra en la mezcla; usa Tag Anchoring.
+    - **Vocal Persona and Timbre** (`chupilista` · 04): Persona Stacking completo al inicio para fijar la identidad vocal (edad, tipo de voz, carácter, timbre, presencia).
+    - **Rhythm and Tempo** (`chupilista` · 05): Reafirmar o cambiar BPM, groove, modulaciones, tempo o pausas.
+    - **Song Structure and Sections** (`chupilista` · 06): Elementos estructurales y secciones; dictan el flujo narrativo.
+    - **Music Theory Harmony and Scales** (`chupilista` · 07): Crea o modula entre tonalidades o progresiones.
+    - **Dynamics and Intensity** (`chupilista` · 08): Cambio dramático o transición de energía.
+    - **Foley and Sound Design FX** (`chupilista` · 09): Efectos de sonido ambiental o ruido no musical.
+    - **Experimental Modes** (`chupilista` · 10): Fusiones inusuales.
+    - **Production and Effect** (`chupilista` · 11): Etiqueta global PRODUCTION o corchetes temporales para procesamiento de mezcla/máster: reverb, delay, compresión, saturación y amplitud estéreo.
+    - **Vocal Delivery and Expressivity** (`chupilista` · 12): Fraseo, articulación, dinámica y ornamentos puntuales intercalados en la letra (susurros, gritos, segundas voces, duetos, coros) para modular la interpretación en momentos concretos.
+    - **Advanced Modifiers** (`chupilista` · 13): Combinaciones poco comunes pero aprobadas y tags experimentales para efectos puntuales que el vocabulario estándar no cubre; úsalos con criterio, no por defecto.
+    - **Nudging and Callbacks** (`chupilista` · 14): Empujes de transición en cierres/inicios de sección para reutilizar motivos melódicos. **Ejemplo:** `[Callback: continue with same vibe as chorus]`.
 
 ### 1.1 · Modificadores parametrizados
 

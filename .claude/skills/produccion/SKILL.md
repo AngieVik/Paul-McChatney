@@ -1,7 +1,7 @@
 ---
 name: produccion
 type: skill
-description: Orquestador central del flujo de creación musical. Dirige las 5 fases delegando las tareas de extracción, fusión y formato a las skills correspondientes.
+description: Orquestadora central del flujo de creación musical. Dirige las 5 fases delegando en las skills modulares, que entran por sus propios mapas. Activable como Modo Producción.
 ---
 
 # produccion
@@ -14,6 +14,7 @@ Ejerce como el Director de Orquesta (Orquestador Central) del Modo Producción. 
 
 - **Flujo Secuencial:** Avanza fase por fase. No fusiones pasos ni saltes al formato final sin autorización.
 - **Delegación Absoluta:** Usa los microservicios. Si necesitas extraer tags, llama a `buscar_tag`; si necesitas infraestructura, llama a `proyecto`.
+- **Entrada por Mapas:** Cada skill delegada entra por su propio `.claude/rules/*.md` y abre sus manuales de `composicion/` bajo demanda. Producción **no** lee manuales `composicion/` directamente, salvo `exclude_box` y `formato`, que no tienen skill propia y se resuelven en Fase 4.
 - **Punto de Control (STOP):** Al finalizar los entregables de cada fase, detén la generación por completo. Espera explícitamente la revisión, el ajuste o la orden del usuario para avanzar a la siguiente etapa.
 - **Mutabilidad:** Todo artefacto generado antes de la orden `aprobar` es un borrador vivo que reside y se sobrescribe en `_hojas_sucias/<slug>.md`.
 
@@ -25,29 +26,32 @@ Ejerce como el Director de Orquesta (Orquestador Central) del Modo Producción. 
 - **Delegación:** Invoca la skill `proyecto` (comando `crear`) para abrir el archivo de trabajo.
 - **Entregable y STOP:** Presenta el `<slug>` creado, el contexto emocional y la dirección sonora propuesta. Solicita confirmación.
 
-### Fase 1: Arquitectura Sonora (Style & Exclude Box)
+### Fase 1: Arquitectura Sonora (Style Box)
 
-- **Acción:** Define los ingredientes musicales empíricos de la obra. 
-- **Delegación:** Invoca a `fusionar` para trazar la viabilidad acústica. Acto seguido, invoca a `style_box` para que extraiga los datos mediante `buscar_tag` y ensamble los borradores.
-- **Entregable y STOP:** Presenta el borrador del `[style_box]` y las exclusiones iniciales del `[Exclude Box]`. Solicita confirmación.
+- **Acción:** Define los ingredientes musicales empíricos de la obra.
+- **Delegación:** Invoca a `fusionar` para trazar la viabilidad acústica (consulta `.claude/rules/style_box.md` para fusión, frecuencias y timbre). Acto seguido invoca a `style_box`, que entra por `.claude/rules/style_box.md`, extrae canon con `buscar_tag` y compila el bloque.
+- **Entregable y STOP:** Presenta el borrador del `[style_box]`. Solicita confirmación. El `exclude_box` no se toca aquí: se genera íntegro en Fase 4.
 
 ### Fase 2: Alma Lírica (Letra Cruda)
 
-- **Acción:** Redacta la estructura poética y narrativa apoyándote en `composicion/letra.md`. Mantén el texto libre de etiquetas (tags).
-- **Delegación:** Invoca la skill `letra`. Si el usuario requiere un acento o argot específico, encadena llamadas a `fonetizar` o `jerga`.
+- **Acción:** Redacta la estructura poética y narrativa, libre de etiquetas (tags).
+- **Delegación:** Invoca la skill `letra`, que entra por `.claude/rules/letra.md`. Si el usuario requiere un acento o argot específico, encadena llamadas a `fonetizar` o `jerga`, que entran por sus mapas.
 - **Entregable y STOP:** Presenta el texto limpio, define el perfil vocal (quién canta) y el conflicto narrativo (desde qué herida canta). Solicita confirmación.
 
 ### Fase 3: Estructura y Dirección (Lyrics Box)
 
-- **Acción:** Convierte la letra limpia aprobada en un `lyrics_box` completo. Lee `composicion/lyrics_box.md` para estructura, comandos de banda, hacks temporales, secciones, `[MOOD]` y `[PRODUCTION]`. Lee `composicion/tecnicas_vocales.md` si necesitas fijar identidad vocal, timbre, coros, duetos, armonías, tesitura o dirección interpretativa.
-- **Delegación:** Usa `buscar_tag` solo como extractor canónico cuando necesites tags exactas de CHUPILISTA. No delegues toda la Fase 3 en `buscar_tag`: el `lyrics_box` también admite comandos libres, dirección musical, estructura narrativa y formulaciones no presentes en CHUPILISTA.
-- **Entregable y STOP:** Presenta el borrador completo del `[Lyrics Box]` integrado. Solicita confirmación antes de avanzar.
+- **Acción:** Convierte la letra limpia aprobada en un `lyrics_box` estructurado: secciones, comandos de banda, hacks temporales, `[MOOD]`, `[PRODUCTION]` y dirección vocal (identidad, timbre, coros, duetos, armonías, tesitura).
+- **Delegación:** Invoca la skill `lyrics_box`, que entra por `.claude/rules/lyrics_box.md` y `.claude/rules/tecnicas_vocales.md`, y usa `buscar_tag` solo como extractor canónico. El `lyrics_box` también admite comandos libres y formulaciones no presentes en CHUPILISTA; no delegues toda la fase en `buscar_tag`.
+- **Entregable y STOP:** Presenta el borrador completo del `[lyrics_box]` integrado. Solicita confirmación antes de avanzar.
 
-### Fase 4: Masterización y Formato Final
+### Fase 4: Masterización, Exclude y Formato Final
 
-- **Acción:** Pule el espectro de frecuencias cerrando el `[Exclude Box]` y ajusta los efectos finales del máster.
-- **Delegación:** Lee `composicion/formato.md` para empaquetar la obra.
-- **Entregable y STOP:** Entrega la obra terminada distribuyendo los componentes exactamente en los 4 bloques de código Markdown exigidos por el estándar.
+- **Acción:** Aplica la capa de efectos y post-producción sobre el `lyrics_box`, genera el `exclude_box` que protege la mezcla y empaqueta la obra.
+- **Delegación:**
+    - Invoca la skill `lyrics_box` (pase de Fase 4) para inyectar silencios, SFX, glitches y transiciones desde `.claude/rules/efectos.md` → `composicion/efectos.md`.
+    - Genera el `exclude_box` leyendo `.claude/rules/exclude_box.md` → `composicion/exclude_box.md`; extrae negativos canónicos con `buscar_tag`.
+    - Empaqueta la obra con `composicion/formato.md`.
+- **Entregable y STOP:** Entrega la obra terminada distribuyendo los componentes (título, `style_box`, `exclude_box`, `lyrics_box`) exactamente en los 4 bloques de código Markdown exigidos por el estándar.
 
 ## 4 · Cierre y Ciclo de Vida
 

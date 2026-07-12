@@ -47,3 +47,13 @@ Comandos transaccionales que no alteran la narrativa creativa de la obra.
 
 - **Entrada Estándar:** Un comando de ejecución explícito (`crear`, `aprobar`, `guardar`, etc.) seguido del `<slug>` objetivo.
 - **Salida Estándar:** Confirmación de la operación sobre el sistema de archivos y exposición del estado resultante para continuar la interacción.
+
+## 6 · Regla de Contexto Único (Mentalidad Limpia)
+
+- Trabaja una sola obra a la vez hasta `aprobar`, `cerrar`, `cancelar` o `eliminar`. Mantén un único contexto activo para conservar versiones limpias y evitar cruces entre obras.
+
+## 7 · Relación con otras skills
+
+- `produccion` desarrolla, a lo largo de sus fases, la obra abierta por `crear`/`retomar` sobre el borrador de `_hojas_sucias/<slug>.md`.
+- Las skills sueltas (`style_box`, `letra`, `lyrics_box`, `fonetizar`, `jerga`, `cover_art`) operan sobre ese mismo borrador activo.
+- `aprobar` consolida en `proyectos/<slug>/<slug>.md` (vía `chuletas/plantilla_proyecto.md`), registra en `PROYECTOS.md` e invoca `retrospectiva` si hay hallazgos de valor.

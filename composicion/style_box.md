@@ -12,10 +12,8 @@ description: Construye el style_box de una obra, define el núcleo estilístico 
 
 ## Referencias
 
-- **Skill consumidora:** `.claude/skills/style-box/SKILL.md`
+- **Skill consumidora:** `.claude/skills/style_box/SKILL.md`
 - **Mapa propio:** `.claude/rules/style_box.md`
-- **Archivo complementario:** `composicion/exclude_box.md`
-- **Mapa complementario:** `.claude/rules/exclude_box.md`
 - **Canon de tags:** `buscar_tag` → `.claude/rules/chupilista.md` → `chupilista/`
 - **Diseño conceptual previo:** `fusionar`
 
@@ -49,15 +47,15 @@ description: Construye el style_box de una obra, define el núcleo estilístico 
 
 ## 1 · Etiquetas style_box
 
-- *Fundación técnica de la obra.*
-    - **Core Genres and Subgenres:** `chupilista/01_core_genres_and_subgenres.md` Fundación rítmica y lenguaje armónico base, siempre al principio.
-    - **Instrumentation and Stems:** `chupilista/03_instrumentation_and_stems.md` Instrumentos estructurales base y/o protagonistas; usa Tag Anchoring con 3-4 instrumentos.
-    - **Vocal Persona and Timbre:** `chupilista/04_vocal_persona_and_timbre.md` Descriptor base de voz.
-    - **Rhythm and Tempo:** `chupilista/05_rhythm_and_tempo.md` BPM, groove, modulaciones métricas, cambios de tempo o pausas.
-    - **Music Theory Harmony and Scales:** `chupilista/07_music_theory_harmony_and_scales.md` Tonalidades específicas o progresiones de acordes.
-    - **Dynamics and Intensity:** `chupilista/08_dynamics_and_intensity.md` Dinámica o intensidad.
-    - **Experimental Modes:** `chupilista/10_experimental_modes.md` Fusiones inusuales.
-    - **Vocal Delivery and Expressivity:** `chupilista/12_vocal_delivery_and_expressivity.md` Descriptor base de voz.
+- *Fundación técnica de la obra. El canon de cada categoría se recupera vía `buscar_tag` (mapa `.claude/rules/chupilista.md`); los módulos indican el origen canónico, no una lectura directa a `chupilista/`.*
+    - **Core Genres and Subgenres** (`chupilista` · 01): Fundación rítmica y lenguaje armónico base, siempre al principio.
+    - **Instrumentation and Stems** (`chupilista` · 03): Instrumentos estructurales base y/o protagonistas; usa Tag Anchoring con 3-4 instrumentos.
+    - **Vocal Persona and Timbre** (`chupilista` · 04): Descriptor base de voz.
+    - **Rhythm and Tempo** (`chupilista` · 05): BPM, groove, modulaciones métricas, cambios de tempo o pausas.
+    - **Music Theory Harmony and Scales** (`chupilista` · 07): Tonalidades específicas o progresiones de acordes.
+    - **Dynamics and Intensity** (`chupilista` · 08): Dinámica o intensidad.
+    - **Experimental Modes** (`chupilista` · 10): Fusiones inusuales.
+    - **Vocal Delivery and Expressivity** (`chupilista` · 12): Descriptor base de voz.
 
 - **Menos es más:** 12–20 tags bien elegidas rinden más que 40.
 - **Estilo, no artista:** describe el sonido; nunca nombres propios de artistas reales.

@@ -6,6 +6,7 @@ description: Post-producción, espacio estéreo, DSP, texturas, transiciones y S
 
 - *No se carga con `@`, este índice es el mapa concepto→archivo, abre `composicion/efectos.md` bajo demanda con la herramienta de lectura.*
 - **Consulta por búsqueda (grep) o salto por Índice.**
+- **Consumido por:** `style_box`, `lyrics_box`, `exclude_box`, `produccion` (Fase 4).
 
 ---
 

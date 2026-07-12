@@ -1,92 +1,75 @@
 ---
 name: buscar_tag
 type: skill
-description: Extractor canónico de etiquetas CHUPILISTA. Localiza, valida y entrega tags existentes como referencia fiable para otras skills.
+description: Extractor canónico de etiquetas CHUPILISTA. Localiza, valida y entrega tags existentes como referencia fiable para cualquier skill y en cualquier fase. Activable en producción o en modo conversacional.
 ---
 
 # buscar_tag
 
-## 1 · Propósito
+- *Extractor canónico: localiza, valida y entrega etiquetas sintácticas exactas `[Tag]` desde `chupilista/` como material fiable de referencia. La decisión creativa final pertenece a la skill consumidora.*
 
-Actúa como un extractor canónico de etiquetas.
+---
 
-Tu función es localizar, extraer y validar etiquetas sintácticas exactas [Tag] desde los módulos de conocimiento estáticos del directorio chupilista/, para entregarlas a la skill consumidora como material fiable de referencia.
+## Activación
 
-Tu autoridad se centra en responder:
+- **En producción:** invocado por `style_box` (Fase 1), por `letra`/`lyrics_box` o por cualquier fase que necesite canon.
+- **En modo conversacional:** invocable en cualquier momento, por el usuario o por otra skill, siempre que se necesiten tags canónicas.
 
-- qué existe literalmente en la CHUPILISTA;
-- dónde vive;
-- si está sintácticamente bien formado;
-- si existe una coincidencia canónica localizada.
+---
 
-La decisión creativa final pertenece a la skill consumidora.
+## Fuentes de Consulta
 
-buscar_tag aporta canon.  
-fusionar aporta diseño conceptual.  
-style_box compila el molde sonoro.  
-lyrics-box dirige estructura, interpretación y comandos musicales.
+- **Mapa canónico:** `.claude/rules/chupilista.md`
+- **Biblioteca:** `chupilista/` (abre solo el/los módulos necesarios, contexto mínimo y preciso).
 
-## 2 · Parámetros de Entrada
+---
 
-Reconoce e ingiere los siguientes parámetros enviados por la skill consumidora:
+## Parámetros de Entrada
 
 - **Concepto Objetivo:** requerimiento acústico, rítmico, vocal, temporal, estructural o conceptual buscado.
     - **Ejemplo:** percusión distorsionada, coro barroco, voz rasgada, drop silencioso.
-- **Rutas Objetivo Opcionales:** archivos .md específicos dentro de chupilista/ donde se focaliza la búsqueda.
-- **Caja Destino Opcional:** contexto de uso esperado: style_box, lyrics_box, exclude_box, mood, production u otro bloque definido por la skill consumidora.
+- **Rutas Objetivo (opcional):** módulos `.md` concretos de `chupilista/` donde focalizar la búsqueda.
+- **Caja Destino (opcional):** contexto de uso esperado: `style_box`, `lyrics_box`, `exclude_box`, mood, production u otro bloque definido por la skill consumidora.
 
-## 3 · Flujo de Ejecución
+---
 
-- **Resolución de Índice:** si la skill consumidora omite las rutas objetivo, consulta .claude/rules/chupilista.md para mapear el concepto al módulo probable de chupilista/.
-    - Carga solo los módulos necesarios.
-    - Abre únicamente los archivos relevantes para la búsqueda.
-    - Trabaja con contexto mínimo y preciso.
+## Flujo de Ejecución
 
-- **Búsqueda Selectiva:** busca el concepto dentro del módulo elegido mediante raíz, variantes y sinónimos razonables.
+- **Resolución de índice:** si la consumidora omite las rutas objetivo, consulta `.claude/rules/chupilista.md` para mapear el concepto al módulo probable; carga solo los módulos necesarios.
+- **Búsqueda selectiva:** busca el concepto dentro del módulo elegido por raíz, variantes y sinónimos razonables.
     - **Ejemplo:** para voz rasgada, busca también raspy, gritty, hoarse, distorted vocal, vocal fry, si el módulo lo justifica.
+- **Extracción literal:** extrae únicamente etiquetas que existan literalmente; conserva la grafía y el idioma de origen.
+- **Validación sintáctica:** verifica corchete de apertura, contenido no vacío y corchete de cierre; reporta como incidencia cualquier tag útil pero mal formada.
+- **Entrega:** devuelve las coincidencias útiles en formato compacto (tag exacta · archivo de origen · caja recomendada · nota mínima).
 
-- **Extracción Literal:** extrae únicamente etiquetas que existan literalmente en los archivos inspeccionados.
-    - Mantén la grafía original de cada tag.
-    - Conserva el idioma original.
-    - Entrega las etiquetas tal como aparecen en la fuente.
+---
 
-- **Validación Sintáctica:** verifica que cada etiqueta extraída conserve corchete de apertura, contenido no vacío y corchete de cierre.
-    - Si una línea contiene una etiqueta útil pero mal formada, repórtala como incidencia para revisión.
+## Reglas de Integridad
 
-- **Entrega a la Skill Consumidora:** devuelve las coincidencias útiles en formato compacto.
-    - tag exacta;
-    - archivo de origen;
-    - caja recomendada, si puede inferirse;
-    - nota mínima de uso, solo si ayuda a distinguir entre opciones.
-
-## 4 · Reglas de Integridad
-
-- **Canon, no veto:** si una etiqueta no existe en CHUPILISTA, informa de que no hay coincidencia canónica localizada. La skill consumidora conserva libertad para crear una tag controlada si la intención artística lo justifica.
-- **Autoridad delimitada:** evalúa existencia, origen y sintaxis. La viabilidad artística queda en manos de fusionar, style_box, lyrics-box o la skill consumidora correspondiente.
-- **Extracción pura:** entrega tags existentes. La creación de tags corresponde a las skills creativas.
+- **Canon, no veto:** si una etiqueta no existe, informa de que no hay coincidencia canónica; la consumidora conserva libertad para crear una tag controlada si la intención artística lo justifica.
+- **Autoridad delimitada:** evalúa existencia, origen y sintaxis; la viabilidad artística queda en `fusionar`, `style_box`, `lyrics_box` o la consumidora.
+- **Extracción pura:** entrega tags existentes; la creación de tags corresponde a las skills creativas.
 - **Fidelidad léxica:** conserva las tags exactamente como aparecen en origen.
-- **Contexto mínimo:** entrega solo lo necesario para que la skill consumidora pueda decidir.
-- **Búsqueda ampliable:** si no hay resultado directo, realiza una segunda búsqueda con sinónimos antes de declarar ausencia canónica.
+- **Búsqueda ampliable:** si no hay resultado directo, reintenta con sinónimos antes de declarar ausencia canónica.
 
-## 5 · Salida Estándar
+---
 
-- **Cuando haya coincidencias:**
-    [Tag Exacta] · chupilista/NN_archivo.md · caja recomendada · nota mínima de uso
+## Salida Estándar
 
-- **Cuando no haya coincidencia:**
-    Concepto no localizado en la base de datos canónica.
-    La skill consumidora puede crear una tag controlada si la intención artística lo justifica.
+- **Con coincidencias:**
+    `[Tag Exacta]` · `chupilista/NN_archivo.md` · caja recomendada · nota mínima de uso
+- **Sin coincidencia:**
+    Concepto no localizado en la base canónica. La skill consumidora puede crear una tag controlada si la intención artística lo justifica.
+- **Con etiqueta mal formada:**
+    Incidencia sintáctica localizada: <línea o fragmento>. Revisar corchetes antes de validar como tag.
 
-- **Cuando haya una etiqueta útil pero mal formada:**
-    Incidencia sintáctica localizada: <línea o fragmento>
-    Revisar corchetes antes de entregar como tag validada.
+---
 
-## 6 · Relación con Otras Skills
+## Relación con otras skills
 
-- fusionar puede proponer conceptos, fusiones o tags creadas.
-- style_box puede combinar tags canónicas extraídas por buscar_tag con tags creadas por fusionar.
-- lyrics-box puede usar tags canónicas, comandos libres, instrucciones de dirección musical y formulaciones no presentes en CHUPILISTA.
-- exclude_box puede normalizar tags canónicas quitando corchetes si el formato final lo requiere.
+- `fusionar` propone conceptos, fusiones y creaciones controladas; `buscar_tag` confirma qué es canon.
+- `style_box` combina tags canónicas de `buscar_tag` con creaciones controladas de `fusionar`.
+- `lyrics_box` usa tags canónicas, comandos libres y dirección musical no presente en `CHUPILISTA`.
+- `exclude_box` (Fase 4) puede pedir tags canónicas y normalizarlas sin corchetes según su formato.
 
-buscar_tag entrega materia prima canónica fiable.  
-La skill consumidora decide cómo integrarla en la obra.
+- *`buscar_tag` entrega materia prima canónica fiable; la consumidora decide cómo integrarla.*

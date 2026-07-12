@@ -6,6 +6,15 @@ description: Manipulación del espacio estéreo, procesamiento de señales (DSP)
 
 # efectos
 
+- *Archivo técnico de post-producción: silencios, DSP, texturas, microfonía, glitch, transiciones y SFX. Su material se reparte entre `style_box`, `lyrics_box` y `exclude_box`.*
+
+## Referencias
+
+- **Mapa propio:** `.claude/rules/efectos.md`
+- **Consumido en `style_box`:** `.claude/rules/style_box.md` → `composicion/style_box.md`
+- **Consumido en `lyrics_box`:** `.claude/rules/lyrics_box.md` → `composicion/lyrics_box.md`
+- **Consumido en `exclude_box`:** `.claude/rules/exclude_box.md` → `composicion/exclude_box.md`
+
 *Recordatorio: consulta por búsqueda (grep) o salto por sección.*
 
 *⚗️ = corazonada por comprobar: técnica plausible aún no confirmada; en la retrospectiva se asciende (se quita la marca) o se degrada/elimina.*
@@ -66,7 +75,7 @@ description: Manipulación del espacio estéreo, procesamiento de señales (DSP)
 ### 1.5 · Acústica física y microfonía
 
 - *Parámetros de ingeniería de sonido. Orientados al `style_box` para dictar el comportamiento del renderizado acústico.*
-    - **style_box:** `[Close-mic]`, `[slight overload]`, [`Room bleed present]`, `[worn tube amps]`, `[imperfect drums]`.
+    - **style_box:** `[Close-mic]`, `[slight overload]`, `[Room bleed present]`, `[worn tube amps]`, `[imperfect drums]`.
     - **exclude_box (si aplica):** `[glossy production]`, `[modern vocal polish]`, `[bright digital shimmer]`.
     - **3D Room Dynamics:** ⚗️ Asigna acústicas opuestas a elementos distintos del mismo prompt para forzar profundidad de campo estéreo.
         - **Ejemplo:** `[Close-Mic Dry Vocal, Distant Cathedral Drums]`, `[Claustrophobic Room Bass, Stadium Reverb Synths]`.

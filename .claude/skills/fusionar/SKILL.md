@@ -1,30 +1,58 @@
 ---
 name: fusionar
 type: skill
-description: Motor conceptual de arquitectura sonora para analizar y diseñar mezclas musicales armónicas, rítmicas y frecuenciales viables
+description: Motor conceptual de arquitectura sonora. Analiza el concepto creativo y diseña una mezcla armónica, rítmica y frecuencial viable para que style_box la compile. Activable en producción (Fase 1) o en modo conversacional.
 ---
 
 # fusionar
 
-## 1 · Propósito
+- *Diseña la arquitectura sonora de la obra: traduce el concepto creativo en una estructura musical teóricamente viable y entrega un dictamen para `style_box`.*
 
-Ejerce como el diseñador de la arquitectura sonora del proyecto. Tu función es analizar el concepto creativo solicitado y traducir esa idea en una estructura musical teóricamente viable. Debes evaluar rangos de BPM, progresiones, timbres y el espectro de frecuencias para dictaminar qué elementos acústicos se necesitan mezclar para evitar disonancias destructivas.
+---
 
-## 2 · Parámetros de Entrada
+## Activación
 
-Reconoce e ingiere la directriz principal enviada por el usuario o la fase de producción:
+- **En producción:** primer paso de Fase 1 de `produccion`; su dictamen alimenta a `style_box`.
+- **En modo conversacional:** se activa de forma independiente y en cualquier momento cuando el usuario pide diseñar, revisar o depurar una fusión o arquitectura sonora.
 
-- **Concepto Creativo:** La idea abstracta, emoción, narrativa o directriz de género que rige la obra musical en gestación.
+---
 
-## 3 · Flujo de Ejecución
+## Fuentes de Consulta
 
-1. **Análisis Estructural:** Evalúa el *Concepto Creativo* e identifica las necesidades acústicas subyacentes (peso en graves, brillo en agudos, velocidad rítmica, atmósfera).
-2. **Diseño Frecuencial y Rítmico:** Determina los rangos de tempo (BPM) viables y define cómo deben interactuar los instrumentos en la mezcla para mantener claridad (ej. asignar bajos sintéticos profundos contrastados con percusiones orgánicas de ataque rápido).
-3. **Formulación Conceptual:** Construye un dictamen teórico detallando los ingredientes exactos necesarios: género base, subgéneros complementarios, instrumentación principal, diseño de sonido y texturas vocales.
-4. **Delegación de Datos:** Presenta esta "fórmula sonora" de forma clara y estructurada para que la skill `style_box` pueda tomar el relevo, invocar a `buscar_tag` y ensamblar la sintaxis final.
+- *La técnica de fusión, frecuencias, dinámica y colisión tímbrica vive en el archivo técnico del `style_box`; consúltalo antes de dictaminar.*
+    - **Mapa:** `.claude/rules/style_box.md`
+    - **Archivo técnico:** `composicion/style_box.md` (§2 Fusión y frecuencias, §3 Dinámicas rítmicas y estructurales, §4 Colisión tímbrica)
+- *Para verificar si un ingrediente ya es canon, invoca `buscar_tag`.*
 
-## 4 · Lista de Control y Reglas de Integridad
+---
 
-- **Viabilidad Acústica:** Asegura que las mezclas propuestas sean armónica y rítmicamente coherentes. Si el concepto exige contrastes extremos (ej. música clásica y hardtek), diseña un puente conceptual que justifique la integración sin saturar la mezcla.
-- **Foco Teórico:** Mantén tu dictamen centrado exclusivamente en la teoría musical, la producción acústica y la psicoacústica. 
-- **Aislamiento de Funciones:** Limita tu salida al diseño abstracto y conceptual. Delega explícitamente la búsqueda literal de las etiquetas a la skill `buscar_tag` y el ensamblaje del bloque de código final a la skill `style_box`.
+## Parámetros de Entrada
+
+- **Concepto Creativo:** idea abstracta, emoción, narrativa o directriz de género que rige la obra en gestación.
+- **Restricciones del Usuario:** idioma, época, región, energía o límites dados.
+
+---
+
+## Flujo de Ejecución
+
+- **Análisis estructural:** evalúa el concepto e identifica las necesidades acústicas subyacentes (peso en graves, brillo en agudos, velocidad rítmica, atmósfera).
+- **Diseño frecuencial y rítmico:** determina los rangos de BPM viables y cómo deben interactuar los instrumentos para mantener claridad, apoyándote en §2–§4 de `composicion/style_box.md` (p. ej. bajos sintéticos profundos contra percusiones orgánicas de ataque rápido).
+- **Formulación conceptual:** construye el dictamen con los ingredientes exactos: género base, subgéneros de apoyo, instrumentación protagonista, diseño de sonido y texturas vocales.
+- **Puente de contrastes:** si el concepto exige opuestos extremos (p. ej. clásico + hardtek), diseña el puente conceptual que justifique la integración sin saturar la mezcla.
+- **Delegar:** entrega la fórmula estructurada para que `style_box` tome el relevo, invoque `buscar_tag` y ensamble la sintaxis final.
+
+---
+
+## Reglas de Integridad
+
+- **Viabilidad acústica:** toda mezcla propuesta debe ser armónica y rítmicamente coherente.
+- **Foco teórico:** mantén el dictamen centrado en teoría musical, producción acústica y psicoacústica.
+- **Aislamiento de funciones:** diseña; delega la búsqueda literal de tags en `buscar_tag` y el ensamblaje del bloque final en `style_box`.
+
+---
+
+## Relación con otras skills
+
+- `produccion` activa `fusionar` al inicio de Fase 1.
+- `buscar_tag` valida qué ingredientes del dictamen existen como canon en `CHUPILISTA`.
+- `style_box` compila el dictamen en el bloque final; `fusionar` no ensambla sintaxis.

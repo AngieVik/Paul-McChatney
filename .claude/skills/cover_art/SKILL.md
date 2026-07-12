@@ -14,6 +14,13 @@ description: genera 3 prompts 1:1 para Gemini a partir del sentimiento (no el ar
 - **El usuario pide una portada, un cover, un cover art, una carátula o imágenes para una obra.**
 - Si hay varias obras en juego, preguntar **de cuál**.
 
+## Paso 0 — Localizar la obra
+
+- *Antes de examinar, ubica el archivo de la obra; si hay varias en juego, pregunta de cuál.*
+    - **En curso:** `_hojas_sucias/<slug>.md`.
+    - **Aprobada:** `proyectos/<slug>/<slug>.md` (catalogada en `PROYECTOS.md`).
+    - Si no conoces el slug, usa `proyecto` (`listar` / `retomar`) para localizar y abrir la obra.
+
 ## Paso 1 — Examinar la obra
 
 - Antes de escribir nada, leer y entender la pieza completa:
@@ -81,3 +88,4 @@ Una primera línea con el **núcleo emocional** detectado (para que el usuario v
 ## Relación
 
 - Posterior a una obra ya creada; independiente del flujo de 5 fases de `produccion`.
+- Localiza la obra con `proyecto`: `_hojas_sucias/<slug>.md` en curso, `proyectos/<slug>/<slug>.md` aprobada, catálogo `PROYECTOS.md`.

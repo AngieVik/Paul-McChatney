@@ -6,6 +6,15 @@ description: Escritura técnica y tipografía como partitura física: narrativa,
 
 # Letra
 
+- *Archivo técnico de referencia para escribir, revisar y depurar la letra limpia: narrativa, tipografía como partitura y aritmética métrica.*
+
+## Referencias
+
+- **Skill consumidora:** `.claude/skills/letra/SKILL.md`
+- **Mapa propio:** `.claude/rules/letra.md`
+- **Anclaje regional (jerga):** `jerga` → `.claude/rules/jerga.md`
+- **Fonética / acento cantado:** `fonetizar` → `.claude/rules/fonetizar.md`
+
 *Recordatorio: consulta por búsqueda (grep) o salto por sección.*
 
 ## Índice

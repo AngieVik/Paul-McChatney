@@ -6,6 +6,7 @@ description: Escritura técnica y tipografía como partitura física: narrativa,
 
 - *No se carga con `@`, este índice es el mapa concepto→archivo, abre `composicion/letra.md` bajo demanda con la herramienta de lectura.*
 - **Consulta por búsqueda (grep) o salto por Índice.**
+- **Consumido por:** `letra` (skill), `produccion` (Fase 2 narrativa · Fase 3 métrica).
 
 ---
 

@@ -6,6 +6,7 @@ description: Guías de fonetización para idiomas y dialectos. Permiten simular 
 
 - *No se carga con `@`, este índice es el mapa concepto→archivo, abre cada `fonetizar/<archivo>.md` bajo demanda con la herramienta de lectura, solo el/los que necesites.*
 - **Consulta por búsqueda (grep) o salto por Índice.**
+- **Consumido por:** `fonetizar` (skill), `letra`, `produccion` (Fase 2).
 
 ---
 

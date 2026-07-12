@@ -6,6 +6,13 @@ description: Estructura de salida: todo lo copiable va SIEMPRE en bloque de cód
 
 # formato
 
+- *Archivo técnico de la entrega final: todo lo copiable va en bloque de código markdown. Cierra Fase 4.*
+
+## Referencias
+
+- **Consumido por:** `produccion` (Fase 4, entrega final) y las skills en modo conversacional.
+- **Archivado de la obra aprobada:** `proyecto` → `chuletas/plantilla_proyecto.md` → `proyectos/<slug>/<slug>.md`
+
 *Recordatorio: consulta por búsqueda (grep) o salto por sección.*
 
 ## Índice

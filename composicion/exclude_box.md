@@ -6,6 +6,15 @@ description: Prompting inverso y control de artefactos, para bloquear caracterí
 
 # exclude_box
 
+- *Archivo técnico de prompting inverso: qué bloquear para proteger la mezcla. Se genera en Fase 4 y se entrega como línea sin corchetes.*
+
+## Referencias
+
+- **Mapa propio:** `.claude/rules/exclude_box.md`
+- **Se genera en:** `produccion` (Fase 4); se entrega vía `composicion/formato.md`.
+- **Negativos canónicos:** `buscar_tag` → `.claude/rules/chupilista.md` (módulo 15) → `chupilista/`
+- **Refuerzo de registro vocal:** `.claude/rules/tecnicas_vocales.md` → `composicion/tecnicas_vocales.md` (§2.9)
+
 *Recordatorio: consulta por búsqueda (grep) o salto por sección.*
 
 ## Índice
@@ -22,7 +31,7 @@ description: Prompting inverso y control de artefactos, para bloquear caracterí
 ## 1 · Instrucciones exclude_box
 
 - *Las etiquetas pueden aparecer en origen de distintas formas, pero la salida final del `exclude_box` se entrega siempre sin corchetes, como términos separados por comas.*
-- El `exclude_box` final se entrega siempre como una línea de texto plano, separado por comas y sin corchetes con 10-20 palabras. Puedes apoyarte en `chupilista/15_negative_prompts_and_exclude_styles.md` van exclusivamente en `exclude_box`.*
+- El `exclude_box` final se entrega siempre como una línea de texto plano, separada por comas y sin corchetes, de 10-20 palabras. Para negativos canónicos apóyate en `buscar_tag` (mapa `.claude/rules/chupilista.md`, módulo 15 de negativos); esos términos van exclusivamente en el `exclude_box`.
 - El exclude_box se usará despues en un campo negativo, por lo cual el positivo bloqueara caracteristicas eficazmente.
     - **Ejemplo:**`cuban, reggaeton, piano, grand piano, mellow, slow tempo, crooner, romantic ballad, latin pop, generic edm, lo-fi, standard reggaeton`
     - **Ejemplo:** `clipping, overcompressed, muddy mix, robotic voice`

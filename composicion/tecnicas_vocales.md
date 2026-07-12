@@ -1,10 +1,19 @@
 ---
 name: tecnicas_vocales
 type: composicion
-description: Puntuación en la letra, etiquetas de dirección vocal, arquitecturas de identidad, dirección interpretativa,técnicas de interpretación vocal, aislamiento vocal temporal, roles y duetos, armonías y coros multicapa, rango y tesitura vocal.
+description: Puntuación en la letra, etiquetas de dirección vocal, arquitecturas de identidad, dirección interpretativa, técnicas de interpretación vocal, aislamiento vocal temporal, roles y duetos, armonías y coros multicapa, rango y tesitura vocal.
 ---
 
 # tecnicas_vocales
+
+- *Archivo técnico de referencia para dirigir la voz dentro del `lyrics_box`: puntuación como partitura, Persona Stacking, roles, duetos, armonías y tesitura.*
+
+## Referencias
+
+- **Skill consumidora:** `lyrics_box` → `.claude/skills/lyrics_box/SKILL.md`
+- **Mapa propio:** `.claude/rules/tecnicas_vocales.md`
+- **Caja donde se aplica:** `.claude/rules/lyrics_box.md` → `composicion/lyrics_box.md`
+- **Refuerzo negativo (rango/tesitura):** `.claude/rules/exclude_box.md` → `composicion/exclude_box.md`
 
 *Recordatorio: consulta por búsqueda (grep) o salto por sección.*
 
@@ -141,8 +150,8 @@ description: Puntuación en la letra, etiquetas de dirección vocal, arquitectur
     `[Female Vocal: breathy, emotional]` Porque el silencio duele menos que tu voz.
 - *Unísono y armonías, para partes conjuntas, el tag Both o Unison es más efectiva que repetir ambos géneros.*
     - **Ejemplo:**
-    `[Chorus: High Energy, Power Harmonies`
-    `[Both: unison, powerful vocals]` Nue]stro tiempo se terminó,
+    `[Chorus: High Energy, Power Harmonies]`
+    `[Both: unison, powerful vocals]` Nuestro tiempo se terminó,
     `[Both: harmony, vibrato]` el fuego en cenizas se convirtió.
 - *Roles narrativos, define personajes con texturas vocales y propósitos comunicativos opuestos.*
     - **Ejemplo:**
