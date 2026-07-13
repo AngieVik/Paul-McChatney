@@ -12,7 +12,8 @@ description: Guías de jerga para idiomas y dialectos. Permiten inyectar jerga e
 
 # jerga
 
-- **Guías disponibles:**
+## Guías disponibles
+
 | Archivo                                                                       | Idioma / Acento       | Notas                                                                                                          |
 | ----------------------------------------------------------------------------- | --------------------- | -------------------------------------------------------------------------------------------------------------- |
 | <a href="../../jerga/andaluz_almeriense.md">`andaluz_almeriense.md`</a>       | Andaluz Almeriense    | Habla tremendamente expresiva, económica en su articulación fonética.                                          |

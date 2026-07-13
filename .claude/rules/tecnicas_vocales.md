@@ -12,7 +12,8 @@ description: Puntuación en la letra y dirección vocal: Persona Stacking, roles
 
 # tecnicas_vocales
 
-- **Índice:**
+## Índice
+
 `1 · Puntuación en la letra`
     `1.1 · Paréntesis — Voces secundarias`
     `1.2 · Comillas — Énfasis especial`
@@ -30,7 +31,8 @@ description: Puntuación en la letra y dirección vocal: Persona Stacking, roles
 
   ---
 
-- **Documentos:**
+## Documentos
+
 | Archivo                                                                   | Contenido                                                                                                            |
 | ------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
 | <a href="../../composicion/tecnicas_vocales.md">`tecnicas_vocales.md`</a> | **tecnicas_vocales** Puntuación en la letra y dirección vocal: Persona Stacking, roles, duetos y armonías multicapa. |

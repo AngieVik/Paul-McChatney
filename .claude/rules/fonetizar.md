@@ -12,7 +12,8 @@ description: Guías de fonetización para idiomas y dialectos. Permiten simular 
 
 # fonetizar
 
-- **Guías disponibles:**
+## Guías disponibles
+
 | Archivo                                                                           | Idioma / Acento         | Notas                                                                      |
 | --------------------------------------------------------------------------------- | ----------------------- | -------------------------------------------------------------------------- |
 | <a href="../../fonetizar/argentino_rioplatense.md">`argentino_rioplatense.md`</a> | Argentino / Rioplatense | Sistema fonológico altamente distintivo.                                   |

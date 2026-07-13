@@ -12,7 +12,8 @@ description: Post-producción, espacio estéreo, DSP, texturas, transiciones y S
 
 # efectos
 
-- **Índice:**
+## Índice
+
 `1 · Efectos de audio y post-producción`
 `1.1 · Control de silencios y pausas`
 `1.2 · Modulación, distorsión y espacio espacial`
@@ -23,7 +24,8 @@ description: Post-producción, espacio estéreo, DSP, texturas, transiciones y S
 `1.7 · Texturas sonoras y compresión`
 `1.8 · Transiciones, tensión armónica y SFX`
 
-- **Documentos:**
+## Documentos
+
 | Archivo                                                 | Contenido                                                                        |
 | ------------------------------------------------------- | -------------------------------------------------------------------------------- |
 | <a href="../../composicion/efectos.md">`efectos.md`</a> | **efectos** Post-producción: espacio estéreo, DSP, texturas, transiciones y SFX. |

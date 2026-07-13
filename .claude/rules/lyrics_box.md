@@ -12,7 +12,8 @@ description: Tags del lyrics_box: control por corchetes, dirección de banda, es
 
 # lyrics_box
 
-- **Índice:**
+## Índice
+
 `1 · Tags del lyrics_box`
     `1.1 · Modificadores parametrizados`
     `1.2 · Comandos de Actuación - La "banda imperfecta"`
@@ -31,7 +32,8 @@ description: Tags del lyrics_box: control por corchetes, dirección de banda, es
 
 ---
 
-- **Documentos:**
+## Documentos
+
 | Archivo                                                       | Contenido                                                                                                     |
 | ------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
 | <a href="../../composicion/lyrics_box.md">`lyrics_box.md`</a> | **lyrics_box** Tags del lyrics_box: control por corchetes, dirección de banda, estructura y hacks temporales. |

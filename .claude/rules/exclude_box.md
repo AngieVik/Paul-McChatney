@@ -12,7 +12,7 @@ description: Prompting inverso y control de artefactos, qué bloquear en el excl
 
 # exclude_box
 
-- **Índice:**
+## Índice
 
 `1 · Instrucciones exclude_box`
 `2 · Mitigación de Saturación y Clipping`
@@ -23,7 +23,8 @@ description: Prompting inverso y control de artefactos, qué bloquear en el excl
 
 ---
 
-- **Documentos:**
+## Documentos
+
 | Archivo                                                         | Contenido                                                                                  |
 | --------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
 | <a href="../../composicion/exclude_box.md">`exclude_box.md`</a> | **exclude_box** Prompting inverso y control de artefactos: qué bloquear en el exclude_box. |

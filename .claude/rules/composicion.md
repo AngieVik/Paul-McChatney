@@ -12,7 +12,8 @@ description: Índice maestro de los archivos de composición, saber de oficio y 
 
 # Composición
 
-- **Módulos:**
+## Módulos
+
 | Archivo                                                                   | Contenido                                                                                                     |
 | ------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
 | <a href="../../composicion/efectos.md">`efectos.md`</a>                   | Post-producción: espacio estéreo, DSP, texturas, silencios, transiciones, glitch, SFX y microfonía.           |

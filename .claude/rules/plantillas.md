@@ -12,7 +12,8 @@ description: Índice maestro de plantillas para la creación de archivos, y esti
 
 # plantillas
 
-- **Módulos:**
+## Módulos
+
 | Archivo                                                                          | Contenido                                                                                                                       |
 | -------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
 | <a href="../../chuletas/plantilla_composicion.md">`plantilla_composicion.md`</a> | Archivo técnico de referencia para construir, revisar y depurar.                                                                |

@@ -6,7 +6,7 @@
 ---
 
 ## Índice
- 
+
 `1 · Introducciones y Preámbulos`
 `2 · Versos y Estrofas`
 `3 · Pre-Estribillos y Construcciones de Tensión`
