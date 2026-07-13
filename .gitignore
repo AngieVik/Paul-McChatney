@@ -17,6 +17,8 @@
 *.jpeg
 *.zip
 
+# Archivos
+*.bak
 # --- proyectos: solo .md ---
 # 1. Ignorar todo el contenido de la carpeta proyectos
 proyectos/*
