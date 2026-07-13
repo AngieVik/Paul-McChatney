@@ -192,7 +192,7 @@ description: Vocabulario exhaustivo de tags y modificadores, la chupilista es la
 | <a href="../../chupilista/03_instrumentation_and_stems.md">`03_instrumentation_and_stems.md`</a>                     | Instrumentación y stems: instrumentos específicos, layers y arreglos.            |
 | <a href="../../chupilista/04_vocal_persona_and_timbre.md">`04_vocal_persona_and_timbre.md`</a>                       | Persona vocal y timbre: tipo de voz, carácter, edad, textura y presencia.        |
 | <a href="../../chupilista/05_rhythm_and_tempo.md">`05_rhythm_and_tempo.md`</a>                                       | Ritmo y tempo: BPM, subdivisiones, grooves, feels rítmicos.                      |
-| <a href="../../chupilista/06_song_structure_and_sections.md">`06_song_structure_and_sections.md`</a>                 | Estructura y secciones: tags de sección ([Verse], [Chorus], [Bridge], etc.).     |
+| <a href="../../chupilista/06song_structure_and_sections.md">`06_song_structure_and_sections.md`</a>                  | Estructura y secciones: tags de sección ([Verse], [Chorus], [Bridge], etc.).     |
 | <a href="../../chupilista/07_music_theory_harmony_and_scales.md">`07_music_theory_harmony_and_scales.md`</a>         | Armonía y escalas: modos, tensiones, progresiones y vocabulario tonal.           |
 | <a href="../../chupilista/08_dynamics_and_intensity.md">`08_dynamics_and_intensity.md`</a>                           | Dinámica e intensidad: crescendos, drops, silencio, saturación y arco dramático. |
 | <a href="../../chupilista/09_foley_and_sound_design_fx.md">`09_foley_and_sound_design_fx.md`</a>                     | Foley y diseño de sonido: efectos ambientales, texturas y samples de entorno.    |
