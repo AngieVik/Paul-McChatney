@@ -1,7 +1,12 @@
-# instrumentation_and_stems
+---
+name: 03_instrumentation_and_stems
+type: chupilista
+description: Colección exhaustiva de metadatos, stems y marcadores de instrumentación para el control semántico en la generación y estructuración de diseño sonoro
+---
 
-*Colección exhaustiva de metadatos, stems y marcadores de instrumentación para el control semántico en la generación y estructuración de diseño sonoro.*
-*Recordatorio: se consulta por búsqueda (grep) o saltando a una sección*
+# 03_instrumentation_and_stems
+
+- *Recordatorio: se consulta por búsqueda (grep) o saltando a una sección*
 
 ---
 

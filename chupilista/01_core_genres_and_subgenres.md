@@ -1,7 +1,12 @@
-# core_genres_and_subgenres
+---
+name: 01_core_genres_and_subgenres
+type: chupilista
+description: Vocabulario de géneros y subgéneros.
+---
 
-*Vocabulario de géneros y subgéneros para el style_box.*
-*Recordatorio: se consulta por búsqueda (grep) o saltando a una sección*
+# 01_core_genres_and_subgenres
+
+- *Recordatorio: se consulta por búsqueda (grep) o saltando a una sección*
 
 ---
 

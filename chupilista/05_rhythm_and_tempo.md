@@ -1,6 +1,11 @@
-# rhythm_and_tempo
+---
+name: 05_rhythm_and_tempo
+type: chupilista
+description: Núcleo de control temporal, métrica matemática, cuantización y estructuración de la cuadrícula rítmica. Utilizar para definir la velocidad (BPM), el esqueleto percusivo y la fluidez temporal.
+---
 
-*Núcleo de control temporal, métrica matemática, cuantización y estructuración de la cuadrícula rítmica. Utilizar para definir la velocidad (BPM), el esqueleto percusivo y la fluidez temporal.*
+# 05_rhythm_and_tempo
+
 *Recordatorio: se consulta por búsqueda (grep) o saltando a una sección.*
 
 ---

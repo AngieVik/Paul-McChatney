@@ -1,7 +1,12 @@
-# experimental_modes
+---
+name: 10_experimental_modes
+type: chupilista
+description: Repositorio integral de arquitecturas de diseño sonoro de vanguardia, manipulación de señal extrema y topologías de deconstrucción acústica.
+---
 
-*Repositorio integral de arquitecturas de diseño sonoro de vanguardia, manipulación de señal extrema y topologías de deconstrucción acústica.*
-*Recordatorio: se consulta por búsqueda (grep) o saltando a una sección.*
+# 10_experimental_modes
+
+- *Recordatorio: se consulta por búsqueda (grep) o saltando a una sección*
 
 ---
 

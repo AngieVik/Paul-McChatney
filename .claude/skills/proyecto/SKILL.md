@@ -40,7 +40,7 @@ Comandos transaccionales que no alteran la narrativa creativa de la obra.
 | Trabajo en curso           | `_hojas_sucias/<slug>.md`          | Borrador dinámico de sobrescritura continua.         |
 | Obras aprobadas            | `proyectos/<slug>/<slug>.md`       | Archivo final y canónico de la obra terminada.       |
 | Catálogo Global            | `PROYECTOS.md`                     | Índice relacional de todas las obras aprobadas.      |
-| Plantilla de Fase 1        | `chuletas/plantilla_hoja_sucia.md` | Esquema conceptual para la fase de ideación.         |
+| Plantilla de inicialización | `chuletas/plantilla_hoja_sucia.md` | Esquema conceptual para la fase de ideación.         |
 | Plantilla de consolidación | `chuletas/plantilla_proyecto.md`   | Esquema canónico para el formateo del archivo final. |
 
 ## 5 · Entradas y Salidas
@@ -53,12 +53,10 @@ Comandos transaccionales que no alteran la narrativa creativa de la obra.
 ## 6 · Regla de Contexto Único (Mentalidad Limpia)
 
 - Trabaja una sola obra a la vez hasta `aprobar`, `cerrar`, o `eliminar`. Mantén un único contexto activo para conservar versiones limpias y evitar cruces entre obras.
-- Ninguna fase de `produccion` cierra la obra por sí sola: hasta `aprobar` sigue siendo un borrador vivo y modificable. Solo `aprobar` la finaliza y dispara la sugerencia de `retrospectiva`.
+- Ninguna fase de `produccion` cierra la obra por sí sola: hasta `aprobar` sigue siendo un borrador vivo y modificable. Solo `aprobar` finaliza la obra y permite ofrecer una retrospectiva de cierre.
 
 ## 7 · Relación con otras skills
 
 - `produccion` desarrolla, a lo largo de sus fases, la obra abierta por `crear`/`retomar` sobre el borrador de `_hojas_sucias/<slug>.md`.
 - Las skills sueltas (`style_box`, `letra`, `lyrics_box`, `fonetizar`, `jerga`, `cover_art`) operan sobre ese mismo borrador activo.
-- `retrospectiva` puede ejecutarse en cualquier momento del ciclo, incluso antes de `aprobar`, si el usuario detecta un aprendizaje o pide revisar una decisión.
-- `aprobar` no ejecuta retrospectiva automáticamente: solo sugiere al usuario hacer una retrospectiva de cierre.
-- Aprobar una obra, aprobar un prompt y aprobar un aprendizaje son acciones independientes.
+- `retrospectiva` puede ejecutarse en 

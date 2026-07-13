@@ -1,7 +1,7 @@
 ---
 name: lyrics_box
 type: skill
-description: Orquestadora del lyrics_box. Toma el boceto de letra de Fase 3 y lo desarrolla en Fases 3 y 4 —estructura, dirección de banda, técnica vocal, métrica y efectos— preservando la lírica. Activable en `produccion` o en modo conversacional.
+description: Orquestadora del lyrics_box. Toma el boceto de letra de Fase 3 y lo desarrolla en Fases 4 y 5 —estructura, dirección de banda, técnica vocal, métrica y efectos— preservando la lírica. Activable en `produccion` o en modo conversacional.
 ---
 
 # lyrics_box
@@ -64,4 +64,4 @@ description: Orquestadora del lyrics_box. Toma el boceto de letra de Fase 3 y lo
 - `tecnicas_vocales` (archivo técnico) aporta la dirección vocal por línea.
 - `efectos` (archivo técnico) aporta la capa de post-producción de Fase 5.
 - `buscar_tag` extrae canon de secciones, moods, FX y dinámicas.
-- `fonetizar` y `jerga` reanclan el acento sobre la letra si se solicita.
+- `fonetizar` y `jerga` reanclan el acento sobre la letra si se solicit

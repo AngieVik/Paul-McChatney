@@ -12,8 +12,7 @@ description: Gestiona el ciclo de aprendizaje del sistema: detecta hallazgos rea
 
 ## Activación
 
-- **En cualquier momento:** la retrospectiva puede activarse durante una obra abierta, una fase concreta, una corrección, una prueba técnica, una instrucción del usuario, una lógica nueva, una función nueva de Suno o una obra ya aprobada.
-- **No depende del cierre de la obra:** una obra no tiene que estar terminada para generar aprendizaje útil.
+- **En cualquier momento:** puede activarse durante una obra abierta, una fase, una corrección, una prueba técnica, una instrucción del usuario, una lógica nueva, una función nueva de Suno o una obra ya aprobada; no requiere que la obra esté terminada.
 - **Tras `aprobar` una obra:** `proyecto` solo sugiere si el usuario quiere hacer una retrospectiva.
     - **Si la respuesta es positiva** analiza y propone aprendizajes reales si existen.
 - **Condición para escribir:** ningún aprendizaje se archiva en `MEMORY.md`, `composicion/` o `PROYECTOS.md` sin aprobación explícita del usuario.
@@ -31,23 +30,21 @@ description: Gestiona el ciclo de aprendizaje del sistema: detecta hallazgos rea
 
 ## Protocolo de adquisición de aprendizaje
 
-1. La retrospectiva no depende del cierre de una obra: depende de detectar un aprendizaje útil y de que el usuario apruebe explícitamente archivarlo.
-2. **Detectar hallazgo real:** revisa la obra o texto indicado buscando algo que haya funcionado (o fallado) de forma no obvia: una técnica nueva, un principio creativo, una corrección de mezcla, un cliché evitado. Descarta lo ya documentado o lo trivial.
-3. **Distinguir fuente y aprendizaje:** la fuente puede ser un prompt, una instrucción del usuario, una prueba, una salida de Suno, una corrección o una decisión durante `produccion`. La fuente no es conocimiento por sí sola.
-4. **Validar utilidad:** conserva solo aprendizajes reutilizables; descarta ocurrencias aisladas, gustos pasajeros o resultados no comprobados.
-5. **Clasificar el destino:**
+1. **Detectar hallazgo real:** revisa la obra o texto indicado buscando algo que haya funcionado (o fallado) de forma no obvia: una técnica nueva, un principio creativo, una corrección de mezcla, un cliché evitado. Descarta lo ya documentado o lo trivial.
+2. **Distinguir fuente y aprendizaje:** la fuente puede ser un prompt, una instrucción del usuario, una prueba, una salida de Suno, una corrección o una decisión durante `produccion`. La fuente no es conocimiento por sí sola.
+3. **Validar utilidad:** conserva solo aprendizajes reutilizables; descarta ocurrencias aisladas, gustos pasajeros o resultados no comprobados.
+4. **Clasificar el destino:**
     - **Principio transversal** (aplica a cualquier obra) → candidato a `.claude/MEMORY.md`.
     - **Técnica o tag concreto** (pertenece a una caja) → candidato a su `composicion/<archivo>.md`, entrando por su mapa en `.claude/rules/`.
     - **Corazonada `⚗️`** puesta a prueba en la obra → **ascender** (quitar la marca `⚗️` si se confirmó), **degradar** (mantener marca y matizar) o **eliminar** (si se refutó).
-6. **Formular en positivo/accionable:** redacta el aprendizaje como instrucción útil, nunca como anécdota ni reproche.
-7. **Proponer y esperar aprobación:** presenta el cambio y pregunta `Añadir`, `Modificar`, `Eliminar` o `No hacer nada`. No toques ningún archivo hasta recibir el visto bueno.
-8. **Aplicar y confirmar:** ejecutado el cambio aprobado, confirma qué archivo se actualizó.
+5. **Formular en positivo/accionable:** redacta el aprendizaje como instrucción útil, nunca como anécdota ni reproche.
+6. **Proponer y esperar aprobación:** presenta el cambio y pregunta `Añadir`, `Modificar`, `Eliminar` o `No hacer nada`. No toques ningún archivo hasta recibir el visto bueno.
+7. **Aplicar y confirmar:** ejecutado el cambio aprobado, confirma qué archivo se actualizó.
 
 ---
 
 ## Reglas de Integridad
 
-- **Nunca escribe sin aprobación:** toda propuesta pasa por el usuario antes de tocar archivos.
 - **Un aprendizaje, un destino:** transversal → `MEMORY`; concreto → su `composicion/`. No dupliques.
 - **Positivo y accionable:** el conocimiento se guarda como regla utilizable.
 - **Una instrucción validada sí puede ser aprendizaje:** si el usuario corrige, confirma o aprueba una regla reutilizable, puede archivarse aunque la obra siga abierta.
@@ -59,9 +56,8 @@ description: Gestiona el ciclo de aprendizaje del sistema: detecta hallazgos rea
 
 ## Relación con otras skills
 
-- `retrospectiva` puede ejecutarse en cualquier momento si el usuario detecta o solicita revisar un aprendizaje.
-- `proyecto` solo la sugiere tras `aprobar` como posible retrospectiva, sin ejecutarla automáticamente.
-- Solo `aprobar` finaliza la obra y permite ofrecer una retrospectiva.
+- Puede ejecutarse en cualquier momento que el usuario detecte o pida revisar un aprendizaje; no requiere que la obra esté cerrada.
+- `proyecto` solo la sugiere tras `aprobar` (retrospectiva de cierre), sin ejecutarla automáticamente; solo `aprobar` finaliza la obra.
 - Escribe en `.claude/MEMORY.md` (principios) y en los `composicion/*.md` (técnicas), enrutando por sus mapas `.claude/rules/`.
 
 ---

@@ -18,7 +18,7 @@ description: Contexto de carga, reglas de lectura y mapa principal del proyecto 
 
 - *Para garantizar que el modelo trabaje sobre la última versión real, crearás un archivo .md en `_hojas_sucias` (lo abre la skill `proyecto`) que sobrescribirás a medida que avance el proyecto y utilizarás como borrador.*
     - *Si el usuario pasa una versión consolidada utilizaremos esta y sobrescribiremos la anterior. Se podrán crear copias de seguridad a petición del usuario (comando `guardar`), como archivo aparte `_hojas_sucias/<slug>_NN.md`, que solo se leerán bajo demanda.*
-    - *Si se trabaja sobre una sección, El trabajo irá destinado únicamente a la sección indicada, centrando el 100% del esfuerzo.*
+    - *Si se trabaja sobre una sección, el trabajo irá destinado únicamente a la sección indicada, centrando el 100% del esfuerzo.*
     - *Trabaja sobre una sola obra hasta `aprobar`, `cerrar`, o `eliminar`. Mantén un único contexto activo para conservar versiones limpias y evitar cruces entre obras.*
 
 ---
@@ -62,4 +62,4 @@ description: Contexto de carga, reglas de lectura y mapa principal del proyecto 
 
 ## Especializaciones: Jerga y Fonetizar
 
-- *Las skills `jerga` y `fonetizar` son "especializaciones": Paul puede añadir jerga o fonetizaciones desde su propio conocimiento si mejoran la calidad de la obra.*
+- *Las skills `jerga` y `fonetizar` son "especializaciones": Paul puede añadir jerga o fonetizaciones desde su propio conocimiento si mejoran la cal

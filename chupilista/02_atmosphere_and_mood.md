@@ -1,7 +1,12 @@
-# atmosphere_and_mood
+---
+name: 02_atmosphere_and_mood
+type: chupilista
+description: Colección de atmósferas, texturas y estados emocionales para diseño sonoro y composición musical.
+---
 
-*Colección de atmósferas, texturas y estados emocionales para diseño sonoro y composición musical.*
-*Recordatorio: se consulta por búsqueda (grep) o saltando a una sección*
+# 02_atmosphere_and_mood
+
+- *Recordatorio: se consulta por búsqueda (grep) o saltando a una sección*
 
 ---
 
@@ -21,8 +26,9 @@
 
 ### 1 · Ingeniería Sonora y Texturas
 
-- *Tags enfocados en la manipulación de frecuencias, degradación de señal, LFOs, síntesis granular y diseño de sonido puro.*
-  *Palabras clave: glitch, lfo, síntesis, ruido, noise, analógico, digital, distorsión, espacial, lofi, estática, drone.*
+*Tags enfocados en la manipulación de frecuencias, degradación de señal, LFOs, síntesis granular y diseño de sonido puro.*
+*Palabras clave: glitch, lfo, síntesis, ruido, noise, analógico, digital, distorsión, espacial, lofi, estática, drone.*
+
 [Acoustic Melancholic Warmth]
 [Analogue Synth Dust Nostalgia]
 [Asymmetrical Frequency Disruption]

@@ -48,24 +48,25 @@ description: Mapa general del proyecto Paul McChatney.
 2. Consultar `.claude/CLAUDE.md` y el índice correspondiente en `.claude/rules/`.
 3. Abrir solo el archivo necesario y trabajar por fases con `produccion`.
 4. Guardar la obra aprobada en `proyectos/<slug>/<slug>.md` y registrarla en `PROYECTOS.md`.
-5. Ejecutar retrospectiva solo si deja aprendizaje real.
+5. Ejecutar `retrospectiva` cuando surja un aprendizaje real que el usuario valide (en cualquier momento, no solo al final).
 
 ---
 
 ## 4 · Skills principales
 
-| Skill           | Uso                                        |
-| --------------- | ------------------------------------------ |
-| `produccion`    | Flujo completo de creación en fases.       |
-| `proyecto`      | Crear, retomar, guardar, aprobar o cerrar. |
-| `letra`         | Escribir o pulir letra limpia.             |
-| `style_box`     | Crear o iterar el molde sonoro.            |
-| `buscar_tag`    | Buscar tags concretos en chupilista.       |
-| `fusionar`      | Proponer fusiones de género.               |
-| `fonetizar`     | Aplicar acento o idioma cantado.           |
-| `jerga`         | Inyectar modismos locales en la letra.     |
-| `cover_art`     | Crear prompts de portada para Gemini.      |
-| `retrospectiva` | Evaluar aprendizaje tras aprobar una obra. |
+| Skill           | Uso                                                      |
+| --------------- | -------------------------------------------------------- |
+| `buscar_tag`    | Buscar tags concretos en chupilista.                     |
+| `cover_art`     | Crear prompts de portada para Gemini.                    |
+| `fonetizar`     | Aplicar acento o idioma cantado.                         |
+| `fusionar`      | Proponer fusiones de género.                             |
+| `jerga`         | Inyectar modismos locales en la letra.                   |
+| `letra`         | Escribir o pulir letra limpia.                           |
+| `lyrics_box`    | Estructurar la letra en lyrics_box (Fases 4-5).          |
+| `produccion`    | Flujo completo de creación en fases.                     |
+| `proyecto`      | Crear, retomar, guardar, aprobar o cerrar.               |
+| `retrospectiva` | Detectar, validar y archivar aprendizajes reutilizables. |
+| `style_box`     | Crear o iterar el molde sonoro.                          |
 
 ---
 
@@ -99,10 +100,4 @@ Cada obra aprobada vive en `proyectos/<slug>/<slug>.md` y se registra en `PROYEC
 
 - *Guía de estilo completa: `chuletas/plantilla_estilo.md`.*
 
-Un prompt no aprobado es hipótesis, no conocimiento. Solo una obra aprobada genera aprendizaje estable, y se archiva donde se consume:
-
-| Tipo de aprendizaje | Destino             |
-| ------------------- | ------------------- |
-| Principio general   | `.claude/MEMORY.md` |
-| Técnica concreta    | `composicion/`      |
-| Relación obra-regla | `PROYECTOS.md`      |
+Un prompt sin aprobar es hipótesis, no conocimiento. El aprendizaje estable puede surgir en cualquier momento del proceso, pero solo se archiva cuando
