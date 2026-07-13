@@ -25,7 +25,7 @@ description: Colección exhaustiva de metadatos, stems y marcadores de instrumen
 
 ---
 
-### 1 · Percusión y Baterías
+## 1 · Percusión y Baterías
 
 *Elementos rítmicos, transitorios de ataque rápido y kits acústicos o electrónicos para establecer el groove y la métrica.*
 *Palabras clave: drums, ritmos, transients, beats, kicks, snares, hats, TR-808, TR-909, breakbeats, stems percusivos, drum machines, acústica.*
@@ -158,7 +158,7 @@ description: Colección exhaustiva de metadatos, stems y marcadores de instrumen
 
 ---
 
-### 2 · Frecuencias Graves
+## 2 · Frecuencias Graves
 
 *Cimientos tonales de baja frecuencia, incluyendo subgraves electrónicos, osciladores profundos y bajos acústicos para el control del low-end.*
 *Palabras clave: bass, sub-bass, low-end, subgraves, contrabajo, LFE, sidechain, rumbles, walking bass, LFO, modulación.*
@@ -252,7 +252,7 @@ description: Colección exhaustiva de metadatos, stems y marcadores de instrumen
 
 ---
 
-### 3 · Guitarras y Cuerdas Pulsadas
+## 3 · Guitarras y Cuerdas Pulsadas
 
 *Instrumentos de cuerda excitados por pulsación o púa, abarcando desde texturas acústicas orgánicas hasta distorsiones de alta ganancia e impedancia.*
 *Palabras clave: guitars, overdrive, fuzz, fingerstyle, riffs, acordes, amplificadores, armónicos, rasgueos, cuerdas, acústicas, eléctricas.*
@@ -414,7 +414,7 @@ description: Colección exhaustiva de metadatos, stems y marcadores de instrumen
 
 ---
 
-### 4 · Instrumentos de Teclado
+## 4 · Instrumentos de Teclado
 
 *Teclas acústicas, electromecánicas y órganos con sistemas de modulación rotatoria o gabinetes, abarcando registros tonales completos.*
 *Palabras clave: pianos, keys, Rhodes, Hammond, poli-fonía, acordes, velocity, sustain, vintage, clavinet, armónicos, válvulas.*
@@ -477,7 +477,7 @@ description: Colección exhaustiva de metadatos, stems y marcadores de instrumen
 
 ---
 
-### 5 · Sintetizadores y Electrónica
+## 5 · Sintetizadores y Electrónica
 
 *Generadores de onda, modulación de frecuencia y diseño de sonido sintético mediante osciladores analógicos o digitales, LFOs y filtros.*
 *Palabras clave: synths, pads, leads, arpegios, analog, FM, wavetable, EDM, secuencias, filtros paso-bajo, saw, síntesis, osciladores, chiptune.*
@@ -584,7 +584,7 @@ description: Colección exhaustiva de metadatos, stems y marcadores de instrumen
 
 ---
 
-### 6 · Sección Orquestal y Cuerdas Frotadas
+## 6 · Sección Orquestal y Cuerdas Frotadas
 
 *Agrupaciones orquestales, texturas de cámara y cuerdas articuladas mediante arco con variaciones ricas en dinámica, vibrato y legato.*
 *Palabras clave: strings, violines, violonchelo, legato, spiccato, orquesta, cinemático, vibrato, mellotron, ensembles, cámara, pizzicato.*
@@ -631,7 +631,7 @@ description: Colección exhaustiva de metadatos, stems y marcadores de instrumen
 
 ---
 
-### 7 · Vientos y Metales
+## 7 · Vientos y Metales
 
 *Instrumentos aerófonos de madera y metal, abarcando desde texturas solistas dependientes de la embocadura hasta secciones de viento expresivas.*
 *Palabras clave: brass, woodwinds, metales, saxo, trompetas, flautas, embocadura, staccato, breath, soplido, aire, vientos, armónicas.*
@@ -701,7 +701,7 @@ description: Colección exhaustiva de metadatos, stems y marcadores de instrumen
 
 ---
 
-### 8 · Voces y Texturas Corales
+## 8 · Voces y Texturas Corales
 
 *Líneas vocales acústicas, conjuntos corales y texturas antropomórficas procesadas o resintetizadas con alteración de formantes.*
 *Palabras clave: vocals, coros, a capella, vocoder, formantes, chops, armonías, SATB, respiración, pads vocales, voces, fonemas.*
@@ -733,7 +733,7 @@ description: Colección exhaustiva de metadatos, stems y marcadores de instrumen
 
 ---
 
-### 9 · Diseño Sonoro, Texturas y Foley
+## 9 · Diseño Sonoro, Texturas y Foley
 
 *Capas ambientales, efectos de sonido integrados, ruido de fondo y grabaciones de campo aplicadas para texturizar el espacio acústico global.*
 *Palabras clave: Foley, SFX, noise, drones, fxs, ruido blanco, ambiente, modulaciones, resonancias, tape, lo-fi, sounscape, espacialidad.*
@@ -809,7 +809,7 @@ description: Colección exhaustiva de metadatos, stems y marcadores de instrumen
 
 ---
 
-### 10 · Marcadores Estructurales
+## 10 · Marcadores Estructurales
 
 *Tags de metadatos instruccionales para forzar cambios en la dinámica, crear puentes y alterar la evolución macro-estructural de la composición.*
 *Palabras clave: estructura, drops, intros, outros, builds, transiciones, dinámicas, arreglos, silencios, clímax, puentes, interludios.*

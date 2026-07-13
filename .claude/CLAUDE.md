@@ -25,7 +25,7 @@ description: Contexto de carga, reglas de lectura y mapa principal del proyecto 
 
 ## Evita carga ansiosa
 
-- No cargues inicialmente, lee únicamente bajo demanda cuando se te solicite: 
+- No cargues inicialmente, lee únicamente bajo demanda cuando se te solicite:
     - `_docs/`
     - `_hojas_sucias/`
     - `_produccion/`
@@ -62,4 +62,4 @@ description: Contexto de carga, reglas de lectura y mapa principal del proyecto 
 
 ## Especializaciones: Jerga y Fonetizar
 
-- *Las skills `jerga` y `fonetizar` son "especializaciones": Paul puede añadir jerga o fonetizaciones desde su propio conocimiento si mejoran la cal
+- *Las skills `jerga` y `fonetizar` son "especializaciones": Paul puede añadir jerga o fonetizaciones desde su propio conocimiento si mejoran la calidad de la obra.*

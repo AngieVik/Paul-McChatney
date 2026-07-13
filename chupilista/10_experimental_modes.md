@@ -23,7 +23,7 @@ description: Repositorio integral de arquitecturas de diseño sonoro de vanguard
 
 ---
 
-### 1 · Procesamiento Algorítmico, Generativo y Estocástico
+## 1 · Procesamiento Algorítmico, Generativo y Estocástico
 
 *Sistemas de control basados en IA, autómatas celulares, secuencias matemáticas de probabilidad y motores de modulación procedural para la evolución autónoma del audio.*
 *Palabras clave: algoritmos, probabilístico, generativo, IA, caos, autómatas celulares, Fibonacci, estocástico, redes neuronales, automatización procedural.*
@@ -89,7 +89,7 @@ description: Repositorio integral de arquitecturas de diseño sonoro de vanguard
 
 ---
 
-### 2 · Manipulación Temporal, Métrica y Rítmica
+## 2 · Manipulación Temporal, Métrica y Rítmica
 
 *Sistemas de deformación de la línea de tiempo matemática, polirritmia superpuesta, dilatación temporal y métricas asimétricas que fracturan la rejilla de cuantización convencional.*
 *Palabras clave: polirritmia, BPM, rubato, grid, métrica asimétrica, IDM, time-stretching, swing, cuantización, drift, síncopa.*
@@ -200,7 +200,7 @@ description: Repositorio integral de arquitecturas de diseño sonoro de vanguard
 
 ---
 
-### 3 · Alteración de Fase, Psicoacústica y Espacialización
+## 3 · Alteración de Fase, Psicoacústica y Espacialización
 
 *Tratamiento de la tridimensionalidad acústica, engaños psicoacústicos, manipulación polar de fase, cross-talk binaural y diseño de campos de reverberación profundos.*
 *Palabras clave: binaural, fase, acústica espacial, reverberación infinita, crosstalk, cancelación, efecto Haas, inmersivo, campo estéreo, espectro tridimensional.*
@@ -292,7 +292,7 @@ description: Repositorio integral de arquitecturas de diseño sonoro de vanguard
 
 ---
 
-### 4 · Microtonalidad, Disonancia y Deriva Estructural
+## 4 · Microtonalidad, Disonancia y Deriva Estructural
 
 *Estructuras matemáticas atónicas, síntesis y desintegración de frecuencias en escalas no convencionales, serialismo de doce tonos y clústeres disonantes.*
 *Palabras clave: microtonal, atonal, cuartos de tono, armónicos, disonancia, tuning, pitch drift, geometría acústica, serialismo.*
@@ -401,7 +401,7 @@ description: Repositorio integral de arquitecturas de diseño sonoro de vanguard
 
 ---
 
-### 5 · Corrupción Digital, Glitch y Degradación de Datos
+## 5 · Corrupción Digital, Glitch y Degradación de Datos
 
 *Simulación exhaustiva de fracaso sistémico, aliasing, downsampling, tartamudeo en la transmisión de datos (stutter/glitch) y volatilización de componentes digitales de audio.*
 *Palabras clave: glitch, bitcrusher, stutter, artifacts, aliasing, buffer, degradación, DSP, sample rate, data burst, chiptune.*
@@ -475,7 +475,7 @@ description: Repositorio integral de arquitecturas de diseño sonoro de vanguard
 
 ---
 
-### 6 · Síntesis, Filtrado y Procesamiento Espectral Granular
+## 6 · Síntesis, Filtrado y Procesamiento Espectral Granular
 
 *Intervención a nivel de dominio frecuencial empleando Transformadas Rápida de Fourier (FFT), síntesis FM granular extrema y manipulación profunda de espectros y formantes.*
 *Palabras clave: FFT, síntesis granular, síntesis FM, formantes, spectral resynthesis, LFO, modulación en anillo, sweep.*
@@ -621,7 +621,7 @@ description: Repositorio integral de arquitecturas de diseño sonoro de vanguard
 
 ---
 
-### 7 · Saturación, Ruido de Fondo y Entornos Industriales
+## 7 · Saturación, Ruido de Fondo y Entornos Industriales
 
 *Explotación de umbrales analógicos y de ruido blanco, cacofonía mecánica controlada, sobremarcha de cinta, y texturas hiperrealistas basadas en física e impacto industrial.*
 *Palabras clave: noise floor, analógico, cinta, overdrive, ruido blanco, drone, cacofonía, feedback, distorsión, saturación termal, crackle.*
@@ -782,7 +782,7 @@ description: Repositorio integral de arquitecturas de diseño sonoro de vanguard
 
 ---
 
-### 8 · Manipulación de Arreglos, Narrativa y Formantes Vocales
+## 8 · Manipulación de Arreglos, Narrativa y Formantes Vocales
 
 *Alteraciones disruptivas sobre la macrosíntesis del track, inyecciones de silencios súbitos, transiciones fluidas estilo concept album, y mutación de inteligencia artificial en voces procesadas o cantadas.*
 *Palabras clave: vocoder, autotune, jump cut, mashup, outros, arrangement, narrativa, morphing vocal, drops asimétricos.*

@@ -1,7 +1,7 @@
 ---
 name: <name>
 type: skill
-description: <rol de orquestación en positivo>
+description: rol de orquestación en positivo
 ---
 
 # <name>

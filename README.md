@@ -100,4 +100,10 @@ Cada obra aprobada vive en `proyectos/<slug>/<slug>.md` y se registra en `PROYEC
 
 - *Guía de estilo completa: `chuletas/plantilla_estilo.md`.*
 
-Un prompt sin aprobar es hipótesis, no conocimiento. El aprendizaje estable puede surgir en cualquier momento del proceso, pero solo se archiva cuando
+Un prompt sin aprobar es hipótesis, no conocimiento. El aprendizaje estable puede surgir en cualquier momento del proceso, pero solo se archiva cuando el usuario valida explícitamente ese aprendizaje.
+
+| Tipo de aprendizaje | Destino             |
+| ------------------- | ------------------- |
+| Principio general   | `.claude/MEMORY.md` |
+| Técnica concreta    | `composicion/`      |
+| Relación obra-regla | `PROYECTOS.md`      |

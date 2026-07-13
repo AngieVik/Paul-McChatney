@@ -24,7 +24,7 @@ description: Colección de atmósferas, texturas y estados emocionales para dise
 
 ---
 
-### 1 · Ingeniería Sonora y Texturas
+## 1 · Ingeniería Sonora y Texturas
 
 *Tags enfocados en la manipulación de frecuencias, degradación de señal, LFOs, síntesis granular y diseño de sonido puro.*
 *Palabras clave: glitch, lfo, síntesis, ruido, noise, analógico, digital, distorsión, espacial, lofi, estática, drone.*
@@ -163,7 +163,7 @@ description: Colección de atmósferas, texturas y estados emocionales para dise
 
 ---
 
-### 2 · Sci-Fi, Ciberespacio y Vacío Cósmico
+## 2 · Sci-Fi, Ciberespacio y Vacío Cósmico
 
 *Entornos digitales, inteligencias artificiales, cyberpunk, anomalías cuánticas y el aislamiento del espacio exterior.*
 *Palabras clave: futurista, espacio, alien, matrix, holograma, cuántico, neon, synthwave, vacío, cibernético, IA, red, cosmos.*
@@ -292,7 +292,7 @@ description: Colección de atmósferas, texturas y estados emocionales para dise
 
 ---
 
-### 3 · Tensión, Paranoia y Terror Psicológico
+## 3 · Tensión, Paranoia y Terror Psicológico
 
 *Ansiedad, espacios liminales, persecuciones, latidos acelerados y locura.*
 *Palabras clave: miedo, horror, suspenso, thriller, psicosis, claustrofobia, pesadilla, oscuro, persecución, locura, latido.*
@@ -469,7 +469,7 @@ description: Colección de atmósferas, texturas y estados emocionales para dise
 
 ---
 
-### 4 · Melancolía, Luto y Desolación
+## 4 · Melancolía, Luto y Desolación
 
 *Tristeza profunda, recuerdos que se desvanecen, soledad, luto y despedidas.*
 *Palabras clave: tristeza, drama, nostálgico, llanto, pérdida, soledad, dolor, emocional, cinemático, funeral, lamento.*
@@ -586,7 +586,7 @@ description: Colección de atmósferas, texturas y estados emocionales para dise
 
 ---
 
-### 5 · Naturaleza Extrema y Elementos
+## 5 · Naturaleza Extrema y Elementos
 
 *Biomas implacables, profundidades abisales, hielo, fuego, tormentas y presión extrema.*
 *Palabras clave: océano, abismo, volcán, hielo, tormenta, clima, supervivencia, orgánico, geológico, desastre, viento.*
@@ -694,7 +694,7 @@ description: Colección de atmósferas, texturas y estados emocionales para dise
 
 ---
 
-### 6 · Ruina Industrial y Decadencia Urbana (Industrial, Urban Decay & Ruins)
+## 6 · Ruina Industrial y Decadencia Urbana (Industrial, Urban Decay & Ruins)
 
 *Fábricas abandonadas, polución, concreto oscuro, catacumbas y colapsos arquitectónicos.*
 *Palabras clave: fábrica, metal, abandonado, post-apocalíptico, tóxico, sucio, subterráneo, concreto, óxido, maquinaria.*
@@ -771,7 +771,7 @@ description: Colección de atmósferas, texturas y estados emocionales para dise
 
 ---
 
-### 7 · Intimidad, Romance y Euforia
+## 7 · Intimidad, Romance y Euforia
 
 *ASMR, cercanía física, victorias absolutas, revelaciones y calor humano.*
 *Palabras clave: amor, épico, victoria, asmr, susurro, cálido, positivo, esperanzador, clímax, pasión, triunfo.*
@@ -853,7 +853,7 @@ description: Colección de atmósferas, texturas y estados emocionales para dise
 
 ---
 
-### 8 · Furia, Acción y Caos Adrenalínico
+## 8 · Furia, Acción y Caos Adrenalínico
 
 *Combate, adrenalina, bestialidad, revueltas sociales y percusión agresiva.*
 *Palabras clave: batalla, guerra, pelea, agresivo, épico, percusión, violencia, rápido, frenético, caos, sangre.*
@@ -940,7 +940,7 @@ description: Colección de atmósferas, texturas y estados emocionales para dise
 
 ---
 
-### 9 · Misticismo, Sueños y Surrealismo
+## 9 · Misticismo, Sueños y Surrealismo
 
 *Rituales, viajes astrales, coros celestiales, hipnosis y texturas esotéricas.*
 *Palabras clave: magia, esotérico, ritual, astral, coro, onírico, irreal, espiritual, etéreo, hipnótico, religión, secta.*

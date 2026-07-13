@@ -27,7 +27,7 @@ description: Vocabulario de géneros y subgéneros.
 
 ---
 
-### 1 · Música Electrónica, Dance y Derivados Sintéticos
+## 1 · Música Electrónica, Dance y Derivados Sintéticos
 
 *House, techno, trance, drum & bass, dubstep, breakbeat, EDM, gabber, hardcore/hardstyle, synthwave y todo lo bailable de raíz electrónica o sintetizada.*
 *Palabras clave: club, sintetizador, dj, rave, bass, electrónico, máquina, digital, beat, fiesta, rave.*
@@ -199,7 +199,7 @@ description: Vocabulario de géneros y subgéneros.
 
 ---
 
-### 2 · Rock, Metal, Punk y Vertientes Alternativas
+## 2 · Rock, Metal, Punk y Vertientes Alternativas
 
 *Rock clásico y moderno, metal y sus ramas extremas, punk, hardcore, grunge, indie rock y alternativo con guitarra.*
 *Palabras clave: guitarra eléctrica, distorsión, batería, mosh, acústico, banda, pesado, ruido, rockero, alternativo, amplificador.*
@@ -322,7 +322,7 @@ description: Vocabulario de géneros y subgéneros.
 
 ---
 
-### 3 · Hip-Hop, Rap, Trap y R&B Contemporáneo
+## 3 · Hip-Hop, Rap, Trap y R&B Contemporáneo
 
 *Rap, trap, boom bap, drill, grime y R&B contemporáneo; cultura urbana y beats.*
 *Palabras clave: beat, flow, rima, urbano, calle, bajo, 808, autotune, barras, freestyle, hiphop, mc.*
@@ -436,7 +436,7 @@ description: Vocabulario de géneros y subgéneros.
 
 ---
 
-### 4 · Pop, Indie y Synthpop
+## 4 · Pop, Indie y Synthpop
 
 *Pop mainstream y alternativo, indie pop, synthpop, electropop y baladas comerciales.*
 *Palabras clave: comercial, melodía, pegadizo, alternativo, suave, radio, vocal, sintetizador, popular, moderno, hit.*
@@ -518,7 +518,7 @@ description: Vocabulario de géneros y subgéneros.
 
 ---
 
-### 5 · Jazz, Blues, Funk y Soul
+## 5 · Jazz, Blues, Funk y Soul
 
 *Jazz y sus ramas, blues, funk, soul, Motown y groove orgánico afroamericano.*
 *Palabras clave: groove, improvisación, saxofón, trompeta, orgánico, alma, ritmo, negro, clásico, instrumento, swing.*
@@ -602,7 +602,7 @@ description: Vocabulario de géneros y subgéneros.
 
 ---
 
-### 6 · Folk, Country, Americana y Raíces Tradicionales
+## 6 · Folk, Country, Americana y Raíces Tradicionales
 
 *Folk, country, americana, bluegrass y músicas de raíz tradicional acústica.*
 *Palabras clave: acústico, guitarra, raíces, tradicional, campo, banjo, violín, cantautor, rural, historia, western.*
@@ -651,7 +651,7 @@ description: Vocabulario de géneros y subgéneros.
 
 ---
 
-### 7 · Música Latina, Caribeña y Reggae
+## 7 · Música Latina, Caribeña y Reggae
 
 *Reggaetón, salsa, cumbia, bachata, flamenco, reggae, dancehall y ritmos latinos y caribeños.*
 *Palabras clave: baile, fiesta, percusión, trópico, caribe, sabor, urbano, ritmo, verano, español, latino.*
@@ -754,7 +754,7 @@ description: Vocabulario de géneros y subgéneros.
 
 ---
 
-### 8 · Música Africana y Afro-Fusión
+## 8 · Música Africana y Afro-Fusión
 
 *Afrobeat, afro-pop, highlife, amapiano y fusiones de raíz africana.*
 *Palabras clave: percusión, tribal, groove, polirritmia, raíces, continente, danza, tambor, tradicional, afro.*
@@ -831,7 +831,7 @@ description: Vocabulario de géneros y subgéneros.
 
 ---
 
-### 9 · Música Asiática, Medio Oriente y Global
+## 9 · Música Asiática, Medio Oriente y Global
 
 *Músicas de Asia, Oriente Medio y world music; escalas, instrumentos y fusiones globales.*
 *Palabras clave: exótico, tradicional, mundo, místico, folclore, sitar, oriental, espiritual, zen, etnia, arábigo.*
@@ -998,7 +998,7 @@ description: Vocabulario de géneros y subgéneros.
 
 ---
 
-### 10 · Música Clásica, Coral y Tradición Europea
+## 10 · Música Clásica, Coral y Tradición Europea
 
 *Orquestal, sinfónico, ópera, coral, cámara y música clásica europea.*
 *Palabras clave: orquesta, sinfonía, coro, épico, banda sonora, cine, violín, piano, antiguo, solemne, teatro.*
@@ -1115,7 +1115,7 @@ description: Vocabulario de géneros y subgéneros.
 
 ---
 
-### 11 · Ambient, Experimental, Vanguardia y Paisajes Sonoros
+## 11 · Ambient, Experimental, Vanguardia y Paisajes Sonoros
 
 *Ambient, drone, experimental, vanguardia, glitch, noise y paisajes sonoros.*
 *Palabras clave: atmósfera, ruido, relajante, raro, vanguardia, paisaje sonoro, meditación, abstracto, drone, textura.*
@@ -1232,7 +1232,7 @@ description: Vocabulario de géneros y subgéneros.
 
 ---
 
-### 12 · Cibernética, Chiptune y Cultura de Videojuegos
+## 12 · Cibernética, Chiptune y Cultura de Videojuegos
 
 *Chiptune, 8-bit / 16-bit, música de videojuegos y estética digital retro.*
 *Palabras clave: retro, arcade, consola, 8-bit, 16-bit, nostalgia, pixel, sintetizador, futuro, sci-fi, gaming.*

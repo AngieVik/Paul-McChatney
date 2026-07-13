@@ -21,9 +21,7 @@ description: Colección de tags que definen la evolución de la energía, las tr
 `7 · Compresión, Limitación y Procesamiento Dinámico`
 `8 · Dinámicas Vocales, Ambientales e Instrumentales Específicas`
 
----
-
-### 1 · Impactos, Golpes y Explosiones
+## 1 · Impactos, Golpes y Explosiones
 
 *Golpes súbitos, picos de máxima velocidad y explosiones sonoras que marcan un cambio abrupto o un impacto violento.*
 *Palabras clave: impact, explosion, strike, burst, hit, slam, crash, detonation, blast, shock, drop (impacto).*
@@ -84,7 +82,7 @@ description: Colección de tags que definen la evolución de la energía, las tr
 
 ---
 
-### 2 · Caídas, Silencios y Cortes
+## 2 · Caídas, Silencios y Cortes
 
 *Descensos abruptos o graduales hacia la nada, interrupciones de señal, apagones dinámicos y vacíos sonoros.*
 *Palabras clave: silence, cut, mute, drop (vacío), fade out, void, decrescendo, diminuendo, blackout, stop, break.*
@@ -154,7 +152,7 @@ description: Colección de tags que definen la evolución de la energía, las tr
 
 ---
 
-### 3 · Subidas, Crescendos y Transiciones
+## 3 · Subidas, Crescendos y Transiciones
 
 *Aumentos de tensión, aceleraciones, oleajes sonoros y construcciones dinámicas que preparan el terreno para un clímax.*
 *Palabras clave: build, rise, swell, crescendo, ascent, climb, ascension, accelerando, fade in, growth, transition.*
@@ -266,7 +264,7 @@ description: Colección de tags que definen la evolución de la energía, las tr
 
 ---
 
-### 4 · Clímax, Máxima Intensidad y Muros de Sonido
+## 4 · Clímax, Máxima Intensidad y Muros de Sonido
 
 *El punto álgido de la energía, paredes densas de sonido, clímax absolutos, asaltos sonoros y momentos de máxima agresividad.*
 *Palabras clave: climax, peak, maximum, wall of sound, assault, chaos, surge, fortissimo, high energy, overdrive, dense.*
@@ -379,7 +377,7 @@ description: Colección de tags que definen la evolución de la energía, las tr
 
 ---
 
-### 5 · Tensión, Dinámicas Bajas y Sutileza
+## 5 · Tensión, Dinámicas Bajas y Sutileza
 
 *Pasajes íntimos, susurros, atmósferas ahogadas, dinámicas de pianissimo y momentos de contención o espera tensa.*
 *Palabras clave: whisper, soft, delicate, pianissimo, calm, tension, intimate, ghostly, quiet, subdued, near-silence, breath.*
@@ -433,7 +431,7 @@ description: Colección de tags que definen la evolución de la energía, las tr
 
 ---
 
-### 6 · Acentuaciones y Dinámicas Rítmicas
+## 6 · Acentuaciones y Dinámicas Rítmicas
 
 *Empujes, fluctuaciones rítmicas, dinámicas de groove, acentuaciones métricas y movimientos sincopados del volumen.*
 *Palabras clave: accent, pulse, rhythm, syncopated, drive, bounce, groove, stamp, flutter, pattern.*
@@ -557,7 +555,7 @@ description: Colección de tags que definen la evolución de la energía, las tr
 
 ---
 
-### 7 · Compresión, Limitación y Procesamiento Dinámico
+## 7 · Compresión, Limitación y Procesamiento Dinámico
 
 *Técnicas de mezcla aplicadas como efecto dinámico: bombeos de compresión (sidechain), limitadores al extremo, barridos de filtros, saturación y uso extremo del panorama/estéreo.*
 *Palabras clave: pump, squeeze, ducking, limiter, brickwall, sidechain, filter, sweep, eq, saturation, overdrive, noise floor.*
@@ -677,7 +675,7 @@ description: Colección de tags que definen la evolución de la energía, las tr
 
 ---
 
-### 8 · Dinámicas Vocales, Ambientales e Instrumentales Específicas
+## 8 · Dinámicas Vocales, Ambientales e Instrumentales Específicas
 
 *Comportamientos dinámicos vinculados a instrumentos solistas concretos, interpretaciones vocales hiper-específicas o descripciones de escenarios cinemáticos abstractos.*
 *Palabras clave: vocal, synth, strings, brass, guitar, choir, ambient metaphor, atmospheric, situational.*
@@ -922,7 +920,7 @@ description: Colección de tags que definen la evolución de la energía, las tr
 [Yodeling Alpine Mountain Verse Singer Group Accent]
 [Youthful Energetic J-Pop Female Chorus Lead Peak]
 [Zen Monk Deep Meditative Verse Intonation Drop]
-[Zither European Table Lap Bridge Pluck Ring Drop]
+[Zither European Table Lap Bridge Pluck]
 [Zurna Turkish Piercing Double Reed Chorus Blast Accent]
 
 ---

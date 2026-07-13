@@ -22,7 +22,7 @@ description: Colección exhaustiva de efectos de sonido, foley, atmósferas y di
 
 ---
 
-### 1 · Ambiente y Naturaleza
+## 1 · Ambiente y Naturaleza
 
 *Efectos climáticos, biomas naturales, atmósferas espaciales y comportamientos del ecosistema.*
 *atmósfera, clima, lluvia, viento, fuego, agua, paisajes sonoros, ecosistemas, weather, ambience, background, nature.*
@@ -97,7 +97,7 @@ description: Colección exhaustiva de efectos de sonido, foley, atmósferas y di
 
 ---
 
-### 2 · Animales y Criaturas
+## 2 · Animales y Criaturas
 
 *Vocalizaciones, movimientos biológicos de fauna real y criaturas de ciencia ficción/fantasía.*
 *fauna, bestias, pájaros, insectos, monstruos, rugidos, alien, mascotas, animals, creatures, beasts.*
@@ -169,7 +169,7 @@ description: Colección exhaustiva de efectos de sonido, foley, atmósferas y di
 
 ---
 
-### 3 · Humanos y Voces
+## 3 · Humanos y Voces
 
 *Expresiones vocales, respiración, multitudes, pasos y acciones foley ligadas directamente a la anatomía humana.*
 *voces, pasos, público, risas, gritos, respiración, latidos, multitud, human, voices, crowd, footsteps.*
@@ -247,7 +247,7 @@ description: Colección exhaustiva de efectos de sonido, foley, atmósferas y di
 
 ---
 
-### 4 · Impactos, Armas y Destrucción
+## 4 · Impactos, Armas y Destrucción
 
 *Golpes, roturas, disparos, explosiones y acciones bélicas o de combate cuerpo a cuerpo.*
 *armas, explosiones, roturas, cristal, metal, disparos, guerra, combate, weapons, destruction, impacts, combat.*
@@ -317,7 +317,7 @@ description: Colección exhaustiva de efectos de sonido, foley, atmósferas y di
 
 ---
 
-### 5 · Foley Doméstico y Cotidiano
+## 5 · Foley Doméstico y Cotidiano
 
 *Manipulación de objetos cotidianos, utensilios de cocina, papelería, mobiliario y herramientas ligeras.*
 *cocina, papel, puertas, relojes, objetos, ropa, switches, herramientas, household, everyday foley, items.*
@@ -540,7 +540,7 @@ description: Colección exhaustiva de efectos de sonido, foley, atmósferas y di
 
 ---
 
-### 6 · Tecnología, Máquinas y Vehículos
+## 6 · Tecnología, Máquinas y Vehículos
 
 *Mecánica industrial, medios de transporte, dispositivos electrónicos, comunicaciones y elementos de ciencia ficción.*
 *motores, vehículos, sci-fi, interfaces, glitch, maquinaria, industria, alarmas, tech, vehicles, machinery, UI.*
@@ -765,7 +765,7 @@ description: Colección exhaustiva de efectos de sonido, foley, atmósferas y di
 
 ---
 
-### 7 · Efectos, Transiciones y Texturas Acústicas
+## 7 · Efectos, Transiciones y Texturas Acústicas
 
 *Tensiones, zumbidos, texturas de ruido blanco, graves profundos, roces abstractos y transiciones sonoras.*
 *texturas, ruido, drone, zumbido, graves, vinilo, fricción, sweeps, noise, textures, transitions, abstract.*

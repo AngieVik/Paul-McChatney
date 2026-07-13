@@ -21,7 +21,7 @@ description: Núcleo de control temporal, métrica matemática, cuantización y 
 
 ---
 
-### 1 · Tempo, Velocidad y Multiplicadores
+## 1 · Tempo, Velocidad y Multiplicadores
 
 *Tags para el control absoluto de los BPM, alteraciones de velocidad, transiciones de tiempo medio (half-time) o doble (double-time), acelerandos y ritardandos.*
 *Palabras clave: BPM, speed, fast, slow, tempo, accelerando, decelerando, drag, rush, time.*
@@ -132,7 +132,7 @@ description: Núcleo de control temporal, métrica matemática, cuantización y 
 
 ---
 
-### 2 · Compases, Polirritmias y Rejillas Matemáticas
+## 2 · Compases, Polirritmias y Rejillas Matemáticas
 
 *Estructuras de compás estándar y amalgamas, divisiones complejas, polirritmias, algoritmos matemáticos aplicados al tiempo y variaciones de firmas métricas.*
 *Palabras clave: time signature, odd meter, polyrhythm, grid, metric, asymmetrical, four, eight, fibonacci, euclidean, paradox.*
@@ -251,7 +251,7 @@ description: Núcleo de control temporal, métrica matemática, cuantización y 
 
 ---
 
-### 3 · Groove, Cuantización y Micro-Timing
+## 3 · Groove, Cuantización y Micro-Timing
 
 *Parámetros para ajustar el "feel" humano vs mecánico, desplazamientos de micro-tiempo, swing, síncopas, rubato y rigidez robótica de la secuencia.*
 *Palabras clave: swing, shuffle, quantization, unquantized, micro-timing, rubato, groove, pocket, slop, metronomic, clockwork.*
@@ -344,7 +344,7 @@ description: Núcleo de control temporal, métrica matemática, cuantización y 
 
 ---
 
-### 4 · Patrones de Género y Estilos Específicos
+## 4 · Patrones de Género y Estilos Específicos
 
 *Bases rítmicas intrínsecas a géneros musicales definidos (EDM, Latino, Rock, Metal, Jazz, World Music) y sus patrones de batería o percusión característicos.*
 *Palabras clave: afro-cuban, bossa nova, trap, reggae, dembow, d-beat, blastbeat, four-to-the-floor, skank.*
@@ -485,7 +485,7 @@ description: Núcleo de control temporal, métrica matemática, cuantización y 
 
 ---
 
-### 5 · Glitch, Stutter y Fracturas IDM
+## 5 · Glitch, Stutter y Fracturas IDM
 
 *Efectos de manipulación de la rejilla temporal, cortes de audio a nivel muestral, síntesis granular y fallos digitales inducidos para música experimental y electrónica avanzada.*
 *Palabras clave: glitch, stutter, slicing, retrigger, bitcrushed, granular, chiptune, vaporwave, noise, IDM.*
@@ -612,7 +612,7 @@ description: Núcleo de control temporal, métrica matemática, cuantización y 
 
 ---
 
-### 6 · Dinámica, Acústica Espacial y Estructura Rítmica
+## 6 · Dinámica, Acústica Espacial y Estructura Rítmica
 
 *Procesamiento en la etapa de mezcla enfocado al ritmo: compresión sidechain, envolventes de transitorios, paneo espacial, cortes abruptos (drops/mutes) y el impacto acústico de la percusión.*
 *Palabras clave: sidechain, compression, reverb, delay, panning, drop, mute, transient, stereo, mono, volume, swell, filter.*

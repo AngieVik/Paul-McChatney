@@ -25,7 +25,7 @@ description: Técnicas vocales, expresiones emocionales, estilos de interpretaci
 
 ---
 
-### 1 · Estilos Agresivos, Metal y Distorsión Extrema
+## 1 · Estilos Agresivos, Metal y Distorsión Extrema
 
 *Voces llevadas al límite de la distorsión anatómica o de preamplificación, características de géneros extremos, punk y hardcore.*
 *Palabras clave: metalcore, death metal, growl, scream, gritando, gutural, screamo, distorsión vocal, furia, agresividad, punk, rabia, shrieking, hardcore.*
@@ -126,7 +126,7 @@ description: Técnicas vocales, expresiones emocionales, estilos de interpretaci
 
 ---
 
-### 2 · Técnicas Íntimas, Susurros y ASMR
+## 2 · Técnicas Íntimas, Susurros y ASMR
 
 *Interpretaciones donde prevalece la cercanía al micrófono, el aire en la voz, los susurros y las técnicas suaves y confidenciales.*
 *Palabras clave: ASMR, susurro, respiración, aireado, cercanía, falsete suave, voz de cama, intimidad, delicado, sensual, whisper, breathy, close-mic.*
@@ -197,7 +197,7 @@ description: Técnicas vocales, expresiones emocionales, estilos de interpretaci
 
 ---
 
-### 3 · Canto Clásico, Coral y Operístico
+## 3 · Canto Clásico, Coral y Operístico
 
 *Interpretaciones de corte académico, clásico, sacro o monumental, destacando el control del vibrato, la proyección y la armonía coral masiva.*
 *Palabras clave: ópera, soprano, barítono, coro, canto gregoriano, épico, sinfónico, bel canto, lírico, vibrato, iglesia, sacro, celestial, clásico.*
@@ -257,7 +257,7 @@ description: Técnicas vocales, expresiones emocionales, estilos de interpretaci
 
 ---
 
-### 4 · Emociones Extremas, Desesperación y Llanto
+## 4 · Emociones Extremas, Desesperación y Llanto
 
 *Voces que actúan emociones desbordadas como el llanto, el terror, la asfixia, ataques de pánico o la locura extrema.*
 *Palabras clave: llorar, sollozo, dolor, pánico, histeria, locura, asfixia, jadeo, ansiedad, maníaco, tristeza profunda, quebranto, sobbing, crying.*
@@ -334,7 +334,7 @@ description: Técnicas vocales, expresiones emocionales, estilos de interpretaci
 
 ---
 
-### 5 · Procesamiento Digital, Glitch y Voces Robóticas
+## 5 · Procesamiento Digital, Glitch y Voces Robóticas
 
 *Estilos generados o fuertemente manipulados por herramientas digitales, como el autotune extremo, el vocoder, inteligencias artificiales o efectos de corte (stutter).*
 *Palabras clave: autotune, vocoder, robot, glitch, cibernético, artificial, tartamudeo digital, sintetizador, trap vocal, IA, android, stutter, chopped.*
@@ -409,7 +409,7 @@ description: Técnicas vocales, expresiones emocionales, estilos de interpretaci
 
 ---
 
-### 6 · Rap, Spoken Word y Rítmica Acelerada
+## 6 · Rap, Spoken Word y Rítmica Acelerada
 
 *Cadencias y fraseos rápidos, rítmicos y articulados. Cubre desde estilos veloces de rap hasta recitados rítmicos y acentuaciones staccato.*
 *Palabras clave: rap, hip hop, flow rápido, double-time, chopper, rimas, spoken word, métrica, staccato, MC, drill, articulación rápida.*
@@ -454,7 +454,7 @@ description: Técnicas vocales, expresiones emocionales, estilos de interpretaci
 
 ---
 
-### 7 · Canto Étnico, Tradicional y Canto Gutural
+## 7 · Canto Étnico, Tradicional y Canto Gutural
 
 *Técnicas vocales del folklore mundial, cantos difónicos (overtone), tradicionales, cánticos ceremoniales e interpretaciones vernáculas.*
 *Palabras clave: throat singing, canto difónico, flamenco, folklore, yodel, tribal, cántico, bálcanico, monje budista, chaman, étnico, tradicional.*
@@ -496,7 +496,7 @@ description: Técnicas vocales, expresiones emocionales, estilos de interpretaci
 
 ---
 
-### 8 · Voz Hablada, Monólogos y Actuación Teatral
+## 8 · Voz Hablada, Monólogos y Actuación Teatral
 
 *Uso de la voz para diálogos, monólogos, sarcasmo, discursos, estado de embriaguez o interpretaciones de personaje (sin estar cantado estructuralmente).*
 *Palabras clave: monólogo, diálogo, hablado, actor, teatro, sarcasmo, borracho, altanero, locutor, narrador, acento, comedia, cinismo, recitado.*
@@ -579,7 +579,7 @@ description: Técnicas vocales, expresiones emocionales, estilos de interpretaci
 
 ---
 
-### 9 · Efectos de Estudio, Capas y Modulación de Tono
+## 9 · Efectos de Estudio, Capas y Modulación de Tono
 
 *Simulaciones de hardware analógico, entornos físicos, filtros telefónicos, megáfonos, coros estratificados, delays y manipulación de pitch/formante.*
 *Palabras clave: lo-fi, megáfono, teléfono, radio antigua, delay, reverb, sub-bass, coros, octava, pitch-shift, formantes, phaser, chorus, espacial, filtro.*
@@ -743,7 +743,7 @@ description: Técnicas vocales, expresiones emocionales, estilos de interpretaci
 
 ---
 
-### 10 · Soul, R&B, Blues y Melodías Expresivas
+## 10 · Soul, R&B, Blues y Melodías Expresivas
 
 *Abarca el virtuosismo melódico, melismas, voces ásperas con groove, belting emocional, crooning y ejecuciones características del soul, R&B, pop y gospel.*
 *Palabras clave: melisma, soul, r&b, blues, gospel, jazz, crooner, vibrato cálido, belting, pop enérgico, rasposo, groove, vocal runs, husky.*

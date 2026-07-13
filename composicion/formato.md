@@ -8,7 +8,7 @@ description: Estructura de salida: todo lo copiable va SIEMPRE en bloque de cód
 
 - *Archivo técnico de la entrega de Fase 5: todo lo copiable va en bloque de código markdown.*
 - *formato.md es infraestructura transversal y se abre directamente porque no requiere resolución conceptual.*
-  
+
 ## Referencias
 
 - **Consumido por:** `produccion` (Fase 5) y las skills en modo conversacional.
@@ -56,4 +56,4 @@ Fuera de la obra completa, entrega **cada pieza pedida en su propio bloque de c�
 
 - **Una sola pieza** (p. ej. solo `style_box`, solo la letra, un set de tags, un prompt de portada) → un único bloque con esa pieza.
 - **Varias piezas** → un bloque independiente por pieza, en orden lógico.
-- La conversación, la explicación y el razonamiento van SIEMPRE **fuera** d
+- La conversación, la explicación y el razonamiento van SIEMPRE **fuera** de los bloques; dentro, solo el contenido copiable.

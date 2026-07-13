@@ -21,7 +21,7 @@ description: Una colección exhaustiva de instrucciones (tags) diseñadas para i
 
 ---
 
-### 1 · Callbacks y Retornos Estructurales
+## 1 · Callbacks y Retornos Estructurales
 
 *Instrucciones enfocadas en la repetición y reintroducción de secciones clave, melodías principales y anclajes estructurales de la canción.*
 *Palabras clave: recall, return, reprise, callback, theme, intro, outro, chorus, verse, bridge, structure, motif, blueprint, matrix.*
@@ -334,7 +334,7 @@ description: Una colección exhaustiva de instrucciones (tags) diseñadas para i
 
 ---
 
-### 2 · Gestión de Pistas y Arreglos
+## 2 · Gestión de Pistas y Arreglos
 
 *Tags destinadas a mutear, aislar, añadir o suprimir elementos específicos de la mezcla de forma abrupta o progresiva.*
 *Palabras clave: cut, isolate, remove, mute, fade, add, bring in, strip down, banish.*
@@ -389,7 +389,7 @@ description: Una colección exhaustiva de instrucciones (tags) diseñadas para i
 
 ---
 
-### 3 · Dinámica, Tempo y Modulación Rítmica
+## 3 · Dinámica, Tempo y Modulación Rítmica
 
 *Control directo sobre la velocidad, el groove, interrupciones rítmicas, paradas dramáticas y modulaciones polirrítmicas.*
 *Palabras clave: tempo, beat drop, double-time, half-time, swell, fill, silence, shift, rhythm, transition.*
@@ -463,7 +463,7 @@ description: Una colección exhaustiva de instrucciones (tags) diseñadas para i
 
 ---
 
-### 4 · Efectos de Audio, Espacio y Texturas
+## 4 · Efectos de Audio, Espacio y Texturas
 
 *Procesamiento de señal, texturas ambientales, alteraciones estéreo, saturación y ecualización paramétrica.*
 *Palabras clave: filter, reverb, delay, echo, tape, lo-fi, bitcrushed, distortion, stereo, spatial, sidechain, sweep, stutter.*
@@ -678,7 +678,7 @@ description: Una colección exhaustiva de instrucciones (tags) diseñadas para i
 
 ---
 
-### 5 · Tratamiento Vocal y Coros
+## 5 · Tratamiento Vocal y Coros
 
 *Gestión integral de acapellas, secciones corales, susurros, armonizaciones y reverberación sobre la pista vocal.*
 *Palabras clave: vocal, acapella, choir, choral, ghost, harmony, chant, whisper, response, unison, ad-libs.*
@@ -788,7 +788,7 @@ description: Una colección exhaustiva de instrucciones (tags) diseñadas para i
 
 ---
 
-### 6 · Instrumentación, Género y Motivos
+## 6 · Instrumentación, Género y Motivos
 
 *Regreso e integración de instrumentos o líneas melódicas específicas como bajos 808, sintetizadores, vientos, guitarras y orquestaciones.*
 *Palabras clave: acoustic, brass, strings, bass, synth, guitar, 808, piano, orchestral, arpeggio, riff.*

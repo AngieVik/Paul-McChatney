@@ -25,7 +25,7 @@ description: Categorización exhaustiva de técnicas, efectos y procesos de prod
 
 ---
 
-### 1 · Dinámica y Volumen
+## 1 · Dinámica y Volumen
 
 *Gestión de amplitud, envolventes y control de transitorios. Compresores, limitadores, puertas de ruido y sidechaining paramétrico.*
 *Palabras clave: compresión, limiter, gate, sidechain, pump, ducking, tremolo, transitorios, dinámica, volumen, squeeze.*
@@ -111,7 +111,7 @@ description: Categorización exhaustiva de técnicas, efectos y procesos de prod
 
 ---
 
-### 2 · Ecualización y Filtros
+## 2 · Ecualización y Filtros
 
 *Modelado del espectro frecuencial, atenuación y resonancia selectiva mediante pasos altos, bajos, bandas y filtros modulados.*
 *Palabras clave: EQ, ecualización, filter, lowpass, highpass, bandpass, sweep, resonancia, wah, teléfono, radio.*
@@ -190,7 +190,7 @@ description: Categorización exhaustiva de técnicas, efectos y procesos de prod
 
 ---
 
-### 3 · Saturación, Distorsión y Lo-Fi
+## 3 · Saturación, Distorsión y Lo-Fi
 
 *Alteración armónica, clipping analógico/digital y degradación de señal intencionada (cinta, vinilo, reducción de bits).*
 *Palabras clave: distorsión, overdrive, fuzz, bitcrush, saturación, tape, cassette, vinilo, lo-fi, clipping, armónicos, degradación.*
@@ -347,7 +347,7 @@ description: Categorización exhaustiva de técnicas, efectos y procesos de prod
 
 ---
 
-### 4 · Reverberación y Espacios
+## 4 · Reverberación y Espacios
 
 *Simulación acústica de entornos físicos, generación de ecos de cámara y convoluciones espaciales de diversas escalas.*
 *Palabras clave: reverb, reverberación, room, chamber, hall, plate, spring, decay, shimmer, cloud, ambiente, espacio.*
@@ -451,7 +451,7 @@ description: Categorización exhaustiva de técnicas, efectos y procesos de prod
 
 ---
 
-### 5 · Delay y Ecos
+## 5 · Delay y Ecos
 
 *Líneas de retardo, repeticiones basadas en tiempo, simulaciones de cinta magnética, ping-pong estéreo y efectos de retroalimentación.*
 *Palabras clave: delay, echo, eco, ping-pong, slapback, tape delay, feedback, trails, retardo, tiempo.*
@@ -519,7 +519,7 @@ description: Categorización exhaustiva de técnicas, efectos y procesos de prod
 
 ---
 
-### 6 · Modulación
+## 6 · Modulación
 
 *Procesos basados en osciladores de baja frecuencia (LFO) para alterar tiempo, fase o tono de la señal (chorus, phaser, flanger, ring modulation).*
 *Palabras clave: chorus, flanger, phaser, vibrato, ring modulation, LFO, swirl, ensemble, fase, modulación.*
@@ -591,7 +591,7 @@ description: Categorización exhaustiva de técnicas, efectos y procesos de prod
 
 ---
 
-### 7 · Tono, Voces y Formantes
+## 7 · Tono, Voces y Formantes
 
 *Manipulación del pitch, afinación, vocoders, generación de armonías, manipulación de formantes y síntesis sub-armónica.*
 *Palabras clave: pitch, autotune, vocoder, formant, vocal, octave, sub-bass, microtonal, armonizador, afinación.*
@@ -698,7 +698,7 @@ description: Categorización exhaustiva de técnicas, efectos y procesos de prod
 
 ---
 
-### 8 · Imagen Estéreo y Espacialidad
+## 8 · Imagen Estéreo y Espacialidad
 
 *Posicionamiento en el campo estéreo, ensanchamiento, rotación tridimensional y técnicas binaurales o de fase inversa.*
 *Palabras clave: stereo, estéreo, pan, width, 3D, binaural, haas, mid-side, spatial, amplitud, panning.*
@@ -752,7 +752,7 @@ description: Categorización exhaustiva de técnicas, efectos y procesos de prod
 
 ---
 
-### 9 · Glitch, Stutter y Efectos Experimentales
+## 9 · Glitch, Stutter y Efectos Experimentales
 
 *Destrucción algorítmica, síntesis granular, fallos de reloj inducidos, time-stretching extremo y ruido experimental.*
 *Palabras clave: glitch, stutter, granular, reverse, noise, deconstructed, experimental, chaos, alien, tape stop.*
@@ -837,7 +837,7 @@ description: Categorización exhaustiva de técnicas, efectos y procesos de prod
 
 ---
 
-### 10 · Mezcla Base y Utilidades Generales
+## 10 · Mezcla Base y Utilidades Generales
 
 *Elementos de aislamiento, acabado de mezcla, refuerzo cinemático y ruidos puramente estructurales (blanco).*
 *Palabras clave: mix, isolation, polish, dry, cinemático, drum machine, white noise, layering, utilidad, base.*

@@ -23,7 +23,7 @@ description: Colección exhaustiva de tags negativas para evitar estilos musical
 
 ---
 
-### 1 · Géneros, Estilos y Estructuras Musicales
+## 1 · Géneros, Estilos y Estructuras Musicales
 
 *Géneros musicales comerciales, convencionales o de nicho específicos, así como estructuras rítmicas particulares que se desean excluir.*
 *Palabras clave: comercial, mainstream, pop, rock, metal, electrónico, urbano, jazz, clásica, ritmos, tempos, estructuras, vanguardia.*
@@ -114,7 +114,7 @@ description: Colección exhaustiva de tags negativas para evitar estilos musical
 
 ---
 
-### 2 · Instrumentos, Arreglos y Composición
+## 2 · Instrumentos, Arreglos y Composición
 
 *Instrumentación específica, tanto acústica como sintética, y técnicas de arreglo musical u orquestación.*
 *Palabras clave: acústico, sintetizador, cuerdas, vientos, metales, percusión, bajo, guitarra, piano, arpegios, solos, tradicional, orquesta.*
@@ -192,7 +192,7 @@ description: Colección exhaustiva de tags negativas para evitar estilos musical
 
 ---
 
-### 3 · Voces y Tratamiento Vocal
+## 3 · Voces y Tratamiento Vocal
 
 *Técnicas vocales, estilos de canto, agrupaciones corales y efectos aplicados directamente a la voz humana.*
 *Palabras clave: coros, voces, cantante, armonías, autotune, vocoder, gritos, susurros, operístico, falsete, formante.*
@@ -259,7 +259,7 @@ description: Colección exhaustiva de tags negativas para evitar estilos musical
 
 ---
 
-### 4 · Efectos Espaciales (Reverb y Delay)
+## 4 · Efectos Espaciales (Reverb y Delay)
 
 *Efectos basados en el tiempo, reflexión acústica, ecos y simulación de espacios.*
 *Palabras clave: reverberación, eco, delay, ping-pong, espacial, sala, catedral, slapback, shimmer, acústica de cuarto.*
@@ -347,7 +347,7 @@ description: Colección exhaustiva de tags negativas para evitar estilos musical
 
 ---
 
-### 5 · Efectos de Modulación y Afinación
+## 5 · Efectos de Modulación y Afinación
 
 *Procesamiento que altera la fase, afinación o modulación cíclica de la señal de audio.*
 *Palabras clave: chorus, flanger, phaser, lfo, vibrato, autotune, pitch, afinación, tremolo, modulación, formante.*
@@ -421,7 +421,7 @@ description: Colección exhaustiva de tags negativas para evitar estilos musical
 
 ---
 
-### 6 · Distorsión, Saturación y Estética Lo-Fi
+## 6 · Distorsión, Saturación y Estética Lo-Fi
 
 *Efectos que degradan la señal introduciendo armónicos, saturación de cinta/válvulas, reducción de bits o ruido analógico.*
 *Palabras clave: distorsión, fuzz, saturación, lo-fi, overdrive, bitcrusher, analógico, vinilo, cassette, cinta, overdrive, válvulas.*
@@ -511,7 +511,7 @@ description: Colección exhaustiva de tags negativas para evitar estilos musical
 
 ---
 
-### 7 · Dinámica, Ecualización y Mezcla Espacial
+## 7 · Dinámica, Ecualización y Mezcla Espacial
 
 *Procesos que afectan el volumen, el espectro de frecuencias, la compresión, el panorama estéreo y el balance general.*
 *Palabras clave: eq, compresión, limitador, sidechain, estéreo, panning, graves, agudos, lowpass, highpass, dinámica, master.*
@@ -646,7 +646,7 @@ description: Colección exhaustiva de tags negativas para evitar estilos musical
 
 ---
 
-### 8 · Artefactos, Ruidos y Edición
+## 8 · Artefactos, Ruidos y Edición
 
 *Elementos de edición indeseados, fallos digitales, ruido de fondo ambiental y texturas disruptivas de postproducción.*
 *Palabras clave: ruido, glitch, rascado, clicks, ambiente, público, ruido blanco, tartamudeo, tartamudeo vocal, edición, cortes.*

@@ -24,7 +24,7 @@ description: Directorio maestro de modificadores avanzados para generación, mod
 
 ---
 
-### 1 · Procesamiento Vocal y Formantes
+## 1 · Procesamiento Vocal y Formantes
 
 *Procesamiento avanzado de espectro vocal, alteración de formantes, aislamiento fonético y síntesis de voz.*
 *Palabras clave: vocoder, autotune, formant, choir, singer, AI voice, acapella, dry vocal, pitch-correction, whisper.*
@@ -129,7 +129,7 @@ description: Directorio maestro de modificadores avanzados para generación, mod
 
 ---
 
-### 2 · Dinámica, Compresión y Sidechain
+## 2 · Dinámica, Compresión y Sidechain
 
 *Control de rango dinámico, limitación brickwall, manipulación de transitorios y bombeo por sidechain.*
 *Palabras clave: compressor, limiter, ducking, sidechain, transient, pump, gate, master bus, brickwall, dynamics.*
@@ -183,7 +183,7 @@ description: Directorio maestro de modificadores avanzados para generación, mod
 
 ---
 
-### 3 · Ecualización, Filtros y Frecuencias
+## 3 · Ecualización, Filtros y Frecuencias
 
 *Aislamiento y supresión de bandas de frecuencia, barridos de filtro y ecualización sustractiva.*
 *Palabras clave: lowpass, highpass, bandpass, sweep, scoop, EQ, telephone filter, resonance, filter, mid-scoop.*
@@ -248,7 +248,7 @@ description: Directorio maestro de modificadores avanzados para generación, mod
 
 ---
 
-### 4 · Espacialidad y Reverberación
+## 4 · Espacialidad y Reverberación
 
 *Modelado acústico espacial, decaimiento de colas de reverberación y respuestas a impulsos ambientales.*
 *Palabras clave: reverb, space, cathedral, plate, decay, wash, room, stadium, pre-delay, reflections, tail.*
@@ -300,7 +300,7 @@ description: Directorio maestro de modificadores avanzados para generación, mod
 
 ---
 
-### 5 · Modulación, Retardo y Campo Estéreo
+## 5 · Modulación, Retardo y Campo Estéreo
 
 *Manipulación del campo estéreo, ecos, modulaciones de fase e interpolación de retardo.*
 *Palabras clave: delay, echo, chorus, flanger, phaser, stereo, pan, width, ping-pong, widening, spatialization.*
@@ -374,7 +374,7 @@ description: Directorio maestro de modificadores avanzados para generación, mod
 
 ---
 
-### 6 · Saturación, Distorsión y Degradación Lo-Fi
+## 6 · Saturación, Distorsión y Degradación Lo-Fi
 
 *Inyección de armónicos, saturación de cinta, reducción de frecuencia de muestreo y artefactos analógicos.*
 *Palabras clave: distortion, overdrive, saturation, lo-fi, bitcrush, tape, vinyl, fuzz, tube, artifact, degradation, decimation.*
@@ -460,7 +460,7 @@ description: Directorio maestro de modificadores avanzados para generación, mod
 
 ---
 
-### 7 · Tiempo, Ritmo y Estructura
+## 7 · Tiempo, Ritmo y Estructura
 
 *Alteraciones de pulso, métricas complejas, cortes estructurales y manipulaciones de tempo.*
 *Palabras clave: BPM, tempo, stutter, drop, mute, polyrhythm, half-time, glitch, beat, grid, rhythm, syncopation.*
@@ -596,7 +596,7 @@ description: Directorio maestro de modificadores avanzados para generación, mod
 
 ---
 
-### 8 · Síntesis, Instrumentación y Tonalidad
+## 8 · Síntesis, Instrumentación y Tonalidad
 
 *Generadores de onda, modulación en anillo, manipulación de subgraves y aislamiento de capas instrumentales.*
 *Palabras clave: synth, bass, acoustic, electric, FM, ring modulation, arpeggio, oscillator, sub-bass, harmonic.*
@@ -712,7 +712,7 @@ description: Directorio maestro de modificadores avanzados para generación, mod
 
 ---
 
-### 9 · Matrices Cuánticas y Experimentales
+## 9 · Matrices Cuánticas y Experimentales
 
 *Algoritmos estocásticos, modulación caótica, inversiones de fase y transformaciones matemáticas complejas.*
 *Palabras clave: quantum, tachyon, fractal, stochastic, chaos, non-euclidean, phase inversion, anomaly, granular, geometric.*

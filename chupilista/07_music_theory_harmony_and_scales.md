@@ -21,7 +21,7 @@ description: Una base de datos exhaustiva sobre teoría musical, abarcando desde
 
 ---
 
-### 1 · Afinación, Frecuencias y Sistemas Microtonales
+## 1 · Afinación, Frecuencias y Sistemas Microtonales
 
 *Sistemas de afinación, temperamentos históricos, proporciones fraccionarias y frecuencias específicas.*
 *Palabras clave: hz, microtonal, temperamento, afinación, solfeggio, just intonation, pythagorean, shruti, equal temperament, tone, pitch.*
@@ -83,7 +83,7 @@ description: Una base de datos exhaustiva sobre teoría musical, abarcando desde
 
 ---
 
-### 2 · Acordes, Voicings y Estructuras Armónicas
+## 2 · Acordes, Voicings y Estructuras Armónicas
 
 *Construcción de acordes, inversiones, técnicas de voicing y estructuras armónicas verticales.*
 *Palabras clave: chords, triadas, séptimas, extensiones, voicings, inversiones, clusters, drop, hexad, pentad, arpegio, shell, barre, power chords.*
@@ -210,7 +210,7 @@ description: Una base de datos exhaustiva sobre teoría musical, abarcando desde
 
 ---
 
-### 3 · Progresiones, Cadencias y Movimientos
+## 3 · Progresiones, Cadencias y Movimientos
 
 *Secuencias de acordes, resoluciones, análisis mediante números romanos y movimientos armónicos funcionales.*
 *Palabras clave: cadences, progresiones, turnaround, roman numerals, resoluciones, movimientos, loop, changes, vamp, ostinato.*
@@ -341,7 +341,7 @@ description: Una base de datos exhaustiva sobre teoría musical, abarcando desde
 
 ---
 
-### 4 · Escalas occidentales, Modos y Conceptos Teóricos
+## 4 · Escalas occidentales, Modos y Conceptos Teóricos
 
 *Escalas contemporáneas, modos diatónicos, atonalidad, polítonalidad y conceptos analíticos avanzados.*
 *Palabras clave: scales, modes, dorian, lydian, harmony, atonal, serialism, neo-riemannian, interchange, cluster, tritone, chromaticism.*
@@ -459,7 +459,7 @@ description: Una base de datos exhaustiva sobre teoría musical, abarcando desde
 
 ---
 
-### 5 · Escalas Exóticas y Sistemas del Mundo
+## 5 · Escalas Exóticas y Sistemas del Mundo
 
 *Escalas tradicionales, microtonales étnicas y sistemas modales de diferentes culturas globales.*
 *Palabras clave: maqam, raga, gamelan, pentatonic, gypsy, byzantine, ethnic, world music, arabic, chinese, japanese, indian.*
@@ -533,7 +533,7 @@ description: Una base de datos exhaustiva sobre teoría musical, abarcando desde
 
 ---
 
-### 6 · Taxonomía Aplicada por Tonalidad Fundamental
+## 6 · Taxonomía Aplicada por Tonalidad Fundamental
 
 *Aplicaciones armónicas, secuencias y escalas específicas para cada nota raíz del sistema occidental.*
 *Palabras clave: root notes, key specific, major, minor, dominant, tonalidad fundamental, chords by key.*

@@ -23,7 +23,7 @@ description: Colección exhaustiva de tags sobre la estructura musical, seccione
 
 ---
 
-### 1 · Introducciones y Preámbulos
+## 1 · Introducciones y Preámbulos
 
 *Secciones iniciales que establecen el tono, la atmósfera y el contexto temático antes del desarrollo de la estructura principal.*
 *intro, prelude, opening, start, fade in, comienzo, inicio, preamble, setup, atmósfera inicial.*
@@ -143,7 +143,7 @@ description: Colección exhaustiva de tags sobre la estructura musical, seccione
 
 ---
 
-### 2 · Versos y Estrofas
+## 2 · Versos y Estrofas
 
 *Bloques narrativos y rítmicos principales que desarrollan la lírica o el motivo central de la obra, a menudo con variaciones métricas o instrumentales.*
 *verse, estrofa, rap, flow, stanza, main vocal, desarrollo lírico, patrón vocal.*
@@ -288,7 +288,7 @@ description: Colección exhaustiva de tags sobre la estructura musical, seccione
 
 ---
 
-### 3 · Pre-Estribillos y Construcciones de Tensión
+## 3 · Pre-Estribillos y Construcciones de Tensión
 
 *Transiciones ascendentes diseñadas para generar expectativa, aumentar la dinámica y preparar la llegada del clímax o estribillo.*
 *pre-chorus, build, rise, tension, crescendo, escalada, subida, anticipación, buildup.*
@@ -333,7 +333,7 @@ description: Colección exhaustiva de tags sobre la estructura musical, seccione
 
 ---
 
-### 4 · Estribillos y Ganchos (Hooks)
+## 4 · Estribillos y Ganchos (Hooks)
 
 *El núcleo emocional y pegadizo de la pista, caracterizado por su alta energía, memorabilidad y repetición dinámica.*
 *chorus, hook, estribillo, drop lírico, anthemic, climax, pegadizo, coro, main theme.*
@@ -466,7 +466,7 @@ description: Colección exhaustiva de tags sobre la estructura musical, seccione
 
 ---
 
-### 5 · Puentes y Breakdowns
+## 5 · Puentes y Breakdowns
 
 *Secciones de contraste estructural que rompen la monotonía mediante cambios armónicos, rítmicos o instrumentales.*
 *bridge, breakdown, mid 8, puente, contraste, caída, cambio armónico, rotura rítmica.*
@@ -579,7 +579,7 @@ description: Colección exhaustiva de tags sobre la estructura musical, seccione
 
 ---
 
-### 6 · Interludios, Drops y Transiciones
+## 6 · Interludios, Drops y Transiciones
 
 *Segmentos instrumentales, cortes abruptos o efectos de diseño sonoro que conectan partes mayores o impactan mediante contrastes dinámicos.*
 *interlude, drop, transition, solo, break, fx, corte, transición, paso, silencio, beat drop.*
@@ -749,7 +749,7 @@ description: Colección exhaustiva de tags sobre la estructura musical, seccione
 
 ---
 
-### 7 · Outros, Codas y Finales
+## 7 · Outros, Codas y Finales
 
 *Secciones de cierre que resuelven la pista, ya sea mediante un clímax final, un desvanecimiento paulatino o cortes abruptos de sonido.*
 *outro, coda, ending, fade out, finale, cierre, conclusión, resolución, postlude.*
@@ -955,7 +955,7 @@ description: Colección exhaustiva de tags sobre la estructura musical, seccione
 
 ---
 
-### 8 · Narrativa, Motivos y Elementos Conceptuales
+## 8 · Narrativa, Motivos y Elementos Conceptuales
 
 *Tags abstractas que describen arcos narrativos, desarrollo de personajes, conflictos emocionales o la repetición y reaparición de motivos estructurales a lo largo de la pista.*
 *narrative, concept, motif, emotion, story, theme, motivo, narrativa, abstracto, recall, callback.*

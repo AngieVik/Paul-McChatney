@@ -24,7 +24,7 @@ description: Clasificación de estilos vocales, timbres, emociones y efectos de 
 
 ---
 
-### 1 · Clasificación Vocal Clásica y Tonalidad
+## 1 · Clasificación Vocal Clásica y Tonalidad
 
 *Clasificaciones de registro vocal, desde los bajos más profundos hasta las sopranos más agudas, incluyendo perfiles operísticos.*
 *Palabras clave: rango vocal, ópera, clásico, soprano, tenor, barítono, bajo, registro, tono, classical, opera, range, pitch, vocal type.*
@@ -69,7 +69,7 @@ description: Clasificación de estilos vocales, timbres, emociones y efectos de 
 
 ---
 
-### 2 · Identidad, Edad y Género
+## 2 · Identidad, Edad y Género
 
 *Tags que definen la voz por su rango de edad, identidad de género o características demográficas básicas.*
 *Palabras clave: hombre, mujer, niño, anciano, joven, andrógino, edad, género, male, female, kid, old, young, age, gender, identity.*
@@ -102,7 +102,7 @@ description: Clasificación de estilos vocales, timbres, emociones y efectos de 
 
 ---
 
-### 3 · Emociones, Estado y Condición Física
+## 3 · Emociones, Estado y Condición Física
 
 *Voces que transmiten un estado anímico o físico específico, desde el llanto y la ansiedad hasta la fatiga o la embriaguez.*
 *Palabras clave: llorar, triste, enojado, asustado, borracho, cansado, emociones, crying, sad, angry, scared, drunk, tired, emotions, mood, breath.*
@@ -169,7 +169,7 @@ description: Clasificación de estilos vocales, timbres, emociones y efectos de 
 
 ---
 
-### 4 · Géneros Musicales y Estilos
+## 4 · Géneros Musicales y Estilos
 
 *Voces adaptadas a géneros musicales específicos como rap, metal, jazz, blues, country, pop o música folk.*
 *Palabras clave: estilo, género musical, rap, rock, metal, pop, jazz, blues, country, r&b, style, genre, singing, vocal style.*
@@ -315,7 +315,7 @@ description: Clasificación de estilos vocales, timbres, emociones y efectos de 
 
 ---
 
-### 5 · Técnicas Vocales, Textura y Expresión
+## 5 · Técnicas Vocales, Textura y Expresión
 
 *Cualidades tímbricas, texturas y técnicas de emisión vocal como susurros, gritos, falsetes, vibratos o spoken word.*
 *Palabras clave: técnica, textura, susurro, grito, rasposo, falsete, hablado, ASMR, whisper, shout, raspy, falsetto, spoken, vibrato, texture.*
@@ -491,7 +491,7 @@ description: Clasificación de estilos vocales, timbres, emociones y efectos de 
 
 ---
 
-### 6 · Coros, Agrupaciones y Armonías
+## 6 · Coros, Agrupaciones y Armonías
 
 *Múltiples voces cantando al unísono o en armonía, desde coros de estadio y multitudes hasta cuartetos acapella y cantos gregorianos.*
 *Palabras clave: coro, multitud, armonía, acapella, dueto, grupo, estadio, choir, crowd, harmony, duet, group, stadium, ensemble.*
@@ -555,7 +555,7 @@ description: Clasificación de estilos vocales, timbres, emociones y efectos de 
 
 ---
 
-### 7 · Personajes, Arquetipos y Locuciones
+## 7 · Personajes, Arquetipos y Locuciones
 
 *Voces que interpretan roles específicos o personajes, como narradores, robots, monstruos, demonios, alienígenas, locutores y villanos.*
 *Palabras clave: personaje, narrador, locutor, robot, monstruo, demonio, alien, villano, character, narrator, announcer, robot, monster, demon, alien, villain, voiceover.*
@@ -706,7 +706,7 @@ description: Clasificación de estilos vocales, timbres, emociones y efectos de 
 
 ---
 
-### 8 · Efectos, Procesamiento y Entorno Acústico
+## 8 · Efectos, Procesamiento y Entorno Acústico
 
 *Alteraciones en la voz creadas mediante efectos de estudio, manipulación de tono, emulaciones de tecnología antigua o entornos espaciales.*
 *Palabras clave: autotune, vocoder, radio, teléfono, lofi, distorsión, reverb, glitch, pitch, autotune, vocoder, radio, telephone, lofi, distortion, reverb, effects, processing.*
