@@ -31,8 +31,7 @@ description: Plantilla canónica de proyecto. Cópiala para abrir una canción n
 
 - Por defecto sin marcar; cuando el usuario tenga la pista masterizada, marca el checkbox `Masterizado` para control personal.
 
-[ ] No Masterizado
-[X] Masterizado
+[ ] Masterizado
 
 ## style_box
 

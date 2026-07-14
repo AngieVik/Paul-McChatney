@@ -6,7 +6,10 @@ Comprueba, sobre el árbol .md del proyecto:
   1. Enlaces relativos rotos (sintaxis Markdown `[texto](ruta)` y `<a href="ruta">`).
   2. Rutas mencionadas entre backticks (`archivo.md`) que no existen en disco
      (ignora rutas-plantilla evidentes: <slug>, NN, ejemplo, texto...).
-  3. Corchetes de tags `[Tag]` mal formados dentro de bloques de código.
+  3. Corchetes de tags `[Tag]` mal formados dentro de bloques de código: analiza
+     cada línea de cada bloque por separado (pila de profundidad), no el total
+     de `[` y `]` del bloque entero — así un cierre sin apertura ya no puede
+     quedar oculto porque otro tag distinto compensó el conteo global.
   4. Archivos truncados: frontmatter incompleto (falta cierre `---`, faltan
      claves `name`/`type`/`description`) o el archivo de INSTRUCCIONES
      (skills, rules, composicion, system_prompt, raíz) termina a mitad de frase.
@@ -121,17 +124,53 @@ def check_backtick_paths(path: Path, text: str, root: Path, problems: list):
             )
 
 
-def check_bracket_balance(path: Path, text: str, root: Path, problems: list, label: str = None):
+def check_bracket_tags(path: Path, text: str, root: Path, problems: list, label: str = None):
+    """Analiza cada LÍNEA de cada bloque de código con una pila de profundidad,
+    en vez de comparar el total de '[' y ']' del bloque entero. El chequeo
+    agregado anterior podía ocultar un tag individual mal formado si otro tag
+    distinto compensaba el conteo global (ej. una línea con ']' de más y otra
+    con '[' de más sumaban 0 de diferencia y no se detectaban).
+
+    Asume la convención real del proyecto: un tag `[Verse]`/`[Chorus: nota]`
+    abre y cierra en la misma línea, sin anidar corchetes dentro de otros
+    corchetes. Por eso reporta tres tipos de problema por línea:
+      - ']' sin '[' previo en esa misma línea (cierre huérfano).
+      - '[' que no cierra antes de terminar la línea (apertura huérfana).
+      - profundidad > 1 dentro de una línea (corchetes anidados, no usados
+        en la sintaxis de tags de este proyecto — casi siempre un error de
+        tecleo, ej. `[Verse [ad-lib]]`).
+    """
+    where = label or rel(path, root)
     for block in CODEBLOCK_RE.findall(text):
-        opens = block.count("[")
-        closes = block.count("]")
-        if opens != closes:
-            snippet = block.strip().splitlines()[0][:60] if block.strip() else "(vacío)"
-            where = label or rel(path, root)
-            problems.append(
-                f"[corchetes desbalanceados] {where} en bloque que empieza por: {snippet!r} "
-                f"({opens} '[' vs {closes} ']')"
-            )
+        for line_no, line in enumerate(block.splitlines(), start=1):
+            depth = 0
+            max_depth = 0
+            for ch in line:
+                if ch == "[":
+                    depth += 1
+                    max_depth = max(max_depth, depth)
+                elif ch == "]":
+                    if depth == 0:
+                        snippet = line.strip()[:60] or "(vacío)"
+                        problems.append(
+                            f"[tag mal formado] {where} línea de bloque {line_no}: "
+                            f"']' sin '[' previo en la misma línea: {snippet!r}"
+                        )
+                    else:
+                        depth -= 1
+            if depth > 0:
+                snippet = line.strip()[:60] or "(vacío)"
+                problems.append(
+                    f"[tag mal formado] {where} línea de bloque {line_no}: "
+                    f"{depth} '[' sin cerrar en la misma línea: {snippet!r}"
+                )
+            if max_depth > 1:
+                snippet = line.strip()[:60] or "(vacío)"
+                problems.append(
+                    f"[tag anidado sospechoso] {where} línea de bloque {line_no}: "
+                    f"corchetes anidados (profundidad {max_depth}), no usado en la sintaxis "
+                    f"de tags del proyecto: {snippet!r}"
+                )
 
 
 def check_unclosed_fences(path: Path, text: str, root: Path, problems: list, label: str = None):
@@ -237,7 +276,7 @@ def check_plantilla_skeletons(path: Path, text: str, root: Path, problems: list)
         label = f"{rel(path, root)} (esqueleto #{idx})"
         check_yaml_frontmatter_shape(path, inner, root, problems, label=label)
         check_heading_style(path, inner, root, problems, label=label)
-        check_bracket_balance(path, inner, root, problems, label=label)
+        check_bracket_tags(path, inner, root, problems, label=label)
 
 
 def rel(path: Path, root: Path) -> str:
@@ -266,7 +305,7 @@ def main():
 
         check_links(path, text, root, problems)
         check_backtick_paths(path, text, root, problems)
-        check_bracket_balance(path, text, root, problems)
+        check_bracket_tags(path, text, root, problems)
         check_frontmatter_and_truncation(path, text, root, problems)
         check_yaml_frontmatter_shape(path, text, root, problems)
         check_unclosed_fences(path, text, root, problems)

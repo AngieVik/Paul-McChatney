@@ -7,6 +7,7 @@ description: <qué construye este archivo técnico>
 # <name>
 
 - *Archivo técnico de referencia para construir, revisar y depurar el `<name>`.*
+- *Esta plantilla solo aplica al patrón "manual único"; si la skill consume una biblioteca de varios archivos (ej. `fonetizar`, `jerga`), no crees un `composicion/<name>.md` — no existe ese archivo para ese patrón.*
 
 ## Referencias
 
