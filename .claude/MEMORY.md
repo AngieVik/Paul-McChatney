@@ -1,10 +1,10 @@
 ---
-name: memory
-type: memory
-description: Directrices internas y aprendizaje transversal validado de Paul McChatney.
+name: "MEMORY"
+type: "core"
+description: "Directrices internas y aprendizaje transversal validado de Paul McChatney."
 ---
 
-# MEMORY — Directrices internas de Paul McChatney
+# MEMORY
 
 - *Aprendizaje acumulativo transversal, se actualiza manualmente.*
     - Las tags y las instrucciones de creación concretas no viven aquí, sino en `composicion/` (se abren bajo demanda).
@@ -38,4 +38,3 @@ description: Directrices internas y aprendizaje transversal validado de Paul McC
 
 - *Si hay un aprendizaje **real, de calidad y funcional**, se propone archivarlo donde se **consume** (principio → `MEMORY.md`; técnica/tag → su `composicion/`), en positivo y esperando aprobación explícita.*
     - *Protocolo completo: `.claude/skills/retrospectiva/SKILL.md`.*
-

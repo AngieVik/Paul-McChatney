@@ -1,7 +1,7 @@
 ---
-name: 08_dynamics_and_intensity
-type: chupilista
-description: Colección de tags que definen la evolución de la energía, las transiciones de volumen, los impactos dramáticos y el uso del espacio dinámico en la producción musical.
+name: "08_dynamics_and_intensity"
+type: "chupilista"
+description: "Colección de tags que definen la evolución de la energía, las transiciones de volumen, los impactos dramáticos y el uso del espacio dinámico en la producción musical."
 ---
 
 # 08_dynamics_and_intensity

@@ -1,12 +1,10 @@
 ---
-name: retrospectiva
-type: skill
-description: Gestiona el ciclo de aprendizaje del sistema: detecta hallazgos reales en cualquier momento del proceso, decide dónde archivarlos y actualiza memoria o manuales solo bajo aprobación explícita del usuario.
+name: "retrospectiva"
+type: "skill"
+description: "Convierte aprendizajes detectados durante el trabajo en conocimiento reutilizable: destila principios, confirma o descarta corazonadas y propone dónde guardarlos, siempre con aprobación explícita del usuario."
 ---
 
 # retrospectiva
-
-- *Convierte aprendizajes detectados durante el trabajo en conocimiento reutilizable: destila principios, confirma o descarta corazonadas y propone dónde guardarlos, siempre con aprobación explícita del usuario.*
 
 ---
 
@@ -64,12 +62,12 @@ description: Gestiona el ciclo de aprendizaje del sistema: detecta hallazgos rea
 ## Ejemplo
 
 **Entrada:**
-    ```text
-    `proyectos/papas_en_ajopollo/papas_en_ajopollo.md`
-    ```
+```text
+`proyectos/papas_en_ajopollo/papas_en_ajopollo.md`
+```
 **Salida:**
-    ```text
-    Principio transversal → La narrativa manda: antes de tocar un tag, entiende qué historia cuenta la canción y para quién. (→ .claude/MEMORY.md)
-    Corazonada confirmada → el "3D Room Dynamics" de efectos §1.5 funcionó: propongo ascenderlo (quitar ⚗️). (→ composicion/efectos.md)
-    ¿`Añadir`, `Modificar`, `Eliminar` o `No hacer nada`?
-    ```
+```text
+Principio transversal → La narrativa manda: antes de tocar un tag, entiende qué historia cuenta la canción y para quién. (→ .claude/MEMORY.md)
+Corazonada confirmada → el "3D Room Dynamics" de efectos §1.5 funcionó: propongo ascenderlo (quitar ⚗️). (→ composicion/efectos.md)
+¿`Añadir`, `Modificar`, `Eliminar` o `No hacer nada`?
+```

@@ -1,7 +1,7 @@
 ---
-name: jerga
-type: skill
-description: Inyecta en el texto cantable jerga específica para que se cante. Nunca en el style_box. Activable en `produccion` (Fase 3) o en modo conversacional sobre una obra, un párrafo o una frase.
+name: "jerga"
+type: "skill"
+description: "Inyecta en el texto cantable jerga específica para que se cante. Nunca en el style_box. Activable en `produccion` (Fase 3) o en modo conversacional sobre una obra, un párrafo o una frase."
 ---
 
 # jerga
@@ -57,10 +57,10 @@ description: Inyecta en el texto cantable jerga específica para que se cante. N
 ## Ejemplo
 
 **Entrada:**
-    ```text
-    `Deja de decir tonterías y vayamos ya un momento a la playa, ¡por supuesto que sí!` + jerga Almeriense.
-    ```
+```text
+`Deja de decir tonterías y vayamos ya un momento a la playa, ¡por supuesto que sí!` + jerga Almeriense.
+```
 **Salida:**
-    ```text
-    Almeriense: `Déjate de chuminás y vámonos ya un ratico a la playa, ¡no ni ná!`.
-    ```
+```text
+Almeriense: `Déjate de chuminás y vámonos ya un ratico a la playa, ¡no ni ná!`.
+```

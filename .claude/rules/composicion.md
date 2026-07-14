@@ -1,7 +1,7 @@
 ---
-name: composicion
-type: map
-description: Índice maestro de los archivos de composición, saber de oficio y técnica de Paul.
+name: "composicion"
+type: "map"
+description: "Índice maestro de los archivos de composición, saber de oficio y técnica de Paul."
 ---
 
 - *Se abre bajo demanda, este índice es el mapa concepto→archivo, abre cada `composicion/<archivo>.md` con la herramienta de lectura, solo el/los que necesites.*

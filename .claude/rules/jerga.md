@@ -1,7 +1,7 @@
 ---
-name: jerga
-type: map
-description: Guías de jerga para idiomas y dialectos. Permiten inyectar jerga específica en la letra.
+name: "jerga"
+type: "map"
+description: "Guías de jerga para idiomas y dialectos. Permiten inyectar jerga específica en la letra."
 ---
 
 - *No se carga con `@`, este índice es el mapa concepto→archivo, abre cada `jerga/<archivo>.md` bajo demanda con la herramienta de lectura, solo el/los que necesites.*

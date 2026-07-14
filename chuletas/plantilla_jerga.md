@@ -1,7 +1,7 @@
 ---
-name: plantilla_jerga
-type: plantilla
-description: Genera el manual de jerga de [], sigue la plantilla y genera el resultado en un bloque de código markdown.
+name: "plantilla_jerga"
+type: "plantilla"
+description: "Genera el manual de jerga de [], sigue la plantilla y genera el resultado en un bloque de código markdown."
 ---
 
 # plantilla_jerga
@@ -14,8 +14,8 @@ description: Genera el manual de jerga de [], sigue la plantilla y genera el res
 ---
 name: <slug>
 type: jerga
-description: Breve descripción general del origen y uso de la jerga. Ej. "Jerga urbana de clase trabajadora, fuertemente influenciada por la inmigración y el argot carcelario, actualmente asimilada en la cultura pop."
-region: <Ámbito: región, idioma, grupo social, gremio o profesión>
+description: "<descripcion>"
+region: "<ambito>"
 ---
 
 # <slug>
@@ -86,5 +86,12 @@ Disección de frases completas aplicando el vocabulario y las reglas anteriores.
     - *Desglose Lexical:* [Explicación de la metáfora o el insulto utilizado].
     - *Traducción Estándar:* **"[La frase en español neutro, plano y formal]"**
 ```
+
+---
+
+## Instrucciones
+
+- **`<descripcion>`:** breve descripción general del origen y uso de la jerga. Ej. "Jerga urbana de clase trabajadora, influenciada por la inmigración y el argot carcelario, asimilada en la cultura pop".
+- **`<ambito>`:** región, idioma, grupo social, gremio o profesión.
 
 ---

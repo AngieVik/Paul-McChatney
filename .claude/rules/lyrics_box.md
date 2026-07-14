@@ -1,7 +1,7 @@
 ---
-name: lyrics_box
-type: map
-description: Tags del lyrics_box: control por corchetes, dirección de banda, estructura y hacks temporales.
+name: "lyrics_box"
+type: "map"
+description: "Tags del lyrics_box: control por corchetes, dirección de banda, estructura y hacks temporales."
 ---
 
 - *No se carga con `@`, este índice es el mapa concepto→archivo, abre `composicion/lyrics_box.md` bajo demanda con la herramienta de lectura.*

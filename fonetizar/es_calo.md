@@ -1,10 +1,9 @@
 ---
-name:es_calo
+name: es_calo
 type: fonetizar
 description: Sistema lingüístico parasitario (lengua mixta). El caló contemporáneo carece de una fonología o gramática independiente; incrusta léxico de origen romaní directamente sobre la matriz fonotáctica y morfológica del castellano, aplicando de forma estricta las reglas del macrodialecto andaluz o meridional.
 region: Caló (Romaní Ibérico / Calé)
 ---
-
 # es_calo
 
 ## 1 · Perfil Fonético General

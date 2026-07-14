@@ -1,7 +1,7 @@
 ---
-name: 14_nudging_and_callbacks
-type: chupilista
-description: Una colección exhaustiva de instrucciones (tags) diseñadas para invocar motivos pasados, reestructurar arreglos, manipular la dinámica rítmica y aplicar texturas de mezcla en la generación de audio musical.
+name: "14_nudging_and_callbacks"
+type: "chupilista"
+description: "Una colección exhaustiva de instrucciones (tags) diseñadas para invocar motivos pasados, reestructurar arreglos, manipular la dinámica rítmica y aplicar texturas de mezcla en la generación de audio musical."
 ---
 
 # 14_nudging_and_callbacks

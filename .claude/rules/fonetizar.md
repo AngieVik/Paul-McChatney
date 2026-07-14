@@ -1,7 +1,7 @@
 ---
-name: fonetizar
-type: map
-description: Guías de fonetización para idiomas y dialectos. Permiten simular acentos específicos en la letra.
+name: "fonetizar"
+type: "map"
+description: "Guías de fonetización para idiomas y dialectos. Permiten simular acentos específicos en la letra."
 ---
 
 - *No se carga con `@`, este índice es el mapa concepto→archivo, abre cada `fonetizar/<archivo>.md` bajo demanda con la herramienta de lectura, solo el/los que necesites.*

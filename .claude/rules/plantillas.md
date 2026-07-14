@@ -1,7 +1,7 @@
 ---
-name: plantillas
-type: map
-description: Índice maestro de plantillas para la creación de archivos, y estilo.
+name: "plantillas"
+type: "map"
+description: "Índice maestro de plantillas para la creación de archivos, y estilo."
 ---
 
 - *Se abre bajo demanda, este índice es el mapa concepto→archivo, abre cada `chuletas/<archivo>.md` con la herramienta de lectura, solo el/los que necesites.*

@@ -1,12 +1,12 @@
 ---
-name: plantilla_skill
-type: plantilla
-description: Guia de referencia para la creacion de un archivo de skill en .claude/skills/<slug>/SKILL.md
+name: "plantilla_skill"
+type: "plantilla"
+description: "Guia de referencia para la creacion de un archivo de skill en `.claude/skills/<slug>/SKILL.md`."
 ---
 
 # plantilla_skill
 
-- No hay campos minimos ni obligatorios: rellena solo lo que aplique, las secciones dentro de cada skill varian en funcion de su naturaleza y objetivo.
+- Las **secciones funcionales son opcionales**: varían según la naturaleza y el objetivo de cada skill, rellena solo las que apliquen. La **identidad documental sí es obligatoria** en toda skill: frontmatter con `name`, `type` y `description`, más un único `# H1` igual al `<slug>`.
 
 ## Esqueleto
 
@@ -14,7 +14,7 @@ description: Guia de referencia para la creacion de un archivo de skill en .clau
 ---
 name: <slug>
 type: skill
-description: "Descripcion de la skill desarrollada en el archivo".
+description: "<descripcion>"
 ---
 
 # <slug>
@@ -50,12 +50,13 @@ description: "Descripcion de la skill desarrollada en el archivo".
 ## Ejemplo
 
 <Ejemplo con `Entrada` y `Salida`>
-    **Entrada**
-    **Salida**
+
+- **Entrada**
+- **Salida**
 
 ## Formato de salida
 
-<Formnato de salida>
+<Formato de salida>
 
 ## <otros>
 ```
@@ -64,9 +65,9 @@ description: "Descripcion de la skill desarrollada en el archivo".
 
 ### Qué va en cada marcador
 
-- **`<slug>`:** identificador de archivo/carpeta, `snake_case`, sin acentos.o
+- **`<slug>`:** identificador de archivo/carpeta, `snake_case`, sin acentos.
 - **`<otros>`:** Otros encabezados unicos que sea necesario crear por naturaleza y/o objetivo de la skill.
-- **`<Formnato de salida>`:** En caso de no existir un ejemplo, puede existir simplemente un formato de salida.
+- **`<Formato de salida>`:** En caso de no existir un ejemplo, puede existir simplemente un formato de salida.
 - **`<Flujo de ejecución>`:** Si la skill se desarrolla en varias fases o pasos, se detallan aquí.
 
 ---

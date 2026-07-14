@@ -1,7 +1,7 @@
 ---
-name: lyrics_box
-type: composicion
-description: Control semántico, mapeo operativo del lyrics_box, gramática técnica y dirección de banda.
+name: "lyrics_box"
+type: "composicion"
+description: "Control semántico, mapeo operativo del lyrics_box, gramática técnica y dirección de banda."
 ---
 
 # lyrics_box

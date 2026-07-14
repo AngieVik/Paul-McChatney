@@ -1,7 +1,7 @@
 ---
-name: style_box
-type: composicion
-description: Construye el style_box de una obra, define el núcleo estilístico optimizando el espacio en 20 palabras. Fuerza resultados emergentes y no deterministas por colisión de opuestos (lingüístico-tonal, rítmica y tímbrica)
+name: "style_box"
+type: "composicion"
+description: "Construye el style_box de una obra, define el núcleo estilístico optimizando el espacio en 20 palabras, fuerza resultados emergentes y no deterministas por colisión de opuestos (lingüístico-tonal, rítmica y tímbrica)."
 ---
 
 # style_box

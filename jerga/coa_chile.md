@@ -1,10 +1,9 @@
 ---
 name: coa_chile
 type: jerga
-description: Argot de origen estrictamente carcelario y delincuencial surgido en los penales de Chile. Su función original era criptográfica: aislar la comunicación de las autoridades (gendarmes y policías). Con la explosión de la música urbana y el internet, gran parte de este léxico marginal se ha infiltrado en el habla coloquial de la juventud chilena, perdiendo parte de su estigma original, aunque su núcleo duro sigue siendo un código cerrado de las calles y las prisiones.
+description: "Argot de origen estrictamente carcelario y delincuencial surgido en los penales de Chile. Su función original era criptográfica: aislar la comunicación de las autoridades (gendarmes y policías). Con la explosión de la música urbana y el internet, gran parte de este léxico marginal se ha infiltrado en el habla coloquial de la juventud chilena, perdiendo parte de su estigma original, aunque su núcleo duro sigue siendo un código cerrado de las calles y las prisiones."
 region: Coa (Chile)
 ---
-
 # coa_chile 
 
 ## Perfil Lexical General

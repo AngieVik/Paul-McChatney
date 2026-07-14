@@ -1,7 +1,7 @@
 ---
-name: plantilla_proyecto
-type: plantilla
-description: Plantilla canónica de proyecto. Cópiala para abrir una canción nueva en `proyectos/<slug>/<slug>.md`. Respeta el orden de secciones y el estilo de relleno; así los agentes futuros mantienen la coherencia del catálogo.
+name: "plantilla_proyecto"
+type: "plantilla"
+description: "Plantilla canónica de proyecto. Cópiala para abrir una canción nueva en `proyectos/<slug>/<slug>.md`. Respeta el orden de secciones y el estilo de relleno; así los agentes futuros mantienen la coherencia del catálogo."
 ---
 
 # plantilla_proyecto
@@ -14,7 +14,7 @@ description: Plantilla canónica de proyecto. Cópiala para abrir una canción n
 ---
 name: <slug>
 type: proyecto
-description: <titulo_publico>
+description: "<titulo_publico>"
 ---
 
 # <slug>
@@ -52,16 +52,16 @@ Generated at <YYYY-MM-DD>
 - **`<titulo_publico>`:** el título tal y como se muestra al público, con acentos y mayúsculas reales.
 - **`<YYYY-MM-DD>`:** fecha de la generación de la obra aprobada.
 - **`[ ] Masterizado`:** por defecto sin marcar; marca el checkbox cuando el usuario tenga la pista masterizada, es control personal, no automático.
-- **`<style_box_exacto>`:** el `style_box` exacto usado en la generación de la obra aprobada.
-- **`<exclude_box_exacto>`:** el `exclude_box` exacto usado en la generación de la obra aprobada.
-- **`<lyrics_box_exacto>`:** todo el `lyrics_box` exacto usado en la generación de la obra aprobada.
+- **`<style_box>`:** el `style_box` usado en la generación de la obra aprobada.
+- **`<exclude_box>`:** el `exclude_box` usado en la generación de la obra aprobada.
+- **`<lyrics_box>`:** todo el `lyrics_box` usado en la generación de la obra aprobada.
 
 ---
 
 ## Convenciones de nombre y ubicación
 
 - **`_hojas_sucias/`:** estructura libre y sin mínimos — ideas sueltas y bocetos, sin formato fijo.
-- **Obra aprobada:** el esqueleto de arriba es la guía canónica del catálogo, pero también es flexible y actualizable; `plantilla_proyecto.md` puede evolucionar. No hay un juego de datos mínimos rígido: adapta las secciones a lo que la obra necesite manteniendo la coherencia con el resto del catálogo.
+- **Obra aprobada:** las seis secciones del esqueleto (`Titulo Original`, `Generated`, `Master`, `style_box`, `exclude_box`, `lyrics_box`) son el **núcleo obligatorio** del catálogo — el validador las exige. Sobre ese núcleo, la plantilla admite **secciones adicionales opcionales** según lo que la obra necesite y puede evolucionar, siempre manteniendo la coherencia con el resto del catálogo.
 - **Cada proyecto** vive en `proyectos/<slug>/<slug>.md` (carpeta propia) y se registra como fila en `PROYECTOS.md`, dentro de su LP o categoría.
 
 ---

@@ -1,9 +1,8 @@
 ---
-name: letra
-type: skill
-description: Redacta la letra limpia sin tags: narrativa, cadencia y anclaje regional. Activable en `produccion` (Fase 3) o en modo conversacional.
+name: "letra"
+type: "skill"
+description: "Redacta la letra limpia sin tags: narrativa, cadencia y anclaje regional. Activable en `produccion` (Fase 3) o en modo conversacional."
 ---
-
 # letra
 
 - *Escribe solo la letra limpia —calidad poética y narrativa, sin corchetes ni tags—: el esqueleto cantable de la obra.*
@@ -66,43 +65,43 @@ description: Redacta la letra limpia sin tags: narrativa, cadencia y anclaje reg
 ## Ejemplo
 
 **Entrada:**
-    ```text
-    Cartero rural que nunca llega, Tono melancólico, jota aragonesa.
-    ```
+```text
+Cartero rural que nunca llega, Tono melancólico, jota aragonesa.
+```
 **Salida:**
-    ```text
-    El cartero que no llega
-    miro la pared rascá
-    y el cartero que no llega
-    soy la última que aguanta
-    en este pueblo de piedra en este pueblo de piedra
-    miro la pared rascá
-    >
-    ¡Ay! que la grieta se abre
-    ¡Ay! que el silencio me traga
-    Golpea el viento en la chapa
-    y en la calle no hay un alma...
-    >
-    No hay críos por la placeta
-    ya no humean los tejaos
-    ni hay críos por la placeta
-    solo el cierzo que me habla
-    por la puerta entreabierta por la puerta entreabierta
-    ya no humean los tejaos
-    >
-    ¡Ay! que la grieta se abre
-    ¡Ay! que el silencio me traga
-    Golpea el viento en la chapa
-    y en la calle no hay un alma...
-    >
-    Pero miro a la cancela
-    no espero ninguna carta
-    pero miro a la cancela
-    que hasta el polvo del camino
-    se olvidó de quién me espera se olvidó de quién me espera
-    no espero ninguna carta
-    >
-    No
-    Espero
-    Ninguna carta
-    ```
+```text
+El cartero que no llega
+miro la pared rascá
+y el cartero que no llega
+soy la última que aguanta
+en este pueblo de piedra en este pueblo de piedra
+miro la pared rascá
+>
+¡Ay! que la grieta se abre
+¡Ay! que el silencio me traga
+Golpea el viento en la chapa
+y en la calle no hay un alma...
+>
+No hay críos por la placeta
+ya no humean los tejaos
+ni hay críos por la placeta
+solo el cierzo que me habla
+por la puerta entreabierta por la puerta entreabierta
+ya no humean los tejaos
+>
+¡Ay! que la grieta se abre
+¡Ay! que el silencio me traga
+Golpea el viento en la chapa
+y en la calle no hay un alma...
+>
+Pero miro a la cancela
+no espero ninguna carta
+pero miro a la cancela
+que hasta el polvo del camino
+se olvidó de quién me espera se olvidó de quién me espera
+no espero ninguna carta
+>
+No
+Espero
+Ninguna carta
+```

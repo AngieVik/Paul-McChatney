@@ -1,10 +1,10 @@
 ---
-name: readme
-type: core
-description: Mapa general del proyecto Paul McChatney.
+name: "README"
+type: "core"
+description: "Mapa general del proyecto Paul McChatney."
 ---
 
-# Paul McChatney
+# README
 
 - *Sistema documental/agéntico de composición musical con IA: canciones, `style_box`, `lyrics_box`, `exclude_box` y documentación de obras.*
 

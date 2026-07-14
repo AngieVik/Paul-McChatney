@@ -1,7 +1,7 @@
 ---
-name: 15_negative_prompts_and_exclude_styles
-type: chupilista
-description: Colección exhaustiva de tags negativas para evitar estilos musicales, instrumentos, efectos, artefactos de mezcla y texturas no deseadas en la generación y producción de audio.
+name: "15_negative_prompts_and_exclude_styles"
+type: "chupilista"
+description: "Colección exhaustiva de tags negativas para evitar estilos musicales, instrumentos, efectos, artefactos de mezcla y texturas no deseadas en la generación y producción de audio."
 ---
 
 # 15_negative_prompts_and_exclude_styles

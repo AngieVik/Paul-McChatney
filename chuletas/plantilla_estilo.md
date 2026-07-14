@@ -1,7 +1,7 @@
 ---
-name: plantilla_estilo
-type: plantilla
-description: Guía de estilo Markdown del proyecto Paul McChatney: estructura, formato y convenciones de escritura, ligera a propósito para poder cargarla siempre que se trabaje en el core.
+name: "plantilla_estilo"
+type: "plantilla"
+description: "Guía de estilo Markdown del proyecto Paul McChatney: estructura, formato y convenciones de escritura, ligera a propósito para poder cargarla siempre que se trabaje en el core."
 ---
 
 # plantilla_estilo
@@ -17,7 +17,7 @@ description: Guía de estilo Markdown del proyecto Paul McChatney: estructura, f
 
 ## 2 · Encabezados
 
-Un solo `# H1` (= slug del archivo). Sin saltos de nivel (`#`→`##`→`###`). Línea en blanco antes y después. Sin `:` `.` `;` al cerrar título.
+Un solo `# H1` (= slug del archivo), salvo los nombres canónicos de raíz `README.md`, `CLAUDE.md`, `MEMORY.md` y `PROYECTOS.md`, cuyo `# H1` es un título humano y no el slug. Sin saltos de nivel (`#`→`##`→`###`). Línea en blanco antes y después. Sin `:` `.` `;` al cerrar título.
 
 ---
 
@@ -43,11 +43,11 @@ Cabecera + separador siempre. Solo para datos cortos y comparables; contenido la
 
 Relativas con `/`, aunque el sistema sea Windows (`composicion/letra.md`, no `composicion\letra.md`). Política completa de carga: `.claude/CLAUDE.md` (fuente canónica) — aquí solo la sintaxis de rutas.
 
-| Forma                         | Uso                                                       |
-| ----------------------------- | --------------------------------------------------------- |
+| Forma                         | Uso                                                                |
+| ----------------------------- | ------------------------------------------------------------------ |
 | `@ruta`                       | Sintaxis de carga ansiosa (comportamiento en `.claude/CLAUDE.md`). |
-| `ruta`                        | Sintaxis de lectura bajo demanda.                         |
-| `<a href="texto">`texto`</a>` | Etiqueta `<a>` para navegación (no es sintaxis Markdown). |
+| `ruta`                        | Sintaxis de lectura bajo demanda.                                  |
+| `<a href="texto">`texto`</a>` | Etiqueta `<a>` para navegación (no es sintaxis Markdown).          |
 
 ---
 

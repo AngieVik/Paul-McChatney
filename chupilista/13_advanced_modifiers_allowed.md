@@ -1,7 +1,7 @@
 ---
-name: 13_advanced_modifiers_allowed
-type: chupilista
-description: Directorio maestro de modificadores avanzados para generación, modulación y manipulación de audio sintético.
+name: "13_advanced_modifiers_allowed"
+type: "chupilista"
+description: "Directorio maestro de modificadores avanzados para generación, modulación y manipulación de audio sintético."
 ---
 
 # 13_advanced_modifiers_allowed

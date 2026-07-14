@@ -1,7 +1,7 @@
 ---
-name: buscar_tag
-type: skill
-description: Extractor canónico de etiquetas chupilista. Localiza, valida y entrega tags existentes como referencia fiable para cualquier skill y en cualquier fase. Activable en `produccion` o en modo conversacional.
+name: "buscar_tag"
+type: "skill"
+description: "Extractor canónico de etiquetas chupilista. Localiza, valida y entrega tags existentes como referencia fiable para cualquier skill y en cualquier fase. Activable en `produccion` o en modo conversacional."
 ---
 
 # buscar_tag

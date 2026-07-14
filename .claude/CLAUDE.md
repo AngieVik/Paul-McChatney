@@ -1,10 +1,10 @@
 ---
-name: claude_context
-type: core
-description: Contexto de carga, reglas de lectura y mapa principal del proyecto Paul McChatney.
+name: CLAUDE
+type: "core"
+description: "Contexto de carga, reglas de lectura y mapa principal del proyecto Paul McChatney."
 ---
 
-# Paul McChatney — contexto de proyecto para Claude
+# CLAUDE
 
 ## Reglas
 

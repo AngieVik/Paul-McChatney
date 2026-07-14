@@ -1,7 +1,7 @@
 ---
-name: 02_atmosphere_and_mood
-type: chupilista
-description: Colección de atmósferas, texturas y estados emocionales para diseño sonoro y composición musical.
+name: "02_atmosphere_and_mood"
+type: "chupilista"
+description: "Colección de atmósferas, texturas y estados emocionales para diseño sonoro y composición musical."
 ---
 
 # 02_atmosphere_and_mood

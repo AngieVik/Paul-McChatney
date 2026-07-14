@@ -1,7 +1,7 @@
 ---
-name: plantilla_composicion
-type: plantilla
-description: Archivo técnico de referencia para construir un archivo de `composicion`.
+name: "plantilla_composicion"
+type: "plantilla"
+description: "Archivo técnico de referencia para construir un archivo de `composicion`."
 ---
 
 # plantilla_composicion
@@ -11,23 +11,29 @@ description: Archivo técnico de referencia para construir un archivo de `compos
 ## esqueleto
 
 ```markdown
+---
+name: <slug>
+type: composicion
+description: "<descripcion>"
+---
+
 # <slug>
 
 ## Referencias
 
 ## Indice
 
-## Resto de encabezados
+## <otros_encabezados>
 ```
 
 ---
 
 ## Referencias
 
-- **Manual Técnico":**
+- **Manual Técnico:**
     - **Indexado desde:** `.claude/rules/<name>.md`
-    - **Consumido desdea:** `.claude/skills/<name>/SKILL.md`, y cualquier otra skill que reutilice este manual sin compartir su nombre (ej. `composicion/style_box.md` lo consumen tanto `style_box` como `fusionar`).
-- **Manual Transversal":**
+    - **Consumido desde:** `.claude/skills/<name>/SKILL.md`, y cualquier otra skill que reutilice este manual sin compartir su nombre (ej. `composicion/style_box.md` lo consumen tanto `style_box` como `fusionar`).
+- **Manual Transversal:**
     - **Indexado desde:** `.claude/rules/composicion.md`
     - **Consumido desde:** <lista de skills que lo usan, ej. `style_box`, `lyrics_box`, `exclude_box`, `produccion`>
 - **Complementarios (cualquier variante, solo si existen):** `composicion/<x>.md` / `.claude/rules/<x>.md`

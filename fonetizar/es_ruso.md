@@ -1,10 +1,9 @@
 ---
 name: es_ruso
 type: fonetizar
-description: Sistema basado en el alfabeto cirílico. Su fonología es ortográficamente engañosa para el ojo occidental y se rige por dos leyes inflexibles: la extrema reducción de las vocales que no llevan acento y la dicotomía entre consonantes "duras" (velarizadas) y "blandas" (palatalizadas).
+description: "Sistema basado en el alfabeto cirílico. Su fonología es ortográficamente engañosa para el ojo occidental y se rige por dos leyes inflexibles: la extrema reducción de las vocales que no llevan acento y la dicotomía entre consonantes \"duras\" (velarizadas) y \"blandas\" (palatalizadas)."
 region: Ruso (Estándar / Moscovita)
 ---
-
 # es_ruso
 
 ## Perfil Fonético General

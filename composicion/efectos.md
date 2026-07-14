@@ -1,7 +1,7 @@
 ---
-name: efectos
-type: composicion
-description: Manipulación del espacio estéreo, procesamiento de señales (DSP) y comportamiento del master final.
+name: "efectos"
+type: "composicion"
+description: "Manipulación del espacio estéreo, procesamiento de señales (DSP) y comportamiento del master final."
 ---
 
 # efectos

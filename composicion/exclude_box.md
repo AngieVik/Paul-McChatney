@@ -1,7 +1,7 @@
 ---
-name: exclude_box
-type: composicion
-description: Prompting inverso y control de artefactos, para bloquear características, instrumentos, clichés no deseados, degradación de la señal, solapamiento de frecuencias y saturación del espacio latente en la generación.
+name: "exclude_box"
+type: "composicion"
+description: "Prompting inverso y control de artefactos, para bloquear características, instrumentos, clichés no deseados, degradación de la señal, solapamiento de frecuencias y saturación del espacio latente en la generación."
 ---
 
 # exclude_box

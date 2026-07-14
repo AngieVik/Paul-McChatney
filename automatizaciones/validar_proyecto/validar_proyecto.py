@@ -13,12 +13,19 @@ Comprueba, sobre el árbol .md del proyecto:
   4. Archivos truncados: frontmatter incompleto (falta cierre `---`, faltan
      claves `name`/`type`/`description`) o el archivo de INSTRUCCIONES
      (skills, rules, composicion, system_prompt, raíz) termina a mitad de frase.
-  5. YAML de frontmatter estructuralmente inválido (línea que no parece
-     `clave: valor`, comillas sin cerrar en una misma línea).
+     Además: frontmatter AUSENTE en rutas que lo exigen (ver punto 17).
+  5. YAML de frontmatter inválido. Si PyYAML está disponible se hace un parseo
+     real (`yaml.safe_load`); en cualquier caso se aplica una heurística
+     estructural sin dependencias que detecta: línea que no parece
+     `clave: valor`, falta de espacio tras los dos puntos (`clave:valor`),
+     valor sin comillas que contiene `:` (YAML lo tomaría como mapa anidado),
+     comilla sin cerrar y puntuación situada FUERA de la comilla de cierre
+     (`"texto".`).
   6. Fences ``` sin cerrar: recorre el archivo línea a línea con un estado de
-     apertura/cierre (solo cuentan las líneas que SON una marca de fence, no las
-     apariciones de ``` incrustadas en prosa o dentro de una celda de tabla);
-     si al final queda un fence abierto, se reporta.
+     apertura/cierre. Solo cuentan las líneas que SON una marca de fence, con
+     como máximo 3 espacios de sangría (CommonMark: 4+ espacios ya es un bloque
+     indentado, no un fence); los ``` incrustados en prosa o dentro de una
+     celda de tabla no descuadran el conteo.
   7. Encabezados mal cerrados: terminan en `.`, `:` o `;` (prohibido por
      `chuletas/plantilla_estilo.md` §2) o saltan de nivel (`#` -> `###`).
   8. Las plantillas generativas (`chuletas/plantilla_*.md`) generan un
@@ -43,9 +50,21 @@ Comprueba, sobre el árbol .md del proyecto:
       el nombre del archivo cuando corresponde (con el nombre de la carpeta en
       los `SKILL.md`). Se exceptúan los nombres canónicos de raíz (README.md,
       CLAUDE.md, MEMORY.md, PROYECTOS.md), cuyo H1 es un título, no el slug.
-  15. Bidireccionalidad mapa<->skill: toda skill que cita un mapa
-      `.claude/rules/<x>.md` aparece en la línea `Consumido por` de ese mapa
-      (y, por los chequeos 1-2, todo mapa apunta a archivos que existen).
+  15. Bidireccionalidad mapa<->skill, en las DOS direcciones:
+      - skill -> mapa: toda skill que cita `.claude/rules/<x>.md` aparece en la
+        línea `Consumido por` de ese mapa (y ese mapa existe).
+      - mapa -> skill: toda skill declarada como dueña en el `Consumido por` de
+        un mapa (anotada `(skill)` o con el mismo nombre que el mapa) existe y
+        cita ese mapa. `produccion` es una excepción declarada (orquestadora:
+        delega por fase y no cita mapas); los consumidores conceptuales o
+        manuales — tokens que no son una skill real — se omiten.
+  16. Bytes nulos (`\\x00`) y caracteres de control: ningún `.md` debe contener
+      NUL ni otros caracteres de control (se permiten solo `\\t`, `\\n`, `\\r`).
+  17. Frontmatter exigido por ruta: los `.md` de carpetas de identidad
+      (`.claude/rules/`, `.claude/skills/*/SKILL.md`, `composicion/`, `jerga/`,
+      `fonetizar/`, `system_prompt/` y `chuletas/plantilla_*.md`) deben traer
+      frontmatter YAML. `proyectos/` queda fuera a propósito (histórico sin
+      frontmatter universal).
 
 Uso:
     python validar_proyecto.py [ruta_raiz] [--incluir-personales] [--excluir DIR ...]
@@ -66,6 +85,11 @@ prosa siempre debería cerrar en frase completa. Se excluye deliberadamente
 tags y ejemplos fonéticos que legítimamente terminan sin punto. Aun así es una
 heurística — revisa cada aviso, no la trates como verdad absoluta.
 
+Nota sobre PyYAML (punto 5): el parseo real solo se usa si `import yaml` está
+disponible; el script NO lo exige. Sin PyYAML, la heurística estructural cubre
+los mismos errores de forma. Así el validador corre con un `python`/`python3`
+recién instalado en Windows sin `pip install` de por medio.
+
 Salida: reporte por consola agrupado por tipo de problema + código de salida
 1 si se encontró algún problema (útil para hooks/CI), 0 si todo está limpio.
 """
@@ -75,6 +99,11 @@ import os
 import re
 import sys
 from pathlib import Path
+
+try:
+    import yaml  # opcional: si está, se hace un parseo YAML real (punto 5)
+except ImportError:  # el script debe correr sin dependencias externas
+    yaml = None
 
 IGNORE_DIRS = {".git", "node_modules", ".vscode"}
 PERSONAL_DIRS = {"_hojas_sucias", "_temp", "_produccion", "_prompts_antiguos", "_docs"}
@@ -87,22 +116,33 @@ INSTRUCTIONAL_TOP_DIRS = {".claude", "system_prompt", "composicion", "chuletas"}
 # de identidad documental (punto 14).
 CANONICAL_FILENAMES = {"README.md", "CLAUDE.md", "MEMORY.md", "PROYECTOS.md"}
 
+# Skills que pueden figurar como dueñas en un `Consumido por` sin citar el mapa
+# de vuelta (punto 15, dirección mapa->skill): `produccion` orquesta por fase.
+GLOBAL_CONSUMER_EXCEPTIONS = {"produccion"}
+
 MD_LINK_RE = re.compile(r"\[[^\]]*\]\(([^)]+)\)")
 HTML_HREF_RE = re.compile(r'href="([^"]+)"')
 BACKTICK_PATH_RE = re.compile(r"`([\w./\\-]+\.(?:md|py|json|yaml|yml))`")
 FRONTMATTER_RE = re.compile(r"\A---\s*\n(.*?)\n---\s*\n", re.DOTALL)
 CODEBLOCK_RE = re.compile(r"```.*?```", re.DOTALL)
-# Una LÍNEA que es una marca de fence (apertura o cierre), admitiendo sangría:
-# se usa para el estado de apertura/cierre del punto 6. Ignora los ``` sueltos
-# incrustados en medio de una línea de prosa o de una celda de tabla.
-FENCE_LINE_RE = re.compile(r"^\s*```")
+# Una LÍNEA que es una marca de fence (apertura o cierre), admitiendo COMO
+# MÁXIMO 3 espacios de sangría: en CommonMark, 4+ espacios ya es un bloque
+# indentado y NO abre/cierra un fence, así que un ``` con 4 espacios de sangría
+# no debe contar como marca de fence (se renderiza literal). Se usa para el
+# estado de apertura/cierre del punto 6.
+FENCE_LINE_RE = re.compile(r"^ {0,3}```")
 HEADING_RE = re.compile(r"^(#{1,6})\s+(.*?)\s*$", re.MULTILINE)
 H1_RE = re.compile(r"^#\s+(\S.*?)\s*$", re.MULTILINE)
 NAME_RE = re.compile(r"^name:\s*(.+)$", re.MULTILINE)
 RULES_CITED_RE = re.compile(r"\.claude/rules/([\w-]+)\.md")
 CONSUMIDO_RE = re.compile(r"Consumido por:\**\s*(.+)")
+# Token dueño en un `Consumido por`: `skill` (skill)  — o el homónimo del mapa.
+SKILL_OWNER_RE = re.compile(r"`([\w-]+)`\s*\(skill\)")
+# Caracteres de control prohibidos (se permiten \t=09, \n=0a, \r=0d).
+CONTROL_CHARS_RE = re.compile(r"[\x00-\x08\x0b\x0c\x0e-\x1f]")
 
 REQUIRED_FRONTMATTER_KEYS = ("name", "type", "description")
+KEY_LINE_RE = re.compile(r"^([A-Za-z_][A-Za-z0-9_-]*):(.*)$")
 
 # Secciones canónicas que debe traer el esqueleto de plantilla_proyecto.md.
 REQUIRED_PROYECTO_SECTIONS = ("Titulo Original", "Generated", "Master", "style_box", "exclude_box", "lyrics_box")
@@ -147,12 +187,39 @@ def iter_markdown_files(root: Path, include_personal: bool, extra_excluded: set)
                 yield Path(dirpath) / fname
 
 
+def rel_parts(path: Path, root: Path):
+    try:
+        return path.relative_to(root).parts
+    except ValueError:
+        return path.parts
+
+
 def frontmatter_name(text: str):
     m = FRONTMATTER_RE.match(text)
     if not m:
         return None
     nm = NAME_RE.search(m.group(1))
     return nm.group(1).strip() if nm else None
+
+
+def requires_frontmatter(path: Path, root: Path) -> bool:
+    """Rutas de identidad que EXIGEN frontmatter YAML (punto 17). `proyectos/`
+    queda fuera a propósito: el catálogo histórico no lo trae de forma
+    universal y exigirlo inundaría el reporte."""
+    parts = rel_parts(path, root)
+    if not parts:
+        return False
+    name = path.name
+    top = parts[0]
+    if name == "SKILL.md" and top == ".claude" and len(parts) >= 2 and parts[1] == "skills":
+        return True
+    if top == ".claude" and len(parts) >= 2 and parts[1] == "rules":
+        return True
+    if top in {"composicion", "jerga", "fonetizar", "system_prompt"}:
+        return True
+    if top == "chuletas" and name.startswith("plantilla_"):
+        return True
+    return False
 
 
 def check_links(path: Path, text: str, root: Path, problems: list):
@@ -186,6 +253,21 @@ def check_backtick_paths(path: Path, text: str, root: Path, problems: list):
             problems.append(
                 f"[ruta citada inexistente] {rel(path, root)} -> '{target}'"
             )
+
+
+def check_control_chars(path: Path, text: str, root: Path, problems: list):
+    """Punto 16 — bytes nulos y caracteres de control. Un NUL (`\\x00`) suele ser
+    padding corrupto al final del archivo; otros controles rompen el render y
+    delatan un guardado defectuoso."""
+    hits = list(CONTROL_CHARS_RE.finditer(text))
+    if not hits:
+        return
+    codes = sorted({f"0x{ord(h.group()):02x}" for h in hits})
+    first = hits[0].start()
+    problems.append(
+        f"[byte de control] {rel(path, root)}: {len(hits)} carácter(es) de control "
+        f"{codes} (primero en offset {first}); revisa NUL/padding o encoding"
+    )
 
 
 def check_bracket_tags(path: Path, text: str, root: Path, problems: list, label: str = None):
@@ -239,11 +321,11 @@ def check_bracket_tags(path: Path, text: str, root: Path, problems: list, label:
 
 def check_unclosed_fences(path: Path, text: str, root: Path, problems: list, label: str = None):
     """Recorre el archivo línea a línea con un estado de apertura/cierre: solo
-    cuentan las líneas que SON una marca de fence (```). Así un ``` incrustado
-    en medio de prosa o dentro de una celda de tabla (ej. el propio texto de
-    este validador que menciona ``` tres veces en una frase) ya no puede
-    generar un falso positivo — antes se contaban todas las apariciones
-    literales de ``` del archivo."""
+    cuentan las líneas que SON una marca de fence (```) con hasta 3 espacios de
+    sangría. Así un ``` incrustado en medio de prosa o dentro de una celda de
+    tabla ya no puede generar un falso positivo, y un ``` con 4+ espacios de
+    sangría (que Markdown renderiza literal, NO como fence) tampoco se cuenta
+    como fence."""
     where = label or rel(path, root)
     open_fence = False
     fence_lines = 0
@@ -278,34 +360,80 @@ def check_heading_style(path: Path, text: str, root: Path, problems: list, label
 
 
 def check_yaml_frontmatter_shape(path: Path, text: str, root: Path, problems: list, label: str = None):
-    """Chequeo estructural ligero de YAML (sin depender de PyYAML)."""
+    """Chequeo de YAML de frontmatter (punto 5).
+
+    Si PyYAML está disponible, se hace un parseo real (`yaml.safe_load`) que
+    captura errores estructurales que una heurística pasaría por alto. En
+    cualquier caso se aplica una heurística sin dependencias que detecta los
+    patrones concretos que rompen el YAML, con un mensaje accionable por línea:
+      - línea que no parece `clave: valor`;
+      - falta de espacio tras los dos puntos (`clave:valor`);
+      - valor sin comillas que contiene `:` (YAML lo tomaría como mapa anidado);
+      - comilla sin cerrar;
+      - puntuación situada FUERA de la comilla de cierre (`"texto".`).
+    """
     where = label or rel(path, root)
     m = FRONTMATTER_RE.match(text)
     if not m:
         return
     block = m.group(1)
+
+    # 1) Parseo YAML real, si hay PyYAML.
+    if yaml is not None:
+        try:
+            data = yaml.safe_load(block)
+            if not isinstance(data, dict):
+                problems.append(
+                    f"[YAML inválido] {where}: el frontmatter no es un mapa `clave: valor`"
+                )
+        except yaml.YAMLError as e:  # pragma: no cover - depende de PyYAML
+            first = str(e).splitlines()[0] if str(e) else "error de parseo"
+            problems.append(f"[YAML inválido] {where}: {first}")
+
+    # 2) Heurística estructural (siempre, también sin PyYAML).
     for i, line in enumerate(block.splitlines(), start=1):
         if not line.strip():
             continue
         if line.startswith((" ", "\t")):
             continue  # continuación/indentada, no se valida a fondo
-        if not re.match(r"^[A-Za-z_][A-Za-z0-9_-]*:\s?.*$", line):
+        if line.lstrip().startswith("#"):
+            continue  # comentario YAML
+        mm = KEY_LINE_RE.match(line)
+        if not mm:
             problems.append(
                 f"[YAML sospechoso] {where} línea {i} de frontmatter no parece `clave: valor`: {line.strip()!r}"
             )
             continue
-        # Comillas sin cerrar en la misma línea (heurística: conteo de " impar).
-        if line.count('"') % 2 != 0:
+        rest = mm.group(2)
+        if rest and not rest.startswith(" "):
             problems.append(
-                f"[YAML sospechoso] {where} línea {i}: comillas dobles sin cerrar: {line.strip()!r}"
+                f"[YAML sospechoso] {where} línea {i}: falta un espacio tras ':' ({line.strip()!r})"
             )
+            continue
+        val = rest.strip()
+        if not val:
+            continue
+        if val[0] in "\"'":
+            q = val[0]
+            if val.count(q) < 2:
+                problems.append(
+                    f"[YAML sospechoso] {where} línea {i}: comilla {q} sin cerrar: {line.strip()!r}"
+                )
+            else:
+                closing = val.rfind(q)
+                if val[closing + 1:].strip():
+                    problems.append(
+                        f"[YAML sospechoso] {where} línea {i}: puntuación fuera de las comillas de cierre: {line.strip()!r}"
+                    )
+        else:
+            if ": " in val or val.endswith(":"):
+                problems.append(
+                    f"[YAML sospechoso] {where} línea {i}: valor sin comillas contiene ':' (entrecomíllalo): {line.strip()!r}"
+                )
 
 
 def is_instructional(path: Path, root: Path) -> bool:
-    try:
-        parts = path.relative_to(root).parts
-    except ValueError:
-        parts = path.parts
+    parts = rel_parts(path, root)
     if len(parts) == 1:
         return True  # archivo suelto en la raíz (CLAUDE.md, MEMORY.md, PROYECTOS.md...)
     return parts[0] in INSTRUCTIONAL_TOP_DIRS
@@ -322,6 +450,11 @@ def check_frontmatter_and_truncation(path: Path, text: str, root: Path, problems
             problems.append(
                 f"[frontmatter incompleto] {rel(path, root)} falta(n) clave(s): {', '.join(missing)}"
             )
+    elif requires_frontmatter(path, root):
+        problems.append(
+            f"[frontmatter ausente] {rel(path, root)}: esta ruta exige frontmatter YAML "
+            f"(name/type/description)"
+        )
 
     if not is_instructional(path, root):
         return
@@ -412,10 +545,7 @@ def check_plantilla_type(path: Path, text: str, root: Path, problems: list):
 
 def check_single_h1(path: Path, text: str, root: Path, problems: list):
     """Dentro de chuletas/, exige exactamente un H1 fuera de bloques de código."""
-    try:
-        parts = path.relative_to(root).parts
-    except ValueError:
-        parts = path.parts
+    parts = rel_parts(path, root)
     if not parts or parts[0] != "chuletas":
         return
     text_wo_code = CODEBLOCK_RE.sub("", text)
@@ -425,6 +555,7 @@ def check_single_h1(path: Path, text: str, root: Path, problems: list):
             f"[H1 múltiple o ausente] {rel(path, root)}: {h1_count} encabezados H1 fuera de "
             f"bloques de código (se espera exactamente 1)"
         )
+
 
 
 def check_proyecto_skeleton_sections(path: Path, text: str, root: Path, problems: list):
@@ -450,12 +581,10 @@ def check_proyecto_skeleton_sections(path: Path, text: str, root: Path, problems
 def check_document_identity(path: Path, text: str, root: Path, problems: list):
     """Punto 14 — identidad documental:
       - `name` (frontmatter) coincide con el nombre del archivo cuando corresponde
-        (con el nombre de la CARPETA en los `SKILL.md`, cuyo archivo se llama
-        siempre igual).
+        (con el nombre de la CARPETA en los `SKILL.md`).
       - el único `# H1` (fuera de bloques de código) coincide con `name`.
     Se exceptúan los nombres canónicos de raíz (README.md, CLAUDE.md, MEMORY.md,
-    PROYECTOS.md), cuyo H1 es un título humano y cuyo `name` no tiene por qué
-    coincidir con el archivo."""
+    PROYECTOS.md), cuyo H1 es un título humano."""
     if path.name in CANONICAL_FILENAMES:
         return
     name = frontmatter_name(text)
@@ -483,8 +612,7 @@ def check_document_identity(path: Path, text: str, root: Path, problems: list):
 
 def collect_maps_consumido(root: Path) -> dict:
     """Pre-escanea `.claude/rules/*.md` y devuelve {nombre_mapa: texto de la
-    línea `Consumido por`}. Se usa para el chequeo bidireccional (punto 15).
-    Se lee directo del disco (no del recorrido filtrado) para que esté siempre
+    línea `Consumido por`}. Se lee directo del disco para que esté siempre
     disponible aunque se excluyan otras carpetas."""
     maps = {}
     rules_dir = root / ".claude" / "rules"
@@ -501,11 +629,9 @@ def collect_maps_consumido(root: Path) -> dict:
 
 
 def check_map_skill_bidirectional(path: Path, text: str, root: Path, maps: dict, problems: list):
-    """Punto 15 — toda skill que cita un mapa `.claude/rules/<x>.md` debe
-    aparecer en la línea `Consumido por` de ese mapa. `produccion` no lleva su
-    nombre en cada mapa que consume por fase, pero sí aparece como
-    `produccion (Fase N)`, así que el chequeo por substring ``skill``
-    lo detecta igual."""
+    """Punto 15, dirección skill -> mapa: toda skill que cita un mapa
+    `.claude/rules/<x>.md` debe aparecer en la línea `Consumido por` de ese
+    mapa."""
     if path.name != "SKILL.md":
         return
     skill = path.parent.name
@@ -522,6 +648,41 @@ def check_map_skill_bidirectional(path: Path, text: str, root: Path, maps: dict,
                 f"[bidireccionalidad rota] {rel(path, root)}: la skill `{skill}` cita "
                 f"`.claude/rules/{c}.md` pero no figura en su `Consumido por`: {consumido.strip()[:80]!r}"
             )
+
+
+def check_map_owner_reciprocity(root: Path, maps: dict, problems: list):
+    """Punto 15, dirección mapa -> skill: recorre el `Consumido por` de cada
+    mapa y, por cada skill DUEÑA declarada (anotada `(skill)` o con el mismo
+    nombre que el mapa), comprueba que esa skill existe y cita el mapa de
+    vuelta. Los consumidores conceptuales/manuales (tokens que no son una skill
+    real) se omiten; `produccion` es excepción declarada."""
+    skills_dir = root / ".claude" / "skills"
+    for map_name, consumido in maps.items():
+        annotated = set(SKILL_OWNER_RE.findall(consumido))
+        candidates = set(annotated)
+        if (skills_dir / map_name / "SKILL.md").exists():
+            candidates.add(map_name)  # el homónimo también es dueño natural
+        for owner in sorted(candidates):
+            if owner in GLOBAL_CONSUMER_EXCEPTIONS:
+                continue
+            skill_file = skills_dir / owner / "SKILL.md"
+            if not skill_file.exists():
+                if owner in annotated:
+                    problems.append(
+                        f"[consumidor (skill) inexistente] .claude/rules/{map_name}.md declara "
+                        f"`{owner}` (skill), pero .claude/skills/{owner}/SKILL.md no existe"
+                    )
+                continue
+            try:
+                stext = skill_file.read_text(encoding="utf-8")
+            except (UnicodeDecodeError, OSError):
+                continue
+            if f".claude/rules/{map_name}.md" not in stext:
+                problems.append(
+                    f"[bidireccionalidad incompleta mapa->skill] .claude/rules/{map_name}.md "
+                    f"lista a `{owner}` como skill dueña, pero {owner}/SKILL.md no cita "
+                    f"`.claude/rules/{map_name}.md`"
+                )
 
 
 def rel(path: Path, root: Path) -> str:
@@ -553,6 +714,7 @@ def main():
             problems.append(f"[error de lectura] {rel(path, root)} no es UTF-8 válido")
             continue
 
+        check_control_chars(path, text, root, problems)
         check_links(path, text, root, problems)
         check_backtick_paths(path, text, root, problems)
         check_bracket_tags(path, text, root, problems)
@@ -566,6 +728,9 @@ def main():
         check_proyecto_skeleton_sections(path, text, root, problems)
         check_document_identity(path, text, root, problems)
         check_map_skill_bidirectional(path, text, root, maps, problems)
+
+    # Dirección mapa -> skill (punto 15): se hace una sola vez sobre los mapas.
+    check_map_owner_reciprocity(root, maps, problems)
 
     if not problems:
         print("✅ Sin problemas detectados.")
