@@ -12,7 +12,8 @@ description: Guía de estilo Markdown del proyecto Paul McChatney: estructura, f
 
 ## 1 · Principio
 
-Humano, técnico, predecible, ligero. El archivo manda por claridad, no por decoración.
+- Humano, técnico, predecible, ligero. El archivo manda por claridad, no por decoración.
+- Nombres de archivo en minuscula, snake_case y sin acentos.
 
 ## 2 · Encabezados
 

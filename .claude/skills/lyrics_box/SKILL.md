@@ -64,4 +64,4 @@ description: Orquestadora del lyrics_box. Toma el boceto de letra de Fase 3 y lo
 - `tecnicas_vocales` (archivo técnico) aporta la dirección vocal por línea.
 - `efectos` (archivo técnico) aporta la capa de post-producción de Fase 5.
 - `buscar_tag` extrae canon de secciones, moods, FX y dinámicas.
-- `fonetizar` y `jerga` reanclan el acento sobre la letra si se solicit
+- `fonetizar` y `jerga` reanclan el acento sobre la letra si se solicita anclaje regional o fonético.

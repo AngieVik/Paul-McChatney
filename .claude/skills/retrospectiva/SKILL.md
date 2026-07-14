@@ -56,8 +56,7 @@ description: Gestiona el ciclo de aprendizaje del sistema: detecta hallazgos rea
 
 ## Relación con otras skills
 
-- Puede ejecutarse en cualquier momento que el usuario detecte o pida revisar un aprendizaje; no requiere que la obra esté cerrada.
-- `proyecto` solo la sugiere tras `aprobar` (retrospectiva de cierre), sin ejecutarla automáticamente; solo `aprobar` finaliza la obra.
+- *La política de cuándo puede activarse y su relación con `aprobar`/`cerrar` vive en `.claude/skills/proyecto/SKILL.md` (§6-7); no se repite aquí.*
 - Escribe en `.claude/MEMORY.md` (principios) y en los `composicion/*.md` (técnicas), enrutando por sus mapas `.claude/rules/`.
 
 ---

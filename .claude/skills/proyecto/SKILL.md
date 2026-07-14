@@ -52,6 +52,7 @@ Comandos transaccionales que no alteran la narrativa creativa de la obra.
 
 ## 6 · Regla de Contexto Único (Mentalidad Limpia)
 
+- *Fuente canónica del ciclo de vida (`aprobar` · `cerrar` · `retrospectiva`): el resto de archivos (`system_prompt`, `retrospectiva`, `MEMORY.md`) remiten aquí en vez de repetir la política.*
 - Trabaja una sola obra a la vez hasta `aprobar`, `cerrar`, o `eliminar`. Mantén un único contexto activo para conservar versiones limpias y evitar cruces entre obras.
 - Ninguna fase de `produccion` cierra la obra por sí sola: hasta `aprobar` sigue siendo un borrador vivo y modificable. Solo `aprobar` finaliza la obra y permite ofrecer una retrospectiva de cierre.
 

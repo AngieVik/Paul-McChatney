@@ -152,7 +152,7 @@ description: Control semántico, mapeo operativo del lyrics_box, gramática téc
 
 - *Para extraer stems limpios, fuerza separar frecuencias: apaga los pads de relleno y aísla los instrumentos.*
     - **Ejemplo:**
-    `Minimalist arrangement[]`, `[Sparse mix]`, `[Clinical separation]`, `[Hard-panned instruments]`.
+    `[Minimalist arrangement]`, `[Sparse mix]`, `[Clinical separation]`, `[Hard-panned instruments]`.
 
 ### 1.13 · Rap/Drill
 
@@ -174,3 +174,5 @@ description: Control semántico, mapeo operativo del lyrics_box, gramática téc
 
 - *Comportamiento percusivo (Slow Groove, Fast Energy): la cuadrícula base se fija en el `style_box`; el detalle percusivo hiperactivo se inyecta aquí, en el `lyrics_box`, para que la percusión respire por debajo del groove.*
     - **Ejemplo:** `[Drums: frantic 32nd note hi-hats, explosive fills]`.
+
+---
