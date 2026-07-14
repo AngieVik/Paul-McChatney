@@ -8,11 +8,15 @@ description: Genera la guía para fonetización en español de [], sigue la plan
 
 ## Esqueleto a copiar
 
-## Guía de Fonetización en Español: [Nombre del Idioma\Dialecto]
-
-*Notas de Configuración Fonética:* Breve descripción general del sistema fonológico. Ej. "Sistema opaco, requiere memorización de patrones ortográficos".
-
+```text
 ---
+name: <slug>
+type: fonetizar
+description: Breve descripción general del sistema fonológico. Ej. "Sistema opaco, requiere memorización de patrones ortográficos."
+region: <Nombre corto (Región, País o Grupo Social)>
+---
+
+# <slug>
 
 ## Perfil Fonético General
 
@@ -26,7 +30,7 @@ Una introducción al "carácter" del idioma para establecer la postura articulat
 Adaptación del sistema vocálico complejo del idioma origen a las 5 vocales puras del español.
 
 | Patrón \ Grafía Original | Regla de Transformación            | Equivalencia Fonética | Ejemplo Práctico     |
-| ------------------------ | ---------------------------------- | --------------------- | -------------------- |
+| ------------------------ | ----------------------------------- | ---------------------- | --------------------- |
 | [Ej. 'ee' \ 'ea']        | Se pronuncia como una 'i' alargada | **i**                 | *see* → **sí**       |
 | [Ej. Vocal átona]        | Se reduce a sonido neutro (Schwa)  | **a \ e \ o** débil   | *about* → **a**-báut |
 
@@ -37,9 +41,9 @@ Adaptación del sistema vocálico complejo del idioma origen a las 5 vocales pur
 Cómo representar fonemas que no existen en el español usando nuestras grafías.
 
 | Sonido de Origen (IPA) | Descripción Articulatoria    | Fonetización en Español              |
-| ---------------------- | ---------------------------- | ------------------------------------ |
-| [Ej. \v\]              | Fricativa labiodental sonora | **v** (forzando vibración de labios) |
-| [Ej. \ʃ\]              | Fricativa postalveolar sorda | **sh**                               |
+| ----------------------- | ----------------------------- | -------------------------------------- |
+| [Ej. \v\]               | Fricativa labiodental sonora | **v** (forzando vibración de labios) |
+| [Ej. \ʃ\]               | Fricativa postalveolar sorda | **sh**                               |
 
 - **Consonantes mudas:** [Reglas estrictas sobre qué letras ignorar. Ej. "La 'k' ante 'n' inicial es muda"].
 
@@ -66,8 +70,6 @@ Disección de palabras clave aplicando las reglas anteriores.
     - *Desglose:* [Explicación de los fenómenos fonéticos que ocurren].
     - *Fonetización final:* **[Sílaba] [tó]nica**
 
----
-
 ## Interferencia Fonética (Simulación de Acento)
 
 Definición de cómo los hablantes nativos de este idioma distorsionan los fonemas del español (Lectura inversa).
@@ -91,5 +93,6 @@ Definición de cómo los hablantes nativos de este idioma distorsionan los fonem
 - **Palabra Española:** `[Original]`
     - *Desglose de Interferencia:* [Explicación de las distorsiones aplicadas].
     - *Fonetización simulada:* **[fó]netisashon**
+```
 
-Para separar las sílabas, usa ' ' en lugar de '-'. Usa '-' cuando haya un alargamiento vocal o un espacio (tipo breve respiración)
+- *Para separar las sílabas, usa un espacio en lugar de un guion. Usa un guion cuando haya un alargamiento vocal o una pausa breve (tipo respiración).*

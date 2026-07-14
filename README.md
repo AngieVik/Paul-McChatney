@@ -87,10 +87,9 @@ Cada obra aprobada vive en `proyectos/<slug>/<slug>.md` y se registra en `PROYEC
 # <slug>
 ## Titulo Original
 ## Generated
-## Master
+## Master (por defecto desmarcado, marca el usuario)
 ## style_box
-## Sliders
-## Negative Prompts
+## exclude_box
 ## lyrics_box
 ```
 

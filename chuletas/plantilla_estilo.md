@@ -13,7 +13,7 @@ description: Guía de estilo Markdown del proyecto Paul McChatney: estructura, f
 ## 1 · Principio
 
 - Humano, técnico, predecible, ligero. El archivo manda por claridad, no por decoración.
-- Nombres de archivo en minuscula, snake_case y sin acentos.
+- Nombres de archivo en minúscula, snake_case y sin acentos — excepto los nombres canónicos fijos del repositorio: `README.md`, `CLAUDE.md`, `MEMORY.md`, `PROYECTOS.md` y `SKILL.md`.
 
 ## 2 · Encabezados
 
@@ -55,7 +55,7 @@ description: Descripción.
 ---
 ```
 
-Tipos: `skill`, `map`, `plantilla`, `conocimientos`, `jerga`, `fonetizacion`, `proyecto`, `core`, `memory`. El YAML identifica; el cuerpo explica — nada largo dentro del YAML.
+Tipos: `skill`, `map`, `plantilla`, `composicion`, `chupilista`, `jerga`, `fonetizar`, `system_prompt`, `proyecto`, `core`, `memory`. El YAML identifica; el cuerpo explica — nada largo dentro del YAML.
 
 ## 8 · Convenciones de casa
 

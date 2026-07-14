@@ -1,6 +1,6 @@
 {
   "files.autoSave": "off",
-  "markdown.validate.enabled": false,
+  "markdown.validate.enabled": true,
   "files.encoding": "utf8",
   "files.eol": "\n",
   "files.insertFinalNewline": true,

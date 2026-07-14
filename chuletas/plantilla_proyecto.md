@@ -8,7 +8,6 @@ description: Plantilla canónica de proyecto. Cópiala para abrir una canción n
 
 ## Convenciones de nombre y ubicación
 
-
 - **Un proyecto evoluciona sin ritmo fijo:** no hay datos mínimos obligatorios.
 - **Ideas sueltas y bocetos** viven en `_hojas_sucias/` (espacio libre, sin formato fijo).
 - **Cada proyecto** vive en `proyectos/<slug>/<slug>.md` (carpeta propia) y se registra como fila en `PROYECTOS.md`, dentro de su LP o categoría.
@@ -18,11 +17,11 @@ description: Plantilla canónica de proyecto. Cópiala para abrir una canción n
 ## Esqueleto a copiar
 
 ```text
-- # <slug>
+# <slug>
 
 ## Titulo Original
 
-- El título tal y como se muestra al público, con acentos y mayúsculas reales
+- El título tal y como se muestra al público, con acentos y mayúsculas reales.
 
 ## Generated
 
@@ -30,23 +29,25 @@ description: Plantilla canónica de proyecto. Cópiala para abrir una canción n
 
 ## Master
 
-- Cuando el usuario tenga la pista masterizada, marcara el checkbox `Masterizado` para control personal.
+- Por defecto sin marcar; cuando el usuario tenga la pista masterizada, marca el checkbox `Masterizado` para control personal.
 
 [ ] No Masterizado
 [X] Masterizado
 
 ## style_box
 
-- El style_box exacto usado en la generación de la obra aprobada.
+- El `style_box` exacto usado en la generación de la obra aprobada.
 
-## Negative Prompts
+## exclude_box
 
-- El exclude_box exacto usado en la generación de la obra aprobada.
+- El `exclude_box` exacto usado en la generación de la obra aprobada.
 
 ## lyrics_box
 
-- Todo el lyrics_box exacto usado en la generación de la obra aprobada.
+- Todo el `lyrics_box` exacto usado en la generación de la obra aprobada.
 ```
+
+- *`slider_box` queda descartado: no forma parte del esqueleto canónico. "Negative Prompts" se llama `exclude_box` en todo el sistema — usa siempre ese nombre, nunca el alias.*
 
 ---
 

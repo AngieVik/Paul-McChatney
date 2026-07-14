@@ -1,0 +1,287 @@
+#!/usr/bin/env python3
+"""
+validar_proyecto.py — Validador automático para el proyecto Paul McChatney.
+
+Comprueba, sobre el árbol .md del proyecto:
+  1. Enlaces relativos rotos (sintaxis Markdown `[texto](ruta)` y `<a href="ruta">`).
+  2. Rutas mencionadas entre backticks (`archivo.md`) que no existen en disco
+     (ignora rutas-plantilla evidentes: <slug>, NN, ejemplo, texto...).
+  3. Corchetes de tags `[Tag]` mal formados dentro de bloques de código.
+  4. Archivos truncados: frontmatter incompleto (falta cierre `---`, faltan
+     claves `name`/`type`/`description`) o el archivo de INSTRUCCIONES
+     (skills, rules, composicion, system_prompt, raíz) termina a mitad de frase.
+  5. YAML de frontmatter estructuralmente inválido (línea que no parece
+     `clave: valor`, comillas sin cerrar en una misma línea).
+  6. Fences ``` sin cerrar (número impar de marcadores en el archivo).
+  7. Encabezados mal cerrados: terminan en `.`, `:` o `;` (prohibido por
+     `chuletas/plantilla_estilo.md` §2).
+  8. Las plantillas generativas (`chuletas/plantilla_*.md`) generan un
+     esqueleto compatible: se extrae cada bloque de código de la plantilla y
+     se le aplican los chequeos 5-7 como si fuera un documento real.
+
+Uso:
+    python validar_proyecto.py [ruta_raiz]
+    (usa `python3` en vez de `python` si tu sistema lo requiere así)
+
+Si no se indica ruta, usa el directorio actual. Ignora .git, node_modules y
+las carpetas personales de trabajo (_hojas_sucias, _temp, _produccion,
+_prompts_antiguos, _docs) salvo que se pase --incluir-personales.
+
+Nota sobre la heurística de truncamiento (punto 4): solo se aplica a las
+carpetas de INSTRUCCIONES (`.claude/`, `system_prompt/`, `composicion/`,
+`chuletas/` y archivos sueltos en la raíz como CLAUDE.md/MEMORY.md), donde la
+prosa siempre debería cerrar en frase completa. Se excluye deliberadamente
+`proyectos/`, `chupilista/`, `fonetizar/` y `jerga/`: son letras, listas de
+tags y ejemplos fonéticos que legítimamente terminan sin punto. Aun así es una
+heurística — revisa cada aviso, no la trates como verdad absoluta.
+
+Salida: reporte por consola agrupado por tipo de problema + código de salida
+1 si se encontró algún problema (útil para hooks/CI), 0 si todo está limpio.
+"""
+
+import argparse
+import os
+import re
+import sys
+from pathlib import Path
+
+IGNORE_DIRS = {".git", "node_modules", ".vscode"}
+PERSONAL_DIRS = {"_hojas_sucias", "_temp", "_produccion", "_prompts_antiguos", "_docs"}
+
+# Carpetas donde la prosa es "de instrucción" y debería cerrar en frase completa.
+INSTRUCTIONAL_TOP_DIRS = {".claude", "system_prompt", "composicion", "chuletas"}
+
+MD_LINK_RE = re.compile(r"\[[^\]]*\]\(([^)]+)\)")
+HTML_HREF_RE = re.compile(r'href="([^"]+)"')
+BACKTICK_PATH_RE = re.compile(r"`([\w./\\-]+\.(?:md|py|json|yaml|yml))`")
+FRONTMATTER_RE = re.compile(r"\A---\s*\n(.*?)\n---\s*\n", re.DOTALL)
+CODEBLOCK_RE = re.compile(r"```.*?```", re.DOTALL)
+FENCE_OPEN_RE = re.compile(r"^```([a-zA-Z0-9_-]*)\s*$", re.MULTILINE)
+HEADING_RE = re.compile(r"^(#{1,6})\s+(.*?)\s*$", re.MULTILINE)
+
+REQUIRED_FRONTMATTER_KEYS = ("name", "type", "description")
+
+# Terminaciones que sugieren que la frase SÍ está completa (incluye cierres
+# de énfasis Markdown '*'/'_' porque son habituales al final de una nota).
+SENTENCE_END_CHARS = set(".!?:`\"'”»)*_")
+
+# Fragmentos que delatan una ruta-plantilla (placeholder), no un archivo real.
+PLACEHOLDER_TOKENS = ("<", ">", "slug", "NN", "ejemplo", "texto", "archivo.md")
+
+# Encabezados que NO deben cerrar con puntuación (regla de plantilla_estilo.md §2).
+FORBIDDEN_HEADING_ENDINGS = (".", ":", ";")
+
+
+def is_placeholder_path(target: str) -> bool:
+    lowered = target.lower()
+    return any(tok.lower() in lowered for tok in PLACEHOLDER_TOKENS)
+
+
+def iter_markdown_files(root: Path, include_personal: bool):
+    for dirpath, dirnames, filenames in os.walk(root):
+        dirnames[:] = [
+            d for d in dirnames
+            if d not in IGNORE_DIRS and (include_personal or d not in PERSONAL_DIRS)
+        ]
+        for fname in filenames:
+            if fname.endswith(".md"):
+                yield Path(dirpath) / fname
+
+
+def check_links(path: Path, text: str, root: Path, problems: list):
+    for regex in (MD_LINK_RE, HTML_HREF_RE):
+        for m in regex.finditer(text):
+            target = m.group(1).strip()
+            if target.startswith(("http://", "https://", "mailto:", "#")):
+                continue
+            target_clean = target.split("#")[0]
+            if not target_clean or is_placeholder_path(target_clean):
+                continue
+            resolved = (path.parent / target_clean).resolve()
+            if not resolved.exists():
+                problems.append(
+                    f"[enlace roto] {rel(path, root)} -> '{target}' no existe (esperado en {resolved})"
+                )
+
+
+def check_backtick_paths(path: Path, text: str, root: Path, problems: list):
+    for m in BACKTICK_PATH_RE.finditer(text):
+        target = m.group(1)
+        if "/" not in target and "\\" not in target:
+            continue  # nombre suelto tipo `archivo.md` sin ruta, demasiado ambiguo
+        if is_placeholder_path(target):
+            continue
+        target_norm = target.replace("\\", "/")
+        for base in (path.parent, root):
+            if (base / target_norm).exists():
+                break
+        else:
+            problems.append(
+                f"[ruta citada inexistente] {rel(path, root)} -> '{target}'"
+            )
+
+
+def check_bracket_balance(path: Path, text: str, root: Path, problems: list, label: str = None):
+    for block in CODEBLOCK_RE.findall(text):
+        opens = block.count("[")
+        closes = block.count("]")
+        if opens != closes:
+            snippet = block.strip().splitlines()[0][:60] if block.strip() else "(vacío)"
+            where = label or rel(path, root)
+            problems.append(
+                f"[corchetes desbalanceados] {where} en bloque que empieza por: {snippet!r} "
+                f"({opens} '[' vs {closes} ']')"
+            )
+
+
+def check_unclosed_fences(path: Path, text: str, root: Path, problems: list, label: str = None):
+    fence_count = text.count("```")
+    if fence_count % 2 != 0:
+        where = label or rel(path, root)
+        problems.append(
+            f"[fence sin cerrar] {where}: {fence_count} marcadores ``` (número impar)"
+        )
+
+
+def check_heading_style(path: Path, text: str, root: Path, problems: list, label: str = None):
+    where = label or rel(path, root)
+    levels = []
+    for m in HEADING_RE.finditer(text):
+        hashes, title = m.group(1), m.group(2)
+        level = len(hashes)
+        if title and title[-1] in FORBIDDEN_HEADING_ENDINGS:
+            problems.append(
+                f"[encabezado mal cerrado] {where}: '{hashes} {title}' termina en '{title[-1]}'"
+            )
+        levels.append(level)
+    # Salto de nivel (ej. # -> ### sin pasar por ##), solo dentro del mismo bloque.
+    for prev, cur in zip(levels, levels[1:]):
+        if cur - prev > 1:
+            problems.append(
+                f"[salto de nivel de encabezado] {where}: de H{prev} a H{cur} sin niveles intermedios"
+            )
+
+
+def check_yaml_frontmatter_shape(path: Path, text: str, root: Path, problems: list, label: str = None):
+    """Chequeo estructural ligero de YAML (sin depender de PyYAML)."""
+    where = label or rel(path, root)
+    m = FRONTMATTER_RE.match(text)
+    if not m:
+        return
+    block = m.group(1)
+    for i, line in enumerate(block.splitlines(), start=1):
+        if not line.strip():
+            continue
+        if line.startswith((" ", "\t")):
+            continue  # continuación/indentada, no se valida a fondo
+        if not re.match(r"^[A-Za-z_][A-Za-z0-9_-]*:\s?.*$", line):
+            problems.append(
+                f"[YAML sospechoso] {where} línea {i} de frontmatter no parece `clave: valor`: {line.strip()!r}"
+            )
+            continue
+        # Comillas sin cerrar en la misma línea (heurística: conteo de " impar).
+        if line.count('"') % 2 != 0:
+            problems.append(
+                f"[YAML sospechoso] {where} línea {i}: comillas dobles sin cerrar: {line.strip()!r}"
+            )
+
+
+def is_instructional(path: Path, root: Path) -> bool:
+    try:
+        parts = path.relative_to(root).parts
+    except ValueError:
+        parts = path.parts
+    if len(parts) == 1:
+        return True  # archivo suelto en la raíz (CLAUDE.md, MEMORY.md, PROYECTOS.md...)
+    return parts[0] in INSTRUCTIONAL_TOP_DIRS
+
+
+def check_frontmatter_and_truncation(path: Path, text: str, root: Path, problems: list):
+    m = FRONTMATTER_RE.match(text)
+    if text.lstrip().startswith("---") and not m:
+        problems.append(f"[frontmatter incompleto] {rel(path, root)} no cierra el bloque `---`")
+    elif m:
+        block = m.group(1)
+        missing = [k for k in REQUIRED_FRONTMATTER_KEYS if f"{k}:" not in block]
+        if missing:
+            problems.append(
+                f"[frontmatter incompleto] {rel(path, root)} falta(n) clave(s): {', '.join(missing)}"
+            )
+
+    if not is_instructional(path, root):
+        return
+
+    stripped = text.rstrip()
+    if not stripped:
+        return
+    last_line = stripped.splitlines()[-1].strip()
+    if not last_line or last_line == "---" or last_line.startswith("|"):
+        return
+    last_char = last_line[-1]
+    if last_char not in SENTENCE_END_CHARS and len(last_line.split()) >= 4:
+        problems.append(
+            f"[posible archivo truncado] {rel(path, root)} termina en: '...{last_line[-60:]}'"
+        )
+
+
+def check_plantilla_skeletons(path: Path, text: str, root: Path, problems: list):
+    """Las plantillas generativas deben producir esqueletos compatibles con las
+    convenciones reales: se extrae cada bloque de código y se le aplican los
+    mismos chequeos de forma (YAML, fences, encabezados) que a un documento real."""
+    if path.name.startswith("plantilla_") is False:
+        return
+    for idx, block in enumerate(CODEBLOCK_RE.findall(text), start=1):
+        # Quita la línea de apertura ```lenguaje y el cierre ``` finales.
+        inner = re.sub(r"\A```[a-zA-Z0-9_-]*\n", "", block)
+        inner = re.sub(r"\n```\Z", "", inner)
+        label = f"{rel(path, root)} (esqueleto #{idx})"
+        check_yaml_frontmatter_shape(path, inner, root, problems, label=label)
+        check_heading_style(path, inner, root, problems, label=label)
+        check_bracket_balance(path, inner, root, problems, label=label)
+
+
+def rel(path: Path, root: Path) -> str:
+    try:
+        return str(path.relative_to(root))
+    except ValueError:
+        return str(path)
+
+
+def main():
+    parser = argparse.ArgumentParser(description="Validador automático del proyecto Paul McChatney")
+    parser.add_argument("ruta", nargs="?", default=".", help="Raíz del proyecto a validar")
+    parser.add_argument("--incluir-personales", action="store_true",
+                         help="Incluye _hojas_sucias, _temp, _produccion, _prompts_antiguos, _docs")
+    args = parser.parse_args()
+
+    root = Path(args.ruta).resolve()
+    problems = []
+
+    for path in iter_markdown_files(root, args.incluir_personales):
+        try:
+            text = path.read_text(encoding="utf-8")
+        except UnicodeDecodeError:
+            problems.append(f"[error de lectura] {rel(path, root)} no es UTF-8 válido")
+            continue
+
+        check_links(path, text, root, problems)
+        check_backtick_paths(path, text, root, problems)
+        check_bracket_balance(path, text, root, problems)
+        check_frontmatter_and_truncation(path, text, root, problems)
+        check_yaml_frontmatter_shape(path, text, root, problems)
+        check_unclosed_fences(path, text, root, problems)
+        check_heading_style(path, text, root, problems)
+        check_plantilla_skeletons(path, text, root, problems)
+
+    if not problems:
+        print("✅ Sin problemas detectados.")
+        return 0
+
+    print(f"⚠️  {len(problems)} problema(s) detectado(s):\n")
+    for p in problems:
+        print(f"- {p}")
+    return 1
+
+
+if __name__ == "__main__":
+    sys.exit(main())
