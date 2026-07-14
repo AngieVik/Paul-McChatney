@@ -1,6 +1,6 @@
 ---
-name: <name>
-type: skill
+name: plantilla_skill
+type: plantilla
 description: rol de orquestación en positivo
 ---
 

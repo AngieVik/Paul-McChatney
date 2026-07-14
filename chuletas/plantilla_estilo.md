@@ -33,19 +33,19 @@ Cabecera + separador siempre. Solo para datos cortos y comparables; contenido la
 
 ## 6 · Rutas y carga
 
-Relativas con `/`, aunque el sistema sea Windows (`composicion/letra.md`, no `composicion\letra.md`).
+Relativas con `/`, aunque el sistema sea Windows (`composicion/letra.md`, no `composicion\letra.md`). Política completa de carga: `.claude/CLAUDE.md` (fuente canónica) — aquí solo la sintaxis de rutas.
 
-| Forma                         | Uso                                  |
-| ----------------------------- | ------------------------------------ |
-| `@ruta`                       | Carga ansiosa — solo núcleo pequeño. |
-| `ruta`                        | Lectura bajo demanda.                |
-| `<a href="texto">`texto`</a>` | Enlace Markdown para navegación.     |
+| Forma                         | Uso                                                        |
+| ----------------------------- | ----------------------------------------------------------- |
+| `@ruta`                       | Carga ansiosa — solo núcleo pequeño.                       |
+| `ruta`                        | Lectura bajo demanda.                                      |
+| `<a href="texto">`texto`</a>` | Etiqueta `<a>` para navegación (no es sintaxis Markdown). |
 
 Regla de oro: nunca cargar carpetas enteras, solo el archivo necesario.
 
 ## 7 · YAML
 
-Mínimo y obligatorio en skills, rules, plantillas, conocimientos, jerga, fonetización y proyectos cerrados:
+Mínimo y obligatorio en skills, rules, plantillas, manuales de composición, jerga, fonetización y proyectos cerrados:
 
 ```yaml
 ---

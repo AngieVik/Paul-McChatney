@@ -17,52 +17,66 @@ description: Plantilla canónica de proyecto. Cópiala para abrir una canción n
 ## Esqueleto a copiar
 
 ```text
+---
+name: <slug>
+type: proyecto
+description: <titulo_publico>
+schema_version: 1
+---
+
 # <slug>
 
 ## Titulo Original
 
-- El título tal y como se muestra al público, con acentos y mayúsculas reales.
+<titulo_publico>
 
 ## Generated
 
-- La fecha de la generación de la obra aprobada.
+<YYYY-MM-DD>
 
 ## Master
-
-- Por defecto sin marcar; cuando el usuario tenga la pista masterizada, marca el checkbox `Masterizado` para control personal.
 
 [ ] Masterizado
 
 ## style_box
 
-- El `style_box` exacto usado en la generación de la obra aprobada.
+<style_box_exacto>
 
 ## exclude_box
 
-- El `exclude_box` exacto usado en la generación de la obra aprobada.
+<exclude_box_exacto>
 
 ## lyrics_box
 
-- Todo el `lyrics_box` exacto usado en la generación de la obra aprobada.
+<lyrics_box_exacto>
 ```
 
 - *`slider_box` queda descartado: no forma parte del esqueleto canónico. "Negative Prompts" se llama `exclude_box` en todo el sistema — usa siempre ese nombre, nunca el alias.*
+
+### Qué va en cada marcador
+
+- **`<slug>`:** identificador de archivo/carpeta, `snake_case`, sin acentos.
+- **`<titulo_publico>`:** el título tal y como se muestra al público, con acentos y mayúsculas reales.
+- **`<YYYY-MM-DD>`:** fecha de la generación de la obra aprobada.
+- **`[ ] Masterizado`:** por defecto sin marcar; marca el checkbox cuando el usuario tenga la pista masterizada, es control personal, no automático.
+- **`<style_box_exacto>`:** el `style_box` exacto usado en la generación de la obra aprobada.
+- **`<exclude_box_exacto>`:** el `exclude_box` exacto usado en la generación de la obra aprobada.
+- **`<lyrics_box_exacto>`:** todo el `lyrics_box` exacto usado en la generación de la obra aprobada.
 
 ---
 
 ## Cómo referenciar archivos del proyecto
 
-Usa **rutas relativas a la raíz del proyecto**. No uses rutas absolutas del sistema ni `C:/...`. Distingue las dos semánticas de carga:
+- **Política de carga completa:** ver `.claude/CLAUDE.md` (fuente canónica) — no se repite aquí. Esta sección cubre solo la sintaxis de rutas dentro de un proyecto.
+- **Ruta para herramientas** (la que abre el agente con la herramienta de lectura): relativa a la raíz del repositorio, sin `@`, con `/` aunque el sistema sea Windows. Ej.: `composicion/letra.md`.
+- **Enlace navegable** (para que un humano haga clic desde este documento): etiqueta `<a href="<ruta_relativa>">`, con la ruta relativa al propio archivo que contiene el enlace — no a la raíz. Ej.: <a href="../../composicion/ejemplo.md">`ejemplo.md`</a> (dos niveles arriba, típico desde `proyectos/<slug>/<slug>.md`).
 
-- **`@ruta` = se carga SIEMPRE en contexto** (carga ansiosa). Resérvalo en `CLAUDE.md` solo para el núcleo de comportamiento (`system_prompt/` + `MEMORY.md`).
-- **Ruta sin `@` = se abre bajo demanda** con la herramienta de lectura, solo cuando la obra lo pide. todo lo bajo demanda, ruta plana y lectura selectiva.
-- **texto/markdown de lectura** (tablas, notas) usa enlaces http: <a href="ejemplo.md">`ejemplo.md`</a>
+| Quiero referenciar…        | Ruta para herramientas (raíz, sin `@`)       |
+| --------------------------- | ---------------------------------------------- |
+| Un módulo de la chupilista | `chupilista/01_core_genres_and_subgenres.md` |
+| Una fonetización           | `fonetizar/es_andaluz.md`                    |
+| Un conocimiento técnico    | `composicion/tecnicas_vocales.md`            |
+| Una jerga                  | `jerga/argot_canario.md`                     |
+| Un proyecto                | `proyectos/60_granos/60_granos.md`           |
 
-| Quiero referenciar…                     | Escribo (bajo demanda, sin `@`)                    |
-| --------------------------------------- | -------------------------------------------------- |
-| Un módulo de la chupilista              | `chupilista/01_core_genres_and_subgenres.md`       |
-| Una fonetización                        | `fonetizar/es_andaluz.md`                          |
-| Un conocimiento técnico                 | `composicion/tecnicas_vocales.md`                  |
-| Una jerga                               | `jerga/argot_canario.md`                           |
-| Un proyecto                             | `proyectos/60_granos/60_granos.md`                 |
-| Carpeta entera con `@` (`@chupilista/`) | **EVITAR:** cargaría ~13.000 líneas en cada sesión |
+- **Evitar:** cargar una carpeta entera con `@` (`@chupilista/`) — cargaría ~13.000 líneas en cada sesión.

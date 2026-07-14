@@ -13,7 +13,7 @@ description: Genera el manual de jerga de [], sigue la plantilla y genera el res
 name: <slug>
 type: jerga
 description: Breve descripción general del origen y uso de la jerga. Ej. "Jerga urbana de clase trabajadora, fuertemente influenciada por la inmigración y el argot carcelario, actualmente asimilada en la cultura pop."
-region: <Nombre corto (Región, País o Grupo Social)>
+region: <Ámbito: región, idioma, grupo social, gremio o profesión>
 ---
 
 # <slug>

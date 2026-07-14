@@ -10,6 +10,7 @@ description: Guía conceptual (no estricta) del archivo de trabajo. Cópiala par
 - Sirve para retomar: al volver (incluso en otra conversación), leer este archivo debe bastar para saber exactamente dónde estabas y por qué.
 - Slug en `snake_case`, sin acentos ni eñes. El `# H1` = el <slug>.
 
+```text
 # <slug>
 
 ## Petición original
@@ -48,6 +49,7 @@ Lo que falta decidir, dudas para el usuario, cabos sueltos. Lo primero que se mi
 ## Descartes
 
 Ideas o versiones probadas que no cuajaron, y por qué. Evita volver al mismo callejón.
+```
 
 ---
 

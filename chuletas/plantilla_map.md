@@ -1,8 +1,10 @@
 ---
-name: <name>
-type: map
+name: plantilla_map
+type: plantilla
 description: resumen del contenido indexado
 ---
+
+# plantilla_map
 
 - *No se carga con `@`. Dos variantes reales según lo que indexa — usa la que corresponda, no asumas siempre un manual en `composicion/`:*
     - **Mapa → manual único:** abre `composicion/<name>.md` bajo demanda con la herramienta de lectura (ej. `.claude/rules/style_box.md` → `composicion/style_box.md`).

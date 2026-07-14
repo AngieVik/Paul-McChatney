@@ -13,7 +13,7 @@ description: Genera la guía para fonetización en español de [], sigue la plan
 name: <slug>
 type: fonetizar
 description: Breve descripción general del sistema fonológico. Ej. "Sistema opaco, requiere memorización de patrones ortográficos."
-region: <Nombre corto (Región, País o Grupo Social)>
+region: <Ámbito: región, idioma, grupo social, edad, condición vocal o perfil>
 ---
 
 # <slug>

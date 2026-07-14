@@ -21,6 +21,16 @@ Comprueba, sobre el árbol .md del proyecto:
   8. Las plantillas generativas (`chuletas/plantilla_*.md`) generan un
      esqueleto compatible: se extrae cada bloque de código de la plantilla y
      se le aplican los chequeos 5-7 como si fuera un documento real.
+  9. Todo `chuletas/plantilla_*.md` declara `type: plantilla` en su propio
+     frontmatter.
+  10. Dentro de `chuletas/`, cada archivo tiene exactamente un `# H1` fuera de
+      bloques de código (ni cero ni varios).
+  11. El esqueleto de `plantilla_proyecto.md` empieza con frontmatter YAML y
+      trae las secciones canónicas de un proyecto (Titulo Original, Generated,
+      Master, style_box, exclude_box, lyrics_box).
+  12. Dentro de un esqueleto copiable, ninguna línea de viñeta parece prosa
+      explicativa colada (instrucción para quien rellena la plantilla) en vez
+      de un marcador determinista (`<...>`, `[...]` o backticks).
 
 Uso:
     python validar_proyecto.py [ruta_raiz]
@@ -63,6 +73,14 @@ FENCE_OPEN_RE = re.compile(r"^```([a-zA-Z0-9_-]*)\s*$", re.MULTILINE)
 HEADING_RE = re.compile(r"^(#{1,6})\s+(.*?)\s*$", re.MULTILINE)
 
 REQUIRED_FRONTMATTER_KEYS = ("name", "type", "description")
+
+# Secciones canónicas que debe traer el esqueleto de plantilla_proyecto.md.
+REQUIRED_PROYECTO_SECTIONS = ("Titulo Original", "Generated", "Master", "style_box", "exclude_box", "lyrics_box")
+
+# Línea de viñeta dentro de un esqueleto copiable: se compara contra estos
+# marcadores para decidir si es un placeholder determinista o prosa colada.
+PROSE_LEAK_RE = re.compile(r"^-\s+(.+)$")
+PROSE_PLACEHOLDER_MARKERS = ("<", "[", "`")
 
 # Terminaciones que sugieren que la frase SÍ está completa (incluye cierres
 # de énfasis Markdown '*'/'_' porque son habituales al final de una nota).
@@ -263,6 +281,29 @@ def check_frontmatter_and_truncation(path: Path, text: str, root: Path, problems
         )
 
 
+def check_skeleton_prose_leak(inner: str, where: str, problems: list):
+    """Detecta líneas de instrucción (explicación en prosa dirigida a quien
+    rellena la plantilla) coladas dentro de un esqueleto copiable, en vez de
+    dejar solo marcadores deterministas. Una viñeta `- ...` se considera
+    placeholder legítimo si contiene `<...>`, `[...]` o backticks; si no
+    contiene ninguno de esos marcadores y tiene pinta de frase completa (6+
+    palabras, cierra en '.' o ':'), se marca como sospechosa. Es heurística:
+    revisa cada aviso, no la trates como verdad absoluta."""
+    for line_no, line in enumerate(inner.splitlines(), start=1):
+        m = PROSE_LEAK_RE.match(line.strip())
+        if not m:
+            continue
+        content = m.group(1)
+        if any(marker in content for marker in PROSE_PLACEHOLDER_MARKERS):
+            continue
+        words = content.split()
+        if len(words) >= 6 and content.rstrip().endswith((".", ":")):
+            problems.append(
+                f"[instrucción colada en esqueleto] {where} línea {line_no}: "
+                f"parece prosa explicativa, no un marcador determinista: {content[:60]!r}"
+            )
+
+
 def check_plantilla_skeletons(path: Path, text: str, root: Path, problems: list):
     """Las plantillas generativas deben producir esqueletos compatibles con las
     convenciones reales: se extrae cada bloque de código y se le aplican los
@@ -277,6 +318,60 @@ def check_plantilla_skeletons(path: Path, text: str, root: Path, problems: list)
         check_yaml_frontmatter_shape(path, inner, root, problems, label=label)
         check_heading_style(path, inner, root, problems, label=label)
         check_bracket_tags(path, inner, root, problems, label=label)
+        check_skeleton_prose_leak(inner, label, problems)
+
+
+def check_plantilla_type(path: Path, text: str, root: Path, problems: list):
+    """chuletas/plantilla_*.md deben declarar `type: plantilla` en su propio frontmatter."""
+    if not (path.parent.name == "chuletas" and path.name.startswith("plantilla_")):
+        return
+    m = FRONTMATTER_RE.match(text)
+    if not m:
+        return  # ya lo marca check_frontmatter_and_truncation
+    type_match = re.search(r"^type:\s*(.+)$", m.group(1), re.MULTILINE)
+    if not type_match or type_match.group(1).strip() != "plantilla":
+        problems.append(
+            f"[type incorrecto] {rel(path, root)}: chuletas/plantilla_*.md debe declarar `type: plantilla`"
+        )
+
+
+def check_single_h1(path: Path, text: str, root: Path, problems: list):
+    """Dentro de chuletas/, exige exactamente un H1 fuera de bloques de código."""
+    try:
+        parts = path.relative_to(root).parts
+    except ValueError:
+        parts = path.parts
+    if not parts or parts[0] != "chuletas":
+        return
+    text_wo_code = CODEBLOCK_RE.sub("", text)
+    h1_count = len(re.findall(r"^#\s+\S", text_wo_code, re.MULTILINE))
+    if h1_count != 1:
+        problems.append(
+            f"[H1 múltiple o ausente] {rel(path, root)}: {h1_count} encabezados H1 fuera de "
+            f"bloques de código (se espera exactamente 1)"
+        )
+
+
+def check_proyecto_skeleton_sections(path: Path, text: str, root: Path, problems: list):
+    """El esqueleto de plantilla_proyecto.md debe traer frontmatter propio y
+    las secciones canónicas de un proyecto."""
+    if path.name != "plantilla_proyecto.md":
+        return
+    blocks = CODEBLOCK_RE.findall(text)
+    if not blocks:
+        problems.append(f"[esqueleto de proyecto ausente] {rel(path, root)}: no se encontró ningún bloque de código")
+        return
+    inner = re.sub(r"\A```[a-zA-Z0-9_-]*\n", "", blocks[0])
+    inner = re.sub(r"\n```\Z", "", inner)
+    if not inner.lstrip().startswith("---"):
+        problems.append(
+            f"[esqueleto de proyecto sin frontmatter] {rel(path, root)}: el bloque copiable no empieza con YAML `---`"
+        )
+    missing_sections = [s for s in REQUIRED_PROYECTO_SECTIONS if f"## {s}" not in inner]
+    if missing_sections:
+        problems.append(
+            f"[esqueleto de proyecto incompleto] {rel(path, root)}: falta(n) sección(es): {', '.join(missing_sections)}"
+        )
 
 
 def rel(path: Path, root: Path) -> str:
@@ -311,6 +406,9 @@ def main():
         check_unclosed_fences(path, text, root, problems)
         check_heading_style(path, text, root, problems)
         check_plantilla_skeletons(path, text, root, problems)
+        check_plantilla_type(path, text, root, problems)
+        check_single_h1(path, text, root, problems)
+        check_proyecto_skeleton_sections(path, text, root, problems)
 
     if not problems:
         print("✅ Sin problemas detectados.")
