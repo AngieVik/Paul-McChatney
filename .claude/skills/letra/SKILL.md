@@ -65,10 +65,13 @@ description: "Redacta la letra limpia sin tags: narrativa, cadencia y anclaje re
 ## Ejemplo
 
 **Entrada:**
+
 ```text
 Cartero rural que nunca llega, Tono melancólico, jota aragonesa.
 ```
+
 **Salida:**
+
 ```text
 El cartero que no llega
 miro la pared rascá

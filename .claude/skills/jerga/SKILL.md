@@ -57,10 +57,13 @@ description: "Inyecta en el texto cantable jerga específica para que se cante. 
 ## Ejemplo
 
 **Entrada:**
+
 ```text
 `Deja de decir tonterías y vayamos ya un momento a la playa, ¡por supuesto que sí!` + jerga Almeriense.
 ```
+
 **Salida:**
+
 ```text
 Almeriense: `Déjate de chuminás y vámonos ya un ratico a la playa, ¡no ni ná!`.
 ```

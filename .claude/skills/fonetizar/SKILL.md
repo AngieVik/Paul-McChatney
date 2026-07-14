@@ -57,10 +57,13 @@ description: "Reescribe el texto cantable para que se cante con un acento o idio
 ## Ejemplo
 
 **Entrada:**
+
 ```text
 `los perros del puerto` + Acento Andaluz.
 ```
+
 **Salida:**
+
 ```text
 Letra fonetizada Andaluz: `loh perroh del puerto`.
 ```

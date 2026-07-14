@@ -62,10 +62,13 @@ description: "Convierte aprendizajes detectados durante el trabajo en conocimien
 ## Ejemplo
 
 **Entrada:**
+
 ```text
 `proyectos/papas_en_ajopollo/papas_en_ajopollo.md`
 ```
+
 **Salida:**
+
 ```text
 Principio transversal → La narrativa manda: antes de tocar un tag, entiende qué historia cuenta la canción y para quién. (→ .claude/MEMORY.md)
 Corazonada confirmada → el "3D Room Dynamics" de efectos §1.5 funcionó: propongo ascenderlo (quitar ⚗️). (→ composicion/efectos.md)
