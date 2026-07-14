@@ -2,8 +2,6 @@
 
 *Catálogo de canciones producidas.*
 *Cada entrada enlaza al archivo con el prompt completo.*
-*Si una obra aprobada genera un aprendizaje (crear/modificar/eliminar una instrucción), se anota junto a su entrada una referencia a la instrucción tocada, en formato tipo detector. Ejemplo:*
-`- **Fantasma en la mezcla** — [Solo] mal usado vacía la sección; usa jerarquía tipo [Lead] (lyrics_box §2).`
 
 ---
 

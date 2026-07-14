@@ -77,12 +77,14 @@ description: Vocabulario exhaustivo de tags y modificadores, la chupilista es la
 
 ### 06_song_structure_and_sections
 
-`1 · Tempo, Velocidad y Multiplicadores`
-`2 · Compases, Polirritmias y Rejillas Matemáticas`
-`3 · Groove, Cuantización y Micro-Timing`
-`4 · Patrones de Género y Estilos Específicos`
-`5 · Glitch, Stutter y Fracturas IDM`
-`6 · Dinámica, Acústica Espacial y Estructura Rítmica`
+`1 · Introducciones y Preámbulos`
+`2 · Versos y Estrofas`
+`3 · Pre-Estribillos y Construcciones de Tensión`
+`4 · Estribillos y Ganchos (Hooks)`
+`5 · Puentes y Breakdowns`
+`6 · Interludios, Drops y Transiciones`
+`7 · Outros, Codas y Finales`
+`8 · Narrativa, Motivos y Elementos Conceptuales`
 
 ### 07_music_theory_harmony_and_scales
 

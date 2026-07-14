@@ -9,7 +9,7 @@ description: genera 3 prompts 1:1 para Gemini a partir del sentimiento (no el ar
 - Convierte una obra de Paul McChatney en **3 prompts perfectos** para generar portadas (cover art) en formato **1:1**.
 - No se trata de ilustrar la letra de forma literal, sino de **pescar el sentimiento**: los conceptos semánticos y las cualidades ocultas que laten dentro de la canción.
 
-## Cuándo se activa
+## Activación
 
 - **El usuario pide una portada, un cover, un cover art, una carátula o imágenes para una obra.**
 - Si hay varias obras en juego, preguntar **de cuál**.

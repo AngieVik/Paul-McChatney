@@ -6,9 +6,11 @@ description: Genera el manual de jerga de [], sigue la plantilla y genera el res
 
 # plantilla_jerga
 
-## Esqueleto a copiar
+---
 
-```text
+## Esqueleto
+
+```markdown
 ---
 name: <slug>
 type: jerga
@@ -31,7 +33,7 @@ Una introducción al "carácter" del vocabulario para entender la mentalidad y e
 Mapeo de las palabras clave esenciales para la supervivencia conversacional en este entorno.
 
 | Término / Expresión | Significado Estándar | Registro / Tono           | Ejemplo Práctico (En Contexto)                           |
-| -------------------- | --------------------- | -------------------------- | ---------------------------------------------------------- |
+| ------------------- | -------------------- | ------------------------- | -------------------------------------------------------- |
 | **[Término]**       | [Traducción neutra]  | [Ej. Coloquial / Vulgar]  | *[Frase usando la palabra]* → "[Traducción de la frase]" |
 | **[Término]**       | [Traducción neutra]  | [Ej. Familiar / Amistoso] | *[Frase usando la palabra]* → "[Traducción de la frase]" |
 
@@ -42,7 +44,7 @@ Mapeo de las palabras clave esenciales para la supervivencia conversacional en e
 Las palabras vacías o de apoyo que dan fluidez y naturalidad al discurso, aunque carezcan de significado literal.
 
 | Marcador          | Función Discursiva                        | Equivalencia Estándar        |
-| ------------------ | ------------------------------------------- | ------------------------------ |
+| ----------------- | ----------------------------------------- | ---------------------------- |
 | **[Muletilla 1]** | [Ej. Llenar silencios, buscar aprobación] | [Ej. "¿Entiendes?", "O sea"] |
 | **[Muletilla 2]** | [Ej. Enfatizar sorpresa o indignación]    | [Ej. "¡Vaya!", "¡Caramba!"]  |
 
@@ -84,3 +86,5 @@ Disección de frases completas aplicando el vocabulario y las reglas anteriores.
     - *Desglose Lexical:* [Explicación de la metáfora o el insulto utilizado].
     - *Traducción Estándar:* **"[La frase en español neutro, plano y formal]"**
 ```
+
+---

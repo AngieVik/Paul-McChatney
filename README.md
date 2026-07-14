@@ -81,17 +81,7 @@ El formato de salida estándar de los proyectos en curso vive en `composicion/fo
 `lyrics_box`
 ```
 
-Cada obra aprobada vive en `proyectos/<slug>/<slug>.md` y se registra en `PROYECTOS.md`:
-
-```text
-# <slug>
-## Titulo Original
-## Generated
-## Master (por defecto desmarcado, marca el usuario)
-## style_box
-## exclude_box
-## lyrics_box
-```
+Cada obra aprobada vive en `proyectos/<slug>/<slug>.md` y se registra en `PROYECTOS.md`. El esquema canónico de la obra (frontmatter + secciones) no se copia aquí: vive en `chuletas/plantilla_proyecto.md` (fuente única) y se aplica al `aprobar`.
 
 ---
 
@@ -105,4 +95,3 @@ Un prompt sin aprobar es hipótesis, no conocimiento. El aprendizaje estable pue
 | ------------------- | ------------------- |
 | Principio general   | `.claude/MEMORY.md` |
 | Técnica concreta    | `composicion/`      |
-| Relación obra-regla | `PROYECTOS.md`      |

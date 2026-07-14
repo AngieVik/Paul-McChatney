@@ -1,14 +1,16 @@
 ---
 name: plantilla_fonetizar
 type: plantilla
-description: Genera la guía para fonetización en español de [], sigue la plantilla y genera el resultado en un bloque de código markdown.
+description: Genera la guía para fonetización en español de <dialecto>, sigue la plantilla y genera el resultado en un bloque de código markdown.
 ---
 
 # plantilla_fonetizar
 
-## Esqueleto a copiar
+---
 
-```text
+## Esqueleto
+
+```markdown
 ---
 name: <slug>
 type: fonetizar
@@ -30,7 +32,7 @@ Una introducción al "carácter" del idioma para establecer la postura articulat
 Adaptación del sistema vocálico complejo del idioma origen a las 5 vocales puras del español.
 
 | Patrón \ Grafía Original | Regla de Transformación            | Equivalencia Fonética | Ejemplo Práctico     |
-| ------------------------ | ----------------------------------- | ---------------------- | --------------------- |
+| ------------------------ | ---------------------------------- | --------------------- | -------------------- |
 | [Ej. 'ee' \ 'ea']        | Se pronuncia como una 'i' alargada | **i**                 | *see* → **sí**       |
 | [Ej. Vocal átona]        | Se reduce a sonido neutro (Schwa)  | **a \ e \ o** débil   | *about* → **a**-báut |
 
@@ -41,9 +43,9 @@ Adaptación del sistema vocálico complejo del idioma origen a las 5 vocales pur
 Cómo representar fonemas que no existen en el español usando nuestras grafías.
 
 | Sonido de Origen (IPA) | Descripción Articulatoria    | Fonetización en Español              |
-| ----------------------- | ----------------------------- | -------------------------------------- |
-| [Ej. \v\]               | Fricativa labiodental sonora | **v** (forzando vibración de labios) |
-| [Ej. \ʃ\]               | Fricativa postalveolar sorda | **sh**                               |
+| ---------------------- | ---------------------------- | ------------------------------------ |
+| [Ej. \v\]              | Fricativa labiodental sonora | **v** (forzando vibración de labios) |
+| [Ej. \ʃ\]              | Fricativa postalveolar sorda | **sh**                               |
 
 - **Consonantes mudas:** [Reglas estrictas sobre qué letras ignorar. Ej. "La 'k' ante 'n' inicial es muda"].
 
@@ -95,4 +97,10 @@ Definición de cómo los hablantes nativos de este idioma distorsionan los fonem
     - *Fonetización simulada:* **[fó]netisashon**
 ```
 
+---
+
+## Instrucciones
+
 - *Para separar las sílabas, usa un espacio en lugar de un guion. Usa un guion cuando haya un alargamiento vocal o una pausa breve (tipo respiración).*
+
+---

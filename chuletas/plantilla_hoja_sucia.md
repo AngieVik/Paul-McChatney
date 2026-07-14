@@ -6,20 +6,20 @@ description: Guía conceptual (no estricta) del archivo de trabajo. Cópiala par
 
 # plantilla_hoja_sucia
 
-- No hay campos obligatorios: rellena solo lo que aplique, en el orden que surja, y **sobrescribe** según avanza la obra. Es el cuaderno vivo de la canción — captura ideas, inspiraciones y decisiones, no solo el prompt final.
-- Sirve para retomar: al volver (incluso en otra conversación), leer este archivo debe bastar para saber exactamente dónde estabas y por qué.
-- Slug en `snake_case`, sin acentos ni eñes. El `# H1` = el <slug>.
+---
 
-```text
+## Esqueleto
+
+```markdown
 # <slug>
 
 ## Petición original
 
-El prompt principal del usuario, tal cual lo pidió. La intención de partida; no la pierdas aunque la obra evolucione.
+Prompt original de la petición.
 
 ## Semilla conceptual
 
-De qué va: tema, historia, mood, para quién, la emoción núcleo. Qué debe SENTIR quien la escuche.
+tema, historia, mood, para quién, la emoción núcleo. Qué debe SENTIR quien la escuche.
 
 ## Inspiraciones y referencias
 
@@ -31,12 +31,11 @@ El "qué osar": ejes a colisionar (lingüístico-tonal · rítmico · tímbrico)
 
 ## Cajas en curso (borradores vivos)
 
-Se rellenan según avanzan las fases; sobrescribe el borrador anterior. Rellena solo las que toquen.
-
-- **style_box:** molde sónico
-- **letra:** letra limpia o en curso
-- **lyrics_box:** letra + tags + [MOOD] / [PRODUCTION]
-- **exclude_box:** lo que bloquear
+Se rellenan bajo demanda o según avanzan las fases en el modo "produccion`, sobrescribe el borrador anterior, rellena solo las que toquen.
+    - **style_box**
+    - **letra**
+    - **lyrics_box**
+    - **exclude_box**
 
 ## Decisiones y porqués
 
@@ -53,8 +52,16 @@ Ideas o versiones probadas que no cuajaron, y por qué. Evita volver al mismo ca
 
 ---
 
+## Instrucciones
+
+- No hay campos obligatorios: rellena solo lo que aplique, en el orden que surja, y **sobrescribe** según avanza la obra. Es el cuaderno vivo de la canción — captura ideas, inspiraciones y decisiones, no solo el prompt final.
+- Sirve para retomar: al volver (incluso en otra conversación), leer este archivo debe bastar para saber exactamente dónde estabas y por qué.
+- Slug en `snake_case`, sin acentos ni eñes. El `# H1` = el <slug>.
+
+---
+
 ## Copias de seguridad
 
-*Solo bajo demanda (comando `guardar`). Cada copia es un duplicado exacto de un momento, guardado como archivo aparte `_hojas_sucias/slug_NN.md`; se leen solo si se piden. Aquí se listan.*
+*Solo bajo demanda (comando `guardar`). Cada copia es un duplicado exacto de un momento, guardado como archivo aparte `_hojas_sucias/slug_NN.md`; se leen solo si se piden. No se registran dentro de la hoja: viven como archivos independientes.*
 
-- `_hojas_sucias/slug_01.md` — qué momento capturó
+---

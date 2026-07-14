@@ -54,7 +54,7 @@ description: Extractor canónico de etiquetas chupilista. Localiza, valida y ent
 
 ---
 
-## Salida Estándar
+## Formato de salida
 
 - **Con coincidencias:**
     `[Tag Exacta]` · `chupilista/NN_archivo.md` · caja recomendada · nota mínima de uso

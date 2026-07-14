@@ -15,7 +15,7 @@ description: Gestiona el ciclo de aprendizaje del sistema: detecta hallazgos rea
 - **En cualquier momento:** puede activarse durante una obra abierta, una fase, una corrección, una prueba técnica, una instrucción del usuario, una lógica nueva, una función nueva de Suno o una obra ya aprobada; no requiere que la obra esté terminada.
 - **Tras `aprobar` una obra:** `proyecto` solo sugiere si el usuario quiere hacer una retrospectiva.
     - **Si la respuesta es positiva** analiza y propone aprendizajes reales si existen.
-- **Condición para escribir:** ningún aprendizaje se archiva en `MEMORY.md`, `composicion/` o `PROYECTOS.md` sin aprobación explícita del usuario.
+- **Condición para escribir:** ningún aprendizaje se archiva en `MEMORY.md` o `composicion/` sin aprobación explícita del usuario.
 
 ---
 
@@ -50,7 +50,7 @@ description: Gestiona el ciclo de aprendizaje del sistema: detecta hallazgos rea
 - **Una instrucción validada sí puede ser aprendizaje:** si el usuario corrige, confirma o aprueba una regla reutilizable, puede archivarse aunque la obra siga abierta.
 - **La obra y el aprendizaje son entidades separadas:** aprobar una obra, aprobar un prompt y aprobar un aprendizaje no son lo mismo.
 - **Mismo proceso siempre:** no hay retrospectiva provisional/canónica separada; hay un único proceso de detección, formulación, aprobación y escritura.
-- **Nunca escribas sin aprobación:** todo cambio en `MEMORY.md`, `composicion/` o `PROYECTOS.md` requiere confirmación explícita.
+- **Nunca escribas sin aprobación:** todo cambio en `MEMORY.md` o `composicion/` requiere confirmación explícita.
 
 ---
 

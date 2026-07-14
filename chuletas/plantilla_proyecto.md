@@ -6,22 +6,15 @@ description: Plantilla canónica de proyecto. Cópiala para abrir una canción n
 
 # plantilla_proyecto
 
-## Convenciones de nombre y ubicación
-
-- **Un proyecto evoluciona sin ritmo fijo:** no hay datos mínimos obligatorios.
-- **Ideas sueltas y bocetos** viven en `_hojas_sucias/` (espacio libre, sin formato fijo).
-- **Cada proyecto** vive en `proyectos/<slug>/<slug>.md` (carpeta propia) y se registra como fila en `PROYECTOS.md`, dentro de su LP o categoría.
-
 ---
 
-## Esqueleto a copiar
+## Esqueleto
 
-```text
+```markdown
 ---
 name: <slug>
 type: proyecto
 description: <titulo_publico>
-schema_version: 1
 ---
 
 # <slug>
@@ -32,7 +25,7 @@ schema_version: 1
 
 ## Generated
 
-<YYYY-MM-DD>
+Generated at <YYYY-MM-DD>
 
 ## Master
 
@@ -40,18 +33,18 @@ schema_version: 1
 
 ## style_box
 
-<style_box_exacto>
+<style_box>
 
 ## exclude_box
 
-<exclude_box_exacto>
+<exclude_box>
 
 ## lyrics_box
 
-<lyrics_box_exacto>
+<lyrics_box>
 ```
 
-- *`slider_box` queda descartado: no forma parte del esqueleto canónico. "Negative Prompts" se llama `exclude_box` en todo el sistema — usa siempre ese nombre, nunca el alias.*
+---
 
 ### Qué va en cada marcador
 
@@ -65,18 +58,32 @@ schema_version: 1
 
 ---
 
+## Convenciones de nombre y ubicación
+
+- **`_hojas_sucias/`:** estructura libre y sin mínimos — ideas sueltas y bocetos, sin formato fijo.
+- **Obra aprobada:** el esqueleto de arriba es la guía canónica del catálogo, pero también es flexible y actualizable; `plantilla_proyecto.md` puede evolucionar. No hay un juego de datos mínimos rígido: adapta las secciones a lo que la obra necesite manteniendo la coherencia con el resto del catálogo.
+- **Cada proyecto** vive en `proyectos/<slug>/<slug>.md` (carpeta propia) y se registra como fila en `PROYECTOS.md`, dentro de su LP o categoría.
+
+---
+
+## Instrucciones
+
+- *`slider_box` queda descartado: no forma parte del esqueleto canónico. "Negative Prompts" se llama `exclude_box` en todo el sistema — usa siempre ese nombre, nunca el alias.*
+
+---
+
 ## Cómo referenciar archivos del proyecto
 
 - **Política de carga completa:** ver `.claude/CLAUDE.md` (fuente canónica) — no se repite aquí. Esta sección cubre solo la sintaxis de rutas dentro de un proyecto.
 - **Ruta para herramientas** (la que abre el agente con la herramienta de lectura): relativa a la raíz del repositorio, sin `@`, con `/` aunque el sistema sea Windows. Ej.: `composicion/letra.md`.
-- **Enlace navegable** (para que un humano haga clic desde este documento): etiqueta `<a href="<ruta_relativa>">`, con la ruta relativa al propio archivo que contiene el enlace — no a la raíz. Ej.: <a href="../../composicion/ejemplo.md">`ejemplo.md`</a> (dos niveles arriba, típico desde `proyectos/<slug>/<slug>.md`).
+- **Enlace navegable** (para que un humano haga clic desde este documento): etiqueta `<a href="<ruta_relativa>">`, con la ruta relativa al propio archivo que contiene el enlace — no a la raíz. (dos niveles arriba, típico desde `proyectos/<slug>/<slug>.md`).
 
 | Quiero referenciar…        | Ruta para herramientas (raíz, sin `@`)       |
-| --------------------------- | ---------------------------------------------- |
+| -------------------------- | -------------------------------------------- |
 | Un módulo de la chupilista | `chupilista/01_core_genres_and_subgenres.md` |
 | Una fonetización           | `fonetizar/es_andaluz.md`                    |
 | Un conocimiento técnico    | `composicion/tecnicas_vocales.md`            |
 | Una jerga                  | `jerga/argot_canario.md`                     |
 | Un proyecto                | `proyectos/60_granos/60_granos.md`           |
 
-- **Evitar:** cargar una carpeta entera con `@` (`@chupilista/`) — cargaría ~13.000 líneas en cada sesión.
+---

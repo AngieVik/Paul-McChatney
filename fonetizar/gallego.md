@@ -1,11 +1,11 @@
 ---
-name:
+name: gallego
 type: fonetizar
 description: Sistema ortográficamente muy transparente para el hispanohablante, derivado del tronco galaicoportugués. Comparte gran parte del inventario consonántico con el castellano, pero se diferencia estructuralmente por poseer un sistema de siete vocales (frente a las cinco del español), una rica variedad de diptongos y una curva entonativa inconfundible.
 region: Gallego (Estándar Normativo / ILG-RAG)
 ---
 
-# gallego 
+# gallego
 
 ## Perfil Fonético General
 

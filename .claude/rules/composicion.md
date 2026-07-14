@@ -10,7 +10,7 @@ description: Índice maestro de los archivos de composición, saber de oficio y 
 
 ---
 
-# Composición
+# composicion
 
 ## Módulos
 

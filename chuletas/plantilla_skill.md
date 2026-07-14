@@ -1,12 +1,77 @@
 ---
 name: plantilla_skill
 type: plantilla
-description: rol de orquestación en positivo
+description: Guia de referencia para la creacion de un archivo de skill en .claude/skills/<slug>/SKILL.md
 ---
 
-# <name>
+# plantilla_skill
+
+- No hay campos minimos ni obligatorios: rellena solo lo que aplique, las secciones dentro de cada skill varian en funcion de su naturaleza y objetivo.
+
+## Esqueleto
+
+```markdown
+---
+name: <slug>
+type: skill
+description: "Descripcion de la skill desarrollada en el archivo".
+---
+
+# <slug>
+
+## Activación
+
+<Reglas de activación>
 
 ## Fuentes de Consulta
+
+<Archivos de referencia>
+
+## Parámetros de Entrada
+
+<Parametros de entrada>
+
+## Flujo de Ejecución
+
+<Flujo de ejecución>
+
+## Principios clave
+
+<Principios clave>
+
+## Reglas de Integridad
+
+<Reglas de integridad>
+
+## Relación con otras skills
+
+<Relación con otras skills>
+
+## Ejemplo
+
+<Ejemplo con `Entrada` y `Salida`>
+    **Entrada**
+    **Salida**
+
+## Formato de salida
+
+<Formnato de salida>
+
+## <otros>
+```
+
+---
+
+### Qué va en cada marcador
+
+- **`<slug>`:** identificador de archivo/carpeta, `snake_case`, sin acentos.o
+- **`<otros>`:** Otros encabezados unicos que sea necesario crear por naturaleza y/o objetivo de la skill.
+- **`<Formnato de salida>`:** En caso de no existir un ejemplo, puede existir simplemente un formato de salida.
+- **`<Flujo de ejecución>`:** Si la skill se desarrolla en varias fases o pasos, se detallan aquí.
+
+---
+
+## Instrucciones
 
 - *Antes de construir o revisar, identifica cuál de los cuatro patrones reales aplica a esta skill — no todas tienen mapa y manual propios, y no todas las que sí tienen mapa apuntan a un manual único; forzarlo genera rutas falsas.*
     - **Skill técnica con mapa + manual único en `composicion/`** (ej. `style_box`, `letra`):
@@ -20,3 +85,5 @@ description: rol de orquestación en positivo
         - **Archivo técnico o biblioteca compartidos:** `composicion/<otra_skill>.md` o `<otra_skill>/` (sección concreta si aplica)
     - **Skill orquestadora o de proceso, sin mapa ni manual propio** (ej. `proyecto`, `produccion`, `retrospectiva`, `cover_art`): omite esta sección entera.
 - **Canon:** `buscar_tag` → `.claude/rules/chupilista.md` → `chupilista/` (solo si la skill consume tags).
+
+---
