@@ -1,7 +1,7 @@
 ---
-name: "plantilla_proyecto"
-type: "plantilla"
-description: "Plantilla canónica de consolidación. Se aplica al aprobar una obra para generar proyectos/<slug>/<slug>.md."
+name: plantilla_proyecto
+type: plantilla
+description: Plantilla canónica de consolidación. Se aplica al aprobar una obra para generar proyectos/<slug>/<slug>.md.
 ---
 
 # plantilla_proyecto

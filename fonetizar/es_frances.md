@@ -1,7 +1,7 @@
 ---
 name: es_frances
 type: fonetizar
-description: "Sistema ortográficamente denso y de alta opacidad histórica, plagado de letras mudas y combinaciones vocálicas complejas. Sin embargo, a diferencia del inglés, el francés es estrictamente predecible: una vez memorizadas las reglas de asimilación y silenciamiento, la lectura es matemática y libre de ambigüedades."
+description: Sistema ortográficamente denso y de alta opacidad histórica, plagado de letras mudas y combinaciones vocálicas complejas. Sin embargo, a diferencia del inglés, el francés es estrictamente predecible: una vez memorizadas las reglas de asimilación y silenciamiento, la lectura es matemática y libre de ambigüedades.
 region: Francés (Estándar / Metropolitano)
 ---
 # es_frances

@@ -1,7 +1,7 @@
 ---
-name: "12_vocal_delivery_and_expressivity"
-type: "chupilista"
-description: "Técnicas vocales, expresiones emocionales, estilos de interpretación y manipulaciones tímbricas para la dirección de voces en inteligencia artificial."
+name: 12_vocal_delivery_and_expressivity
+type: chupilista
+description: Técnicas vocales, expresiones emocionales, estilos de interpretación y manipulaciones tímbricas para la dirección de voces en inteligencia artificial.
 ---
 
 # 12_vocal_delivery_and_expressivity

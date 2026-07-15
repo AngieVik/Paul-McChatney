@@ -1,7 +1,7 @@
 ---
-name: "11_production_and_effect"
-type: "chupilista"
-description: "Categorización exhaustiva de técnicas, efectos y procesos de producción de audio, organizada mediante dominios de procesamiento de señal."
+name: 11_production_and_effect
+type: chupilista
+description: Categorización exhaustiva de técnicas, efectos y procesos de producción de audio, organizada mediante dominios de procesamiento de señal.
 ---
 
 # 11_production_and_effect

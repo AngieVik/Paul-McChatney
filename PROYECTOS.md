@@ -1,7 +1,7 @@
 ---
-name: "PROYECTOS"
-type: "core"
-description: "Catálogo de canciones producidas, cada entrada enlaza al archivo con el prompt completo."
+name: PROYECTOS
+type: core
+description: Catálogo de canciones producidas, cada entrada enlaza al archivo con el prompt completo.
 ---
 
 # PROYECTOS

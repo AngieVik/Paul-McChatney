@@ -1,7 +1,7 @@
 ---
-name: "exclude_box"
-type: "composicion"
-description: "Prompting inverso y control de artefactos, para bloquear características, instrumentos, clichés no deseados, degradación de la señal, solapamiento de frecuencias y saturación del espacio latente en la generación."
+name: exclude_box
+type: composicion
+description: Prompting inverso y control de artefactos, para bloquear características, instrumentos, clichés no deseados, degradación de la señal, solapamiento de frecuencias y saturación del espacio latente en la generación.
 ---
 
 # exclude_box
@@ -83,6 +83,6 @@ description: "Prompting inverso y control de artefactos, para bloquear caracter�
 
 ## 6 · Control de registro y carácter vocal
 
-- *Excluye las tesituras y estilos vocales opuestos para "encerrar" al cantante en el registro deseado (complementa `tecnicas_vocales §2.9`).*
-    - **Fijar voz grave masculina:** excluir `soprano`, `mezzo`, `alto`.
-    - **Fijar voz femenina íntima (no diva):** excluir `belting`, `melismas`, `soprano`, `alto`.
+- *Excluye las tesituras y estilos vocales opuestos para encerrar al cantante en el registro deseado; complementa `tecnicas_vocales §2.9`.*
+    - **Fijar voz masculina grave:** `soprano`, `mezzo-soprano`, `contralto`, `high register`, `falsetto` y `belting`.
+    - **Fijar voz femenina íntima y grave:** `soprano`, `high register`, `belting` y `melismas`.

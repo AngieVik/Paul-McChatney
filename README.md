@@ -1,7 +1,7 @@
 ---
-name: "README"
-type: "core"
-description: "Mapa general del proyecto Paul McChatney."
+name: README
+type: core
+description: Mapa general del proyecto Paul McChatney.
 ---
 
 # README

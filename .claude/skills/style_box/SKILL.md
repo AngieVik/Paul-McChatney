@@ -1,7 +1,7 @@
 ---
-name: "style_box"
-type: "skill"
-description: "Orquestadora del style_box. Coordina fusionar y buscar_tag para compilar el bloque de estilo de la obra. Activable en `produccion` (Fase 2) o en modo conversacional en cualquier momento."
+name: style_box
+type: skill
+description: Orquestadora del style_box. Coordina fusionar y buscar_tag para compilar el bloque de estilo de la obra. Activable en `produccion` (Fase 2) o en modo conversacional en cualquier momento.
 ---
 
 # style_box

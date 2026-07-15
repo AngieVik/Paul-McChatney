@@ -1,7 +1,7 @@
 ---
-name: "plantilla_map"
-type: "plantilla"
-description: "Guia para generar un archivo `concepto -> mapa` en `.claude/rules/<slug>.md`."
+name: plantilla_map
+type: plantilla
+description: Guia para generar un archivo `concepto -> mapa` en `.claude/rules/<slug>.md`.
 ---
 
 # plantilla_map

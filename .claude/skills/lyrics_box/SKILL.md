@@ -1,7 +1,7 @@
 ---
-name: "lyrics_box"
-type: "skill"
-description: "Orquestadora del lyrics_box. Toma el boceto de letra de Fase 3 y lo desarrolla en Fases 4 y 5 —estructura, dirección de banda, técnica vocal, métrica y efectos— preservando la lírica. Activable en `produccion` o en modo conversacional."
+name: lyrics_box
+type: skill
+description: Orquestadora del lyrics_box. Toma el boceto de letra de Fase 3 y lo desarrolla en Fases 4 y 5 —estructura, dirección de banda, técnica vocal, métrica y efectos— preservando la lírica. Activable en `produccion` o en modo conversacional.
 ---
 
 # lyrics_box

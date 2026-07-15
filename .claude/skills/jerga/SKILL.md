@@ -1,7 +1,7 @@
 ---
-name: "jerga"
-type: "skill"
-description: "Inyecta en el texto cantable jerga específica para que se cante. Nunca en el style_box. Activable en `produccion` (Fase 3) o en modo conversacional sobre una obra, un párrafo o una frase."
+name: jerga
+type: skill
+description: Inyecta en el texto cantable jerga específica para que se cante. Nunca en el style_box. Activable en `produccion` (Fase 3) o en modo conversacional sobre una obra, un párrafo o una frase.
 ---
 
 # jerga

@@ -1,7 +1,7 @@
 ---
-name: "letra"
-type: "skill"
-description: "Redacta la letra limpia sin tags: narrativa, cadencia y anclaje regional. Activable en `produccion` (Fase 3) o en modo conversacional."
+name: letra
+type: skill
+description: Redacta la letra limpia sin tags: narrativa, cadencia y anclaje regional. Activable en `produccion` (Fase 3) o en modo conversacional.
 ---
 # letra
 

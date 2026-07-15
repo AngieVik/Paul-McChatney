@@ -1,7 +1,7 @@
 ---
-name: "retrospectiva"
-type: "skill"
-description: "Convierte aprendizajes detectados durante el trabajo en conocimiento reutilizable: destila principios, confirma o descarta corazonadas y propone dónde guardarlos, siempre con aprobación explícita del usuario."
+name: retrospectiva
+type: skill
+description: Convierte aprendizajes detectados durante el trabajo en conocimiento reutilizable: destila principios, confirma o descarta corazonadas y propone dónde guardarlos, siempre con aprobación explícita del usuario.
 ---
 
 # retrospectiva

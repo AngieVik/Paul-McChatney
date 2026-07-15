@@ -1,12 +1,11 @@
 ---
-name: "style_box"
-type: "map"
-description: "Construcción del style_box: Etiquetas, Fusión y frecuencias, Dinámicas rítmicas y estructurales, Colisión tímbrica."
+name: style_box
+type: map
+description: Construcción del style_box: Etiquetas, Fusión y frecuencias, Dinámicas rítmicas y estructurales, Colisión tímbrica.
 ---
 
 - *No se carga con `@`, este índice es el mapa concepto→archivo, abre `composicion/style_box.md` bajo demanda con la herramienta de lectura.*
 - **Consulta por búsqueda (grep) o salto por Índice.**
-- **Consumido por:** `style_box` (skill), `fusionar`, `produccion` (Fase 2).
 
 ---
 

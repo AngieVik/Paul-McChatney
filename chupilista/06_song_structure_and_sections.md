@@ -1,7 +1,7 @@
 ---
-name: "06_song_structure_and_sections"
-type: "chupilista"
-description: "Colección exhaustiva de tags sobre la estructura musical, secciones de canciones, transiciones y motivos narrativos."
+name: 06_song_structure_and_sections
+type: chupilista
+description: Colección exhaustiva de tags sobre la estructura musical, secciones de canciones, transiciones y motivos narrativos.
 ---
 
 # 06_song_structure_and_sections

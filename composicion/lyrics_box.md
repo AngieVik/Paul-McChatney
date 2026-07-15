@@ -1,7 +1,7 @@
 ---
-name: "lyrics_box"
-type: "composicion"
-description: "Control semántico, mapeo operativo del lyrics_box, gramática técnica y dirección de banda."
+name: lyrics_box
+type: composicion
+description: Control semántico, mapeo operativo del lyrics_box, gramática técnica y dirección de banda.
 ---
 
 # lyrics_box
@@ -60,49 +60,53 @@ description: "Control semántico, mapeo operativo del lyrics_box, gramática té
 
 - *Inyecta modificadores usando dos puntos dentro del corchete para no alterar el estilo global. En vez de `[Verse]` básico, usa dos puntos (`[Verse:]`) para instruir cada sección. control de arreglo tipo DAW solo con texto, sin alterar el estilo global.*
     - **Formato:**
-    `[Sección: Modificador 1, Modificador 2]`.
+        `[Sección: Modificador 1, Modificador 2]`.
     - **Ejemplo:**
-    `[Verse: whispered vocals, acoustic guitar only]`
-    `[Chorus: full band, belting vocals, high energy]`
+        `[Verse: whispered vocals, acoustic guitar only]`
+        `[Chorus: full band, belting vocals, high energy]`
 
 ### 1.2 · Comandos de Actuación - La "banda imperfecta"
 
 - *Escribe los comandos como si te dirigieras a músicos reales en vivo en vez de usar tags genéricas, el lenguaje de dirección de interpretación rompe la perfección estéril e introduce errores humanos y groove orgánico.*
-    - **Ejemplo:** `[Band: slightly behind the beat, never tight]`, `[Verse: restrained, talk-sung]`, `[Chorus: louder, sloppier, controlled unraveling]`.
-    - **Voz (entrega por línea):** vive en `tecnicas_vocales.md §2.4–§2.5` (susurros, gritos, timbre, técnica). Aquí solo diriges a la **banda/conjunto**.
-    - **Ejemplo (Ensemble):** Añade imperfección humana al groove con tags tipo: `[loose]`, `[ragged]`, `[slightly behind the beat]` o `[never tight]`.
+    - **Ejemplo:** 
+        `[Band: slightly behind the beat, never tight]`
+        `[Verse: restrained, talk-sung]`
+        `[Chorus: louder, sloppier, controlled unraveling]`
+- **Voz (entrega por línea):** vive en `tecnicas_vocales.md §2.4–§2.5` (susurros, gritos, timbre, técnica). Aquí solo diriges a la **banda/conjunto**.
+    - **Ejemplo (Ensemble):**
+        Añade imperfección humana al groove con tags tipo: `[loose]`, `[ragged]`, `[slightly behind the beat]` o `[never tight]`.
 - **Usa corchetes y aisla conceptos** diferentes colocandolos en columna, dirigie a la banda separando las capas conceptualmente en lugar de mezclar todo en una sola línea.
     - **Ejemplo:**
-    `[comandos de actuacion]`
-    `[comandos de actuacion]`
-    `[comandos de actuacion]`
+        `[Band: slightly behind the beat]`
+        `[Drums: loose and uneven]`
+        `[Guitars: restrained, slightly ragged]`
 
 ### 1.3 · DAW-Style Meta-Hacks
 
 - *Trata la caja de letras como si hablaras con tu ingeniero de mezcla, con verbos de acción directa.*
     - **Vaciado:**
-    `[Verse 2: add tension, remove drums for 2 bars, expose vocal, then reintroduce kick + bass]`
+        `[Verse 2: add tension, remove drums for 2 bars, expose vocal, then reintroduce kick + bass]`
     - **Evolución:**
-    `[Chorus 2: KEEP hook melody, CHANGE: add gospel harmony stack + wider stereo]`
+        `[Chorus 2: KEEP hook melody, CHANGE: add gospel harmony stack + wider stereo]`
 
 ### 1.4 · Nudging
 
 - *Verbos de acción o flechas (`->`) dentro del corchete para empujar a la banda hacia un cambio de ritmo, instrumentación o estilo de forma fluida.*
     - **Ejemplo:**
-    `[Add tension -> reduce drums -> expose vocals]`
+        `[Add tension -> reduce drums -> expose vocals]`
 
 ### 1.5 · Top-Loading
 
 - *Mantén la base contenida e inserta un comando de energía extrema en las letras justo antes de la sección que debe explotar → contraste real.*
     - **lyrics_box:** antes del estribillo:
-    `[Energy: High, Explosive, layered power-harmonies]`.
+        `[Energy: High, Explosive, layered power-harmonies]`.
 
 ### 1.6 · Vacuum Drop
 
 - *Para generar un impacto masivo Estrangula la mezcla justo antes del estribillo.*
     - **Mecánica:** Aísla la línea vocal previa al drop y acompáñala de `[Silence]` o un comando hablado, seguido del modificador de alta energía en la sección de impacto.
     - **Ejemplo:**
-    `[Sudden Silence, Acapella Whisper -> Massive Bass Drop]`.
+        `[Sudden Silence, Acapella Whisper -> Massive Bass Drop]`.
 
 ### 1.7 · Mitos y Reglas de Formato
 
@@ -118,61 +122,70 @@ description: "Control semántico, mapeo operativo del lyrics_box, gramática té
 
 - *Cambia radicalmente el género a mitad de canción (mejor en el bridge o tras un drop).*
     - **Ejemplo:**
-    `[Verse 1: Lo-Fi Boom Bap]`
-    `[Bridge: Beat Switch]`
-    `[Tempo Change: Double Time]`
-    `[Sudden Genre Shift: Aggressive Drum and Bass]`
+        `[Verse 1: Lo-Fi Boom Bap]`
+        `[Bridge: Beat Switch]`
+        `[Tempo Change: Double Time]`
+        `[Sudden Genre Shift: Aggressive Drum and Bass]`
 
 ### 1.9 · Subversión de expectativas (Fake Drop)
 
 - *Lleva el build-up al límite y suelta una pista acústica desnuda en lugar del estallido esperado.*
     - **Ejemplo:**
-    `[Massive Build-up]`
-    `[Letras subiendo de tono]`
-    `[Sudden Drop: Solo Acoustic Guitar and Whisper]`
+        `[Massive Build-up]`
+        `[Letras subiendo de tono]`
+        `[Sudden Drop: Solo Acoustic Guitar and Whisper]`
 
 ### 1.10 · Tempo Ramping
 
 - *Manipula el tempo a nivel de estructura con terminología clásica o DJ, no en el prompt inicial.*
     - **Ejemplo Acelerar:**
-    `[Tempo Shift: Accelerando]`, `[Build-up: Double-time feel]`.
+        `[Tempo Shift: Accelerando]`, `[Build-up: Double-time feel]`.
     - **Ejemplo Frenar:**
-    `[Ritardando]`, `[Beat Drop: Half-time groove]`.
+        `[Ritardando]`, `[Beat Drop: Half-time groove]`.
 
 ### 1.11 · False Fade-Out
 
 - *Simula el final, deja ambiente de sala y remata con un golpe final.*
     - **Ejemplo:**
-    `[Fade Out Instruments]`
-    `[Room Ambience]`
-    `[Unexpected Final Snare Hit]`
-    `[End]`
+        `[Fade Out Instruments]`
+        `[Room Ambience]`
+        `[Unexpected Final Snare Hit]`
+        `[End]`
 
 ### 1.12 · Stem-Prep
 
 - *Para extraer stems limpios, fuerza separar frecuencias: apaga los pads de relleno y aísla los instrumentos.*
     - **Ejemplo:**
-    `[Minimalist arrangement]`, `[Sparse mix]`, `[Clinical separation]`, `[Hard-panned instruments]`.
+        `[Minimalist arrangement]`
+        `[Sparse mix]`
+        `[Clinical separation]`
+        `[Hard-panned instruments]`.
 
 ### 1.13 · Rap/Drill
 
 - *El hack del Rap/Drill, `[Chorus]` fuerza el modo melódico/pop y arruina géneros oscuros o rap duro. Sustitúyelo por tags de comportamiento energético.*
     - **Ejemplo:**
-    `[Structure: Anthemic Peak]`, `[Hook: Aggressive Rhythm]`, `[Drop: High Energy]`.
+        `[Structure: Anthemic Peak]`
+        `[Hook: Aggressive Rhythm]`
+        `[Drop: High Energy]`
 
 ---
 
 ## 2 · Hacks lyrics_box
 
 - *La trampa del solo:* `[Solo (Instrumento)]` desacopla el (instrumento) de la mezcla y deja el solo aislado y vacío. Para un solo manteniendo la inercia de la banda, usa obligatoriamente tags de jerarquía.
-    - **Ejemplo:** `[Lead]`, `[Taking The Melody]`.
+    - **Ejemplo:** 
+        `[Lead]`
+        `[Taking The Melody]`.
 
 - *Expansión de solos:* Instrucción en pruebas, omitir contradicción y usar cuando se precise un solo muy largo, pendiente de valoración.
-    - **Ejemplo:** `[Extended Guitar Solo -> Dramatic Stop-Time]`.
+    - **Ejemplo:** 
+        `[Extended Guitar Solo -> Dramatic Stop-Time]`.
 
 - *Para que el estribillo suene con la misma melodía en cada aparición, escribe el bloque de texto completo en todos los lugares donde deba sonar (no dejes `[Chorus]` vacío esperando que lo repita).*
 
 - *Comportamiento percusivo (Slow Groove, Fast Energy): la cuadrícula base se fija en el `style_box`; el detalle percusivo hiperactivo se inyecta aquí, en el `lyrics_box`, para que la percusión respire por debajo del groove.*
-    - **Ejemplo:** `[Drums: frantic 32nd note hi-hats, explosive fills]`.
+    - **Ejemplo:** 
+        `[Drums: frantic 32nd note hi-hats, explosive fills]`.
 
 ---

@@ -1,12 +1,11 @@
 ---
-name: "fonetizar"
-type: "map"
-description: "Guías de fonetización para idiomas y dialectos. Permiten simular acentos específicos en la letra."
+name: fonetizar
+type: map
+description: Guías de fonetización para idiomas y dialectos. Permiten simular acentos específicos en la letra.
 ---
 
 - *No se carga con `@`, este índice es el mapa concepto→archivo, abre cada `fonetizar/<archivo>.md` bajo demanda con la herramienta de lectura, solo el/los que necesites.*
 - **Consulta por búsqueda (grep) o salto por Índice.**
-- **Consumido por:** `fonetizar` (skill), `letra`, `produccion` (Fase 3).
 
 ---
 
@@ -41,4 +40,4 @@ description: "Guías de fonetización para idiomas y dialectos. Permiten simular
 | <a href="../../fonetizar/euskera.md">`euskera.md`</a>                             | Euskera / Vasco         | Consonantes apicoalveolares y vocales puras.                               |
 | <a href="../../fonetizar/gallego.md">`gallego.md`</a>                             | Gallego                 | Sistema vocálico propio, gheada, seseo gallego.                            |
 | <a href="../../fonetizar/mexicano_centro.md">`mexicano_centro.md`</a>             | Mexicano centro         | Aspiración de 's', seseo, diptongación y ritmo acentual.                   |
-| <a href="../../chuletas/plantilla_fonetizar.md">`plantilla.md`</a>                | Plantilla base          | Estructura vacía para crear guías de nuevos idiomas.                       |
+| <a href="../../chuletas/plantilla_fonetizar.md">`plantilla_fonetizar.md`</a>      | Plantilla base          | Estructura vacía para crear guías de nuevos idiomas.                       |

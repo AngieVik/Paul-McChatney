@@ -1,7 +1,7 @@
 ---
-name: "tecnicas_vocales"
-type: "composicion"
-description: "Puntuación en la letra, etiquetas de dirección vocal, arquitecturas de identidad, dirección interpretativa, técnicas de interpretación vocal, aislamiento vocal temporal, roles y duetos, armonías y coros multicapa, rango y tesitura vocal."
+name: tecnicas_vocales
+type: composicion
+description: Puntuación en la letra, etiquetas de dirección vocal, arquitecturas de identidad, dirección interpretativa, técnicas de interpretación vocal, aislamiento vocal temporal, roles y duetos, armonías y coros multicapa, rango y tesitura vocal.
 ---
 
 # tecnicas_vocales

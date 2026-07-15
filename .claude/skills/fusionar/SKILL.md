@@ -1,7 +1,7 @@
 ---
-name: "fusionar"
-type: "skill"
-description: "Motor conceptual de arquitectura sonora. Analiza el concepto creativo y diseña una mezcla armónica, rítmica y frecuencial viable para que style_box la compile. Activable en `produccion` (Fase 2) o en modo conversacional."
+name: fusionar
+type: skill
+description: Motor conceptual de arquitectura sonora. Analiza el concepto creativo y diseña una mezcla armónica, rítmica y frecuencial viable para que style_box la compile. Activable en `produccion` (Fase 2) o en modo conversacional.
 ---
 
 # fusionar

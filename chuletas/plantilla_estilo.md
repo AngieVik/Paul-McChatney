@@ -1,7 +1,7 @@
 ---
-name: "plantilla_estilo"
-type: "plantilla"
-description: "Guía de estilo Markdown del proyecto Paul McChatney: estructura, formato y convenciones de escritura, ligera a propósito para poder cargarla siempre que se trabaje en el core."
+name: plantilla_estilo
+type: plantilla
+description: Guía de estilo Markdown del proyecto Paul McChatney: estructura, formato y convenciones de escritura, ligera a propósito para poder cargarla siempre que se trabaje en el core.
 ---
 
 # plantilla_estilo

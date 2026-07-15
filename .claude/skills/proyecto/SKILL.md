@@ -1,7 +1,7 @@
 ---
-name: "proyecto"
-type: "skill"
-description: "Orquestador del ciclo de vida creativo de la obra y gestor de operaciones mecánicas de almacenamiento."
+name: proyecto
+type: skill
+description: Orquestador del ciclo de vida creativo de la obra y gestor de operaciones mecánicas de almacenamiento.
 ---
 
 # proyecto

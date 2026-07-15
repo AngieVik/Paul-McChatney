@@ -1,12 +1,11 @@
 ---
-name: "exclude_box"
-type: "map"
-description: "Prompting inverso y control de artefactos, qué bloquear en el exclude_box."
+name: exclude_box37.3866077, -5.9984908
+type: map
+description: Prompting inverso y control de artefactos, qué bloquear en el exclude_box.
 ---
 
 - *No se carga con `@`, este índice es el mapa concepto→archivo, abre `composicion/exclude_box.md` bajo demanda con la herramienta de lectura.*
 - **Consulta por búsqueda (grep) o salto por Índice.**
-- **Consumido por:** `produccion` (Fase 5).
 
 ---
 

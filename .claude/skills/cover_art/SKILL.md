@@ -1,7 +1,7 @@
 ---
-name: "cover_art"
-type: "skill"
-description: "genera 3 prompts 1:1 a partir del sentimiento (no el argumento) de una obra."
+name: cover_art
+type: skill
+description: genera 3 prompts 1:1 a partir del sentimiento (no el argumento) de una obra.
 ---
 
 # cover_art

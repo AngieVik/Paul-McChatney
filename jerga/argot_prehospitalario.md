@@ -1,7 +1,7 @@
 ---
 name: argot_prehospitalario
 type: jerga
-description:  Lenguaje técnico y "de trinchera" utilizado por los Técnicos en Emergencias Sanitarias (TES), enfermería y personal médico que opera en ambulancias de Soporte Vital Básico (SVB), Soporte Vital Avanzado (SVA) y urgencias hospitalarias. Nace de la necesidad absoluta de precisión, velocidad en las comunicaciones por radio y de un marcado humor negro utilizado como mecanismo psicológico de defensa ante situaciones traumáticas.
+description: Lenguaje técnico y "de trinchera" utilizado por los Técnicos en Emergencias Sanitarias (TES), enfermería y personal médico que opera en ambulancias de Soporte Vital Básico (SVB), Soporte Vital Avanzado (SVA) y urgencias hospitalarias. Nace de la necesidad absoluta de precisión, velocidad en las comunicaciones por radio y de un marcado humor negro utilizado como mecanismo psicológico de defensa ante situaciones traumáticas.
 region: Argot Táctico Prehospitalario (Servicios de Emergencia - España)
 ---
 

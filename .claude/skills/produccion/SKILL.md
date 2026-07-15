@@ -1,7 +1,7 @@
 ---
-name: "produccion"
-type: "skill"
-description: "Orquestadora central del flujo de creación musical. Dirige las 5 fases delegando en skills modulares, que acceden al mapa correspondiente cuando aplica. Activable como Modo `produccion`."
+name: produccion
+type: skill
+description: Orquestadora central del flujo de creación musical. Dirige las 5 fases delegando en skills modulares, que acceden al mapa correspondiente cuando aplica. Activable como Modo `produccion`.
 ---
 
 # produccion

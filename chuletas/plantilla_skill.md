@@ -1,7 +1,7 @@
 ---
-name: "plantilla_skill"
-type: "plantilla"
-description: "Guia de referencia para la creacion de un archivo de skill en `.claude/skills/<slug>/SKILL.md`."
+name: plantilla_skill
+type: plantilla
+description: Guia de referencia para la creacion de un archivo de skill en `.claude/skills/<slug>/SKILL.md`.
 ---
 
 # plantilla_skill

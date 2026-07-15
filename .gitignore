@@ -27,8 +27,6 @@ __pycache__/
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
-# --- Binarios de produccion ---
-_produccion/plugins_angie/
 # --- Temporales / Sistema ---
 .DS_Store
 Thumbs.db

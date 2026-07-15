@@ -1,12 +1,11 @@
 ---
 name: chupilista
 type: map
-description: "Vocabulario exhaustivo de tags y modificadores, la chupilista es la referencia principal para crear música organizada en 15 módulos especializados."
+description: Vocabulario exhaustivo de tags y modificadores, la chupilista es la referencia principal para crear música organizada en 15 módulos especializados.
 ---
 
 - *No se carga con `@`, este índice es el mapa concepto→archivo, abre cada `chupilista/<archivo>.md` bajo demanda con la herramienta de lectura, solo el/los que necesites.*
 - **Consulta por búsqueda (grep) o salto por Índice.**
-- **Consumido por:** `buscar_tag` (extractor canónico); a través de él, `style_box`, `lyrics_box`, `exclude_box` y `produccion`.
 
 ---
 

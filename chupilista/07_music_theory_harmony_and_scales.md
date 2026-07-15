@@ -1,7 +1,7 @@
 ---
-name: "07_music_theory_harmony_and_scales"
-type: "chupilista"
-description: "Una base de datos exhaustiva sobre teoría musical, abarcando desde fundamentos de acordes hasta sistemas de afinación y escalas del mundo."
+name: 07_music_theory_harmony_and_scales
+type: chupilista
+description: Una base de datos exhaustiva sobre teoría musical, abarcando desde fundamentos de acordes hasta sistemas de afinación y escalas del mundo.
 ---
 
 # 07_music_theory_harmony_and_scales

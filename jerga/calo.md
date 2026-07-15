@@ -1,9 +1,10 @@
 ---
 name: calo
 type: jerga
-description: "El caló (también denominado *zincaló* o romaní ibérico) constituye una variante lingüística mixta empleada históricamente por el pueblo rom (gitano) en la península ibérica. Desde una perspectiva filológica, se clasifica como una lengua pararromaní: conserva el sustrato léxico fundamental derivado del sánscrito y otras lenguas indoarias, pero utiliza íntegramente la morfología, fonética y sintaxis del idioma castellano. Originalmente operaba como un criptolecto hermético estructurado para salvaguardar la comunicación interna frente a la marginación y persecución sociopolítica. A lo largo de los siglos XIX y XX, parte de su vocabulario penetró en la *germanía* (argot carcelario) y posteriormente en el español coloquial, aunque su núcleo duro mantiene un alto grado de opacidad."
+description: El caló (también denominado *zincaló* o romaní ibérico) constituye una variante lingüística mixta empleada históricamente por el pueblo rom (gitano) en la península ibérica. Desde una perspectiva filológica, se clasifica como una lengua pararromaní: conserva el sustrato léxico fundamental derivado del sánscrito y otras lenguas indoarias, pero utiliza íntegramente la morfología, fonética y sintaxis del idioma castellano. Originalmente operaba como un criptolecto hermético estructurado para salvaguardar la comunicación interna frente a la marginación y persecución sociopolítica. A lo largo de los siglos XIX y XX, parte de su vocabulario penetró en la *germanía* (argot carcelario) y posteriormente en el español coloquial, aunque su núcleo duro mantiene un alto grado de opacidad.
 region:  Caló (Romaní Ibérico y Argot Popular Español)
 ---
+
 # calo
 
 ## Perfil Lexical General
@@ -75,7 +76,7 @@ Disección de construcciones sintácticas aplicando el andamiaje léxico y la op
 ### Frase de Ejemplo 1: Observación cautelosa en la calle
 
 - **Original en Caló Cerrado:** `Diquela a ondoba busnó; terela butes jayeres, pero me da canguelo. Mejor najamos d'acoi.`
-    - *Desglose Lexical:* 
+    - *Desglose Lexical:*
         - *Diquela* = Imperativo de diquelar (escudriñar, procesar visualmente).
         - *Ondoba* = Pronombre demostrativo (este, aquel).
         - *Busnó* = Individuo ajeno a la etnia.
@@ -88,7 +89,7 @@ Disección de construcciones sintácticas aplicando el andamiaje léxico y la op
 ### Frase de Ejemplo 2: Rechazo tajante y evasión ante un peligro
 
 - **Original en Caló Cerrado:** `¡Nasti! Menda se chala, que esta butí es muy marimí y terelo canguelo de diñarla.`
-    - *Desglose Lexical:* 
+    - *Desglose Lexical:*
         - *Nasti* = Negación absoluta.
         - *Menda* = Pronombre de autorreferencia en primera persona con verbo en tercera (*se chala*).
         - *Butí* = Encargo, asunto u operación.

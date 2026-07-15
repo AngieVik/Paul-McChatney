@@ -1,7 +1,7 @@
 ---
-name: "04_vocal_persona_and_timbre"
-type: "chupilista"
-description: "Clasificación de estilos vocales, timbres, emociones y efectos de procesamiento sonoro."
+name: 04_vocal_persona_and_timbre
+type: chupilista
+description: Clasificación de estilos vocales, timbres, emociones y efectos de procesamiento sonoro.
 ---
 
 # 04_vocal_persona_and_timbre

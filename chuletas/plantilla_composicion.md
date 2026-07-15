@@ -1,7 +1,7 @@
 ---
-name: "plantilla_composicion"
-type: "plantilla"
-description: "Archivo técnico de referencia para construir un archivo de `composicion`."
+name: plantilla_composicion
+type: plantilla
+description: Archivo técnico de referencia para construir un archivo de `composicion`.
 ---
 
 # plantilla_composicion

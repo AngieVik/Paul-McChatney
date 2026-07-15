@@ -1,7 +1,7 @@
 ---
-name: "plantilla_fonetizar"
-type: "plantilla"
-description: "Genera la guía para fonetización en español de un dialecto o idioma, sigue la plantilla y genera el resultado en un bloque de código markdown."
+name: plantilla_fonetizar
+type: plantilla
+description: Genera la guía para fonetización en español de un dialecto o idioma, sigue la plantilla y genera el resultado en un bloque de código markdown.
 ---
 
 # plantilla_fonetizar

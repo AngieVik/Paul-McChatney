@@ -1,7 +1,7 @@
 ---
-name: "plantilla_hoja_sucia"
-type: "plantilla"
-description: "Guía conceptual (no estricta) del archivo de trabajo. Cópiala para abrir una obra en `_hojas_sucias/slug.md` (comando `crear`)."
+name: plantilla_hoja_sucia
+type: plantilla
+description: Guía conceptual (no estricta) del archivo de trabajo. Cópiala para abrir una obra en `_hojas_sucias/slug.md` (comando `crear`).
 ---
 
 # plantilla_hoja_sucia

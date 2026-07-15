@@ -1,7 +1,7 @@
 ---
-name: "09_foley_and_sound_design_fx"
-type: "chupilista"
-description: "Colección exhaustiva de efectos de sonido, foley, atmósferas y diseño sonoro para postproducción audiovisual."
+name: 09_foley_and_sound_design_fx
+type: chupilista
+description: Colección exhaustiva de efectos de sonido, foley, atmósferas y diseño sonoro para postproducción audiovisual.
 ---
 
 # 09_foley_and_sound_design_fx

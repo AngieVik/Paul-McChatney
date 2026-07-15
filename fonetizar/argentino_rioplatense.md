@@ -9,7 +9,7 @@ region: Dialecto Rioplatense (Argentina)
 
 ## Perfil Fonético General
 
-Una introducción al "carácter" del idioma para establecer la postura articulatoria del lector.
+Una introducción al carácter del idioma para establecer la postura articulatoria del lector.
 
 - **Descripción:** Ritmo marcadamente isócrono con una fuerte influencia de la cadencia musical de la inmigración italiana (especialmente napolitana). Tono base oscilante con curvas melódicas alargadas en las sílabas pretónicas y un alargamiento de la vocal tónica. La posición de la lengua en la articulación de las fricativas es más retrasada que en el estándar peninsular.
 - **Rasgo Distintivo:** Yeísmo rehilado (pronunciación de las grafías 'y' y 'll' como una fricativa postalveolar sorda o sonora, similar al sonido 'sh' del inglés) y la lenición o aspiración sistemática de la 's' final de sílaba.
@@ -23,7 +23,7 @@ Adaptación del sistema vocálico complejo del idioma origen a las 5 vocales pur
 | Alargamiento tónico      | La vocal de la sílaba tónica se prolonga ligeramente en contextos de énfasis o exclamación | **a-a \ e-e \ i-i \ o-o \ u-u** | *¡Pará!* → **pa rá-á** |
 | Vocal átona final        | Se mantiene pura pero experimenta una caída melódica abrupta en enunciados declarativos    | **a \ e \ o**                   | *Casa* → **ká sa**     |
 
-- **Diptongos clave:** Las uniones de vocales mantienen su pureza, pero en formas verbales del voseo monoptongan sistemáticamente en relación con el estándar: "tu tienes" se transforma en una estructura con acento agudo eliminando el diptongo: *tenés* → **te nés**.
+- **Diptongos clave:** Las uniones de vocales mantienen su pureza, pero en formas verbales del voseo monoptongan sistemáticamente en relación con el estándar: tu tienes se transforma en una estructura con acento agudo eliminando el diptongo: *tenés* → **te nés**.
 
 ## Mapeo de Consonantes y Sonidos Inexistentes
 
@@ -44,7 +44,7 @@ Instrucciones sobre la aplicación de la fuerza de voz y la curva melódica.
 - **Curva de Entonación:** Curva circunfleja muy marcada. En oraciones afirmativas, el tono asciende bruscamente en la sílaba tónica y desciende con velocidad en la última sílaba. En las interrogativas, existe una elevación tonal sostenida hacia el final.
 - **Uso de la tilde obligatoria:** Toda palabra fonetizada de más de una sílaba debe llevar explitamente escrita la tilde en la sílaba tónica.
 
-## Excepciones y "Falsos Amigos" Fonéticos
+## Excepciones y Falsos Amigos Fonéticos
 
 Advertencias sobre combinaciones de letras que inducen al error por lectura literal.
 

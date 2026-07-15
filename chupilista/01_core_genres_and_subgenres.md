@@ -1,7 +1,7 @@
 ---
-name: "01_core_genres_and_subgenres"
-type: "chupilista"
-description: "Vocabulario de géneros y subgéneros."
+name: 01_core_genres_and_subgenres
+type: chupilista
+description: Vocabulario de géneros y subgéneros.
 ---
 
 # 01_core_genres_and_subgenres

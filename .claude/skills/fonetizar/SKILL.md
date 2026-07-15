@@ -1,7 +1,7 @@
 ---
-name: "fonetizar"
-type: "skill"
-description: "Reescribe el texto cantable para que se cante con un acento o idioma concreto. Nunca en el style_box. Activable en `produccion` (Fase 3) o en modo conversacional sobre una obra, un párrafo o una frase."
+name: fonetizar
+type: skill
+description: Reescribe el texto cantable para que se cante con un acento o idioma concreto. Nunca en el style_box. Activable en `produccion` (Fase 3) o en modo conversacional sobre una obra, un párrafo o una frase.
 ---
 
 # fonetizar
