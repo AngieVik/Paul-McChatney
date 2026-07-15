@@ -109,7 +109,7 @@ description: "Control semántico, mapeo operativo del lyrics_box, gramática té
 - **Case-Insensitive:** Las tags `[CHORUS]`, `[Chorus]` y `[chorus]` son procesadas exactamente igual, usa sentence case para todas las tags.
 - **Métrica Visual y Respiración:** La estructura musical interfiere basándose en tu texto; los saltos de línea y los párrafos en blanco dictan cómo agrupa las frases y dónde respira el cantante.
 - **Límite de longitud:** Mantén todas las tags cortas y contundentes.
-- **Libertad semántica:** Usa descripciones libres, sonidos fonéticos, notas de director o emojis (ej. `[🌌]`, `[🔥, 🎸]`) para transmitir atmósferas y emociones. No te limites a diccionarios musicales cerrados.
+- **Libertad semántica:** Usa descripciones libres, sonidos fonéticos y notas de director para transmitir atmósferas y emociones. No te limites a diccionarios musicales cerrados.
 - **Orden de prioridad interna:** Coloca siempre los tags más importantes al principio del corchete. Primero género musical, luego género/tono vocal, por último significado de la letra.
 - **Repeticiones controladas:** evita `[Repeat x3]`.
 - **`[Instrumental Break - 8 bars]`:** indica la duración aproximada del break para dar referencia temporal y mejor proporción.
@@ -164,11 +164,11 @@ description: "Control semántico, mapeo operativo del lyrics_box, gramática té
 
 ## 2 · Hacks lyrics_box
 
-- *La trampa del solo:* `[Solo <Instrumento>]` desacopla el <instrumento> de la mezcla y deja el solo aislado y vacío. Para un solo manteniendo la inercia de la banda, usa obligatoriamente tags de jerarquía.
+- *La trampa del solo:* `[Solo (Instrumento)]` desacopla el (instrumento) de la mezcla y deja el solo aislado y vacío. Para un solo manteniendo la inercia de la banda, usa obligatoriamente tags de jerarquía.
     - **Ejemplo:** `[Lead]`, `[Taking The Melody]`.
 
 - *Expansión de solos:* Instrucción en pruebas, omitir contradicción y usar cuando se precise un solo muy largo, pendiente de valoración.
-    - **Ejemplo:** `[Extended Guitar Solo -> Dramatic Stop-Time]`. 
+    - **Ejemplo:** `[Extended Guitar Solo -> Dramatic Stop-Time]`.
 
 - *Para que el estribillo suene con la misma melodía en cada aparición, escribe el bloque de texto completo en todos los lugares donde deba sonar (no dejes `[Chorus]` vacío esperando que lo repita).*
 

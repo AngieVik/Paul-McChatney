@@ -61,7 +61,7 @@ description: "Manipulación del espacio estéreo, procesamiento de señales (DSP
     - `[Vocal chop]`: Muestreo y re-secuenciación de fragmentos vocales (slicing) usados como instrumento.
     - `[Stutter-vocals]`: Efecto *Glitch* de tartamudeo rítmico basado en repetición de milisegundos.
     - `[Vocoder]`, `[Robotic voice]`: Modulación de la voz utilizando una señal portadora (sintetizador) para un timbre robótico armónico.
-    - `[Heavy AutoTune No Pitch Correction]`: Fuerza artefactos de corrección tonal rígida extrema (T-Pain effect) o exige afinación humana orgánica.
+    - `[Heavy AutoTune, Hard Pitch Correction]`, `[No Pitch Correction, Natural Intonation]`: Fuerza artefactos de corrección tonal rígida extrema (T-Pain effect) o exige afinación humana orgánica.
     - `[Telephone Effect]`, `[Megaphone]`: Efecto paso-banda (Bandpass filter); recorta frecuencias por debajo de 300Hz y por encima de 3kHz.
 
 ### 1.4 · Glitch forzado y stutter vocal
@@ -76,7 +76,7 @@ description: "Manipulación del espacio estéreo, procesamiento de señales (DSP
 
 - *Parámetros de ingeniería de sonido. Orientados al `style_box` para dictar el comportamiento del renderizado acústico.*
     - **style_box:** `[Close-mic]`, `[slight overload]`, `[Room bleed present]`, `[worn tube amps]`, `[imperfect drums]`.
-    - **exclude_box (si aplica):** `[glossy production]`, `[modern vocal polish]`, `[bright digital shimmer]`.
+    - **exclude_box (si aplica):** `glossy production`, `modern vocal polish`, `bright digital shimmer`.
     - **3D Room Dynamics:** ⚗️ Asigna acústicas opuestas a elementos distintos del mismo prompt para forzar profundidad de campo estéreo.
         - **Ejemplo:** `[Close-Mic Dry Vocal, Distant Cathedral Drums]`, `[Claustrophobic Room Bass, Stadium Reverb Synths]`.
     - **Hack espacial emocional:** ⚗️ Altera la física de la mezcla estéreo con palabras de atmósfera; infiere el ancho.
@@ -87,7 +87,7 @@ description: "Manipulación del espacio estéreo, procesamiento de señales (DSP
 
 - *Mitigación de artefactos de red neuronal en consonantes fricativas o plosivas (P, B, T, S).*
     - **style_box (Prompts de corrección):** `[smooth consonants]`, `[no vocal crackle]`, `[high quality de-esser]`.
-    - **exclude_box:** `[high pitched noises]`, `[sibilance]`, `[harsh frequencies]`.
+    - **exclude_box:** `high pitched noises`, `sibilance`, `harsh frequencies`.
 
 ### 1.7 · Texturas sonoras y compresión
 

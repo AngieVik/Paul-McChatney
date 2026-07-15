@@ -252,6 +252,119 @@ def test_plantilla_no_skeleton():
         check(has(probs, "plantilla sin esqueleto"), "plantilla sin bloque de código se detecta")
 
 
+# ---------- Encabezados dentro / fuera de bloques de código ----------
+
+def test_heading_inside_codeblock_ignored():
+    t = "# x\n\n```markdown\n### encabezado dentro del bloque\n```\n\n## fuera\n"
+    p = problems_for(V.check_heading_style, t)
+    check(not p, "encabezado dentro de un bloque cercado NO se valida (ni salto ni cierre)")
+
+
+def test_heading_ending_inside_codeblock_ignored():
+    t = "# x\n\n```text\n## titulo con dos puntos:\n```\n"
+    p = problems_for(V.check_heading_style, t)
+    check(not p, "encabezado terminado en ':' dentro de bloque de código no se marca")
+
+
+def test_heading_jump_outside_codeblock_flagged():
+    t = "# x\n\n### salto real fuera del bloque\n"
+    p = problems_for(V.check_heading_style, t)
+    check(has(p, "salto de nivel"), "salto de nivel en prosa real (fuera de bloque) sí se detecta")
+
+
+# ---------- Claves YAML: comentadas / anidadas no cuentan ----------
+
+def _fm_probs(root, folder, name, body):
+    (root / folder).mkdir(parents=True, exist_ok=True)
+    f = root / folder / name
+    f.write_text(body, encoding="utf-8")
+    probs = []
+    V.check_frontmatter_and_truncation(f, f.read_text(encoding="utf-8"), root, probs)
+    return probs
+
+
+def test_frontmatter_commented_key_not_counted():
+    with tempfile.TemporaryDirectory() as d:
+        root = Path(d)
+        body = "---\n# name: no soy la clave real\ntype: composicion\ndescription: ok\n---\n\n# foo\n"
+        probs = _fm_probs(root, "composicion", "foo.md", body)
+        check(any("incompleto" in p and "name" in p for p in probs),
+              "clave comentada '# name:' NO cuenta como la clave real (se marca faltante)")
+
+
+def test_frontmatter_nested_key_not_toplevel():
+    with tempfile.TemporaryDirectory() as d:
+        root = Path(d)
+        body = "---\nmeta:\n  name: anidado\ntype: composicion\ndescription: ok\n---\n\n# bar\n"
+        probs = _fm_probs(root, "composicion", "bar.md", body)
+        check(any("incompleto" in p and "name" in p for p in probs),
+              "clave anidada 'meta.name' NO cuenta como name de nivel superior")
+
+
+def test_frontmatter_real_keys_ok():
+    with tempfile.TemporaryDirectory() as d:
+        root = Path(d)
+        body = "---\nname: ok\ntype: composicion\ndescription: d\n---\n\n# ok\n"
+        probs = _fm_probs(root, "composicion", "ok.md", body)
+        check(not any("incompleto" in p for p in probs),
+              "las tres claves reales de nivel superior no se marcan como faltantes")
+
+
+# ---------- Mapa sin `Consumido por` (punto 18) ----------
+
+def test_map_without_consumido():
+    with tempfile.TemporaryDirectory() as d:
+        root = Path(d)
+        _scaffold(root)
+        (root / ".claude" / "rules" / "sinlinea.md").write_text(
+            "---\nname: sinlinea\ntype: map\ndescription: \"m\"\n---\n\n# sinlinea\n\n- sin la línea canónica.\n",
+            encoding="utf-8")
+        probs = []
+        V.check_maps_declare_consumido(root, probs)
+        check(has(probs, "mapa sin Consumido por"), "mapa sin la línea `Consumido por` se detecta")
+
+
+def test_map_with_consumido_ok():
+    with tempfile.TemporaryDirectory() as d:
+        root = Path(d)
+        _scaffold(root)
+        _mk_map(root, "conlinea", "`x` (skill)")
+        probs = []
+        V.check_maps_declare_consumido(root, probs)
+        check(not probs, "mapa con `Consumido por` no genera aviso")
+
+
+# ---------- Relación composicion -> mapa (punto 19) ----------
+
+def test_composicion_without_citing_map():
+    with tempfile.TemporaryDirectory() as d:
+        root = Path(d)
+        (root / ".claude" / "rules").mkdir(parents=True)
+        (root / "composicion").mkdir()
+        (root / ".claude" / "rules" / "style_box.md").write_text(
+            "---\nname: style_box\ntype: map\ndescription: \"m\"\n---\n\n# style_box\n", encoding="utf-8")
+        f = root / "composicion" / "style_box.md"
+        f.write_text("---\nname: style_box\ntype: composicion\ndescription: \"c\"\n---\n\n# style_box\n\nsin citar el mapa.\n",
+                     encoding="utf-8")
+        probs = []
+        V.check_composicion_manual_chain(f, f.read_text(encoding="utf-8"), root, probs)
+        check(has(probs, "composicion sin citar su mapa"),
+              "manual técnico que no cita su mapa homónimo se detecta")
+
+
+def test_composicion_transversal_exempt():
+    with tempfile.TemporaryDirectory() as d:
+        root = Path(d)
+        (root / ".claude" / "rules").mkdir(parents=True)
+        (root / "composicion").mkdir()
+        f = root / "composicion" / "formato.md"  # sin mapa homónimo => transversal
+        f.write_text("---\nname: formato\ntype: composicion\ndescription: \"c\"\n---\n\n# formato\n\nsin mapa propio.\n",
+                     encoding="utf-8")
+        probs = []
+        V.check_composicion_manual_chain(f, f.read_text(encoding="utf-8"), root, probs)
+        check(not probs, "manual transversal (sin mapa homónimo) queda exento")
+
+
 def main():
     tests = [v for k, v in sorted(globals().items()) if k.startswith("test_") and callable(v)]
     print(f"Ejecutando {len(tests)} pruebas del validador...\n")

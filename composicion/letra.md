@@ -62,21 +62,21 @@ description: "Escritura técnica y tipografía como partitura física: narrativa
 
 - *Repite vocales para alargar el sonido y dar énfasis sostenido, permitiendo modulaciones y vibrato natural.*
     - **Ejemplo:**
-    `<fiiiiiire>`, `<loooove>`.
+    `fiiiiiire`, `loooove`.
 - **Anclaje de cadencia:** mantén un recuento de sílabas consistente en las líneas del estribillo para que la melodía se repita estable.
 
 ### 2.2 · Control fonético
 
 - *Usa guiones para romper el flujo de la respiración, usalo con moderación, para evitar cadencias robóticas.* 
     - **Ejemplo:**
-    `<Ta-ta-ta...taca-ta>`
+    `Ta-ta-ta...taca-ta`
 
 ### 2.3 · Fuerza emocional y acentuación (MAYÚSCULAS)
 
 - *Palabras o frases completas, indican gritar, proyectar y dar máxima intensidad emocional.*
 - *Letras o sílabas sueltas fuerzan el acento prosódico exacto, marca el golpe de una rima o corrige pronunciaciones.*
     - **Ejemplo:**
-    `<coraZÓN>`, `<enFÁtico>`, `<reCUERda>`.
+    `coraZÓN`, `enFÁtico`, `reCUERda`.
 - *Sacrifica la ortografía por la entrega métrica usando mayúsculas para los acentos tónicos.*
 
 ### 2.4 · La puntuación dicta el fraseo físico
@@ -96,23 +96,23 @@ description: "Escritura técnica y tipografía como partitura física: narrativa
 
 - *Para contar las sílabas de un verso, analiza la acentuación de la última palabra y aplica esta aritmética*
     - **Aguda o monosílaba (+1):** suma una sílaba.
-    `<Escribo mis versos sin querer.>` — "querer" es aguda → +1 (decasílabo).
+    `Escribo mis versos sin querer.` — "querer" es aguda → +1 (decasílabo).
     - **Grave (=):** no suma ni resta.
-    `<Procuro decir lo siento.>` — "siento" es grave → = (octosílabo).
+    `Procuro decir lo siento.` — "siento" es grave → = (octosílabo).
     - **Esdrújula (−1):** resta una sílaba.
-    `<Un camino por los árboles.>` — "árboles" es esdrújula → −1 (octosílabo).
+    `Un camino por los árboles.` — "árboles" es esdrújula → −1 (octosílabo).
 
 ### 3.2 · Licencias métricas
 
 - *Recursos para modificar el número de sílabas fonéticas y ajustar el metro.*
     - **Sinalefa (natural)** Une en una sílaba la vocal final de una palabra y la inicial de la siguiente. Es la forma natural de pronunciar en español.
-    `<Y otra vez con el ala a sus cristales.>` (Dos sinalefas = 11 sílabas).
+    `Y otra vez con el ala a sus cristales.` (Dos sinalefas = 11 sílabas).
     - **Dialefa o hiato (forzada)** Lo contrario de la sinalefa: deja final e inicio vocálicos en sílabas distintas. No ocurre naturalmente; se fuerza para cuadrar la métrica.
-    `<La noche alegre.>` (Dialefa forzada → 6 sílabas).
+    `La noche alegre.` (Dialefa forzada → 6 sílabas).
     - **Sinéresis (interna)** Une dos vocales en hiato dentro de una palabra, contándolas como una sola sílaba.
-    `<La poesía es mi vida.>` ("po-e-sí-a" se contrae → 8 sílabas).
+    `La poesía es mi vida.` ("po-e-sí-a" se contrae → 8 sílabas).
     - **Diéresis (interna)** Desarma un diptongo dentro de una palabra para pronunciarlo en sílabas separadas. En textos clásicos se marca con crema.
-    `<Es suficïente dinero.>` (El diptongo "ie" se separa → 9 sílabas).
+    `Es suficïente dinero.` (El diptongo "ie" se separa → 9 sílabas).
 
 ### 3.3 · Análisis práctico: Mario Benedetti
 

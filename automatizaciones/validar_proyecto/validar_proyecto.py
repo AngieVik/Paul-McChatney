@@ -27,7 +27,11 @@ Comprueba, sobre el árbol .md del proyecto:
      indentado, no un fence); los ``` incrustados en prosa o dentro de una
      celda de tabla no descuadran el conteo.
   7. Encabezados mal cerrados: terminan en `.`, `:` o `;` (prohibido por
-     `chuletas/plantilla_estilo.md` §2) o saltan de nivel (`#` -> `###`).
+     `chuletas/plantilla_estilo.md` §2) o saltan de nivel (`#` -> `###`). Se
+     ignoran los encabezados incrustados dentro de bloques de código cercados:
+     en las plantillas esos encabezados ya se validan como esqueletos (punto 8),
+     así que analizarlos también aquí producía avisos duplicados o falsos saltos
+     de nivel.
   8. Las plantillas generativas (`chuletas/plantilla_*.md`) generan un
      esqueleto compatible: se extrae cada bloque de código de la plantilla y
      se le aplican los chequeos 5-7 como si fuera un documento real.
@@ -65,6 +69,12 @@ Comprueba, sobre el árbol .md del proyecto:
       `fonetizar/`, `system_prompt/` y `chuletas/plantilla_*.md`) deben traer
       frontmatter YAML. `proyectos/` queda fuera a propósito (histórico sin
       frontmatter universal).
+  18. Todo mapa `.claude/rules/*.md` declara la línea `Consumido por` (sin ella,
+      el punto 15 no puede verificar la bidireccionalidad mapa<->skill).
+  19. Relación composicion -> mapa: un manual técnico `composicion/<x>.md` con
+      mapa homónimo `.claude/rules/<x>.md` debe citar ese mapa. Cierra el
+      triángulo composicion -> mapa -> skill (las otras dos aristas ya las cubre
+      el punto 15). Los manuales transversales, sin mapa homónimo, se omiten.
 
 Uso:
     python validar_proyecto.py [ruta_raiz] [--incluir-personales] [--excluir DIR ...]
@@ -200,6 +210,33 @@ def frontmatter_name(text: str):
         return None
     nm = NAME_RE.search(m.group(1))
     return nm.group(1).strip() if nm else None
+
+
+def top_level_yaml_keys(block: str) -> set:
+    """Claves de NIVEL SUPERIOR de un bloque de frontmatter. Con PyYAML se
+    parsean de verdad; sin él (o si el parseo falla) se cae a una heurística que
+    ignora comentarios (`# ...`) y líneas indentadas (claves anidadas). Así un
+    comentario como `# name:` ya no cuenta como si la clave real existiera, que
+    era el falso positivo que dejaba pasar la comprobación por subcadena."""
+    if yaml is not None:
+        try:
+            data = yaml.safe_load(block)
+            if isinstance(data, dict):
+                return {str(k) for k in data.keys()}
+        except yaml.YAMLError:
+            pass  # YAML roto: lo reporta check_yaml_frontmatter_shape; caemos a la heurística
+    keys = set()
+    for line in block.splitlines():
+        if not line.strip():
+            continue
+        if line.startswith((" ", "\t")):
+            continue  # indentada => clave anidada, no de nivel superior
+        if line.lstrip().startswith("#"):
+            continue  # comentario YAML, no una clave
+        m = KEY_LINE_RE.match(line)
+        if m:
+            keys.add(m.group(1))
+    return keys
 
 
 def requires_frontmatter(path: Path, root: Path) -> bool:
@@ -342,6 +379,11 @@ def check_unclosed_fences(path: Path, text: str, root: Path, problems: list, lab
 
 def check_heading_style(path: Path, text: str, root: Path, problems: list, label: str = None):
     where = label or rel(path, root)
+    # Se excluyen los bloques de código cercados: un encabezado dentro de un
+    # ``` no es un encabezado real del documento. En las plantillas, además, ese
+    # encabezado ya se valida como esqueleto (check_plantilla_skeletons), de modo
+    # que analizarlo también aquí duplicaba avisos o inventaba saltos de nivel.
+    text = CODEBLOCK_RE.sub("", text)
     levels = []
     for m in HEADING_RE.finditer(text):
         hashes, title = m.group(1), m.group(2)
@@ -445,7 +487,8 @@ def check_frontmatter_and_truncation(path: Path, text: str, root: Path, problems
         problems.append(f"[frontmatter incompleto] {rel(path, root)} no cierra el bloque `---`")
     elif m:
         block = m.group(1)
-        missing = [k for k in REQUIRED_FRONTMATTER_KEYS if f"{k}:" not in block]
+        keys = top_level_yaml_keys(block)
+        missing = [k for k in REQUIRED_FRONTMATTER_KEYS if k not in keys]
         if missing:
             problems.append(
                 f"[frontmatter incompleto] {rel(path, root)} falta(n) clave(s): {', '.join(missing)}"
@@ -685,6 +728,46 @@ def check_map_owner_reciprocity(root: Path, maps: dict, problems: list):
                 )
 
 
+def check_maps_declare_consumido(root: Path, problems: list):
+    """Punto 18 — todo mapa `.claude/rules/*.md` debe declarar la línea
+    `Consumido por`. Sin ella, la bidireccionalidad mapa<->skill (punto 15) no
+    tiene de dónde leer los consumidores y el mapa queda mudo sobre quién lo usa."""
+    rules_dir = root / ".claude" / "rules"
+    if not rules_dir.is_dir():
+        return
+    for mp in sorted(rules_dir.glob("*.md")):
+        try:
+            t = mp.read_text(encoding="utf-8")
+        except (UnicodeDecodeError, OSError):
+            continue
+        if not CONSUMIDO_RE.search(t):
+            problems.append(
+                f"[mapa sin Consumido por] {rel(mp, root)}: un mapa de .claude/rules/ "
+                f"debe declarar la línea `Consumido por`"
+            )
+
+
+def check_composicion_manual_chain(path: Path, text: str, root: Path, problems: list):
+    """Punto 19 — relación composicion -> mapa. Un manual técnico
+    `composicion/<x>.md` con mapa homónimo `.claude/rules/<x>.md` debe citarlo,
+    cerrando el triángulo composicion -> mapa -> skill (las aristas mapa->skill y
+    skill->mapa ya las cubre el punto 15). Los manuales transversales (sin mapa
+    homónimo, indexados como una fila más en `.claude/rules/composicion.md`) se
+    omiten a propósito."""
+    parts = rel_parts(path, root)
+    if len(parts) < 2 or parts[0] != "composicion":
+        return
+    stem = path.name[:-3]
+    map_file = root / ".claude" / "rules" / f"{stem}.md"
+    if not map_file.exists():
+        return  # transversal: no hay mapa homónimo que citar
+    if f".claude/rules/{stem}.md" not in text:
+        problems.append(
+            f"[composicion sin citar su mapa] {rel(path, root)}: el manual técnico "
+            f"debería citar su mapa homónimo `.claude/rules/{stem}.md`"
+        )
+
+
 def rel(path: Path, root: Path) -> str:
     try:
         return str(path.relative_to(root))
@@ -728,9 +811,12 @@ def main():
         check_proyecto_skeleton_sections(path, text, root, problems)
         check_document_identity(path, text, root, problems)
         check_map_skill_bidirectional(path, text, root, maps, problems)
+        check_composicion_manual_chain(path, text, root, problems)
 
     # Dirección mapa -> skill (punto 15): se hace una sola vez sobre los mapas.
     check_map_owner_reciprocity(root, maps, problems)
+    # Punto 18: mapas que no declaran `Consumido por` (una sola pasada).
+    check_maps_declare_consumido(root, problems)
 
     if not problems:
         print("✅ Sin problemas detectados.")

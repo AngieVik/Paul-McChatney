@@ -173,6 +173,6 @@ description: "Puntuación en la letra, etiquetas de dirección vocal, arquitectu
 ### 2.9 · Rango y tesitura vocal
 
 - *Fija el registro exacto del cantante para anclar el timbre y evitar que el modelo derive a una tesitura ajena.*
-    - **Voces masculinas graves:** `[Bass vocal range: E2–E4]` (muy profundo), `[Baritone vocal range: G2–G4]` (con cuerpo y fuerza), `[Tenor vocal range: C3–C5]` (limpio, melódico, más agudo).
+    - **Voces masculinas:** `[Bass vocal range: E2–E4]` (muy profundo), `[Baritone vocal range: G2–G4]` (con cuerpo y fuerza), `[Tenor vocal range: C3–C5]` (limpio, melódico, más agudo).
     - **Voz femenina íntima ("no diva"):** registro bajo y susurrado, tesitura contenida, `[Female low register]`, `[Intimate breathy delivery]`.
     - **Límite de rango:** fuerza un techo con `[vocal range E3–A3, do not exceed]` para impedir que suba a agudos indeseados. Refuérzalo excluyendo las tesituras opuestas en el `exclude_box` (ver `exclude_box §6`).

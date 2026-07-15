@@ -1,8 +1,6 @@
 # === Paul McChatney — .gitignore ===
-# Regla: el repo versiona TEXTO (prompts, letras, configs). La media (audio, vídeo,
-# imágenes) se queda fuera. No hay que mantener esto carpeta por carpeta.
-
-# --- Media / binarios: nunca a git ---
+# Regla: el repo versiona TEXTO (prompts, letras, configs). La media (audio, vídeo, imágenes) se queda fuera.
+# --- Binarios ---
 *.wav
 *.mp3
 *.flac
@@ -16,26 +14,27 @@
 *.jpg
 *.jpeg
 *.zip
-
-# Archivos
 *.bak
-# --- proyectos: solo .md ---
-# 1. Ignorar todo el contenido de la carpeta proyectos
-proyectos/*
-# 2. Permitir que Git lea los subdirectorios dentro de proyectos (necesario para buscar dentro)
-!proyectos/*/
-# 3. Excluir de la regla de ignorar a todos los archivos .md en cualquier nivel
-!proyectos/**/*.md
-
-# --- binarios de produccion (instaladores de plugins) ---
-_produccion/plugins_angie/
-# --- Carpetas ignoradas por completo ---
+# --- Carpetas ---
 _docs/
 _hojas_sucias/
 _produccion/
 _prompts_antiguos/
 _temp/
-
-# --- temporales / sistema ---
+# --- Cache de automatización de python "validar_proyecto" ---
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+# --- Binarios de produccion ---
+_produccion/plugins_angie/
+# --- Temporales / Sistema ---
 .DS_Store
 Thumbs.db
+# Ignorar todo el "contenido" de la carpeta proyectos.
+proyectos/*
+# Permitir que Git lea los subdirectorios dentro de proyectos (necesario para buscar dentro).
+!proyectos/*/
+# Excluir de la regla de ignorar a todos los archivos .md en cualquier nivel.
+!proyectos/**/*.md

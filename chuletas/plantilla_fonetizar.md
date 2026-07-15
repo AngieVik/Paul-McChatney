@@ -1,7 +1,7 @@
 ---
 name: "plantilla_fonetizar"
 type: "plantilla"
-description: "Genera la guía para fonetización en español de <dialecto>, sigue la plantilla y genera el resultado en un bloque de código markdown."
+description: "Genera la guía para fonetización en español de un dialecto o idioma, sigue la plantilla y genera el resultado en un bloque de código markdown."
 ---
 
 # plantilla_fonetizar
@@ -103,6 +103,6 @@ Definición de cómo los hablantes nativos de este idioma distorsionan los fonem
 
 - *Para separar las sílabas, usa un espacio en lugar de un guion. Usa un guion cuando haya un alargamiento vocal o una pausa breve (tipo respiración).*
 - **`<descripcion>`:** breve descripción general del sistema fonológico. Ej. "Sistema opaco, requiere memorización de patrones ortográficos".
-- **`<ambito>`:** región, idioma, grupo social, edad, condición vocal o perfil.
+- **`<ambito>`:** región, idioma.
 
 ---

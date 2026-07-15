@@ -1,7 +1,7 @@
 ---
 name: "plantilla_proyecto"
 type: "plantilla"
-description: "Plantilla canónica de proyecto. Cópiala para abrir una canción nueva en `proyectos/<slug>/<slug>.md`. Respeta el orden de secciones y el estilo de relleno; así los agentes futuros mantienen la coherencia del catálogo."
+description: "Plantilla canónica de consolidación. Se aplica al aprobar una obra para generar proyectos/<slug>/<slug>.md."
 ---
 
 # plantilla_proyecto

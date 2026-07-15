@@ -1,6 +1,6 @@
 # Validador automático — plan y estado
 
-*Mejora del audit de reglas: preparar un chequeo automático que detecte lo que antes solo se encontraba a mano (contradicciones de política, archivos truncados, rutas rotas, identidad documental y bidireccionalidad mapa↔skill).*
+*Mejora del audit de reglas: preparar un chequeo automático que detecte lo que antes solo se encontraba a mano (inconsistencias estructurales y documentales, archivos truncados, rutas rotas, identidad documental y bidireccionalidad mapa↔skill). Los controles son estructurales y sintácticos, no semánticos: no juzgan si dos políticas se contradicen en su contenido, sino si la forma, las rutas y las relaciones documentales cuadran.*
 
 **Comando:** `python automatizaciones/validar_proyecto/validar_proyecto.py .` (ejecutar desde la raíz del proyecto).
 
@@ -27,6 +27,8 @@
 | 15  | Bidireccionalidad mapa↔skill (2 direcciones)     | skill→mapa: toda skill que cita `.claude/rules/<x>.md` figura en el `Consumido por` de ese mapa (y ese mapa existe). mapa→skill: toda skill dueña declarada en un `Consumido por` (anotada `(skill)` o con el nombre del mapa) existe y cita ese mapa; `produccion` es excepción y los consumidores conceptuales se omiten | `SKILL.md` de cada skill y `Consumido por` de cada `.claude/rules/*.md`                                       |
 | 16  | Bytes nulos y caracteres de control              | Ningún `.md` debe contener `\x00` ni otros caracteres de control (se permiten solo `\t`, `\n`, `\r`)                                           | Todo `.md`                                                                                                   |
 | 17  | Frontmatter exigido por ruta                     | Los `.md` de carpetas de identidad (`.claude/rules/`, `.claude/skills/*/SKILL.md`, `composicion/`, `jerga/`, `fonetizar/`, `system_prompt/`, `chuletas/plantilla_*.md`) deben traer frontmatter; `proyectos/` queda fuera a propósito | Rutas de identidad (no `proyectos/`)                                                                          |
+| 18  | Mapa sin línea `Consumido por`                   | Todo `.claude/rules/*.md` debe declarar la línea `Consumido por`; sin ella el punto 15 no tiene de dónde leer los consumidores del mapa                                                                                                 | Todo `.claude/rules/*.md`                                                                                    |
+| 19  | Relación composicion → mapa                      | Un manual técnico `composicion/<x>.md` con mapa homónimo `.claude/rules/<x>.md` debe citar ese mapa (cierra el triángulo composicion → mapa → skill); los transversales sin mapa homónimo se omiten                                     | `composicion/*.md` con mapa homónimo                                                                        |
 
 **Por qué el punto 4 no cubre todo el árbol:** `proyectos/` (letras), `chupilista/` (listas de tags) y `fonetizar/`/`jerga/` (ejemplos fonéticos) terminan legítimamente sin punto — aplicar la heurística ahí generaba ruido casi puro. Se limita a las carpetas donde la prosa siempre debe cerrar en frase completa, y dentro de ellas salta filas de tabla (`|`) y citas/blockquote (`>`).
 
@@ -56,8 +58,7 @@ Es una **heurística de apoyo, no un gate estricto**. Cada aviso debe revisarse 
 
 ## 5 · Pendiente / posibles siguientes pasos
 
-- Detectar automáticamente si un `.claude/rules/*.md` no declara `Consumido por` (patrón visto en auditorías anteriores); el punto 15 ya usa esa línea, pero no avisa aún si falta por completo.
-- Comprobar también la dirección manual→skill: que cada `composicion/*.md` declare correctamente sus skills consumidoras (sección «Referencias» de `plantilla_composicion.md`).
+- Ampliar la dirección manual→skill: el punto 19 ya comprueba que un manual técnico cite su mapa homónimo; falta validar además que las skills consumidoras listadas en la sección «Referencias» de cada `composicion/*.md` existan y coincidan con el `Consumido por` del mapa.
 - Integrarlo como hook de pre-commit si el repo pasa a tener commits frecuentes.
 
-*Hecho en la última ampliación: parseo YAML real opcional + heurística reforzada (valores sin comillas con `:`, falta de espacio tras `:`, puntuación fuera de comillas), detección de bytes nulos y caracteres de control, frontmatter exigido por ruta, fences limitados a 3 espacios de sangría, bidireccionalidad mapa→skill (además de skill→mapa) y batería de pruebas automáticas.*
+*Hecho en la última ampliación: encabezados dentro de bloques de código excluidos de la validación general (se analizan solo como esqueletos), comprobación de claves de frontmatter por claves YAML de nivel superior (ya no por subcadena, así un `# name:` comentado no cuela), detección de mapas sin `Consumido por` (punto 18) y de la relación composicion → mapa (punto 19), con sus pruebas automáticas.*
