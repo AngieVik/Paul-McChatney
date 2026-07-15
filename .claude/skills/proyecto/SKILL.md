@@ -56,10 +56,9 @@ Comandos transaccionales que no alteran la narrativa creativa de la obra.
 - Trabaja una sola obra a la vez hasta `aprobar`, `cerrar`, o `eliminar`. Mantén un único contexto activo para conservar versiones limpias y evitar cruces entre obras.
 - Ninguna fase de `produccion` cierra la obra por sí sola: hasta `aprobar` sigue siendo un borrador vivo y modificable. Solo `aprobar` finaliza la obra y permite ofrecer una retrospectiva de cierre.
 
-## 7 · Relación con otras skills
+## 7 · Ciclo de vida: retrospectiva y aprobación
 
-- `produccion` desarrolla, a lo largo de sus fases, la obra abierta por `crear`/`retomar` sobre el borrador de `_hojas_sucias/<slug>.md`.
-- Las skills sueltas (`style_box`, `letra`, `lyrics_box`, `fonetizar`, `jerga`, `cover_art`) operan sobre ese mismo borrador activo.
+- *Fuente canónica del ciclo de vida de la obra. Otras skills que necesiten estas reglas enlazan aquí en vez de repetirlas.*
 - `retrospectiva` puede ejecutarse en cualquier momento del ciclo, incluso antes de `aprobar`, si el usuario detecta un aprendizaje o pide revisar una decisión.
 - `aprobar` no ejecuta retrospectiva automáticamente: solo sugiere al usuario hacer una retrospectiva de cierre.
 - Aprobar una obra, aprobar un prompt y aprobar un aprendizaje son acciones independientes.

@@ -1,7 +1,7 @@
 ---
 name: es_infancia_temprana
 type: fonetizar
-description: Este registro no es un dialecto, sino un estado de desarrollo fonológico. Se caracteriza por procesos de simplificación fonológica universales: los niños sustituyen los fonemas complejos (que exigen gran coordinación neuromuscular) por otros más simples de adquirir, omitiendo sílabas o simplificando grupos consonánticos difíciles.
+description: "Este registro no es un dialecto, sino un estado de desarrollo fonológico."
 region: Infancia Temprana (Fonología Evolutiva)
 ---
 # es_infancia_temprana

@@ -1,7 +1,7 @@
 ---
 name: es_senegales
 type: fonetizar
-description: Sistema ortográficamente transparente pero rítmicamente exigente. Su inteligibilidad no depende de la opacidad vocálica, sino del respeto absoluto a la longitud (cantidad métrica) tanto de las vocales (cortas vs. largas) como de las consonantes (simples vs. geminadas), además del uso de oclusivas prenasalizadas.
+description: "Sistema ortográficamente transparente pero rítmicamente exigente."
 region: Wolof (Lengua Vehicular de Senegal)
 ---
 

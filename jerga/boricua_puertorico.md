@@ -1,7 +1,7 @@
 ---
 name: boricua_puertorico
 type: jerga
-description: Argot caribeño moldeado por una historia colonial compleja, caracterizado por su base antillana, un fuerte sustrato africano (yoruba, kikongo) e indígena (taíno), y una masiva, constante e inevitable asimilación del inglés debido a su relación política con Estados Unidos. Al ser el epicentro mundial de la música urbana (Reggaetón, Trap latino), esta jerga se ha convertido en el principal exportador de modismos al resto de la juventud hispanohablante.
+description: "Argot caribeño moldeado por una historia colonial compleja, caracterizado por su base antillana, un fuerte sustrato africano (yoruba, kikongo) e indígena (taíno), y una masiva, constante e inevitable asimilación del inglés debido a su relación…"
 region: Jerga Boricua (Puerto Rico)
 ---
 

@@ -1,7 +1,7 @@
 ---
 name: fonetizar
 type: map
-description: Guías de fonetización para idiomas y dialectos. Permiten simular acentos específicos en la letra.
+description: "Biblioteca de transcripción fonética para TTS: cómo escribir una palabra o frase para que el motor de voz reproduzca una pronunciación, acento, edad, estado o forma de hablar concreta."
 ---
 
 - *No se carga con `@`, este índice es el mapa concepto→archivo, abre cada `fonetizar/<archivo>.md` bajo demanda con la herramienta de lectura, solo el/los que necesites.*
@@ -10,6 +10,9 @@ description: Guías de fonetización para idiomas y dialectos. Permiten simular 
 ---
 
 # fonetizar
+
+- *Biblioteca de transcripción fonética orientada a TTS: cada guía indica cómo ESCRIBIR una palabra o frase para que el motor de voz reproduzca una pronunciación, un acento, una edad, un estado físico o una forma de hablar concreta.*
+- *Los perfiles basados en identidad se describen mediante rasgos fonéticos observables (articulación, prosodia, ritmo, tensión vocal), nunca mediante estereotipos.*
 
 ## Guías disponibles
 

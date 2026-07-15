@@ -1,5 +1,5 @@
 ---
-name: exclude_box37.3866077, -5.9984908
+name: exclude_box
 type: map
 description: Prompting inverso y control de artefactos, qué bloquear en el exclude_box.
 ---

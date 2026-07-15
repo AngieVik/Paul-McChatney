@@ -408,7 +408,6 @@ description: Vocabulario de géneros y subgéneros.
 [Koto Trap]
 [Latin Trap Pop]
 [Lo-Fi Trap]
-[Metal Trap Breakdown]
 [Nerdcore]
 [Old School Hip-hop]
 [Opera Trap]

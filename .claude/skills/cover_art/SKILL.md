@@ -85,10 +85,10 @@ COVER 3
 
 ## Entra → Sale
 
-- **Entra:** una obra terminada (`letra + style_box/narrativa`).
+- **Entra:** una obra en curso o aprobada, con suficiente `letra`, narrativa y `style_box`.
 - **Sale:** el núcleo emocional detectado + 3 prompts en lenguaje natural 1:1.
 
 ## Relación
 
-- Posterior a una obra ya creada; independiente del flujo de 5 fases de `produccion`.
+- Opera sobre una obra en curso o aprobada; independiente del flujo de 5 fases de `produccion`.
 - Localiza la obra con `proyecto`: `_hojas_sucias/<slug>.md` en curso, `proyectos/<slug>/<slug>.md` aprobada, catálogo `PROYECTOS.md`.

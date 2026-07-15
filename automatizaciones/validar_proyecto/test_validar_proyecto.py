@@ -6,14 +6,13 @@ Sin dependencias externas (no requiere pytest): se ejecuta con
 `python test_validar_proyecto.py` desde cualquier sitio y devuelve código de
 salida 1 si algún caso falla. Cada prueba construye contenido sintético
 (válido e inválido) y comprueba que el validador lo clasifica bien, cubriendo
-los puntos ciegos que motivaron la ampliación: YAML inválido, bytes nulos,
-fences con 0/3/4 espacios, mapas y skills desincronizados, y plantillas sin
-frontmatter. Así cada ampliación futura del validador no reintroduce falsos
-positivos ni puntos ciegos.
+los puntos que motivaron la ampliación: lectura de name/type sin comillas, H1
+único, nombres sueltos y ambiguos entre backticks, indexación única por mapa,
+tags de chupilista y longitud de description. Así cada ampliación futura del
+validador no reintroduce falsos positivos ni puntos ciegos.
 """
 
 import importlib.util
-import os
 import sys
 import tempfile
 from pathlib import Path
@@ -35,7 +34,6 @@ def check(cond, msg):
 
 
 def problems_for(fn, text, name="x.md", root=None, **kw):
-    """Ejecuta un chequeo sobre texto sintético y devuelve la lista de avisos."""
     probs = []
     root = root or Path("/tmp")
     fn(root / name, text, root, probs, **kw)
@@ -44,6 +42,194 @@ def problems_for(fn, text, name="x.md", root=None, **kw):
 
 def has(probs, needle):
     return any(needle in p for p in probs)
+
+
+# ---------- name/type sin comillas (Hallazgo 1) ----------
+
+def test_frontmatter_value_strips_quotes():
+    t = '---\nname: "style_box"\ntype: \'map\'\ndescription: "d"\n---\n\n# style_box\n'
+    check(V.frontmatter_value(t, "name") == "style_box", "name entrecomillado se lee sin comillas")
+    check(V.frontmatter_value(t, "type") == "map", "type entrecomillado (simples) se lee sin comillas")
+
+
+def test_plantilla_type_quoted_ok():
+    with tempfile.TemporaryDirectory() as d:
+        root = Path(d)
+        (root / "chuletas").mkdir()
+        f = root / "chuletas" / "plantilla_x.md"
+        f.write_text('---\nname: plantilla_x\ntype: "plantilla"\ndescription: "d"\n---\n\n# plantilla_x\n', encoding="utf-8")
+        probs = []
+        V.check_plantilla_type(f, f.read_text(encoding="utf-8"), root, probs)
+        check(not probs, 'type: "plantilla" (entrecomillado) NO se marca como incorrecto')
+
+
+def test_plantilla_type_wrong():
+    with tempfile.TemporaryDirectory() as d:
+        root = Path(d)
+        (root / "chuletas").mkdir()
+        f = root / "chuletas" / "plantilla_x.md"
+        f.write_text('---\nname: plantilla_x\ntype: skill\ndescription: "d"\n---\n\n# plantilla_x\n', encoding="utf-8")
+        probs = []
+        V.check_plantilla_type(f, f.read_text(encoding="utf-8"), root, probs)
+        check(has(probs, "type incorrecto"), "type distinto de plantilla se marca")
+
+
+# ---------- Identidad: exactamente un H1 (Hallazgo 2) ----------
+
+def test_identity_two_h1():
+    t = '---\nname: x\ntype: skill\ndescription: "d"\n---\n\n# x\n\n# otro\n'
+    p = problems_for(V.check_document_identity, t, name="x.md")
+    check(has(p, "H1 múltiple o ausente"), "dos H1 en un documento con identidad se detecta")
+
+
+def test_identity_zero_h1():
+    t = '---\nname: x\ntype: skill\ndescription: "d"\n---\n\nsin encabezado.\n'
+    p = problems_for(V.check_document_identity, t, name="x.md")
+    check(has(p, "H1 múltiple o ausente"), "cero H1 en un documento con identidad se detecta")
+
+
+def test_identity_single_h1_ok():
+    t = '---\nname: x\ntype: skill\ndescription: "d"\n---\n\n# x\n\n## sub\n'
+    p = problems_for(V.check_document_identity, t, name="x.md")
+    check(not p, "exactamente un H1 que coincide con name no genera aviso")
+
+
+# ---------- Nombres sueltos entre backticks (Hallazgo 3) ----------
+
+def test_backtick_bare_missing():
+    with tempfile.TemporaryDirectory() as d:
+        root = Path(d)
+        f = root / "a.md"
+        f.write_text("cita a `nope.md` que no existe.\n", encoding="utf-8")
+        probs = []
+        V.check_backtick_paths(f, f.read_text(encoding="utf-8"), root, probs)
+        check(has(probs, "nombre suelto inexistente"), "nombre suelto que no se resuelve se detecta")
+
+
+def test_backtick_bare_ambiguous():
+    with tempfile.TemporaryDirectory() as d:
+        root = Path(d)
+        (root / "sub").mkdir()
+        (root / "dup.md").write_text("x", encoding="utf-8")
+        (root / "sub" / "dup.md").write_text("x", encoding="utf-8")
+        f = root / "sub" / "a.md"
+        f.write_text("cita a `dup.md` sin ruta.\n", encoding="utf-8")
+        probs = []
+        V.check_backtick_paths(f, f.read_text(encoding="utf-8"), root, probs)
+        check(has(probs, "ruta ambigua"), "nombre suelto en carpeta y raíz se marca ambiguo")
+
+
+def test_backtick_bare_label_skipped():
+    with tempfile.TemporaryDirectory() as d:
+        root = Path(d)
+        (root / "jerga").mkdir()
+        (root / "jerga" / "calo.md").write_text("x", encoding="utf-8")
+        f = root / "map.md"
+        # la ruta completa aparece en el mismo archivo: el nombre suelto es etiqueta
+        f.write_text("índice `jerga/calo.md` etiqueta `calo.md`.\n", encoding="utf-8")
+        probs = []
+        V.check_backtick_paths(f, f.read_text(encoding="utf-8"), root, probs)
+        check(not probs, "nombre suelto con su ruta completa en el mismo archivo NO se marca")
+
+
+def test_backtick_canonical_ok():
+    with tempfile.TemporaryDirectory() as d:
+        root = Path(d)
+        (root / ".claude").mkdir()
+        (root / ".claude" / "MEMORY.md").write_text("x", encoding="utf-8")
+        f = root / "a.md"
+        f.write_text("ver `MEMORY.md`.\n", encoding="utf-8")
+        probs = []
+        V.check_backtick_paths(f, f.read_text(encoding="utf-8"), root, probs)
+        check(not probs, "nombre canónico suelto (MEMORY.md) que existe en el repo NO se marca")
+
+
+# ---------- Longitud de description (Hallazgo descriptions) ----------
+
+def test_description_length():
+    with tempfile.TemporaryDirectory() as d:
+        root = Path(d)
+        (root / "composicion").mkdir()
+        f = root / "composicion" / "foo.md"
+        longd = "a" * 260
+        f.write_text(f'---\nname: foo\ntype: composicion\ndescription: "{longd}"\n---\n\n# foo\n', encoding="utf-8")
+        probs = []
+        V.check_description_length(f, f.read_text(encoding="utf-8"), root, probs)
+        check(has(probs, "description larga"), "description de 260 caracteres se detecta")
+
+
+def test_description_length_ok():
+    with tempfile.TemporaryDirectory() as d:
+        root = Path(d)
+        (root / "composicion").mkdir()
+        f = root / "composicion" / "foo.md"
+        f.write_text('---\nname: foo\ntype: composicion\ndescription: "corta y clara."\n---\n\n# foo\n', encoding="utf-8")
+        probs = []
+        V.check_description_length(f, f.read_text(encoding="utf-8"), root, probs)
+        check(not probs, "description corta no genera aviso")
+
+
+# ---------- Indexación única por mapa (Mejora) ----------
+
+def test_library_indexing_orphan_and_dup():
+    with tempfile.TemporaryDirectory() as d:
+        root = Path(d)
+        (root / "jerga").mkdir()
+        (root / ".claude" / "rules").mkdir(parents=True)
+        (root / "jerga" / "a.md").write_text("x", encoding="utf-8")
+        (root / "jerga" / "b.md").write_text("x", encoding="utf-8")
+        # el mapa referencia a.md dos veces (duplicado) y omite b.md (huérfano)
+        (root / ".claude" / "rules" / "jerga.md").write_text(
+            "índice\njerga/a.md\njerga/a.md\n", encoding="utf-8")
+        probs = []
+        V.check_library_indexing(root, probs)
+        check(has(probs, "archivo sin indexar") and "jerga/b.md" in " ".join(probs),
+              "archivo de biblioteca no indexado (huérfano) se detecta")
+        check(has(probs, "archivo indexado por duplicado"),
+              "archivo de biblioteca indexado dos veces se detecta")
+
+
+def test_library_indexing_clean():
+    with tempfile.TemporaryDirectory() as d:
+        root = Path(d)
+        (root / "jerga").mkdir()
+        (root / ".claude" / "rules").mkdir(parents=True)
+        (root / "jerga" / "a.md").write_text("x", encoding="utf-8")
+        (root / ".claude" / "rules" / "jerga.md").write_text("índice jerga/a.md\n", encoding="utf-8")
+        probs = []
+        V.check_library_indexing(root, probs)
+        check(not probs, "cada archivo indexado exactamente una vez no genera aviso")
+
+
+# ---------- Tags de chupilista (Mejora) ----------
+
+def _chup(text):
+    root = Path("/tmp")
+    probs = []
+    warns = []
+    V.check_chupilista_tags(root / "chupilista" / "m.md", text, root, probs, warns)
+    return probs, warns
+
+
+def test_chupilista_malformed():
+    probs, warns = _chup("[Bien]\n[Mal\n")
+    check(has(probs, "tag mal formada"), "tag con corchete sin cerrar se detecta (error)")
+
+
+def test_chupilista_exact_duplicate():
+    probs, warns = _chup("[Uno]\n[Dos]\n[Uno]\n")
+    check(has(probs, "tag duplicada"), "tag duplicada exacta en el archivo se detecta (error)")
+
+
+def test_chupilista_near_duplicate_is_warning():
+    probs, warns = _chup("[Neo Soul]\n[Neo-soul]\n")
+    check(not has(probs, "posible duplicado") and has(warns, "posible duplicado"),
+          "casi-duplicado (guion/mayúsculas) es ADVERTENCIA, no error")
+
+
+def test_chupilista_clean():
+    probs, warns = _chup("[Alpha]\n[Beta]\n[Gamma Delta]\n")
+    check(not probs and not warns, "lista de tags limpia no genera avisos")
 
 
 # ---------- YAML ----------
@@ -113,9 +299,6 @@ def test_fence_3_closed():
 
 
 def test_fence_4_not_a_fence():
-    # Dos marcas ``` con 4 espacios NO deben contar como fence (CommonMark);
-    # combinadas con un fence real de 0 espacios sin cerrar, el conteo real es
-    # impar (1) y debe detectarse; las de 4 espacios no descuadran nada.
     t = "# x\n\n```text\nreal sin cerrar\n\n    ```text\n    indentado\n    ```\n"
     p = problems_for(V.check_unclosed_fences, t)
     check(has(p, "fence sin cerrar"), "fences de 4 espacios se ignoran; se detecta el real de 0 espacios")
@@ -151,78 +334,6 @@ def test_frontmatter_not_required_proyectos():
         check(not has(probs, "frontmatter ausente"), "proyectos/ sin frontmatter NO se marca (exento)")
 
 
-# ---------- Bidireccionalidad mapa <-> skill ----------
-
-def _scaffold(root):
-    (root / ".claude" / "rules").mkdir(parents=True)
-    (root / ".claude" / "skills").mkdir(parents=True)
-
-
-def _mk_map(root, name, consumido):
-    (root / ".claude" / "rules" / f"{name}.md").write_text(
-        f"---\nname: {name}\ntype: map\ndescription: \"m\"\n---\n\n# {name}\n\n- **Consumido por:** {consumido}\n",
-        encoding="utf-8")
-
-
-def _mk_skill(root, name, body=""):
-    d = root / ".claude" / "skills" / name
-    d.mkdir(parents=True, exist_ok=True)
-    (d / "SKILL.md").write_text(
-        f"---\nname: {name}\ntype: skill\ndescription: \"s\"\n---\n\n# {name}\n\n{body}\n",
-        encoding="utf-8")
-
-
-def test_forward_desync():
-    with tempfile.TemporaryDirectory() as d:
-        root = Path(d)
-        _scaffold(root)
-        _mk_map(root, "style_box", "`otra` (skill)")           # NO menciona a la skill que lo cita
-        _mk_skill(root, "style_box", "Uso `.claude/rules/style_box.md`.")
-        maps = V.collect_maps_consumido(root)
-        probs = []
-        sk = root / ".claude" / "skills" / "style_box" / "SKILL.md"
-        V.check_map_skill_bidirectional(sk, sk.read_text(encoding="utf-8"), root, maps, probs)
-        check(has(probs, "bidireccionalidad rota"),
-              "skill cita mapa que no la lista en Consumido por -> flag (skill->mapa)")
-
-
-def test_reverse_desync():
-    with tempfile.TemporaryDirectory() as d:
-        root = Path(d)
-        _scaffold(root)
-        _mk_map(root, "style_box", "`style_box` (skill), `produccion` (Fase 2)")
-        _mk_skill(root, "style_box", "no cita su mapa")         # dueña que NO cita de vuelta
-        maps = V.collect_maps_consumido(root)
-        probs = []
-        V.check_map_owner_reciprocity(root, maps, probs)
-        check(has(probs, "bidireccionalidad incompleta"),
-              "skill dueña que no cita su mapa -> flag (mapa->skill)")
-
-
-def test_reverse_produccion_exception():
-    with tempfile.TemporaryDirectory() as d:
-        root = Path(d)
-        _scaffold(root)
-        _mk_map(root, "efectos", "`produccion` (Fase 5)")
-        _mk_skill(root, "produccion", "orquesta sin citar efectos")
-        maps = V.collect_maps_consumido(root)
-        probs = []
-        V.check_map_owner_reciprocity(root, maps, probs)
-        check(not probs, "produccion es excepción declarada -> sin flag")
-
-
-def test_reverse_conceptual_consumer():
-    with tempfile.TemporaryDirectory() as d:
-        root = Path(d)
-        _scaffold(root)
-        # `letra` aparece SIN anotación (skill) y no existe skill homónima aquí:
-        _mk_map(root, "chupilista", "`exclude_box`, `letra`")
-        maps = V.collect_maps_consumido(root)
-        probs = []
-        V.check_map_owner_reciprocity(root, maps, probs)
-        check(not probs, "consumidor conceptual (no (skill), sin skill real) -> sin flag")
-
-
 # ---------- Plantillas ----------
 
 def test_plantilla_without_frontmatter_skeleton():
@@ -230,7 +341,6 @@ def test_plantilla_without_frontmatter_skeleton():
         root = Path(d)
         (root / "chuletas").mkdir()
         f = root / "chuletas" / "plantilla_foo.md"
-        # esqueleto con region: <A: b> -> YAML inválido dentro del esqueleto
         f.write_text(
             "---\nname: plantilla_foo\ntype: plantilla\ndescription: \"d\"\n---\n\n"
             "# plantilla_foo\n\n## Esqueleto\n\n```markdown\n---\nname: <slug>\n"
@@ -310,59 +420,13 @@ def test_frontmatter_real_keys_ok():
               "las tres claves reales de nivel superior no se marcan como faltantes")
 
 
-# ---------- Mapa sin `Consumido por` (punto 18) ----------
+# ---------- Agrupación del reporte (Hallazgo 4) ----------
 
-def test_map_without_consumido():
-    with tempfile.TemporaryDirectory() as d:
-        root = Path(d)
-        _scaffold(root)
-        (root / ".claude" / "rules" / "sinlinea.md").write_text(
-            "---\nname: sinlinea\ntype: map\ndescription: \"m\"\n---\n\n# sinlinea\n\n- sin la línea canónica.\n",
-            encoding="utf-8")
-        probs = []
-        V.check_maps_declare_consumido(root, probs)
-        check(has(probs, "mapa sin Consumido por"), "mapa sin la línea `Consumido por` se detecta")
-
-
-def test_map_with_consumido_ok():
-    with tempfile.TemporaryDirectory() as d:
-        root = Path(d)
-        _scaffold(root)
-        _mk_map(root, "conlinea", "`x` (skill)")
-        probs = []
-        V.check_maps_declare_consumido(root, probs)
-        check(not probs, "mapa con `Consumido por` no genera aviso")
-
-
-# ---------- Relación composicion -> mapa (punto 19) ----------
-
-def test_composicion_without_citing_map():
-    with tempfile.TemporaryDirectory() as d:
-        root = Path(d)
-        (root / ".claude" / "rules").mkdir(parents=True)
-        (root / "composicion").mkdir()
-        (root / ".claude" / "rules" / "style_box.md").write_text(
-            "---\nname: style_box\ntype: map\ndescription: \"m\"\n---\n\n# style_box\n", encoding="utf-8")
-        f = root / "composicion" / "style_box.md"
-        f.write_text("---\nname: style_box\ntype: composicion\ndescription: \"c\"\n---\n\n# style_box\n\nsin citar el mapa.\n",
-                     encoding="utf-8")
-        probs = []
-        V.check_composicion_manual_chain(f, f.read_text(encoding="utf-8"), root, probs)
-        check(has(probs, "composicion sin citar su mapa"),
-              "manual técnico que no cita su mapa homónimo se detecta")
-
-
-def test_composicion_transversal_exempt():
-    with tempfile.TemporaryDirectory() as d:
-        root = Path(d)
-        (root / ".claude" / "rules").mkdir(parents=True)
-        (root / "composicion").mkdir()
-        f = root / "composicion" / "formato.md"  # sin mapa homónimo => transversal
-        f.write_text("---\nname: formato\ntype: composicion\ndescription: \"c\"\n---\n\n# formato\n\nsin mapa propio.\n",
-                     encoding="utf-8")
-        probs = []
-        V.check_composicion_manual_chain(f, f.read_text(encoding="utf-8"), root, probs)
-        check(not probs, "manual transversal (sin mapa homónimo) queda exento")
+def test_group_by_category():
+    items = ["[a] uno", "[b] dos", "[a] tres", "sin prefijo"]
+    g = V.group_by_category(items)
+    check(len(g.get("a", [])) == 2 and len(g.get("b", [])) == 1 and "(sin categoría)" in g,
+          "los problemas se agrupan por su prefijo entre corchetes")
 
 
 def main():
@@ -373,9 +437,9 @@ def main():
         t()
     print()
     if FAILURES:
-        print(f"❌ {len(FAILURES)} fallo(s).")
+        print(f"{len(FAILURES)} fallo(s).")
         return 1
-    print(f"✅ Todas las pruebas pasaron ({len(tests)} casos).")
+    print(f"Todas las pruebas pasaron ({len(tests)} casos).")
     return 0
 
 

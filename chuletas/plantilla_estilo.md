@@ -1,7 +1,7 @@
 ---
 name: plantilla_estilo
 type: plantilla
-description: Guía de estilo Markdown del proyecto Paul McChatney: estructura, formato y convenciones de escritura, ligera a propósito para poder cargarla siempre que se trabaje en el core.
+description: "Guía de estilo Markdown del proyecto Paul McChatney: estructura, formato y convenciones de escritura, ligera a propósito para poder cargarla siempre que se trabaje en el core."
 ---
 
 # plantilla_estilo
@@ -63,7 +63,7 @@ description: Descripción.
 ---
 ```
 
-Tipos: `skill`, `map`, `plantilla`, `composicion`, `chupilista`, `jerga`, `fonetizar`, `system_prompt`, `proyecto`, `core`, `memory`. El YAML identifica; el cuerpo explica — nada largo dentro del YAML.
+Tipos: `skill`, `map`, `plantilla`, `composicion`, `chupilista`, `jerga`, `fonetizar`, `system_prompt`, `proyecto`, `core`, `memory`. El YAML identifica; el cuerpo explica — nada largo dentro del YAML. El `description` es una sola frase de **250 caracteres como máximo**; si contiene `:` va entre comillas dobles.
 
 ---
 

@@ -4,8 +4,15 @@ validar_proyecto.py — Validador automático para el proyecto Paul McChatney.
 
 Comprueba, sobre el árbol .md del proyecto:
   1. Enlaces relativos rotos (sintaxis Markdown `[texto](ruta)` y `<a href="ruta">`).
-  2. Rutas mencionadas entre backticks (`archivo.md`) que no existen en disco
-     (ignora rutas-plantilla evidentes: <slug>, NN, ejemplo, texto...).
+  2. Rutas mencionadas entre backticks (`archivo.md`) que no existen en disco.
+     Las rutas con `/` o `\\` se resuelven contra la carpeta del archivo y la
+     raíz. Los nombres SUELTOS (sin ruta) también se resuelven: contra la
+     carpeta del archivo y la raíz; si aparecen en ambas se reporta ruta
+     ambigua, si no aparecen en ninguna se reporta como inexistente. Los
+     nombres canónicos del repo (README.md, CLAUDE.md, MEMORY.md, PROYECTOS.md,
+     SKILL.md) se aceptan si el archivo existe en cualquier ubicación conocida,
+     porque se citan por su nombre canónico a propósito. Se ignoran las
+     rutas-plantilla evidentes (<slug>, NN, ejemplo, texto...).
   3. Corchetes de tags `[Tag]` mal formados dentro de bloques de código: analiza
      cada línea de cada bloque por separado (pila de profundidad), no el total
      de `[` y `]` del bloque entero — así un cierre sin apertura ya no puede
@@ -13,7 +20,7 @@ Comprueba, sobre el árbol .md del proyecto:
   4. Archivos truncados: frontmatter incompleto (falta cierre `---`, faltan
      claves `name`/`type`/`description`) o el archivo de INSTRUCCIONES
      (skills, rules, composicion, system_prompt, raíz) termina a mitad de frase.
-     Además: frontmatter AUSENTE en rutas que lo exigen (ver punto 17).
+     Además: frontmatter AUSENTE en rutas que lo exigen (ver punto 15).
   5. YAML de frontmatter inválido. Si PyYAML está disponible se hace un parseo
      real (`yaml.safe_load`); en cualquier caso se aplica una heurística
      estructural sin dependencias que detecta: línea que no parece
@@ -36,45 +43,51 @@ Comprueba, sobre el árbol .md del proyecto:
      esqueleto compatible: se extrae cada bloque de código de la plantilla y
      se le aplican los chequeos 5-7 como si fuera un documento real.
   9. Todo `chuletas/plantilla_*.md` declara `type: plantilla` en su propio
-     frontmatter.
-  10. Dentro de `chuletas/`, cada archivo tiene exactamente un `# H1` fuera de
-      bloques de código (ni cero ni varios).
-  11. El esqueleto de `plantilla_proyecto.md` empieza con frontmatter YAML y
+     frontmatter (comparado sin comillas: `"plantilla"` == `plantilla`).
+  10. El esqueleto de `plantilla_proyecto.md` empieza con frontmatter YAML y
       trae las secciones canónicas de un proyecto (Titulo Original, Generated,
       Master, style_box, exclude_box, lyrics_box).
-  12. Dentro de un esqueleto copiable, ninguna línea de viñeta parece prosa
+  11. Dentro de un esqueleto copiable, ninguna línea de viñeta parece prosa
       explicativa colada (instrucción para quien rellena la plantilla) en vez
       de un marcador determinista (`<...>`, `[...]` o backticks). Las plantillas
       de guía ricas en prosa (fonetizar, jerga), cuyo esqueleto es un documento
       con secciones de prosa fija, se eximen de este punto.
-  13. Toda plantilla generativa (`chuletas/plantilla_*.md`) contiene al menos
+  12. Toda plantilla generativa (`chuletas/plantilla_*.md`) contiene al menos
       un esqueleto (bloque de código copiable); una plantilla sin esqueleto no
       genera nada.
-  14. Identidad documental: el `# H1` coincide con `name`, y `name` coincide con
-      el nombre del archivo cuando corresponde (con el nombre de la carpeta en
-      los `SKILL.md`). Se exceptúan los nombres canónicos de raíz (README.md,
+  13. Identidad documental: cada documento con `name` tiene EXACTAMENTE un
+      `# H1` fuera de bloques de código, ese H1 coincide con `name`, y `name`
+      coincide con el nombre del archivo cuando corresponde (con el nombre de la
+      carpeta en los `SKILL.md`). El `name`/`type` se leen sin comillas
+      exteriores. Se exceptúan los nombres canónicos de raíz (README.md,
       CLAUDE.md, MEMORY.md, PROYECTOS.md), cuyo H1 es un título, no el slug.
-  15. Bidireccionalidad mapa<->skill, en las DOS direcciones:
-      - skill -> mapa: toda skill que cita `.claude/rules/<x>.md` aparece en la
-        línea `Consumido por` de ese mapa (y ese mapa existe).
-      - mapa -> skill: toda skill declarada como dueña en el `Consumido por` de
-        un mapa (anotada `(skill)` o con el mismo nombre que el mapa) existe y
-        cita ese mapa. `produccion` es una excepción declarada (orquestadora:
-        delega por fase y no cita mapas); los consumidores conceptuales o
-        manuales — tokens que no son una skill real — se omiten.
-  16. Bytes nulos (`\\x00`) y caracteres de control: ningún `.md` debe contener
+  14. Bytes nulos (`\\x00`) y caracteres de control: ningún `.md` debe contener
       NUL ni otros caracteres de control (se permiten solo `\\t`, `\\n`, `\\r`).
-  17. Frontmatter exigido por ruta: los `.md` de carpetas de identidad
+  15. Frontmatter exigido por ruta: los `.md` de carpetas de identidad
       (`.claude/rules/`, `.claude/skills/*/SKILL.md`, `composicion/`, `jerga/`,
       `fonetizar/`, `system_prompt/` y `chuletas/plantilla_*.md`) deben traer
       frontmatter YAML. `proyectos/` queda fuera a propósito (histórico sin
       frontmatter universal).
-  18. Todo mapa `.claude/rules/*.md` declara la línea `Consumido por` (sin ella,
-      el punto 15 no puede verificar la bidireccionalidad mapa<->skill).
-  19. Relación composicion -> mapa: un manual técnico `composicion/<x>.md` con
-      mapa homónimo `.claude/rules/<x>.md` debe citar ese mapa. Cierra el
-      triángulo composicion -> mapa -> skill (las otras dos aristas ya las cubre
-      el punto 15). Los manuales transversales, sin mapa homónimo, se omiten.
+  16. Longitud de `description`: en los archivos de identidad el `description`
+      no supera los 250 caracteres (regla de `chuletas/plantilla_estilo.md` §7:
+      el YAML identifica, no explica; nada largo dentro del YAML).
+  17. Indexación única: cada archivo de una biblioteca (`jerga/`, `fonetizar/`,
+      `composicion/`, `chupilista/`, `chuletas/`) aparece EXACTAMENTE una vez en
+      su mapa correspondiente (`.claude/rules/<x>.md`, o `plantillas.md` para
+      `chuletas/`). Detecta huérfanos (0 apariciones) y duplicados (2+).
+  18. Biblioteca `chupilista/`: las tags canónicas están escritas como líneas
+      normales `[tag]` (no dentro de bloques cercados), así que se analizan
+      directamente. Se detectan como ERROR: corchetes incompletos o contenido
+      fuera de la tag, caracteres invisibles/tabulaciones y duplicados exactos
+      dentro del archivo. Se detectan como ADVERTENCIA (no rompen el código de
+      salida): espacios sobrantes y posibles duplicados por diferencias solo de
+      mayúsculas, guiones o grafía.
+
+Dependencias unidireccionales: cada archivo declara únicamente los recursos que
+necesita consultar (sus rutas directas). El validador comprueba que esas rutas
+existan, sean válidas y estén indexadas; NO mantiene ni verifica ninguna
+relación inversa de "consumidores" (quién usa a quién). Un recurso no necesita
+saber quién lo utiliza.
 
 Uso:
     python validar_proyecto.py [ruta_raiz] [--incluir-personales] [--excluir DIR ...]
@@ -100,8 +113,10 @@ disponible; el script NO lo exige. Sin PyYAML, la heurística estructural cubre
 los mismos errores de forma. Así el validador corre con un `python`/`python3`
 recién instalado en Windows sin `pip install` de por medio.
 
-Salida: reporte por consola agrupado por tipo de problema + código de salida
-1 si se encontró algún problema (útil para hooks/CI), 0 si todo está limpio.
+Salida: reporte por consola agrupado por tipo de problema (prefijo entre
+corchetes) + código de salida 1 si se encontró algún problema (útil para
+hooks/CI), 0 si todo está limpio. Las advertencias se listan aparte y no
+alteran el código de salida.
 """
 
 import argparse
@@ -123,12 +138,26 @@ INSTRUCTIONAL_TOP_DIRS = {".claude", "system_prompt", "composicion", "chuletas"}
 
 # Nombres canónicos de raíz: su H1 es un título humano, no el slug, y su `name`
 # no tiene por qué coincidir con el nombre de archivo. Se exceptúan del chequeo
-# de identidad documental (punto 14).
+# de identidad documental (punto 13).
 CANONICAL_FILENAMES = {"README.md", "CLAUDE.md", "MEMORY.md", "PROYECTOS.md"}
 
-# Skills que pueden figurar como dueñas en un `Consumido por` sin citar el mapa
-# de vuelta (punto 15, dirección mapa->skill): `produccion` orquesta por fase.
-GLOBAL_CONSUMER_EXCEPTIONS = {"produccion"}
+# Nombres canónicos que pueden citarse SUELTOS (sin ruta) porque nombran
+# archivos fijos y conocidos del repo (punto 2). Incluye SKILL.md, que existe
+# en cada carpeta de skill.
+CANONICAL_BARE_NAMES = {"README.md", "CLAUDE.md", "MEMORY.md", "PROYECTOS.md", "SKILL.md"}
+
+# Longitud máxima del `description` en archivos de identidad (punto 16).
+MAX_DESCRIPTION_LEN = 250
+
+# Bibliotecas indexadas y su mapa (punto 17). El mapa referencia cada archivo
+# como `carpeta/archivo.md`; `chuletas/` se indexa desde `plantillas.md`.
+LIBRARY_MAPS = {
+    "jerga": ".claude/rules/jerga.md",
+    "fonetizar": ".claude/rules/fonetizar.md",
+    "composicion": ".claude/rules/composicion.md",
+    "chupilista": ".claude/rules/chupilista.md",
+    "chuletas": ".claude/rules/plantillas.md",
+}
 
 MD_LINK_RE = re.compile(r"\[[^\]]*\]\(([^)]+)\)")
 HTML_HREF_RE = re.compile(r'href="([^"]+)"')
@@ -143,13 +172,13 @@ CODEBLOCK_RE = re.compile(r"```.*?```", re.DOTALL)
 FENCE_LINE_RE = re.compile(r"^ {0,3}```")
 HEADING_RE = re.compile(r"^(#{1,6})\s+(.*?)\s*$", re.MULTILINE)
 H1_RE = re.compile(r"^#\s+(\S.*?)\s*$", re.MULTILINE)
-NAME_RE = re.compile(r"^name:\s*(.+)$", re.MULTILINE)
-RULES_CITED_RE = re.compile(r"\.claude/rules/([\w-]+)\.md")
-CONSUMIDO_RE = re.compile(r"Consumido por:\**\s*(.+)")
-# Token dueño en un `Consumido por`: `skill` (skill)  — o el homónimo del mapa.
-SKILL_OWNER_RE = re.compile(r"`([\w-]+)`\s*\(skill\)")
+KEY_VALUE_RE = re.compile(r"^{key}:\s*(.+)$", re.MULTILINE)
 # Caracteres de control prohibidos (se permiten \t=09, \n=0a, \r=0d).
 CONTROL_CHARS_RE = re.compile(r"[\x00-\x08\x0b\x0c\x0e-\x1f]")
+# Caracteres invisibles que no deben colarse dentro de una tag de chupilista.
+INVISIBLE_CHARS_RE = re.compile("[\t\u00a0\u200b\u200c\u200d\u2060\ufeff]")
+# Tag bien formada de chupilista: `[` + contenido sin corchetes + `]`, sola.
+TAG_LINE_RE = re.compile(r"\[[^\[\]]+\]")
 
 REQUIRED_FRONTMATTER_KEYS = ("name", "type", "description")
 KEY_LINE_RE = re.compile(r"^([A-Za-z_][A-Za-z0-9_-]*):(.*)$")
@@ -175,41 +204,45 @@ FORBIDDEN_HEADING_ENDINGS = (".", ":", ";")
 # Plantillas de GUÍA ricas en prosa: su esqueleto es un documento estructurado
 # con secciones de prosa fija que aparecen en cada archivo generado (no un
 # molde puramente estructural). Se eximen del chequeo de "prosa colada"
-# (punto 12), que solo tiene sentido en las plantillas de estructura pura.
+# (punto 11), que solo tiene sentido en las plantillas de estructura pura.
 PROSE_RICH_PLANTILLAS = {"plantilla_fonetizar.md", "plantilla_jerga.md"}
 
 
-def is_placeholder_path(target: str) -> bool:
-    lowered = target.lower()
-    return any(tok.lower() in lowered for tok in PLACEHOLDER_TOKENS)
+def strip_outer_quotes(value: str) -> str:
+    """Retira UN par de comillas exteriores (simples o dobles) si envuelven todo
+    el valor. Así `"style_box"` -> `style_box` y `'plantilla'` -> `plantilla`,
+    tanto con PyYAML como sin él."""
+    value = value.strip()
+    if len(value) >= 2 and value[0] == value[-1] and value[0] in "\"'":
+        return value[1:-1].strip()
+    return value
 
 
-def iter_markdown_files(root: Path, include_personal: bool, extra_excluded: set):
-    for dirpath, dirnames, filenames in os.walk(root):
-        dirnames[:] = [
-            d for d in dirnames
-            if d not in IGNORE_DIRS
-            and d not in extra_excluded
-            and (include_personal or d not in PERSONAL_DIRS)
-        ]
-        for fname in filenames:
-            if fname.endswith(".md"):
-                yield Path(dirpath) / fname
-
-
-def rel_parts(path: Path, root: Path):
-    try:
-        return path.relative_to(root).parts
-    except ValueError:
-        return path.parts
-
-
-def frontmatter_name(text: str):
+def frontmatter_value(text: str, key: str):
+    """Lee el valor de una clave de nivel superior del frontmatter, ya venga
+    entrecomillado o no. Con PyYAML se parsea de verdad; sin él se cae a una
+    lectura por regex retirando las comillas exteriores. Es la función común que
+    usan `name`, `type` y `description`, de modo que las comillas nunca se
+    comparan como parte del valor."""
     m = FRONTMATTER_RE.match(text)
     if not m:
         return None
-    nm = NAME_RE.search(m.group(1))
-    return nm.group(1).strip() if nm else None
+    block = m.group(1)
+    if yaml is not None:
+        try:
+            data = yaml.safe_load(block)
+            if isinstance(data, dict) and key in data and data[key] is not None:
+                return str(data[key]).strip()
+        except yaml.YAMLError:
+            pass  # YAML roto: lo reporta check_yaml_frontmatter_shape; caemos a regex
+    km = re.search(KEY_VALUE_RE.pattern.format(key=re.escape(key)), block, re.MULTILINE)
+    if km:
+        return strip_outer_quotes(km.group(1))
+    return None
+
+
+def frontmatter_name(text: str):
+    return frontmatter_value(text, "name")
 
 
 def top_level_yaml_keys(block: str) -> set:
@@ -239,8 +272,33 @@ def top_level_yaml_keys(block: str) -> set:
     return keys
 
 
+def is_placeholder_path(target: str) -> bool:
+    lowered = target.lower()
+    return any(tok.lower() in lowered for tok in PLACEHOLDER_TOKENS)
+
+
+def iter_markdown_files(root: Path, include_personal: bool, extra_excluded: set):
+    for dirpath, dirnames, filenames in os.walk(root):
+        dirnames[:] = [
+            d for d in dirnames
+            if d not in IGNORE_DIRS
+            and d not in extra_excluded
+            and (include_personal or d not in PERSONAL_DIRS)
+        ]
+        for fname in filenames:
+            if fname.endswith(".md"):
+                yield Path(dirpath) / fname
+
+
+def rel_parts(path: Path, root: Path):
+    try:
+        return path.relative_to(root).parts
+    except ValueError:
+        return path.parts
+
+
 def requires_frontmatter(path: Path, root: Path) -> bool:
-    """Rutas de identidad que EXIGEN frontmatter YAML (punto 17). `proyectos/`
+    """Rutas de identidad que EXIGEN frontmatter YAML (punto 15). `proyectos/`
     queda fuera a propósito: el catálogo histórico no lo trae de forma
     universal y exigirlo inundaría el reporte."""
     parts = rel_parts(path, root)
@@ -275,25 +333,74 @@ def check_links(path: Path, text: str, root: Path, problems: list):
                 )
 
 
+def _bare_name_exists_anywhere(root: Path, name: str) -> bool:
+    """¿Existe algún archivo con este nombre en el árbol? Solo se usa para
+    aceptar los nombres canónicos citados sueltos (SKILL.md, MEMORY.md...)."""
+    for dirpath, dirnames, filenames in os.walk(root):
+        dirnames[:] = [d for d in dirnames if d not in IGNORE_DIRS]
+        if name in filenames:
+            return True
+    return False
+
+
 def check_backtick_paths(path: Path, text: str, root: Path, problems: list):
+    """Punto 2. Rutas y nombres citados entre backticks.
+
+    - Con `/` o `\\`: se resuelven contra la carpeta del archivo y la raíz.
+    - Nombre SUELTO (sin ruta): también se resuelve, contra la carpeta del
+      archivo y la raíz. Si aparece en las dos (y son rutas distintas) se marca
+      como ambiguo; si no aparece en ninguna, como inexistente. Los nombres
+      canónicos del repo (SKILL.md, MEMORY.md, CLAUDE.md, README.md,
+      PROYECTOS.md) se aceptan si el archivo existe en cualquier ubicación
+      conocida, porque se citan por su nombre canónico a propósito.
+    """
     for m in BACKTICK_PATH_RE.finditer(text):
         target = m.group(1)
-        if "/" not in target and "\\" not in target:
-            continue  # nombre suelto tipo `archivo.md` sin ruta, demasiado ambiguo
         if is_placeholder_path(target):
             continue
-        target_norm = target.replace("\\", "/")
+        if "/" in target or "\\" in target:
+            target_norm = target.replace("\\", "/")
+            for base in (path.parent, root):
+                if (base / target_norm).exists():
+                    break
+            else:
+                problems.append(
+                    f"[ruta citada inexistente] {rel(path, root)} -> '{target}'"
+                )
+            continue
+
+        # Nombre suelto sin ruta.
+        if target in CANONICAL_BARE_NAMES:
+            if not _bare_name_exists_anywhere(root, target):
+                problems.append(
+                    f"[nombre canónico inexistente] {rel(path, root)} -> '{target}' no existe en el repo"
+                )
+            continue
+        # Etiqueta de un archivo referenciado por su ruta COMPLETA en el mismo
+        # archivo (tablas de índice: `calo.md` junto a `../../jerga/calo.md`).
+        # Si la ruta completa está presente, el nombre suelto es solo una
+        # etiqueta legible, no una referencia a resolver.
+        if re.search(r"[\\/]" + re.escape(target), text):
+            continue
+        matches = []
         for base in (path.parent, root):
-            if (base / target_norm).exists():
-                break
-        else:
+            candidate = base / target
+            if candidate.exists() and candidate.resolve() not in matches:
+                matches.append(candidate.resolve())
+        if len(matches) > 1:
             problems.append(
-                f"[ruta citada inexistente] {rel(path, root)} -> '{target}'"
+                f"[ruta ambigua] {rel(path, root)} -> '{target}' existe en varias ubicaciones "
+                f"({', '.join(rel(mp, root) for mp in matches)}); cita la ruta completa"
+            )
+        elif not matches:
+            problems.append(
+                f"[nombre suelto inexistente] {rel(path, root)} -> '{target}' no se resuelve "
+                f"contra la carpeta del archivo ni la raíz; cita la ruta completa"
             )
 
 
 def check_control_chars(path: Path, text: str, root: Path, problems: list):
-    """Punto 16 — bytes nulos y caracteres de control. Un NUL (`\\x00`) suele ser
+    """Punto 14 — bytes nulos y caracteres de control. Un NUL (`\\x00`) suele ser
     padding corrupto al final del archivo; otros controles rompen el render y
     delatan un guardado defectuoso."""
     hits = list(CONTROL_CHARS_RE.finditer(text))
@@ -354,6 +461,69 @@ def check_bracket_tags(path: Path, text: str, root: Path, problems: list, label:
                     f"corchetes anidados (profundidad {max_depth}), no usado en la sintaxis "
                     f"de tags del proyecto: {snippet!r}"
                 )
+
+
+def check_chupilista_tags(path: Path, text: str, root: Path, problems: list, warnings: list):
+    """Punto 18 — validación específica de la biblioteca de tags `chupilista/`.
+
+    Las tags canónicas se escriben como líneas normales `[tag]` (no dentro de
+    bloques cercados), así que se analizan directamente, línea a línea. Una
+    línea se considera "línea de tag" si, tras recortar espacios, empieza por
+    `[` y no es un enlace Markdown (`](`).
+
+    ERROR (rompe el código de salida):
+      - corchetes incompletos o contenido fuera de la tag (`[tag` , `[tag] x`);
+      - tabulaciones o caracteres invisibles dentro de la línea;
+      - duplicado exacto dentro del mismo archivo.
+    ADVERTENCIA (no rompe el código de salida):
+      - espacios iniciales/finales o repetidos innecesariamente;
+      - posible duplicado por diferencias solo de mayúsculas, guiones o grafía.
+    """
+    parts = rel_parts(path, root)
+    if not parts or parts[0] != "chupilista":
+        return
+    where = rel(path, root)
+    seen_exact = {}
+    seen_norm = {}
+    for line_no, raw in enumerate(text.splitlines(), start=1):
+        s = raw.strip()
+        if not s.startswith("["):
+            continue
+        if "](" in s:
+            continue  # enlace Markdown, no una tag
+        if INVISIBLE_CHARS_RE.search(raw):
+            problems.append(
+                f"[chupilista carácter invisible] {where} línea {line_no}: "
+                f"tabulación o carácter invisible en la tag: {s[:40]!r}"
+            )
+        if not re.fullmatch(r"\[[^\[\]]+\]", s):
+            problems.append(
+                f"[chupilista tag mal formada] {where} línea {line_no}: "
+                f"corchetes incompletos o contenido fuera de la tag: {s[:40]!r}"
+            )
+            continue
+        inner = s[1:-1]
+        if raw != raw.strip() or inner != inner.strip() or "  " in inner:
+            warnings.append(
+                f"[chupilista espacios sobrantes] {where} línea {line_no}: "
+                f"espacios iniciales, finales o repetidos: {s[:40]!r}"
+            )
+        if s in seen_exact:
+            problems.append(
+                f"[chupilista tag duplicada] {where} línea {line_no}: "
+                f"{s!r} ya aparece en la línea {seen_exact[s]}"
+            )
+        else:
+            seen_exact[s] = line_no
+        norm = re.sub(r"[\s\-]+", "", inner).lower()
+        if norm in seen_norm and seen_norm[norm][0] != s:
+            warnings.append(
+                f"[chupilista posible duplicado] {where} línea {line_no}: "
+                f"{s!r} se parece a {seen_norm[norm][0]!r} (línea {seen_norm[norm][1]}) "
+                f"salvo por mayúsculas, guiones o espacios"
+            )
+        else:
+            seen_norm.setdefault(norm, (s, line_no))
 
 
 def check_unclosed_fences(path: Path, text: str, root: Path, problems: list, label: str = None):
@@ -518,6 +688,21 @@ def check_frontmatter_and_truncation(path: Path, text: str, root: Path, problems
         )
 
 
+def check_description_length(path: Path, text: str, root: Path, problems: list):
+    """Punto 16 — el `description` de un archivo de identidad no supera
+    MAX_DESCRIPTION_LEN caracteres. El YAML identifica, no explica."""
+    if not requires_frontmatter(path, root):
+        return
+    desc = frontmatter_value(text, "description")
+    if desc is None:
+        return  # la ausencia la marca check_frontmatter_and_truncation
+    if len(desc) > MAX_DESCRIPTION_LEN:
+        problems.append(
+            f"[description larga] {rel(path, root)}: {len(desc)} caracteres "
+            f"(máximo {MAX_DESCRIPTION_LEN}); resume la description en una frase"
+        )
+
+
 def check_skeleton_prose_leak(inner: str, where: str, problems: list):
     """Detecta líneas de instrucción (explicación en prosa dirigida a quien
     rellena la plantilla) coladas dentro de un esqueleto copiable, en vez de
@@ -573,32 +758,19 @@ def check_plantilla_skeletons(path: Path, text: str, root: Path, problems: list)
 
 
 def check_plantilla_type(path: Path, text: str, root: Path, problems: list):
-    """chuletas/plantilla_*.md deben declarar `type: plantilla` en su propio frontmatter."""
+    """chuletas/plantilla_*.md deben declarar `type: plantilla` en su propio
+    frontmatter. El valor se lee sin comillas exteriores, de modo que
+    `type: "plantilla"` y `type: plantilla` son equivalentes."""
     if not (path.parent.name == "chuletas" and path.name.startswith("plantilla_")):
         return
     m = FRONTMATTER_RE.match(text)
     if not m:
         return  # ya lo marca check_frontmatter_and_truncation
-    type_match = re.search(r"^type:\s*(.+)$", m.group(1), re.MULTILINE)
-    if not type_match or type_match.group(1).strip() != "plantilla":
+    type_value = frontmatter_value(text, "type")
+    if type_value != "plantilla":
         problems.append(
             f"[type incorrecto] {rel(path, root)}: chuletas/plantilla_*.md debe declarar `type: plantilla`"
         )
-
-
-def check_single_h1(path: Path, text: str, root: Path, problems: list):
-    """Dentro de chuletas/, exige exactamente un H1 fuera de bloques de código."""
-    parts = rel_parts(path, root)
-    if not parts or parts[0] != "chuletas":
-        return
-    text_wo_code = CODEBLOCK_RE.sub("", text)
-    h1_count = len(re.findall(r"^#\s+\S", text_wo_code, re.MULTILINE))
-    if h1_count != 1:
-        problems.append(
-            f"[H1 múltiple o ausente] {rel(path, root)}: {h1_count} encabezados H1 fuera de "
-            f"bloques de código (se espera exactamente 1)"
-        )
-
 
 
 def check_proyecto_skeleton_sections(path: Path, text: str, root: Path, problems: list):
@@ -622,10 +794,11 @@ def check_proyecto_skeleton_sections(path: Path, text: str, root: Path, problems
 
 
 def check_document_identity(path: Path, text: str, root: Path, problems: list):
-    """Punto 14 — identidad documental:
-      - `name` (frontmatter) coincide con el nombre del archivo cuando corresponde
-        (con el nombre de la CARPETA en los `SKILL.md`).
-      - el único `# H1` (fuera de bloques de código) coincide con `name`.
+    """Punto 13 — identidad documental:
+      - `name` (frontmatter, sin comillas) coincide con el nombre del archivo
+        cuando corresponde (con el nombre de la CARPETA en los `SKILL.md`).
+      - hay EXACTAMENTE un `# H1` fuera de bloques de código, y coincide con
+        `name`.
     Se exceptúan los nombres canónicos de raíz (README.md, CLAUDE.md, MEMORY.md,
     PROYECTOS.md), cuyo H1 es un título humano."""
     if path.name in CANONICAL_FILENAMES:
@@ -647,125 +820,42 @@ def check_document_identity(path: Path, text: str, root: Path, problems: list):
 
     text_wo_code = CODEBLOCK_RE.sub("", text)
     h1s = H1_RE.findall(text_wo_code)
-    if len(h1s) == 1 and h1s[0] != name:
+    if len(h1s) != 1:
+        problems.append(
+            f"[identidad: H1 múltiple o ausente] {rel(path, root)}: {len(h1s)} encabezados H1 fuera "
+            f"de bloques de código (se espera exactamente 1)"
+        )
+    elif h1s[0] != name:
         problems.append(
             f"[identidad: H1 != name] {rel(path, root)}: H1={h1s[0]!r} no coincide con name={name!r}"
         )
 
 
-def collect_maps_consumido(root: Path) -> dict:
-    """Pre-escanea `.claude/rules/*.md` y devuelve {nombre_mapa: texto de la
-    línea `Consumido por`}. Se lee directo del disco para que esté siempre
-    disponible aunque se excluyan otras carpetas."""
-    maps = {}
-    rules_dir = root / ".claude" / "rules"
-    if not rules_dir.is_dir():
-        return maps
-    for mp in rules_dir.glob("*.md"):
+def check_library_indexing(root: Path, problems: list):
+    """Punto 17 — cada archivo de una biblioteca aparece EXACTAMENTE una vez en
+    su mapa. Se cuenta cuántas veces el texto del mapa referencia
+    `carpeta/archivo.md`. 0 => huérfano; 2+ => duplicado."""
+    for folder, map_rel in LIBRARY_MAPS.items():
+        folder_dir = root / folder
+        map_file = root / map_rel
+        if not folder_dir.is_dir() or not map_file.exists():
+            continue
         try:
-            t = mp.read_text(encoding="utf-8")
+            map_text = map_file.read_text(encoding="utf-8")
         except (UnicodeDecodeError, OSError):
             continue
-        m = CONSUMIDO_RE.search(t)
-        maps[mp.stem] = m.group(1) if m else ""
-    return maps
-
-
-def check_map_skill_bidirectional(path: Path, text: str, root: Path, maps: dict, problems: list):
-    """Punto 15, dirección skill -> mapa: toda skill que cita un mapa
-    `.claude/rules/<x>.md` debe aparecer en la línea `Consumido por` de ese
-    mapa."""
-    if path.name != "SKILL.md":
-        return
-    skill = path.parent.name
-    cited = sorted(set(RULES_CITED_RE.findall(text)))
-    for c in cited:
-        if c not in maps:
-            problems.append(
-                f"[mapa citado inexistente] {rel(path, root)}: cita `.claude/rules/{c}.md`, que no existe"
-            )
-            continue
-        consumido = maps[c]
-        if f"`{skill}`" not in consumido:
-            problems.append(
-                f"[bidireccionalidad rota] {rel(path, root)}: la skill `{skill}` cita "
-                f"`.claude/rules/{c}.md` pero no figura en su `Consumido por`: {consumido.strip()[:80]!r}"
-            )
-
-
-def check_map_owner_reciprocity(root: Path, maps: dict, problems: list):
-    """Punto 15, dirección mapa -> skill: recorre el `Consumido por` de cada
-    mapa y, por cada skill DUEÑA declarada (anotada `(skill)` o con el mismo
-    nombre que el mapa), comprueba que esa skill existe y cita el mapa de
-    vuelta. Los consumidores conceptuales/manuales (tokens que no son una skill
-    real) se omiten; `produccion` es excepción declarada."""
-    skills_dir = root / ".claude" / "skills"
-    for map_name, consumido in maps.items():
-        annotated = set(SKILL_OWNER_RE.findall(consumido))
-        candidates = set(annotated)
-        if (skills_dir / map_name / "SKILL.md").exists():
-            candidates.add(map_name)  # el homónimo también es dueño natural
-        for owner in sorted(candidates):
-            if owner in GLOBAL_CONSUMER_EXCEPTIONS:
-                continue
-            skill_file = skills_dir / owner / "SKILL.md"
-            if not skill_file.exists():
-                if owner in annotated:
-                    problems.append(
-                        f"[consumidor (skill) inexistente] .claude/rules/{map_name}.md declara "
-                        f"`{owner}` (skill), pero .claude/skills/{owner}/SKILL.md no existe"
-                    )
-                continue
-            try:
-                stext = skill_file.read_text(encoding="utf-8")
-            except (UnicodeDecodeError, OSError):
-                continue
-            if f".claude/rules/{map_name}.md" not in stext:
+        for md in sorted(folder_dir.glob("*.md")):
+            ref = f"{folder}/{md.name}"
+            count = map_text.count(ref)
+            if count == 0:
                 problems.append(
-                    f"[bidireccionalidad incompleta mapa->skill] .claude/rules/{map_name}.md "
-                    f"lista a `{owner}` como skill dueña, pero {owner}/SKILL.md no cita "
-                    f"`.claude/rules/{map_name}.md`"
+                    f"[archivo sin indexar] {ref}: no aparece en su mapa {map_rel}"
                 )
-
-
-def check_maps_declare_consumido(root: Path, problems: list):
-    """Punto 18 — todo mapa `.claude/rules/*.md` debe declarar la línea
-    `Consumido por`. Sin ella, la bidireccionalidad mapa<->skill (punto 15) no
-    tiene de dónde leer los consumidores y el mapa queda mudo sobre quién lo usa."""
-    rules_dir = root / ".claude" / "rules"
-    if not rules_dir.is_dir():
-        return
-    for mp in sorted(rules_dir.glob("*.md")):
-        try:
-            t = mp.read_text(encoding="utf-8")
-        except (UnicodeDecodeError, OSError):
-            continue
-        if not CONSUMIDO_RE.search(t):
-            problems.append(
-                f"[mapa sin Consumido por] {rel(mp, root)}: un mapa de .claude/rules/ "
-                f"debe declarar la línea `Consumido por`"
-            )
-
-
-def check_composicion_manual_chain(path: Path, text: str, root: Path, problems: list):
-    """Punto 19 — relación composicion -> mapa. Un manual técnico
-    `composicion/<x>.md` con mapa homónimo `.claude/rules/<x>.md` debe citarlo,
-    cerrando el triángulo composicion -> mapa -> skill (las aristas mapa->skill y
-    skill->mapa ya las cubre el punto 15). Los manuales transversales (sin mapa
-    homónimo, indexados como una fila más en `.claude/rules/composicion.md`) se
-    omiten a propósito."""
-    parts = rel_parts(path, root)
-    if len(parts) < 2 or parts[0] != "composicion":
-        return
-    stem = path.name[:-3]
-    map_file = root / ".claude" / "rules" / f"{stem}.md"
-    if not map_file.exists():
-        return  # transversal: no hay mapa homónimo que citar
-    if f".claude/rules/{stem}.md" not in text:
-        problems.append(
-            f"[composicion sin citar su mapa] {rel(path, root)}: el manual técnico "
-            f"debería citar su mapa homónimo `.claude/rules/{stem}.md`"
-        )
+            elif count > 1:
+                problems.append(
+                    f"[archivo indexado por duplicado] {ref}: aparece {count} veces en {map_rel} "
+                    f"(se espera exactamente 1)"
+                )
 
 
 def rel(path: Path, root: Path) -> str:
@@ -773,6 +863,25 @@ def rel(path: Path, root: Path) -> str:
         return str(path.relative_to(root))
     except ValueError:
         return str(path)
+
+
+def group_by_category(items: list) -> dict:
+    """Agrupa los mensajes por su prefijo entre corchetes (`[categoría] ...`)."""
+    grouped = {}
+    for it in items:
+        m = re.match(r"\[([^\]]+)\]", it)
+        key = m.group(1) if m else "(sin categoría)"
+        grouped.setdefault(key, []).append(it)
+    return grouped
+
+
+def print_grouped(header: str, items: list):
+    print(header)
+    grouped = group_by_category(items)
+    for category in sorted(grouped):
+        print(f"\n  {category} ({len(grouped[category])}):")
+        for it in grouped[category]:
+            print(f"    - {it}")
 
 
 def main():
@@ -787,8 +896,7 @@ def main():
     root = Path(args.ruta).resolve()
     extra_excluded = set(args.excluir)
     problems = []
-
-    maps = collect_maps_consumido(root)
+    warnings = []
 
     for path in iter_markdown_files(root, args.incluir_personales, extra_excluded):
         try:
@@ -801,31 +909,31 @@ def main():
         check_links(path, text, root, problems)
         check_backtick_paths(path, text, root, problems)
         check_bracket_tags(path, text, root, problems)
+        check_chupilista_tags(path, text, root, problems, warnings)
         check_frontmatter_and_truncation(path, text, root, problems)
+        check_description_length(path, text, root, problems)
         check_yaml_frontmatter_shape(path, text, root, problems)
         check_unclosed_fences(path, text, root, problems)
         check_heading_style(path, text, root, problems)
         check_plantilla_skeletons(path, text, root, problems)
         check_plantilla_type(path, text, root, problems)
-        check_single_h1(path, text, root, problems)
         check_proyecto_skeleton_sections(path, text, root, problems)
         check_document_identity(path, text, root, problems)
-        check_map_skill_bidirectional(path, text, root, maps, problems)
-        check_composicion_manual_chain(path, text, root, problems)
 
-    # Dirección mapa -> skill (punto 15): se hace una sola vez sobre los mapas.
-    check_map_owner_reciprocity(root, maps, problems)
-    # Punto 18: mapas que no declaran `Consumido por` (una sola pasada).
-    check_maps_declare_consumido(root, problems)
+    check_library_indexing(root, problems)
 
-    if not problems:
-        print("✅ Sin problemas detectados.")
+    if not problems and not warnings:
+        print("OK - Sin problemas detectados.")
         return 0
 
-    print(f"⚠️  {len(problems)} problema(s) detectado(s):\n")
-    for p in problems:
-        print(f"- {p}")
-    return 1
+    if problems:
+        print_grouped(f"{len(problems)} problema(s) detectado(s):", problems)
+    if warnings:
+        if problems:
+            print()
+        print_grouped(f"{len(warnings)} advertencia(s) (no rompen el codigo de salida):", warnings)
+
+    return 1 if problems else 0
 
 
 if __name__ == "__main__":

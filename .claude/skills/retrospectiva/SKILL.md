@@ -1,7 +1,7 @@
 ---
 name: retrospectiva
 type: skill
-description: Convierte aprendizajes detectados durante el trabajo en conocimiento reutilizable: destila principios, confirma o descarta corazonadas y propone dónde guardarlos, siempre con aprobación explícita del usuario.
+description: "Convierte aprendizajes detectados durante el trabajo en conocimiento reutilizable: destila principios, confirma o descarta corazonadas y propone dónde guardarlos, siempre con aprobación explícita del usuario."
 ---
 
 # retrospectiva
@@ -10,10 +10,9 @@ description: Convierte aprendizajes detectados durante el trabajo en conocimient
 
 ## Activación
 
-- **En cualquier momento:** puede activarse durante una obra abierta, una fase, una corrección, una prueba técnica, una instrucción del usuario, una lógica nueva, una función nueva de Suno o una obra ya aprobada; no requiere que la obra esté terminada.
-- **Tras `aprobar` una obra:** `proyecto` solo sugiere si el usuario quiere hacer una retrospectiva.
-    - **Si la respuesta es positiva** analiza y propone aprendizajes reales si existen.
-- **Condición para escribir:** ningún aprendizaje se archiva en `MEMORY.md` o `composicion/` sin aprobación explícita del usuario.
+- **Cuándo:** la política de activación y su relación con `aprobar`/`cerrar` es canónica en `.claude/skills/proyecto/SKILL.md` (§6-7); no se repite aquí. En corto: puede activarse en cualquier momento (no requiere que la obra esté terminada) y `aprobar` solo la sugiere, nunca la ejecuta.
+- **Al aceptarla tras `aprobar`:** analiza la obra y propone aprendizajes reales solo si existen.
+- **Condición para escribir:** ningún aprendizaje se archiva en `.claude/MEMORY.md` o `composicion/` sin aprobación explícita del usuario.
 
 ---
 

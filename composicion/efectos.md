@@ -11,9 +11,6 @@ description: Manipulación del espacio estéreo, procesamiento de señales (DSP)
 ## Referencias
 
 - **Mapa propio:** `.claude/rules/efectos.md`
-- **Consumido en `style_box`:** `.claude/rules/style_box.md` → `composicion/style_box.md`
-- **Consumido en `lyrics_box`:** `.claude/rules/lyrics_box.md` → `composicion/lyrics_box.md`
-- **Consumido en `exclude_box`:** `.claude/rules/exclude_box.md` → `composicion/exclude_box.md`
 
 *Recordatorio: consulta por búsqueda (grep) o salto por sección.*
 

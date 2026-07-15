@@ -526,7 +526,7 @@ description: Colección exhaustiva de metadatos, stems y marcadores de instrumen
 [Laser Gun Zap Synth FX]
 [Lead Synth Square Wave Detune]
 [Linear Frequency Modulation Sine Wave]
-[Mechanical Synth] Rise]
+[Mechanical Synth Rise]
 [Melting Analog Synth]
 [Metallic Comb-Filtered Pluck]
 [Metallic Ring-Modulated Synth]

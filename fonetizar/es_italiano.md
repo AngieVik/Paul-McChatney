@@ -1,7 +1,7 @@
 ---
 name: es_italiano
 type: fonetizar
-description: Sistema ortográficamente transparente pero que requiere un dominio estricto de dígrafos/trígrafos posicionales. La inteligibilidad y el acento natural dependen fundamentalmente del respeto absoluto por la cantidad consonántica (consonantes geminadas o dobles frente a simples) y la pureza vocálica.
+description: "Sistema ortográficamente transparente pero que requiere un dominio estricto de dígrafos/trígrafos posicionales."
 region: Italiano (Estándar / Normativo)
 ---
 

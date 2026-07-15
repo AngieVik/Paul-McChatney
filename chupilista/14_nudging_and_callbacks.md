@@ -757,8 +757,6 @@ description: Una colección exhaustiva de instrucciones (tags) diseñadas para i
 [Main Vocal Melody Reprise]
 [Polyphonic Overtone Drone Chanting]
 [Polyphonic]
-[Recall Main Chorus Hooks Dynamic Layer]
-[Recall Main Chorus Hooks Dynamic Stack]
 [Recall Main Hook Ghost Vocal]
 [Recall Opening Vocal Line Array]
 [Recall Opening Vocal Line Ghost Echo]

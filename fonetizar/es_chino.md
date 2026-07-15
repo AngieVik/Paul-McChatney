@@ -1,7 +1,7 @@
 ---
 name: es_chino
 type: fonetizar
-description: Sistema de codificación altamente opaco para el lector hispanohablante. El Pinyin no es una transcripción literal española, sino un sistema basado en el alfabeto latino para representar fonemas sinotibetanos. La discriminación acústica principal no se basa en la sonoridad (vibración de cuerdas vocales), sino en la **aspiración** (expulsión o retención de aire).
+description: "Sistema de codificación altamente opaco para el lector hispanohablante."
 region: Chino Mandarín (Sistema Pinyin)
 ---
 

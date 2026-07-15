@@ -1,7 +1,7 @@
 ---
 name: es_americano
 type: fonetizar
-description: Sistema ortográficamente opaco y de alta profundidad (no fonémico). Requiere desvincular por completo la escritura de la pronunciación, obligando a memorizar patrones históricos y depender fundamentalmente de la reducción vocálica (Schwa) y el ritmo de intensidad.
+description: "Sistema ortográficamente opaco y de alta profundidad (no fonémico)."
 region: Inglés Americano (General American)
 ---
 

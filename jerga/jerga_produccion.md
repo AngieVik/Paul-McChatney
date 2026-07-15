@@ -1,7 +1,7 @@
 ---
 name: jerga_produccion
 type: jerga
-description: Argot técnico y profesional utilizado en estudios de grabación, *home studios* y foros de ingeniería de sonido. Es un lenguaje universal entre productores y técnicos, nacido de la necesidad de describir verbalmente fenómenos puramente psicoacústicos, físicos o electrónicos. Combina la teoría acústica con una fuerte carga de anglicismos castellanizados.
+description: "Argot técnico y profesional utilizado en estudios de grabación, *home studios* y foros de ingeniería de sonido."
 region: Jerga de Producción de Audio y Mastering
 ---
 

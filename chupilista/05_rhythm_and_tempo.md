@@ -770,7 +770,6 @@ description: Núcleo de control temporal, métrica matemática, cuantización y 
 [Sinister Slow Burn]
 [Slow Storm Breathing]
 [Slow-burning Groove]
-[Smooth Jazz Tempo]
 [Snap-Clap Layered Electronic Backbeat Pulse]
 [Somatic Body Resonant Sub]
 [Somatic Body Resonant Sub Pulse]

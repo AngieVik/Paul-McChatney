@@ -1,7 +1,7 @@
 ---
 name: formato
 type: composicion
-description: Estructura de salida: todo lo copiable va SIEMPRE en bloque de código markdown (triple acento grave).
+description: "Estructura de salida: todo lo copiable va SIEMPRE en bloque de código markdown (triple acento grave)."
 ---
 # formato
 
@@ -10,7 +10,6 @@ description: Estructura de salida: todo lo copiable va SIEMPRE en bloque de cód
 
 ## Referencias
 
-- **Consumido por:** `produccion` (Fase 5) y las skills en modo conversacional.
 - **Archivado de la obra aprobada:** `proyecto` → `chuletas/plantilla_proyecto.md` → `proyectos/<slug>/<slug>.md`
 
 *Recordatorio: consulta por búsqueda (grep) o salto por sección.*

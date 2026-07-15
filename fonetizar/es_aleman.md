@@ -1,7 +1,7 @@
 ---
 name: es_aleman
 type: fonetizar
-description: Sistema ortográficamente transparente pero fonológicamente denso. Se rige por una correspondencia grafema-fonema estricta, dominada por agrupaciones consonánticas complejas (clusters), el ensordecimiento de oclusivas finales y una dicotomía rígida entre vocales cortas y largas.
+description: "Sistema ortográficamente transparente pero fonológicamente denso."
 region: Alemán (Hochdeutsch / Alemán Estándar)
 ---
 # es_aleman

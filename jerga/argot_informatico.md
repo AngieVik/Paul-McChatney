@@ -1,7 +1,7 @@
 ---
 name: argot_informatico
 type: jerga
-description: Argot técnico transversal utilizado por programadores, ingenieros de software, arquitectos de sistemas y perfiles de QA. Es un "tecnolecto" globalizado, forjado en foros (StackOverflow), repositorios (GitHub) y metodologías ágiles. Su propósito es describir conceptos lógicos abstractos con absoluta precisión, aunque frecuentemente deriva en un escudo lingüístico para justificar retrasos, errores o deuda técnica ante perfiles no técnicos (los "muggles" o "clientes").
+description: "Argot técnico transversal utilizado por programadores, ingenieros de software, arquitectos de sistemas y perfiles de QA."
 region: Argot Informático y Desarrollo de Software (Devs)
 ---
 

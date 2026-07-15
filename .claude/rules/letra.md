@@ -1,9 +1,9 @@
 ---
 name: letra
 type: map
-description: Escritura técnica y tipografía como partitura física: narrativa, control fonético y aritmética métrica.
+description: "Escritura técnica y tipografía como partitura física: narrativa, control fonético y aritmética métrica."
 ---
-- *No se carga con `@`, este índice es el mapa concepto→archivo, abre `composicion/.md` bajo demanda con la herramienta de lectura.*
+- *No se carga con `@`, este índice es el mapa concepto→archivo, abre `composicion/letra.md` bajo demanda con la herramienta de lectura.*
 - **Consulta por búsqueda (grep) o salto por Índice.**
 
 ---

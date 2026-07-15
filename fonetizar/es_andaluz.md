@@ -1,7 +1,7 @@
 ---
 name: es_andaluz
 type: fonetizar
-description: Sistema diatópicamente heterogéneo pero unificado por una profunda "economía articulatoria" (debilitamiento de consonantes en posición de coda). Representa la vanguardia fonética de la evolución del castellano, exigiendo la aplicación de leyes de asimilación, elisión y compensación vocálica [Alvar, M. (1996). *Manual de dialectología hispánica*].
+description: "Sistema diatópicamente heterogéneo pero unificado por una profunda \"economía articulatoria\" (debilitamiento de consonantes en posición de coda)."
 region: Andaluz (Macrodialecto Meridional General)
 ---
 

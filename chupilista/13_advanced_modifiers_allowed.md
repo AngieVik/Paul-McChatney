@@ -613,8 +613,6 @@ description: Directorio maestro de modificadores avanzados para generación, mod
 [Androgynous Synthpop Lead]
 [Arpeggiated Synth Progression Roland JUPITER-8]
 [Arpeggiated Synth Progression]
-[Background Whisper Counter-Melody Intimate ASMR]
-[Background Whisper Counter-Melody]
 [Backwards Guitar Texture Reverse Tape Playback]
 [Backwards Guitar Texture]
 [Bassline Mutates To Acid Squelch TB-303]

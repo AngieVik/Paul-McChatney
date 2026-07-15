@@ -1,7 +1,7 @@
 ---
 name: chilango_mexico
 type: jerga
-description: Jerga urbana originaria de la Ciudad de México y su área metropolitana. Forjada en el asfalto, los mercados populares y el transporte público, es una de las jergas más vivas, creativas y dinámicas del mundo hispanohablante. Funciona no solo como herramienta de comunicación, sino como un mecanismo de defensa, identidad de barrio y exhibición de agilidad mental.
+description: "Jerga urbana originaria de la Ciudad de México y su área metropolitana."
 region: Chilango / Barrio (Ciudad de México)
 ---
 
