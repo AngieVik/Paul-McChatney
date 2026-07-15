@@ -1,3 +1,9 @@
+---
+name: el_legionario_y_la_morita_cover
+type: proyecto
+description: "El Legionario y La Morita (Cover)"
+---
+
 # el_legionario_y_la_morita_cover
 
 ## Titulo Original
@@ -6,21 +12,16 @@ El Legionario y La Morita (Cover)
 
 ## Generated
 
-2026-01-05
+Generated at 2026-01-05
 
 ## Master
 
-[ ] No Masterizado
-
-## Sliders
-
-Rareza —%
-Influencia estilo —%
+[ ] Masterizado
 
 ## style_box
 Spanish Heavy Metal, Military Metal, Storytelling, Tragic Ballad, Aggressive, Emotional, Male Vocals, Driving Rhythm, Dark, Intense.
 
-## Negative Prompts
+## exclude_box
 
 ## lyrics_box
 

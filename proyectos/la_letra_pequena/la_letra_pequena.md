@@ -1,25 +1,25 @@
-# la_letra_pequena
+---
+name: la_letra_pequena
+type: proyecto
+description: "La Letra Pequeña"
+---
 
+# la_letra_pequena
 ## Titulo Original
 
 La Letra Pequeña
 
 ## Generated
 
-
+Generated at 
 
 ## Master
 
-[ ] No Masterizado
-
-## Sliders
-
-Rareza —%
-Influencia estilo —%
+[ ] Masterizado
 
 ## style_box
 
-## Negative Prompts
+## exclude_box
 
 ## lyrics_box
 

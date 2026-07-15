@@ -1,26 +1,26 @@
-# misunderstood_angel
+---
+name: misunderstood_angel
+type: proyecto
+description: "かんちがいエンジェル (Kanchigai Angel \\ Misunderstood Angel)"
+---
 
+# misunderstood_angel
 ## Titulo Original
 
 かんちがいエンジェル (Kanchigai Angel \ Misunderstood Angel)
 
 ## Generated
 
-
+Generated at 
 
 ## Master
 
-[ ] No Masterizado
-
-## Sliders
-
-Rareza —%
-Influencia estilo —%
+[ ] Masterizado
 
 ## style_box
 [Style: Chaotic hardcore punk metal, funky bass breaks, sweet pop choruses, fast aggressive screaming, unpredictable tempo shifts, emotional absurdity energy]
 
-## Negative Prompts
+## exclude_box
 
 ## lyrics_box
 

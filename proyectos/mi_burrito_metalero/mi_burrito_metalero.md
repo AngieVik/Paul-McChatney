@@ -1,3 +1,9 @@
+---
+name: mi_burrito_metalero
+type: proyecto
+description: "Mi burrito metalero (Villancico)"
+---
+
 # mi_burrito_metalero
 
 ## Titulo Original
@@ -6,21 +12,16 @@ Mi burrito metalero (Villancico)
 
 ## Generated
 
-2025-12-23
+Generated at 2025-12-23
 
 ## Master
 
-[ ] No Masterizado
-
-## Sliders
-
-Rareza —%
-Influencia estilo —%
+[ ] Masterizado
 
 ## style_box
 Spanish Folk Metal, Male Vocals (Lyrical Tenor with gritty rock tone), Symphonic Folk Style, High Energy.
 
-## Negative Prompts
+## exclude_box
 
 ## lyrics_box
 

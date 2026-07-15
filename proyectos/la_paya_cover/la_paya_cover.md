@@ -1,3 +1,9 @@
+---
+name: la_paya_cover
+type: proyecto
+description: "La Paya (Cover)"
+---
+
 # la_paya_cover
 
 ## Titulo Original
@@ -6,21 +12,16 @@ La Paya (Cover)
 
 ## Generated
 
-2026-01-05
+Generated at 2026-01-05
 
 ## Master
 
-[ ] No Masterizado
-
-## Sliders
-
-Rareza —%
-Influencia estilo —%
+[ ] Masterizado
 
 ## style_box
 Spanish Heavy Metal, Flamenco Metal, Tragic Romance, Passionate, Energetic, Male Vocals, Driving Rhythm, Melodic Guitar Solos, Andalusian Scales.
 
-## Negative Prompts
+## exclude_box
 
 ## lyrics_box
 

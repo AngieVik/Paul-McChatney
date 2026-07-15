@@ -1,3 +1,9 @@
+---
+name: el_morito_juan_cover
+type: proyecto
+description: "El Morito Juan (Cover)"
+---
+
 # el_morito_juan_cover
 
 ## Titulo Original
@@ -6,22 +12,17 @@ El Morito Juan (Cover)
 
 ## Generated
 
-2026-01-05
+Generated at 2026-01-05
 
 ## Master
 
-[ ] No Masterizado
-
-## Sliders
-
-Rareza —%
-Influencia estilo —%
+[ ] Masterizado
 
 ## style_box
 
 Spanish Heavy Metal, Folk Metal Fusion, Hard Rock Undertones, Arabic Male Vocal, Driving Rhythm, Satirical Tone, Energetic, Melodic Guitar Solos, Arabic Oud Echo, Spanish Flamenco Fury.
 
-## Negative Prompts
+## exclude_box
 
 ## lyrics_box
 

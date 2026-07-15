@@ -1,25 +1,25 @@
-# rito_da_fraga
+---
+name: rito_da_fraga
+type: proyecto
+description: "RITO DA FRAGA"
+---
 
+# rito_da_fraga
 ## Titulo Original
 
 RITO DA FRAGA
 
 ## Generated
 
-
+Generated at 
 
 ## Master
 
-[ ] No Masterizado
-
-## Sliders
-
-Rareza —%
-Influencia estilo —%
+[ ] Masterizado
 
 ## style_box
 
-## Negative Prompts
+## exclude_box
 
 ## lyrics_box
 

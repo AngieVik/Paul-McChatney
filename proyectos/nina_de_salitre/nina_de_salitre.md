@@ -1,3 +1,9 @@
+---
+name: nina_de_salitre
+type: proyecto
+description: "La Niña De Salitre"
+---
+
 # nina_de_salitre
 
 ## Titulo Original
@@ -6,21 +12,16 @@ La Niña De Salitre
 
 ## Generated
 
-2026-02-28
+Generated at 2026-02-28
 
 ## Master
 
-[ ] No Masterizado
-
-## Sliders
-
-Rareza —%
-Influencia estilo —%
+[ ] Masterizado
 
 ## style_box
 4\4, Spanish Rumba Flamenca, Modern Cante Jondo, Andalusian Folk, Urban Spanish Pop, Cajón Flamenco, Spanish Guitar, Deep Sub Bass, Emotional Atmosphere, Ocean Rescuer Metaphor, Cinematic
 
-## Negative Prompts
+## exclude_box
 
 ## lyrics_box
 

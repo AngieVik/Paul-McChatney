@@ -1,3 +1,9 @@
+---
+name: quieres_ser_sigma
+type: proyecto
+description: "¿Quieres ser sigma?"
+---
+
 # quieres_ser_sigma
 
 ## Titulo Original
@@ -6,21 +12,16 @@
 
 ## Generated
 
-2025-05-21
+Generated at 2025-05-21
 
 ## Master
 
-[ ] No Masterizado
-
-## Sliders
-
-Rareza —%
-Influencia estilo —%
+[ ] Masterizado
 
 ## style_box
 Style: Hardtek, Acid Techno, Satirical Spoken Hardcore, Coachcore, Motivational Meltdown
 
-## Negative Prompts
+## exclude_box
 
 ## lyrics_box
 

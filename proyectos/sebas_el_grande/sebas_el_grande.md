@@ -1,3 +1,9 @@
+---
+name: sebas_el_grande
+type: proyecto
+description: "Sebas el grande"
+---
+
 # sebas_el_grande
 
 ## Titulo Original
@@ -6,21 +12,16 @@ Sebas el grande
 
 ## Generated
 
-2025-04-02
+Generated at 2025-04-02
 
 ## Master
 
-[ ] No Masterizado
-
-## Sliders
-
-Rareza —%
-Influencia estilo —%
+[ ] Masterizado
 
 ## style_box
 "Cumbia villera explosiva, acordeón al frente, bajo pesado, congas marcando fuerte, güiro constante. Voz intensa con actitud callejera, sonido crudo y callejero. Ritmo pegajoso que obliga a bailar."
 
-## Negative Prompts
+## exclude_box
 
 ## lyrics_box
 

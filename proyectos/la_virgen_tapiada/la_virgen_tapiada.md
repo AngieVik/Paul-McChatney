@@ -1,3 +1,9 @@
+---
+name: la_virgen_tapiada
+type: proyecto
+description: "La virgen tapiada"
+---
+
 # la_virgen_tapiada
 
 ## Titulo Original
@@ -6,21 +12,16 @@ La virgen tapiada
 
 ## Generated
 
-2026-04-15
+Generated at 2026-04-15
 
 ## Master
 
-[ ] No Masterizado
-
-## Sliders
-
-Rareza —%
-Influencia estilo —%
+[ ] Masterizado
 
 ## style_box
 MEXICAN MARIACHI SCHRANZ, Hard Techno, ranchera clásica, 150 BPM, distorted kick, brass section, violins, guitarrón bassline, dark festive, operatic mexican male vocals
 
-## Negative Prompts
+## exclude_box
 mellow, acoustic only, slow, boring, lo-fi, pop, reggaeton, comical, spanish pop, neutro
 
 ## lyrics_box

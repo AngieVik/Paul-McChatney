@@ -1,3 +1,9 @@
+---
+name: has_estado_haciendo_burpees_mal
+type: proyecto
+description: "Has estado haciendo burpees mal"
+---
+
 # has_estado_haciendo_burpees_mal
 
 ## Titulo Original
@@ -6,21 +12,16 @@ Has estado haciendo burpees mal
 
 ## Generated
 
-2025-05-22
+Generated at 2025-05-22
 
 ## Master
 
-[ ] No Masterizado
-
-## Sliders
-
-Rareza —%
-Influencia estilo —%
+[ ] Masterizado
 
 ## style_box
 Hardtek, Gymcore, Coachcore, Satirical Fitness Hardcore, Motivational BPM Abuse
 
-## Negative Prompts
+## exclude_box
 
 ## lyrics_box
 

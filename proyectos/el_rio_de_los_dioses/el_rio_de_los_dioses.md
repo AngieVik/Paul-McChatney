@@ -1,3 +1,9 @@
+---
+name: el_rio_de_los_dioses
+type: proyecto
+description: "El Río De Los Dioses (Villancico)"
+---
+
 # el_rio_de_los_dioses
 
 ## Titulo Original
@@ -6,21 +12,16 @@ El Río De Los Dioses (Villancico)
 
 ## Generated
 
-2025-12-23
+Generated at 2025-12-23
 
 ## Master
 
-[ ] No Masterizado
-
-## Sliders
-
-Rareza —%
-Influencia estilo —%
+[ ] Masterizado
 
 ## style_box
 Spanish Folk Metal, Male Vocals (Rough & Festive), Tavern Folk Style, High Energy,
 
-## Negative Prompts
+## exclude_box
 
 ## lyrics_box
 

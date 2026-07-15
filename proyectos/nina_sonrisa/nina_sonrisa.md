@@ -1,3 +1,9 @@
+---
+name: nina_sonrisa
+type: proyecto
+description: "Niña sonrisa"
+---
+
 # nina_sonrisa
 
 ## Titulo Original
@@ -6,21 +12,16 @@ Niña sonrisa
 
 ## Generated
 
-2025-12-05
+Generated at 2025-12-05
 
 ## Master
 
-[ ] No Masterizado
-
-## Sliders
-
-Rareza —%
-Influencia estilo —%
+[ ] Masterizado
 
 ## style_box
 Spanish Urban Pop, Reguetón Urban Cumbia, Latin Pop, Catchy Hook, Syncopated Rhythm, Beat Switch, Rap Verse, Summer Vibe
 
-## Negative Prompts
+## exclude_box
 
 ## lyrics_box
 

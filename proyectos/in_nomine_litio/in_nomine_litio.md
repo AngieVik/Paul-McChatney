@@ -1,3 +1,9 @@
+---
+name: in_nomine_litio
+type: proyecto
+description: "IN NOMINE LITIO"
+---
+
 # in_nomine_litio
 
 ## Titulo Original
@@ -6,21 +12,16 @@ IN NOMINE LITIO
 
 ## Generated
 
-2026-04-09
+Generated at 2026-04-09
 
 ## Master
 
-[ ] No Masterizado
-
-## Sliders
-
-Rareza —%
-Influencia estilo —%
+[ ] Masterizado
 
 ## style_box
 LATIN GREGORIAN FRENCHCORE, ORCHESTRAL HARDTEK, 200 BPM, apocalyptic energy, distorted 909 kicks, thunderous brass, church organ
 
-## Negative Prompts
+## exclude_box
 acoustic, soft, reggaeton, happy, lo-fi, jazz, dry vocals
 
 ## lyrics_box

@@ -1,25 +1,25 @@
-# poyekhali_el_guaguanco_de_la_vostok
+---
+name: poyekhali_el_guaguanco_de_la_vostok
+type: proyecto
+description: "Poyekhali! (El Guaguancó de la Vostok)"
+---
 
+# poyekhali_el_guaguanco_de_la_vostok
 ## Titulo Original
 
 Poyekhali! (El Guaguancó de la Vostok)
 
 ## Generated
 
-
+Generated at 
 
 ## Master
 
-[ ] No Masterizado
-
-## Sliders
-
-Rareza —%
-Influencia estilo —%
+[ ] Masterizado
 
 ## style_box
 
-## Negative Prompts
+## exclude_box
 
 ## lyrics_box
 

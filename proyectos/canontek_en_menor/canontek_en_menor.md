@@ -1,3 +1,9 @@
+---
+name: canontek_en_menor
+type: proyecto
+description: "CanonTek en Menor"
+---
+
 # canontek_en_menor
 
 ## Titulo Original
@@ -6,16 +12,11 @@ CanonTek en Menor
 
 ## Generated
 
-2026-06-14
+Generated at 2026-06-14
 
 ## Master
 
-[X] Masterizado
-
-## Sliders
-
-Rareza —%
-Influencia estilo —%
+[x] Masterizado
 
 ## style_box
 
@@ -25,7 +26,7 @@ Style Influence 80%
 Audio Influence 20%
 Cover of Wolfi - CanonTek en Menor
 
-## Negative Prompts
+## exclude_box
 
 happy, reggaeton, flamenco, acoustic guitar, autotune, pop vocals, mainstream edm, trance, lo-fi, muddy mix, excessive reverb
 

@@ -1,3 +1,9 @@
+---
+name: lega_la_uve
+type: proyecto
+description: "Lega la uve"
+---
+
 # lega_la_uve
 
 ## Titulo Original
@@ -6,21 +12,16 @@ Lega la uve
 
 ## Generated
 
-2026-04-10
+Generated at 2026-04-10
 
 ## Master
 
-[ ] No Masterizado
-
-## Sliders
-
-Rareza —%
-Influencia estilo —%
+[ ] Masterizado
 
 ## style_box
 ANDALUSIAN ACCENT,  SPANISH HIP HOP, FUNK RAP, BARITONE MALE VOCALS , ENERGETIC, CLOSE-MIC, CHULO, FLAMENCO GUITAR, BOOM BAP DRUMS, SLAP BASS GROOVE, DRY FLAMENCO CLAPS, UPBEAT, FLAMENCO INFLECTION
 
-## Negative Prompts
+## exclude_box
 cuban, caribbean, reggaeton, latin urban, dembow, tropical
 
 ## lyrics_box

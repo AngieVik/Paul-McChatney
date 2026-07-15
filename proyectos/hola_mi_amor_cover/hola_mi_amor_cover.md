@@ -1,3 +1,9 @@
+---
+name: hola_mi_amor_cover
+type: proyecto
+description: "Hola Mi Amor (Cover)"
+---
+
 # hola_mi_amor_cover
 
 ## Titulo Original
@@ -6,21 +12,16 @@ Hola Mi Amor (Cover)
 
 ## Generated
 
-2026-01-05
+Generated at 2026-01-05
 
 ## Master
 
-[ ] No Masterizado
-
-## Sliders
-
-Rareza —%
-Influencia estilo —%
+[ ] Masterizado
 
 ## style_box
 Spanish Heavy Metal, Power Ballad, Emotional, Passionate, Male Vocals, Driving Rhythm, Anthemic Chorus, Andalusian Scales.
 
-## Negative Prompts
+## exclude_box
 
 ## lyrics_box
 

@@ -66,12 +66,6 @@ Generated at <YYYY-MM-DD>
 
 ---
 
-## Instrucciones
-
-- *`slider_box` queda descartado: no forma parte del esqueleto canónico. "Negative Prompts" se llama `exclude_box` en todo el sistema — usa siempre ese nombre, nunca el alias.*
-
----
-
 ## Cómo referenciar archivos del proyecto
 
 - **Política de carga completa:** ver `.claude/CLAUDE.md` (fuente canónica) — no se repite aquí. Esta sección cubre solo la sintaxis de rutas dentro de un proyecto.

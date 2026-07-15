@@ -1,26 +1,26 @@
-# dance_with_bones
+---
+name: dance_with_bones
+type: proyecto
+description: "骨でダンス\" (Hone de Dansu \\ Dance with Bones)v2"
+---
 
+# dance_with_bones
 ## Titulo Original
 
 骨でダンス" (Hone de Dansu \ Dance with Bones)v2
 
 ## Generated
 
-
+Generated at 
 
 ## Master
 
-[ ] No Masterizado
-
-## Sliders
-
-Rareza —%
-Influencia estilo —%
+[ ] Masterizado
 
 ## style_box
 [Style: Punk metal ritual, tribal rhythm punkcore, distorted bass funk, ghostly melodic layers, scream and chant blend, emotional bone energy]
 
-## Negative Prompts
+## exclude_box
 
 ## lyrics_box
 

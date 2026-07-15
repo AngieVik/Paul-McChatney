@@ -1,3 +1,9 @@
+---
+name: sangre_de_litio
+type: proyecto
+description: "SANGRE DE LITIO"
+---
+
 # sangre_de_litio
 
 ## Titulo Original
@@ -6,21 +12,16 @@ SANGRE DE LITIO
 
 ## Generated
 
-2026-04-10
+Generated at 2026-04-10
 
 ## Master
 
-[ ] No Masterizado
-
-## Sliders
-
-Rareza —%
-Influencia estilo —%
+[ ] Masterizado
 
 ## style_box
 SPANISH FLAMENCO HARDTEK, FRENCHCORE, 200 BPM, Spanish acoustic guitar, palmas, distorted 909 kicks, passionate raspy vocal
 
-## Negative Prompts
+## exclude_box
 soft, happy, lo-fi, piano, clean beats, reggaeton, sweet
 
 ## lyrics_box

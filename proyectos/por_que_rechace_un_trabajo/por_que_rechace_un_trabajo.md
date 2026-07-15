@@ -1,3 +1,9 @@
+---
+name: por_que_rechace_un_trabajo
+type: proyecto
+description: "Por qué rechacé un trabajo"
+---
+
 # por_que_rechace_un_trabajo
 
 ## Titulo Original
@@ -6,21 +12,16 @@ Por qué rechacé un trabajo
 
 ## Generated
 
-2025-05-22
+Generated at 2025-05-22
 
 ## Master
 
-[ ] No Masterizado
-
-## Sliders
-
-Rareza —%
-Influencia estilo —%
+[ ] Masterizado
 
 ## style_box
 Hardtek, Coachcore, Corporate Ragecore, Industrial Resistencia, Techno Sindical
 
-## Negative Prompts
+## exclude_box
 
 ## lyrics_box
 

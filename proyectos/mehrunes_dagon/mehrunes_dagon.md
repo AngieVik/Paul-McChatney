@@ -1,3 +1,9 @@
+---
+name: mehrunes_dagon
+type: proyecto
+description: "¡Mehrunes Dagon!"
+---
+
 # mehrunes_dagon
 
 ## Titulo Original
@@ -6,21 +12,16 @@
 
 ## Generated
 
-2025-04-27
+Generated at 2025-04-27
 
 ## Master
 
-[ ] No Masterizado
-
-## Sliders
-
-Rareza —%
-Influencia estilo —%
+[ ] Masterizado
 
 ## style_box
 heavy metal storm, medieval dark fantasy, powerful growl, heroic melodic choruses
 
-## Negative Prompts
+## exclude_box
 
 ## lyrics_box
 

@@ -1,3 +1,9 @@
+---
+name: la_princesa_de_ceilan_cover
+type: proyecto
+description: "La Princesa De Ceilan (Cover)"
+---
+
 # la_princesa_de_ceilan_cover
 
 ## Titulo Original
@@ -6,21 +12,16 @@ La Princesa De Ceilan (Cover)
 
 ## Generated
 
-2026-01-05
+Generated at 2026-01-05
 
 ## Master
 
-[ ] No Masterizado
-
-## Sliders
-
-Rareza —%
-Influencia estilo —%
+[ ] Masterizado
 
 ## style_box
 Spanish Heavy Metal, Power Metal, Melodic Speed Metal, Operatic Male Vocals, Driving Rhythm, Emotional, Anthemic, Fast Paced, Neo-Classical Influences.
 
-## Negative Prompts
+## exclude_box
 
 ## lyrics_box
 

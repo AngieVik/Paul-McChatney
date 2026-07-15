@@ -1,3 +1,9 @@
+---
+name: la_dama_de_la_niebla
+type: proyecto
+description: "La dama de la niebla"
+---
+
 # la_dama_de_la_niebla
 
 ## Titulo Original
@@ -6,21 +12,16 @@ La dama de la niebla
 
 ## Generated
 
-2025-04-25
+Generated at 2025-04-25
 
 ## Master
 
-[ ] No Masterizado
-
-## Sliders
-
-Rareza —%
-Influencia estilo —%
+[ ] Masterizado
 
 ## style_box
 SYMPHONIC DARK METAL, male dual vocals, cinematic gothic tension, medieval fantasy setting, Spanish metal vibe [Singing man 1:Geralt , Singing man 2:Jaskier]
 
-## Negative Prompts
+## exclude_box
 
 ## lyrics_box
 

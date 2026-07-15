@@ -1,3 +1,9 @@
+---
+name: el_coplista_de_la_luna_llena
+type: proyecto
+description: "El Coplista de la Luna Llena"
+---
+
 # el_coplista_de_la_luna_llena
 
 ## Titulo Original
@@ -6,22 +12,17 @@ El Coplista de la Luna Llena
 
 ## Generated
 
-2026-06-20
+Generated at 2026-06-20
 
 ## Master
 
-[X] Masterizado
-
-## Sliders
-
-Rareza —%
-Influencia estilo —%
+[x] Masterizado
 
 ## style_box
 
 SPANISH NEUROFUNK BAROQUE, CLASSICAL FUGUE, 175 BPM, aggressive drill rap, gritty mutant reese bass, massive gothic church organ, virtuosic modern piano, heavy electric guitar riffs, whammy pedal distortion
 
-## Negative Prompts
+## exclude_box
 
 ‑bright, ‑cheerful, ‑pop, ‑melodic chorus, ‑acoustic guitar, ‑slow, ‑peaceful, ‑ambient pad, ‑violin, ‑strings, ‑cello, ‑harpsichord
 

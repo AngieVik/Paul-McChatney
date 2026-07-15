@@ -1,25 +1,25 @@
-# la_via_del_oxido
+---
+name: la_via_del_oxido
+type: proyecto
+description: "La Vía del Óxido"
+---
 
+# la_via_del_oxido
 ## Titulo Original
 
 La Vía del Óxido
 
 ## Generated
 
-
+Generated at 
 
 ## Master
 
-[ ] No Masterizado
-
-## Sliders
-
-Rareza —%
-Influencia estilo —%
+[ ] Masterizado
 
 ## style_box
 
-## Negative Prompts
+## exclude_box
 
 ## lyrics_box
 

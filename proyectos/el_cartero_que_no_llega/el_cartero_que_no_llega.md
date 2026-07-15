@@ -1,3 +1,9 @@
+---
+name: el_cartero_que_no_llega
+type: proyecto
+description: "El cartero que no llega"
+---
+
 # el_cartero_que_no_llega
 
 ## Titulo Original
@@ -6,21 +12,16 @@ El cartero que no llega
 
 ## Generated
 
-2026-04-15
+Generated at 2026-04-15
 
 ## Master
 
-[ ] No Masterizado
-
-## Sliders
-
-Rareza —%
-Influencia estilo —%
+[ ] Masterizado
 
 ## style_box
 JOTA ARAGONESA HARDTEK, 190 BPM, aged female voice, melancholic traditional folk singing, castanetsacoustic bandurria, distorted hardtek kick, industrial noise, extreme dynamic contrast, rural desolation
 
-## Negative Prompts
+## exclude_box
 modern pop, clean electronic, happy, upbeat, autotune, smooth, polished, bright
 
 ## lyrics_box

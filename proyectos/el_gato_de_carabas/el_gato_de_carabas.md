@@ -1,3 +1,9 @@
+---
+name: el_gato_de_carabas
+type: proyecto
+description: "El Gato de Carabás"
+---
+
 # el_gato_de_carabas
 
 ## Titulo Original
@@ -6,21 +12,16 @@ El Gato de Carabás
 
 ## Generated
 
-2025-05-18
+Generated at 2025-05-18
 
 ## Master
 
-[ ] No Masterizado
-
-## Sliders
-
-Rareza —%
-Influencia estilo —%
+[ ] Masterizado
 
 ## style_box
 Style: Classic heavy metal with gallop riffs, shouted and clean vocals, virtuosic solos
 
-## Negative Prompts
+## exclude_box
 
 ## lyrics_box
 

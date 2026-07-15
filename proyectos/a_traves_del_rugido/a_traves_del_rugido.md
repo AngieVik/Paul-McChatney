@@ -1,3 +1,9 @@
+---
+name: a_traves_del_rugido
+type: proyecto
+description: "A TRAVÉS DEL RUGIDO"
+---
+
 # a_traves_del_rugido
 
 ## Titulo Original
@@ -6,22 +12,17 @@ A TRAVÉS DEL RUGIDO
 
 ## Generated
 
-2025-04-30
+Generated at 2025-04-30
 
 ## Master
 
-[ ] No Masterizado
-
-## Sliders
-
-Rareza —%
-Influencia estilo —%
+[ ] Masterizado
 
 ## style_box
 
 Style: Power Metal épico, Viking storytelling, speed shred vocals, mythological narrative, Spanish Voice, Extended Vocal Techniques, Dynamic Choir Section, Effect: Stereo Panning, Rubato Attack.
 
-## Negative Prompts
+## exclude_box
 
 ## lyrics_box
 

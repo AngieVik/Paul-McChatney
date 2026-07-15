@@ -1,3 +1,9 @@
+---
+name: banana_chainsaw_massacre
+type: proyecto
+description: "Banana Chainsaw Massacre"
+---
+
 # banana_chainsaw_massacre
 
 ## Titulo Original
@@ -6,21 +12,16 @@ Banana Chainsaw Massacre
 
 ## Generated
 
-2025-05-11
+Generated at 2025-05-11
 
 ## Master
 
-[ ] No Masterizado
-
-## Sliders
-
-Rareza —%
-Influencia estilo —%
+[ ] Masterizado
 
 ## style_box
 [Style: Thrash hardcore metal, funky breakbeat bursts, absurd horror humor, chaotic tempo crashes, brutal screaming mixed with silly pop voices, grindcore pogo energy]
 
-## Negative Prompts
+## exclude_box
 
 ## lyrics_box
 

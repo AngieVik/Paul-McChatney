@@ -54,7 +54,7 @@ Cómo la jerga altera la estructura de las palabras regulares del idioma.
 
 Advertencias críticas sobre términos del español estándar que en esta jerga tienen un significado completamente distinto.
 
-- **Fardacho:** 
+- **Fardacho:**
     - *Significado normal:* En español antiguo o regional, un lagarto grande.
     - *Significado en la jerga:* Persona desaliñada, vaga, descuidada o de aspecto tosco.
     - *Nivel de peligro:* Medio (Es un insulto suave pero directo).

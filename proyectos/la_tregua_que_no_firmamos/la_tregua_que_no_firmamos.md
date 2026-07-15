@@ -1,25 +1,25 @@
-# la_tregua_que_no_firmamos
+---
+name: la_tregua_que_no_firmamos
+type: proyecto
+description: "La Tregua que no Firmamos"
+---
 
+# la_tregua_que_no_firmamos
 ## Titulo Original
 
 La Tregua que no Firmamos
 
 ## Generated
 
-
+Generated at 
 
 ## Master
 
-[ ] No Masterizado
-
-## Sliders
-
-Rareza —%
-Influencia estilo —%
+[ ] Masterizado
 
 ## style_box
 
-## Negative Prompts
+## exclude_box
 
 ## lyrics_box
 

@@ -1,3 +1,9 @@
+---
+name: kurabikura
+type: proyecto
+description: "クラビクラ! (Kurabikura!)"
+---
+
 # kurabikura
 
 ## Titulo Original
@@ -6,21 +12,16 @@
 
 ## Generated
 
-2025-04-28
+Generated at 2025-04-28
 
 ## Master
 
-[ ] No Masterizado
-
-## Sliders
-
-Rareza —%
-Influencia estilo —%
+[ ] Masterizado
 
 ## style_box
 Style: Maximum The Hormone-inspired, chaotic genre-bending hardcore metal, funky punk basslines, sudden pop melodies, dual-language lyrical attacks, unpredictable tempo shifts
 
-## Negative Prompts
+## exclude_box
 
 ## lyrics_box
 

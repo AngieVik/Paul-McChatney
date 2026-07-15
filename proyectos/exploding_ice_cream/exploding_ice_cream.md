@@ -1,26 +1,26 @@
-# exploding_ice_cream
+---
+name: exploding_ice_cream
+type: proyecto
+description: "爆発アイスクリーム\" (Bakuhatsu Ice Cream \\ Exploding Ice Cream) v2"
+---
 
+# exploding_ice_cream
 ## Titulo Original
 
 爆発アイスクリーム" (Bakuhatsu Ice Cream \ Exploding Ice Cream) v2
 
 ## Generated
 
-
+Generated at 
 
 ## Master
 
-[ ] No Masterizado
-
-## Sliders
-
-Rareza —%
-Influencia estilo —%
+[ ] Masterizado
 
 ## style_box
 [Style: Candycore punk metal, kawaii screams and blastbeats, silly rage vocal bursts, cartoon violence vibe, maximum sugar meltdown energy]
 
-## Negative Prompts
+## exclude_box
 
 ## lyrics_box
 

@@ -1,3 +1,9 @@
+---
+name: 60_granos
+type: proyecto
+description: "60 Granos"
+---
+
 # 60_granos
 
 ## Titulo Original
@@ -6,16 +12,11 @@
 
 ## Generated
 
-2026-06-20
+Generated at 2026-06-20
 
 ## Master
 
-[ ] No Masterizado
-
-## Sliders
-
-Rareza —%
-Influencia estilo —%
+[ ] Masterizado
 
 ## style_box
 
@@ -23,7 +24,7 @@ SPANISH SYMPHONIC RAWSTYLE HARDCORE, 200 BPM, virtuosic bright tack piano lead, 
 Style Influence 80%
 Audio Influence 30%
 
-## Negative Prompts
+## exclude_box
 
 grand piano, soft ambient intro, mellow, slow tempo, quiet silence, crooner, romantic ballad, latin pop, generic edm, lo-fi, standard reggaeton
 

@@ -1,3 +1,9 @@
+---
+name: miopia_balistica
+type: proyecto
+description: "Miopía Balística"
+---
+
 # miopia_balistica
 
 ## Titulo Original
@@ -6,20 +12,15 @@ Miopía Balística
 
 ## Generated
 
-
+Generated at
 
 ## Master
 
-[ ] No Masterizado
-
-## Sliders
-
-Rareza —%
-Influencia estilo —%
+[ ] Masterizado
 
 ## style_box
 
-## Negative Prompts
+## exclude_box
 
 ## lyrics_box
 

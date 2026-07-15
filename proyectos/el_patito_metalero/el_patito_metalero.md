@@ -1,3 +1,9 @@
+---
+name: el_patito_metalero
+type: proyecto
+description: "El Patito Metalero"
+---
+
 # el_patito_metalero
 
 ## Titulo Original
@@ -6,21 +12,16 @@ El Patito Metalero
 
 ## Generated
 
-2025-05-18
+Generated at 2025-05-18
 
 ## Master
 
-[ ] No Masterizado
-
-## Sliders
-
-Rareza —%
-Influencia estilo —%
+[ ] Masterizado
 
 ## style_box
 Chaotic Metal, Chaotic Structure, Guitar Shredding, Epic Vocal Layers, Exaggerated Narration
 
-## Negative Prompts
+## exclude_box
 
 ## lyrics_box
 

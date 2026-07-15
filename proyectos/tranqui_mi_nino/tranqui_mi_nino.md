@@ -1,3 +1,9 @@
+---
+name: tranqui_mi_nino
+type: proyecto
+description: "Tranqui mi niño"
+---
+
 # tranqui_mi_nino
 
 ## Titulo Original
@@ -6,21 +12,16 @@ Tranqui mi niño
 
 ## Generated
 
-2026-06-26
+Generated at 2026-06-26
 
 ## Master
 
-[ ] No Masterizado
-
-## Sliders
-
-Rareza —%
-Influencia estilo —%
+[ ] Masterizado
 
 ## style_box
 Style: Funk-rap fusion, old school groove with modern flow, conversational lyricism, barrio charisma, [Spanish Voice][Smooth Accent][Urban Pulse][Breath Control][Tempo Modifiers]
 
-## Negative Prompts
+## exclude_box
 Style: Funk-rap fusion, old school groove with modern flow, conversational lyricism, barrio charisma, [Spanish Voice][Smooth Accent][Urban Pulse][Breath Control][Tempo Modifiers]
 
 ## lyrics_box

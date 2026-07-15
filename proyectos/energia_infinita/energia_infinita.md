@@ -1,3 +1,9 @@
+---
+name: energia_infinita
+type: proyecto
+description: "ENERGÍA INFINITA CON UN AMBIENTADOR DEL MERCADONA Y UNA PAPA"
+---
+
 # energia_infinita_con_un_ambientador_del_mercadona_y_una_papa
 
 ## Titulo Original
@@ -6,21 +12,16 @@ ENERGÍA INFINITA CON UN AMBIENTADOR DEL MERCADONA Y UNA PAPA
 
 ## Generated
 
-2025-05-22
+Generated at 2025-05-22
 
 ## Master
 
-[ ] No Masterizado
-
-## Sliders
-
-Rareza —%
-Influencia estilo —%
+[ ] Masterizado
 
 ## style_box
 Acid Techno, Lo-Fi Powercore, Experimental Rave, Electro Absurdism, Spoken DIY Tech
 
-## Negative Prompts
+## exclude_box
 
 ## lyrics_box
 

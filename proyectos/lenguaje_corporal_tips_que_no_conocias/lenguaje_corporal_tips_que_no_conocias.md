@@ -1,3 +1,9 @@
+---
+name: lenguaje_corporal_tips_que_no_conocias
+type: proyecto
+description: "Lenguaje corporal, tips que no conocías"
+---
+
 # lenguaje_corporal_tips_que_no_conocias
 
 ## Titulo Original
@@ -6,21 +12,16 @@ Lenguaje corporal, tips que no conocías
 
 ## Generated
 
-2025-05-22
+Generated at 2025-05-22
 
 ## Master
 
-[ ] No Masterizado
-
-## Sliders
-
-Rareza —%
-Influencia estilo —%
+[ ] Masterizado
 
 ## style_box
 Hardtek, Acid Techno, Psychological Hardcore, Body Reading Groove, Coachcore
 
-## Negative Prompts
+## exclude_box
 
 ## lyrics_box
 

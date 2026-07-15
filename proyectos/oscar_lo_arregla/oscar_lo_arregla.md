@@ -1,3 +1,9 @@
+---
+name: oscar_lo_arregla
+type: proyecto
+description: "Oscar lo arregla"
+---
+
 # oscar_lo_arregla
 
 ## Titulo Original
@@ -6,21 +12,16 @@ Oscar lo arregla
 
 ## Generated
 
-2025-04-10
+Generated at 2025-04-10
 
 ## Master
 
-[ ] No Masterizado
-
-## Sliders
-
-Rareza —%
-Influencia estilo —%
+[ ] Masterizado
 
 ## style_box
 Raw blues rock with soulful electric guitar riffs, steady groove drums, warm basslines, and a gritty male voice telling a story with heart and swagger. Old-school vibe, smoky and bold.
 
-## Negative Prompts
+## exclude_box
 
 ## lyrics_box
 

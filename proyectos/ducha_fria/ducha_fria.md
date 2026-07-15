@@ -1,3 +1,9 @@
+---
+name: ducha_fria
+type: proyecto
+description: "Ducha fria"
+---
+
 # ducha_fria
 
 ## Titulo Original
@@ -6,21 +12,16 @@ Ducha fria
 
 ## Generated
 
-2026-06-02
+Generated at 2026-06-02
 
 ## Master
 
-[ ] No Masterizado
-
-## Sliders
-
-Rareza —%
-Influencia estilo —%
+[ ] Masterizado
 
 ## style_box
 SPANISH FRENCHCORE OPERA, Orchestral Hybrid, Solo Violin, 200 BPM, distorted bounce kicks, aggressive synth, soaring coloratura soprano lead
 
-## Negative Prompts
+## exclude_box
 anti-pop, anti-chorus, no tempo acceleration
 
 ## lyrics_box

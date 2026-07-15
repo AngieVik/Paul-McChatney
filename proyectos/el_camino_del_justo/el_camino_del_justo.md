@@ -1,3 +1,9 @@
+---
+name: el_camino_del_justo
+type: proyecto
+description: "El camino del justo"
+---
+
 # el_camino_del_justo
 
 ## Titulo Original
@@ -6,21 +12,16 @@ El camino del justo
 
 ## Generated
 
-2025-04-24
+Generated at 2025-04-24
 
 ## Master
 
-[ ] No Masterizado
-
-## Sliders
-
-Rareza —%
-Influencia estilo —%
+[ ] Masterizado
 
 ## style_box
 POST-ROCK APOCALYPTIC SOUL, male spoken-sung vocal, biblical noir atmosphere, heavy gospel drums, cinematic moral tension
 
-## Negative Prompts
+## exclude_box
 
 ## lyrics_box
 

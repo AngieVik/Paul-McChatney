@@ -1,3 +1,9 @@
+---
+name: como_defenderte_contra_un_cuchillo
+type: proyecto
+description: "Cómo defenderte contra un cuchillo (si no te queda otra opción)"
+---
+
 # como_defenderte_contra_un_cuchillo
 
 ## Titulo Original
@@ -6,22 +12,17 @@ Cómo defenderte contra un cuchillo (si no te queda otra opción)
 
 ## Generated
 
-2025-05-22
+Generated at 2025-05-22
 
 ## Master
 
-[ ] No Masterizado
-
-## Sliders
-
-Rareza —%
-Influencia estilo —%
+[ ] Masterizado
 
 ## style_box
 
 Hardcore Tutorialcore, Coachcore, Tactical Rave, Spoken Panicstep, YouTube Self-Defense Bass
 
-## Negative Prompts
+## exclude_box
 
 ## lyrics_box
 

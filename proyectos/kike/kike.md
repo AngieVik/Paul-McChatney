@@ -1,3 +1,9 @@
+---
+name: kike
+type: proyecto
+description: "KIKE"
+---
+
 # kike
 
 ## Titulo Original
@@ -6,21 +12,16 @@ KIKE
 
 ## Generated
 
-2025-05-29
+Generated at 2025-05-29
 
 ## Master
 
-[ ] No Masterizado
-
-## Sliders
-
-Rareza —%
-Influencia estilo —%
+[ ] Masterizado
 
 ## style_box
 [Style: Funk-metalcore with tempo shifts, slap-driven breakdowns, shouted Japanese\English vocals, bass solos replacing guitar leads, Maximum the Hormone-inspired energy]
 
-## Negative Prompts
+## exclude_box
 
 ## lyrics_box
 

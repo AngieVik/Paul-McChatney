@@ -1,3 +1,9 @@
+---
+name: no_me_creyeron
+type: proyecto
+description: "No me creyeron"
+---
+
 # no_me_creyeron
 
 ## Titulo Original
@@ -6,21 +12,16 @@ No me creyeron
 
 ## Generated
 
-2025-05-22
+Generated at 2025-05-22
 
 ## Master
 
-[ ] No Masterizado
-
-## Sliders
-
-Rareza —%
-Influencia estilo —%
+[ ] Masterizado
 
 ## style_box
 Hardtek, Coachcore, Cuñadismo Rave, Testimonial Ragecore, Urban Legend Bounce
 
-## Negative Prompts
+## exclude_box
 
 ## lyrics_box
 

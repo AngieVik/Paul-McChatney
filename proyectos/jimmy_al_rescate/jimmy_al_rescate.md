@@ -1,3 +1,9 @@
+---
+name: jimmy_al_rescate
+type: proyecto
+description: "Jimmy al rescate"
+---
+
 # jimmy_al_rescate
 
 ## Titulo Original
@@ -6,21 +12,16 @@ Jimmy al rescate
 
 ## Generated
 
-2025-04-02
+Generated at 2025-04-02
 
 ## Master
 
-[ ] No Masterizado
-
-## Sliders
-
-Rareza —%
-Influencia estilo —%
+[ ] Masterizado
 
 ## style_box
 "Riffs de guitarra potentes, batería enérgica, voz rasgada con actitud, estribillo pegajoso y solo de guitarra explosivo." Hard Rock, Clasic Rock, Arena Rock.
 
-## Negative Prompts
+## exclude_box
 
 ## lyrics_box
 

@@ -1,3 +1,9 @@
+---
+name: houston_tenemos_un_problema
+type: proyecto
+description: "Houston, tenemos un problema..."
+---
+
 # houston_tenemos_un_problema
 
 ## Titulo Original
@@ -6,21 +12,16 @@ Houston, tenemos un problema...
 
 ## Generated
 
-2025-05-21
+Generated at 2025-05-21
 
 ## Master
 
-[ ] No Masterizado
-
-## Sliders
-
-Rareza —%
-Influencia estilo —%
+[ ] Masterizado
 
 ## style_box
 Acid Techno, Spacecore, Conspiracy Groove, Coachcore, Satirical Paranormal Techno
 
-## Negative Prompts
+## exclude_box
 
 ## lyrics_box
 

@@ -1,3 +1,9 @@
+---
+name: frutilla_lunar
+type: proyecto
+description: "Frutilla Lunar"
+---
+
 # frutilla_lunar
 
 ## Titulo Original
@@ -6,21 +12,16 @@ Frutilla Lunar
 
 ## Generated
 
-2026-04-04
+Generated at 2026-04-04
 
 ## Master
 
-[ ] No Masterizado
-
-## Sliders
-
-Rareza —%
-Influencia estilo —%
+[ ] Masterizado
 
 ## style_box
 HARDCORE GABBER MERENGUE, 190 BPM, distorted 909 kick, hyper-fast tambora, acid 303 bassline, industrial rave, sensual female ASMR whispering, explicit romantic poetry, breathy delivery
 
-## Negative Prompts
+## exclude_box
 Macedonia de Fuego
 
 ## lyrics_box

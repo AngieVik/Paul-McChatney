@@ -1,3 +1,9 @@
+---
+name: con_el_puno_arriba
+type: proyecto
+description: "Con El Puño Arriba (Juan sin miedo)"
+---
+
 # con_el_puno_arriba
 
 ## Titulo Original
@@ -6,21 +12,16 @@ Con El Puño Arriba (Juan sin miedo)
 
 ## Generated
 
-2025-05-15
+Generated at 2025-05-15
 
 ## Master
 
-[ ] No Masterizado
-
-## Sliders
-
-Rareza —%
-Influencia estilo —%
+[ ] Masterizado
 
 ## style_box
 Style: Hard Rock, Heavy Metal, Rock Opera, Absurdist Blues, Epic Theatrical, Dark Comedy
 
-## Negative Prompts
+## exclude_box
 
 ## lyrics_box
 

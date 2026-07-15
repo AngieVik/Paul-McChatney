@@ -1,3 +1,9 @@
+---
+name: papas_en_ajopollo
+type: proyecto
+description: "Papas en Ajopollo: lo que los nutricionistas no quieren que sepas"
+---
+
 # papas_en_ajopollo
 
 ## Titulo Original
@@ -6,21 +12,16 @@ Papas en Ajopollo: lo que los nutricionistas no quieren que sepas
 
 ## Generated
 
-2025-05-22
+Generated at 2025-05-22
 
 ## Master
 
-[ ] No Masterizado
-
-## Sliders
-
-Rareza —%
-Influencia estilo —%
+[ ] Masterizado
 
 ## style_box
 Hardtek, Hardcore Cocinado, Coachcore Gastronómico, Low Budget Foodstep
 
-## Negative Prompts
+## exclude_box
 
 ## lyrics_box
 

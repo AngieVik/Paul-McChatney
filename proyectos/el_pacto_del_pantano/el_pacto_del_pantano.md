@@ -1,3 +1,9 @@
+---
+name: el_pacto_del_pantano
+type: proyecto
+description: "EL PACTO DEL PANTANO"
+---
+
 # el_pacto_del_pantano
 
 ## Titulo Original
@@ -6,21 +12,16 @@ EL PACTO DEL PANTANO
 
 ## Generated
 
-2026-04-10
+Generated at 2026-04-10
 
 ## Master
 
-[X] Masterizado
-
-## Sliders
-
-Rareza —%
-Influencia estilo —%
+[x] Masterizado
 
 ## style_box
 SPANISH DELTA BLUES ACID TECNO, 130 BPM, dirty acoustic guitar, rusty harmonica, squelchy TB-303 bassline, distorted 909 kicks, gritty male vocal
 
-## Negative Prompts
+## exclude_box
 clean, happy, pop, soft, orchestral, lo-fi, jazz
 
 ## lyrics_box

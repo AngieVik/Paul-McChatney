@@ -1,3 +1,9 @@
+---
+name: meniquito_heroe_diminuto
+type: proyecto
+description: "Meñiquito, heroe diminuto"
+---
+
 # meniquito_heroe_diminuto
 
 ## Titulo Original
@@ -6,21 +12,16 @@ Meñiquito, heroe diminuto
 
 ## Generated
 
-2025-05-18
+Generated at 2025-05-18
 
 ## Master
 
-[ ] No Masterizado
-
-## Sliders
-
-Rareza —%
-Influencia estilo —%
+[ ] Masterizado
 
 ## style_box
 acoustic-hard-rock operetta, rapid tempo shifts, spoken-word improv bits, power-duo energy, riff-driven hooks, comedic vocal theatrics, dramatic stop-starts,
 
-## Negative Prompts
+## exclude_box
 
 ## lyrics_box
 

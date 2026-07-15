@@ -1,3 +1,9 @@
+---
+name: el_guitarrista_de_hamelin
+type: proyecto
+description: "El Guitarrista de Hamelín"
+---
+
 # el_guitarrista_de_hamelin
 
 ## Titulo Original
@@ -6,22 +12,17 @@ El Guitarrista de Hamelín
 
 ## Generated
 
-2025-05-18
+Generated at 2025-05-18
 
 ## Master
 
-[ ] No Masterizado
-
-## Sliders
-
-Rareza —%
-Influencia estilo —%
+[ ] Masterizado
 
 ## style_box
 
 Style: Rock comedy fusion, Dramatic vocals, Falsetto tension, Power-chord choruses
 
-## Negative Prompts
+## exclude_box
 
 ## lyrics_box
 

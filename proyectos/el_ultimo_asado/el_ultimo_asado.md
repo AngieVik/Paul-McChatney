@@ -1,3 +1,9 @@
+---
+name: el_ultimo_asado
+type: proyecto
+description: "El Ultimo Asado (Los tres cerditos)"
+---
+
 # el_ultimo_asado
 
 ## Titulo Original
@@ -6,21 +12,16 @@ El Ultimo Asado (Los tres cerditos)
 
 ## Generated
 
-2025-05-14
+Generated at 2025-05-14
 
 ## Master
 
-[ ] No Masterizado
-
-## Sliders
-
-Rareza —%
-Influencia estilo —%
+[ ] Masterizado
 
 ## style_box
 Style: Hard Rock, Heavy Metal, Rock Opera, Blues Fusion, Power Ballad, Absurdist Comedy, Epic Theatrical, Blues Rock, Cinematic Metal, Satirical Rock, Progressive Rock
 
-## Negative Prompts
+## exclude_box
 
 ## lyrics_box
 

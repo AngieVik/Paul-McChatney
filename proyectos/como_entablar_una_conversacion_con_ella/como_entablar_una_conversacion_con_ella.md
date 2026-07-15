@@ -1,3 +1,9 @@
+---
+name: como_entablar_una_conversacion_con_ella
+type: proyecto
+description: "Cómo entablar una conversación con ella"
+---
+
 # como_entablar_una_conversacion_con_ella
 
 ## Titulo Original
@@ -6,21 +12,16 @@ Cómo entablar una conversación con ella
 
 ## Generated
 
-2025-05-22
+Generated at 2025-05-22
 
 ## Master
 
-[ ] No Masterizado
-
-## Sliders
-
-Rareza —%
-Influencia estilo —%
+[ ] Masterizado
 
 ## style_box
 Hardtek, Coachcore, Social Anxiety Hardcore, Tapeo Step, Conquista Rítmica
 
-## Negative Prompts
+## exclude_box
 
 ## lyrics_box
 

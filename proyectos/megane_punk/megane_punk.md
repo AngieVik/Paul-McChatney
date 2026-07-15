@@ -1,3 +1,9 @@
+---
+name: megane_punk
+type: proyecto
+description: "Megane Punk"
+---
+
 # megane_punk
 
 ## Titulo Original
@@ -6,21 +12,16 @@ Megane Punk
 
 ## Generated
 
-2025-04-29
+Generated at 2025-04-29
 
 ## Master
 
-[ ] No Masterizado
-
-## Sliders
-
-Rareza —%
-Influencia estilo —%
+[ ] Masterizado
 
 ## style_box
 [Style: Hardcore punk metal, funky distorted bass, chaotic screaming, cartoonish clean breaks, riot pogo energy, dirty street humor]
 
-## Negative Prompts
+## exclude_box
 
 ## lyrics_box
 

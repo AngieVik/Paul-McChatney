@@ -1,3 +1,9 @@
+---
+name: la_marcha_de_los_rebeldes
+type: proyecto
+description: "La Marcha De Los Rebeldes (Villancico)"
+---
+
 # la_marcha_de_los_rebeldes
 
 ## Titulo Original
@@ -6,21 +12,16 @@ La Marcha De Los Rebeldes (Villancico)
 
 ## Generated
 
-2025-12-23
+Generated at 2025-12-23
 
 ## Master
 
-[ ] No Masterizado
-
-## Sliders
-
-Rareza —%
-Influencia estilo —%
+[ ] Masterizado
 
 ## style_box
 Spanish Folk Metal, Male Vocals (Melodic Power & Gritty), Fast & Festive.
 
-## Negative Prompts
+## exclude_box
 
 ## lyrics_box
 

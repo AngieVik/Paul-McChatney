@@ -1,3 +1,9 @@
+---
+name: la_ia_canta_pero_yo_disparo
+type: proyecto
+description: "La IA canta pero yo disparo"
+---
+
 # la_ia_canta_pero_yo_disparo
 
 ## Titulo Original
@@ -6,21 +12,16 @@ La IA canta pero yo disparo
 
 ## Generated
 
-2025-05-22
+Generated at 2025-05-22
 
 ## Master
 
-[ ] No Masterizado
-
-## Sliders
-
-Rareza —%
-Influencia estilo —%
+[ ] Masterizado
 
 ## style_box
 Post-rap experimental, glitch-hop, spoken word digital soul][Deep male voice, broken delivery, whispered growls][Industrial drums, analog synths, broken piano, AI voice samples, lo-fi choirs, vinyl texture
 
-## Negative Prompts
+## exclude_box
 
 ## lyrics_box
 

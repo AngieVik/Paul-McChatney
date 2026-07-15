@@ -1,3 +1,9 @@
+---
+name: quieres_dinero_hoy
+type: proyecto
+description: "¿Quieres dinero hoy?"
+---
+
 # quieres_dinero_hoy
 
 ## Titulo Original
@@ -6,21 +12,16 @@
 
 ## Generated
 
-2025-05-21
+Generated at 2025-05-21
 
 ## Master
 
-[ ] No Masterizado
-
-## Sliders
-
-Rareza —%
-Influencia estilo —%
+[ ] Masterizado
 
 ## style_box
 Hardtek, Acid Techno, Hustlecore, Barrio Banger, Satirical Rave Trap
 
-## Negative Prompts
+## exclude_box
 
 ## lyrics_box
 

@@ -1,3 +1,9 @@
+---
+name: geim_over
+type: proyecto
+description: "GEIM ÓVER"
+---
+
 # geim_over
 
 ## Titulo Original
@@ -6,21 +12,16 @@ GEIM ÓVER
 
 ## Generated
 
-2026-04-10
+Generated at 2026-04-10
 
 ## Master
 
-[ ] No Masterizado
-
-## Sliders
-
-Rareza —%
-Influencia estilo —%
+[ ] Masterizado
 
 ## style_box
 SPANISH 8-BIT CHIPTUNE FRENCHCORE, 200 BPM, retro arcade synths, gameboy arpeggios, distorted 909 kicks, aggressive male vocal, frantic delivery, glitch effects
 
-## Negative Prompts
+## exclude_box
 acoustic, soft, orchestral, jazz, slow, piano, clean beats, lo-fi
 
 ## lyrics_box

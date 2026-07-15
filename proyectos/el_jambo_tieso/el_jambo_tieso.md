@@ -1,3 +1,9 @@
+---
+name: el_jambo_tieso
+type: proyecto
+description: "EL JAMBO TIESO"
+---
+
 # el_jambo_tieso
 
 ## Titulo Original
@@ -6,22 +12,17 @@ EL JAMBO TIESO
 
 ## Generated
 
-2026-04-10
+Generated at 2026-04-10
 
 ## Master
 
-[ ] No Masterizado
-
-## Sliders
-
-Rareza —%
-Influencia estilo —%
+[ ] Masterizado
 
 ## style_box
 
 SPANISH ELECTRO-SWING GYPSYCORE, 170 BPM, gypsy brass, flamenco acoustic guitar, distorted kicks, cheeky male rap, flamenco inflection
 
-## Negative Prompts
+## exclude_box
 
 sad, slow, classical, lo-fi, ambient, clean beats, serious
 

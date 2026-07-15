@@ -1,3 +1,9 @@
+---
+name: monumento_al_fracaso
+type: proyecto
+description: "MONUMENTO AL FRACASO"
+---
+
 # monumento_al_fracaso
 
 ## Titulo Original
@@ -6,21 +12,16 @@ MONUMENTO AL FRACASO
 
 ## Generated
 
-2026-06-03
+Generated at 2026-06-03
 
 ## Master
 
-[ ] No Masterizado
-
-## Sliders
-
-Rareza —%
-Influencia estilo —%
+[ ] Masterizado
 
 ## style_box
 SPANISH TECHNO BIG BAND, 160BPM Hyper-Drive Beats, Adrenaline Overdose Velocity, Alto Saxophone Breath Snarl, Acoustic Bass Drum Thud, Anxious Tremolo Delivery
 
-## Negative Prompts
+## exclude_box
 soft, melodic, piano, calm, slow, clean, lo-fi, ambient, sweet, robotic
 
 ## lyrics_box

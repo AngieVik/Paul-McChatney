@@ -1,26 +1,26 @@
-# god_of_the_cave
+---
+name: god_of_the_cave
+type: proyecto
+description: "洞窟の神 (Dōkutsu no Kami \\ God of the Cave)"
+---
 
+# god_of_the_cave
 ## Titulo Original
 
 洞窟の神 (Dōkutsu no Kami \ God of the Cave)
 
 ## Generated
 
-
+Generated at 
 
 ## Master
 
-[ ] No Masterizado
-
-## Sliders
-
-Rareza —%
-Influencia estilo —%
+[ ] Masterizado
 
 ## style_box
 [Style: Chaotic hardcore metal, punk funk bass, brutal tempo changes, scream rap vocals, melodic surreal choruses, street mythology energy]
 
-## Negative Prompts
+## exclude_box
 
 ## lyrics_box
 

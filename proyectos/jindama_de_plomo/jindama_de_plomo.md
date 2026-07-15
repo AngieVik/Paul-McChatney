@@ -1,25 +1,25 @@
-# jindama_de_plomo
+---
+name: jindama_de_plomo
+type: proyecto
+description: "Jindama_de_Plomo"
+---
 
+# jindama_de_plomo
 ## Titulo Original
 
 Jindama_de_Plomo
 
 ## Generated
 
-
+Generated at 
 
 ## Master
 
-[ ] No Masterizado
-
-## Sliders
-
-Rareza —%
-Influencia estilo —%
+[ ] Masterizado
 
 ## style_box
 
-## Negative Prompts
+## exclude_box
 
 ## lyrics_box
 

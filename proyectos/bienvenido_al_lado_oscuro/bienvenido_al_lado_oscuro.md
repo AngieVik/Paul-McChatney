@@ -1,3 +1,9 @@
+---
+name: bienvenido_al_lado_oscuro
+type: proyecto
+description: "Bienvenido al lado oscuro."
+---
+
 # bienvenido_al_lado_oscuro
 
 ## Titulo Original
@@ -6,21 +12,16 @@ Bienvenido al lado oscuro.
 
 ## Generated
 
-2025-05-21
+Generated at 2025-05-21
 
 ## Master
 
-[ ] No Masterizado
-
-## Sliders
-
-Rareza —%
-Influencia estilo —%
+[ ] Masterizado
 
 ## style_box
 Hardtek, Acid Techno, Coachcore, Paranoid Groove, Dark Humor Hardcore
 
-## Negative Prompts
+## exclude_box
 
 ## lyrics_box
 

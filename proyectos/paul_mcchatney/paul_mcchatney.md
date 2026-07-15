@@ -1,3 +1,9 @@
+---
+name: paul_mcchatney
+type: proyecto
+description: "Paul McChatney"
+---
+
 # paul_mcchatney
 
 ## Titulo Original
@@ -6,21 +12,16 @@ Paul McChatney
 
 ## Generated
 
-2025-04-28
+Generated at 2025-04-28
 
 ## Master
 
-[ ] No Masterizado
-
-## Sliders
-
-Rareza —%
-Influencia estilo —%
+[ ] Masterizado
 
 ## style_box
 [Style: Chaotic hardcore metal, punk funk infusion, heavy tempo switches, aggressive screaming vocals, cartoonish clean sections, absurd humor energy]
 
-## Negative Prompts
+## exclude_box
 
 ## lyrics_box
 

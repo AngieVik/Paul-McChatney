@@ -1,3 +1,9 @@
+---
+name: aqui_se_vota_y_no_cambia_nada
+type: proyecto
+description: "`Aquí se vota y no cambia nada`"
+---
+
 # aqui_se_vota_y_no_cambia_nada
 
 ## Titulo Original
@@ -6,22 +12,17 @@
 
 ## Generated
 
-2025-05-21
+Generated at 2025-05-21
 
 ## Master
 
-[ ] No Masterizado
-
-## Sliders
-
-Rareza —%
-Influencia estilo —%
+[ ] Masterizado
 
 ## style_box
 
 Style: Hardtek, Acid Techno, Satirical Electro, Spoken Word Rave, Dystopian Bounce
 
-## Negative Prompts
+## exclude_box
 
 ## lyrics_box
 

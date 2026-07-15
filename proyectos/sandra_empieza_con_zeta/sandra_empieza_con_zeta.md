@@ -1,3 +1,9 @@
+---
+name: sandra_empieza_con_zeta
+type: proyecto
+description: "Sandra empieza con zeta"
+---
+
 # sandra_empieza_con_zeta
 
 ## Titulo Original
@@ -6,21 +12,16 @@ Sandra empieza con zeta
 
 ## Generated
 
-2025-04-22
+Generated at 2025-04-22
 
 ## Master
 
-[ ] No Masterizado
-
-## Sliders
-
-Rareza —%
-Influencia estilo —%
+[ ] Masterizado
 
 ## style_box
 Psychedelic folk, hardcore tribal percussion, female mystical vocals, shamanic vibes, lyrics about a wild nomadic woman guided by the wind,
 
-## Negative Prompts
+## exclude_box
 
 ## lyrics_box
 

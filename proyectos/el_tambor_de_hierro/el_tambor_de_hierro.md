@@ -1,3 +1,9 @@
+---
+name: el_tambor_de_hierro
+type: proyecto
+description: "El Tambor De Hierro (Villancico)"
+---
+
 # el_tambor_de_hierro
 
 ## Titulo Original
@@ -6,21 +12,16 @@ El Tambor De Hierro (Villancico)
 
 ## Generated
 
-2025-12-23
+Generated at 2025-12-23
 
 ## Master
 
-[ ] No Masterizado
-
-## Sliders
-
-Rareza —%
-Influencia estilo —%
+[ ] Masterizado
 
 ## style_box
 Spanish Epic Folk Metal, Spanish Tribal Metal, Heavy Tribal March, Drum Focused Arrangement, Aggressive Percussion, Double Kick Drum, Blast Beats, Guttural Growls, Bagpipes Background.
 
-## Negative Prompts
+## exclude_box
 
 ## lyrics_box
 

@@ -1,3 +1,9 @@
+---
+name: el_mal_del_carpintero
+type: proyecto
+description: "El Mal del Carpintero"
+---
+
 # el_mal_del_carpintero
 
 ## Titulo Original
@@ -6,21 +12,16 @@ El Mal del Carpintero
 
 ## Generated
 
-2026-06-02
+Generated at 2026-06-02
 
 ## Master
 
-[ ] No Masterizado
-
-## Sliders
-
-Rareza —%
-Influencia estilo —%
+[ ] Masterizado
 
 ## style_box
 BULERIA INDUSTRIAL ACID HARDTEK, 160 BPM, acoustic fingerstyle guitar, TB-303 synth squelch, distorted warehouse kick, clear powerful male cantaor, aggressive
 
-## Negative Prompts
+## exclude_box
 pop, soft, sweet, melodic, clean pop vocals, auto-tune, plastic synths, breakbeat, makina, dance-pop, predictable
 
 ## lyrics_box

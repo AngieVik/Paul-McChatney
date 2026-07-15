@@ -1,3 +1,9 @@
+---
+name: parece_de_murcia
+type: proyecto
+description: "Parece de Murcia"
+---
+
 # parece_de_murcia
 
 ## Titulo Original
@@ -6,21 +12,16 @@ Parece de Murcia
 
 ## Generated
 
-2025-04-05
+Generated at 2025-04-05
 
 ## Master
 
-[ ] No Masterizado
-
-## Sliders
-
-Rareza —%
-Influencia estilo —%
+[ ] Masterizado
 
 ## style_box
 Spanish alt rock song, female vocals, distorted guitars, gritty bass, urban vibe, intense rhythm,  outro is a poetic spoken-word rap
 
-## Negative Prompts
+## exclude_box
 
 ## lyrics_box
 

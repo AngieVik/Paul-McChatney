@@ -1,3 +1,9 @@
+---
+name: carmen_nina_de_sol
+type: proyecto
+description: "Carmen… niña de sol"
+---
+
 # carmen_nina_de_sol
 
 ## Titulo Original
@@ -6,21 +12,16 @@ Carmen… niña de sol
 
 ## Generated
 
-2025-04-06
+Generated at 2025-04-06
 
 ## Master
 
-[ ] No Masterizado
-
-## Sliders
-
-Rareza —%
-Influencia estilo —%
+[ ] Masterizado
 
 ## style_box
 (Genero: Hard Rock, indie)(Voz: Soprano, Femenina, gran fuerza emocional)(Percusión orquestal, Guitarra electrica, Sonidos evocadores)(Sentimiento: Epico, Empoderador)
 
-## Negative Prompts
+## exclude_box
 
 ## lyrics_box
 
