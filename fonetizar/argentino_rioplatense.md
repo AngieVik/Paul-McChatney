@@ -1,7 +1,7 @@
 ---
 name: argentino_rioplatense
 type: fonetizar
-description: "Sistema fonológico altamente distintivo, caracterizado por el yeísmo rehilado y la aspiración o elisión de consonantes en posición implosiva."
+description: Sistema fonológico altamente distintivo, caracterizado por el yeísmo rehilado y la aspiración o elisión de consonantes en posición implosiva.
 region: Dialecto Rioplatense (Argentina)
 ---
 

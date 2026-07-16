@@ -1,7 +1,7 @@
 ---
 name: sangre_de_litio
 type: proyecto
-description: "SANGRE DE LITIO"
+description: SANGRE DE LITIO
 ---
 
 # sangre_de_litio
@@ -19,13 +19,16 @@ Generated at 2026-04-10
 [ ] Masterizado
 
 ## style_box
+
 SPANISH FLAMENCO HARDTEK, FRENCHCORE, 200 BPM, Spanish acoustic guitar, palmas, distorted 909 kicks, passionate raspy vocal
 
 ## exclude_box
+
 soft, happy, lo-fi, piano, clean beats, reggaeton, sweet
 
 ## lyrics_box
 
+```markdown
 [MOOD: Passionate, Toxic, Aggressive]
 [PRODUCTION: Distorted master, heavy sidechain, raw acoustic mix]
 [Vocals: passionate raspy vocal, flamenco inflection]
@@ -72,3 +75,4 @@ Arráncame el pecho
 Que me desangre en ruido
 
 [End]
+``` 

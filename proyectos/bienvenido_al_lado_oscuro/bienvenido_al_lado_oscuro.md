@@ -1,7 +1,7 @@
 ---
 name: bienvenido_al_lado_oscuro
 type: proyecto
-description: "Bienvenido al lado oscuro."
+description: Bienvenido al lado oscuro.
 ---
 
 # bienvenido_al_lado_oscuro
@@ -19,13 +19,18 @@ Generated at 2025-05-21
 [ ] Masterizado
 
 ## style_box
+
 Hardtek, Acid Techno, Coachcore, Paranoid Groove, Dark Humor Hardcore
 
 ## exclude_box
 
 ## lyrics_box
 
-[Production: Industr[Intro][Spanish Male Voice][Lo-Fi Delay, Tape Crackle, Reverse Hat FX]
+```markdown
+[Production: Industrial Tekno, Broken Basslines, Acid FX, Spoken Glitch Vox, Reverse Delays]
+[Mood: Dark, Paranoid, Satirical, Menacing]
+
+[Intro][Spanish Male Voice][Lo-Fi Delay, Tape Crackle, Reverse Hat FX]
 Bienvenido al lado oscuro.
 No es magia.
 No es mentira.
@@ -53,4 +58,5 @@ Y tú eres la oferta de hoy.
 No uses esto para hacer daño.
 Usa esto para sobrevivir.
 Psicología oscura.
-No la uses.ial Tekno, Broken Basslines, Acid FX, Spoken Glitch Vox, Reverse Delays]
+No la uses.
+```

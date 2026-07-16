@@ -12,7 +12,7 @@ description: Guia para generar un archivo `concepto -> mapa` en `.claude/rules/<
 ---
 name: <slug>
 type: map
-description: Resumen del contenido indexado.
+description: <Resumen>
 ---
 
 # <slug>

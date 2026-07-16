@@ -1,14 +1,14 @@
 ---
 name: aqui_se_vota_y_no_cambia_nada
 type: proyecto
-description: "`Aquí se vota y no cambia nada`"
+description: Aquí se vota y no cambia nada
 ---
 
 # aqui_se_vota_y_no_cambia_nada
 
 ## Titulo Original
 
-`Aquí se vota y no cambia nada`
+Aquí se vota y no cambia nada
 
 ## Generated
 
@@ -26,7 +26,7 @@ Style: Hardtek, Acid Techno, Satirical Electro, Spoken Word Rave, Dystopian Boun
 
 ## lyrics_box
 
-```text
+```markdown
 [Production: Industrial Tekno, Acid Synths, Distorted Bass, Loop Glitch FX, Satirical Drops]
 [Essence: Sarcastic, Hyperreal, Frustrated, Party-Coated, Angry-Underneath]
 

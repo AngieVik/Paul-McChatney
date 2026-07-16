@@ -1,7 +1,7 @@
 ---
 name: sebas_el_grande
 type: proyecto
-description: "Sebas el grande"
+description: Sebas el grande
 ---
 
 # sebas_el_grande
@@ -19,12 +19,14 @@ Generated at 2025-04-02
 [ ] Masterizado
 
 ## style_box
+
 "Cumbia villera explosiva, acordeón al frente, bajo pesado, congas marcando fuerte, güiro constante. Voz intensa con actitud callejera, sonido crudo y callejero. Ritmo pegajoso que obliga a bailar."
 
 ## exclude_box
 
 ## lyrics_box
 
+```markdown
 (Intro - Instrumental con acordeón y trompeta)
 (¡Ahí viene el moreno! ¡Con su facha y sus gafas divinas!)
 
@@ -95,4 +97,6 @@ y si te despistas, ¡te mete cuello!
  ¡Cerrepete, cerrepete, que siga el showooo! 
 
 (Outro - Instrumental con acordeón y trompeta)
+
 (Y se vaaa... Sebas el grande, moviéndolo, moviéndolo...  Con sus gafas divinas y el pasito villero, ¡Cumbiaaa!) 
+```

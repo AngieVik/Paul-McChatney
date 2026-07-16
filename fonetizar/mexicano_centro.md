@@ -1,11 +1,11 @@
 ---
 name: mexicano_centro
 type: fonetizar
-description: "Sistema fonológico caracterizado por el seseo, el yeísmo (sin rehilamiento) y un notable conservadurismo en las consonantes finales."
+description: Sistema fonológico caracterizado por el seseo, el yeísmo (sin rehilamiento) y un notable conservadurismo en las consonantes finales.
 region: Dialecto Mexicano (Centro)
 ---
 
-# mexicano_centro 
+# mexicano_centro
 
 ## Perfil Fonético General
 

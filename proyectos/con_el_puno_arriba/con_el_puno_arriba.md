@@ -1,7 +1,7 @@
 ---
 name: con_el_puno_arriba
 type: proyecto
-description: "Con El Puño Arriba (Juan sin miedo)"
+description: Con El Puño Arriba (Juan sin miedo)
 ---
 
 # con_el_puno_arriba
@@ -19,14 +19,15 @@ Generated at 2025-05-15
 [ ] Masterizado
 
 ## style_box
+
 Style: Hard Rock, Heavy Metal, Rock Opera, Absurdist Blues, Epic Theatrical, Dark Comedy
 
 ## exclude_box
 
 ## lyrics_box
 
+```markdown
 [Production: Over-the-top, Cinematic, Epic Metal Comedy, Soundtrack Vibes]
-
 [Essence: Absurd, Epic, Chaotic, Empowering, Darkly Comedic, Surreal, Victorious]
 
 [Prologue][Narrator: Overacted and Dramatic][Male Voice - Deep][Thunder, Wind SFX]
@@ -87,3 +88,4 @@ El cuervo aparece, su voz es un trueno
 El miedo es un reflejo, un fantasma sin cara"
 Juan cierra los ojos, el aire se apaga
 Y en el último acorde, el eco rompe en llamas
+```

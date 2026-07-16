@@ -1,7 +1,7 @@
 ---
 name: argot_informatico
 type: jerga
-description: "Argot técnico transversal utilizado por programadores, ingenieros de software, arquitectos de sistemas y perfiles de QA."
+description: Argot técnico transversal utilizado por programadores, ingenieros de software, arquitectos de sistemas y perfiles de QA.
 region: Argot Informático y Desarrollo de Software (Devs)
 ---
 

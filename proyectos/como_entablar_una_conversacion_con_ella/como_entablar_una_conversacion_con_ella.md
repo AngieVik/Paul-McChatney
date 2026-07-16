@@ -1,7 +1,7 @@
 ---
 name: como_entablar_una_conversacion_con_ella
 type: proyecto
-description: "Cómo entablar una conversación con ella"
+description: Cómo entablar una conversación con ella
 ---
 
 # como_entablar_una_conversacion_con_ella
@@ -19,12 +19,14 @@ Generated at 2025-05-22
 [ ] Masterizado
 
 ## style_box
+
 Hardtek, Coachcore, Social Anxiety Hardcore, Tapeo Step, Conquista Rítmica
 
 ## exclude_box
 
 ## lyrics_box
 
+```markdown
 [Production: Hardtek, Bar Noise FX, Kickroll Tensión, Tapas Delay, Note Pad Reverb]
 
 [Intro][Spanish Male Voice][Ticket Printer FX, Fork Clink, Bombo Sordo]
@@ -74,3 +76,4 @@ Pero si algún día pide un solomillo al whisky…
 yo le traeré
 el ticket
 y una mirada sincera
+```

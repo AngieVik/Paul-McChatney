@@ -1,7 +1,7 @@
 ---
 name: lunfardo_rioplatense
 type: jerga
-description: "Argot nacido a finales del siglo XIX y principios del XX en los \"conventillos\" (inquilinatos) de Buenos Aires y Montevideo, producto de la convivencia y el hacinamiento de la masiva inmigración europea y la población local."
+description: Argot nacido a finales del siglo XIX y principios del XX en los \"conventillos\" (inquilinatos) de Buenos Aires y Montevideo, producto de la convivencia y el hacinamiento de la masiva inmigración europea y la población local.
 region: Lunfardo (Rioplatense - Argentina / Uruguay)
 ---
 

@@ -1,7 +1,7 @@
 ---
 name: jerga_produccion
 type: jerga
-description: "Argot técnico y profesional utilizado en estudios de grabación, *home studios* y foros de ingeniería de sonido."
+description: Argot técnico y profesional utilizado en estudios de grabación, *home studios* y foros de ingeniería de sonido.
 region: Jerga de Producción de Audio y Mastering
 ---
 

@@ -1,7 +1,7 @@
 ---
 name: parlache_medellin
 type: jerga
-description: "Argot urbano surgido en las comunas populares y barriadas periféricas de Medellín durante las décadas de 1980 y 1990, coincidiendo con la época de mayor violencia del narcotráfico."
+description: Argot urbano surgido en las comunas populares y barriadas periféricas de Medellín durante las décadas de 1980 y 1990, coincidiendo con la época de mayor violencia del narcotráfico.
 region: Parlache (Medellín - Colombia)
 ---
 

@@ -1,7 +1,7 @@
 ---
 name: banana_chainsaw_massacre
 type: proyecto
-description: "Banana Chainsaw Massacre"
+description: Banana Chainsaw Massacre
 ---
 
 # banana_chainsaw_massacre
@@ -19,12 +19,14 @@ Generated at 2025-05-11
 [ ] Masterizado
 
 ## style_box
+
 [Style: Thrash hardcore metal, funky breakbeat bursts, absurd horror humor, chaotic tempo crashes, brutal screaming mixed with silly pop voices, grindcore pogo energy]
 
 ## exclude_box
 
 ## lyrics_box
 
+```markdown
 [Production: Raw heavy distortion recording, saturated bass and guitars, chaotic multi-vocal layering, aggressive stereo dynamic, no auto-tune, extreme loudness bursts]
 
 [Essence: An absurd apocalyptic massacre unleashed by mutant bananas armed with chainsaws, combining pure chaotic fun with brutal grind energy.]
@@ -136,3 +138,4 @@ BANANA CHAINSAW MASSACRE!!
 SCREAM IN PEELS (splash it loud!)
 CRASH THE TOWN (spin it down!)
 RIDE THE BLOOD!!
+```

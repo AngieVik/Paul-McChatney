@@ -1,7 +1,7 @@
 ---
 name: es_rural_profundo
 type: fonetizar
-description: "Más que un dialecto, representa un registro de hiper-relajación y opacidad articulatoria extrema."
+description: Más que un dialecto, representa un registro de hiper-relajación y opacidad articulatoria extrema.
 region: Señor del Campo (Rural Profundo / Cerrado Multisílabo)
 ---
 

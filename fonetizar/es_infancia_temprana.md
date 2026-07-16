@@ -1,7 +1,7 @@
 ---
 name: es_infancia_temprana
 type: fonetizar
-description: "Este registro no es un dialecto, sino un estado de desarrollo fonológico."
+description: Este registro no es un dialecto, sino un estado de desarrollo fonológico.
 region: Infancia Temprana (Fonología Evolutiva)
 ---
 # es_infancia_temprana

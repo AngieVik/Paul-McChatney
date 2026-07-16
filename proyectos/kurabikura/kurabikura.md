@@ -1,7 +1,7 @@
 ---
 name: kurabikura
 type: proyecto
-description: "クラビクラ! (Kurabikura!)"
+description: クラビクラ! (Kurabikura!)
 ---
 
 # kurabikura
@@ -19,12 +19,14 @@ Generated at 2025-04-28
 [ ] Masterizado
 
 ## style_box
+
 Style: Maximum The Hormone-inspired, chaotic genre-bending hardcore metal, funky punk basslines, sudden pop melodies, dual-language lyrical attacks, unpredictable tempo shifts
 
 ## exclude_box
 
 ## lyrics_box
 
+```markdown
 Kurabikura...
 BREAK YOUR BONE!!
 
@@ -93,3 +95,4 @@ SNAP SNAP SNAP MY HEARTTT!!
 (クラビクラ! クラビクラ!)
 
 Clavicle...forever...
+```

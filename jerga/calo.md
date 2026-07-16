@@ -1,7 +1,7 @@
 ---
 name: calo
 type: jerga
-description: "El caló (también denominado *zincaló* o romaní ibérico) constituye una variante lingüística mixta empleada históricamente por el pueblo rom (gitano) en la península ibérica."
+description: El caló (también denominado *zincaló* o romaní ibérico) constituye una variante lingüística mixta empleada históricamente por el pueblo rom (gitano) en la península ibérica.
 region:  Caló (Romaní Ibérico y Argot Popular Español)
 ---
 

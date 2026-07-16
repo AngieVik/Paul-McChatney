@@ -1,7 +1,7 @@
 ---
 name: es_edad_avanzada
 type: fonetizar
-description: "Este perfil no responde a una delimitación geográfica, sino fisiológica y generacional."
+description: Este perfil no responde a una delimitación geográfica, sino fisiológica y generacional.
 region: Edad Avanzada (Presbifonía / Sociodialecto Generacional)
 ---
 

@@ -1,7 +1,7 @@
 ---
 name: chilango_mexico
 type: jerga
-description: "Jerga urbana originaria de la Ciudad de México y su área metropolitana."
+description: Jerga urbana originaria de la Ciudad de México y su área metropolitana.
 region: Chilango / Barrio (Ciudad de México)
 ---
 

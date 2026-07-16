@@ -14,7 +14,7 @@ description: Archivo técnico de referencia para construir un archivo de `compos
 ---
 name: <slug>
 type: composicion
-description: "<descripcion>"
+description: <descripcion>
 ---
 
 # <slug>

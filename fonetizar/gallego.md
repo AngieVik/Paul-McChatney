@@ -1,7 +1,7 @@
 ---
 name: gallego
 type: fonetizar
-description: "Sistema ortográficamente muy transparente para el hispanohablante, derivado del tronco galaicoportugués."
+description: Sistema ortográficamente muy transparente para el hispanohablante, derivado del tronco galaicoportugués.
 region: Gallego (Estándar Normativo / ILG-RAG)
 ---
 

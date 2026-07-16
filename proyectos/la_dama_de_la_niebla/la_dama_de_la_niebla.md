@@ -1,7 +1,7 @@
 ---
 name: la_dama_de_la_niebla
 type: proyecto
-description: "La dama de la niebla"
+description: La dama de la niebla
 ---
 
 # la_dama_de_la_niebla
@@ -19,12 +19,14 @@ Generated at 2025-04-25
 [ ] Masterizado
 
 ## style_box
+
 SYMPHONIC DARK METAL, male dual vocals, cinematic gothic tension, medieval fantasy setting, Spanish metal vibe [Singing man 1:Geralt , Singing man 2:Jaskier]
 
 ## exclude_box
 
 ## lyrics_box
 
+```markdown
 "no te fíes de las sonrisas en la oscuridad"
 
 en angren la tierra sabe a traición
@@ -70,3 +72,4 @@ para arderte (arderte-e-e)
 la plata cantó su última nota
 y la niebla se volvió polvo (polvo-o-o)
 polvo... (polvo)
+```

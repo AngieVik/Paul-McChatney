@@ -14,7 +14,7 @@ description: Guia de referencia para la creacion de un archivo de skill en `.cla
 ---
 name: <slug>
 type: skill
-description: "<descripcion>"
+description: <descripcion>
 ---
 
 # <slug>

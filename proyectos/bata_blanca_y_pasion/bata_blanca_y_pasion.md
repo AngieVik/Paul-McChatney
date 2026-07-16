@@ -1,7 +1,7 @@
 ---
 name: bata_blanca_y_pasion
 type: proyecto
-description: "Bata blanca y pasión"
+description: Bata blanca y pasión
 ---
 
 # bata_blanca_y_pasion
@@ -19,12 +19,14 @@ Generated at 2025-04-06
 [ ] Masterizado
 
 ## style_box
+
 (Genero: Hard Rock, indie)(Voz: Soprano, Femenina, gran fuerza emocional)(Percusión orquestal, Guitarra electrica, Sonidos evocadores)(Sentimiento: Epico, Empoderador)
 
 ## exclude_box
 
 ## lyrics_box
 
+```markdown
 [Intro(Palabra Hablada)(Announcer)]  
 Carmen… niña de sol…
 Curando con su risa, invocando con su voz…
@@ -79,3 +81,4 @@ Reina sabia, bruja fiel…
 [Outro]
 Carmen… la que no olvida…
 Carmen… la que ilumina…
+```

@@ -14,8 +14,8 @@ description: Plantilla para generar y documentar una guía de jerga regional, so
 ---
 name: <slug>
 type: jerga
-description: "<descripcion>"
-region: "<ambito>"
+description: <descripcion>
+region: <ambito>
 ---
 
 # <slug>

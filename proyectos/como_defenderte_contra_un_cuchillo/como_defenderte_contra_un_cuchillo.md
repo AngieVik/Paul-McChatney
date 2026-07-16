@@ -1,7 +1,7 @@
 ---
 name: como_defenderte_contra_un_cuchillo
 type: proyecto
-description: "Cómo defenderte contra un cuchillo (si no te queda otra opción)"
+description: Cómo defenderte contra un cuchillo (si no te queda otra opción)"
 ---
 
 # como_defenderte_contra_un_cuchillo
@@ -26,7 +26,7 @@ Hardcore Tutorialcore, Coachcore, Tactical Rave, Spoken Panicstep, YouTube Self-
 
 ## lyrics_box
 
-```json
+```markdown
 [Production: Hardtek, Urban Survival Bass, Knife FX, Glitch Sirens, Fast Panic Kickrolls]
 
 [Intro][Spanish Male Voice][Knife Slide FX, Siren Delay, 200bpm Kick Pulse]

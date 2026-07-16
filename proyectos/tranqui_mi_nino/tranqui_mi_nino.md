@@ -26,6 +26,7 @@ Style: Funk-rap fusion, old school groove with modern flow, conversational lyric
 
 ## lyrics_box
 
+```markdown
 tranqui mi niño
 no hay prisa pa’l oro
 el beat camina solo
@@ -90,3 +91,4 @@ no hay cima más alta
 que la calma que arrastras
 
  “Tranki, mi niño...”
+```

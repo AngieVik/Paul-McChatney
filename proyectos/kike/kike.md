@@ -1,7 +1,7 @@
 ---
 name: kike
 type: proyecto
-description: "KIKE"
+description: KIKE
 ---
 
 # kike
@@ -19,12 +19,14 @@ Generated at 2025-05-29
 [ ] Masterizado
 
 ## style_box
-[Style: Funk-metalcore with tempo shifts, slap-driven breakdowns, shouted Japanese\English vocals, bass solos replacing guitar leads, Maximum the Hormone-inspired energy]
+
+Style: Funk-metalcore with tempo shifts, slap-driven breakdowns, shouted Japanese\English vocals, bass solos replacing guitar leads, Maximum the Hormone-inspired energy
 
 ## exclude_box
 
 ## lyrics_box
 
+```markdown
 [Production: Clean studio mix, forward slap bass, tight low-end response, crisp drums, wide stereo imaging]
 
 [Intro][Slap Bass Lead][Breakbeat Groove]
@@ -101,3 +103,4 @@ IS FACT
 [Outro][Spoken Japanese][Effect: Dry Voice Fade]
 彼のグルーヴは命だった。
 (“His groove was life.”)
+```

@@ -1,7 +1,7 @@
 ---
 name: 60_granos
 type: proyecto
-description: "60 Granos"
+description: 60 Granos
 ---
 
 # 60_granos
@@ -21,8 +21,6 @@ Generated at 2026-06-20
 ## style_box
 
 SPANISH SYMPHONIC RAWSTYLE HARDCORE, 200 BPM, virtuosic bright tack piano lead, high-register staccato keys, dark neoclassical, aggressive gabber bass, distorted piep kicks, dueling keyboards
-Style Influence 80%
-Audio Influence 30%
 
 ## exclude_box
 
@@ -30,6 +28,7 @@ grand piano, soft ambient intro, mellow, slow tempo, quiet silence, crooner, rom
 
 ## lyrics_box
 
+```markdown
 [MOOD: Dark, Arrogant, Theatrical]
 [PRODUCTION: Wall of sound, aggressive sidechain, very loud bright tack piano upfront, sharp transients]
 
@@ -92,3 +91,4 @@ Porque en este maldito escenario... el amo del ruido... soy yo
 
 [Fade Out, single high piano note, heavy sustain]
 [End]
+```

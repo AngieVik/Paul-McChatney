@@ -1,7 +1,7 @@
 ---
 name: es_frances
 type: fonetizar
-description: "Sistema ortográficamente denso y de alta opacidad histórica, plagado de letras mudas y combinaciones vocálicas complejas."
+description: Sistema ortográficamente denso y de alta opacidad histórica, plagado de letras mudas y combinaciones vocálicas complejas.
 region: Francés (Estándar / Metropolitano)
 ---
 # es_frances

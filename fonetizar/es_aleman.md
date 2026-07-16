@@ -1,7 +1,7 @@
 ---
 name: es_aleman
 type: fonetizar
-description: "Sistema ortográficamente transparente pero fonológicamente denso."
+description: Sistema ortográficamente transparente pero fonológicamente denso.
 region: Alemán (Hochdeutsch / Alemán Estándar)
 ---
 # es_aleman

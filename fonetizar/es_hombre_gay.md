@@ -1,7 +1,7 @@
 ---
 name: es_hombre_gay
 type: fonetizar
-description: "Sistema prosódico y elástico asociado a un registro gay masculino estilizado."
+description: Sistema prosódico y elástico asociado a un registro gay masculino estilizado.
 region: Sociolecto gay masculino contemporáneo / Diva Energy
 ---
 

@@ -1,7 +1,7 @@
 ---
 name: euskera
 type: fonetizar
-description: "Sistema ortográficamente transparente de correspondencia casi biunívoca."
+description: Sistema ortográficamente transparente de correspondencia casi biunívoca.
 region: Euskera (Euskara Batua)
 ---
 

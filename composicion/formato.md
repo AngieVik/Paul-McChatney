@@ -1,7 +1,7 @@
 ---
 name: formato
 type: composicion
-description: "Estructura de salida: todo lo copiable va SIEMPRE en bloque de código markdown (triple acento grave)."
+description: Estructura de salida: todo lo copiable va SIEMPRE en bloque de código markdown (triple acento grave).
 ---
 # formato
 

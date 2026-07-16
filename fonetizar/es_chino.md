@@ -1,7 +1,7 @@
 ---
 name: es_chino
 type: fonetizar
-description: "Sistema de codificación altamente opaco para el lector hispanohablante."
+description: Sistema de codificación altamente opaco para el lector hispanohablante.
 region: Chino Mandarín (Sistema Pinyin)
 ---
 

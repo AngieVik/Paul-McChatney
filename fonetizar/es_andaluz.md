@@ -1,7 +1,7 @@
 ---
 name: es_andaluz
 type: fonetizar
-description: "Sistema diatópicamente heterogéneo pero unificado por una profunda \"economía articulatoria\" (debilitamiento de consonantes en posición de coda)."
+description: Sistema diatópicamente heterogéneo pero unificado por una profunda \economía articulatoria\ (debilitamiento de consonantes en posición de coda).
 region: Andaluz (Macrodialecto Meridional General)
 ---
 

@@ -1,7 +1,7 @@
 ---
 name: canontek_en_menor
 type: proyecto
-description: "CanonTek en Menor"
+description: CanonTek en Menor
 ---
 
 # canontek_en_menor
@@ -21,10 +21,6 @@ Generated at 2026-06-14
 ## style_box
 
 SYMPHONIC HARDTEK CANON, RAGGATEK OPERA, Mozar style, fortepiano, frantic violin, punchy sub-bass, MC vocal
-Weirdness 40%
-Style Influence 80%
-Audio Influence 20%
-Cover of Wolfi - CanonTek en Menor
 
 ## exclude_box
 

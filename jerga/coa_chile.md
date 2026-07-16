@@ -1,11 +1,11 @@
 ---
 name: coa_chile
 type: jerga
-description: "Argot de origen estrictamente carcelario y delincuencial surgido en los penales de Chile."
+description: Argot de origen estrictamente carcelario y delincuencial surgido en los penales de Chile.
 region: Coa (Chile)
 ---
 
-# coa_chile 
+# coa_chile
 
 ## Perfil Lexical General
 

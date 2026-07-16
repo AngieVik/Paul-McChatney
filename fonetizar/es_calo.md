@@ -1,7 +1,7 @@
 ---
 name: es_calo
 type: fonetizar
-description: "Sistema lingüístico parasitario (lengua mixta)."
+description: Sistema lingüístico parasitario (lengua mixta).
 region: Caló (Romaní Ibérico / Calé)
 ---
 # es_calo

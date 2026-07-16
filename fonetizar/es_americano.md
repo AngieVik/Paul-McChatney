@@ -1,7 +1,7 @@
 ---
 name: es_americano
 type: fonetizar
-description: "Sistema ortográficamente opaco y de alta profundidad (no fonémico)."
+description: Sistema ortográficamente opaco y de alta profundidad (no fonémico).
 region: Inglés Americano (General American)
 ---
 

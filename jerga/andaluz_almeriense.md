@@ -1,7 +1,7 @@
 ---
 name: andaluz_almeriense
 type: jerga
-description: "Jerga enclavada en el sureste peninsular, caracterizada por su aislamiento histórico que le ha permitido conservar arcaísmos, adoptar fuertes influencias del panocho (murciano) y mantener un sustrato mozárabe."
+description: Jerga enclavada en el sureste peninsular, caracterizada por su aislamiento histórico que le ha permitido conservar arcaísmos, adoptar fuertes influencias del panocho (murciano) y mantener un sustrato mozárabe.
 region: Andaluz Coloquial (Variante Oriental / Almeriense)
 ---
 

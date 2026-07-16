@@ -1,13 +1,14 @@
 ---
 name: jindama_de_plomo
 type: proyecto
-description: "Jindama_de_Plomo"
+description: "Jindama de Plomo"
 ---
 
 # jindama_de_plomo
+
 ## Titulo Original
 
-Jindama_de_Plomo
+Jindama de Plomo
 
 ## Generated
 
@@ -23,6 +24,7 @@ Generated at
 
 ## lyrics_box
 
+```markdown
 [Short Instrumental Intro]
 [Andalusian Guitar Strumming | Flamenco Claps | Eerie Echos]
 
@@ -89,3 +91,4 @@ Rompo el espejo...
 Empiezo a morder.
 
 [End]
+```

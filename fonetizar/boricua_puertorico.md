@@ -1,7 +1,7 @@
 ---
 name: boricua_puertorico
 type: fonetizar
-description: "Sistema fonológico de base caribeña, caracterizado por una alteración profunda de las consonantes en posición de cierre silábico y una marcada nasalidad vocálica."
+description: Sistema fonológico de base caribeña, caracterizado por una alteración profunda de las consonantes en posición de cierre silábico y una marcada nasalidad vocálica.
 region: Dialecto Boricua (Puerto Rico)
 ---
 

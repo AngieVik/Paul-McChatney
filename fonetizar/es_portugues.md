@@ -1,7 +1,7 @@
 ---
 name: es_portugues
 type: fonetizar
-description: "Sistema ortográficamente engañoso para el hispanohablante."
+description: Sistema ortográficamente engañoso para el hispanohablante.
 region: Portugués (Europeo / Continental)
 ---
 

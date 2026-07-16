@@ -1,7 +1,7 @@
 ---
 name: argot_canario
 type: jerga
-description: "Lenguaje puente por excelencia, moldeado por la posición geográfica estratégica de las islas como nexo entre tres continentes."
+description: Lenguaje puente por excelencia, moldeado por la posición geográfica estratégica de las islas como nexo entre tres continentes.
 region: Argot Canario (Islas Canarias, España)
 ---
 

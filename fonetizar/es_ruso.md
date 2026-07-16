@@ -1,7 +1,7 @@
 ---
 name: es_ruso
 type: fonetizar
-description: "Sistema basado en el alfabeto cirílico."
+description: Sistema basado en el alfabeto cirílico.
 region: Ruso (Estándar / Moscovita)
 ---
 # es_ruso

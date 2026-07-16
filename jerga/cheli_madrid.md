@@ -1,7 +1,7 @@
 ---
 name: cheli_madrid
 type: jerga
-description: "Jerga urbana madrileña popularizada durante los años 70 y 80 en el contexto de la \"Movida Madrileña\"."
+description: Jerga urbana madrileña popularizada durante los años 70 y 80 en el contexto de la \"Movida Madrileña\".
 region: Cheli (Madrid, España)
 ---
 

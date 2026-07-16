@@ -1,7 +1,7 @@
 ---
 name: es_arabe
 type: fonetizar
-description: "Sistema consonántico de extrema profundidad gutural y opacidad vocálica."
+description: Sistema consonántico de extrema profundidad gutural y opacidad vocálica.
 region: Árabe (Estándar Moderno / Fusha)
 ---
 

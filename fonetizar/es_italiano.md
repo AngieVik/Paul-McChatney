@@ -1,7 +1,7 @@
 ---
 name: es_italiano
 type: fonetizar
-description: "Sistema ortográficamente transparente pero que requiere un dominio estricto de dígrafos/trígrafos posicionales."
+description: Sistema ortográficamente transparente pero que requiere un dominio estricto de dígrafos/trígrafos posicionales.
 region: Italiano (Estándar / Normativo)
 ---
 

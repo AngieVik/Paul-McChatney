@@ -1,7 +1,7 @@
 ---
 name: a_traves_del_rugido
 type: proyecto
-description: "A TRAVÉS DEL RUGIDO"
+description: A TRAVÉS DEL RUGIDO
 ---
 
 # a_traves_del_rugido
@@ -26,6 +26,7 @@ Style: Power Metal épico, Viking storytelling, speed shred vocals, mythological
 
 ## lyrics_box
 
+```markdown
 Tronan las nubes de hielo y granizo
 el martillo desciende buscando castigo
 delante, Jötunheimr
@@ -79,3 +80,4 @@ ni la magia me pudo vencer
 aunque pierda, no dejo de arder
 ¡A TRAVÉS DEL RUGIDO!
 yo nací para volver
+```

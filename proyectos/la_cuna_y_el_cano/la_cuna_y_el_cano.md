@@ -1,7 +1,7 @@
 ---
 name: la_cuna_y_el_cano
 type: proyecto
-description: "La Cuna y el Caño"
+description: La Cuna y el Caño
 ---
 
 # la_cuna_y_el_cano
@@ -19,13 +19,16 @@ Generated at 2026-04-15
 [ ] Masterizado
 
 ## style_box
+
 GABBER CUMBIA VILLERA, hardcore tecno, turreo, 180 BPM, extreme distorted gabber kick, Korg M1 synth lead, metallic guiro, rave stabs, aggressive street party, arrabalero male vocals
 
 ## exclude_box
+
 acoustic, romantic, pop, reggaeton, clean production, spanish pop, neutro, slow ballad, mellow, chill, lo-fi
 
 ## lyrics_box
 
+```markdown
 [MOOD: Tenso, Callejero, Agresivo]
 [PRODUCTION: aggressive drive, distorted low end, wide stereo synths, raw street mix]
 
@@ -95,3 +98,4 @@ que no me 'mporta ninguna
 [Fade Out Instruments | Room Ambience]
 
 [Unexpected Final Snare Hit | End]
+```

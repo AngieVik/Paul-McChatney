@@ -19,6 +19,7 @@ Generated at 2025-04-06
 [ ] Masterizado
 
 ## style_box
+
 (Genero: Hard Rock, indie)(Voz: Soprano, Femenina, gran fuerza emocional)(Percusión orquestal, Guitarra electrica, Sonidos evocadores)(Sentimiento: Epico, Empoderador)
 
 ## exclude_box

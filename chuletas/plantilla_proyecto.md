@@ -14,7 +14,7 @@ description: Plantilla canónica de consolidación. Se aplica al aprobar una obr
 ---
 name: <slug>
 type: proyecto
-description: "<titulo_publico>"
+description: <titulo_publico>
 ---
 
 # <slug>

@@ -1,7 +1,7 @@
 ---
 name: es_senegales
 type: fonetizar
-description: "Sistema ortográficamente transparente pero rítmicamente exigente."
+description: Sistema ortográficamente transparente pero rítmicamente exigente.
 region: Wolof (Lengua Vehicular de Senegal)
 ---
 

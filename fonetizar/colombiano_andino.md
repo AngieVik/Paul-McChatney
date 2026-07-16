@@ -1,7 +1,7 @@
 ---
 name: colombiano_andino
 type: fonetizar
-description: "Sistema fonológico caracterizado por su alto conservadurismo consonántico, la articulación precisa de las sílabas y una musicalidad marcada por la cortesía."
+description: Sistema fonológico caracterizado por su alto conservadurismo consonántico, la articulación precisa de las sílabas y una musicalidad marcada por la cortesía.
 region:  Dialecto Colombiano (Interior/Andino)
 ---
 
