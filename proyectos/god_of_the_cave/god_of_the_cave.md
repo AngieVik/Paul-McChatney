@@ -27,7 +27,6 @@ Generated at 2025-04-29
 ## lyrics_box
 
  ```markdown
- ```yaml
  [Production: Raw analog studio recording, overdriven basslines, layered chaotic vocals, heavy drum saturation, stereo wide mix, no auto-tune, dynamic ruptures]
 
  [Intro]

@@ -29,8 +29,6 @@ sad, slow, classical, lo-fi, ambient, clean beats, serious
 ## lyrics_box
 
  ```markdown
- ```yaml
-
  [MOOD: Cheeky, Street-smart, Frantic]
  [PRODUCTION: Vintage swing sample, distorted master, heavy sidechain bounce]
 

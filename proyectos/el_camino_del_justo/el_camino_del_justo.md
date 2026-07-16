@@ -27,7 +27,6 @@ POST-ROCK APOCALYPTIC SOUL, male spoken-sung vocal, biblical noir atmosphere, he
 ## lyrics_box
 
  ```markdown
- ```yaml
  me creía el martillo del juicio final
  caminaba con fuego en cada palabra
  el mundo era lodo y yo era la espada

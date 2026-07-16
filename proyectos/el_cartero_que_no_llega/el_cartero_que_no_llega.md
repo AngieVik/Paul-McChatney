@@ -29,7 +29,7 @@ modern pop, clean electronic, happy, upbeat, autotune, smooth, polished, bright
 ## lyrics_box
 
  ```markdown
- ```yaml
+ 
  [MOOD: Melancólico, Desolado, Agresivo]
  [PRODUCTION: Bitcrushed Master, Analog Dust Layer, extreme dynamic contrast]
 

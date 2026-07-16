@@ -49,7 +49,7 @@ Generated at <YYYY-MM-DD>
 ### Qué va en cada marcador
 
 - **`<slug>`:** identificador de archivo/carpeta, `snake_case`, sin acentos.
-- **`<titulo_publico>`:** el título tal y como se muestra al público, con acentos y mayúsculas reales.
+- **`<titulo_publico>`:** el título tal y como se muestra al público, con acentos y mayúsculas, sin dos puntos `:`.
 - **`<YYYY-MM-DD>`:** fecha de la generación de la obra aprobada.
 - **`[ ] Masterizado`:** por defecto sin marcar; marca el checkbox cuando el usuario tenga la pista masterizada, es control personal, no automático.
 - **`<style_box>`:** el `style_box` usado en la generación de la obra aprobada.

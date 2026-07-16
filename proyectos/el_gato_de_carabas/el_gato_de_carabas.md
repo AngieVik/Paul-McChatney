@@ -27,7 +27,6 @@ Style: Classic heavy metal with gallop riffs, shouted and clean vocals, virtuosi
 ## lyrics_box
 
  ```markdown
- ```yaml
  [Production: High-gain guitars with palm-muting, triggered double-bass, thick bass, cavernous reverb mix, no autotune]
  [Essence: Triumphant cunning, dark humor, uncompromising epic]
 

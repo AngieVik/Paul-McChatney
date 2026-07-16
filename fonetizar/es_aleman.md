@@ -4,6 +4,7 @@ type: fonetizar
 description: Sistema ortográficamente transparente pero fonológicamente denso.
 region: Alemán (Hochdeutsch / Alemán Estándar)
 ---
+
 # es_aleman
 
 ## Perfil Fonético General

@@ -4,6 +4,7 @@ type: fonetizar
 description: Sistema lingüístico parasitario (lengua mixta).
 region: Caló (Romaní Ibérico / Calé)
 ---
+
 # es_calo
 
 ## 1 · Perfil Fonético General

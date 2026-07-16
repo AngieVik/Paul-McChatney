@@ -1,7 +1,7 @@
 ---
 name: papas_en_ajopollo
 type: proyecto
-description: Papas en Ajopollo: lo que los nutricionistas no quieren que sepas
+description: Papas en Ajopollo, lo que los nutricionistas no quieren que sepas
 ---
 
 # papas_en_ajopollo

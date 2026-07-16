@@ -27,7 +27,6 @@ Spanish Heavy Metal, Military Metal, Storytelling, Tragic Ballad, Aggressive, Em
 ## lyrics_box
 
  ```markdown
- ```text
  [Essence: Tragic Military Crime of Passion, Dark Romance]
  [Production: Spanish Heavy Metal, Military Snare, High Gain Distortion, Prison Reverb, Raw Vocal Texture, Andalusian Scale Riffs, Legionary March Rhythm, Dramatic Atmosphere, Aggressive Mixing, Wall of Sound]
 

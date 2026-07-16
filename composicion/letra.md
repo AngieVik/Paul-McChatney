@@ -1,8 +1,9 @@
 ---
 name: letra
 type: composicion
-description: Escritura técnica y tipografía como partitura física: narrativa, control fonético y aritmética métrica.
+description: Escritura técnica y tipografía como partitura física. narrativa, control fonético y aritmética métrica.
 ---
+
 # letra
 
 - *Archivo técnico de referencia para escribir, revisar y depurar la letra limpia: narrativa, tipografía como partitura y aritmética métrica.*

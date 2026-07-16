@@ -29,7 +29,7 @@ SPANISH NEUROFUNK BAROQUE, CLASSICAL FUGUE, 175 BPM, aggressive drill rap, gritt
 ## lyrics_box
 
  ```markdown
- ```yaml
+
  [MOOD: Psychotic, Cyberpunk, Menacing, Arrogant]
  [PRODUCTION: Clinical separation, 3D Spatial Panning Swirl, Hard-panned instruments, overdriven limiter master pump, heavy sidechain bounce]
 
