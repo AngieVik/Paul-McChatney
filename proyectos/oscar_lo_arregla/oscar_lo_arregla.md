@@ -1,7 +1,7 @@
 ---
 name: oscar_lo_arregla
 type: proyecto
-description: "Oscar lo arregla"
+description: Oscar lo arregla
 ---
 
 # oscar_lo_arregla
@@ -19,87 +19,90 @@ Generated at 2025-04-10
 [ ] Masterizado
 
 ## style_box
+
 Raw blues rock with soulful electric guitar riffs, steady groove drums, warm basslines, and a gritty male voice telling a story with heart and swagger. Old-school vibe, smoky and bold.
 
 ## exclude_box
 
 ## lyrics_box
 
-[producción: mezcla dolby atmos, audio de alta fidelidad, audio de alta definición y estéreo amplio]
+ ```markdown
+ [producción: mezcla dolby atmos, audio de alta fidelidad, audio de alta definición y estéreo amplio]
 
-[[intro]]
+ [[intro]]
 
-[Narrador épico]
-Dicen que nació, con una junta de trócola bajo el brazo.
+ [Narrador épico]
+ Dicen que nació, con una junta de trócola bajo el brazo.
 
-[[verse]]
+ [[verse]]
 
-[voz masculina rasgada]
+ [voz masculina rasgada]
 
-[bajo marcado]
+ [bajo marcado]
 
-[batería groove pesado]
-Tiene en el pecho un motor encendido y en los ojos la chispa del taller,
-los tornillos giran por su destino, si algo falla, él lo sabe entender.
-Bajo la almohada una catorce quince, duerme armado con fe y pasión,
-nunca teme mancharse los nudillos, es un héroe hecho en grasa y corazón.
+ [batería groove pesado]
+ Tiene en el pecho un motor encendido y en los ojos la chispa del taller,
+ los tornillos giran por su destino, si algo falla, él lo sabe entender.
+ Bajo la almohada una catorce quince, duerme armado con fe y pasión,
+ nunca teme mancharse los nudillos, es un héroe hecho en grasa y corazón.
 
-[[chorus]]
+ [[chorus]]
 
-[voz potente eco]
+ [voz potente eco]
 
-[guitarras eléctricas distorsionadas]
-!Llave en el alma fuego en el pulso!
-¡Repara el mundo sin hacer impulso!
-Siempre al frente sin dudar, Oscar lo arregla lo vuelve a arrancar.
-!Llave en el alma fuego en el pulso!
-¡Repara el mundo sin hacer impulso!
-Siempre al frente sin dudar, Oscar lo arregla lo vuelve a arrancar.
-(x2)
+ [guitarras eléctricas distorsionadas]
+ !Llave en el alma fuego en el pulso!
+ ¡Repara el mundo sin hacer impulso!
+ Siempre al frente sin dudar, Oscar lo arregla lo vuelve a arrancar.
+ !Llave en el alma fuego en el pulso!
+ ¡Repara el mundo sin hacer impulso!
+ Siempre al frente sin dudar, Oscar lo arregla lo vuelve a arrancar.
+ (x2)
 
-[[verse]]
+ [[verse]]
 
-[voz con actitud]
+ [voz con actitud]
 
-[riff principal guitarra]
-Una vez dejó callada a la nasa, con un guiño y su truco brutal,
-no supieron qué decir, mientras él soldaba un diferencial.
-Sus muchachos lo siguen, aprenden, es maestro, es amigo, es fiel,
-Ángel Gaitán lo sigue en redes, pero Oscar no responde !Que cruel¡
+ [riff principal guitarra]
+ Una vez dejó callada a la nasa, con un guiño y su truco brutal,
+ no supieron qué decir, mientras él soldaba un diferencial.
+ Sus muchachos lo siguen, aprenden, es maestro, es amigo, es fiel,
+ Ángel Gaitán lo sigue en redes, pero Oscar no responde !Que cruel¡
 
-[[chorus]]
+ [[chorus]]
 
-[voz doble tracking]
+ [voz doble tracking]
 
-[batería muy explosiva]
-!Llave en el alma, fuego en el pulso!
-¡Repara el mundo sin hacer impulso!
-Siempre al frente sin dudar, Oscar lo arregla lo vuelve a arrancar.
-!Llave en el alma, fuego en el pulso!
-¡Repara el mundo sin hacer impulso!
-Siempre al frente sin dudar, Oscar lo arregla lo vuelve a arrancar.
-(x2)
+ [batería muy explosiva]
+ !Llave en el alma, fuego en el pulso!
+ ¡Repara el mundo sin hacer impulso!
+ Siempre al frente sin dudar, Oscar lo arregla lo vuelve a arrancar.
+ !Llave en el alma, fuego en el pulso!
+ ¡Repara el mundo sin hacer impulso!
+ Siempre al frente sin dudar, Oscar lo arregla lo vuelve a arrancar.
+ (x2)
 
-[[bridge]]
+ [[bridge]]
 
-[voz suave intensificando]
+ [voz suave intensificando]
 
-[punteo de guitarra]
-No hay manual para su clase de magia
-ni código que iguale su saber
-nació entre tornillos, grasa y coraje
-y entre risas desmonta hasta el paisaje.
+ [punteo de guitarra]
+ No hay manual para su clase de magia
+ ni código que iguale su saber
+ nació entre tornillos, grasa y coraje
+ y entre risas desmonta hasta el paisaje.
 
-[Solo de guitarra]
+ [Solo de guitarra]
 
-[[outro]]
+ [[outro]]
 
-[voz masculina nostálgica]
+ [voz masculina nostálgica]
 
-[guitarra eléctrica limpia ]
-Es más que tu mecánico estrella 
-es un faro en la noche del taller
-Y cuando todos duermen sin saber
-Oscar deja huella sin retroceder.
+ [guitarra eléctrica limpia ]
+ Es más que tu mecánico estrella 
+ es un faro en la noche del taller
+ Y cuando todos duermen sin saber
+ Oscar deja huella sin retroceder.
 
-[[Fin]]
+ [[Fin]]
+ ```

@@ -26,116 +26,116 @@ Generated at 2025-05-11
 
 ## lyrics_box
 
-```markdown
-[Production: Raw heavy distortion recording, saturated bass and guitars, chaotic multi-vocal layering, aggressive stereo dynamic, no auto-tune, extreme loudness bursts]
+ ```markdown
+ [Production: Raw heavy distortion recording, saturated bass and guitars, chaotic multi-vocal layering, aggressive stereo dynamic, no auto-tune, extreme loudness bursts]
 
-[Essence: An absurd apocalyptic massacre unleashed by mutant bananas armed with chainsaws, combining pure chaotic fun with brutal grind energy.]
+ [Essence: An absurd apocalyptic massacre unleashed by mutant bananas armed with chainsaws, combining pure chaotic fun with brutal grind energy.]
 
-[Intro]
+ [Intro]
 
-[chainsaw buzzing sample, monkey screams, banana peel slip sound]
-(BANANA!!!)
-(CHAINSAW!!!)
-(MASSACRE PARTY!!!)
+ [chainsaw buzzing sample, monkey screams, banana peel slip sound]
+ (BANANA!!!)
+ (CHAINSAW!!!)
+ (MASSACRE PARTY!!!)
 
-[Verse 1]
+ [Verse 1]
 
-[japanese grindcore screaming rap, hyper fast drumming]
-バナナの皮で滑ったら
-チェーンソーが飛び出すぜ
-黄色い悪魔の咆哮
-ズタズタ街を切り裂く！
+ [japanese grindcore screaming rap, hyper fast drumming]
+ バナナの皮で滑ったら
+ チェーンソーが飛び出すぜ
+ 黄色い悪魔の咆哮
+ ズタズタ街を切り裂く！
 
-[Break]
+ [Break]
 
-[half-speed funky bass loop]
-(SLIP SLICE CRASH!!)
-CRASH THE TOWN (spin it down!)
-RIDE THE BLOOD!!
+ [half-speed funky bass loop]
+ (SLIP SLICE CRASH!!)
+ CRASH THE TOWN (spin it down!)
+ RIDE THE BLOOD!!
 
-[Outro]
+ [Outro]
 
-[chainsaw buzzing slows down, fades into silly monkey laughter]
-(Banana... forever...)
+ [chainsaw buzzing slows down, fades into silly monkey laughter]
+ (Banana... forever...)
 
-[CRITICAL CHAOS BURST]
-BANANA CHAINSAW MASSACRE!!
-SLASH THE NIGHT (banana blade!)
-TEAR THE STREET (crazy ride!)
-BLEED THE SKY!!
-BANANA CHAINSAW MASSACRE!!
-SCREAM IN PEELS (splash it loud!)
-CRASH THE TOWN (spin it down!)
-RIDE THE BLOOD!!
+ [CRITICAL CHAOS BURST]
+ BANANA CHAINSAW MASSACRE!!
+ SLASH THE NIGHT (banana blade!)
+ TEAR THE STREET (crazy ride!)
+ BLEED THE SKY!!
+ BANANA CHAINSAW MASSACRE!!
+ SCREAM IN PEELS (splash it loud!)
+ CRASH THE TOWN (spin it down!)
+ RIDE THE BLOOD!!
 
-[Verse 2]
+ [Verse 2]
 
-[tempo ultra fast, voice half-laughing half-screaming]
-バナナの逆襲止められない
-チェーンソー握りしめて
-アサルトモード発動中
-ピュアで邪悪な甘い香り！
+ [tempo ultra fast, voice half-laughing half-screaming]
+ バナナの逆襲止められない
+ チェーンソー握りしめて
+ アサルトモード発動中
+ ピュアで邪悪な甘い香り！
 
-[Bridge]
+ [Bridge]
 
-[chainsaw solo + distorted laughter]
-(peel the world)
-(peel the flesh)
-(banana reign)
-(banana rain)
+ [chainsaw solo + distorted laughter]
+ (peel the world)
+ (peel the flesh)
+ (banana reign)
+ (banana rain)
 
-[Final Chorus]
+ [Final Chorus]
 
-[everything faster, multi-vocal chaos]
-BANANA CHAINSAW MASSACRE!!
-SLASH THE NIGHT (banana blade!)
-TEAR THE STREET (crazy ride!)
-BLEED THE SKY!!
-BANANA CHAINSAW MASSACRE!!
-SCREAM IN PEELS (splash it loud!)
-CRASH THE TOWN (spin it down!)
-RIDE THE BLOOD!!
+ [everything faster, multi-vocal chaos]
+ BANANA CHAINSAW MASSACRE!!
+ SLASH THE NIGHT (banana blade!)
+ TEAR THE STREET (crazy ride!)
+ BLEED THE SKY!!
+ BANANA CHAINSAW MASSACRE!!
+ SCREAM IN PEELS (splash it loud!)
+ CRASH THE TOWN (spin it down!)
+ RIDE THE BLOOD!!
 
-[chainsaw solo + distorted laughter]
-(peel the world)
-(peel the flesh)
-(banana reign)
-(banana rain)
-(banana reign)
-(banana rain)
-(banana reign)
-(banana rain)
+ [chainsaw solo + distorted laughter]
+ (peel the world)
+ (peel the flesh)
+ (banana reign)
+ (banana rain)
+ (banana reign)
+ (banana rain)
+ (banana reign)
+ (banana rain)
 
-[Final Chorus]
+ [Final Chorus]
 
-[everything faster, multi-vocal chaos]
-BANANA CHAINSAW MASSACRE!!
-SLASH THE NIGHT (banana blade!)
-TEAR THE STREET (crazy ride!)
-BLEED THE SKY!!
-BANANA CHAINSAW MASSACRE!!
-SCREAM IN PEELS (splash it loud!)
-CRASH THE TOWN (spin it down!)
-RIDE THE BLOOD!!
+ [everything faster, multi-vocal chaos]
+ BANANA CHAINSAW MASSACRE!!
+ SLASH THE NIGHT (banana blade!)
+ TEAR THE STREET (crazy ride!)
+ BLEED THE SKY!!
+ BANANA CHAINSAW MASSACRE!!
+ SCREAM IN PEELS (splash it loud!)
+ CRASH THE TOWN (spin it down!)
+ RIDE THE BLOOD!!
 
-[Outro]
+ [Outro]
 
-[chainsaw buzzing slows down, fades into silly monkey laughter]
-(Banana... forever...)
-(banana reign)
-(banana rain)
-(banana reign)
-(banana rain)
+ [chainsaw buzzing slows down, fades into silly monkey laughter]
+ (Banana... forever...)
+ (banana reign)
+ (banana rain)
+ (banana reign)
+ (banana rain)
 
-[Final Chorus]
+ [Final Chorus]
 
-[everything faster, multi-vocal chaos]
-BANANA CHAINSAW MASSACRE!!
-SLASH THE NIGHT (banana blade!)
-TEAR THE STREET (crazy ride!)
-BLEED THE SKY!!
-BANANA CHAINSAW MASSACRE!!
-SCREAM IN PEELS (splash it loud!)
-CRASH THE TOWN (spin it down!)
-RIDE THE BLOOD!!
-```
+ [everything faster, multi-vocal chaos]
+ BANANA CHAINSAW MASSACRE!!
+ SLASH THE NIGHT (banana blade!)
+ TEAR THE STREET (crazy ride!)
+ BLEED THE SKY!!
+ BANANA CHAINSAW MASSACRE!!
+ SCREAM IN PEELS (splash it loud!)
+ CRASH THE TOWN (spin it down!)
+ RIDE THE BLOOD!!
+ ```

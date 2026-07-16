@@ -1,7 +1,7 @@
 ---
 name: CLAUDE
-type: "core"
-description: "Contexto de carga, reglas de lectura y mapa principal del proyecto Paul McChatney."
+type: core
+description: Contexto de carga, reglas de lectura y mapa principal del proyecto Paul McChatney.
 ---
 
 # CLAUDE

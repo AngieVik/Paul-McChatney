@@ -1,7 +1,7 @@
 ---
-name: "MEMORY"
-type: "core"
-description: "Directrices internas y aprendizaje transversal validado de Paul McChatney."
+name: MEMORY
+type: core
+description: "Directrices internas y aprendizaje transversal validado de Paul McChatney.
 ---
 
 # MEMORY

@@ -26,37 +26,37 @@ Hardtek, Acid Techno, Coachcore, Paranoid Groove, Dark Humor Hardcore
 
 ## lyrics_box
 
-```markdown
-[Production: Industrial Tekno, Broken Basslines, Acid FX, Spoken Glitch Vox, Reverse Delays]
-[Mood: Dark, Paranoid, Satirical, Menacing]
+ ```markdown
+ [Production: Industrial Tekno, Broken Basslines, Acid FX, Spoken Glitch Vox, Reverse Delays]
+ [Mood: Dark, Paranoid, Satirical, Menacing]
 
-[Intro][Spanish Male Voice][Lo-Fi Delay, Tape Crackle, Reverse Hat FX]
-Bienvenido al lado oscuro.
-No es magia.
-No es mentira.
-Es solo observación...
-y mala intención.
+ [Intro][Spanish Male Voice][Lo-Fi Delay, Tape Crackle, Reverse Hat FX]
+ Bienvenido al lado oscuro.
+ No es magia.
+ No es mentira.
+ Es solo observación...
+ y mala intención.
 
-[Verse][Spanish Male Voice][Spoken Flow, Acid Sub FX, Filtered Delay]
-Mira sus ojos.
-Haz silencio cuando hablen.
-Repite su nombre.
-Luego... míralo sin pestañear.
+ [Verse][Spanish Male Voice][Spoken Flow, Acid Sub FX, Filtered Delay]
+ Mira sus ojos.
+ Haz silencio cuando hablen.
+ Repite su nombre.
+ Luego... míralo sin pestañear.
 
-Inclina la cabeza.
-Ladea una sonrisa.
-Habla lento, luego acelera.
-Termina con una amenaza disfrazada.
+ Inclina la cabeza.
+ Ladea una sonrisa.
+ Habla lento, luego acelera.
+ Termina con una amenaza disfrazada.
 
-[Drop \ Break][Spanish Male Voice][Whispered Vox, Kickroll, Low Sub Hit]
-Esto no es manipulación.
-Es marketing emocional.
-Y tú eres la oferta de hoy.
-¿Quién te comprará primero?
+ [Drop \ Break][Spanish Male Voice][Whispered Vox, Kickroll, Low Sub Hit]
+ Esto no es manipulación.
+ Es marketing emocional.
+ Y tú eres la oferta de hoy.
+ ¿Quién te comprará primero?
 
-[Final][Spanish Male Voice][Robot Vox, Reverse Delay, Siren]
-No uses esto para hacer daño.
-Usa esto para sobrevivir.
-Psicología oscura.
-No la uses.
-```
+ [Final][Spanish Male Voice][Robot Vox, Reverse Delay, Siren]
+ No uses esto para hacer daño.
+ Usa esto para sobrevivir.
+ Psicología oscura.
+ No la uses.
+ ```
