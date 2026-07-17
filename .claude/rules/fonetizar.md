@@ -1,7 +1,7 @@
 ---
 name: fonetizar
 type: map
-description: "Biblioteca de transcripción fonética para TTS: cómo escribir una palabra o frase para que el motor de voz reproduzca una pronunciación, acento, edad, estado o forma de hablar concreta."
+description: Biblioteca de transcripción fonética para TTS: cómo escribir una palabra o frase para que el motor de voz reproduzca una pronunciación, acento, edad, estado o forma de hablar concreta.
 ---
 
 - *No se carga con `@`, este índice es el mapa concepto→archivo, abre cada `fonetizar/<archivo>.md` bajo demanda con la herramienta de lectura, solo el/los que necesites.*

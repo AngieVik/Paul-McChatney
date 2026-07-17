@@ -1,7 +1,7 @@
 ---
 name: style_box
 type: map
-description: "Construcción del style_box: Etiquetas, Fusión y frecuencias, Dinámicas rítmicas y estructurales, Colisión tímbrica."
+description: Construcción del style_box: Etiquetas, Fusión y frecuencias, Dinámicas rítmicas y estructurales, Colisión tímbrica.
 ---
 
 - *No se carga con `@`, este índice es el mapa concepto→archivo, abre `composicion/style_box.md` bajo demanda con la herramienta de lectura.*
@@ -13,6 +13,7 @@ description: "Construcción del style_box: Etiquetas, Fusión y frecuencias, Din
 
 ## Índice
 
+- Indice style_box
 `1 · Etiquetas style_box`
     `1.1 · Tag Anchoring`
     `1.2 · El anclaje temporal`

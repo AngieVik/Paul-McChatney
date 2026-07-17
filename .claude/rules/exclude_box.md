@@ -13,6 +13,7 @@ description: Prompting inverso y control de artefactos, qué bloquear en el excl
 
 ## Índice
 
+- Indice exclude_box
 `1 · Instrucciones exclude_box`
 `2 · Mitigación de Saturación y Clipping`
 `3 · Supresión de Artefactos Digitales`

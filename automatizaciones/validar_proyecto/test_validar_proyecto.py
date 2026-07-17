@@ -12,7 +12,9 @@ tags de chupilista y longitud de description. Así cada ampliación futura del
 validador no reintroduce falsos positivos ni puntos ciegos.
 """
 
+import contextlib
 import importlib.util
+import io
 import sys
 import tempfile
 from pathlib import Path
@@ -427,6 +429,178 @@ def test_group_by_category():
     g = V.group_by_category(items)
     check(len(g.get("a", [])) == 2 and len(g.get("b", [])) == 1 and "(sin categoría)" in g,
           "los problemas se agrupan por su prefijo entre corchetes")
+
+
+# ============ Ampliación: parser de fences, placeholders, identidad de
+# canónicos, obras del catálogo e integración del flujo completo ============
+
+def test_is_placeholder_segment_exact():
+    check(not V.is_placeholder_path("contexto.md"), "'texto' ya no coincide con 'contexto.md' (segmento exacto)")
+    check(V.is_placeholder_path("archivo.md"), "'archivo.md' se reconoce como placeholder")
+    check(V.is_placeholder_path("chupilista/NN_archivo.md"), "'NN_archivo.md' (NN+archivo) es placeholder")
+    check(V.is_placeholder_path("_hojas_sucias/slug_NN.md"), "'slug_NN.md' (slug+NN) es placeholder")
+    check(V.is_placeholder_path("<slug>.md"), "marcador entre ángulos es placeholder")
+    check(not V.is_placeholder_path("composicion/letra.md"), "ruta real no es placeholder")
+
+
+def test_backtick_contexto_now_validated():
+    with tempfile.TemporaryDirectory() as d:
+        root = Path(d)
+        f = root / "a.md"
+        f.write_text("cita a `contexto.md` que no existe.\n", encoding="utf-8")
+        probs = []
+        V.check_backtick_paths(f, f.read_text(encoding="utf-8"), root, probs)
+        check(has(probs, "nombre suelto inexistente"),
+              "'contexto.md' inexistente YA se valida (no lo salta la subcadena 'texto')")
+
+
+def test_identity_canonical_requires_single_h1():
+    two = "# Título uno\n\n# Título dos\n"
+    p = problems_for(V.check_document_identity, two, name="README.md")
+    check(has(p, "H1 múltiple o ausente"), "canónico con dos H1 se detecta")
+    zero = "sin encabezado alguno.\n"
+    p = problems_for(V.check_document_identity, zero, name="README.md")
+    check(has(p, "H1 múltiple o ausente"), "canónico con cero H1 se detecta")
+    one = "# Un título humano cualquiera\n\ncontenido.\n"
+    p = problems_for(V.check_document_identity, one, name="README.md")
+    check(not p, "canónico con exactamente un H1 (que no es el slug) no genera aviso")
+
+
+def test_scan_code_blocks_extract_and_unclosed():
+    text = "intro\n```py\ndentro\n```\nmedio\n~~~\notro\n~~~\nfin\n"
+    blocks, unclosed, stripped = V.scan_code_blocks(text)
+    check(blocks == ["dentro", "otro"] and not unclosed,
+          "extrae el contenido de fences ``` y ~~~, sin las líneas de fence")
+    check("dentro" not in stripped and "intro" in stripped and "medio" in stripped,
+          "stripped elimina las líneas de bloque y conserva el resto")
+    _b, unclosed2, _s = V.scan_code_blocks("```\nabierto sin cerrar\n")
+    check(unclosed2, "fence sin cerrar se reporta como unclosed")
+
+
+def test_scan_code_blocks_indent_and_longfence():
+    b, unclosed, _ = V.scan_code_blocks("texto\n    ```\n    x\n    ```\n")
+    check(b == [] and not unclosed, "``` con 4 espacios de sangría no cuenta como fence")
+    b2, unclosed2, _ = V.scan_code_blocks("````\n```\ntodavía dentro\n````\n")
+    check(b2 == ["```\ntodavía dentro"] and not unclosed2,
+          "fence de 4 backticks no lo cierra un ``` interno de 3")
+
+
+def test_bracket_lines_direct():
+    probs = []
+    V.check_bracket_lines("[Intro]\ntag ] huérfano\n[[anidado]]", "obj", probs)
+    check(has(probs, "']' sin '['"), "cierre huérfano se detecta directamente sobre las líneas")
+    check(has(probs, "anidado sospechoso"), "corchetes anidados [[ ]] se detectan directamente")
+
+
+def test_plantilla_skeleton_unclosed_fence():
+    with tempfile.TemporaryDirectory() as d:
+        root = Path(d)
+        (root / "chuletas").mkdir()
+        f = root / "chuletas" / "plantilla_z.md"
+        f.write_text(
+            "---\nname: plantilla_z\ntype: plantilla\ndescription: \"d\"\n---\n\n"
+            "# plantilla_z\n\n## Esqueleto\n\n~~~markdown\n# <slug>\n\n```\nsin cerrar\n~~~\n",
+            encoding="utf-8")
+        probs = []
+        V.check_plantilla_skeletons(f, f.read_text(encoding="utf-8"), root, probs)
+        check(has(probs, "fence sin cerrar"),
+              "esqueleto con fence interno sin cerrar se detecta (check_unclosed_fences en skeletons)")
+
+
+# ---------- Obras del catálogo (punto 19) ----------
+
+PROYECTO_OK = (
+    "---\nname: x\ntype: proyecto\ndescription: X\ncanon: 1\n---\n\n# x\n\n"
+    "## Titulo Original\n\nX\n\n## Generated\n\nGenerated at 2026-01-01\n\n"
+    "## Master\n\n[ ] Masterizado\n\n## style_box\n\nHardtek\n\n"
+    "## exclude_box\n\nreverb\n\n## lyrics_box\n\ntexto\n"
+)
+
+
+def _obra(text):
+    root = Path("/tmp")
+    probs = []
+    V.check_proyecto_obra(root / "proyectos" / "x" / "x.md", text, root, probs)
+    return probs
+
+
+def test_proyecto_obra_missing_section():
+    probs = _obra(PROYECTO_OK.replace("## exclude_box\n\nreverb\n\n", ""))
+    check(has(probs, "obra sin sección canónica"), "obra a la que le falta una sección núcleo se detecta")
+
+
+def test_proyecto_obra_empty_box_versioned():
+    probs = _obra(PROYECTO_OK.replace("## exclude_box\n\nreverb\n\n", "## exclude_box\n\n"))
+    check(has(probs, "caja vacía"), "obra con canon y caja vacía se detecta")
+
+
+def test_proyecto_obra_historical_exempt():
+    hist = PROYECTO_OK.replace("canon: 1\n", "").replace("## exclude_box\n\nreverb\n\n", "## exclude_box\n\n")
+    probs = _obra(hist)
+    check(not has(probs, "caja vacía"), "obra histórica sin marca canon NO se exige contenido en cajas")
+
+
+def test_proyecto_obra_clean_versioned():
+    check(not _obra(PROYECTO_OK), "obra con canon y las tres cajas con contenido no genera aviso")
+
+
+# ---------- Integración: flujo completo sobre árboles temporales ----------
+
+def run_main(root, *extra):
+    argv = ["validar_proyecto.py", str(root), *extra]
+    old = sys.argv
+    sys.argv = argv
+    buf = io.StringIO()
+    try:
+        with contextlib.redirect_stdout(buf):
+            code = V.main()
+    finally:
+        sys.argv = old
+    return code, buf.getvalue()
+
+
+def test_integration_clean_tree_exit_0():
+    with tempfile.TemporaryDirectory() as d:
+        root = Path(d)
+        (root / "README.md").write_text("# Título del repo\n\nContenido de prueba completo.\n", encoding="utf-8")
+        code, out = run_main(root)
+        check(code == 0 and "OK" in out, "árbol limpio: main() devuelve 0 y reporta OK")
+
+
+def test_integration_detects_problem_exit_1():
+    with tempfile.TemporaryDirectory() as d:
+        root = Path(d)
+        (root / "README.md").write_text("# Repo\n\ncontenido.\n", encoding="utf-8")
+        (root / "composicion").mkdir()
+        (root / "composicion" / "foo.md").write_text("# foo\n\nsin frontmatter aquí.\n", encoding="utf-8")
+        code, out = run_main(root)
+        check(code == 1 and "frontmatter ausente" in out,
+              "árbol con composicion/ sin frontmatter: main() devuelve 1 y lo reporta")
+
+
+def test_integration_proyecto_canon_vs_historical():
+    with tempfile.TemporaryDirectory() as d:
+        root = Path(d)
+        (root / "README.md").write_text("# Repo\n\ncontenido.\n", encoding="utf-8")
+        nueva = root / "proyectos" / "obra_nueva"
+        nueva.mkdir(parents=True)
+        (nueva / "obra_nueva.md").write_text(
+            PROYECTO_OK.replace("name: x", "name: obra_nueva").replace("# x\n", "# obra_nueva\n")
+                      .replace("## exclude_box\n\nreverb\n\n", "## exclude_box\n\n"),
+            encoding="utf-8")
+        vieja = root / "proyectos" / "obra_vieja"
+        vieja.mkdir(parents=True)
+        (vieja / "obra_vieja.md").write_text(
+            PROYECTO_OK.replace("name: x", "name: obra_vieja").replace("# x\n", "# obra_vieja\n")
+                      .replace("canon: 1\n", "").replace("## exclude_box\n\nreverb\n\n", "## exclude_box\n\n"),
+            encoding="utf-8")
+        code, out = run_main(root)
+        check(code == 1 and "caja vacía" in out and "obra_nueva" in out,
+              "obra con canon y caja vacía se reporta en el flujo completo (main)")
+        check("obra_vieja" not in out,
+              "obra histórica sin canon no aparece en el reporte (exenta de contenido)")
+
+
 
 
 def main():

@@ -63,7 +63,7 @@ description: Descripción.
 ---
 ```
 
-Tipos: `skill`, `map`, `plantilla`, `composicion`, `chupilista`, `jerga`, `fonetizar`, `system_prompt`, `proyecto`, `core`, `memory`. El YAML identifica; el cuerpo explica — nada largo dentro del YAML. El `description` es una sola frase de **250 caracteres como máximo**; si contiene `:` va entre comillas dobles.
+Tipos: `skill`, `map`, `plantilla`, `composicion`, `chupilista`, `jerga`, `fonetizar`, `proyecto`, `core`, `memory`. El YAML identifica; el cuerpo explica — nada largo dentro del YAML. El `description` es una sola frase de **250 caracteres como máximo**; si contiene `:` va entre comillas dobles.
 
 ---
 

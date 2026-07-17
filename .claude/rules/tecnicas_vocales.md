@@ -1,7 +1,7 @@
 ---
 name: tecnicas_vocales
 type: map
-description: "Puntuación en la letra y dirección vocal: Persona Stacking, roles, duetos y armonías multicapa."
+description: Puntuación en la letra y dirección vocal: Persona Stacking, roles, duetos y armonías multicapa.
 ---
 
 - *No se carga con `@`, este índice es el mapa concepto→archivo, abre `composicion/tecnicas_vocales.md` bajo demanda con la herramienta de lectura.*
@@ -13,6 +13,7 @@ description: "Puntuación en la letra y dirección vocal: Persona Stacking, role
 
 ## Índice
 
+- Indice tecnicas_vocales
 `1 · Puntuación en la letra`
     `1.1 · Paréntesis — Voces secundarias`
     `1.2 · Comillas — Énfasis especial`

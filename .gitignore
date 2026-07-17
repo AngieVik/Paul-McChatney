@@ -1,6 +1,5 @@
 # === Paul McChatney — .gitignore ===
-# Regla: el repo versiona TEXTO (prompts, letras, configs). La media (audio, vídeo, imágenes) se queda fuera.
-# --- Binarios ---
+# --- lista cerrada de formatos excluidos ---
 *.wav
 *.mp3
 *.flac

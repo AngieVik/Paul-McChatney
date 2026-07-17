@@ -15,6 +15,7 @@ description: Plantilla canónica de consolidación. Se aplica al aprobar una obr
 name: <slug>
 type: proyecto
 description: <titulo_publico>
+canon: 1
 ---
 
 # <slug>
@@ -49,7 +50,8 @@ Generated at <YYYY-MM-DD>
 ### Qué va en cada marcador
 
 - **`<slug>`:** identificador de archivo/carpeta, `snake_case`, sin acentos.
-- **`<titulo_publico>`:** el título tal y como se muestra al público, con acentos y mayúsculas, sin dos puntos `:`.
+- **`<titulo_publico>`:** el título tal y como se muestra al público, con acentos y mayúsculas, sin dos puntos `:`, sustituir por una coma u otro separador si fuera necesario.
+- **`canon: 1`:** versión del canon vigente que declara la obra. Su presencia hace que el validador exija contenido en las tres cajas (`style_box`, `exclude_box`, `lyrics_box`). Déjalo fijo en las obras nuevas; las históricas sin esta marca quedan exentas del chequeo de contenido.
 - **`<YYYY-MM-DD>`:** fecha de la generación de la obra aprobada.
 - **`[ ] Masterizado`:** por defecto sin marcar; marca el checkbox cuando el usuario tenga la pista masterizada, es control personal, no automático.
 - **`<style_box>`:** el `style_box` usado en la generación de la obra aprobada.
@@ -61,7 +63,8 @@ Generated at <YYYY-MM-DD>
 ## Convenciones de nombre y ubicación
 
 - **`_hojas_sucias/`:** estructura libre y sin mínimos — ideas sueltas y bocetos, sin formato fijo.
-- **Obra aprobada:** las seis secciones del esqueleto (`Titulo Original`, `Generated`, `Master`, `style_box`, `exclude_box`, `lyrics_box`) son el **núcleo obligatorio** del catálogo — el validador las exige. Sobre ese núcleo, la plantilla admite **secciones adicionales opcionales** según lo que la obra necesite y puede evolucionar, siempre manteniendo la coherencia con el resto del catálogo.
+- **Obra aprobada:** las seis secciones del esqueleto (`Titulo Original`, `Generated`, `Master`, `style_box`, `exclude_box`, `lyrics_box`) son el **núcleo obligatorio** del catálogo — el validador exige que existan. Sobre ese núcleo, la plantilla admite **secciones adicionales opcionales** según lo que la obra necesite y puede evolucionar, siempre manteniendo la coherencia con el resto del catálogo.
+- **Canon no estricto:** el formato es una guía viva, no un molde rígido. Una obra aprobada puede evolucionar y las obras históricas pueden no cumplir el canon actual (p. ej. `exclude_box` vacío o `style_box` en prosa). Por eso el validador solo exige cajas con contenido a las obras que declaran la versión de canon vigente (`canon:` en el frontmatter); las obras sin esa marca quedan exentas del chequeo de contenido.
 - **Cada proyecto** vive en `proyectos/<slug>/<slug>.md` (carpeta propia) y se registra como fila en `PROYECTOS.md`, dentro de su LP o categoría.
 
 ---

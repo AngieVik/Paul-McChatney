@@ -20,7 +20,7 @@ Generated at 2026-04-15
 
 ## style_box
 
-JOTA ARAGONESA HARDTEK, 190 BPM, aged female voice, melancholic traditional folk singing, castanetsacoustic bandurria, distorted hardtek kick, industrial noise, extreme dynamic contrast, rural desolation
+JOTA ARAGONESA HARDTEK, 190 BPM, aged female voice, melancholic traditional folk singing, castanets, acoustic bandurria, distorted hardtek kick, industrial noise, extreme dynamic contrast, rural desolation
 
 ## exclude_box
 

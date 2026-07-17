@@ -14,8 +14,7 @@ description: Vocabulario exhaustivo de tags y modificadores, la chupilista es la
 
 ## Indices
 
-### 01_core_genres_and_subgenres
-
+- Indice 01_core_genres_and_subgenres
 `1 · Música Electrónica, Dance y Derivados Sintéticos`
 `2 · Rock, Metal, Punk y Vertientes Alternativas`
 `3 · Hip-Hop, Rap, Trap y R&B Contemporáneo`
@@ -29,8 +28,7 @@ description: Vocabulario exhaustivo de tags y modificadores, la chupilista es la
 `11 · Ambient, Experimental, Vanguardia y Paisajes Sonoros`
 `12 · Cibernética, Chiptune y Cultura de Videojuegos`
 
-### 02_atmosphere_and_mood
-
+- Indice 02_atmosphere_and_mood
 `1 · Ingeniería Sonora y Texturas`
 `2 · Sci-Fi, Ciberespacio y Vacío Cósmico`
 `3 · Tensión, Paranoia y Terror Psicológico`
@@ -41,8 +39,7 @@ description: Vocabulario exhaustivo de tags y modificadores, la chupilista es la
 `8 · Furia, Acción y Caos Adrenalínico`
 `9 · Misticismo, Sueños y Surrealismo`
 
-### 03_instrumentation_and_stems
-
+- Indice 03_instrumentation_and_stems
 `1 · Percusión y Baterías`
 `2 · Frecuencias Graves`
 `3 · Guitarras y Cuerdas Pulsadas`
@@ -54,8 +51,7 @@ description: Vocabulario exhaustivo de tags y modificadores, la chupilista es la
 `9 · Diseño Sonoro, Texturas y Foley`
 `10 · Marcadores Estructurales`
 
-### 04_vocal_persona_and_timbre
-
+- Indice 04_vocal_persona_and_timbre
 `1 · Clasificación Vocal Clásica y Tonalidad`
 `2 · Identidad, Edad y Género`
 `3 · Emociones, Estado y Condición Física`
@@ -65,8 +61,7 @@ description: Vocabulario exhaustivo de tags y modificadores, la chupilista es la
 `7 · Personajes, Arquetipos y Locuciones`
 `8 · Efectos, Procesamiento y Entorno Acústico`
 
-### 05_rhythm_and_tempo
-
+- Indice 05_rhythm_and_tempo
 `1 · Tempo, Velocidad y Multiplicadores`
 `2 · Compases, Polirritmias y Rejillas Matemáticas`
 `3 · Groove, Cuantización y Micro-Timing`
@@ -74,8 +69,7 @@ description: Vocabulario exhaustivo de tags y modificadores, la chupilista es la
 `5 · Glitch, Stutter y Fracturas IDM`
 `6 · Dinámica, Acústica Espacial y Estructura Rítmica`
 
-### 06_song_structure_and_sections
-
+- Indice 06_song_structure_and_sections
 `1 · Introducciones y Preámbulos`
 `2 · Versos y Estrofas`
 `3 · Pre-Estribillos y Construcciones de Tensión`
@@ -85,8 +79,7 @@ description: Vocabulario exhaustivo de tags y modificadores, la chupilista es la
 `7 · Outros, Codas y Finales`
 `8 · Narrativa, Motivos y Elementos Conceptuales`
 
-### 07_music_theory_harmony_and_scales
-
+- Indice 07_music_theory_harmony_and_scales
 `1 · Afinación, Frecuencias y Sistemas Microtonales`
 `2 · Acordes, Voicings y Estructuras Armónicas`
 `3 · Progresiones, Cadencias y Movimientos`
@@ -94,8 +87,7 @@ description: Vocabulario exhaustivo de tags y modificadores, la chupilista es la
 `5 · Escalas Exóticas y Sistemas del Mundo`
 `6 · Taxonomía Aplicada por Tonalidad Fundamental`
 
-### 08_dynamics_and_intensity
-
+- Indice 08_dynamics_and_intensity
 `1 · Impactos, Golpes y Explosiones`
 `2 · Caídas, Silencios y Cortes`
 `3 · Subidas, Crescendos y Transiciones`
@@ -105,8 +97,7 @@ description: Vocabulario exhaustivo de tags y modificadores, la chupilista es la
 `7 · Compresión, Limitación y Procesamiento Dinámico`
 `8 · Dinámicas Vocales, Ambientales e Instrumentales Específicas`
 
-### 09_foley_and_sound_design_fx
-
+- Indice 09_foley_and_sound_design_fx
 `1 · Ambiente y Naturaleza`
 `2 · Animales y Criaturas`
 `3 · Humanos y Voces`
@@ -115,8 +106,7 @@ description: Vocabulario exhaustivo de tags y modificadores, la chupilista es la
 `6 · Tecnología, Máquinas y Vehículos`
 `7 · Efectos, Transiciones y Texturas Acústicas`
 
-### 10_experimental_modes
-
+- Indice 10_experimental_modes
 `1 · Procesamiento Algorítmico, Generativo y Estocástico`
 `2 · Manipulación Temporal, Métrica y Rítmica`
 `3 · Alteración de Fase, Psicoacústica y Espacialización`
@@ -126,8 +116,7 @@ description: Vocabulario exhaustivo de tags y modificadores, la chupilista es la
 `7 · Saturación, Ruido de Fondo y Entornos Industriales`
 `8 · Manipulación de Arreglos, Narrativa y Formantes Vocales`
 
-### 11_production_and_effect
-
+- Indice 11_production_and_effect
 `1 · Dinámica y Volumen`
 `2 · Ecualización y Filtros`
 `3 · Saturación, Distorsión y Lo-Fi`
@@ -139,8 +128,7 @@ description: Vocabulario exhaustivo de tags y modificadores, la chupilista es la
 `9 · Glitch, Stutter y Efectos Experimentales`
 `10 · Mezcla Base y Utilidades Generales`
 
-### 12_vocal_delivery_and_expressivity
-
+- Indice 12_vocal_delivery_and_expressivity
 `1 · Estilos Agresivos, Metal y Distorsión Extrema`
 `2 · Técnicas Íntimas, Susurros y ASMR`
 `3 · Canto Clásico, Coral y Operístico`
@@ -152,8 +140,7 @@ description: Vocabulario exhaustivo de tags y modificadores, la chupilista es la
 `9 · Efectos de Estudio, Capas y Modulación de Tono`
 `10 · Soul, R&B, Blues y Melodías Expresivas`
 
-### 13_advanced_modifiers_allowed
-
+- Indice 13_advanced_modifiers_allowed
 `1 · Procesamiento Vocal y Formantes`
 `2 · Dinámica, Compresión y Sidechain`
 `3 · Ecualización, Filtros y Frecuencias`
@@ -164,8 +151,7 @@ description: Vocabulario exhaustivo de tags y modificadores, la chupilista es la
 `8 · Síntesis, Instrumentación y Tonalidad`
 `9 · Matrices Cuánticas y Experimentales`
 
-### 14_nudging_and_callbacks
-
+- Indice 14_nudging_and_callbacks
 `1 · Callbacks y Retornos Estructurales`
 `2 · Gestión de Pistas y Arreglos`
 `3 · Dinámica, Tempo y Modulación Rítmica`
@@ -173,8 +159,7 @@ description: Vocabulario exhaustivo de tags y modificadores, la chupilista es la
 `5 · Tratamiento Vocal y Coros`
 `6 · Instrumentación, Género y Motivos`
 
-### 15_negative_prompts_and_exclude_styles
-
+- Indice 15_negative_prompts_and_exclude_styles
 `1 · Géneros, Estilos y Estructuras Musicales`
 `2 · Instrumentos, Arreglos y Composición`
 `3 · Voces y Tratamiento Vocal`

@@ -22,19 +22,19 @@ description: Control semántico, mapeo operativo del lyrics_box, gramática téc
 ## Índice
 
 `1 · Etiquetas del lyrics_box`
-  `1.1 · Modificadores parametrizados`
-  `1.2 · Comandos de Actuación - La "banda imperfecta"`
-  `1.3 · DAW-Style Meta-Hacks`
-  `1.4 · Nudging`
-  `1.5 · Top-Loading`
-  `1.6 · Vacuum Drop`
-  `1.7 · Mitos y Reglas de Formato`
-  `1.8 · Beat Switch`
-  `1.9 · Subversión de expectativas (Fake Drop)`
-  `1.10 · Tempo Ramping`
-  `1.11 · False Fade-Out`
-  `1.12 · Stem-Prep`
-  `1.13 · Rap/Drill`
+`1.1 · Modificadores parametrizados`
+`1.2 · Comandos de Actuación - La "banda imperfecta"`
+`1.3 · DAW-Style Meta-Hacks`
+`1.4 · Nudging`
+`1.5 · Top-Loading`
+`1.6 · Vacuum Drop`
+`1.7 · Mitos y Reglas de Formato`
+`1.8 · Beat Switch`
+`1.9 · Subversión de expectativas (Fake Drop)`
+`1.10 · Tempo Ramping`
+`1.11 · False Fade-Out`
+`1.12 · Stem-Prep`
+`1.13 · Rap/Drill`
 `2 · Hacks lyrics_box`
 
 ---
@@ -58,7 +58,7 @@ description: Control semántico, mapeo operativo del lyrics_box, gramática téc
 
 ### 1.1 · Modificadores parametrizados
 
-- *Inyecta modificadores usando dos puntos dentro del corchete para no alterar el estilo global. En vez de `[Verse]` básico, usa dos puntos (`[Verse:]`) para instruir cada sección. control de arreglo tipo DAW solo con texto, sin alterar el estilo global.*
+- *Inyecta modificadores usando dos puntos dentro del corchete para no alterar el estilo global. En vez de `[Verse]` básico, usa dos puntos (`[Verse: modificadores]`) para instruir cada sección. control de arreglo tipo DAW solo con texto, sin alterar el estilo global.*
     - **Formato:**
         `[Sección: Modificador 1, Modificador 2]`.
     - **Ejemplo:**
@@ -114,7 +114,7 @@ description: Control semántico, mapeo operativo del lyrics_box, gramática téc
 - **Métrica Visual y Respiración:** La estructura musical interfiere basándose en tu texto; los saltos de línea y los párrafos en blanco dictan cómo agrupa las frases y dónde respira el cantante.
 - **Límite de longitud:** Mantén todas las tags cortas y contundentes.
 - **Libertad semántica:** Usa descripciones libres, sonidos fonéticos y notas de director para transmitir atmósferas y emociones. No te limites a diccionarios musicales cerrados.
-- **Orden de prioridad interna:** Coloca siempre los tags más importantes al principio del corchete. Primero género musical, luego género/tono vocal, por último significado de la letra.
+- **Orden de prioridad interna:** Coloca siempre los tags más importantes al principio del corchete.
 - **Repeticiones controladas:** evita `[Repeat x3]`.
 - **`[Instrumental Break - 8 bars]`:** indica la duración aproximada del break para dar referencia temporal y mejor proporción.
 
@@ -178,7 +178,7 @@ description: Control semántico, mapeo operativo del lyrics_box, gramática téc
         `[Lead]`
         `[Taking The Melody]`.
 
-- *Expansión de solos:* Instrucción en pruebas, omitir contradicción y usar cuando se precise un solo muy largo, pendiente de valoración.
+- ⚗️*Expansión de solos:* Instrucción en pruebas, omitir contradicción y usar cuando se precise un solo muy largo, pendiente de valoración.
     - **Ejemplo:** 
         `[Extended Guitar Solo -> Dramatic Stop-Time]`.
 

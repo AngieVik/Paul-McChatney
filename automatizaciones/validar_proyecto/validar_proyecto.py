@@ -12,7 +12,9 @@ Comprueba, sobre el árbol .md del proyecto:
      nombres canónicos del repo (README.md, CLAUDE.md, MEMORY.md, PROYECTOS.md,
      SKILL.md) se aceptan si el archivo existe en cualquier ubicación conocida,
      porque se citan por su nombre canónico a propósito. Se ignoran las
-     rutas-plantilla evidentes (<slug>, NN, ejemplo, texto...).
+     rutas-plantilla (marcadores `<...>` o segmentos EXACTOS como `slug`, `NN`,
+     `ejemplo`, `texto`, `archivo`): la detección es por segmento exacto, no por
+     subcadena, de modo que `texto` ya no confunde a `contexto.md`.
   3. Corchetes de tags `[Tag]` mal formados dentro de bloques de código: analiza
      cada línea de cada bloque por separado (pila de profundidad), no el total
      de `[` y `]` del bloque entero — así un cierre sin apertura ya no puede
@@ -28,11 +30,15 @@ Comprueba, sobre el árbol .md del proyecto:
      valor sin comillas que contiene `:` (YAML lo tomaría como mapa anidado),
      comilla sin cerrar y puntuación situada FUERA de la comilla de cierre
      (`"texto".`).
-  6. Fences ``` sin cerrar: recorre el archivo línea a línea con un estado de
-     apertura/cierre. Solo cuentan las líneas que SON una marca de fence, con
-     como máximo 3 espacios de sangría (CommonMark: 4+ espacios ya es un bloque
-     indentado, no un fence); los ``` incrustados en prosa o dentro de una
-     celda de tabla no descuadran el conteo.
+  6. Fences ``` sin cerrar: se usa un ÚNICO parser línea a línea
+     (`scan_code_blocks`) que detecta, extrae y elimina los bloques cercados.
+     Reconoce fences de 3+ backticks o 3+ tildes con hasta 3 espacios de
+     sangría (CommonMark: 4+ espacios ya es un bloque indentado, no un fence);
+     la fence de cierre usa el mismo carácter y al menos tantas marcas que la
+     de apertura. Los ``` incrustados en prosa o dentro de una celda de tabla
+     no descuadran el conteo. Ese mismo parser alimenta la extracción de
+     bloques (puntos 3, 7, 8, 10, 13), de modo que hay una sola definición de
+     "qué es un bloque cercado".
   7. Encabezados mal cerrados: terminan en `.`, `:` o `;` (prohibido por
      `chuletas/plantilla_estilo.md` §2) o saltan de nivel (`#` -> `###`). Se
      ignoran los encabezados incrustados dentro de bloques de código cercados:
@@ -41,7 +47,11 @@ Comprueba, sobre el árbol .md del proyecto:
      de nivel.
   8. Las plantillas generativas (`chuletas/plantilla_*.md`) generan un
      esqueleto compatible: se extrae cada bloque de código de la plantilla y
-     se le aplican los chequeos 5-7 como si fuera un documento real.
+     se le aplican los chequeos de forma de un documento real —YAML (5),
+     encabezados (7), FENCES SIN CERRAR (6) y corchetes de tags (3, analizados
+     directamente sobre las líneas del esqueleto)—. `check_bracket_tags` se
+     conserva como comprobación independiente en la pasada general de cada
+     archivo.
   9. Todo `chuletas/plantilla_*.md` declara `type: plantilla` en su propio
      frontmatter (comparado sin comillas: `"plantilla"` == `plantilla`).
   10. El esqueleto de `plantilla_proyecto.md` empieza con frontmatter YAML y
@@ -59,15 +69,18 @@ Comprueba, sobre el árbol .md del proyecto:
       `# H1` fuera de bloques de código, ese H1 coincide con `name`, y `name`
       coincide con el nombre del archivo cuando corresponde (con el nombre de la
       carpeta en los `SKILL.md`). El `name`/`type` se leen sin comillas
-      exteriores. Se exceptúan los nombres canónicos de raíz (README.md,
-      CLAUDE.md, MEMORY.md, PROYECTOS.md), cuyo H1 es un título, no el slug.
+      exteriores. En los nombres canónicos de raíz (README.md, CLAUDE.md,
+      MEMORY.md, PROYECTOS.md) se exime SOLO la igualdad `name == archivo` (su
+      H1 es un título humano, no el slug), pero se sigue exigiendo exactamente
+      un H1: así un H1 ausente o duplicado en esos archivos tampoco pasa
+      inadvertido.
   14. Bytes nulos (`\\x00`) y caracteres de control: ningún `.md` debe contener
       NUL ni otros caracteres de control (se permiten solo `\\t`, `\\n`, `\\r`).
   15. Frontmatter exigido por ruta: los `.md` de carpetas de identidad
       (`.claude/rules/`, `.claude/skills/*/SKILL.md`, `composicion/`, `jerga/`,
       `fonetizar/`, `system_prompt/` y `chuletas/plantilla_*.md`) deben traer
       frontmatter YAML. `proyectos/` queda fuera a propósito (histórico sin
-      frontmatter universal).
+      frontmatter universal); su chequeo específico es el punto 19.
   16. Longitud de `description`: en los archivos de identidad el `description`
       no supera los 250 caracteres (regla de `chuletas/plantilla_estilo.md` §7:
       el YAML identifica, no explica; nada largo dentro del YAML).
@@ -82,6 +95,15 @@ Comprueba, sobre el árbol .md del proyecto:
       dentro del archivo. Se detectan como ADVERTENCIA (no rompen el código de
       salida): espacios sobrantes y posibles duplicados por diferencias solo de
       mayúsculas, guiones o grafía.
+  19. Obras del catálogo (`proyectos/<slug>/<slug>.md`): las seis secciones
+      núcleo (`Titulo Original`, `Generated`, `Master`, `style_box`,
+      `exclude_box`, `lyrics_box`) deben EXISTIR siempre. Las tres cajas
+      (`style_box`, `exclude_box`, `lyrics_box`) deben tener CONTENIDO solo si
+      la obra declara la versión de canon vigente (`canon:` en su frontmatter)
+      y no está en la lista de excepciones históricas. Las obras sin marca de
+      canon (histórico) quedan exentas del chequeo de contenido: el canon puede
+      evolucionar y las obras antiguas pueden no cumplirlo (exclude_box vacío,
+      style_box en prosa, etc.) sin que eso inunde el reporte.
 
 Dependencias unidireccionales: cada archivo declara únicamente los recursos que
 necesita consultar (sus rutas directas). El validador comprueba que esas rutas
@@ -137,8 +159,8 @@ PERSONAL_DIRS = {"_hojas_sucias", "_temp", "_produccion", "_prompts_antiguos", "
 INSTRUCTIONAL_TOP_DIRS = {".claude", "system_prompt", "composicion", "chuletas"}
 
 # Nombres canónicos de raíz: su H1 es un título humano, no el slug, y su `name`
-# no tiene por qué coincidir con el nombre de archivo. Se exceptúan del chequeo
-# de identidad documental (punto 13).
+# no tiene por qué coincidir con el nombre de archivo. Se exime SOLO esa
+# igualdad `name == archivo`; el H1 se sigue exigiendo (punto 13).
 CANONICAL_FILENAMES = {"README.md", "CLAUDE.md", "MEMORY.md", "PROYECTOS.md"}
 
 # Nombres canónicos que pueden citarse SUELTOS (sin ruta) porque nombran
@@ -163,13 +185,11 @@ MD_LINK_RE = re.compile(r"\[[^\]]*\]\(([^)]+)\)")
 HTML_HREF_RE = re.compile(r'href="([^"]+)"')
 BACKTICK_PATH_RE = re.compile(r"`([\w./\\-]+\.(?:md|py|json|yaml|yml))`")
 FRONTMATTER_RE = re.compile(r"\A---\s*\n(.*?)\n---\s*\n", re.DOTALL)
-CODEBLOCK_RE = re.compile(r"```.*?```", re.DOTALL)
-# Una LÍNEA que es una marca de fence (apertura o cierre), admitiendo COMO
-# MÁXIMO 3 espacios de sangría: en CommonMark, 4+ espacios ya es un bloque
-# indentado y NO abre/cierra un fence, así que un ``` con 4 espacios de sangría
-# no debe contar como marca de fence (se renderiza literal). Se usa para el
-# estado de apertura/cierre del punto 6.
-FENCE_LINE_RE = re.compile(r"^ {0,3}```")
+# Una LÍNEA que ES una marca de fence (apertura o cierre): hasta 3 espacios de
+# sangría + 3 o más backticks o 3 o más tildes, seguida del resto de la línea
+# (info string en la apertura; vacío en el cierre). Es la ÚNICA definición de
+# fence; la usa `scan_code_blocks` para detectar/extraer/eliminar bloques.
+FENCE_RE = re.compile(r"^ {0,3}(?P<ticks>`{3,}|~{3,})(?P<rest>.*)$")
 HEADING_RE = re.compile(r"^(#{1,6})\s+(.*?)\s*$", re.MULTILINE)
 H1_RE = re.compile(r"^#\s+(\S.*?)\s*$", re.MULTILINE)
 KEY_VALUE_RE = re.compile(r"^{key}:\s*(.+)$", re.MULTILINE)
@@ -177,14 +197,19 @@ KEY_VALUE_RE = re.compile(r"^{key}:\s*(.+)$", re.MULTILINE)
 CONTROL_CHARS_RE = re.compile(r"[\x00-\x08\x0b\x0c\x0e-\x1f]")
 # Caracteres invisibles que no deben colarse dentro de una tag de chupilista.
 INVISIBLE_CHARS_RE = re.compile("[\t\u00a0\u200b\u200c\u200d\u2060\ufeff]")
-# Tag bien formada de chupilista: `[` + contenido sin corchetes + `]`, sola.
-TAG_LINE_RE = re.compile(r"\[[^\[\]]+\]")
 
 REQUIRED_FRONTMATTER_KEYS = ("name", "type", "description")
 KEY_LINE_RE = re.compile(r"^([A-Za-z_][A-Za-z0-9_-]*):(.*)$")
 
-# Secciones canónicas que debe traer el esqueleto de plantilla_proyecto.md.
+# Secciones canónicas que debe traer una obra del catálogo y el esqueleto de
+# plantilla_proyecto.md (puntos 10 y 19).
 REQUIRED_PROYECTO_SECTIONS = ("Titulo Original", "Generated", "Master", "style_box", "exclude_box", "lyrics_box")
+# Cajas cuyo CONTENIDO se exige en las obras que declaran el canon vigente.
+PROYECTO_BOX_SECTIONS = ("style_box", "exclude_box", "lyrics_box")
+# Slugs de obras eximidas EXPLÍCITAMENTE del chequeo de contenido (punto 19),
+# como escape adicional a la marca de versión `canon`. Vacío por defecto: las
+# obras históricas ya quedan exentas por no declarar `canon`.
+HISTORICAL_PROYECTO_EXCEPTIONS = set()
 
 # Línea de viñeta dentro de un esqueleto copiable: se compara contra estos
 # marcadores para decidir si es un placeholder determinista o prosa colada.
@@ -195,8 +220,10 @@ PROSE_PLACEHOLDER_MARKERS = ("<", "[", "`")
 # de énfasis Markdown '*'/'_' porque son habituales al final de una nota).
 SENTENCE_END_CHARS = set(".!?:`\"'”»)*_")
 
-# Fragmentos que delatan una ruta-plantilla (placeholder), no un archivo real.
-PLACEHOLDER_TOKENS = ("<", ">", "slug", "NN", "ejemplo", "texto", "archivo.md")
+# Segmentos EXACTOS que delatan una ruta-plantilla (placeholder), no un archivo
+# real. La comparación es por segmento (separadores `/ \\ . -`), no por
+# subcadena: así `texto` ya no coincide dentro de `contexto.md`.
+PLACEHOLDER_SEGMENTS = {"slug", "nn", "ejemplo", "texto", "archivo"}
 
 # Encabezados que NO deben cerrar con puntuación (regla de plantilla_estilo.md §2).
 FORBIDDEN_HEADING_ENDINGS = (".", ":", ";")
@@ -273,8 +300,17 @@ def top_level_yaml_keys(block: str) -> set:
 
 
 def is_placeholder_path(target: str) -> bool:
-    lowered = target.lower()
-    return any(tok.lower() in lowered for tok in PLACEHOLDER_TOKENS)
+    """True si la ruta es un marcador de plantilla, no un archivo real. Se
+    considera placeholder si:
+      - contiene un marcador entre ángulos (`<...>`), o
+      - alguno de sus SEGMENTOS exactos (separados por `/ \\ . _ -`) es un token
+        de plantilla (`slug`, `NN`, `ejemplo`, `texto`, `archivo`).
+    La comparación por segmento exacto evita el falso positivo de la subcadena:
+    `texto` ya no coincide con `contexto.md` (`contexto` no es igual a `texto`)."""
+    if "<" in target or ">" in target:
+        return True
+    segments = re.split(r"[\\/._\-]", target.lower())
+    return any(seg in PLACEHOLDER_SEGMENTS for seg in segments)
 
 
 def iter_markdown_files(root: Path, include_personal: bool, extra_excluded: set):
@@ -300,7 +336,7 @@ def rel_parts(path: Path, root: Path):
 def requires_frontmatter(path: Path, root: Path) -> bool:
     """Rutas de identidad que EXIGEN frontmatter YAML (punto 15). `proyectos/`
     queda fuera a propósito: el catálogo histórico no lo trae de forma
-    universal y exigirlo inundaría el reporte."""
+    universal y exigirlo inundaría el reporte (su chequeo propio es el 19)."""
     parts = rel_parts(path, root)
     if not parts:
         return False
@@ -315,6 +351,57 @@ def requires_frontmatter(path: Path, root: Path) -> bool:
     if top == "chuletas" and name.startswith("plantilla_"):
         return True
     return False
+
+
+def scan_code_blocks(text: str):
+    """ÚNICO parser línea a línea de bloques cercados (CommonMark simplificado).
+
+    Reconoce fences de 3+ backticks o 3+ tildes con hasta 3 espacios de sangría.
+    Una fence de apertura de backticks no puede llevar backticks en su info
+    string (regla CommonMark). La fence de cierre usa el mismo carácter y al
+    menos tantas marcas que la de apertura, y no lleva texto tras las marcas.
+
+    Devuelve una tupla `(blocks, unclosed, stripped)`:
+      - `blocks`: lista con el CONTENIDO INTERNO de cada bloque (sin las líneas
+        de fence), en orden de aparición; un bloque sin cerrar se incluye igual.
+      - `unclosed`: True si quedó una fence abierta al llegar al final.
+      - `stripped`: el texto SIN las líneas de los bloques cercados (fences
+        incluidos), conservando el resto de líneas — sustituye a la vieja
+        eliminación por regex `CODEBLOCK_RE.sub("", ...)`.
+    """
+    blocks = []
+    stripped_lines = []
+    open_marker = None  # (carácter, longitud) de la fence de apertura
+    buf = []
+    for line in text.splitlines():
+        m = FENCE_RE.match(line)
+        if open_marker is None:
+            if m:
+                char = m.group("ticks")[0]
+                length = len(m.group("ticks"))
+                if char == "`" and "`" in m.group("rest"):
+                    # backtick fence con backticks en el info string => no es
+                    # una apertura válida: se trata como línea normal.
+                    stripped_lines.append(line)
+                    continue
+                open_marker = (char, length)
+                buf = []
+            else:
+                stripped_lines.append(line)
+        else:
+            if m:
+                char = m.group("ticks")[0]
+                length = len(m.group("ticks"))
+                if (char == open_marker[0] and length >= open_marker[1]
+                        and m.group("rest").strip() == ""):
+                    blocks.append("\n".join(buf))
+                    open_marker = None
+                    continue
+            buf.append(line)
+    unclosed = open_marker is not None
+    if unclosed:
+        blocks.append("\n".join(buf))
+    return blocks, unclosed, "\n".join(stripped_lines)
 
 
 def check_links(path: Path, text: str, root: Path, problems: list):
@@ -414,12 +501,17 @@ def check_control_chars(path: Path, text: str, root: Path, problems: list):
     )
 
 
-def check_bracket_tags(path: Path, text: str, root: Path, problems: list, label: str = None):
-    """Analiza cada LÍNEA de cada bloque de código con una pila de profundidad,
-    en vez de comparar el total de '[' y ']' del bloque entero. El chequeo
-    agregado anterior podía ocultar un tag individual mal formado si otro tag
-    distinto compensaba el conteo global (ej. una línea con ']' de más y otra
-    con '[' de más sumaban 0 de diferencia y no se detectaban).
+def check_bracket_lines(content: str, where: str, problems: list):
+    """Analiza cada LÍNEA de `content` con una pila de profundidad, en vez de
+    comparar el total de '[' y ']'. El chequeo agregado podía ocultar un tag
+    individual mal formado si otro tag distinto compensaba el conteo global
+    (ej. una línea con ']' de más y otra con '[' de más sumaban 0 y no se
+    detectaban).
+
+    Es el núcleo reutilizable: `check_bracket_tags` lo aplica a cada bloque
+    cercado de un documento, y `check_plantilla_skeletons` lo aplica
+    directamente sobre las líneas del esqueleto ya extraído (que casi nunca
+    contiene sus propios bloques cercados internos).
 
     Asume la convención real del proyecto: un tag `[Verse]`/`[Chorus: nota]`
     abre y cierra en la misma línea, sin anidar corchetes dentro de otros
@@ -430,37 +522,47 @@ def check_bracket_tags(path: Path, text: str, root: Path, problems: list, label:
         en la sintaxis de tags de este proyecto — casi siempre un error de
         tecleo, ej. `[Verse [ad-lib]]`).
     """
+    for line_no, line in enumerate(content.splitlines(), start=1):
+        depth = 0
+        max_depth = 0
+        for ch in line:
+            if ch == "[":
+                depth += 1
+                max_depth = max(max_depth, depth)
+            elif ch == "]":
+                if depth == 0:
+                    snippet = line.strip()[:60] or "(vacío)"
+                    problems.append(
+                        f"[tag mal formado] {where} línea de bloque {line_no}: "
+                        f"']' sin '[' previo en la misma línea: {snippet!r}"
+                    )
+                else:
+                    depth -= 1
+        if depth > 0:
+            snippet = line.strip()[:60] or "(vacío)"
+            problems.append(
+                f"[tag mal formado] {where} línea de bloque {line_no}: "
+                f"{depth} '[' sin cerrar en la misma línea: {snippet!r}"
+            )
+        if max_depth > 1:
+            snippet = line.strip()[:60] or "(vacío)"
+            problems.append(
+                f"[tag anidado sospechoso] {where} línea de bloque {line_no}: "
+                f"corchetes anidados (profundidad {max_depth}), no usado en la sintaxis "
+                f"de tags del proyecto: {snippet!r}"
+            )
+
+
+def check_bracket_tags(path: Path, text: str, root: Path, problems: list, label: str = None):
+    """Corchetes de tags mal formados dentro de los bloques cercados de un
+    documento (punto 3). Extrae los bloques con el parser único y aplica el
+    análisis por línea a cada uno. Se conserva como comprobación INDEPENDIENTE
+    en la pasada general (distinta del análisis directo del esqueleto que hace
+    check_plantilla_skeletons)."""
     where = label or rel(path, root)
-    for block in CODEBLOCK_RE.findall(text):
-        for line_no, line in enumerate(block.splitlines(), start=1):
-            depth = 0
-            max_depth = 0
-            for ch in line:
-                if ch == "[":
-                    depth += 1
-                    max_depth = max(max_depth, depth)
-                elif ch == "]":
-                    if depth == 0:
-                        snippet = line.strip()[:60] or "(vacío)"
-                        problems.append(
-                            f"[tag mal formado] {where} línea de bloque {line_no}: "
-                            f"']' sin '[' previo en la misma línea: {snippet!r}"
-                        )
-                    else:
-                        depth -= 1
-            if depth > 0:
-                snippet = line.strip()[:60] or "(vacío)"
-                problems.append(
-                    f"[tag mal formado] {where} línea de bloque {line_no}: "
-                    f"{depth} '[' sin cerrar en la misma línea: {snippet!r}"
-                )
-            if max_depth > 1:
-                snippet = line.strip()[:60] or "(vacío)"
-                problems.append(
-                    f"[tag anidado sospechoso] {where} línea de bloque {line_no}: "
-                    f"corchetes anidados (profundidad {max_depth}), no usado en la sintaxis "
-                    f"de tags del proyecto: {snippet!r}"
-                )
+    blocks, _unclosed, _stripped = scan_code_blocks(text)
+    for block in blocks:
+        check_bracket_lines(block, where, problems)
 
 
 def check_chupilista_tags(path: Path, text: str, root: Path, problems: list, warnings: list):
@@ -527,23 +629,16 @@ def check_chupilista_tags(path: Path, text: str, root: Path, problems: list, war
 
 
 def check_unclosed_fences(path: Path, text: str, root: Path, problems: list, label: str = None):
-    """Recorre el archivo línea a línea con un estado de apertura/cierre: solo
-    cuentan las líneas que SON una marca de fence (```) con hasta 3 espacios de
-    sangría. Así un ``` incrustado en medio de prosa o dentro de una celda de
-    tabla ya no puede generar un falso positivo, y un ``` con 4+ espacios de
-    sangría (que Markdown renderiza literal, NO como fence) tampoco se cuenta
-    como fence."""
+    """Punto 6 — usa el parser único `scan_code_blocks`: si queda una fence
+    abierta al final del texto, se reporta. Así un ``` incrustado en prosa o en
+    una celda de tabla no genera falsos positivos, y un ``` con 4+ espacios de
+    sangría (que Markdown renderiza literal, NO como fence) tampoco cuenta."""
     where = label or rel(path, root)
-    open_fence = False
-    fence_lines = 0
-    for line in text.splitlines():
-        if FENCE_LINE_RE.match(line):
-            open_fence = not open_fence
-            fence_lines += 1
-    if open_fence:
+    _blocks, unclosed, _stripped = scan_code_blocks(text)
+    if unclosed:
         problems.append(
-            f"[fence sin cerrar] {where}: {fence_lines} línea(s) de fence ``` "
-            f"(número impar, queda un bloque de código abierto)"
+            f"[fence sin cerrar] {where}: queda un bloque de código cercado sin cerrar "
+            f"(marca ``` o ~~~ sin su cierre)"
         )
 
 
@@ -553,7 +648,7 @@ def check_heading_style(path: Path, text: str, root: Path, problems: list, label
     # ``` no es un encabezado real del documento. En las plantillas, además, ese
     # encabezado ya se valida como esqueleto (check_plantilla_skeletons), de modo
     # que analizarlo también aquí duplicaba avisos o inventaba saltos de nivel.
-    text = CODEBLOCK_RE.sub("", text)
+    text = scan_code_blocks(text)[2]
     levels = []
     for m in HEADING_RE.finditer(text):
         hashes, title = m.group(1), m.group(2)
@@ -726,33 +821,30 @@ def check_skeleton_prose_leak(inner: str, where: str, problems: list):
             )
 
 
-def strip_fence(block: str) -> str:
-    """Quita la línea de apertura ```lenguaje y el cierre ``` de un bloque."""
-    inner = re.sub(r"\A```[a-zA-Z0-9_-]*\n", "", block)
-    inner = re.sub(r"\n```\Z", "", inner)
-    return inner
-
-
 def check_plantilla_skeletons(path: Path, text: str, root: Path, problems: list):
     """Las plantillas generativas deben producir esqueletos compatibles con las
-    convenciones reales: se extrae cada bloque de código y se le aplican los
-    mismos chequeos de forma (YAML, fences, encabezados) que a un documento real.
-    Además, toda plantilla generativa debe traer al menos un esqueleto."""
+    convenciones reales: se extrae cada bloque de código (con el parser único) y
+    se le aplican los mismos chequeos de forma que a un documento real —YAML,
+    encabezados, FENCES SIN CERRAR y corchetes de tags—. Los corchetes se
+    analizan DIRECTAMENTE sobre las líneas del esqueleto (check_bracket_lines),
+    no buscando bloques cercados internos que casi nunca existen dentro del
+    esqueleto ya extraído. Además, toda plantilla generativa debe traer al menos
+    un esqueleto."""
     if not path.name.startswith("plantilla_"):
         return
-    blocks = CODEBLOCK_RE.findall(text)
+    blocks, _unclosed, _stripped = scan_code_blocks(text)
     if not blocks:
         problems.append(
             f"[plantilla sin esqueleto] {rel(path, root)}: una plantilla generativa "
             f"debe traer al menos un bloque de código copiable"
         )
         return
-    for idx, block in enumerate(blocks, start=1):
-        inner = strip_fence(block)
+    for idx, inner in enumerate(blocks, start=1):
         label = f"{rel(path, root)} (esqueleto #{idx})"
         check_yaml_frontmatter_shape(path, inner, root, problems, label=label)
         check_heading_style(path, inner, root, problems, label=label)
-        check_bracket_tags(path, inner, root, problems, label=label)
+        check_unclosed_fences(path, inner, root, problems, label=label)
+        check_bracket_lines(inner, label, problems)
         if path.name not in PROSE_RICH_PLANTILLAS:
             check_skeleton_prose_leak(inner, label, problems)
 
@@ -778,10 +870,10 @@ def check_proyecto_skeleton_sections(path: Path, text: str, root: Path, problems
     las secciones canónicas de un proyecto."""
     if path.name != "plantilla_proyecto.md":
         return
-    blocks = CODEBLOCK_RE.findall(text)
+    blocks, _unclosed, _stripped = scan_code_blocks(text)
     if not blocks:
         return  # ya lo marca check_plantilla_skeletons ([plantilla sin esqueleto])
-    inner = strip_fence(blocks[0])
+    inner = blocks[0]
     if not inner.lstrip().startswith("---"):
         problems.append(
             f"[esqueleto de proyecto sin frontmatter] {rel(path, root)}: el bloque copiable no empieza con YAML `---`"
@@ -799,10 +891,20 @@ def check_document_identity(path: Path, text: str, root: Path, problems: list):
         cuando corresponde (con el nombre de la CARPETA en los `SKILL.md`).
       - hay EXACTAMENTE un `# H1` fuera de bloques de código, y coincide con
         `name`.
-    Se exceptúan los nombres canónicos de raíz (README.md, CLAUDE.md, MEMORY.md,
-    PROYECTOS.md), cuyo H1 es un título humano."""
+    En los nombres canónicos de raíz (README.md, CLAUDE.md, MEMORY.md,
+    PROYECTOS.md) se exime SOLO la igualdad `name == archivo` (su H1 es un título
+    humano), pero se sigue exigiendo exactamente un H1."""
+    h1s = H1_RE.findall(scan_code_blocks(text)[2])
+
     if path.name in CANONICAL_FILENAMES:
+        # Solo se exime la igualdad name==archivo; el H1 sigue siendo obligatorio.
+        if len(h1s) != 1:
+            problems.append(
+                f"[identidad: H1 múltiple o ausente] {rel(path, root)}: {len(h1s)} encabezados H1 fuera "
+                f"de bloques de código (se espera exactamente 1)"
+            )
         return
+
     name = frontmatter_name(text)
     if not name:
         return  # sin `name` no hay identidad que comparar (lo cubre el punto 4)
@@ -818,8 +920,6 @@ def check_document_identity(path: Path, text: str, root: Path, problems: list):
             f"[identidad: name != archivo] {rel(path, root)}: name={name!r} no coincide con {origen} ({expected!r})"
         )
 
-    text_wo_code = CODEBLOCK_RE.sub("", text)
-    h1s = H1_RE.findall(text_wo_code)
     if len(h1s) != 1:
         problems.append(
             f"[identidad: H1 múltiple o ausente] {rel(path, root)}: {len(h1s)} encabezados H1 fuera "
@@ -829,6 +929,61 @@ def check_document_identity(path: Path, text: str, root: Path, problems: list):
         problems.append(
             f"[identidad: H1 != name] {rel(path, root)}: H1={h1s[0]!r} no coincide con name={name!r}"
         )
+
+
+def is_proyecto_obra(path: Path, root: Path) -> bool:
+    """True si `path` es una obra del catálogo: `proyectos/<slug>/<slug>.md`."""
+    parts = rel_parts(path, root)
+    return (
+        len(parts) == 3
+        and parts[0] == "proyectos"
+        and parts[2] == parts[1] + ".md"
+    )
+
+
+def section_body(text: str, name: str):
+    """Cuerpo de la sección `## name` hasta el siguiente `## ` o el final.
+    Devuelve None si la sección no existe, o el texto del cuerpo (posiblemente
+    vacío) si existe."""
+    m = re.search(r"^##[ \t]+" + re.escape(name) + r"[ \t]*$", text, re.MULTILINE)
+    if not m:
+        return None
+    start = m.end()
+    nxt = re.search(r"^##[ \t]+", text[start:], re.MULTILINE)
+    return text[start:start + nxt.start()] if nxt else text[start:]
+
+
+def check_proyecto_obra(path: Path, text: str, root: Path, problems: list):
+    """Punto 19 — obras del catálogo (`proyectos/<slug>/<slug>.md`).
+
+    - Las seis secciones núcleo deben EXISTIR siempre (guardarraíl estructural
+      barato: hoy todas las obras las cumplen, así que no inunda el reporte).
+    - Las tres cajas deben tener CONTENIDO solo cuando la obra declara la versión
+      de canon vigente (`canon:` truthy en su frontmatter) y su slug no está en
+      HISTORICAL_PROYECTO_EXCEPTIONS. Las obras sin marca de canon (histórico)
+      se eximen del chequeo de contenido: el canon puede evolucionar y las obras
+      antiguas pueden no cumplirlo.
+    """
+    if not is_proyecto_obra(path, root):
+        return
+    slug = path.name[:-3]
+
+    missing = [s for s in REQUIRED_PROYECTO_SECTIONS if section_body(text, s) is None]
+    if missing:
+        problems.append(
+            f"[obra sin sección canónica] {rel(path, root)}: falta(n) sección(es): {', '.join(missing)}"
+        )
+
+    canon = frontmatter_value(text, "canon")
+    is_versioned = canon not in (None, "", "0", "false", "False", "no")
+    if is_versioned and slug not in HISTORICAL_PROYECTO_EXCEPTIONS:
+        for box in PROYECTO_BOX_SECTIONS:
+            body = section_body(text, box)
+            if body is not None and body.strip() == "":
+                problems.append(
+                    f"[obra con caja vacía] {rel(path, root)}: la sección '{box}' está vacía "
+                    f"(la obra declara canon {canon!r}, que exige contenido en las cajas)"
+                )
 
 
 def check_library_indexing(root: Path, problems: list):
@@ -884,21 +1039,12 @@ def print_grouped(header: str, items: list):
             print(f"    - {it}")
 
 
-def main():
-    parser = argparse.ArgumentParser(description="Validador automático del proyecto Paul McChatney")
-    parser.add_argument("ruta", nargs="?", default=".", help="Raíz del proyecto a validar")
-    parser.add_argument("--incluir-personales", action="store_true",
-                         help="Incluye _hojas_sucias, _temp, _produccion, _prompts_antiguos, _docs")
-    parser.add_argument("--excluir", nargs="+", default=[], metavar="DIR",
-                         help="Nombres de carpeta adicionales a saltar (ej. --excluir proyectos)")
-    args = parser.parse_args()
-
-    root = Path(args.ruta).resolve()
-    extra_excluded = set(args.excluir)
+def collect_problems(root: Path, include_personal: bool, extra_excluded: set):
+    """Recorre el árbol y devuelve `(problems, warnings)`. Aislado de `main`
+    para poder ejercitar el flujo completo desde las pruebas de integración."""
     problems = []
     warnings = []
-
-    for path in iter_markdown_files(root, args.incluir_personales, extra_excluded):
+    for path in iter_markdown_files(root, include_personal, extra_excluded):
         try:
             text = path.read_text(encoding="utf-8")
         except UnicodeDecodeError:
@@ -919,8 +1065,25 @@ def main():
         check_plantilla_type(path, text, root, problems)
         check_proyecto_skeleton_sections(path, text, root, problems)
         check_document_identity(path, text, root, problems)
+        check_proyecto_obra(path, text, root, problems)
 
     check_library_indexing(root, problems)
+    return problems, warnings
+
+
+def main():
+    parser = argparse.ArgumentParser(description="Validador automático del proyecto Paul McChatney")
+    parser.add_argument("ruta", nargs="?", default=".", help="Raíz del proyecto a validar")
+    parser.add_argument("--incluir-personales", action="store_true",
+                         help="Incluye _hojas_sucias, _temp, _produccion, _prompts_antiguos, _docs")
+    parser.add_argument("--excluir", nargs="+", default=[], metavar="DIR",
+                         help="Nombres de carpeta adicionales a saltar (ej. --excluir proyectos)")
+    args = parser.parse_args()
+
+    root = Path(args.ruta).resolve()
+    extra_excluded = set(args.excluir)
+
+    problems, warnings = collect_problems(root, args.incluir_personales, extra_excluded)
 
     if not problems and not warnings:
         print("OK - Sin problemas detectados.")

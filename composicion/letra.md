@@ -142,9 +142,11 @@ description: Escritura técnica y tipografía como partitura física. narrativa,
 | **Trisílabo**   |    3    | La noche.             | (La-no-che)                |
 | **Tetrasílabo** |    4    | Bella noche.          | (Be-lla no-che)            |
 | **Pentasílabo** |    5    | Oscura noche.         | (Os-cu-ra-no-che)          |
-| **Hexasílabo**  |    6    | La oscura noche.      | (La-os-cu-ra-no-che)       |
-| **Heptasílabo** |    7    | Esta oscura noche.    | (Es-ta-os-cu-ra-no-che)    |
-| **Octosílabo**  |    8    | La noche está oscura. | (La-no-che-es-tá-os-cu-ra) |
+| **Hexasílabo**  |    6    | La noche muy larga.      | (La-no-che-muy-lar-ga)        |
+| **Heptasílabo** |    7    | La noche silenciosa.     | (La-no-che-si-len-cio-sa)     |
+| **Octosílabo**  |    8    | La noche muy silenciosa. | (La-no-che-muy-si-len-cio-sa) |
+
+*Estos ejemplos evitan el contacto vocálico entre palabras, así el cómputo es directo, sin sinalefa ni dialefa. Cuando dos palabras juntan vocal final e inicial (`La oscura`), la sinalefa las fusiona en una sílaba (§3.2) y solo forzando dialefa se contarían por separado.*
 
 #### Arte mayor (9 a 14 sílabas)
 
@@ -176,7 +178,9 @@ description: Escritura técnica y tipografía como partitura física. narrativa,
 
 - *Repetición **solo de las vocales** desde la última vocal acentuada (las consonantes varían).*
 
-> Casi anónima sonrí**e**s
-> y el sol te dora el cab**e**ll**o**.
-> ¿Por qué para ser fel**i**z
-> hace falta no sab**e**r
+> Se despereza la mañ**a**n**a**
+> y alumbra el largo send**e**r**o**,
+> despierta al fin la camp**a**n**a**,
+> temblando bajo el luc**e**r**o**.
+
+*Rima asonante cruzada (a-b-a-b): los versos impares comparten la asonancia **a–a** (`mañana` / `campana`) y los pares la **e–o** (`sendero` / `lucero`), repitiendo solo las vocales desde la última tónica.*

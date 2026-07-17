@@ -12,12 +12,11 @@ description: Directrices internas y aprendizaje transversal validado de Paul McC
 
 ## Ciclo de vida del aprendizaje
 
-- *Orquesta el ciclo con la skill `retrospectiva`.*
+- *Orquesta el ciclo con la skill `retrospectiva`. Política canónica de `aprobar`/`cerrar`/`retrospectiva`: `.claude/skills/proyecto/SKILL.md` (§6-7); aquí no se repite.*
     - **Regla de oro:** un prompt sin aprobar es hipótesis, no conocimiento.
     - **El aprendizaje no depende de aprobar la obra:** puede surgir en cualquier fase o fuente validada por el usuario —una instrucción, una corrección, una prueba técnica, una lógica nueva, una función de Suno, una decisión durante `produccion` o un prompt aprobado.
     - **La validación relevante es la del aprendizaje:** un aprendizaje sube a `MEMORY.md` o `composicion/` solo cuando el usuario aprueba explícitamente ese aprendizaje.
-    - **Aprobar una obra no aprueba automáticamente aprendizajes.**
-    - **Aprobar un aprendizaje no aprueba automáticamente la obra.**
+    - **Aprobar la obra y aprobar un aprendizaje son acciones independientes** (canon en `proyecto` §7).
 
 ## Principios
 

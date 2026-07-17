@@ -49,7 +49,7 @@ description: Construye el style_box de una obra, define el núcleo estilístico 
 
 - *Fundación técnica de la obra. El canon de cada categoría se recupera vía `buscar_tag` (mapa `.claude/rules/chupilista.md`); los módulos indican el origen canónico, no una lectura directa a `chupilista/`.*
     - **Core Genres and Subgenres** (`chupilista` · 01): Fundación rítmica y lenguaje armónico base, siempre al principio.
-    - **Instrumentation and Stems** (`chupilista` · 03): Instrumentos estructurales base y/o protagonistas; usa Tag Anchoring con 3-4 instrumentos.
+    - **Instrumentation and Stems** (`chupilista` · 03): Instrumentos estructurales base y/o protagonistas; usa Tag Anchoring con 2-4 instrumentos.
     - **Vocal Persona and Timbre** (`chupilista` · 04): Descriptor base de voz.
     - **Rhythm and Tempo** (`chupilista` · 05): BPM, groove, modulaciones métricas, cambios de tempo o pausas.
     - **Music Theory Harmony and Scales** (`chupilista` · 07): Tonalidades específicas o progresiones de acordes.
@@ -59,7 +59,7 @@ description: Construye el style_box de una obra, define el núcleo estilístico 
 
 - **Menos es más:** 12–20 tags bien elegidas rinden más que 40.
 - **Estilo, no artista:** describe el sonido; nunca nombres propios de artistas reales.
-- **`[Epic]` siempre con apoyo:** solo queda vacío.
+- **[Epic]** nunca debe aparecer solo; acompáñalo de un descriptor”.
     - **Ejemplo:** `[Epic Orchestral]`, `[Epic Cinematic]`.
 - **Ghost tag:** un tag muy específico al final del `style_box`.
     - **Ejemplo:** `[Hurdy-gurdy]`.

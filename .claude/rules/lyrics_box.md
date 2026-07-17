@@ -1,7 +1,7 @@
 ---
 name: lyrics_box
 type: map
-description: "Tags del lyrics_box: control por corchetes, dirección de banda, estructura y hacks temporales."
+description: Tags del lyrics_box: control por corchetes, dirección de banda, estructura y hacks temporales.
 ---
 
 - *No se carga con `@`, este índice es el mapa concepto→archivo, abre `composicion/lyrics_box.md` bajo demanda con la herramienta de lectura.*
@@ -13,7 +13,7 @@ description: "Tags del lyrics_box: control por corchetes, dirección de banda, e
 
 ## Índice
 
-`1 · Tags del lyrics_box`
+`1 · Etiquetas del lyrics_box`
     `1.1 · Modificadores parametrizados`
     `1.2 · Comandos de Actuación - La "banda imperfecta"`
     `1.3 · DAW-Style Meta-Hacks`

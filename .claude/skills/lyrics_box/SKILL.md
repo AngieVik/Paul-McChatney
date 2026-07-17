@@ -1,7 +1,7 @@
 ---
 name: lyrics_box
 type: skill
-description: Orquestadora del lyrics_box. Toma el boceto de letra de Fase 3 y lo desarrolla en Fases 4 y 5 —estructura, dirección de banda, técnica vocal, métrica y efectos— preservando la lírica. Activable en `produccion` o en modo conversacional.
+description: Orquestadora del lyrics_box. Toma el boceto de letra de Fase 3 y lo desarrolla en Fases 4 y 5 —estructura, dirección de banda, técnica vocal, métrica y efectos— preservando la lírica.
 ---
 
 # lyrics_box
@@ -32,7 +32,7 @@ description: Orquestadora del lyrics_box. Toma el boceto de letra de Fase 3 y lo
 
 ## Parámetros de Entrada
 
-- **Boceto de Letra:** la letra limpia de Fase 3 (sin tags), base intocable de la calidad lírica.
+- **Boceto de Letra:** la letra limpia de Fase 3 (sin tags), base de la calidad lírica.
 - **Dictamen de Estilo:** el `style_box` compilado en Fase 2, para mantener coherencia sonora.
 - **Intención de Sección:** estructura, energía, giros o momentos concretos pedidos por el usuario.
 - **Material Existente:** `lyrics_box` ya iniciado para revisar, corregir o iterar.
@@ -54,7 +54,7 @@ description: Orquestadora del lyrics_box. Toma el boceto de letra de Fase 3 y lo
 - **La letra manda:** las tags dirigen, no reescriben la historia; el texto cantable conserva su calidad de Fase 3.
 - **Un evento, un corchete:** aísla conceptos en columna; tags cortas y contundentes.
 - **Canon con criterio:** usa `buscar_tag` para lo canónico; las creaciones se justifican por función.
-- **Separación de cajas:** las tags de estilo global viven en el `style_box`; aquí solo van eventos temporales dentro de la letra.
+- **Separación de cajas:** las tags de estilo global viven en el `style_box`; aquí solo van eventos temporales dentro de la letra, el `style_box` compilado en Fase 2 se usa para mantener coherencia sonora.
 
 ---
 
@@ -65,3 +65,5 @@ description: Orquestadora del lyrics_box. Toma el boceto de letra de Fase 3 y lo
 - `efectos` (archivo técnico) aporta la capa de post-producción de Fase 5.
 - `buscar_tag` extrae canon de secciones, moods, FX y dinámicas.
 - `fonetizar` y `jerga` reanclan el acento sobre la letra si se solicita anclaje regional o fonético.
+
+---
