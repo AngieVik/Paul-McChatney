@@ -401,7 +401,6 @@ description: Colección exhaustiva de tags negativas para evitar estilos musical
 [Phaser Sweeps]
 [Pitch Correction]
 [Pitch Sliding]
-[Pitch-Correction]
 [Pitch-Shifter]
 [Pitch-Shifting]
 [Polyphonic Generator]

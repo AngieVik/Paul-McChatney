@@ -530,7 +530,6 @@ description: Colección exhaustiva de tags sobre la estructura musical, seccione
 [Mathematical Meshuggah Style Breakdown Chug]
 [Metallic Ring-Modulated Cybernetic Bridge]
 [Micro-Glitch Stutter Retrigger Breakdown]
-[Mid 8]
 [Mid-8]
 [Mini Bridge]
 [Minimalist Near-Silence Bridge Void]

@@ -49,6 +49,7 @@ description: Contexto de carga, reglas de lectura y mapa principal del proyecto 
 | Técnica de composición                  | `.claude/rules/composicion.md`      | `composicion/<archivo>.md`, solo el archivo técnico necesario.         |
 | Efectos, transiciones y post-producción | `.claude/rules/efectos.md`          | `composicion/efectos.md`.                                              |
 | `exclude_box`                           | `.claude/rules/exclude_box.md`      | `composicion/exclude_box.md`.                                          |
+| Formato de entrega                      | `.claude/rules/formato.md`          | `composicion/formato.md`.                                              |
 | Acento o idioma cantado                 | `.claude/rules/fonetizar.md`        | `fonetizar/<archivo>.md`, solo el que se pida.                         |
 | Jerga regional                          | `.claude/rules/jerga.md`            | `jerga/<archivo>.md`, solo el que se pida.                             |
 | Letra limpia                            | `.claude/rules/letra.md`            | `composicion/letra.md`.                                                |
