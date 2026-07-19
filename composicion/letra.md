@@ -21,7 +21,7 @@ description: Escritura técnica y tipografía como partitura física. narrativa,
 
 `1 · Narrativa`
   `1.1 · Métrica y lirismo libre`
-  `1.2 · Rigidez estructural (solo Fases 4 y 5)`
+  `1.2 · Rigidez estructural`
   `1.3 · Anclaje regional mediante jerga`
 `2 · letra`
   `2.1 · Cadencia y sustain`
@@ -45,7 +45,7 @@ description: Escritura técnica y tipografía como partitura física. narrativa,
 
   *Autonomía total sobre longitud de verso, ritmo silábico e historia. Escribe desde la inspiración pura.*
 
-### 1.2 · Rigidez estructural (solo Fases 4 y 5)
+### 1.2 ·   `Rigidez estructural
 
   *En Fase 3 el lirismo va 100% libre de tags. En Fases 4 y 5 es obligatorio ceñirse a la arquitectura.*
 
@@ -136,12 +136,12 @@ description: Escritura técnica y tipografía como partitura física. narrativa,
 
 *Típicos de la poesía popular y tradicional.*
 
-| Verso           | Sílabas | Ejemplo               | División                   |
-| :-------------- | :-----: | :-------------------- | :------------------------- |
-| **Bisílabo**    |    2    | Noche.                | (No-che)                   |
-| **Trisílabo**   |    3    | La noche.             | (La-no-che)                |
-| **Tetrasílabo** |    4    | Bella noche.          | (Be-lla no-che)            |
-| **Pentasílabo** |    5    | Oscura noche.         | (Os-cu-ra-no-che)          |
+| Verso           | Sílabas | Ejemplo                  | División                      |
+| :-------------- | :-----: | :----------------------- | :---------------------------- |
+| **Bisílabo**    |    2    | Noche.                   | (No-che)                      |
+| **Trisílabo**   |    3    | La noche.                | (La-no-che)                   |
+| **Tetrasílabo** |    4    | Bella noche.             | (Be-lla no-che)               |
+| **Pentasílabo** |    5    | Oscura noche.            | (Os-cu-ra-no-che)             |
 | **Hexasílabo**  |    6    | La noche muy larga.      | (La-no-che-muy-lar-ga)        |
 | **Heptasílabo** |    7    | La noche silenciosa.     | (La-no-che-si-len-cio-sa)     |
 | **Octosílabo**  |    8    | La noche muy silenciosa. | (La-no-che-muy-si-len-cio-sa) |

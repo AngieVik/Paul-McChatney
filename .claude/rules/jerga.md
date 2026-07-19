@@ -1,7 +1,7 @@
 ---
 name: jerga
 type: map
-description: Guías de jerga para idiomas y dialectos. Permiten inyectar jerga específica en la letra.
+description: Guías de jerga para idiomas y dialectos, Permiten inyectar jerga específica en la letra.
 ---
 
 - *No se carga con `@`, este índice es el mapa concepto→archivo, abre cada `jerga/<archivo>.md` bajo demanda con la herramienta de lectura, solo el/los que necesites.*
@@ -28,3 +28,5 @@ description: Guías de jerga para idiomas y dialectos. Permiten inyectar jerga e
 | <a href="../../jerga/lunfardo_rioplatense.md">`lunfardo_rioplatense.md`</a>   | Lunfardo Rioplatense                          | Constituye el núcleo léxico del habla coloquial de todas las clases sociales en la región del Río de la Plata.                                   |
 | <a href="../../jerga/parlache_medellin.md">`parlache_medellin.md`</a>         | Parlache Medellin                             | La columna vertebral del habla coloquial de la juventud antioqueña y colombiana en general.                                                      |
 | <a href="../../chuletas/plantilla_jerga.md">`plantilla_jerga.md`</a>          | Plantilla Jerga                               | Estructura vacía para crear guías de nuevas jergas.                                                                                              |
+
+ ---

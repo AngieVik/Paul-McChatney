@@ -1,7 +1,7 @@
 ---
 name: fonetizar
 type: map
-description: Biblioteca de transcripción fonética para TTS: cómo escribir una palabra o frase para que el motor de voz reproduzca una pronunciación, acento, edad, estado o forma de hablar concreta.
+description: guia de instrucciones fonéticas para escribir con una pronunciación, acento, edad, estado o forma de hablar concreta.
 ---
 
 - *No se carga con `@`, este índice es el mapa concepto→archivo, abre cada `fonetizar/<archivo>.md` bajo demanda con la herramienta de lectura, solo el/los que necesites.*
@@ -11,7 +11,7 @@ description: Biblioteca de transcripción fonética para TTS: cómo escribir una
 
 # fonetizar
 
-- *Biblioteca de transcripción fonética orientada a TTS: cada guía indica cómo ESCRIBIR una palabra o frase para que el motor de voz reproduzca una pronunciación, un acento, una edad, un estado físico o una forma de hablar concreta.*
+- *Guia de instrucciones fonéticas que indican cómo ESCRIBIR una palabra o frase para que el motor de voz reproduzca una pronunciación, un acento, una edad, un estado físico o una forma de hablar concreta.*
 - *Los perfiles basados en identidad se describen mediante rasgos fonéticos observables (articulación, prosodia, ritmo, tensión vocal), nunca mediante estereotipos.*
 
 ## Guías disponibles
@@ -44,3 +44,5 @@ description: Biblioteca de transcripción fonética para TTS: cómo escribir una
 | <a href="../../fonetizar/gallego.md">`gallego.md`</a>                             | Gallego                 | Sistema vocálico propio, gheada, seseo gallego.                            |
 | <a href="../../fonetizar/mexicano_centro.md">`mexicano_centro.md`</a>             | Mexicano centro         | Aspiración de 's', seseo, diptongación y ritmo acentual.                   |
 | <a href="../../chuletas/plantilla_fonetizar.md">`plantilla_fonetizar.md`</a>      | Plantilla base          | Estructura vacía para crear guías de nuevos idiomas.                       |
+
+---

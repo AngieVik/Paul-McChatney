@@ -12,7 +12,7 @@ description: Vocabulario exhaustivo de tags y modificadores, la chupilista es la
 
 # chupilista
 
-## Indices
+## Indice
 
 - Indice 01_core_genres_and_subgenres
 `1 · Música Electrónica, Dance y Derivados Sintéticos`
@@ -188,3 +188,5 @@ description: Vocabulario exhaustivo de tags y modificadores, la chupilista es la
 | <a href="../../chupilista/13_advanced_modifiers_allowed.md">`13_advanced_modifiers_allowed.md`</a>                   | Modificadores avanzados: combinaciones aprobadas y uso de tags poco comunes.     |
 | <a href="../../chupilista/14_nudging_and_callbacks.md">`14_nudging_and_callbacks.md`</a>                             | Nudging y callbacks: cómo encontrar un resultado específico entre intentos.      |
 | <a href="../../chupilista/15_negative_prompts_and_exclude_styles.md">`15_negative_prompts_and_exclude_styles.md`</a> | Prompts negativos y exclusiones: qué excluir del style_box y cómo formularlo.    |
+
+---

@@ -1,7 +1,7 @@
 ---
 name: style_box
 type: map
-description: Construcción del style_box: Etiquetas, Fusión y frecuencias, Dinámicas rítmicas y estructurales, Colisión tímbrica.
+description: Construcción del style_box con Etiquetas, Fusión y frecuencias, Dinámicas rítmicas y estructurales, Colisión tímbrica.
 ---
 
 - *No se carga con `@`, este índice es el mapa concepto→archivo, abre `composicion/style_box.md` bajo demanda con la herramienta de lectura.*
@@ -43,3 +43,5 @@ description: Construcción del style_box: Etiquetas, Fusión y frecuencias, Din�
 | Archivo                                                     | Contenido                                                                                                                                        |
 | ----------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
 | <a href="../../composicion/style_box.md">`style_box.md`</a> | **style_box** Construcción del style_box: Tag Anchoring, anclaje temporal y colisión de opuestos (fusión lingüístico-tonal, rítmica y tímbrica). |
+
+---

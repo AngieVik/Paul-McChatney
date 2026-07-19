@@ -28,3 +28,5 @@ description: Prompting inverso y control de artefactos, qué bloquear en el excl
 | Archivo                                                         | Contenido                                                                                  |
 | --------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
 | <a href="../../composicion/exclude_box.md">`exclude_box.md`</a> | **exclude_box** Prompting inverso y control de artefactos: qué bloquear en el exclude_box. |
+
+---

@@ -29,3 +29,5 @@ description: Post-producción, espacio estéreo, DSP, texturas, transiciones y S
 | Archivo                                                 | Contenido                                                                        |
 | ------------------------------------------------------- | -------------------------------------------------------------------------------- |
 | <a href="../../composicion/efectos.md">`efectos.md`</a> | **efectos** Post-producción: espacio estéreo, DSP, texturas, transiciones y SFX. |
+
+---

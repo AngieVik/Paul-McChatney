@@ -23,3 +23,5 @@ description: Índice maestro de plantillas para la creación de archivos, y esti
 | <a href="../../chuletas/plantilla_map.md">`plantilla_map.md`</a>                 | Resumen del contenido indexado.                                                                                                 |
 | <a href="../../chuletas/plantilla_proyecto.md">`plantilla_proyecto.md`</a>       | Plantilla canónica de consolidación. Se aplica al aprobar una obra para generar `proyectos/<slug>/<slug>.md`.                   |
 | <a href="../../chuletas/plantilla_skill.md">`plantilla_skill.md`</a>             | Rol de orquestación en positivo.                                                                                                |
+
+---

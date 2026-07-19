@@ -22,3 +22,5 @@ description: Índice maestro de los archivos de composición, saber de oficio y 
 | <a href="../../composicion/lyrics_box.md">`lyrics_box.md`</a>             | Construcción del lyrics_box: estructura, dirección de banda, comandos temporales, mood y production.          |
 | <a href="../../composicion/style_box.md">`style_box.md`</a>               | Construcción del style_box: tags, fusión, anclaje temporal, colisión tímbrica y arquitectura sonora.          |
 | <a href="../../composicion/tecnicas_vocales.md">`tecnicas_vocales.md`</a> | Dirección vocal: persona vocal, timbre, duetos, coros, armonías, tesitura, puntuación e interpretación.       |
+
+---
