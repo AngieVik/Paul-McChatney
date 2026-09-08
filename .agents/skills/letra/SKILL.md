@@ -1,0 +1,104 @@
+---
+name: letra
+description: "Use when el usuario pide escribir, revisar o transformar una letra limpia sin tags, dentro o fuera de `produccion`."
+---
+# letra
+
+- *Escribe solo la letra limpia —calidad poética y narrativa, sin corchetes ni tags—: el esqueleto cantable de la obra.*
+
+---
+
+## Activación
+
+- **En `produccion`:** Fase 3 de `produccion`; produce el boceto de letra que alimentará el `lyrics_box` en Fase 4.
+- **En modo conversacional:** se activa de forma independiente cuando el usuario pide crear o modificar una letra, sobre un mood, una obra o una escritura suelta.
+
+---
+
+## Fuentes de Consulta
+
+- *Antes de escribir o revisar, consulta el mapa y abre el archivo técnico obligatorio.*
+    - **Mapa:** `.agents/maps/letra.md`
+    - **Archivo técnico:** `composicion/letra.md` (§1 narrativa, §2 tipografía como partitura, §3 métrica)
+- *Para anclaje regional y acento cantado, aplica las skills correspondientes antes o después de escribir la letra.*
+    - **Jerga / modismos locales:** `jerga` → `.agents/maps/jerga.md`
+    - **Fonética / acento:** `fonetizar` → `.agents/maps/fonetizar.md`
+
+---
+
+## Parámetros de Entrada
+
+- **Tema y concepto:** historia, mood u obra sobre la que se escribe.
+- **Voz narrativa y tono:** perspectiva y carga emocional.
+- **Anclaje regional (opcional):** acento o región objetivo servido por `jerga`/`fonetizar`.
+- **Material existente (opcional):** letra ya escrita para revisar, ampliar o corregir.
+
+---
+
+## Flujo de Ejecución
+
+- **Fijar narrativa:** define voz narrativa, historia y tono (§1 de `composicion/letra.md`).
+- **Escribir con cadencia:** decide conscientemente dónde sostener, cortar o quebrar la cadencia; para conteo silábico y formas clásicas (soleá, seguiriya, romance…) usa §3 cuando sirvan a la obra.
+- **Anclar región:** inyecta jerga y modismos locales que fuercen el acento vía `jerga`; refuerza el acento cantado con `fonetizar` si se solicita.
+- **Huir del cliché de IA:** perspectivas únicas, verbos contundentes, frescura; deja respirar la narrativa y evita lo mínimo exigible.
+- **Entregar y parar:** letra limpia sin corchetes (`composicion/formato.md §2`), a la espera de revisión del usuario.
+
+---
+
+## Reglas heredadas
+
+- Sin tags, 100% lírica libre (`composicion/letra.md §1.1`).
+- Las técnicas del manual son recursos de oficio. Puedes desviarte de una forma, rima o regularidad cuando el desvío tenga una función narrativa, vocal o rítmica y conserve la intención del usuario.
+- Desarrollo ambicioso: deja que la narrativa respire, evita lo mínimo exigible.
+- Si el cierre de verso va sin puntuación, se encadena en una misma respiración (§2.4).
+
+---
+
+## Ejemplo
+
+**Entrada:**
+
+```text
+Cartero rural que nunca llega, Tono melancólico, jota aragonesa.
+```
+
+**Salida:**
+
+```text
+El cartero que no llega
+miro la pared rascá
+y el cartero que no llega
+soy la última que aguanta
+en este pueblo de piedra en este pueblo de piedra
+miro la pared rascá
+>
+¡Ay! que la grieta se abre
+¡Ay! que el silencio me traga
+Golpea el viento en la chapa
+y en la calle no hay un alma...
+>
+No hay críos por la placeta
+ya no humean los tejaos
+ni hay críos por la placeta
+solo el cierzo que me habla
+por la puerta entreabierta por la puerta entreabierta
+ya no humean los tejaos
+>
+¡Ay! que la grieta se abre
+¡Ay! que el silencio me traga
+Golpea el viento en la chapa
+y en la calle no hay un alma...
+>
+Pero miro a la cancela
+no espero ninguna carta
+pero miro a la cancela
+que hasta el polvo del camino
+se olvidó de quién me espera se olvidó de quién me espera
+no espero ninguna carta
+>
+No
+Espero
+Ninguna carta
+```
+
+---

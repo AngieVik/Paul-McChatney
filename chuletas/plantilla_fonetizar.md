@@ -16,13 +16,15 @@ name: <slug>
 type: fonetizar
 description: "<descripcion>"
 region: "<ambito>"
+status: "<documentada | heuristica_artistica>"
+sources: "<referencias | sin_fuentes>"
 ---
 
 # <slug>
 
 ## Perfil Fonético General
 
-Una introducción al "carácter" del idioma para establecer la postura articulatoria del lector.
+Una introducción a los rasgos fonéticos usados, su alcance y sus límites. Evita convertir tendencias en atributos universales de un grupo.
 
 - **Descripción:** [Ritmo, tono base y posición de la lengua\boca].
 - **Rasgo Distintivo:** [Ej. "Lenguaje no rótico, las 'r' finales se vocalizan"].
@@ -104,5 +106,7 @@ Definición de cómo los hablantes nativos de este idioma distorsionan los fonem
 - *Para separar las sílabas, usa un espacio en lugar de un guion. Usa un guion cuando haya un alargamiento vocal o una pausa breve (tipo respiración).*
 - **`<descripcion>`:** breve descripción general del sistema fonológico. Ej. "Sistema opaco, requiere memorización de patrones ortográficos".
 - **`<ambito>`:** región, idioma.
+- **`<documentada | heuristica_artistica>`:** distingue una guía apoyada en fuentes de un perfil creativo estilizado.
+- **`<referencias | sin_fuentes>`:** enumera referencias verificables o declara de forma explícita que no existen.
 
 ---

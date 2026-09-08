@@ -31,11 +31,11 @@ description: <descripcion>
 ## Referencias
 
 - **Manual Técnico:**
-    - **Indexado desde:** `.claude/rules/<name>.md`
+    - **Indexado desde:** `.agents/maps/<name>.md`
 - **Manual Transversal:**
-    - **Indexado desde:** `.claude/rules/composicion.md`
-- **Complementarios (cualquier variante, solo si existen):** `composicion/<x>.md` / `.claude/rules/<x>.md`
-- **Canon de tags:** `buscar_tag` → `.claude/rules/chupilista.md` → `chupilista/`
+    - **Indexado desde:** `.agents/maps/composicion.md`
+- **Complementarios (cualquier variante, solo si existen):** `composicion/<x>.md` / `.agents/maps/<x>.md`
+- **Canon de tags:** `buscar-tag` → `.agents/maps/chupilista.md` → `chupilista/`
 
 ---
 
@@ -43,7 +43,7 @@ description: <descripcion>
 
 Todo manual de `composicion/` es una de estas dos variantes. Elige una antes de rellenar «Referencias» y rellena solo esa — no generes ambas ni dejes un marcador de skill o mapa que no existe.
 
-1. **Manual Técnico con mapa y skill propios** (ej. `style_box`, `lyrics_box`): tiene un índice propio en `.claude/rules/` y una skill dedicada del mismo nombre.
-2. **Manual Transversal** (ej. `composicion/formato.md`): no tiene skill ni mapa propios; se indexa como una fila más dentro de `.claude/rules/composicion.md`.
+1. **Manual Técnico con mapa y skill propios** (ej. `style_box`, `lyrics_box`): tiene un índice propio en `.agents/maps/` y una skill dedicada con nombre compatible (`style-box`, `lyrics-box`).
+2. **Manual Transversal** (ej. `composicion/formato.md`): no tiene skill ni mapa propios; se indexa como una fila más dentro de `.agents/maps/composicion.md`.
 
 ---

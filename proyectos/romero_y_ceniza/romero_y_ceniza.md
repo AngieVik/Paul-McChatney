@@ -29,7 +29,7 @@ clipping, overcompressed, muddy mix, sibilance, modern vocal polish, autotune, r
 
 ## lyrics_box
 
-```
+```text
 [MOOD: Bittersweet Determination, Restrained Energy, Flamenco Guitar, Deep Sub Bass, Handclaps]
 [PRODUCTION: Dusty Vinyl Warmth, Wide Stereo on Final Chorus Harmonies, Room Ambience Outro]
 

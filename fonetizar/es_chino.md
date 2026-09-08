@@ -85,7 +85,7 @@ Al carecer de ciertas estructuras silábicas y consonánticas, los hablantes nat
 
 ### Sustitución Consonántica y Aspiración
 
-- **Sustitución Líquida (El fenómeno 'L/R'):** Incapacidad fisiológica (por falta de entrenamiento) para ejecutar la vibrante múltiple (/r/) y, a menudo, la vibrante simple (/ɾ/). Ambas se neutralizan y sustituyen sistemáticamente por la aproximante lateral alveolar (/l/).
+- **Sustitución líquida posible:** algunos hablantes sin entrenamiento en las vibrantes españolas pueden aproximarlas con /l/ u otros sonidos; no es una limitación fisiológica ni una regla universal.
 - **Pérdida de Sonoridad en Oclusivas:** Las 'b', 'd', 'g' intervocálicas suaves del español se pronuncian frecuentemente como 'p', 't', 'k' secas, al interpretar la falta de vibración vocal como oclusión no aspirada.
 
 ### Alteración Rítmica

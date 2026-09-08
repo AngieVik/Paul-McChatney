@@ -9,7 +9,7 @@ region: Alemán (Hochdeutsch / Alemán Estándar)
 
 ## Perfil Fonético General
 
-El alemán exige una articulación enérgica y proyectada desde la laringe, con alta tensión en los labios y en el velo del paladar. Su prosodia es tajante y marcial comparada con la fluidez romance.
+Este perfil creativo usa una articulación enérgica, consonantes tensas y cortes glotales para aproximar rasgos del alemán estándar sin convertirlos en una caricatura universal.
 
 - **Descripción:** Ritmo de isocronía acentual (stress-timed). Fuerte contraste de longitud silábica. Emisión explosiva de las oclusivas sordas y uso constante del corte glotal para separar palabras.
 - **Rasgo Distintivo:** El *Knacklaut* (oclusión glotal o golpe de glotis): Las palabras o morfemas que inician por vocal nunca se enlazan con la consonante previa; se separan mediante un micro-corte del flujo de aire en la garganta.

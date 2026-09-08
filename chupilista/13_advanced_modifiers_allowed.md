@@ -1,12 +1,13 @@
 ---
 name: 13_advanced_modifiers_allowed
 type: chupilista
-description: Directorio maestro de modificadores avanzados para generación, modulación y manipulación de audio sintético.
+description: Catálogo local de modificadores avanzados para generación, modulación y manipulación de audio sintético.
 ---
 
 # 13_advanced_modifiers_allowed
 
 - *Recordatorio: se consulta por búsqueda (grep) o saltando a una sección*
+- *El nombre histórico `allowed` indica pertenencia al canon local, no compatibilidad o eficacia empírica garantizada en Suno.*
 
 ---
 

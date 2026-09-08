@@ -1,30 +1,30 @@
 # Fuga Lunar
-### A Visual Philosophy for Cover Art · El Coplista de la Luna Llena
+## Una filosofía visual para la portada · El Coplista de la Luna Llena
 ---
-## I. The Movement
+## I. El movimiento
 
-**Fuga Lunar** is the collision of two irreconcilable orders — the mathematical perfection of baroque counterpoint and the annihilating pressure of digital entropy. It does not reconcile them. It lets them bleed. The aesthetic vocabulary is monumental restraint under siege: a composition that appears as though carved from obsidian, then fractured by a frequency that should not exist. Cold. Precise. Broken at the edges.
+**Fuga Lunar** es la colisión de dos órdenes irreconciliables: la perfección matemática del contrapunto barroco y la presión aniquiladora de la entropía digital. No los reconcilia. Deja que se desangren el uno sobre el otro. Su vocabulario estético es la contención monumental bajo asedio: una composición que parece tallada en obsidiana y después fracturada por una frecuencia que no debería existir. Fría. Precisa. Quebrada en los bordes.
 ---
-## II. Space and Form
+## II. Espacio y forma
 
-Space in Fuga Lunar is extreme contrast between void and mass. The canvas is 90% absence — a near-void darkness so deep it has a temperature. Out of that void: a single luminous object, enormous and central, occupying the geometric heart of the composition. Architecture emerges from the lower register as silhouette alone — gothic spires that puncture the dark, nothing more than the idea of stone. Against the glow, a lone figure: coat, wig, silhouette. Not described — *implied*. The figure exists as contrast, as interruption, as defiance against the overwhelming light behind it.
+El espacio en Fuga Lunar es un contraste extremo entre vacío y masa. El lienzo es un 90 % de ausencia: una oscuridad cercana al vacío, tan profunda que parece tener temperatura. De ese vacío emerge un único objeto luminoso, enorme y central, ocupando el corazón geométrico de la composición. La arquitectura surge del registro inferior reducida a silueta: agujas góticas que perforan la oscuridad, nada más que la idea de la piedra. Contra el resplandor, una figura solitaria: abrigo, peluca, silueta. No está descrita, sino *insinuada*. La figura existe como contraste, como interrupción, como desafío frente a la luz abrumadora que se alza tras ella.
 ---
-## III. Color and Material
+## III. Color y materia
 
-The palette is surgical. Void-black (**#030308**) is the base material — not decorative darkness but structural vacuum. Cold silver-white (**#E8E4F2**) is the moon's light: luminous, clinical, slightly blue-shifted toward frequency rather than warmth. Electric blue (**#1A4FE8**, **#3B8BFF**) cuts through the composition as glitch data — horizontal bands of signal corruption, brief and violent. Blood red (**#8B0000**) appears only once, in the smallest possible gesture: ink falling from a quill. These four colors are all that exists. Each is meticulous and non-negotiable. The craftsmanship lies in how little color achieves how much meaning.
+La paleta es quirúrgica. El negro vacío (**#030308**) es el material de base: no una oscuridad decorativa, sino un vacío estructural. El blanco plateado frío (**#E8E4F2**) es la luz de la luna: luminosa, clínica, levemente desplazada hacia el azul, más próxima a la frecuencia que a la calidez. El azul eléctrico (**#1A4FE8**, **#3B8BFF**) atraviesa la composición como datos corruptos: bandas horizontales de señal dañada, breves y violentas. El rojo sangre (**#8B0000**) aparece una sola vez, en el gesto más pequeño posible: tinta cayendo de una pluma. Estos cuatro colores son todo lo que existe. Cada uno es meticuloso e innegociable. La maestría reside en cuánto significado consigue expresar con tan poco color.
 ---
-## IV. Scale, Rhythm, and the Glitch
+## IV. Escala, ritmo y glitch
 
-Scale is used dramatically: the moon is enormous, the spires are tall, the figure is small. This hierarchy is the visual argument of the piece — the individual insignificant against the sublime. Rhythm enters through corruption: 18 horizontal glitch bands cross the image, each a few pixels of electric blue noise that suggest a transmission failing, a signal breaking down under the weight of what it carries. These bands are painstakingly placed — not random, but rhythmically distributed as if scored on a staff. Each one is the work of someone who understands that a single misplaced mark ruins the composition. The glitch is not decoration. It is the neurofunk element, the frequency intrusion, the 175 BPM that cannot be contained.
+La escala se utiliza de forma dramática: la luna es enorme, las agujas son altas y la figura es pequeña. Esta jerarquía constituye el argumento visual de la obra: el individuo, insignificante frente a lo sublime. El ritmo entra mediante la corrupción: 18 bandas horizontales de glitch cruzan la imagen, cada una formada por unos pocos píxeles de ruido azul eléctrico que sugieren una transmisión fallando, una señal quebrándose bajo el peso de aquello que transporta. Las bandas están colocadas minuciosamente: no al azar, sino distribuidas con ritmo, como si estuvieran escritas sobre un pentagrama. Cada una revela el trabajo de alguien que comprende que una sola marca fuera de lugar arruina la composición. El glitch no es decoración. Es el elemento neurofunk, la intrusión de frecuencia, los 175 BPM que no pueden ser contenidos.
 ---
-## V. Typography as Testimony
+## V. La tipografía como testimonio
 
-Text is singular and monumental. Two lines of the title occupy the lowest register of the canvas, silver against void, with maximum air above. The letterforms are chosen for thinness and authority — thin-weight caps with wide tracking, spaced so each letter breathes. Above the title, a hairline rule and a roman numeral date in the same silver: **MMXXVI**. Nothing else is written. Typography in Fuga Lunar is not communication — it is inscription. A monument's caption. The work of a master letterer who spent days deciding the precise weight of each stroke and the exact distance between each character.
+El texto es único y monumental. Las dos líneas del título ocupan el registro más bajo del lienzo, plateadas contra el vacío, con el máximo espacio posible sobre ellas. Las formas de las letras se eligen por su delgadez y autoridad: mayúsculas de trazo fino y espaciado amplio, dispuestas para que cada letra respire. Sobre el título, una línea finísima y una fecha en números romanos del mismo color plateado: **MMXXVI**. No hay nada más escrito. En Fuga Lunar, la tipografía no es comunicación: es inscripción. El rótulo de un monumento. La obra de un maestro rotulista que dedicó días a decidir el peso preciso de cada trazo y la distancia exacta entre cada carácter.
 ---
-## VI. Craftsmanship as Doctrine
+## VI. La artesanía como doctrina
 
-Every layer of this composition is the result of painstaking decisions made by someone operating at the absolute summit of their discipline. The moon's surface texture is built from four frequencies of sinusoidal noise layered with limb-darkening physics. The atmospheric halo is a mathematically correct radial gradient, not an approximation. The craters are placed with rim highlights that respect the single light source. The spire silhouettes taper at ratios taken from gothic proportion. The glitch bands are colored with RGB values calibrated so that blue reads as electric against black without flaring into white. The blood ink drip is rendered as six circles decreasing exponentially in size, positioned at the precise angle a falling drop would travel from the quill's tip.
+Cada capa de esta composición nace de decisiones minuciosas tomadas por alguien que trabaja en la cima absoluta de su disciplina. La textura de la superficie lunar se construye mediante cuatro frecuencias de ruido sinusoidal superpuestas con la física del oscurecimiento del limbo. El halo atmosférico es un gradiente radial matemáticamente correcto, no una aproximación. Los cráteres incorporan reflejos en sus bordes que respetan una única fuente de luz. Las siluetas de las agujas se estrechan siguiendo proporciones extraídas de la arquitectura gótica. Las bandas de glitch emplean valores RGB calibrados para que el azul se perciba eléctrico contra el negro sin estallar hasta convertirse en blanco. La gota de tinta sangrienta está formada por seis círculos cuyo tamaño decrece exponencialmente, situados en el ángulo exacto que seguiría una gota al caer desde la punta de la pluma.
 
-This is not design generated — this is design *earned*. It looks like it took months because the rigor required *months of thinking* distilled into a single execution.
+Esto no es diseño generado: es diseño *ganado*. Parece haber requerido meses porque su rigor exigió *meses de pensamiento* destilados en una sola ejecución.
 ---
-*Fuga Lunar. The fugue that plays in the dark, for no one, because it must be played.*
+*Fuga Lunar. La fuga que suena en la oscuridad, para nadie, porque debe ser interpretada.*

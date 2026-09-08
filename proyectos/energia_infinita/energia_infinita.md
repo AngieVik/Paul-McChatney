@@ -4,7 +4,7 @@ type: proyecto
 description: ENERGÍA INFINITA CON UN AMBIENTADOR DEL MERCADONA Y UNA PAPA
 ---
 
-# energia_infinita_con_un_ambientador_del_mercadona_y_una_papa
+# energia_infinita
 
 ## Titulo Original
 

@@ -94,3 +94,15 @@ Disección de frases completas aplicando el vocabulario y las reglas anteriores.
 - **Original en Jerga:** `Déjate de chuminás y vámonos ya un ratico a la playa, ¡no ni ná!`
     - *Desglose Lexical:* "Chuminás" exige dejar de hablar de cosas irrelevantes. "Ratico" aplica el diminutivo oriental de tiempo. "No ni ná" cierra la frase confirmando categóricamente el plan.
     - *Traducción Estándar:* **"Deja de decir tonterías y vayamos ya un momento a la playa, ¡por supuesto que sí!"**
+
+### Frase de Ejemplo 3:** `Solicitud de cese de criticas`
+
+- **Original en Jerga:** `O e oio e`
+    - *Desglose Lexical:* Abrebiatura fonetica de "Os he oido eh"
+    - *Traducción Estándar:* "Parad ya con las criticas hacia mi persona, por que desde mi posición os estoy oyendo perfectamente."
+
+### Frase de Ejemplo 4:** `Pregunta al aire`
+
+- **Original en Jerga:** `Tas io ia?`
+    - *Desglose Lexical:* "Tas" pregunta que si "Te has" -> "io ia" "ido ya".
+    - *Traducción Estándar:* Te has ido ya? si no respondes es que si.

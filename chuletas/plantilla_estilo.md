@@ -11,13 +11,13 @@ description: Guía de estilo Markdown del proyecto Paul McChatney. Estructura, f
 ## 1 · Principio
 
 - Humano, técnico, predecible, ligero. El archivo manda por claridad, no por decoración.
-- Nombres de archivo en minúscula, snake_case y sin acentos — excepto los nombres canónicos fijos del repositorio: `README.md`, `CLAUDE.md`, `MEMORY.md`, `PROYECTOS.md` y `SKILL.md`.
+- Nombres de archivo en minúscula, snake_case y sin acentos — excepto los nombres canónicos fijos del repositorio: `AGENTS.md`, `README.md`, `MEMORY.md`, `PROYECTOS.md` y `SKILL.md`. Las carpetas de skill usan `kebab-case`.
 
 ---
 
 ## 2 · Encabezados
 
-Un solo `# H1` (= slug del archivo), salvo los nombres canónicos de raíz `README.md`, `CLAUDE.md`, `MEMORY.md` y `PROYECTOS.md`, cuyo `# H1` es un título humano y no el slug. Sin saltos de nivel (`#`→`##`→`###`). Línea en blanco antes y después. Sin `:` `.` `;` al cerrar título.
+Un solo `# H1` (= slug del archivo), salvo los nombres canónicos `AGENTS.md`, `README.md`, `MEMORY.md` y `PROYECTOS.md`, cuyo `# H1` puede ser un título humano. Sin saltos de nivel (`#`→`##`→`###`). Línea en blanco antes y después. Sin `:` `.` `;` al cerrar título.
 
 ---
 
@@ -41,19 +41,18 @@ Cabecera + separador siempre. Solo para datos cortos y comparables; contenido la
 
 ## 6 · Rutas y carga
 
-Relativas con `/`, aunque el sistema sea Windows (`composicion/letra.md`, no `composicion\letra.md`). Política completa de carga: `.claude/CLAUDE.md` (fuente canónica) — aquí solo la sintaxis de rutas.
+Relativas con `/`, aunque el sistema sea Windows (`composicion/letra.md`, no `composicion\letra.md`). Política completa de carga: `AGENTS.md` (fuente canónica) — aquí solo la sintaxis de rutas.
 
-| Forma                         | Uso                                                                |
-| ----------------------------- | ------------------------------------------------------------------ |
-| `@ruta`                       | Sintaxis de carga ansiosa (comportamiento en `.claude/CLAUDE.md`). |
-| `ruta`                        | Sintaxis de lectura bajo demanda.                                  |
-| `<a href="texto">`texto`</a>` | Etiqueta `<a>` para navegación (no es sintaxis Markdown).          |
+| Forma                         | Uso                                                       |
+| ----------------------------- | --------------------------------------------------------- |
+| `ruta`                        | Lectura bajo demanda desde el mapa correspondiente.       |
+| `<a href="texto">`texto`</a>` | Etiqueta `<a>` para navegación (no es sintaxis Markdown). |
 
 ---
 
 ## 7 · YAML
 
-Mínimo y obligatorio en skills, rules, plantillas, manuales de composición, jerga, fonetización y proyectos cerrados:
+Mínimo y obligatorio en mapas, plantillas, manuales de composición, jerga, fonetización y proyectos cerrados:
 
 ```yaml
 ---
@@ -64,6 +63,8 @@ description: Descripción.
 ```
 
 Tipos: `skill`, `map`, `plantilla`, `composicion`, `chupilista`, `jerga`, `fonetizar`, `proyecto`, `core`, `memory`. El YAML identifica; el cuerpo explica — nada largo dentro del YAML. El `description` es una sola frase de **250 caracteres como máximo**; si contiene `:` va entre comillas dobles.
+
+Las skills de `.agents/skills/` siguen el esquema de Agent Skills: solo `name` y `description` son obligatorios; `name` coincide con la carpeta en `kebab-case` y `description` empieza por `Use when`.
 
 ---
 

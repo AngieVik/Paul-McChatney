@@ -1,7 +1,9 @@
 ---
 name: es_calo
 type: fonetizar
-description: Sistema lingüístico parasitario (lengua mixta).
+description: Perfil fonético creativo del caló ibérico como lengua mixta de base romaní y española.
+status: heuristica_artistica
+sources: sin_fuentes
 region: Caló (Romaní Ibérico / Calé)
 ---
 

@@ -13,6 +13,16 @@ description: Guía conceptual (no estricta) del archivo de trabajo. Cópiala par
 ```markdown
 # <slug>
 
+## Estado de sesión
+
+- **Estado:** <activo | en pausa | listo para aprobar | aprobado>
+- **Fase actual:** <conversación | 1 | 2 | 3 | 4 | 5>
+- **Entregables aprobados vigentes:** <ninguno | lista breve>
+- **Candidato actual:** <ninguno | fase y versión en revisión>
+- **Fuentes cargadas:** <rutas y, cuando aplique, líneas consultadas>
+- **Última decisión:** <decisión aceptada más reciente>
+- **Próximo paso:** <acción concreta para continuar>
+
 ## Petición original
 
 Prompt original de la petición.
@@ -29,14 +39,23 @@ Chispas sueltas, vertedero creativo libre: grupos/artistas de referencia (por su
 
 El "qué osar": ejes a colisionar (lingüístico-tonal · rítmico · tímbrico), fusiones candidatas y la favorita.
 
-## Cajas en curso (borradores vivos)
+## Cajas en curso
 
-Se rellenan bajo demanda o según avanzan las fases en el modo `produccion`, sobrescribe el borrador anterior, rellena solo las que toquen.
+Se rellenan bajo demanda. Conserva el aprobado vigente separado del candidato mientras se experimenta; el candidato solo lo sustituye tras aprobación explícita.
 
-- **style_box**
-- **letra**
-- **lyrics_box**
-- **exclude_box**
+### Aprobado vigente
+
+- **style_box:**
+- **letra:**
+- **lyrics_box:**
+- **exclude_box:**
+
+### Candidato actual
+
+- **style_box:**
+- **letra:**
+- **lyrics_box:**
+- **exclude_box:**
 
 ## Decisiones y porqués
 
@@ -55,7 +74,7 @@ Ideas o versiones probadas que no cuajaron, y por qué. Evita volver al mismo ca
 
 ## Instrucciones
 
-- No hay campos obligatorios: rellena solo lo que aplique, en el orden que surja, y **sobrescribe** según avanza la obra. Es el cuaderno vivo de la canción — captura ideas, inspiraciones y decisiones, no solo el prompt final.
+- Mantén siempre actualizado `Estado de sesión`. El resto de secciones son flexibles. Puedes sobrescribir el candidato actual, nunca el aprobado vigente hasta que el usuario apruebe su reemplazo.
 - Sirve para retomar: al volver (incluso en otra conversación), leer este archivo debe bastar para saber exactamente dónde estabas y por qué.
 - Slug en `snake_case`, sin acentos ni eñes. El `# H1` = el <slug>.
 

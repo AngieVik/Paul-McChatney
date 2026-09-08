@@ -10,12 +10,12 @@ description: Control semántico, mapeo operativo del lyrics_box, gramática téc
 
 ## Referencias
 
-- **Skill consumidora:** `.claude/skills/lyrics_box/SKILL.md`
-- **Mapa propio:** `.claude/rules/lyrics_box.md`
-- **Boceto de partida:** `letra` → `.claude/rules/letra.md` → `composicion/letra.md`
-- **Dirección vocal por línea:** `.claude/rules/tecnicas_vocales.md` → `composicion/tecnicas_vocales.md`
-- **Efectos y post-producción (Fase 5):** `.claude/rules/efectos.md` → `composicion/efectos.md`
-- **Canon de tags:** `buscar_tag` → `.claude/rules/chupilista.md` → `chupilista/`
+- **Skill consumidora:** `.agents/skills/lyrics-box/SKILL.md`
+- **Mapa propio:** `.agents/maps/lyrics_box.md`
+- **Boceto de partida:** `letra` → `.agents/maps/letra.md` → `composicion/letra.md`
+- **Dirección vocal por línea:** `.agents/maps/tecnicas_vocales.md` → `composicion/tecnicas_vocales.md`
+- **Efectos y post-producción (Fase 5):** `.agents/maps/efectos.md` → `composicion/efectos.md`
+- **Canon de tags:** `buscar-tag` → `.agents/maps/chupilista.md` → `chupilista/`
 
 *Recordatorio: consulta por búsqueda (grep) o salto por sección.*
 
@@ -41,7 +41,7 @@ description: Control semántico, mapeo operativo del lyrics_box, gramática téc
 
 ## 1 · Etiquetas del lyrics_box
 
-- *Marcan el momento exacto de un evento temporal dentro de la letra. El canon de cada categoría se recupera vía `buscar_tag` (mapa `.claude/rules/chupilista.md`); los módulos indican el origen canónico, no una lectura directa a `chupilista/`.*
+- *Marcan el momento exacto de un evento temporal dentro de la letra. El canon de cada categoría se recupera vía `buscar-tag` (mapa `.agents/maps/chupilista.md`); los módulos indican el origen canónico, no una lectura directa a `chupilista/`.*
     - **Atmosphere and Mood** (`chupilista` · 02): Etiqueta global `[MOOD]` o corchetes temporales.
     - **Instrumentation and Stems** (`chupilista` · 03): Momentos donde un instrumento toma el protagonismo o entra en la mezcla; usa Tag Anchoring.
     - **Vocal Persona and Timbre** (`chupilista` · 04): Persona Stacking completo al inicio para fijar la identidad vocal (edad, tipo de voz, carácter, timbre, presencia).

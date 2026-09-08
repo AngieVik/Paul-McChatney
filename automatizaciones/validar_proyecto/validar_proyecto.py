@@ -9,7 +9,7 @@ Comprueba, sobre el árbol .md del proyecto:
      raíz. Los nombres SUELTOS (sin ruta) también se resuelven: contra la
      carpeta del archivo y la raíz; si aparecen en ambas se reporta ruta
      ambigua, si no aparecen en ninguna se reporta como inexistente. Los
-     nombres canónicos del repo (README.md, CLAUDE.md, MEMORY.md, PROYECTOS.md,
+     nombres canónicos del repo (README.md, AGENTS.md, MEMORY.md, PROYECTOS.md,
      SKILL.md) se aceptan si el archivo existe en cualquier ubicación conocida,
      porque se citan por su nombre canónico a propósito. Se ignoran las
      rutas-plantilla (marcadores `<...>` o segmentos EXACTOS como `slug`, `NN`,
@@ -20,8 +20,9 @@ Comprueba, sobre el árbol .md del proyecto:
      de `[` y `]` del bloque entero — así un cierre sin apertura ya no puede
      quedar oculto porque otro tag distinto compensó el conteo global.
   4. Archivos truncados: frontmatter incompleto (falta cierre `---`, faltan
-     claves `name`/`type`/`description`) o el archivo de INSTRUCCIONES
-     (skills, rules, composicion, system_prompt, raíz) termina a mitad de frase.
+     claves obligatorias; en skills `name`/`description`, en el resto también
+     `type`) o el archivo de INSTRUCCIONES
+     (skills, maps, composicion, system_prompt, raíz) termina a mitad de frase.
      Además: frontmatter AUSENTE en rutas que lo exigen (ver punto 15).
   5. YAML de frontmatter inválido. Si PyYAML está disponible se hace un parseo
      real (`yaml.safe_load`); en cualquier caso se aplica una heurística
@@ -39,8 +40,9 @@ Comprueba, sobre el árbol .md del proyecto:
      no descuadran el conteo. Ese mismo parser alimenta la extracción de
      bloques (puntos 3, 7, 8, 10, 13), de modo que hay una sola definición de
      "qué es un bloque cercado".
-  7. Encabezados mal cerrados: terminan en `.`, `:` o `;` (prohibido por
-     `chuletas/plantilla_estilo.md` §2) o saltan de nivel (`#` -> `###`). Se
+  7. Encabezados mal cerrados: terminan en `.`, `:` o `;`, contienen un número
+     impar de backticks inline (prohibido por `chuletas/plantilla_estilo.md`
+     §2) o saltan de nivel (`#` -> `###`). Se
      ignoran los encabezados incrustados dentro de bloques de código cercados:
      en las plantillas esos encabezados ya se validan como esqueletos (punto 8),
      así que analizarlos también aquí producía avisos duplicados o falsos saltos
@@ -69,7 +71,7 @@ Comprueba, sobre el árbol .md del proyecto:
       `# H1` fuera de bloques de código, ese H1 coincide con `name`, y `name`
       coincide con el nombre del archivo cuando corresponde (con el nombre de la
       carpeta en los `SKILL.md`). El `name`/`type` se leen sin comillas
-      exteriores. En los nombres canónicos de raíz (README.md, CLAUDE.md,
+      exteriores. En los nombres canónicos de raíz (README.md, AGENTS.md,
       MEMORY.md, PROYECTOS.md) se exime SOLO la igualdad `name == archivo` (su
       H1 es un título humano, no el slug), pero se sigue exigiendo exactamente
       un H1: así un H1 ausente o duplicado en esos archivos tampoco pasa
@@ -77,7 +79,7 @@ Comprueba, sobre el árbol .md del proyecto:
   14. Bytes nulos (`\\x00`) y caracteres de control: ningún `.md` debe contener
       NUL ni otros caracteres de control (se permiten solo `\\t`, `\\n`, `\\r`).
   15. Frontmatter exigido por ruta: los `.md` de carpetas de identidad
-      (`.claude/rules/`, `.claude/skills/*/SKILL.md`, `composicion/`, `jerga/`,
+      (`.agents/maps/`, `.agents/skills/*/SKILL.md`, `composicion/`, `jerga/`,
       `fonetizar/`, `system_prompt/` y `chuletas/plantilla_*.md`) deben traer
       frontmatter YAML. `proyectos/` queda fuera a propósito (histórico sin
       frontmatter universal); su chequeo específico es el punto 19.
@@ -86,7 +88,7 @@ Comprueba, sobre el árbol .md del proyecto:
       el YAML identifica, no explica; nada largo dentro del YAML).
   17. Indexación única: cada archivo de una biblioteca (`jerga/`, `fonetizar/`,
       `composicion/`, `chupilista/`, `chuletas/`) aparece EXACTAMENTE una vez en
-      su mapa correspondiente (`.claude/rules/<x>.md`, o `plantillas.md` para
+      su mapa correspondiente (`.agents/maps/<x>.md`, o `plantillas.md` para
       `chuletas/`). Detecta huérfanos (0 apariciones) y duplicados (2+).
   18. Biblioteca `chupilista/`: las tags canónicas están escritas como líneas
       normales `[tag]` (no dentro de bloques cercados), así que se analizan
@@ -104,6 +106,11 @@ Comprueba, sobre el árbol .md del proyecto:
       canon (histórico) quedan exentas del chequeo de contenido: el canon puede
       evolucionar y las obras antiguas pueden no cumplirlo (exclude_box vacío,
       style_box en prosa, etc.) sin que eso inunde el reporte.
+  20. Coherencia de `type`: cada ruta de identidad declara el tipo que le
+      corresponde (`map`, `composicion`, `jerga`, `fonetizar`, `core` o
+      `plantilla`). Las skills conservan el esquema oficial sin `type`.
+  21. Correspondencia del catálogo: cada `proyectos/<slug>/<slug>.md` aparece
+      exactamente una vez en `PROYECTOS.md`.
 
 Dependencias unidireccionales: cada archivo declara únicamente los recursos que
 necesita consultar (sus rutas directas). El validador comprueba que esas rutas
@@ -123,8 +130,8 @@ _prompts_antiguos, _docs) salvo que se pase --incluir-personales. Con
 ruido.
 
 Nota sobre la heurística de truncamiento (punto 4): solo se aplica a las
-carpetas de INSTRUCCIONES (`.claude/`, `system_prompt/`, `composicion/`,
-`chuletas/` y archivos sueltos en la raíz como CLAUDE.md/MEMORY.md), donde la
+carpetas de INSTRUCCIONES (`.agents/`, `system_prompt/`, `composicion/`,
+`chuletas/` y archivos sueltos en la raíz como AGENTS.md), donde la
 prosa siempre debería cerrar en frase completa. Se excluye deliberadamente
 `proyectos/`, `chupilista/`, `fonetizar/` y `jerga/`: son letras, listas de
 tags y ejemplos fonéticos que legítimamente terminan sin punto. Aun así es una
@@ -156,17 +163,17 @@ IGNORE_DIRS = {".git", "node_modules", ".vscode"}
 PERSONAL_DIRS = {"_hojas_sucias", "_temp", "_produccion", "_prompts_antiguos", "_docs"}
 
 # Carpetas donde la prosa es "de instrucción" y debería cerrar en frase completa.
-INSTRUCTIONAL_TOP_DIRS = {".claude", "system_prompt", "composicion", "chuletas"}
+INSTRUCTIONAL_TOP_DIRS = {".agents", "system_prompt", "composicion", "chuletas"}
 
 # Nombres canónicos de raíz: su H1 es un título humano, no el slug, y su `name`
 # no tiene por qué coincidir con el nombre de archivo. Se exime SOLO esa
 # igualdad `name == archivo`; el H1 se sigue exigiendo (punto 13).
-CANONICAL_FILENAMES = {"README.md", "CLAUDE.md", "MEMORY.md", "PROYECTOS.md"}
+CANONICAL_FILENAMES = {"README.md", "AGENTS.md", "MEMORY.md", "PROYECTOS.md"}
 
 # Nombres canónicos que pueden citarse SUELTOS (sin ruta) porque nombran
 # archivos fijos y conocidos del repo (punto 2). Incluye SKILL.md, que existe
 # en cada carpeta de skill.
-CANONICAL_BARE_NAMES = {"README.md", "CLAUDE.md", "MEMORY.md", "PROYECTOS.md", "SKILL.md"}
+CANONICAL_BARE_NAMES = {"README.md", "AGENTS.md", "MEMORY.md", "PROYECTOS.md", "SKILL.md"}
 
 # Longitud máxima del `description` en archivos de identidad (punto 16).
 MAX_DESCRIPTION_LEN = 250
@@ -174,11 +181,18 @@ MAX_DESCRIPTION_LEN = 250
 # Bibliotecas indexadas y su mapa (punto 17). El mapa referencia cada archivo
 # como `carpeta/archivo.md`; `chuletas/` se indexa desde `plantillas.md`.
 LIBRARY_MAPS = {
-    "jerga": ".claude/rules/jerga.md",
-    "fonetizar": ".claude/rules/fonetizar.md",
-    "composicion": ".claude/rules/composicion.md",
-    "chupilista": ".claude/rules/chupilista.md",
-    "chuletas": ".claude/rules/plantillas.md",
+    "jerga": ".agents/maps/jerga.md",
+    "fonetizar": ".agents/maps/fonetizar.md",
+    "composicion": ".agents/maps/composicion.md",
+    "chupilista": ".agents/maps/chupilista.md",
+    "chuletas": ".agents/maps/plantillas.md",
+}
+
+EXPECTED_TYPES_BY_TOP = {
+    "composicion": "composicion",
+    "jerga": "jerga",
+    "fonetizar": "fonetizar",
+    "system_prompt": "core",
 }
 
 MD_LINK_RE = re.compile(r"\[[^\]]*\]\(([^)]+)\)")
@@ -342,15 +356,29 @@ def requires_frontmatter(path: Path, root: Path) -> bool:
         return False
     name = path.name
     top = parts[0]
-    if name == "SKILL.md" and top == ".claude" and len(parts) >= 2 and parts[1] == "skills":
+    if name == "SKILL.md" and top == ".agents" and len(parts) >= 2 and parts[1] == "skills":
         return True
-    if top == ".claude" and len(parts) >= 2 and parts[1] == "rules":
+    if top == ".agents" and len(parts) >= 2 and parts[1] == "maps":
         return True
     if top in {"composicion", "jerga", "fonetizar", "system_prompt"}:
         return True
     if top == "chuletas" and name.startswith("plantilla_"):
         return True
     return False
+
+
+def required_frontmatter_keys(path: Path, root: Path):
+    """Las Agent Skills siguen su esquema oficial (`name` y `description`).
+    El resto del sistema conserva `type` como identidad documental local."""
+    parts = rel_parts(path, root)
+    if (
+        path.name == "SKILL.md"
+        and len(parts) >= 3
+        and parts[0] == ".agents"
+        and parts[1] == "skills"
+    ):
+        return ("name", "description")
+    return REQUIRED_FRONTMATTER_KEYS
 
 
 def scan_code_blocks(text: str):
@@ -437,7 +465,7 @@ def check_backtick_paths(path: Path, text: str, root: Path, problems: list):
     - Nombre SUELTO (sin ruta): también se resuelve, contra la carpeta del
       archivo y la raíz. Si aparece en las dos (y son rutas distintas) se marca
       como ambiguo; si no aparece en ninguna, como inexistente. Los nombres
-      canónicos del repo (SKILL.md, MEMORY.md, CLAUDE.md, README.md,
+      canónicos del repo (SKILL.md, MEMORY.md, AGENTS.md, README.md,
       PROYECTOS.md) se aceptan si el archivo existe en cualquier ubicación
       conocida, porque se citan por su nombre canónico a propósito.
     """
@@ -657,6 +685,11 @@ def check_heading_style(path: Path, text: str, root: Path, problems: list, label
             problems.append(
                 f"[encabezado mal cerrado] {where}: '{hashes} {title}' termina en '{title[-1]}'"
             )
+        if len(re.findall(r"(?<!\\)`", title)) % 2:
+            problems.append(
+                f"[backtick sin cerrar en encabezado] {where}: '{hashes} {title}' "
+                "contiene un número impar de backticks"
+            )
         levels.append(level)
     # Salto de nivel (ej. # -> ### sin pasar por ##), solo dentro del mismo bloque.
     for prev, cur in zip(levels, levels[1:]):
@@ -742,7 +775,7 @@ def check_yaml_frontmatter_shape(path: Path, text: str, root: Path, problems: li
 def is_instructional(path: Path, root: Path) -> bool:
     parts = rel_parts(path, root)
     if len(parts) == 1:
-        return True  # archivo suelto en la raíz (CLAUDE.md, MEMORY.md, PROYECTOS.md...)
+        return True  # archivo suelto en la raíz (AGENTS.md, README.md, PROYECTOS.md...)
     return parts[0] in INSTRUCTIONAL_TOP_DIRS
 
 
@@ -753,7 +786,7 @@ def check_frontmatter_and_truncation(path: Path, text: str, root: Path, problems
     elif m:
         block = m.group(1)
         keys = top_level_yaml_keys(block)
-        missing = [k for k in REQUIRED_FRONTMATTER_KEYS if k not in keys]
+        missing = [k for k in required_frontmatter_keys(path, root) if k not in keys]
         if missing:
             problems.append(
                 f"[frontmatter incompleto] {rel(path, root)} falta(n) clave(s): {', '.join(missing)}"
@@ -865,6 +898,35 @@ def check_plantilla_type(path: Path, text: str, root: Path, problems: list):
         )
 
 
+def expected_document_type(path: Path, root: Path):
+    """Devuelve el `type` exigido por la ubicación o None para las skills."""
+    parts = rel_parts(path, root)
+    if not parts:
+        return None
+    if parts[0] == ".agents":
+        if len(parts) >= 2 and parts[1] == "maps":
+            return "map"
+        if len(parts) == 2 and parts[1] == "MEMORY.md":
+            return "core"
+        return None
+    if parts[0] == "chuletas" and path.name.startswith("plantilla_"):
+        return "plantilla"
+    return EXPECTED_TYPES_BY_TOP.get(parts[0])
+
+
+def check_expected_type(path: Path, text: str, root: Path, problems: list):
+    """Punto 20 — el `type` del frontmatter coincide con la ruta."""
+    expected = expected_document_type(path, root)
+    if expected is None or not FRONTMATTER_RE.match(text):
+        return
+    actual = frontmatter_value(text, "type")
+    if actual != expected:
+        problems.append(
+            f"[type incorrecto] {rel(path, root)}: declara {actual!r}; "
+            f"por su ubicación debe declarar `type: {expected}`"
+        )
+
+
 def check_proyecto_skeleton_sections(path: Path, text: str, root: Path, problems: list):
     """El esqueleto de plantilla_proyecto.md debe traer frontmatter propio y
     las secciones canónicas de un proyecto."""
@@ -891,7 +953,7 @@ def check_document_identity(path: Path, text: str, root: Path, problems: list):
         cuando corresponde (con el nombre de la CARPETA en los `SKILL.md`).
       - hay EXACTAMENTE un `# H1` fuera de bloques de código, y coincide con
         `name`.
-    En los nombres canónicos de raíz (README.md, CLAUDE.md, MEMORY.md,
+    En los nombres canónicos de raíz (README.md, AGENTS.md, MEMORY.md,
     PROYECTOS.md) se exime SOLO la igualdad `name == archivo` (su H1 es un título
     humano), pero se sigue exigiendo exactamente un H1."""
     h1s = H1_RE.findall(scan_code_blocks(text)[2])
@@ -1013,6 +1075,35 @@ def check_library_indexing(root: Path, problems: list):
                 )
 
 
+def check_project_catalog(root: Path, problems: list):
+    """Punto 21 — cada obra canónica aparece exactamente una vez en el catálogo."""
+    projects_root = root / "proyectos"
+    if not projects_root.is_dir():
+        return
+    catalog_path = root / "PROYECTOS.md"
+    if not catalog_path.is_file():
+        problems.append("[catálogo ausente] existen obras en proyectos/ pero falta PROYECTOS.md")
+        return
+    try:
+        catalog = catalog_path.read_text(encoding="utf-8").replace("\\", "/")
+    except UnicodeDecodeError:
+        return  # la pasada general ya informa del error de lectura
+    for project_dir in sorted(p for p in projects_root.iterdir() if p.is_dir()):
+        canonical = project_dir / f"{project_dir.name}.md"
+        if not canonical.is_file():
+            continue
+        expected = f"proyectos/{project_dir.name}/{project_dir.name}.md"
+        count = catalog.count(expected)
+        if count == 0:
+            problems.append(
+                f"[obra sin catalogar] {expected}: no aparece en PROYECTOS.md"
+            )
+        elif count > 1:
+            problems.append(
+                f"[obra catalogada por duplicado] {expected}: aparece {count} veces en PROYECTOS.md"
+            )
+
+
 def rel(path: Path, root: Path) -> str:
     try:
         return str(path.relative_to(root))
@@ -1063,11 +1154,13 @@ def collect_problems(root: Path, include_personal: bool, extra_excluded: set):
         check_heading_style(path, text, root, problems)
         check_plantilla_skeletons(path, text, root, problems)
         check_plantilla_type(path, text, root, problems)
+        check_expected_type(path, text, root, problems)
         check_proyecto_skeleton_sections(path, text, root, problems)
         check_document_identity(path, text, root, problems)
         check_proyecto_obra(path, text, root, problems)
 
     check_library_indexing(root, problems)
+    check_project_catalog(root, problems)
     return problems, warnings
 
 

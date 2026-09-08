@@ -8,7 +8,7 @@ region: Ruso (Estándar / Moscovita)
 
 ## Perfil Fonético General
 
-El ruso es un idioma de contrastes violentos. Exige una articulación robusta en el fondo de la garganta y los labios, intercalada con suavizaciones palatales repentinas.
+Este perfil creativo trabaja contrastes marcados entre consonantes duras y palatalizadas, con reducción vocálica en sílabas átonas.
 
 - **Descripción:** Ritmo basado en la intensidad (stress-timed). La sílaba tónica absorbe casi toda la energía, la claridad y el tiempo fonético. Las sílabas átonas son "devoradas" o drásticamente alteradas.
 - **Rasgo Distintivo:** La palatalización. Casi toda consonante tiene una versión "dura" y una versión "suave" (donde el dorso de la lengua sube al paladar, sonando como si tuviera una pequeña 'y' adherida).

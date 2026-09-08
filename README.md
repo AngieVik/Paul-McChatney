@@ -6,47 +6,48 @@ description: Mapa general del proyecto Paul McChatney.
 
 # README
 
-- *Sistema documental/agéntico de composición musical con IA: canciones, `style_box`, `lyrics_box`, `exclude_box` y documentación de obras.*
+- *Entorno local de composición musical para ChatGPT/Codex: canciones, `style_box`, `lyrics_box`, `exclude_box` y documentación de obras.*
 
 ---
 
 ## 1 · Regla principal
 
-- *No cargar carpetas enteras. Usa los índices de `.claude/rules/` para saber qué abrir, y abre solo ese archivo.*
+- *No cargar carpetas enteras. Usa los índices de `.agents/maps/` para localizar y abrir solo el archivo o fragmento necesario.*
 
 ```text
 Índice → archivo concreto → respuesta
 ```
 
-- *La política de carga completa y canónica vive en `.claude/CLAUDE.md`; este README solo la resume.*
+- *La política de carga completa y canónica vive en `AGENTS.md`; este README solo la resume.*
 
 ---
 
 ## 2 · Estructura
 
-| Ruta              | Uso                                              |
-| ----------------- | ------------------------------------------------ |
-| `.claude/`        | Contexto, memoria, reglas y skills.              |
-| `.claude/rules/`  | Índices → qué archivo abrir.                     |
-| `.claude/skills/` | Habilidades invocables.                          |
-| `system_prompt/`  | Identidad y comportamiento de Paul.              |
-| `chuletas/`       | Plantillas y guías base.                         |
-| `chupilista/`     | Tags: géneros, efectos, estructuras, negativos.  |
-| `composicion/`    | Reglas técnicas de escritura, efectos y formato. |
-| `fonetizar/`      | Acentos e idiomas cantados.                      |
-| `jerga/`          | Modismos locales para la letra.                  |
-| `proyectos/`      | Obras terminadas, una carpeta por obra.          |
-| `PROYECTOS.md`    | Catálogo de obras aprobadas.                     |
+| Ruta              | Uso                                               |
+| ----------------- | ------------------------------------------------- |
+| `AGENTS.md`       | Instrucciones automáticas, prioridades y límites. |
+| `.agents/`        | Memoria, mapas y skills de ChatGPT/Codex.         |
+| `.agents/maps/`   | Índices → qué archivo abrir.                      |
+| `.agents/skills/` | Habilidades descubribles bajo demanda.            |
+| `system_prompt/`  | Identidad y comportamiento de Paul.               |
+| `chuletas/`       | Plantillas y guías base.                          |
+| `chupilista/`     | Tags: géneros, efectos, estructuras, negativos.   |
+| `composicion/`    | Reglas técnicas de escritura, efectos y formato.  |
+| `fonetizar/`      | Acentos e idiomas cantados.                       |
+| `jerga/`          | Modismos locales para la letra.                   |
+| `proyectos/`      | Obras terminadas, una carpeta por obra.           |
+| `PROYECTOS.md`    | Catálogo de obras aprobadas.                      |
 
-- *Carpetas con guion bajo (`_docs`, `_hojas_sucias`, `_produccion`, `_prompts_antiguos`, `_temp`) son locales y no se cargan por defecto — ver `.claude/CLAUDE.md`.*
+- *Carpetas con guion bajo (`_docs`, `_hojas_sucias`, `_produccion`, `_prompts_antiguos`, `_temp`) son locales y no se cargan por defecto — ver `AGENTS.md`.*
 
 ---
 
 ## 3 · Flujo básico
 
-1. Leer `system_prompt/system_prompt.md` y `.claude/MEMORY.md`.
-2. Consultar `.claude/CLAUDE.md` y el índice correspondiente en `.claude/rules/`.
-3. Abrir solo el archivo necesario y trabajar por fases con `produccion`.
+1. ChatGPT/Codex carga `AGENTS.md`; para trabajo musical lee `system_prompt/system_prompt.md` y `.agents/MEMORY.md`.
+2. Consulta el índice correspondiente en `.agents/maps/`.
+3. Abrir solo el archivo o fragmento necesario. Usar `produccion` por fases únicamente cuando se pida el modo completo; las tareas aisladas activan su skill por intención.
 4. Guardar la obra aprobada en `proyectos/<slug>/<slug>.md` y registrarla en `PROYECTOS.md`.
 5. Ejecutar `retrospectiva` cuando surja un aprendizaje real que el usuario valide (en cualquier momento, no solo al final).
 
@@ -54,19 +55,19 @@ description: Mapa general del proyecto Paul McChatney.
 
 ## 4 · Skills principales
 
-| Skill           | Uso                                                      |
-| --------------- | -------------------------------------------------------- |
-| `buscar_tag`    | Buscar tags concretos en chupilista.                     |
-| `cover_art`     | Crear prompts de portada para Gemini.                    |
-| `fonetizar`     | Aplicar acento o idioma cantado.                         |
-| `fusionar`      | Proponer fusiones de género.                             |
-| `jerga`         | Inyectar modismos locales en la letra.                   |
-| `letra`         | Escribir o pulir letra limpia.                           |
-| `lyrics_box`    | Estructurar la letra en lyrics_box (Fases 4-5).          |
-| `produccion`    | Flujo completo de creación en fases.                     |
-| `proyecto`      | Crear, retomar, guardar, aprobar o cerrar.               |
-| `retrospectiva` | Detectar, validar y archivar aprendizajes reutilizables. |
-| `style_box`     | Crear o iterar el molde sonoro.                          |
+| Skill           | Uso                                                       |
+| --------------- | --------------------------------------------------------- |
+| `buscar-tag`    | Buscar y citar tags concretas en chupilista.              |
+| `cover-art`     | Diseñar prompts o generar una portada, según la petición. |
+| `fonetizar`     | Aplicar acento o idioma cantado.                          |
+| `fusionar`      | Proponer fusiones de género.                              |
+| `jerga`         | Inyectar modismos locales en la letra.                    |
+| `letra`         | Escribir o pulir letra limpia.                            |
+| `lyrics-box`    | Estructurar la letra en lyrics_box (Fases 4-5).           |
+| `produccion`    | Flujo completo de creación en fases.                      |
+| `proyecto`      | Crear, retomar, guardar, aprobar o cerrar.                |
+| `retrospectiva` | Detectar, validar y archivar aprendizajes reutilizables.  |
+| `style-box`     | Crear o iterar el molde sonoro.                           |
 
 ---
 
@@ -93,5 +94,5 @@ Un prompt sin aprobar es hipótesis, no conocimiento. El aprendizaje estable pue
 
 | Tipo de aprendizaje | Destino             |
 | ------------------- | ------------------- |
-| Principio general   | `.claude/MEMORY.md` |
+| Principio general   | `.agents/MEMORY.md` |
 | Técnica concreta    | `composicion/`      |

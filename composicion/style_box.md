@@ -12,9 +12,9 @@ description: Construye el style_box de una obra, define el núcleo estilístico 
 
 ## Referencias
 
-- **Skill consumidora:** `.claude/skills/style_box/SKILL.md`
-- **Mapa propio:** `.claude/rules/style_box.md`
-- **Canon de tags:** `buscar_tag` → `.claude/rules/chupilista.md` → `chupilista/`
+- **Skill consumidora:** `.agents/skills/style-box/SKILL.md`
+- **Mapa propio:** `.agents/maps/style_box.md`
+- **Canon de tags:** `buscar-tag` → `.agents/maps/chupilista.md` → `chupilista/`
 - **Diseño conceptual previo:** `fusionar`
 
 ---
@@ -49,7 +49,7 @@ description: Construye el style_box de una obra, define el núcleo estilístico 
 
 ## 1 · Etiquetas style_box
 
-- *Fundación técnica de la obra. El canon de cada categoría se recupera vía `buscar_tag` (mapa `.claude/rules/chupilista.md`); los módulos indican el origen canónico, no una lectura directa a `chupilista/`.*
+- *Fundación técnica de la obra. El canon de cada categoría se recupera vía `buscar-tag` (mapa `.agents/maps/chupilista.md`); los módulos indican el origen canónico, no una lectura directa a `chupilista/`.*
     - **Core Genres and Subgenres** (`chupilista` · 01): Fundación rítmica y lenguaje armónico base, siempre al principio.
     - **Instrumentation and Stems** (`chupilista` · 03): Instrumentos estructurales base y/o protagonistas; usa Tag Anchoring con 2-4 instrumentos.
     - **Vocal Persona and Timbre** (`chupilista` · 04): Descriptor base de voz.
@@ -94,7 +94,7 @@ description: Construye el style_box de una obra, define el núcleo estilístico 
 
 ### 1.5 · Canon y creación controlada
 
-- *El canon de `chupilista` se recupera mediante `buscar_tag`; sirve como ancla fiable, no como límite creativo absoluto.*
+- *El canon de `chupilista` se recupera mediante `buscar-tag`; sirve como ancla documental, no como garantía de eficacia ni como límite creativo absoluto.*
     - Si existe una tag canónica suficiente, úsala.
     - Si no existe una tag exacta, puede usarse una creación controlada.
     - Toda creación controlada debe tener función sonora, narrativa o técnica.

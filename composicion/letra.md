@@ -10,10 +10,10 @@ description: Escritura técnica y tipografía como partitura física. narrativa,
 
 ## Referencias
 
-- **Skill consumidora:** `.claude/skills/letra/SKILL.md`
-- **Mapa propio:** `.claude/rules/letra.md`
-- **Anclaje regional (jerga):** `jerga` → `.claude/rules/jerga.md`
-- **Fonética / acento cantado:** `fonetizar` → `.claude/rules/fonetizar.md`
+- **Skill consumidora:** `.agents/skills/letra/SKILL.md`
+- **Mapa propio:** `.agents/maps/letra.md`
+- **Anclaje regional (jerga):** `jerga` → `.agents/maps/jerga.md`
+- **Fonética / acento cantado:** `fonetizar` → `.agents/maps/fonetizar.md`
 
 *Recordatorio: consulta por búsqueda (grep) o salto por sección.*
 
@@ -21,7 +21,7 @@ description: Escritura técnica y tipografía como partitura física. narrativa,
 
 `1 · Narrativa`
   `1.1 · Métrica y lirismo libre`
-  `1.2 · Rigidez estructural`
+  `1.2 · Disciplina estructural`
   `1.3 · Anclaje regional mediante jerga`
 `2 · letra`
   `2.1 · Cadencia y sustain`
@@ -45,9 +45,9 @@ description: Escritura técnica y tipografía como partitura física. narrativa,
 
   *Autonomía total sobre longitud de verso, ritmo silábico e historia. Escribe desde la inspiración pura.*
 
-### 1.2 ·   `Rigidez estructural
+### 1.2 · Disciplina estructural
 
-  *En Fase 3 el lirismo va 100% libre de tags. En Fases 4 y 5 es obligatorio ceñirse a la arquitectura.*
+  *En Fase 3 el lirismo va 100% libre de tags. En Fases 4 y 5 son obligatorias la sintaxis de las cajas y la arquitectura aprobada; la métrica, la rima y la regularidad pueden desviarse cuando cumplan una función narrativa, vocal o rítmica.*
 
 ### 1.3 · Anclaje regional mediante jerga
 

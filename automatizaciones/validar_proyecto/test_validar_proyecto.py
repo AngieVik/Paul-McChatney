@@ -137,8 +137,8 @@ def test_backtick_bare_label_skipped():
 def test_backtick_canonical_ok():
     with tempfile.TemporaryDirectory() as d:
         root = Path(d)
-        (root / ".claude").mkdir()
-        (root / ".claude" / "MEMORY.md").write_text("x", encoding="utf-8")
+        (root / ".agents").mkdir()
+        (root / ".agents" / "MEMORY.md").write_text("x", encoding="utf-8")
         f = root / "a.md"
         f.write_text("ver `MEMORY.md`.\n", encoding="utf-8")
         probs = []
@@ -177,11 +177,11 @@ def test_library_indexing_orphan_and_dup():
     with tempfile.TemporaryDirectory() as d:
         root = Path(d)
         (root / "jerga").mkdir()
-        (root / ".claude" / "rules").mkdir(parents=True)
+        (root / ".agents" / "maps").mkdir(parents=True)
         (root / "jerga" / "a.md").write_text("x", encoding="utf-8")
         (root / "jerga" / "b.md").write_text("x", encoding="utf-8")
         # el mapa referencia a.md dos veces (duplicado) y omite b.md (huérfano)
-        (root / ".claude" / "rules" / "jerga.md").write_text(
+        (root / ".agents" / "maps" / "jerga.md").write_text(
             "índice\njerga/a.md\njerga/a.md\n", encoding="utf-8")
         probs = []
         V.check_library_indexing(root, probs)
@@ -195,13 +195,49 @@ def test_library_indexing_clean():
     with tempfile.TemporaryDirectory() as d:
         root = Path(d)
         (root / "jerga").mkdir()
-        (root / ".claude" / "rules").mkdir(parents=True)
+        (root / ".agents" / "maps").mkdir(parents=True)
         (root / "jerga" / "a.md").write_text("x", encoding="utf-8")
-        (root / ".claude" / "rules" / "jerga.md").write_text("índice jerga/a.md\n", encoding="utf-8")
+        (root / ".agents" / "maps" / "jerga.md").write_text("índice jerga/a.md\n", encoding="utf-8")
         probs = []
         V.check_library_indexing(root, probs)
         check(not probs, "cada archivo indexado exactamente una vez no genera aviso")
 
+
+# ---------- Arquitectura GPT nativa ----------
+
+def test_gpt_native_instruction_paths():
+    hidden_instruction_dirs = {name for name in V.INSTRUCTIONAL_TOP_DIRS if name.startswith(".")}
+    check(hidden_instruction_dirs == {".agents"},
+          "la única carpeta oculta de instrucciones es .agents")
+    check("AGENTS.md" in V.CANONICAL_FILENAMES,
+          "AGENTS.md es el núcleo canónico de raíz")
+    check(V.LIBRARY_MAPS["jerga"] == ".agents/maps/jerga.md",
+          "las bibliotecas se validan contra .agents/maps")
+
+
+def test_frontmatter_required_in_agents():
+    with tempfile.TemporaryDirectory() as d:
+        root = Path(d)
+        map_path = root / ".agents" / "maps" / "foo.md"
+        skill_path = root / ".agents" / "skills" / "foo" / "SKILL.md"
+        map_path.parent.mkdir(parents=True)
+        skill_path.parent.mkdir(parents=True)
+        check(V.requires_frontmatter(map_path, root),
+              ".agents/maps exige frontmatter")
+        check(V.requires_frontmatter(skill_path, root),
+              ".agents/skills/*/SKILL.md exige frontmatter")
+
+
+def test_skill_frontmatter_uses_agent_skills_schema():
+    with tempfile.TemporaryDirectory() as d:
+        root = Path(d)
+        skill_path = root / ".agents" / "skills" / "foo" / "SKILL.md"
+        skill_path.parent.mkdir(parents=True)
+        text = "---\nname: foo\ndescription: Use when se prueba una skill.\n---\n\n# foo\n"
+        probs = []
+        V.check_frontmatter_and_truncation(skill_path, text, root, probs)
+        check(not has(probs, "frontmatter incompleto"),
+              "una skill nativa solo exige name y description")
 
 # ---------- Tags de chupilista (Mejora) ----------
 
@@ -382,6 +418,18 @@ def test_heading_jump_outside_codeblock_flagged():
     t = "# x\n\n### salto real fuera del bloque\n"
     p = problems_for(V.check_heading_style, t)
     check(has(p, "salto de nivel"), "salto de nivel en prosa real (fuera de bloque) sí se detecta")
+
+
+def test_heading_unbalanced_inline_backtick_flagged():
+    t = "# x\n\n## `Código sin cerrar\n"
+    p = problems_for(V.check_heading_style, t)
+    check(has(p, "backtick sin cerrar"), "backtick impar en un encabezado se detecta")
+
+
+def test_heading_balanced_inline_backticks_ok():
+    t = "# x\n\n## Caja `style_box` válida\n"
+    p = problems_for(V.check_heading_style, t)
+    check(not has(p, "backtick sin cerrar"), "backticks equilibrados en un encabezado no generan aviso")
 
 
 # ---------- Claves YAML: comentadas / anidadas no cuentan ----------
@@ -599,6 +647,55 @@ def test_integration_proyecto_canon_vs_historical():
               "obra con canon y caja vacía se reporta en el flujo completo (main)")
         check("obra_vieja" not in out,
               "obra histórica sin canon no aparece en el reporte (exenta de contenido)")
+
+
+def test_integration_type_must_match_directory():
+    with tempfile.TemporaryDirectory() as d:
+        root = Path(d)
+        (root / "README.md").write_text("# Repo\n\ncontenido.\n", encoding="utf-8")
+        (root / "composicion").mkdir()
+        (root / "composicion" / "foo.md").write_text(
+            "---\nname: foo\ntype: map\ndescription: d\n---\n\n# foo\n",
+            encoding="utf-8")
+        # El chequeo unitario debe funcionar incluso si el árbol parcial no
+        # incluye todavía el mapa de la biblioteca.
+        probs = []
+        f = root / "composicion" / "foo.md"
+        V.check_expected_type(f, f.read_text(encoding="utf-8"), root, probs)
+        check(has(probs, "type incorrecto"), "composicion/ exige type: composicion")
+
+
+def test_integration_catalog_requires_one_entry_per_project():
+    with tempfile.TemporaryDirectory() as d:
+        root = Path(d)
+        (root / "README.md").write_text("# Repo\n\ncontenido.\n", encoding="utf-8")
+        obra = root / "proyectos" / "obra"
+        obra.mkdir(parents=True)
+        (obra / "obra.md").write_text(
+            PROYECTO_OK.replace("name: x", "name: obra").replace("# x\n", "# obra\n"),
+            encoding="utf-8")
+        (root / "PROYECTOS.md").write_text("# PROYECTOS\n\nSin registrar.\n", encoding="utf-8")
+        code, out = run_main(root)
+        check(code == 1 and "obra sin catalogar" in out,
+              "una obra canónica ausente de PROYECTOS.md se detecta")
+
+
+def test_integration_catalog_rejects_duplicate_project_entry():
+    with tempfile.TemporaryDirectory() as d:
+        root = Path(d)
+        (root / "README.md").write_text("# Repo\n\ncontenido.\n", encoding="utf-8")
+        obra = root / "proyectos" / "obra"
+        obra.mkdir(parents=True)
+        (obra / "obra.md").write_text(
+            PROYECTO_OK.replace("name: x", "name: obra").replace("# x\n", "# obra\n"),
+            encoding="utf-8")
+        path = "proyectos/obra/obra.md"
+        (root / "PROYECTOS.md").write_text(
+            f"# PROYECTOS\n\n[Uno]({path})\n\n[Dos]({path})\n",
+            encoding="utf-8")
+        code, out = run_main(root)
+        check(code == 1 and "obra catalogada por duplicado" in out,
+              "una obra repetida en PROYECTOS.md se detecta")
 
 
 

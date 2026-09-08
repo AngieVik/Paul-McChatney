@@ -29,12 +29,12 @@ Raw blues rock with soulful electric guitar riffs, steady groove drums, warm bas
  ```markdown
  [producción: mezcla dolby atmos, audio de alta fidelidad, audio de alta definición y estéreo amplio]
 
- [[intro]]
+ [intro]
 
  [Narrador épico]
  Dicen que nació, con una junta de trócola bajo el brazo.
 
- [[verse]]
+ [verse]
 
  [voz masculina rasgada]
 
@@ -46,7 +46,7 @@ Raw blues rock with soulful electric guitar riffs, steady groove drums, warm bas
  Bajo la almohada una catorce quince, duerme armado con fe y pasión,
  nunca teme mancharse los nudillos, es un héroe hecho en grasa y corazón.
 
- [[chorus]]
+ [chorus]
 
  [voz potente eco]
 
@@ -59,7 +59,7 @@ Raw blues rock with soulful electric guitar riffs, steady groove drums, warm bas
  Siempre al frente sin dudar, Oscar lo arregla lo vuelve a arrancar.
  (x2)
 
- [[verse]]
+ [verse]
 
  [voz con actitud]
 
@@ -69,7 +69,7 @@ Raw blues rock with soulful electric guitar riffs, steady groove drums, warm bas
  Sus muchachos lo siguen, aprenden, es maestro, es amigo, es fiel,
  Ángel Gaitán lo sigue en redes, pero Oscar no responde !Que cruel¡
 
- [[chorus]]
+ [chorus]
 
  [voz doble tracking]
 
@@ -82,7 +82,7 @@ Raw blues rock with soulful electric guitar riffs, steady groove drums, warm bas
  Siempre al frente sin dudar, Oscar lo arregla lo vuelve a arrancar.
  (x2)
 
- [[bridge]]
+ [bridge]
 
  [voz suave intensificando]
 
@@ -94,7 +94,7 @@ Raw blues rock with soulful electric guitar riffs, steady groove drums, warm bas
 
  [Solo de guitarra]
 
- [[outro]]
+ [outro]
 
  [voz masculina nostálgica]
 
@@ -104,5 +104,5 @@ Raw blues rock with soulful electric guitar riffs, steady groove drums, warm bas
  Y cuando todos duermen sin saber
  Oscar deja huella sin retroceder.
 
- [[Fin]]
+ [Fin]
  ```

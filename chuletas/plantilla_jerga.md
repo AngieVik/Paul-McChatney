@@ -16,13 +16,15 @@ name: <slug>
 type: jerga
 description: <descripcion>
 region: <ambito>
+status: <documentada | heuristica_artistica>
+sources: <referencias | sin_fuentes>
 ---
 
 # <slug>
 
 ## Perfil Lexical General
 
-Una introducción al "carácter" del vocabulario para entender la mentalidad y el entorno del hablante.
+Una introducción al contexto, uso y alcance del vocabulario. Evita atribuir una mentalidad uniforme a toda una región o comunidad.
 
 - **Descripción:** [Naturaleza de la jerga: Ej. "Altamente metafórica, uso constante de ironía y doble sentido"].
 - **Influencias Principales:** [Ej. "Préstamos del inglés (anglicismos), palabras de lenguas indígenas locales, o arcaísmos conservados"].
@@ -76,7 +78,7 @@ Disección de frases completas aplicando el vocabulario y las reglas anteriores.
 
 ### Frase de Ejemplo 1: Saludo en la calle
 
-- **Original en Jerga:** `[Frase coloquial completa e incomprensible para un extranjero]`
+- **Original en Jerga:** `[Frase coloquial completa y situada en un contexto concreto]`
     - *Desglose Lexical:* [Explicación paso a paso: Término A significa X, Muletilla B sirve para Y].
     - *Traducción Estándar:* **"[La frase en español neutro, plano y formal]"**
 
@@ -93,5 +95,7 @@ Disección de frases completas aplicando el vocabulario y las reglas anteriores.
 
 - **`<descripcion>`:** breve descripción general del origen y uso de la jerga. Ej. "Jerga urbana de clase trabajadora, influenciada por la inmigración y el argot carcelario, asimilada en la cultura pop".
 - **`<ambito>`:** región, idioma, grupo social, gremio o profesión.
+- **`<documentada | heuristica_artistica>`:** distingue una guía apoyada en fuentes de un perfil creativo estilizado.
+- **`<referencias | sin_fuentes>`:** enumera referencias verificables o declara de forma explícita que no existen.
 
 ---
