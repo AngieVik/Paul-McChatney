@@ -70,19 +70,20 @@ description: Catálogo de canciones producidas, cada entrada enlaza al archivo c
 
 ## 5 · inspiración_real
 
-| Título                                                                                  | Género          | Estilo                               |
-| --------------------------------------------------------------------------------------- | --------------- | ------------------------------------ |
-| [Bata blanca y pasión](proyectos/bata_blanca_y_pasion/bata_blanca_y_pasion.md)          | Flamenco, Copla | Spoken Word                          |
-| [Oscar lo arregla](proyectos/oscar_lo_arregla/oscar_lo_arregla.md)                      | Épico Narrativo | Mecánico Legendario                  |
-| [Niña sonrisa](proyectos/nina_sonrisa/nina_sonrisa.md)                                  | Pop Positivo    | Energía, AngieSoundlab               |
-| [Parece de Murcia](proyectos/parece_de_murcia/parece_de_murcia.md)                      | Rap             | Comedia Regional, Doble Tempo        |
-| [Sebas el grande](proyectos/sebas_el_grande/sebas_el_grande.md)                         | Cumbia          | Retrato de Personaje                 |
-| [Sandra empieza con zeta](proyectos/sandra_empieza_con_zeta/sandra_empieza_con_zeta.md) | Folk            | Voz Libre, Sin Destino               |
-| [Pablik](proyectos/pablik/pablik.md)                                                    | Urban Femme     | Producción Hipermoderna, Dolby Atmos |
-| [Jimmy al rescate](proyectos/jimmy_al_rescate/jimmy_al_rescate.md)                      | Rock Energético | Acción, Héroe de Carretera           |
-| [Carmen, niña de sol](proyectos/carmen_nina_de_sol/carmen_nina_de_sol.md)               | Flamenco, Copla | Vocal Dramático                      |
-| [Niña De Salitre](proyectos/nina_de_salitre/nina_de_salitre.md)                         | Flamenco        | Andaluz, Amor Paterno                |
-| [Lega la uve](proyectos/lega_la_uve/lega_la_uve.md)                                     | Punk            | Comedia, Supervivencia con Botiquín  |
+| Título                                                                                  | Género             | Estilo                               |
+| --------------------------------------------------------------------------------------- | ------------------ | ------------------------------------ |
+| [Bata blanca y pasión](proyectos/bata_blanca_y_pasion/bata_blanca_y_pasion.md)          | Flamenco, Copla    | Spoken Word                          |
+| [Oscar lo arregla](proyectos/oscar_lo_arregla/oscar_lo_arregla.md)                      | Épico Narrativo    | Mecánico Legendario                  |
+| [Niña sonrisa](proyectos/nina_sonrisa/nina_sonrisa.md)                                  | Pop Positivo       | Energía, AngieSoundlab               |
+| [Parece de Murcia](proyectos/parece_de_murcia/parece_de_murcia.md)                      | Rap                | Comedia Regional, Doble Tempo        |
+| [Sebas el grande](proyectos/sebas_el_grande/sebas_el_grande.md)                         | Cumbia             | Retrato de Personaje                 |
+| [Sandra empieza con zeta](proyectos/sandra_empieza_con_zeta/sandra_empieza_con_zeta.md) | Folk               | Voz Libre, Sin Destino               |
+| [Pablik](proyectos/pablik/pablik.md)                                                    | Urban Femme        | Producción Hipermoderna, Dolby Atmos |
+| [Jimmy al rescate](proyectos/jimmy_al_rescate/jimmy_al_rescate.md)                      | Rock Energético    | Acción, Héroe de Carretera           |
+| [Carmen, niña de sol](proyectos/carmen_nina_de_sol/carmen_nina_de_sol.md)               | Flamenco, Copla    | Vocal Dramático                      |
+| [Niña De Salitre](proyectos/nina_de_salitre/nina_de_salitre.md)                         | Flamenco           | Andaluz, Amor Paterno                |
+| [Lega la uve](proyectos/lega_la_uve/lega_la_uve.md)                                     | Punk               | Comedia, Supervivencia con Botiquín  |
+| [Romero y Ceniza](proyectos/romero_y_ceniza/romero_y_ceniza.md)                         | Flamenco, Trip-Hop | Andaluz Interior, Despoblación Rural |
 
 ---
 

@@ -30,6 +30,19 @@ Mapeo de las palabras clave esenciales para la supervivencia conversacional en e
 
 - **Nota de intensidad:** Las expresiones superlativas suelen construirse añadiendo la palabra "perdío" (perdido) al final del adjetivo. Ej. "Está tonto perdío" (Es sumamente tonto).
 
+## Arcaísmos y Léxico Rural (Despoblación / Interior)
+
+Vocabulario de raíz rural y arcaica, propio del habla de pueblo — cortijos, casas de labranza, generación mayor. Aportado en la composición *Romero y Ceniza*.
+
+| Término / Expresión | Significado Estándar                      | Registro / Tono   | Ejemplo Práctico (En Contexto)                                       |
+| ------------------- | ----------------------------------------- | ----------------- | -------------------------------------------------------------------- |
+| **Reló**            | Reloj (caída de la -j final)              | Rural / Arcaico   | *Se paró el reló de pared.* → "Se paró el reloj de pared."           |
+| **Dende**           | Desde (forma arcaica)                     | Rural / Arcaico   | *Me mira dende el aparadó.* → "Me mira desde el aparador."           |
+| **Aparadó**         | Aparador (caída de la -r final)           | Rural / Coloquial | *El retrato está en el aparadó.* → "El retrato está en el aparador." |
+| **Güelo**           | Huelo (aspiración/velarización de "hue-") | Rural / Arcaico   | *Güelo a romero seco.* → "Huelo a romero seco."                      |
+| **Atrancar**        | Cerrar la puerta con tranca/pestillo      | Rural / Cotidiano | *Voy a atrancar la puerta.* → "Voy a cerrar bien la puerta."         |
+| **Pa'**             | Para (apócope)                            | Coloquial general | *Pa' que no entre el frío.* → "Para que no entre el frío."           |
+
 ## Muletillas y Marcadores Discursivos
 
 Las palabras vacías o de apoyo que dan fluidez y naturalidad al discurso, aunque carezcan de significado literal.

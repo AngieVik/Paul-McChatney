@@ -6,7 +6,7 @@ description: Núcleo de control temporal, métrica matemática, cuantización y 
 
 # 05_rhythm_and_tempo
 
-*Recordatorio: se consulta por búsqueda (grep) o saltando a una sección.*
+- *Recordatorio: se consulta por búsqueda (grep) o saltando a una sección.*
 
 ---
 

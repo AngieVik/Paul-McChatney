@@ -6,7 +6,7 @@ description: Colección exhaustiva de tags sobre la estructura musical, seccione
 
 # 06_song_structure_and_sections
 
-*Recordatorio: se consulta por búsqueda (grep) o saltando a una sección.*
+- *Recordatorio: se consulta por búsqueda (grep) o saltando a una sección.*
 
 ---
 
