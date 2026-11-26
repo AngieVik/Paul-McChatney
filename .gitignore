@@ -1,0 +1,26 @@
+# === Paul McChatney — .gitignore ===
+# --- lista cerrada de formatos excluidos ---
+*.wav
+*.mp3
+*.flac
+*.aif
+*.aiff
+*.m4a
+*.ogg
+*.mp4
+*.mov
+*.png
+*.jpg
+*.jpeg
+*.zip
+*.bak
+# --- Carpetas ---
+_docs/
+_hojas_sucias/
+automatizaciones/
+_automatizaciones/
+_temp/
+
+# --- Temporales / Sistema ---
+.DS_Store
+Thumbs.db

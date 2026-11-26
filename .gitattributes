@@ -1,0 +1,2 @@
+# Normaliza saltos de línea: LF en el repo, en todos los entornos
+* text=auto eol=lf

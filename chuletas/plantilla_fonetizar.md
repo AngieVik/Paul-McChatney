@@ -1,0 +1,123 @@
+---
+name: plantilla_fonetizar
+type: plantilla
+description: Genera la guía para fonetización en español de un dialecto o idioma, sigue la plantilla y genera el resultado en un bloque de código markdown.
+---
+
+# plantilla_fonetizar
+
+1. plantilla\_fonetizar
+    1. Esqueleto
+    2. Perfil Fonético General
+    3. Mapeo de Vocales (Reducción al Español)
+    4. Mapeo de Consonantes y Sonidos Inexistentes
+    5. Reglas de Acentuación, Cadencia y Entonación
+    6. Excepciones y "Falsos Amigos" Fonéticos
+    7. Casos Prácticos de Aplicación (Lectura Directa)
+    8. Interferencia Fonética (Simulación de Acento)
+        1. Distorsión Vocálica (Diptongación Forzada)
+        2. Sustitución Consonántica y Aspiración
+        3. Alteración Rítmica
+        4. Casos Prácticos de Aplicación (Lectura Extranjerizada)
+    9. Instrucciones
+
+---
+
+## Esqueleto
+
+```markdown
+---
+name: <slug>
+type: fonetizar
+description: "<descripcion>"
+region: "<ambito>"
+---
+
+# <slug>
+```
+
+## Perfil Fonético General
+
+Una introducción al "carácter" del idioma para establecer la postura articulatoria del lector.
+
+- **Descripción:** Ritmo, tono base y posición de la lengua\boca.
+- **Rasgo Distintivo:** Ej. "Lenguaje no rótico, las 'r' finales se vocalizan".
+
+## Mapeo de Vocales (Reducción al Español)
+
+Adaptación del sistema vocálico complejo del idioma origen a las 5 vocales puras del español.
+
+| Patrón \ Grafía Original | Regla de Transformación            | Equivalencia Fonética | Ejemplo Práctico     |
+|--------------------------|------------------------------------|-----------------------|----------------------|
+| Ej. 'ee' \ 'ea'          | Se pronuncia como una 'i' alargada | **i**                 | *see* → **sí**       |
+| Ej. Vocal átona          | Se reduce a sonido neutro (Schwa)  | **a \ e \ o** débil   | *about* → **a**-báut |
+
+- **Diptongos clave:** Explicación de las uniones vocálicas más comunes, ej. "ay" → 'éi'.
+
+## Mapeo de Consonantes y Sonidos Inexistentes
+
+Cómo representar fonemas que no existen en el español usando nuestras grafías.
+
+| Sonido de Origen (IPA) | Descripción Articulatoria    | Fonetización en Español              |
+|------------------------|------------------------------|--------------------------------------|
+| Ej. \v\                | Fricativa labiodental sonora | **v** (forzando vibración de labios) |
+| Ej. \ʃ\                | Fricativa postalveolar sorda | **sh**                               |
+
+- **Consonantes mudas:** Reglas estrictas sobre qué letras ignorar. Ej. "La 'k' ante 'n' inicial es muda".
+
+## Reglas de Acentuación, Cadencia y Entonación
+
+Instrucciones sobre la aplicación de la fuerza de voz y la curva melódica.
+
+- **Patrones de Acentuación:** Ej. "Acentuación predominantemente aguda en palabras de dos sílabas".
+- **Curva de Entonación:** Ej. "Al final de oraciones afirmativas, el tono desciende bruscamente".
+- **Uso de la tilde obligatoria:** Toda palabra fonetizada de más de una sílaba debe llevar explícitamente escrita la tilde en la sílaba tónica.
+
+## Excepciones y "Falsos Amigos" Fonéticos
+
+Advertencias sobre combinaciones de letras que inducen al error por lectura literal.
+
+- **Falso Amigo 1:** Ej. "La letra 'h' suele ser aspirada, no muda".
+- **Falso Amigo 2:** Ej. "La terminación '-tion' nunca se lee literal, se convierte en '-shon'".
+
+## Casos Prácticos de Aplicación (Lectura Directa)
+
+Disección de palabras clave aplicando las reglas anteriores.
+
+- *Palabra:* `Original` (Traducción)
+    - *Desglose:* Explicación de los fenómenos fonéticos que ocurren.
+    - *Fonetización final:* **Sílaba tónica**
+
+## Interferencia Fonética (Simulación de Acento)
+
+Definición de cómo los hablantes nativos de este idioma distorsionan los fonemas del español (Lectura inversa).
+
+### Distorsión Vocálica (Diptongación Forzada)
+
+- **Patrón de transformación:** Ej. "Las vocales 'e' y 'o' finales se diptongan en 'éi' y 'óu'".
+- **Reducción a Schwa:** Ej. "Las vocales átonas se relajan hasta casi desaparecer".
+
+### Sustitución Consonántica y Aspiración
+
+- **Fenómeno 1:** Ej. "Incapacidad de vibración múltiple en la 'rr', sustituida por aproximante alveolar".
+- **Fenómeno 2:** Ej. "Aspiración fuerte (exhalación) en las sílabas iniciadas por 'p', 't', 'k'".
+
+### Alteración Rítmica
+
+- **Cadencia:** Ej. "Transformación del ritmo silábico plano del español a un ritmo acentual rebotado".
+
+### Casos Prácticos de Aplicación (Lectura Extranjerizada)
+
+- **Palabra Española:** `Original`
+    - *Desglose de Interferencia:* Explicación de las distorsiones aplicadas.
+    - *Fonetización simulada:* **fónetisashon**
+
+---
+
+## Instrucciones
+
+- *Para separar las sílabas, usa un espacio en lugar de un guion. Usa un guion cuando haya un alargamiento vocal o una pausa breve (tipo respiración).*
+- **`<descripcion>`:** breve descripción general del sistema fonológico. Ej. "Sistema opaco, requiere memorización de patrones ortográficos".
+- **`<ambito>`:** región, idioma.
+
+---

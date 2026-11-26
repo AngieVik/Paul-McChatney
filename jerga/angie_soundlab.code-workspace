@@ -1,0 +1,45 @@
+{
+	"folders": [
+		{
+			"name": "_prompts_antiguos",
+			"path": "../../_prompts_antiguos"
+		},
+		{
+			"name": "_temp",
+			"path": "../../_temp"
+		},
+		{
+			"name": "_produccion",
+			"path": "../../_produccion"
+		},
+		{
+			"name": "_docs",
+			"path": "../../_docs"
+		},
+		{
+			"name": "Paul McChatney",
+			"path": ".."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"*.md": "markdown"
+		},
+		"markdown.extension.tableFormatter.enabled": true,
+		"markdown.extension.tableFormatter.normalizeIndentation": true,
+		"markdown.extension.toc.updateOnSave": true,
+		"markdown.extension.toc.orderedList": true,
+		"markdown.extension.toc.plaintext": true,
+		"markdown.extension.italic.indicator": "*",
+		"markdown.updateLinksOnFileMove.enabled": "always",
+		"prettier.documentSelectors": [
+			"**/*.ts",
+			"**/*.tsx",
+			"**/*.js",
+			"**/*.jsx",
+			"**/*.json",
+			"**/*.css",
+			"**/*.html"
+		]
+	}
+}
