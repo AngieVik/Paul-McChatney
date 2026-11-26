@@ -6,7 +6,10 @@ description: Una colección exhaustiva de instrucciones (tags) diseñadas para i
 
 # 14_nudging_and_callbacks
 
-- *Recordatorio: se consulta por búsqueda (grep) o saltando a una sección*
+- *Consulta: 
+    - Por búsqueda *-Grep.*
+    - Saltando a una *sección.*
+       
 
 ---
 

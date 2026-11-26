@@ -6,7 +6,10 @@ description: Colección exhaustiva de efectos de sonido, foley, atmósferas y di
 
 # 09_foley_and_sound_design_fx
 
-- *Recordatorio: se consulta por búsqueda (grep) o saltando a una sección*
+- *Consulta: 
+    - Por búsqueda *-Grep.*
+    - Saltando a una *sección.*
+       
 
 ---
 

@@ -7,8 +7,11 @@ description: guia de instrucciones fonéticas para escribir con una pronunciaci�
 # fonetizar
 
 - *Indice "Concepto" → "Archivo":*
-    - **Abre:`fonetizar/<archivo>.md` bajo demanda o cuando la tarea lo requiera.**
-    - **Consulta por búsqueda (grep) o salto por Índice.**
+    - **Abre:**
+        - `fonetizar/<archivo>.md` bajo *demanda* o cuando la *tarea* lo requiera.
+    - **Consulta:**
+        - Por búsqueda *grep.*
+        - Salto por *Índice.*
 
 ---
 

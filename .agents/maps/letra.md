@@ -7,8 +7,11 @@ description: Escritura técnica y tipografía, narrativa, control fonético y ar
 # letra
 
 - *Indice "Concepto" → "Archivo":*
-    - **Abre:`composicion/letra.md` bajo demanda o cuando la tarea lo requiera.**
-    - **Consulta por búsqueda (grep) o salto por Índice.**
+    - **Abre:**
+        - `composicion/letra.md` bajo *demanda* o cuando la *tarea* lo requiera.
+    - **Consulta:**
+        - Por búsqueda *grep.*
+        - Salto por *Índice.*
 
 ---
 

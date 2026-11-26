@@ -6,7 +6,10 @@ description: Colección exhaustiva de tags negativas para evitar estilos musical
 
 # 15_negative_prompts_and_exclude_styles
 
-- *Recordatorio: se consulta por búsqueda (grep) o saltando a una sección*
+- *Consulta: 
+    - Por búsqueda *-Grep.*
+    - Saltando a una *sección.*
+       
 
 ---
 

@@ -6,7 +6,10 @@ description: Repositorio integral de arquitecturas de diseño sonoro de vanguard
 
 # 10_experimental_modes
 
-- *Recordatorio: se consulta por búsqueda (grep) o saltando a una sección*
+- *Consulta: 
+    - Por búsqueda *-Grep.*
+    - Saltando a una *sección.*
+       
 
 ---
 

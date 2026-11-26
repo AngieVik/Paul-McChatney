@@ -6,7 +6,10 @@ description: Clasificación de estilos vocales, timbres, emociones y efectos de 
 
 # 04_vocal_persona_and_timbre
 
-- *Recordatorio: se consulta por búsqueda (grep) o saltando a una sección*
+- *Consulta: 
+    - Por búsqueda *-Grep.*
+    - Saltando a una *sección.*
+       
 
 ---
 

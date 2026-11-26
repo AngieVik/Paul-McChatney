@@ -6,7 +6,10 @@ description: Directorio maestro de modificadores avanzados para generación, mod
 
 # 13_advanced_modifiers_allowed
 
-- *Recordatorio: se consulta por búsqueda (grep) o saltando a una sección*
+- *Consulta: 
+    - Por búsqueda *-Grep.*
+    - Saltando a una *sección.*
+       
 
 ---
 

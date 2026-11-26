@@ -7,8 +7,11 @@ description: Índice maestro de los archivos de composición, saber de oficio y 
 # composicion
 
 - *Indice "Concepto" → "Archivo":*
-    - **Abre:`composicion/<archivo>.md` bajo demanda o cuando la tarea lo requiera.**
-    - **Consulta por búsqueda (grep) o salto por Índice.**
+    - **Abre:**
+        - `composicion/<archivo>.md` bajo *demanda* o cuando la *tarea* lo requiera.
+    - **Consulta:**
+        - Por búsqueda *grep.*
+        - Salto por *Índice.*
 
 ---
 

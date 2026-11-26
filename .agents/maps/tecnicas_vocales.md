@@ -7,8 +7,11 @@ description: Puntuación en la letra y dirección vocal, persona Stacking, roles
 # tecnicas_vocales
 
 - *Indice "Concepto" → "Archivo":*
-    - **Abre:`composicion/tecnicas_vocales.md` bajo demanda o cuando la tarea lo requiera.**
-    - **Consulta por búsqueda (grep) o salto por Índice.**
+    - **Abre:**
+        - `composicion/tecnicas_vocales.md` bajo *demanda* o cuando la *tarea* lo requiera.
+    - **Consulta:**
+        - Por búsqueda *grep.*
+        - Salto por *Índice.*
 
 ---
 

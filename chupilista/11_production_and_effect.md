@@ -6,7 +6,10 @@ description: Categorización exhaustiva de técnicas, efectos y procesos de prod
 
 # 11_production_and_effect
 
-- *Recordatorio: se consulta por búsqueda (grep) o saltando a una sección*
+- *Consulta: 
+    - Por búsqueda *-Grep.*
+    - Saltando a una *sección.*
+       
 
 ---
 

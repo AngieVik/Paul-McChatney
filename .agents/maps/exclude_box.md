@@ -7,8 +7,11 @@ description: Prompting inverso y control de artefactos, qué bloquear en el excl
 # exclude_box
 
 - *Indice "Concepto" → "Archivo":*
-    - **Abre:`composicion/exclude_box.md` bajo demanda o cuando la tarea lo requiera.**
-    - **Consulta por búsqueda (grep) o salto por Índice.**
+    - **Abre:**
+        - `composicion/exclude_box.md` bajo *demanda* o cuando la *tarea* lo requiera.
+    - **Consulta:**
+        - Por búsqueda *grep.*
+        - Salto por *Índice.*
 
 ---
 

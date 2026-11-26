@@ -6,7 +6,10 @@ description: Colección de atmósferas, texturas y estados emocionales para dise
 
 # 02_atmosphere_and_mood
 
-- *Recordatorio: se consulta por búsqueda (grep) o saltando a una sección*
+- *Consulta: 
+    - Por búsqueda *-Grep.*
+    - Saltando a una *sección.*
+       
 
 ---
 

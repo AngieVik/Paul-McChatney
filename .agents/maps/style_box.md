@@ -7,8 +7,11 @@ description: Construcción del style_box con Etiquetas, Fusión y frecuencias, D
 # style_boxç
 
 - *Indice "Concepto" → "Archivo":*
-    - **Abre:`composicion/style_box.md` bajo demanda o cuando la tarea lo requiera.**
-    - **Consulta por búsqueda (grep) o salto por Índice.**
+    - **Abre:**
+        - `composicion/style_box.md` bajo *demanda* o cuando la *tarea* lo requiera.
+    - **Consulta:**
+        - Por búsqueda *grep.*
+        - Salto por *Índice.*
 
 ---
 

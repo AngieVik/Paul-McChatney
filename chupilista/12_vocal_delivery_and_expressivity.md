@@ -6,7 +6,10 @@ description: Técnicas vocales, expresiones emocionales, estilos de interpretaci
 
 # 12_vocal_delivery_and_expressivity
 
-- *Recordatorio: se consulta por búsqueda (grep) o saltando a una sección*
+- *Consulta: 
+    - Por búsqueda *-Grep.*
+    - Saltando a una *sección.*
+       
 
 ---
 

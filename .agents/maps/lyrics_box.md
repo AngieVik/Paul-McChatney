@@ -7,8 +7,11 @@ description: Control por corchetes, dirección de banda, estructura y hacks temp
 # lyrics_box
 
 - *Indice "Concepto" → "Archivo":*
-    - **Abre:`composicion/lyrics_box.md` bajo demanda o cuando la tarea lo requiera.**
-    - **Consulta por búsqueda (grep) o salto por Índice.**
+    - **Abre:**
+        - `composicion/lyrics_box.md` bajo *demanda* o cuando la *tarea* lo requiera.
+    - **Consulta:**
+        - Por búsqueda *grep.*
+        - Salto por *Índice.*
 
 ---
 

@@ -7,8 +7,11 @@ description: Formato final de entrega, bloques copiables, obra completa y entreg
 # formato
 
 - *Indice "Concepto" → "Archivo":*
-    - **Abre:`composicion/formato.md` bajo demanda o cuando la tarea lo requiera.**
-    - **Consulta por búsqueda (grep) o salto por Índice.**
+    - **Abre:**
+        - `composicion/formato.md` bajo *demanda* o cuando la *tarea* lo requiera.
+    - **Consulta:**
+        - Por búsqueda *grep.*
+        - Salto por *Índice.*
 
 ---
 

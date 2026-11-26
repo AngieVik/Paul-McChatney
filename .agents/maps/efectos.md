@@ -7,8 +7,11 @@ description: Post-producción, espacio estéreo, DSP, texturas, transiciones y S
 # efectos
 
 - *Indice "Concepto" → "Archivo":*
-    - **Abre:`composicion/efectos.md` bajo demanda o cuando la tarea lo requiera.**
-    - **Consulta por búsqueda (grep) o salto por Índice.**
+    - **Abre:**
+        - `composicion/efectos.md` bajo *demanda* o cuando la *tarea* lo requiera.
+    - **Consulta:**
+        - Por búsqueda *grep.*
+        - Salto por *Índice.*
 
 ---
 
