@@ -11,9 +11,9 @@ description: Escritura técnica y tipografía como partitura física. narrativa,
 ## Referencias
 
 - **Skill consumidora:** `.agents/skills/letra/SKILL.md`
-- **Mapa propio:** `.agents/maps/letra.md`
-- **Anclaje regional (jerga):** `jerga` → `.agents/maps/jerga.md`
-- **Fonética / acento cantado:** `fonetizar` → `.agents/maps/fonetizar.md`
+- **Mapa propio:** `.claude/maps/letra.md`
+- **Anclaje regional (jerga):** `jerga` → `.claude/maps/jerga.md`
+- **Fonética / acento cantado:** `fonetizar` → `.claude/maps/fonetizar.md`
 
 *Recordatorio: consulta por búsqueda (grep) o salto por sección.*
 

@@ -7,7 +7,7 @@ description: Colección exhaustiva de metadatos, stems y marcadores de instrumen
 # 03_instrumentation_and_stems
 
 - *Consulta:
-    - Por búsqueda *-Grep.*
+    - Por búsqueda *-Grep*.
     - Saltando a una *sección.*
 
 ---

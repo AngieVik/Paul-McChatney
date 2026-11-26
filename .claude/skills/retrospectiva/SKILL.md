@@ -26,7 +26,7 @@ description: "Convierte aprendizajes detectados durante el trabajo en conocimien
 
 - *Para decidir dónde vive cada aprendizaje, consulta los mapas antes de tocar archivos.*
     - **Principios transversales:** `.agents/MEMORY.md`.
-    - **Técnica o tag concreto:** su archivo en `composicion/`, localizado por el mapa correspondiente en `.agents/maps/` (índice `.agents/maps/composicion.md`).
+    - **Técnica o tag concreto:** su archivo en `composicion/`, localizado por el mapa correspondiente en `.claude/maps/` (índice `.claude/maps/composicion.md`).
     - **Corazonadas `⚗️`:** viven marcadas dentro de los archivos de `composicion/`; la retrospectiva las asciende, degrada o elimina.
 
 ---
@@ -38,7 +38,7 @@ description: "Convierte aprendizajes detectados durante el trabajo en conocimien
 3. **Validar utilidad:** conserva solo aprendizajes reutilizables; descarta ocurrencias aisladas, gustos pasajeros o resultados no comprobados.
 4. **Clasificar el destino:**
     - **Principio transversal** (aplica a cualquier obra) → candidato a `.agents/MEMORY.md`.
-    - **Técnica o tag concreto** (pertenece a una caja) → candidato a su `composicion/<archivo>.md`, entrando por su mapa en `.agents/maps/`.
+    - **Técnica o tag concreto** (pertenece a una caja) → candidato a su `composicion/<archivo>.md`, entrando por su mapa en `.claude/maps/`.
     - **Corazonada `⚗️`** puesta a prueba en la obra → **ascender** (quitar la marca `⚗️` si se confirmó), **degradar** (mantener marca y matizar) o **eliminar** (si se refutó).
 5. **Formular en positivo/accionable:** redacta el aprendizaje como instrucción útil, nunca como anécdota ni reproche.
 6. **Proponer y esperar aprobación:** presenta el cambio y pregunta `Añadir`, `Modificar`, `Eliminar` o `No hacer nada`. No toques ningún archivo hasta recibir el visto bueno.
@@ -60,7 +60,7 @@ description: "Convierte aprendizajes detectados durante el trabajo en conocimien
 ## Relación con otras skills
 
 - *La política de cuándo puede activarse y su relación con `aprobar`/`cerrar` vive en `.agents/skills/proyecto/SKILL.md` (§6-7); no se repite aquí.*
-- Escribe en `.agents/MEMORY.md` (principios) y en los `composicion/*.md` (técnicas), enrutando por sus mapas `.agents/maps/`.
+- Escribe en `.agents/MEMORY.md` (principios) y en los `composicion/*.md` (técnicas), enrutando por sus mapas `.claude/maps/`.
 
 ---
 

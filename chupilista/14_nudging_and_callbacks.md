@@ -7,7 +7,7 @@ description: Una colección exhaustiva de instrucciones (tags) diseñadas para i
 # 14_nudging_and_callbacks
 
 - *Consulta: 
-    - Por búsqueda *-Grep.*
+    - Por búsqueda *-Grep*.
     - Saltando a una *sección.*
        
 

@@ -10,7 +10,7 @@ description: Índice maestro de los archivos de composición, saber de oficio y 
     - **Abre:**
         - `composicion/<archivo>.md` bajo *demanda* o cuando la *tarea* lo requiera.
     - **Consulta:**
-        - Por búsqueda *grep.*
+        - Búsqueda por *Grep*.
         - Salto por *Índice.*
 
 ---

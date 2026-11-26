@@ -7,7 +7,7 @@ description: Técnicas vocales, expresiones emocionales, estilos de interpretaci
 # 12_vocal_delivery_and_expressivity
 
 - *Consulta: 
-    - Por búsqueda *-Grep.*
+    - Por búsqueda *-Grep*.
     - Saltando a una *sección.*
        
 

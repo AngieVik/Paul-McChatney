@@ -26,13 +26,13 @@ description: Orquestadora del lyrics_box. Toma el boceto de letra de Fase 3 y lo
 ## Fuentes de Consulta
 
 - *Antes de estructurar, entra por los mapas y abre solo los archivos técnicos que la sección requiera.*
-    - **Mapa propio:** `.agents/maps/lyrics_box.md`
+    - **Mapa propio:** `.claude/maps/lyrics_box.md`
     - **Archivo técnico:** `composicion/lyrics_box.md`
-    - **Boceto de partida (lírica, narrativa, métrica, fonética, poética):** `.agents/maps/letra.md` → `composicion/letra.md`
-    - **Dirección vocal por línea:** `.agents/maps/tecnicas_vocales.md` → `composicion/tecnicas_vocales.md`
-    - **Efectos y post-`produccion` (Fase 5):** `.agents/maps/efectos.md` → `composicion/efectos.md`
+    - **Boceto de partida (lírica, narrativa, métrica, fonética, poética):** `.claude/maps/letra.md` → `composicion/letra.md`
+    - **Dirección vocal por línea:** `.claude/maps/tecnicas_vocales.md` → `composicion/tecnicas_vocales.md`
+    - **Efectos y post-`produccion` (Fase 5):** `.claude/maps/efectos.md` → `composicion/efectos.md`
 - *Para canon de secciones, moods, FX o dinámicas, invoca `buscar_tag`.*
-    - Mapa canónico: `.agents/maps/chupilista.md`
+    - Mapa canónico: `.claude/maps/chupilista.md`
 
 ---
 

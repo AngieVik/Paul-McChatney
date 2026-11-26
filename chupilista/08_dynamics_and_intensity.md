@@ -7,7 +7,7 @@ description: Colección de tags que definen la evolución de la energía, las tr
 # 08_dynamics_and_intensity
 
 - *Consulta: 
-    - Por búsqueda *-Grep.*
+    - Por búsqueda *-Grep*.
     - Saltando a una *sección.*
        
 

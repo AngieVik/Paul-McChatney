@@ -10,7 +10,7 @@ description: Puntuación en la letra y dirección vocal, persona Stacking, roles
     - **Abre:**
         - `composicion/tecnicas_vocales.md` bajo *demanda* o cuando la *tarea* lo requiera.
     - **Consulta:**
-        - Por búsqueda *grep.*
+        - Búsqueda por *Grep*.
         - Salto por *Índice.*
 
 ---

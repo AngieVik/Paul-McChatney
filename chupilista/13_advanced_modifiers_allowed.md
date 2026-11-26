@@ -7,7 +7,7 @@ description: Directorio maestro de modificadores avanzados para generación, mod
 # 13_advanced_modifiers_allowed
 
 - *Consulta: 
-    - Por búsqueda *-Grep.*
+    - Por búsqueda *-Grep*.
     - Saltando a una *sección.*
        
 
@@ -189,7 +189,7 @@ description: Directorio maestro de modificadores avanzados para generación, mod
 ## Ecualización, Filtros y Frecuencias
 
 *Aislamiento y supresión de bandas de frecuencia, barridos de filtro y ecualización sustractiva.*
-*Palabras clave: lowpass, highpass, bandpass, sweep, scoop, EQ, telephone filter, resonance, filter, mid-scoop.*
+*Palabras clave: lowpass, highpass, bandpass, sweep, scoop, EQ, telephone filter, resonance, filter, mid-scoop*.
 
 [Active Pickup High Pass Cut Enable]
 [Active Pickup High-Pass Cut]

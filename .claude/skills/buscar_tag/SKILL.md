@@ -26,7 +26,7 @@ description: Extractor canónico de etiquetas chupilista. Localiza, valida y ent
 
 ## Fuentes de Consulta
 
-- **Mapa canónico:** `.agents/maps/chupilista.md`
+- **Mapa canónico:** `.claude/maps/chupilista.md`
 - **Biblioteca:** `chupilista/` (abre solo el/los módulos necesarios, contexto mínimo y preciso).
 
 ---
@@ -42,7 +42,7 @@ description: Extractor canónico de etiquetas chupilista. Localiza, valida y ent
 
 ## Flujo de Ejecución
 
-- **Resolución de índice:** si la consumidora omite las rutas objetivo, consulta `.agents/maps/chupilista.md` para mapear el concepto al módulo probable; carga solo los módulos necesarios.
+- **Resolución de índice:** si la consumidora omite las rutas objetivo, consulta `.claude/maps/chupilista.md` para mapear el concepto al módulo probable; carga solo los módulos necesarios.
 - **Búsqueda selectiva:** busca el concepto dentro del módulo elegido por raíz, variantes y sinónimos razonables.
     - **Ejemplo:** para voz rasgada, busca también raspy, gritty, hoarse, distorted vocal, vocal fry, si el módulo lo justifica.
 - **Extracción literal:** extrae únicamente etiquetas que existan literalmente; conserva la grafía y el idioma de origen.

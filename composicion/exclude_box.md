@@ -10,10 +10,10 @@ description: Prompting inverso y control de artefactos, para bloquear caracterí
 
 ## Referencias
 
-- **Mapa propio:** `.agents/maps/exclude_box.md`
+- **Mapa propio:** `.claude/maps/exclude_box.md`
 - **Se genera en:** `produccion` (Fase 5); se entrega vía `composicion/formato.md`.
-- **Negativos canónicos:** `buscar_tag` → `.agents/maps/chupilista.md` (módulo 15) → `chupilista/`
-- **Refuerzo de registro vocal:** `.agents/maps/tecnicas_vocales.md` → `composicion/tecnicas_vocales.md` (§2.9)
+- **Negativos canónicos:** `buscar_tag` → `.claude/maps/chupilista.md` (módulo 15) → `chupilista/`
+- **Refuerzo de registro vocal:** `.claude/maps/tecnicas_vocales.md` → `composicion/tecnicas_vocales.md` (§2.9)
 
 *Recordatorio: consulta por búsqueda (grep) o salto por sección.*
 
@@ -35,7 +35,7 @@ description: Prompting inverso y control de artefactos, para bloquear caracterí
 
 - Las etiquetas pueden aparecer en origen de distintas formas, pero la salida final del `exclude_box` se entrega siempre sin corchetes, como términos separados por comas.
 - El `exclude_box` se utilizará en el campo negativo; por ello, los términos se escriben como descriptores directos de las características que deben excluirse, sin añadir «no», «sin» ni formulaciones negativas.
-- El `exclude_box` final se entrega siempre como una línea de texto plano, separada por comas y sin corchetes, de 10-20 palabras. Para negativos canónicos apóyate en `buscar_tag` (mapa `.agents/maps/chupilista.md`, módulo 15 de negativos); esos términos van exclusivamente en el `exclude_box`.
+- El `exclude_box` final se entrega siempre como una línea de texto plano, separada por comas y sin corchetes, de 10-20 palabras. Para negativos canónicos apóyate en `buscar_tag` (mapa `.claude/maps/chupilista.md`, módulo 15 de negativos); esos términos van exclusivamente en el `exclude_box`.
     - **Ejemplo:**`cuban, reggaeton, piano, grand piano, mellow, slow tempo, crooner, romantic ballad, latin pop, generic edm, lo-fi, standard reggaeton`
     - **Ejemplo:** `clipping, overcompressed, muddy mix, robotic voice`
 

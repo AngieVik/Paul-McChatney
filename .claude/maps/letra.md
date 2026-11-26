@@ -10,7 +10,7 @@ description: Escritura técnica y tipografía, narrativa, control fonético y ar
     - **Abre:**
         - `composicion/letra.md` bajo *demanda* o cuando la *tarea* lo requiera.
     - **Consulta:**
-        - Por búsqueda *grep.*
+        - Búsqueda por *Grep*.
         - Salto por *Índice.*
 
 ---

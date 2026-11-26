@@ -10,7 +10,7 @@ description: Guías de jerga para idiomas y dialectos, Permiten inyectar jerga e
     - **Abre:**
         - `jerga/<archivo>.md` bajo demanda con la herramienta de lectur.*
     - **Consulta:**
-        - Por búsqueda *grep.*
+        - Búsqueda por *Grep*.
         - Salto por *Índice.*
 
 ---

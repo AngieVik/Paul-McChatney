@@ -27,7 +27,7 @@ description: Inyecta en el texto cantable jerga específica para que se cante. N
 ## Fuentes de Consulta
 
 - *No abras guías a ciegas: entra por el mapa, que decide qué archivo abrir.*
-    - **Mapa:** `.agents/maps/jerga.md`
+    - **Mapa:** `.claude/maps/jerga.md`
     - **Biblioteca:** `jerga/` (abre solo la guía de la jerga objetivo, un archivo).
 
 ---
@@ -41,7 +41,7 @@ description: Inyecta en el texto cantable jerga específica para que se cante. N
 
 ## Flujo de Ejecución
 
-- **Resolver guía:** identifica la jerga y localiza su guía vía `.agents/maps/jerga.md`; abre solo ese archivo.
+- **Resolver guía:** identifica la jerga y localiza su guía vía `.claude/maps/jerga.md`; abre solo ese archivo.
 - **Aplicar transformaciones:** sustituye e inyecta modismos según esa guía en el texto objetivo.
 - **Entregar:** devuelve el texto con la jerga inyectada (`composicion/formato.md §2`); nunca toca el `style_box`.
 

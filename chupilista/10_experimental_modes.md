@@ -7,7 +7,7 @@ description: Repositorio integral de arquitecturas de diseño sonoro de vanguard
 # 10_experimental_modes
 
 - *Consulta: 
-    - Por búsqueda *-Grep.*
+    - Por búsqueda *-Grep*.
     - Saltando a una *sección.*
        
 
@@ -483,7 +483,7 @@ description: Repositorio integral de arquitecturas de diseño sonoro de vanguard
 ## Síntesis, Filtrado y Procesamiento Espectral Granular
 
 *Intervención a nivel de dominio frecuencial empleando Transformadas Rápida de Fourier (FFT), síntesis FM granular extrema y manipulación profunda de espectros y formantes.*
-*Palabras clave: FFT, síntesis granular, síntesis FM, formantes, spectral resynthesis, LFO, modulación en anillo, sweep.*
+*Palabras clave: FFT, síntesis granular, síntesis FM, formantes, spectral resynthesis, LFO, modulación en anillo, sweep*.
 
 [Acoustic Resonance Deconstruction Mode]
 [Acoustic Resonance Inversion Mapping System]

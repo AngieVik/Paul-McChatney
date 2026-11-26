@@ -10,7 +10,7 @@ description: Vocabulario exhaustivo de tags y modificadores, la chupilista es la
     - **Abre:**
         - `chupilista/<archivo>.md` bajo *demanda* o cuando la *tarea* lo requiera.
     - **Consulta:**
-        - Por búsqueda *grep.*
+        - Búsqueda por *Grep*.
         - Salto por *Índice.*
 
 ---

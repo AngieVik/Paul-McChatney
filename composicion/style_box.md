@@ -13,8 +13,8 @@ description: Construye el style_box de una obra, define el núcleo estilístico 
 ## Referencias
 
 - **Skill consumidora:** `.agents/skills/style_box/SKILL.md`
-- **Mapa propio:** `.agents/maps/style_box.md`
-- **Canon de tags:** `buscar_tag` → `.agents/maps/chupilista.md` → `chupilista/`
+- **Mapa propio:** `.claude/maps/style_box.md`
+- **Canon de tags:** `buscar_tag` → `.claude/maps/chupilista.md` → `chupilista/`
 - **Diseño conceptual previo:** `fusionar`
 
 ---
@@ -49,7 +49,7 @@ description: Construye el style_box de una obra, define el núcleo estilístico 
 
 ## 1 · Etiquetas style_box
 
-- *Fundación técnica de la obra. El canon de cada categoría se recupera vía `buscar_tag` (mapa `.agents/maps/chupilista.md`); los módulos indican el origen canónico, no una lectura directa a `chupilista/`.*
+- *Fundación técnica de la obra. El canon de cada categoría se recupera vía `buscar_tag` (mapa `.claude/maps/chupilista.md`); los módulos indican el origen canónico, no una lectura directa a `chupilista/`.*
     - **Core Genres and Subgenres** (`chupilista` · 01): Fundación rítmica y lenguaje armónico base, siempre al principio.
     - **Instrumentation and Stems** (`chupilista` · 03): Instrumentos estructurales base y/o protagonistas; usa Tag Anchoring con 2-4 instrumentos.
     - **Vocal Persona and Timbre** (`chupilista` · 04): Descriptor base de voz.

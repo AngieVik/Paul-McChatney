@@ -7,7 +7,7 @@ description: Categorización exhaustiva de técnicas, efectos y procesos de prod
 # 11_production_and_effect
 
 - *Consulta: 
-    - Por búsqueda *-Grep.*
+    - Por búsqueda *-Grep*.
     - Saltando a una *sección.*
        
 
@@ -760,7 +760,7 @@ description: Categorización exhaustiva de técnicas, efectos y procesos de prod
 ## Glitch, Stutter y Efectos Experimentales
 
 *Destrucción algorítmica, síntesis granular, fallos de reloj inducidos, time-stretching extremo y ruido experimental.*
-*Palabras clave: glitch, stutter, granular, reverse, noise, deconstructed, experimental, chaos, alien, tape stop.*
+*Palabras clave: glitch, stutter, granular, reverse, noise, deconstructed, experimental, chaos, alien, tape stop*.
 
 [Acoustic Resonance Deconstruction Drive]
 [Ambient Diffusion Matrix Cloud Delay]

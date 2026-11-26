@@ -293,7 +293,7 @@ description: Colección exhaustiva de tags sobre la estructura musical, seccione
 ## Pre-Estribillos y Construcciones de Tensión
 
 *Transiciones ascendentes diseñadas para generar expectativa, aumentar la dinámica y preparar la llegada del clímax o estribillo.*
-*pre-chorus, build, rise, tension, crescendo, escalada, subida, anticipación, buildup.*
+*pre-chorus, build, rise, tension, crescendo, escalada, subida, anticipación, buildup*.
 
 [Asymmetrical Pre-Chorus Tension Rise]
 [Bridge To Chorus Ascent Tension]
@@ -583,7 +583,7 @@ description: Colección exhaustiva de tags sobre la estructura musical, seccione
 ## Interludios, Drops y Transiciones
 
 *Segmentos instrumentales, cortes abruptos o efectos de diseño sonoro que conectan partes mayores o impactan mediante contrastes dinámicos.*
-*interlude, drop, transition, solo, break, fx, corte, transición, paso, silencio, beat drop.*
+*interlude, drop, transition, solo, break, fx, corte, transición, paso, silencio, beat drop*.
 
 [Acapella Interlude Breakdown]
 [Acapella Interlude]

@@ -26,7 +26,7 @@ description: Motor conceptual de arquitectura sonora. Analiza el concepto creati
 ## Fuentes de Consulta
 
 - *La técnica de fusión, frecuencias, dinámica y colisión tímbrica vive en el archivo técnico del `style_box`; consúltalo antes de dictaminar.*
-    - **Mapa:** `.agents/maps/style_box.md`
+    - **Mapa:** `.claude/maps/style_box.md`
     - **Archivo técnico:** `composicion/style_box.md` (§2 Fusión y frecuencias, §3 Dinámicas rítmicas y estructurales, §4 Colisión tímbrica)
 - *Para verificar si un ingrediente ya es canon, invoca `buscar_tag`.*
 

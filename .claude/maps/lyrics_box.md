@@ -10,7 +10,7 @@ description: Control por corchetes, dirección de banda, estructura y hacks temp
     - **Abre:**
         - `composicion/lyrics_box.md` bajo *demanda* o cuando la *tarea* lo requiera.
     - **Consulta:**
-        - Por búsqueda *grep.*
+        - Búsqueda por *Grep*.
         - Salto por *Índice.*
 
 ---

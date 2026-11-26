@@ -10,7 +10,7 @@ description: Manipulación del espacio estéreo, procesamiento de señales (DSP)
 
 ## Referencias
 
-- **Mapa propio:** `.agents/maps/efectos.md`
+- **Mapa propio:** `.claude/maps/efectos.md`
 
 *Recordatorio: consulta por búsqueda (grep) o salto por sección.*
 

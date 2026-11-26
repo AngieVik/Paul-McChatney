@@ -12,7 +12,7 @@ description: Mapa general del proyecto Paul McChatney.
 
 ## 1 · Regla principal
 
-- *No cargar carpetas enteras. Usa los índices de `.agents/maps/` para saber qué abrir, y abre solo ese archivo.*
+- *No cargar carpetas enteras. Usa los índices de `.claude/maps/` para saber qué abrir, y abre solo ese archivo.*
 
 ```text
 Índice → archivo concreto → respuesta
@@ -27,7 +27,7 @@ description: Mapa general del proyecto Paul McChatney.
 | Ruta              | Uso                                              |
 |-------------------|--------------------------------------------------|
 | `.claude/`        | Contexto, memoria, reglas y skills.              |
-| `.agents/maps/`   | Índices → qué archivo abrir.                     |
+| `.claude/maps/`   | Índices → qué archivo abrir.                     |
 | `.agents/skills/` | Habilidades invocables.                          |
 | `system_prompt/`  | Identidad y comportamiento de Paul.              |
 | `chuletas/`       | Plantillas y guías base.                         |
@@ -45,7 +45,7 @@ description: Mapa general del proyecto Paul McChatney.
 ## 3 · Flujo básico
 
 1. Leer `system_prompt/system_prompt.md` y `.claude/MEMORY.md`.
-2. Consultar `.claude/AGENTS.md` y el índice correspondiente en `.agents/maps/`.
+2. Consultar `.claude/AGENTS.md` y el índice correspondiente en `.claude/maps/`.
 3. Abrir solo el archivo necesario y trabajar por fases con `produccion`.
 4. Guardar la obra aprobada en `proyectos/<slug>/<slug>.md` y registrarla en `PROYECTOS.md`.
 5. Ejecutar `retrospectiva` cuando surja un aprendizaje real que el usuario valide (en cualquier momento, no solo al final).

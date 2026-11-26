@@ -52,22 +52,22 @@ description: Contexto de carga, reglas de lectura y mapa principal del proyecto 
 
 - *Carga Selectiva*: Abrir con la herramienta de lectura, usando rutas sin `@`.*
 - *Carga Automatica*: Se importa SIEMPRE al contexto `carga automatica` leyendos y se leen complretos, usando rutas con `@`. Mantén el contexto ligero y preciso
-- *Indices*: Consulta primero `.agents/maps/`. Usa el índice adecuado y abre solo ese archivo concreto.
+- *Indices*: Consulta primero `.claude/maps/`. Usa el índice adecuado y abre solo ese archivo concreto.
 
 | Nombre           | Concepto                                                                                        | Mapa                               | Ruta                              |
 |------------------|-------------------------------------------------------------------------------------------------|------------------------------------|-----------------------------------|
-| Chupilista       | Vocabulario exhaustivo de tags y modificadores.                                                 | `.agents/maps/chupilista.md`       | `chupilista/NN_*.md`              |
-| Composición      | Índice maestro de los archivos de composición, saber de oficio y técnica de Paul.               | `.agents/maps/composicion.md`      | `composicion/<archivo>.md`        |
-| Efectos          | Post-producción, espacio estéreo, DSP, texturas, transiciones y SFX.                            | `.agents/maps/efectos.md`          | `composicion/efectos.md`          |
-| Exclude Box      | Prompting inverso y control de artefactos, qué bloquear en el exclude_box.                      | `.agents/maps/exclude_box.md`      | `composicion/exclude_box.md`      |
-| Fonetizar        | Instrucciones fonéticas para pronunciación, acento, edad, estado o forma de hablar.             | `.agents/maps/fonetizar.md`        | `fonetizar/<archivo>.md`          |
-| Formato          | Formato final de entrega, bloques copiables, obra completa y entrega flexible.                  | `.agents/maps/formato.md`          | `composicion/formato.md`          |
-| Jerga            | Guías de jerga para idiomas y dialectos, Permiten inyectar jerga específica en la letra.        | `.agents/maps/jerga.md`            | `jerga/<archivo>.md`              |
-| Letra            | Escritura técnica y tipografía, narrativa, control fonético y aritmética métrica.               | `.agents/maps/letra.md`            | `composicion/letra.md`            |
-| Lyrics Box       | Control por corchetes, dirección de banda, estructura y hacks temporales.                       | `.agents/maps/lyrics_box.md`       | `composicion/lyrics_box.md`       |
-| Plantillas       | Índice maestro de plantillas para la creación de archivos, y estilo.                            | `.agents/maps/plantillas.md`       | `chuletas/<plantilla>.md`         |
-| Style_box        | Construcción del style_box con Etiquetas.                                                       | `.agents/maps/style_box.md`        | `composicion/style_box.md`        |
-| Técnicas vocales | Puntuación en la letra y dirección vocal, persona Stacking, roles, duetos y armonías multicapa. | `.agents/maps/tecnicas_vocales.md` | `composicion/tecnicas_vocales.md` |
+| Chupilista       | Vocabulario exhaustivo de tags y modificadores.                                                 | `.claude/maps/chupilista.md`       | `chupilista/NN_*.md`              |
+| Composición      | Índice maestro de los archivos de composición, saber de oficio y técnica de Paul.               | `.claude/maps/composicion.md`      | `composicion/<archivo>.md`        |
+| Efectos          | Post-producción, espacio estéreo, DSP, texturas, transiciones y SFX.                            | `.claude/maps/efectos.md`          | `composicion/efectos.md`          |
+| Exclude Box      | Prompting inverso y control de artefactos, qué bloquear en el exclude_box.                      | `.claude/maps/exclude_box.md`      | `composicion/exclude_box.md`      |
+| Fonetizar        | Instrucciones fonéticas para pronunciación, acento, edad, estado o forma de hablar.             | `.claude/maps/fonetizar.md`        | `fonetizar/<archivo>.md`          |
+| Formato          | Formato final de entrega, bloques copiables, obra completa y entrega flexible.                  | `.claude/maps/formato.md`          | `composicion/formato.md`          |
+| Jerga            | Guías de jerga para idiomas y dialectos, Permiten inyectar jerga específica en la letra.        | `.claude/maps/jerga.md`            | `jerga/<archivo>.md`              |
+| Letra            | Escritura técnica y tipografía, narrativa, control fonético y aritmética métrica.               | `.claude/maps/letra.md`            | `composicion/letra.md`            |
+| Lyrics Box       | Control por corchetes, dirección de banda, estructura y hacks temporales.                       | `.claude/maps/lyrics_box.md`       | `composicion/lyrics_box.md`       |
+| Plantillas       | Índice maestro de plantillas para la creación de archivos, y estilo.                            | `.claude/maps/plantillas.md`       | `chuletas/<plantilla>.md`         |
+| Style_box        | Construcción del style_box con Etiquetas.                                                       | `.claude/maps/style_box.md`        | `composicion/style_box.md`        |
+| Técnicas vocales | Puntuación en la letra y dirección vocal, persona Stacking, roles, duetos y armonías multicapa. | `.claude/maps/tecnicas_vocales.md` | `composicion/tecnicas_vocales.md` |
 | Proyectos        | Listado de proyectos con la ruta al archivo.                                                    | `PROYECTOS.md`                     | `proyectos/<slug>/<slug>.md`      |
 
 ---

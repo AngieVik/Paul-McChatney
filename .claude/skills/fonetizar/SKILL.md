@@ -27,7 +27,7 @@ description: Reescribe el texto cantable para que se cante con un acento o idiom
 ## Fuentes de Consulta
 
 - *No abras guías a ciegas: entra por el mapa, que decide qué archivo abrir.*
-    - **Mapa:** `.agents/maps/fonetizar.md`
+    - **Mapa:** `.claude/maps/fonetizar.md`
     - **Biblioteca:** `fonetizar/` (abre solo la guía del acento/idioma objetivo, un archivo).
 
 ---
@@ -41,7 +41,7 @@ description: Reescribe el texto cantable para que se cante con un acento o idiom
 
 ## Flujo de Ejecución
 
-- **Resolver guía:** identifica el acento/idioma y localiza su guía vía `.agents/maps/fonetizar.md`; abre solo ese archivo.
+- **Resolver guía:** identifica el acento/idioma y localiza su guía vía `.claude/maps/fonetizar.md`; abre solo ese archivo.
 - **Aplicar transformaciones:** aplica las reglas de esa guía al texto objetivo.
 - **Entregar:** devuelve el texto fonetizado (`composicion/formato.md §2`); nunca toca el `style_box`.
 

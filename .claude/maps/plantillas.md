@@ -10,7 +10,7 @@ description: Índice maestro de plantillas para la creación de archivos, y esti
     - **Abre:**
         - chuletas/<archivo>.md` bajo *demanda* o cuando la *tarea* lo requiera.
     - **Consulta:**
-        - Por búsqueda *grep.*
+        - Búsqueda por *Grep*.
         - Salto por *Índice.*
 
 ---

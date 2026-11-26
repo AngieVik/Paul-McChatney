@@ -7,7 +7,7 @@ description: Colección exhaustiva de tags negativas para evitar estilos musical
 # 15_negative_prompts_and_exclude_styles
 
 - *Consulta: 
-    - Por búsqueda *-Grep.*
+    - Por búsqueda *-Grep*.
     - Saltando a una *sección.*
        
 

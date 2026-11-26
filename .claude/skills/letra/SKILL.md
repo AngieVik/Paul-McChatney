@@ -19,11 +19,11 @@ description: "Redacta la letra limpia sin tags: narrativa, cadencia y anclaje re
 ## Fuentes de Consulta
 
 - *Antes de escribir o revisar, consulta el mapa y abre el archivo técnico obligatorio.*
-    - **Mapa:** `.agents/maps/letra.md`
+    - **Mapa:** `.claude/maps/letra.md`
     - **Archivo técnico:** `composicion/letra.md` (§1 narrativa, §2 tipografía como partitura, §3 métrica)
 - *Para anclaje regional y acento cantado, delega en las skills correspondientes, antes o después de escribir la letra.*
-    - **Jerga / modismos locales:** `jerga` → `.agents/maps/jerga.md`
-    - **Fonética / acento:** `fonetizar` → `.agents/maps/fonetizar.md`
+    - **Jerga / modismos locales:** `jerga` → `.claude/maps/jerga.md`
+    - **Fonética / acento:** `fonetizar` → `.claude/maps/fonetizar.md`
 
 ---
 

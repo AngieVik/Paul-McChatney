@@ -7,7 +7,7 @@ description: Una base de datos exhaustiva sobre teoría musical, abarcando desde
 # 07_music_theory_harmony_and_scales
 
 - *Consulta: 
-    - Por búsqueda *-Grep.*
+    - Por búsqueda *-Grep*.
     - Saltando a una *sección.*
        
 

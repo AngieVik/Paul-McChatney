@@ -7,7 +7,7 @@ description: Vocabulario de géneros y subgéneros.
 # 01_core_genres_and_subgenres
 
 - *Consulta: 
-    - Por búsqueda *-Grep.*
+    - Por búsqueda *-Grep*.
     - Saltando a una *sección.*
        
 

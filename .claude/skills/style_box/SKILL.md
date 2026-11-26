@@ -24,10 +24,10 @@ description: Orquestadora del style_box. Coordina fusionar y buscar_tag para com
 ## Fuentes de Consulta
 
 - *Antes de construir o revisar, consulta el mapa y abre el archivo técnico obligatorio.*
-    - **Mapa:** `.agents/maps/style_box.md`
+    - **Mapa:** `.claude/maps/style_box.md`
     - **Archivo técnico:** `composicion/style_box.md`
 - *Cuando necesites canon de `chupilista`, invoca `buscar_tag`.*
-    - Mapa canónico: `.agents/maps/chupilista.md`
+    - Mapa canónico: `.claude/maps/chupilista.md`
     - Biblioteca: `chupilista/`
 
 ---
@@ -45,7 +45,7 @@ description: Orquestadora del style_box. Coordina fusionar y buscar_tag para com
 ## Flujo de Ejecución
 
 - **Resolver modo:** si viene de `produccion`, parte del dictamen de `fusionar`; si se activa sola y falta arquitectura sonora, pide un dictamen a `fusionar` antes de compilar.
-- **Abrir referencias:** consulta `.agents/maps/style_box.md` y abre `composicion/style_box.md`.
+- **Abrir referencias:** consulta `.claude/maps/style_box.md` y abre `composicion/style_box.md`.
 - **Extraer canon:** usa `buscar_tag` para localizar `tags` existentes en `chupilista`; el canon es ancla fiable, no veto creativo.
 - **Compilar `style_box`:** aplica las reglas de `composicion/style_box.md` (orden jerárquico, límite de tags, anclajes y colisiones), integra canon y creaciones controladas, y elimina redundancias. Compila la arquitectura de `fusionar`, no la rediseña.
 - **Entregar y parar:** presenta el `style_box` limpio con el formato de `composicion/style_box.md` y espera la revisión del usuario antes de avanzar.

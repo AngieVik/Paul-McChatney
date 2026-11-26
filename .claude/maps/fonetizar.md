@@ -10,7 +10,7 @@ description: guia de instrucciones fonéticas para escribir con una pronunciaci�
     - **Abre:**
         - `fonetizar/<archivo>.md` bajo *demanda* o cuando la *tarea* lo requiera.
     - **Consulta:**
-        - Por búsqueda *grep.*
+        - Búsqueda por *Grep*.
         - Salto por *Índice.*
 
 ---
