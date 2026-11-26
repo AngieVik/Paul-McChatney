@@ -51,13 +51,13 @@ Cabecera + separador siempre. Solo para datos cortos y comparables; contenido la
 
 ## Rutas y carga
 
-Relativas con `/`, aunque el sistema sea Windows (`composicion/letra.md`, no `composicion\letra.md`). Política completa de carga: `.claude/AGENTS.md` (fuente canónica) — aquí solo la sintaxis de rutas.
+Relativas con `/`, aunque el sistema sea Windows (`composicion/letra.md`, no `composicion\letra.md`). Política completa de carga: `AGENTS.md` (fuente canónica) — aquí solo la sintaxis de rutas.
 
-| Forma                         | Uso                                                                   |
-|-------------------------------|-----------------------------------------------------------------------|
-| `@ruta`                       | Sintaxis de carga automatica (comportamiento en `.claude/AGENTS.md`). |
-| `ruta`                        | Sintaxis de lectura bajo demanda.                                     |
-| `<a href="texto">`texto`</a>` | Etiqueta `<a>` para navegación (no es sintaxis Markdown).             |
+| Forma                         | Uso                                                           |
+|-------------------------------|---------------------------------------------------------------|
+| `@ruta`                       | Sintaxis de carga automatica (comportamiento en `AGENTS.md`). |
+| `ruta`                        | Sintaxis de lectura bajo demanda.                             |
+| `<a href="texto">`texto`</a>` | Etiqueta `<a>` para navegación (no es sintaxis Markdown).     |
 
 ---
 

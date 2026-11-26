@@ -16,16 +16,16 @@ description: "Convierte aprendizajes detectados durante el trabajo en conocimien
 
 ## Activación
 
-- **Cuándo:** la política de activación y su relación con `aprobar`/`cerrar` es canónica en `.agents/skills/proyecto/SKILL.md` (§6-7); no se repite aquí. En corto: puede activarse en cualquier momento (no requiere que la obra esté terminada) y `aprobar` solo la sugiere, nunca la ejecuta.
+- **Cuándo:** la política de activación y su relación con `aprobar`/`cerrar` es canónica en `.claude/skills/proyecto/SKILL.md` (§6-7); no se repite aquí. En corto: puede activarse en cualquier momento (no requiere que la obra esté terminada) y `aprobar` solo la sugiere, nunca la ejecuta.
 - **Al aceptarla tras `aprobar`:** analiza la obra y propone aprendizajes reales solo si existen.
-- **Condición para escribir:** ningún aprendizaje se archiva en `.agents/MEMORY.md` o `composicion/` sin aprobación explícita del usuario.
+- **Condición para escribir:** ningún aprendizaje se archiva en `MEMORY.md` o `composicion/` sin aprobación explícita del usuario.
 
 ---
 
 ## Fuentes de Consulta
 
 - *Para decidir dónde vive cada aprendizaje, consulta los mapas antes de tocar archivos.*
-    - **Principios transversales:** `.agents/MEMORY.md`.
+    - **Principios transversales:** `MEMORY.md`.
     - **Técnica o tag concreto:** su archivo en `composicion/`, localizado por el mapa correspondiente en `.claude/maps/` (índice `.claude/maps/composicion.md`).
     - **Corazonadas `⚗️`:** viven marcadas dentro de los archivos de `composicion/`; la retrospectiva las asciende, degrada o elimina.
 
@@ -37,7 +37,7 @@ description: "Convierte aprendizajes detectados durante el trabajo en conocimien
 2. **Distinguir fuente y aprendizaje:** la fuente puede ser un prompt, una instrucción del usuario, una prueba, una salida de Suno, una corrección o una decisión durante `produccion`. La fuente no es conocimiento por sí sola.
 3. **Validar utilidad:** conserva solo aprendizajes reutilizables; descarta ocurrencias aisladas, gustos pasajeros o resultados no comprobados.
 4. **Clasificar el destino:**
-    - **Principio transversal** (aplica a cualquier obra) → candidato a `.agents/MEMORY.md`.
+    - **Principio transversal** (aplica a cualquier obra) → candidato a `MEMORY.md`.
     - **Técnica o tag concreto** (pertenece a una caja) → candidato a su `composicion/<archivo>.md`, entrando por su mapa en `.claude/maps/`.
     - **Corazonada `⚗️`** puesta a prueba en la obra → **ascender** (quitar la marca `⚗️` si se confirmó), **degradar** (mantener marca y matizar) o **eliminar** (si se refutó).
 5. **Formular en positivo/accionable:** redacta el aprendizaje como instrucción útil, nunca como anécdota ni reproche.
@@ -59,8 +59,8 @@ description: "Convierte aprendizajes detectados durante el trabajo en conocimien
 
 ## Relación con otras skills
 
-- *La política de cuándo puede activarse y su relación con `aprobar`/`cerrar` vive en `.agents/skills/proyecto/SKILL.md` (§6-7); no se repite aquí.*
-- Escribe en `.agents/MEMORY.md` (principios) y en los `composicion/*.md` (técnicas), enrutando por sus mapas `.claude/maps/`.
+- *La política de cuándo puede activarse y su relación con `aprobar`/`cerrar` vive en `.claude/skills/proyecto/SKILL.md` (§6-7); no se repite aquí.*
+- Escribe en `MEMORY.md` (principios) y en los `composicion/*.md` (técnicas), enrutando por sus mapas `.claude/maps/`.
 
 ---
 
@@ -75,7 +75,7 @@ description: "Convierte aprendizajes detectados durante el trabajo en conocimien
 **Salida:**
 
 ```text
-Principio transversal → La narrativa manda: antes de tocar un tag, entiende qué historia cuenta la canción y para quién. (→ .agents/MEMORY.md)
+Principio transversal → La narrativa manda: antes de tocar un tag, entiende qué historia cuenta la canción y para quién. (→ MEMORY.md)
 Corazonada confirmada → el "3D Room Dynamics" de efectos §1.5 funcionó: propongo ascenderlo (quitar ⚗️). (→ composicion/efectos.md)
 ¿`Añadir`, `Modificar`, `Eliminar` o `No hacer nada`?
 ```

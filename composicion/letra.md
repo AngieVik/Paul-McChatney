@@ -10,7 +10,7 @@ description: Escritura técnica y tipografía como partitura física. narrativa,
 
 ## Referencias
 
-- **Skill consumidora:** `.agents/skills/letra/SKILL.md`
+- **Skill consumidora:** `.claude/skills/letra/SKILL.md`
 - **Mapa propio:** `.claude/maps/letra.md`
 - **Anclaje regional (jerga):** `jerga` → `.claude/maps/jerga.md`
 - **Fonética / acento cantado:** `fonetizar` → `.claude/maps/fonetizar.md`
@@ -20,27 +20,27 @@ description: Escritura técnica y tipografía como partitura física. narrativa,
 ## Índice
 
 1. letra
-2. Referencias
-3. Índice
-4. Narrativa
-    1. Métrica y lirismo libre
-    2. \`Rigidez estructural
-    3. Anclaje regional mediante jerga
-5. letra
-    1. Cadencia y sustain
-    2. Control fonético
-    3. Fuerza emocional y acentuación (MAYÚSCULAS)
-    4. La puntuación dicta el fraseo físico
-6. Narrativa\_letra\_metrica
-    1. Conteo de sílabas: regla del acento final
-    2. Licencias métricas
-    3. Análisis práctico: Mario Benedetti
-    4. Tipos de versos según longitud
-        1. Arte menor (2 a 8 sílabas)
-        2. Arte mayor (9 a 14 sílabas)
-    5. El ritmo y la rima
-        1. Rima consonante
-        2. Rima asonante
+    1. Referencias
+    2. Índice
+    3. Narrativa
+        1. Métrica y lirismo libre
+        2. \`Rigidez estructural
+        3. Anclaje regional mediante jerga
+    4. letra
+        1. Cadencia y sustain
+        2. Control fonético
+        3. Fuerza emocional y acentuación (MAYÚSCULAS)
+        4. La puntuación dicta el fraseo físico
+    5. Narrativa\_letra\_metrica
+        1. Conteo de sílabas: regla del acento final
+        2. Licencias métricas
+        3. Análisis práctico: Mario Benedetti
+        4. Tipos de versos según longitud
+            1. Arte menor (2 a 8 sílabas)
+            2. Arte mayor (9 a 14 sílabas)
+        5. El ritmo y la rima
+            1. Rima consonante
+            2. Rima asonante
 
 ---
 

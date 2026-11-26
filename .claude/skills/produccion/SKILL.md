@@ -66,7 +66,7 @@ Ejerce como el Director de Orquesta (Orquestador Central) del Modo `produccion`.
 
 ## Cierre y Ciclo de Vida
 
-- *Fuente canónica de `aprobar` · `cerrar` · `retrospectiva`: `.agents/skills/proyecto/SKILL.md` (§6-7). Aquí solo lo mínimo para operar el pipeline; no se repite la política.*
+- *Fuente canónica de `aprobar` · `cerrar` · `retrospectiva`: `.claude/skills/proyecto/SKILL.md` (§6-7). Aquí solo lo mínimo para operar el pipeline; no se repite la política.*
 - La gestión de estados (guardar copias, pausar o cerrar la sesión) se delega a los comandos de la skill `proyecto`.
 - La obra permanece abierta e iterable (entre fases o dentro de Fase 5) hasta que el usuario emita `aprobar`; ninguna entrega intermedia la cierra.
 - Al `aprobar`, transfiere el control a `proyecto`; la retrospectiva de cierre solo se sugiere, nunca se ejecuta automáticamente.

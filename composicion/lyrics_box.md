@@ -10,7 +10,7 @@ description: Control semántico, mapeo operativo del lyrics_box, gramática téc
 
 ## Referencias
 
-- **Skill consumidora:** `.agents/skills/lyrics_box/SKILL.md`
+- **Skill consumidora:** `.claude/skills/lyrics_box/SKILL.md`
 - **Mapa propio:** `.claude/maps/lyrics_box.md`
 - **Boceto de partida:** `letra` → `.claude/maps/letra.md` → `composicion/letra.md`
 - **Dirección vocal por línea:** `.claude/maps/tecnicas_vocales.md` → `composicion/tecnicas_vocales.md`

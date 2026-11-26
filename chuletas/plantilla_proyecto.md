@@ -82,7 +82,7 @@ Generated at <YYYY-MM-DD>
 
 ## Cómo referenciar archivos del proyecto
 
-- **Política de carga completa:** ver `.claude/AGENTS.md` (fuente canónica) — no se repite aquí. Esta sección cubre solo la sintaxis de rutas dentro de un proyecto.
+- **Política de carga completa:** ver `AGENTS.md` (fuente canónica) — no se repite aquí. Esta sección cubre solo la sintaxis de rutas dentro de un proyecto.
 - **Ruta para herramientas** (la que abre el agente con la herramienta de lectura): relativa a la raíz del repositorio, sin `@`, con `/` aunque el sistema sea Windows. Ej.: `composicion/letra.md`.
 - **Enlace navegable** (para que un humano haga clic desde este documento): etiqueta `<a href="<ruta_relativa>">`, con la ruta relativa al propio archivo que contiene el enlace — no a la raíz. (dos niveles arriba, típico desde `proyectos/<slug>/<slug>.md`).
 

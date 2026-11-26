@@ -10,7 +10,7 @@ description: Puntuación en la letra, etiquetas de dirección vocal, arquitectur
 
 ## Referencias
 
-- **Skill consumidora:** `lyrics_box` → `.agents/skills/lyrics_box/SKILL.md`
+- **Skill consumidora:** `lyrics_box` → `.claude/skills/lyrics_box/SKILL.md`
 - **Mapa propio:** `.claude/maps/tecnicas_vocales.md`
 - **Caja donde se aplica:** `.claude/maps/lyrics_box.md` → `composicion/lyrics_box.md`
 - **Refuerzo negativo (rango/tesitura):** `.claude/maps/exclude_box.md` → `composicion/exclude_box.md`

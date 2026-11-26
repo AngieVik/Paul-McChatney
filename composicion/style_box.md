@@ -12,7 +12,7 @@ description: Construye el style_box de una obra, define el núcleo estilístico 
 
 ## Referencias
 
-- **Skill consumidora:** `.agents/skills/style_box/SKILL.md`
+- **Skill consumidora:** `.claude/skills/style_box/SKILL.md`
 - **Mapa propio:** `.claude/maps/style_box.md`
 - **Canon de tags:** `buscar_tag` → `.claude/maps/chupilista.md` → `chupilista/`
 - **Diseño conceptual previo:** `fusionar`

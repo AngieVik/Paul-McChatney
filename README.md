@@ -18,7 +18,7 @@ description: Mapa general del proyecto Paul McChatney.
 Índice → archivo concreto → respuesta
 ```
 
-- *La política de carga completa y canónica vive en `.claude/AGENTS.md`; este README solo la resume.*
+- *La política de carga completa y canónica vive en `AGENTS.md`; este README solo la resume.*
 
 ---
 
@@ -28,7 +28,7 @@ description: Mapa general del proyecto Paul McChatney.
 |-------------------|--------------------------------------------------|
 | `.claude/`        | Contexto, memoria, reglas y skills.              |
 | `.claude/maps/`   | Índices → qué archivo abrir.                     |
-| `.agents/skills/` | Habilidades invocables.                          |
+| `.claude/skills/` | Habilidades invocables.                          |
 | `system_prompt/`  | Identidad y comportamiento de Paul.              |
 | `chuletas/`       | Plantillas y guías base.                         |
 | `chupilista/`     | Tags: géneros, efectos, estructuras, negativos.  |
@@ -38,14 +38,14 @@ description: Mapa general del proyecto Paul McChatney.
 | `proyectos/`      | Obras terminadas, una carpeta por obra.          |
 | `PROYECTOS.md`    | Catálogo de obras aprobadas.                     |
 
-- *Carpetas con guion bajo (`_docs`, `_hojas_sucias`, `_produccion`, `_prompts_antiguos`, `_temp`) son locales y no se cargan por defecto — ver `.claude/AGENTS.md`.*
+- *Carpetas con guion bajo (`_docs`, `_hojas_sucias`, `_produccion`, `_prompts_antiguos`, `_temp`) son locales y no se cargan por defecto — ver `AGENTS.md`.*
 
 ---
 
 ## 3 · Flujo básico
 
 1. Leer `system_prompt/system_prompt.md` y `.claude/MEMORY.md`.
-2. Consultar `.claude/AGENTS.md` y el índice correspondiente en `.claude/maps/`.
+2. Consultar `AGENTS.md` y el índice correspondiente en `.claude/maps/`.
 3. Abrir solo el archivo necesario y trabajar por fases con `produccion`.
 4. Guardar la obra aprobada en `proyectos/<slug>/<slug>.md` y registrarla en `PROYECTOS.md`.
 5. Ejecutar `retrospectiva` cuando surja un aprendizaje real que el usuario valide (en cualquier momento, no solo al final).
